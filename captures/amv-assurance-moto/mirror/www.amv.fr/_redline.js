@@ -1,31 +1,124 @@
 // Redline AMV (page assurance moto) : ancien contenu barré rouge, nouveau contenu vert.
-// Liste d'édits facile à compléter au fil des validations de Pierre.
+// Liste d'édits, facile à compléter au fil des validations de Pierre.
 (function () {
-  // Modes :
-  //  - 'clone' : clone l'élément d'origine (même taille/style), remplace le texte, surligne vert.
-  //              Option addParas: [textes] => paragraphes verts insérés ensuite.
-  //              { sel, match, mode:'clone', newText, addParas }
-  //  - 'block' : insère un bloc vert multi-lignes (FAQ, nouvelles sections).
-  //              { sel, match, mode:'block', badge, newHTML, inline }
   var EDITS = [
-    {
-      sel: 'h1',
-      match: 'Bienvenue chez le leader',
-      mode: 'clone',
-      newText: 'Assurance moto avec le leader du deux-roues'
-    },
-    {
-      sel: '.text-orange-normal',
-      match: '^Détails des formules$',
-      mode: 'clone',
+    // 1. H1
+    { mode: 'clone', sel: 'h1', match: 'Bienvenue chez le leader',
+      newText: 'Assurance moto avec le leader du deux-roues' },
+
+    // 2. Section formules : libellé + intro
+    { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$',
       newText: "Nos 4 formules d'assurance moto",
-      addParas: [
-        "AMV propose 4 formules d'assurance moto pour couvrir chaque motard selon son profil et son budget. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la couverture de votre casque, de vos gants et de votre gilet airbag en cas de sinistre. La cotisation varie selon le niveau de protection choisi."
-      ]
-    }
+      addParas: ["AMV propose 4 formules d'assurance moto pour couvrir chaque motard selon son profil et son budget. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la couverture de votre casque, de vos gants et de votre gilet airbag en cas de sinistre. La cotisation varie selon le niveau de protection choisi."] },
+
+    // 3. Formule 1 : ajout positionnement dans l'accordéon (rien retiré)
+    { mode: 'appendInside', blockMatch: 'Formule\\s*1\\s*Responsabilit',
+      content: [{ p: "Le choix le moins cher pour prendre la route en toute légalité. Cette formule est adaptée aux motos anciennes ou de faible valeur marchande, pour lesquelles une couverture étendue ne serait pas rentable." }] },
+
+    // 4. Section options : libellé + intro
+    { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des options$',
+      newText: 'Les options pour personnaliser votre contrat',
+      addParas: ["Chaque formule peut être complétée par des options à la carte pour renforcer votre protection selon votre pratique."] },
+
+    // 5. Option Individuelle pilote : barre l'intro existante, insère la nouvelle (vert), garde les montants
+    { mode: 'editInside', blockMatch: 'Individuelle pilote',
+      strikeMatch: ['Cette option est une garantie personnelle du conducteur'],
+      content: [{ p: "Couverture de vos propres blessures en cas d'accident, même responsable. Versement d'un capital en cas de décès ou d'invalidité permanente, prise en charge des frais médicaux et d'hospitalisation. Cette protection intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }] },
+
+    // 6. Bloc entièrement nouveau, inséré juste avant la FAQ
+    { mode: 'insertBlock', beforeMatch: 'Des questions sur votre assurance',
+      content: [
+        { h2: "Pourquoi choisir AMV pour assurer votre moto ?" },
+        { p: "AMV, leader de l'assurance moto scooter en France, assure plus d'1 million de motards depuis plus de 50 ans. Avec une note de satisfaction de 4,7/5 selon les avis vérifiés, AMV est recommandé par ses assurés. Que vous rouliez en sportive, en routière, en trail ou en scooter, AMV dispose d'un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement, et une sécurité renforcée par des garanties conçues par des spécialistes." },
+        { h3: "Plus de 50 ans d'expertise deux-roues" },
+        { p: "AMV a été fondé par des passionnés de moto, pour des motards. Des contrats qui couvrent les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'une chute, panne en pleine balade. À savoir : AMV connaît les spécificités de chaque type de véhicule et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. AMV assure aussi les professionnels du deux-roues : coursiers, livreurs et flottes d'entreprise." },
+        { h3: "Un accompagnement de motard à motard" },
+        { p: "Plus de 300 conseillers basés à Bordeaux, tous formés aux spécificités de l'assurance moto scooter. Conseils personnalisés par téléphone ou en ligne. En cas de sinistre, un interlocuteur dédié suit votre dossier. Gestion autonome de votre contrat moto depuis Mon Espace AMV, simple et sécurisée." },
+        { h2: "Comment obtenir votre devis assurance moto ?" },
+        { p: "Renseignez les informations sur votre moto (modèle, puissance, année) et votre profil (expérience, bonus-malus, zone géographique) pour recevoir votre tarif en quelques minutes. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre carte verte par mail. Aucun engagement, vous pouvez comparer plusieurs devis avant de vous décider. Que vous recherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers sont aussi disponibles par téléphone pour vous accompagner." }
+      ] },
+
+    // 7. FAQ : on ne touche QUE les questions remplacées (les autres restent intactes)
+    { mode: 'faqEdit', faqMatch: 'Des questions sur votre assurance',
+      replace: [
+        { existing: '^Quelle assurance moto choisir', content: [
+          { p: "Le choix dépend de la valeur de votre véhicule, de votre usage et de votre budget. Une formule Responsabilité civile suffit pour une moto ancienne ou de faible valeur. Pour une moto récente ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds proposés avant de vous décider." }
+        ] },
+        { existing: "prix d'une assurance moto", content: [
+          { p: "Le prix varie fortement d'un profil à l'autre. Il dépend de plusieurs critères :" },
+          { ul: ["le type de moto, sa cylindrée et sa puissance", "l'âge et l'expérience du conducteur", "la zone géographique et le lieu de stationnement", "le niveau de couverture choisi"] },
+          { p: "Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
+        ] },
+        { existing: 'Quels équipements sont couverts', content: [
+          { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros) en cas de sinistre. Avec l'Option plus, couverture étendue à l'ensemble de l'équipement vestimentaire et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros." }
+        ] },
+        { existing: 'Comment déclarer un sinistre moto', content: [
+          { p: "Déclaration directement depuis Mon Espace AMV sur amv.fr, 24h/24. Un gestionnaire dédié prend en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation." }
+        ] }
+      ],
+      add: [
+        { q: "Est-il obligatoire d'assurer une moto qui ne roule pas ?", content: [
+          { p: "Oui. Tout véhicule terrestre à moteur doit être assuré au minimum en responsabilité civile, même s'il est stationné dans un garage et ne circule pas. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros. Cette obligation légale s'applique à toutes les motos, scooters et autres deux-roues motorisés, quelle que soit leur puissance ou leur cylindrée." }
+        ] },
+        { q: "Quels documents faut-il pour assurer une moto ?", content: [
+          { p: "Pour souscrire une assurance moto :" },
+          { ul: ["votre permis de conduire", "la carte grise du véhicule", "un relevé d'informations de votre précédent assureur", "un justificatif de domicile (dans certains cas)"] },
+          { p: "Toutes les démarches se font en ligne, réponse immédiate." }
+        ] }
+      ] }
   ];
 
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+
+  function makePara(txt) {
+    var p = el('p', 'MsoNormal rl-mark'); p.textContent = txt;
+    p.style.fontSize = '1.05rem'; p.style.lineHeight = '1.6'; p.style.fontWeight = '400'; p.style.marginTop = '10px';
+    return p;
+  }
+  function makeUL(items) {
+    var ul = el('ul', 'rl-mark');
+    items.forEach(function (li) { ul.appendChild(el('li', null, li)); });
+    return ul;
+  }
+  function makeHeading(tag, txt) {
+    var ref = document.querySelector(tag);
+    var node = document.createElement(tag);
+    if (ref) node.className = ref.className;
+    node.classList.remove('opacity-0');
+    node.classList.add('rl-mark');
+    node.style.opacity = '1';
+    node.style.marginTop = '18px';
+    node.textContent = txt;
+    return node;
+  }
+  function makeQuestion(txt) {
+    var p = el('p', 'rl-mark');
+    p.textContent = txt;
+    p.style.fontWeight = '700'; p.style.fontSize = '1.1rem'; p.style.marginTop = '18px'; p.style.marginBottom = '4px';
+    return p;
+  }
+  function renderContent(items) {
+    var nodes = [];
+    items.forEach(function (it) {
+      if (it.h2) nodes.push(makeHeading('h2', it.h2));
+      else if (it.h3) nodes.push(makeHeading('h3', it.h3));
+      else if (it.p) nodes.push(makePara(it.p));
+      else if (it.ul) nodes.push(makeUL(it.ul));
+    });
+    return nodes;
+  }
+  function insertNodesBefore(nodes, ref, parent) {
+    var frag = document.createDocumentFragment();
+    nodes.forEach(function (n) { frag.appendChild(n); });
+    parent.insertBefore(frag, ref);
+  }
+
+  function findCollapse(blockMatch, attr) {
+    var re = new RegExp(blockMatch, 'i');
+    return [].slice.call(document.querySelectorAll('.collapse-block')).find(function (b) {
+      return re.test(b.textContent.replace(/\s+/g, ' ')) && !b.getAttribute(attr);
+    });
+  }
 
   function findTarget(edit) {
     var re = new RegExp(edit.match, 'i');
@@ -33,50 +126,99 @@
       return !n.getAttribute('data-rl') && re.test(n.textContent.trim());
     });
     if (!nodes.length) return null;
-    // choisit le plus spécifique (texte le plus court) = la feuille
     nodes.sort(function (a, b) { return a.textContent.trim().length - b.textContent.trim().length; });
     return nodes[0];
   }
 
   function applyEdit(edit) {
+    if (edit.mode === 'appendInside') {
+      var block = findCollapse(edit.blockMatch, 'data-rl-app');
+      if (!block) return false;
+      block.setAttribute('data-rl-app', '1');
+      var part = block.querySelector('.collapse-part') || block;
+      renderContent(edit.content).forEach(function (n) { part.appendChild(n); });
+      return true;
+    }
+
+    if (edit.mode === 'editInside') {
+      var blk = findCollapse(edit.blockMatch, 'data-rl-edit');
+      if (!blk) return false;
+      blk.setAttribute('data-rl-edit', '1');
+      var prt = blk.querySelector('.collapse-part') || blk;
+      var anchor = null;
+      (edit.strikeMatch || []).forEach(function (sm) {
+        var sre = new RegExp(sm, 'i');
+        var p = [].slice.call(prt.children).find(function (c) { return sre.test(c.textContent); });
+        if (p) { p.classList.add('rl-del'); anchor = p; }
+      });
+      var nodes = renderContent(edit.content);
+      insertNodesBefore(nodes, anchor ? anchor.nextSibling : prt.firstChild, prt);
+      return true;
+    }
+
+    if (edit.mode === 'faqEdit') {
+      var fre = new RegExp(edit.faqMatch, 'i');
+      var fh2 = [].slice.call(document.querySelectorAll('h2')).find(function (x) { return fre.test(x.textContent); });
+      if (!fh2) return false;
+      var section = fh2.closest('section') || fh2.parentElement;
+      if (section.getAttribute('data-rl-faq')) return true;
+      section.setAttribute('data-rl-faq', '1');
+      var blocks = [].slice.call(section.querySelectorAll('.collapse-block'));
+      function qText(b) { var s = b.querySelector('.flex.justify-between.items-center span'); return s ? s.textContent.trim() : b.textContent.trim(); }
+
+      // Remplace UNIQUEMENT la réponse des questions ciblées (le reste intact)
+      (edit.replace || []).forEach(function (item) {
+        var ere = new RegExp(item.existing, 'i');
+        var b = blocks.find(function (x) { return ere.test(qText(x)); });
+        if (!b) return;
+        var part = b.querySelector('.collapse-part');
+        if (!part) return;
+        part.classList.remove('hidden'); part.style.display = 'flex';
+        [].slice.call(part.children).forEach(function (c) { c.classList.add('rl-del'); });
+        renderContent(item.content).forEach(function (n) { part.appendChild(n); });
+      });
+
+      // Ajoute les nouvelles questions (vert) à la fin de la FAQ
+      if (edit.add && edit.add.length && blocks.length) {
+        var nodes = [];
+        edit.add.forEach(function (it) {
+          nodes.push(makeQuestion(it.q));
+          renderContent(it.content).forEach(function (n) { nodes.push(n); });
+        });
+        var lastB = blocks[blocks.length - 1];
+        insertNodesBefore(nodes, lastB.nextSibling, lastB.parentNode);
+      }
+      return true;
+    }
+
+    if (edit.mode === 'insertBlock') {
+      var re = new RegExp(edit.beforeMatch, 'i');
+      var h = [].slice.call(document.querySelectorAll('h2')).find(function (x) { return re.test(x.textContent) && !x.getAttribute('data-rl-ins'); });
+      if (!h) return false;
+      h.setAttribute('data-rl-ins', '1');
+      // insère avant le bloc-titre de la FAQ (pas à l'intérieur)
+      var wrapper = h.closest('.c-section-title') || h;
+      insertNodesBefore(renderContent(edit.content), wrapper, wrapper.parentNode);
+      return true;
+    }
+
+    // mode clone (titres / H1) + addParas
     var target = findTarget(edit);
     if (!target) return false;
     target.setAttribute('data-rl', '1');
     target.classList.add('rl-del');
-
-    if (edit.mode === 'block') {
-      var box = el('div', 'rl-add' + (edit.inline ? ' rl-inline' : ''));
-      if (edit.badge) box.appendChild(el('span', 'rl-badge', edit.badge));
-      box.insertAdjacentHTML('beforeend', edit.newHTML);
-      target.parentNode.insertBefore(box, target.nextSibling);
-      return true;
-    }
-
-    // mode clone : même balise/classes que l'original => même taille
     var clone = target.cloneNode(true);
-    clone.removeAttribute('data-rl');
-    clone.removeAttribute('id');
-    clone.classList.remove('rl-del');
-    clone.classList.remove('opacity-0');
-    clone.style.opacity = '1';
-    clone.classList.add('rl-mark');
+    clone.removeAttribute('data-rl'); clone.removeAttribute('id');
+    clone.classList.remove('rl-del'); clone.classList.remove('opacity-0');
+    clone.style.opacity = '1'; clone.classList.add('rl-mark');
     clone.textContent = edit.newText;
-
-    var ref = target.nextSibling;
-    target.parentNode.insertBefore(clone, ref);
-
-    // paragraphes additionnels (nouveau contenu)
+    target.parentNode.insertBefore(clone, target.nextSibling);
     if (edit.addParas && edit.addParas.length) {
-      var lastInserted = clone;
+      var last = clone;
       edit.addParas.forEach(function (txt) {
-        var p = el('p', 'rl-mark');
-        p.textContent = txt;
-        p.style.fontSize = '1.05rem';
-        p.style.lineHeight = '1.6';
-        p.style.fontWeight = '400';
-        p.style.marginTop = '10px';
-        lastInserted.parentNode.insertBefore(p, lastInserted.nextSibling);
-        lastInserted = p;
+        var p = makePara(txt);
+        last.parentNode.insertBefore(p, last.nextSibling);
+        last = p;
       });
     }
     return true;
