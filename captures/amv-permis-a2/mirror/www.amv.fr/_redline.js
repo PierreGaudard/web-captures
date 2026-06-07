@@ -11,7 +11,7 @@
         { h2: "Qu'est-ce que le permis moto A2 ?" },
         { p: "Le permis A2 est accessible dès 18 ans. Il autorise la conduite de motos dont la puissance ne dépasse pas 35 kW (soit 47,5 chevaux) et de trois-roues limités à 15 kW. Après deux ans de pratique et une formation complémentaire de 7 heures, vous pouvez obtenir le permis A, qui donne accès à toutes les motos sans restriction de puissance. Pour un jeune permis de moins de 25 ans, le permis A2 représente la première étape avant de prendre la route sur des véhicules plus puissants." },
         { h3: "Les conditions d'accès au permis A2" },
-        { p: "Pour obtenir le permis A2 : avoir au moins 18 ans, réussir l'examen du code de la route, puis passer deux épreuves pratiques (plateau et circulation). La formation en moto-école comprend un minimum de 20 heures de conduite, dont 8 heures en plateau et 12 heures en circulation. Le coût total varie entre 700 et 1 200 euros selon les régions." },
+        { p: "Pour obtenir le permis A2 : avoir au moins 18 ans, réussir l'examen du code de la route, puis passer deux épreuves pratiques (plateau et circulation). La formation en moto-école comprend un minimum de 20 heures de conduite, dont 8 heures en plateau et 12 heures en circulation. Le coût total varie selon les régions et les moto-écoles." },
         { h3: "Quelles motos peut-on conduire avec un permis A2 ?" },
         { p: "Le permis A2 autorise les motos dont la puissance ne dépasse pas 35 kW et dont le rapport puissance/poids reste inférieur à 0,2 kW par kilogramme. De nombreux modèles populaires sont compatibles :" },
         { ul: ["Yamaha MT-07", "Kawasaki Z650", "Honda CB500F", "KTM 390 Duke", "Suzuki SV 650"] },
@@ -22,9 +22,9 @@
         { h2: "Combien coûte une assurance moto avec un permis A2 ?" },
         { p: "Le prix d'une assurance moto A2 dépend du modèle de la moto, de la zone géographique, du niveau de couverture et de l'expérience du conducteur. Les jeunes conducteurs paient plus cher en raison de la surprime jeune conducteur. Le tarif peut varier du simple au triple selon les compagnies et les offres proposées. Pour un jeune motard, comparer les contrats est important : c'est le meilleur moyen de trouver la meilleure assurance moto A2 au tarif le moins cher." },
         { h3: "La surprime jeune conducteur" },
-        { p: "Tout conducteur débutant se voit appliquer une surprime. La première année, cette majoration est de 100 % : la cotisation de base est doublée. La deuxième année sans sinistre responsable, elle passe à 50 %, puis à 25 % la troisième année. À partir de la quatrième année sans sinistre, la surprime disparaît et le système de bonus-malus continue de diminuer votre cotisation." },
+        { p: "Tout conducteur débutant se voit appliquer une surprime. La première année, cette majoration peut atteindre 100 % : la cotisation de base est alors doublée. Elle est réduite de moitié après chaque année sans sinistre responsable, soit 50 % la deuxième année puis 25 % la troisième. Après trois ans sans sinistre, la surprime disparaît et le bonus-malus continue de diminuer votre cotisation." },
         { h3: "Quel est le prix moyen d'une assurance moto A2 ?" },
-        { p: "Pour un jeune conducteur de moins de 25 ans avec une moto A2 de moyenne cylindrée, comptez entre 400 et 900 euros par an pour une formule au tiers, et jusqu'à 1 200 euros ou plus en tous risques. Le prix assurance moto A2 diminue chaque année grâce au bonus-malus, à condition de ne pas déclarer de sinistre responsable." },
+        { p: "Le prix d'une assurance moto A2 dépend du profil du conducteur, du modèle de la moto et de la formule choisie. La formule au tiers reste la moins chère, la formule tous risques la plus protectrice. Le prix diminue chaque année grâce au bonus-malus, à condition de ne pas déclarer de sinistre responsable. Seul un devis personnalisé en ligne donne le tarif exact pour votre situation." },
         { h3: "Comment réduire le prix de votre assurance moto A2" },
         { p: "Plusieurs leviers permettent de diminuer votre cotisation en permis A2 :" },
         { ul: ["choisir une formule au tiers pour une première moto d'occasion de faible valeur", "privilégier un stationnement en garage fermé plutôt qu'en extérieur", "suivre un stage de conduite post-permis", "faire valoir votre bonus automobile si vous possédez déjà une voiture", "utiliser un comparateur en ligne pour trouver les meilleures offres"] },
@@ -42,7 +42,7 @@
         { h3: "Protection corporelle du conducteur" },
         { p: "Cette garantie couvre vos propres blessures en cas d'accident, même responsable : prise en charge des frais médicaux, indemnisation en cas d'invalidité, capital en cas de décès. Elle intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas : accident seul, accident responsable." },
         { h3: "Équipement et accessoires moto" },
-        { p: "Casque, gants, blouson, bottes : l'équipement d'un motard représente un budget de 500 à 1 500 euros. Cette garantie couvre le remplacement de vos équipements en cas de sinistre. Elle s'étend aux accessoires installés sur votre véhicule (top case, GPS, intercom)." },
+        { p: "Casque, gants, blouson, bottes : l'équipement d'un motard représente un budget conséquent. Cette garantie couvre le remplacement de vos équipements en cas de sinistre. Elle s'étend aux accessoires installés sur votre véhicule (top case, GPS, intercom)." },
         { h3: "Assistance 24h/24" },
         { p: "Le service d'assistance AMV intervient 24h/24 et 7j/7 en cas de panne, d'accident ou de vol :" },
         { ul: ["remorquage jusqu'au garage le plus proche", "véhicule de remplacement", "rapatriement à domicile"] },
@@ -72,7 +72,7 @@
     { mode: 'faqEdit', faqMatch: 'Questions fréquentes',
       replace: [
         { existing: "prix d'une assurance moto", content: [
-          { p: "Le prix assurance moto A2 varie selon le modèle de moto, la zone géographique et le niveau de couverture choisi. En permis A2, une surprime jeune conducteur s'applique les premières années : 100 % la première année, 50 % la deuxième, 25 % la troisième. Chez AMV, un devis assurance en ligne vous donne un tarif personnalisé en quelques minutes. Comparer les offres des différentes compagnies est le meilleur moyen de trouver le contrat le moins cher." }
+          { p: "Le prix assurance moto A2 varie selon le modèle de moto, la zone géographique et le niveau de couverture choisi. En permis A2, une surprime jeune conducteur s'applique les premières années : elle peut atteindre 100 % la première année, puis se réduit de moitié chaque année sans sinistre (50 %, puis 25 %) avant de disparaître. Chez AMV, un devis assurance en ligne vous donne un tarif personnalisé en quelques minutes." }
         ] },
         { existing: "Quelle formule", content: [
           { p: "Pour une moto neuve ou récente, la formule tous risques protège contre les dommages en cas d'accident responsable. Pour une moto d'occasion de faible valeur, une formule au tiers ou vol et incendie suffit : c'est la solution la moins chère pour un jeune motard. Le choix dépend de la valeur de votre véhicule, de votre budget et de votre usage quotidien." }
