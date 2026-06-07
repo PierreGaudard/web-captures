@@ -1,0 +1,11 @@
+{
+  "title": "Aperçus de contenu",
+  "subtitle": "Sélectionnez une page à consulter",
+  "pages": [
+    {
+      "title": "AMV - Assurance Moto",
+      "description": "Page assurance moto",
+      "url": "https://amv-assurance-moto.pages.dev/assurance/moto/"
+    }
+  ]
+}

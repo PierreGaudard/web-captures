@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Aperçus de contenu</title>
+<style>
+  :root{
+    --bg:#0f1115; --panel:#171a21; --panel2:#1e222b; --line:#2a2f3a;
+    --txt:#e8eaed; --muted:#9aa0ad; --accent:#3fae5a; --accent2:#f08a24;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--txt);display:flex;flex-direction:column;height:100vh;overflow:hidden}
+
+  header{display:flex;align-items:center;gap:14px;padding:0 18px;height:56px;background:var(--panel);border-bottom:1px solid var(--line);flex-shrink:0}
+  header .brand{font-weight:700;font-size:16px;letter-spacing:.2px}
+  header .brand span{color:var(--accent)}
+  header button{margin-left:auto;background:var(--panel2);color:var(--txt);border:1px solid var(--line);padding:8px 14px;border-radius:8px;font-size:13px;cursor:pointer;display:none;align-items:center;gap:7px;transition:.15s}
+  header button:hover{border-color:var(--accent);color:#fff}
+  header button.show{display:inline-flex}
+  header .crumb{color:var(--muted);font-size:13px}
+
+  /* Home */
+  .home{flex:1;overflow:auto;padding:48px 24px}
+  .home .inner{max-width:880px;margin:0 auto}
+  .home h1{font-size:26px;margin-bottom:6px}
+  .home p.sub{color:var(--muted);margin-bottom:32px}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;cursor:pointer;transition:.18s;text-align:left}
+  .card:hover{border-color:var(--accent);transform:translateY(-3px);box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  .card .t{font-weight:650;font-size:16px;margin-bottom:6px}
+  .card .d{color:var(--muted);font-size:13px;line-height:1.5}
+  .card .go{margin-top:14px;color:var(--accent);font-size:13px;font-weight:600}
+  .empty{color:var(--muted);font-size:14px;padding:40px;text-align:center;border:1px dashed var(--line);border-radius:14px}
+
+  /* Viewer */
+  .viewer{flex:1;display:none;background:#fff}
+  .viewer.show{display:block}
+  iframe{width:100%;height:100%;border:0;display:block;background:#fff}
+
+  footer{flex-shrink:0;padding:9px 18px;background:var(--panel);border-top:1px solid var(--line);color:var(--muted);font-size:11px;text-align:center}
+</style>
+</head>
+<body>
+  <header>
+    <div class="brand">Aperçus<span>.</span></div>
+    <div class="crumb" id="crumb"></div>
+    <button id="homeBtn">&larr; Accueil</button>
+  </header>
+
+  <section class="home" id="home">
+    <div class="inner">
+      <h1 id="title">Aperçus de contenu</h1>
+      <p class="sub" id="subtitle">Sélectionnez une page à consulter</p>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+
+  <section class="viewer" id="viewer">
+    <iframe id="frame" title="Aperçu"></iframe>
+  </section>
+
+  <footer>Aperçus de contenu — usage interne / partage client</footer>
+
+<script>
+(async function(){
+  const grid=document.getElementById('grid');
+  const home=document.getElementById('home');
+  const viewer=document.getElementById('viewer');
+  const frame=document.getElementById('frame');
+  const homeBtn=document.getElementById('homeBtn');
+  const crumb=document.getElementById('crumb');
+
+  let data={pages:[]};
+  try{ data=await (await fetch('pages.json?'+Date.now())).json(); }catch(e){}
+
+  document.getElementById('title').textContent=data.title||'Aperçus de contenu';
+  document.getElementById('subtitle').textContent=data.subtitle||'';
+  document.title=data.title||document.title;
+
+  function openPage(p){
+    frame.src=p.url;
+    crumb.textContent=p.title;
+    home.style.display='none';
+    viewer.classList.add('show');
+    homeBtn.classList.add('show');
+    location.hash='#'+encodeURIComponent(p.title);
+  }
+  function goHome(){
+    viewer.classList.remove('show');
+    homeBtn.classList.remove('show');
+    home.style.display='block';
+    crumb.textContent='';
+    frame.src='about:blank';
+    location.hash='';
+  }
+  homeBtn.addEventListener('click',goHome);
+
+  if(!data.pages||!data.pages.length){
+    grid.innerHTML='<div class="empty">Aucune page disponible pour le moment.</div>';
+    return;
+  }
+  data.pages.forEach(p=>{
+    const c=document.createElement('div');
+    c.className='card';
+    c.innerHTML='<div class="t"></div><div class="d"></div><div class="go">Ouvrir &rarr;</div>';
+    c.querySelector('.t').textContent=p.title;
+    c.querySelector('.d').textContent=p.description||'';
+    c.addEventListener('click',()=>openPage(p));
+    grid.appendChild(c);
+  });
+
+  // Ouverture directe via hash (lien profond)
+  if(location.hash){
+    const want=decodeURIComponent(location.hash.slice(1));
+    const p=data.pages.find(x=>x.title===want);
+    if(p) openPage(p);
+  }
+})();
+</script>
+</body>
+</html>
