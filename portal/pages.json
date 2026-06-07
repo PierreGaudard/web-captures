@@ -11,6 +11,16 @@
       "title": "AMV - Assurance Moto Permis A2",
       "description": "Page assurance moto permis A2",
       "url": "https://amv-permis-a2.pages.dev/assurance-moto/assurance-moto-permis-a2/"
+    },
+    {
+      "title": "AMV - Assurance Scooter",
+      "description": "Page assurance scooter",
+      "url": "https://amv-scooter.pages.dev/assurance/scooter/"
+    },
+    {
+      "title": "AMV - Assurance Quad",
+      "description": "Page assurance quad",
+      "url": "https://amv-quad.pages.dev/assurance/quad/"
     }
   ]
 }
