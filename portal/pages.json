@@ -6,6 +6,11 @@
       "title": "AMV - Assurance Moto",
       "description": "Page assurance moto",
       "url": "https://amv-assurance-moto.pages.dev/assurance/moto/"
+    },
+    {
+      "title": "AMV - Assurance Moto Permis A2",
+      "description": "Page assurance moto permis A2",
+      "url": "https://amv-permis-a2.pages.dev/assurance-moto/assurance-moto-permis-a2/"
     }
   ]
 }
