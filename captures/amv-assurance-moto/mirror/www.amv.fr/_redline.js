@@ -70,32 +70,57 @@
 
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
 
+  // Clone un élément de référence pour hériter de sa typo, puis remplace le texte.
+  function cloneAs(ref, txt) {
+    var c = ref.cloneNode(true);
+    ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-collapse', 'data-lazy-load'].forEach(function (a) { c.removeAttribute(a); });
+    c.classList.remove('opacity-0', 'rl-del');
+    c.classList.add('rl-mark');
+    c.style.opacity = '1';
+    c.textContent = txt;
+    return c;
+  }
+  // Références de style, résolues sur la page réelle
+  function refHeading(tag) { return document.querySelector('section ' + tag) || document.querySelector(tag); }
+  function refPara() {
+    var cands = [].slice.call(document.querySelectorAll('.collapse-part p, .umb-rte p, section p'));
+    cands.sort(function (a, b) { return b.textContent.trim().length - a.textContent.trim().length; });
+    return cands[0] || null;
+  }
+  function refQuestion() { return document.querySelector('.collapse-block .flex.justify-between.items-center span'); }
+  function refLI() { return document.querySelector('.collapse-part li, .umb-rte li, section li'); }
+
   function makePara(txt) {
-    var p = el('p', 'MsoNormal rl-mark'); p.textContent = txt;
-    p.style.fontSize = '1.05rem'; p.style.lineHeight = '1.6'; p.style.fontWeight = '400'; p.style.marginTop = '10px';
+    var r = refPara();
+    var p = r ? cloneAs(r, txt) : el('p', 'rl-mark', null);
+    if (!r) { p.textContent = txt; }
+    p.style.marginTop = '10px';
     return p;
   }
   function makeUL(items) {
+    var rli = refLI();
     var ul = el('ul', 'rl-mark');
-    items.forEach(function (li) { ul.appendChild(el('li', null, li)); });
+    ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px';
+    items.forEach(function (txt) {
+      var li = rli ? cloneAs(rli, txt) : el('li', null, txt);
+      li.style.display = 'list-item';
+      ul.appendChild(li);
+    });
     return ul;
   }
   function makeHeading(tag, txt) {
-    var ref = document.querySelector(tag);
-    var node = document.createElement(tag);
-    if (ref) node.className = ref.className;
-    node.classList.remove('opacity-0');
-    node.classList.add('rl-mark');
-    node.style.opacity = '1';
-    node.style.marginTop = '18px';
-    node.textContent = txt;
+    var r = refHeading(tag);
+    var node = r ? cloneAs(r, txt) : el(tag, 'rl-mark', txt);
+    node.style.marginTop = '20px';
     return node;
   }
   function makeQuestion(txt) {
-    var p = el('p', 'rl-mark');
-    p.textContent = txt;
-    p.style.fontWeight = '700'; p.style.fontSize = '1.1rem'; p.style.marginTop = '18px'; p.style.marginBottom = '4px';
-    return p;
+    var r = refQuestion();
+    var node = r ? cloneAs(r, txt) : el('p', 'rl-mark', txt);
+    node.style.display = 'block';
+    node.style.marginTop = '18px';
+    node.style.marginBottom = '4px';
+    return node;
   }
   function renderContent(items) {
     var nodes = [];
