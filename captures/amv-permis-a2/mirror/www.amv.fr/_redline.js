@@ -31,12 +31,11 @@
 
         { h2: "Nos formules d'assurance pour les permis A2" },
         { p: "AMV propose des formules adaptées aux détenteurs du permis A2. Chaque contrat assurance moto peut être complété par des options pour ajuster votre couverture selon votre budget et votre usage. Notre comparateur en ligne vous aide à trouver la meilleure formule en quelques clics." },
-        { h3: "Formule au tiers" },
-        { p: "L'assurance au tiers couvre la responsabilité civile obligatoire et la défense pénale. C'est le choix le plus fréquent pour un jeune conducteur avec une première moto d'occasion de faible valeur marchande. Son tarif est le moins cher de nos formules, ce qui répond au besoin des jeunes motards soucieux de leur budget." },
-        { h3: "Formule vol et incendie" },
-        { p: "En complément du tiers, cette formule ajoute la prise en charge en cas de vol, tentative de vol ou incendie. Si vous stationnez votre moto en extérieur ou en zone urbaine, cette couverture complémentaire est recommandée." },
-        { h3: "Formule tous risques" },
-        { p: "La formule tous risques couvre l'ensemble des dommages subis par votre moto, y compris en cas d'accident responsable. Elle est recommandée pour une moto neuve ou récente, ou un véhicule financé à crédit. Un conducteur novice, plus exposé aux risques de chute, bénéficie avec cette formule d'une indemnisation dans la grande majorité des situations." },
+        { accordion: { level: 'H3', items: [
+          { title: "Formule au tiers", content: [{ p: "L'assurance au tiers couvre la responsabilité civile obligatoire et la défense pénale. C'est le choix le plus fréquent pour un jeune conducteur avec une première moto d'occasion de faible valeur marchande. Son tarif est le moins cher de nos formules, ce qui répond au besoin des jeunes motards soucieux de leur budget." }] },
+          { title: "Formule vol et incendie", content: [{ p: "En complément du tiers, cette formule ajoute la prise en charge en cas de vol, tentative de vol ou incendie. Si vous stationnez votre moto en extérieur ou en zone urbaine, cette couverture complémentaire est recommandée." }] },
+          { title: "Formule tous risques", content: [{ p: "La formule tous risques couvre l'ensemble des dommages subis par votre moto, y compris en cas d'accident responsable. Elle est recommandée pour une moto neuve ou récente, ou un véhicule financé à crédit. Un conducteur novice, plus exposé aux risques de chute, bénéficie avec cette formule d'une indemnisation dans la grande majorité des situations." }] }
+        ] } },
 
         { h2: "Les garanties essentielles pour un jeune motard" },
         { p: "Les accidents de moto provoquent des blessures corporelles plus fréquentes et plus graves que les accidents auto. Certaines garanties méritent une attention particulière pour un conducteur novice en permis A2. Nos conseils pour bien vous protéger dès le départ." },
@@ -50,24 +49,17 @@
         { p: "Ce service couvre la France métropolitaine et la plupart des pays d'Europe." },
 
         { h2: "Le détail des garanties de votre assurance moto A2" },
-        { p: "Quelle que soit la formule choisie en permis A2, votre contrat AMV repose sur un socle de garanties précises. Voici le détail des montants et des prises en charge." },
-        { h3: "Responsabilité civile" },
-        { p: "La Compagnie vous garantit contre les conséquences pécuniaires de la responsabilité civile que vous pouvez encourir en raison des dommages matériels et corporels causés à autrui, y compris à votre passager. Dommages corporels illimités, dommages matériels limités à 100 000 000 € en cas d'accident et 1 300 000 € en cas d'incendie." },
-        { h3: "Assistance juridique" },
-        { p: "Défense pénale et recours suite à accident, à concurrence de 2 300 €. Protection juridique en cas de conflit relatif au véhicule assuré (achat, entretien, réparation, vente ou financement) et pour les conséquences d'une infraction aux règles de la circulation." },
-        { h3: "Casque, gants et gilet airbag" },
-        { p: "Remboursement, déduction faite de la vétusté, du casque à concurrence de 250 €, des gants à concurrence de 70 € et du gilet airbag à concurrence de 500 €, lorsqu'ils sont détériorés à la suite d'un événement couvert au titre des garanties Responsabilité civile, Dommages collision ou Dommages tous accidents." },
-        { h3: "Vol et incendie" },
-        { p: "Remboursement des dommages résultant d'un vol, d'un incendie ou d'une tentative de vol matérialisée par des traces d'effraction, à concurrence de la valeur de remplacement à dire d'expert au jour du sinistre, ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." },
-        { h3: "Dommages collision" },
-        { p: "Remboursement des dommages subis par votre moto lors d'une collision avec un tiers identifié, à concurrence de la valeur de remplacement à dire d'expert au jour du sinistre, ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." },
-        { h3: "Dommages tous accidents (Tous risques)" },
-        { p: "Remboursement des dommages subis par votre moto à la suite d'un accident, véhicule en mouvement ou à l'arrêt, avec ou sans collision, avec ou sans tiers identifié, à concurrence de la valeur de remplacement ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." },
-        { h3: "Individuelle pilote" },
-        { p: "Garantie personnelle du conducteur en cas d'accident corporel, même responsable. En cas de décès, indemnisation plafonnée à 5 000 € au titre des frais d'obsèques, 15 000 € pour le conjoint ou concubin et 5 000 € par enfant à charge dans la limite de 20 000 €. En cas d'invalidité permanente supérieure à 15 %, versement d'un capital proportionnel plafonné à 800 000 €. Frais médicaux, pharmaceutiques et d'hospitalisation pris en charge dans la limite de 1 000 €." },
-        { h3: "Assistance 0 km" },
-        { p: "Assistance sans franchise kilométrique, 24h/24 et 7j/7, en cas de panne, d'accident, de vol ou de tentative de vol, de crevaison, de perte ou de casse de clés, ou d'enlèvement par la fourrière. Dépannage, remorquage et rapatriement pris en charge pour vous, votre moto et votre passager, en France métropolitaine et dans la plupart des pays d'Europe." },
-        { p: "Valeur à neuf : prix d'achat d'un véhicule acquis neuf, pendant les 6 premiers mois, ou 18 mois au titre de l'Option plus, suivant la date d'achat. Sont exclus les véhicules en location longue durée, location avec option d'achat et crédit-bail." },
+        { p: "Quelle que soit la formule choisie en permis A2, votre contrat AMV repose sur un socle de garanties précises. Dépliez chaque garantie pour voir le détail des montants et des prises en charge." },
+        { accordion: { level: 'H3', items: [
+          { title: "Responsabilité civile", content: [{ p: "La Compagnie vous garantit contre les conséquences pécuniaires de la responsabilité civile que vous pouvez encourir en raison des dommages matériels et corporels causés à autrui, y compris à votre passager. Dommages corporels illimités, dommages matériels limités à 100 000 000 € en cas d'accident et 1 300 000 € en cas d'incendie." }] },
+          { title: "Assistance juridique", content: [{ p: "Défense pénale et recours suite à accident, à concurrence de 2 300 €. Protection juridique en cas de conflit relatif au véhicule assuré (achat, entretien, réparation, vente ou financement) et pour les conséquences d'une infraction aux règles de la circulation." }] },
+          { title: "Casque, gants et gilet airbag", content: [{ p: "Remboursement, déduction faite de la vétusté, du casque à concurrence de 250 €, des gants à concurrence de 70 € et du gilet airbag à concurrence de 500 €, lorsqu'ils sont détériorés à la suite d'un événement couvert au titre des garanties Responsabilité civile, Dommages collision ou Dommages tous accidents." }] },
+          { title: "Vol et incendie", content: [{ p: "Remboursement des dommages résultant d'un vol, d'un incendie ou d'une tentative de vol matérialisée par des traces d'effraction, à concurrence de la valeur de remplacement à dire d'expert au jour du sinistre, ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." }] },
+          { title: "Dommages collision", content: [{ p: "Remboursement des dommages subis par votre moto lors d'une collision avec un tiers identifié, à concurrence de la valeur de remplacement à dire d'expert au jour du sinistre, ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." }] },
+          { title: "Dommages tous accidents (Tous risques)", content: [{ p: "Remboursement des dommages subis par votre moto à la suite d'un accident, véhicule en mouvement ou à l'arrêt, avec ou sans collision, avec ou sans tiers identifié, à concurrence de la valeur de remplacement ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." }] },
+          { title: "Individuelle pilote", content: [{ p: "Garantie personnelle du conducteur en cas d'accident corporel, même responsable. En cas de décès, indemnisation plafonnée à 5 000 € au titre des frais d'obsèques, 15 000 € pour le conjoint ou concubin et 5 000 € par enfant à charge dans la limite de 20 000 €. En cas d'invalidité permanente supérieure à 15 %, versement d'un capital proportionnel plafonné à 800 000 €. Frais médicaux, pharmaceutiques et d'hospitalisation pris en charge dans la limite de 1 000 €." }] },
+          { title: "Assistance 0 km", content: [{ p: "Assistance sans franchise kilométrique, 24h/24 et 7j/7, en cas de panne, d'accident, de vol ou de tentative de vol, de crevaison, de perte ou de casse de clés, ou d'enlèvement par la fourrière. Dépannage, remorquage et rapatriement pris en charge pour vous, votre moto et votre passager, en France métropolitaine et dans la plupart des pays d'Europe." }, { p: "Valeur à neuf : prix d'achat d'un véhicule acquis neuf, pendant les 6 premiers mois, ou 18 mois au titre de l'Option plus, suivant la date d'achat." }] }
+        ] } },
 
         { h2: "Pourquoi choisir AMV pour votre assurance moto A2 ?" },
         { p: "AMV est spécialiste de l'assurance deux-roues depuis plus de 50 ans. Plus de 300 conseillers basés à Bordeaux, dédiés à l'assurance moto, accompagnent les motards débutants comme les plus expérimentés." },
@@ -115,7 +107,23 @@
   function makeUL(items) { var rli = refLI(); var ul = el('ul', 'rl-mark'); ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px'; items.forEach(function (t) { var li = rli ? cloneAs(rli, t) : el('li', null, t); li.style.display = 'list-item'; ul.appendChild(li); }); return ul; }
   function makeHeading(tag, txt) { var r = refHeading(tag); var node = r ? cloneAs(r, txt) : el(tag, 'rl-mark', txt); node.style.marginTop = '20px'; prependTag(node, tag.toUpperCase()); return node; }
   function makeQuestion(txt) { var r = refQuestion(); var node = r ? cloneAs(r, txt) : el('p', 'rl-mark', txt); node.style.display = 'block'; node.style.marginTop = '18px'; node.style.marginBottom = '4px'; prependTag(node, 'H3'); return node; }
-  function renderContent(items) { var n = []; items.forEach(function (it) { if (it.h2) n.push(makeHeading('h2', it.h2)); else if (it.h3) n.push(makeHeading('h3', it.h3)); else if (it.p) n.push(makePara(it.p)); else if (it.ul) n.push(makeUL(it.ul)); }); return n; }
+  function makeAccPara(txt) { var r = refPara(); var p; if (r) { p = r.cloneNode(true); ['id', 'data-rl', 'data-collapse', 'data-lazy-load'].forEach(function (a) { p.removeAttribute(a); }); p.classList.remove('opacity-0', 'rl-mark', 'rl-del'); p.style.opacity = '1'; p.textContent = txt; } else { p = el('p', null, txt); } return p; }
+  function makeAccUL(items) { var ul = el('ul'); items.forEach(function (t) { ul.appendChild(el('li', null, t)); }); return ul; }
+  function makeAccordion(spec) {
+    var box = el('div', 'rl-acc');
+    (spec.items || []).forEach(function (item) {
+      var it = el('div', 'rl-acc-item');
+      var head = el('div', 'rl-acc-head');
+      var title = el('span'); title.textContent = item.title; if (spec.level) prependTag(title, spec.level);
+      head.appendChild(title); head.appendChild(el('span', 'rl-chev', '&#9662;'));
+      var body = el('div', 'rl-acc-body');
+      (item.content || []).forEach(function (c) { if (c.p) body.appendChild(makeAccPara(c.p)); else if (c.ul) body.appendChild(makeAccUL(c.ul)); });
+      head.addEventListener('click', function () { it.classList.toggle('rl-open'); });
+      it.appendChild(head); it.appendChild(body); box.appendChild(it);
+    });
+    return box;
+  }
+  function renderContent(items) { var n = []; items.forEach(function (it) { if (it.h2) n.push(makeHeading('h2', it.h2)); else if (it.h3) n.push(makeHeading('h3', it.h3)); else if (it.p) n.push(makePara(it.p)); else if (it.ul) n.push(makeUL(it.ul)); else if (it.accordion) n.push(makeAccordion(it.accordion)); }); return n; }
   function insertNodesBefore(nodes, ref, parent) { var f = document.createDocumentFragment(); nodes.forEach(function (n) { f.appendChild(n); }); parent.insertBefore(f, ref); }
   function findTarget(edit) { var re = new RegExp(edit.match, 'i'); var n = [].slice.call(document.querySelectorAll(edit.sel)).filter(function (x) { return !x.getAttribute('data-rl') && re.test(x.textContent.trim()); }); if (!n.length) return null; n.sort(function (a, b) { return a.textContent.trim().length - b.textContent.trim().length; }); return n[0]; }
 

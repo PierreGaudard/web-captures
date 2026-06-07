@@ -122,3 +122,15 @@ body:not(.rl-on) #rl-legend { display: none; }
 #rl-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
 #rl-legend .sw-del { background: #ffe2e2; border: 1px solid #c0392b; }
 #rl-legend .sw-add { background: #e6f8ea; border: 1px solid #2ecc71; }
+
+/* Accordeons (nouveau contenu replie) */
+.rl-acc { margin: 12px 0; }
+.rl-acc-item { border: 1px solid #b9f0c6; border-radius: 10px; margin: 10px 0; overflow: hidden; background: #fff; }
+.rl-acc-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding: 14px 18px; cursor: pointer; font-weight: 700; color: #176a2c; background: #e6f8ea; user-select: none; }
+.rl-acc-head .rl-chev { flex: 0 0 auto; transition: transform .2s; color: #2ecc71; font-size: 0.9em; }
+.rl-acc-item.rl-open .rl-acc-head .rl-chev { transform: rotate(180deg); }
+.rl-acc-body { padding: 0 18px; max-height: 0; overflow: hidden; transition: max-height .25s ease; }
+.rl-acc-item.rl-open .rl-acc-body { max-height: 1500px; padding: 8px 18px 16px; }
+.rl-acc-body p { margin: 0 0 8px; }
+.rl-acc-body ul { margin: 4px 0 8px 18px; list-style: disc; }
+body:not(.rl-on) .rl-acc { display: none !important; }
