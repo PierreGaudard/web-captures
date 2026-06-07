@@ -25,15 +25,30 @@
       strikeMatch: ['Cette option est une garantie personnelle du conducteur'],
       content: [{ p: "Couverture de vos propres blessures en cas d'accident, même responsable. Versement d'un capital en cas de décès ou d'invalidité permanente, prise en charge des frais médicaux et d'hospitalisation. Cette protection intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }] },
 
-    // 6. Bloc entièrement nouveau, inséré juste avant la FAQ
-    { mode: 'insertBlock', beforeMatch: 'Des questions sur votre assurance',
+    // 6a. "Pourquoi choisir AMV" -> avant la section avis "AMV c'est 1 million d'assurés"
+    { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre moto ?" },
-        { p: "AMV, leader de l'assurance moto scooter en France, assure plus d'1 million de motards depuis plus de 50 ans. Avec une note de satisfaction de 4,7/5 selon les avis vérifiés, AMV est recommandé par ses assurés. Que vous rouliez en sportive, en routière, en trail ou en scooter, AMV dispose d'un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement, et une sécurité renforcée par des garanties conçues par des spécialistes." },
+        { p: "AMV, leader de l'assurance moto scooter en France, assure plus d'1 million de motards depuis plus de 50 ans. Avec une note de satisfaction de 4,7/5 selon les avis vérifiés, AMV est recommandé par ses assurés. Que vous rouliez en sportive, en routière, en trail ou en scooter, AMV dispose d'un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement, et une sécurité renforcée par des garanties conçues par des spécialistes." }
+      ] },
+
+    // 6b. "Plus de 50 ans d'expertise" -> dans la section "AMV assure toutes les marques de moto"
+    { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de moto', position: 'after',
+      content: [
         { h3: "Plus de 50 ans d'expertise deux-roues" },
-        { p: "AMV a été fondé par des passionnés de moto, pour des motards. Des contrats qui couvrent les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'une chute, panne en pleine balade. À savoir : AMV connaît les spécificités de chaque type de véhicule et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. AMV assure aussi les professionnels du deux-roues : coursiers, livreurs et flottes d'entreprise." },
+        { p: "AMV a été fondé par des passionnés de moto, pour des motards. Des contrats qui couvrent les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'une chute, panne en pleine balade. À savoir : AMV connaît les spécificités de chaque type de véhicule et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. AMV assure aussi les professionnels du deux-roues : coursiers, livreurs et flottes d'entreprise." }
+      ] },
+
+    // 6c. "Un accompagnement de motard à motard" -> dans la section "Un contrat spécial moto pensé pour vous"
+    { mode: 'insertBlock', anchorMatch: 'Un contrat spécial moto pensé pour vous', position: 'after',
+      content: [
         { h3: "Un accompagnement de motard à motard" },
-        { p: "Plus de 300 conseillers basés à Bordeaux, tous formés aux spécificités de l'assurance moto scooter. Conseils personnalisés par téléphone ou en ligne. En cas de sinistre, un interlocuteur dédié suit votre dossier. Gestion autonome de votre contrat moto depuis Mon Espace AMV, simple et sécurisée." },
+        { p: "Plus de 300 conseillers basés à Bordeaux, tous formés aux spécificités de l'assurance moto scooter. Conseils personnalisés par téléphone ou en ligne. En cas de sinistre, un interlocuteur dédié suit votre dossier. Gestion autonome de votre contrat moto depuis Mon Espace AMV, simple et sécurisée." }
+      ] },
+
+    // 6d. "Comment obtenir votre devis" -> juste avant la FAQ
+    { mode: 'insertBlock', anchorMatch: 'Des questions sur votre assurance', position: 'before',
+      content: [
         { h2: "Comment obtenir votre devis assurance moto ?" },
         { p: "Renseignez les informations sur votre moto (modèle, puissance, année) et votre profil (expérience, bonus-malus, zone géographique) pour recevoir votre tarif en quelques minutes. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre carte verte par mail. Aucun engagement, vous pouvez comparer plusieurs devis avant de vous décider. Que vous recherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers sont aussi disponibles par téléphone pour vous accompagner." }
       ] },
@@ -217,13 +232,17 @@
     }
 
     if (edit.mode === 'insertBlock') {
-      var re = new RegExp(edit.beforeMatch, 'i');
+      var re = new RegExp(edit.anchorMatch, 'i');
       var h = [].slice.call(document.querySelectorAll('h2')).find(function (x) { return re.test(x.textContent) && !x.getAttribute('data-rl-ins'); });
       if (!h) return false;
       h.setAttribute('data-rl-ins', '1');
-      // insère avant le bloc-titre de la FAQ (pas à l'intérieur)
       var wrapper = h.closest('.c-section-title') || h;
-      insertNodesBefore(renderContent(edit.content), wrapper, wrapper.parentNode);
+      var nodes = renderContent(edit.content);
+      if (edit.position === 'after') {
+        insertNodesBefore(nodes, wrapper.nextSibling, wrapper.parentNode);
+      } else {
+        insertNodesBefore(nodes, wrapper, wrapper.parentNode);
+      }
       return true;
     }
 
