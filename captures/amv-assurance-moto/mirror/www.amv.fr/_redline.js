@@ -11,19 +11,46 @@
       newText: "Nos 4 formules d'assurance moto",
       addParas: ["AMV propose 4 formules d'assurance moto pour couvrir chaque motard selon son profil et son budget. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la couverture de votre casque, de vos gants et de votre gilet airbag en cas de sinistre. La cotisation varie selon le niveau de protection choisi."] },
 
-    // 3. Formule 1 : ajout positionnement dans l'accordéon (rien retiré)
-    { mode: 'appendInside', blockMatch: 'Formule\\s*1\\s*Responsabilit',
-      content: [{ p: "Le choix le moins cher pour prendre la route en toute légalité. Cette formule est adaptée aux motos anciennes ou de faible valeur marchande, pour lesquelles une couverture étendue ne serait pas rentable." }] },
+    // 3. Formules : reprend l'existant, ajoute la version rédigée (vert) en tête de chaque accordéon
+    { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 1',
+      content: [
+        { p: "La formule de base vous couvre en responsabilité civile (dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros), en assistance juridique et en protection de vos équipements essentiels :" },
+        { ul: ["casque couvert jusqu'à 250 euros", "gants couverts jusqu'à 70 euros", "gilet airbag couvert jusqu'à 500 euros"] },
+        { p: "Le choix le moins cher pour prendre la route en toute légalité. Cette formule est adaptée aux motos anciennes ou de faible valeur marchande, pour lesquelles une couverture étendue ne serait pas rentable." }
+      ] },
+    { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 2',
+      content: [
+        { p: "En complément du socle de la première formule, cette couverture prend en charge les dommages en cas de vol, tentative de vol ou incendie. Remboursement à hauteur de la valeur de remplacement à dire d'expert, ou à la valeur à neuf pendant les 6 premiers mois suivant l'achat. Idéale si vous stationnez votre véhicule en extérieur ou en zone urbaine." }
+      ] },
+    { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 3',
+      content: [
+        { p: "Prise en charge des dommages subis par votre moto lors d'une collision avec un tiers identifié. Remboursement à la valeur de remplacement ou à la valeur à neuf, déduction faite de la franchise. Adaptée aux motards qui circulent quotidiennement, notamment en ville, où le risque de collision est statistiquement plus élevé." }
+      ] },
+    { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 4',
+      content: [
+        { p: "Couverture complète de l'ensemble des dommages subis par votre moto, avec ou sans tiers identifié, y compris en cas de sinistre responsable ou de vandalisme. Recommandée pour les motos neuves ou récentes et les véhicules financés à crédit. Si vous venez d'acquérir une nouvelle moto, cette formule vous garantit une indemnisation dans la grande majorité des situations, quel que soit le modèle ou la puissance." }
+      ] },
 
     // 4. Section options : libellé + intro
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des options$',
       newText: 'Les options pour personnaliser votre contrat',
       addParas: ["Chaque formule peut être complétée par des options à la carte pour renforcer votre protection selon votre pratique."] },
 
-    // 5. Option Individuelle pilote : barre l'intro existante, insère la nouvelle (vert), garde les montants
-    { mode: 'editInside', blockMatch: 'Individuelle pilote',
-      strikeMatch: ['Cette option est une garantie personnelle du conducteur'],
-      content: [{ p: "Couverture de vos propres blessures en cas d'accident, même responsable. Versement d'un capital en cas de décès ou d'invalidité permanente, prise en charge des frais médicaux et d'hospitalisation. Cette protection intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }] },
+    // 5. Options : reprend l'existant, ajoute la version rédigée (vert) en tête de chaque accordéon
+    { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
+      content: [
+        { p: "Couverture de vos propres blessures en cas d'accident, même responsable. Versement d'un capital en cas de décès ou d'invalidité permanente, prise en charge des frais médicaux et d'hospitalisation. Cette protection intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }
+      ] },
+    { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Assistance',
+      content: [
+        { p: "Intervention sans franchise kilométrique, 24h/24 et 7j/7, en cas de :" },
+        { ul: ["panne ou accident", "vol ou tentative de vol", "crevaison", "perte, vol ou casse de clés", "enlèvement par la fourrière"] },
+        { p: "Dépannage, remorquage et rapatriement pris en charge pour vous, votre véhicule et votre passager, en France métropolitaine et dans la plupart des pays d'Europe." }
+      ] },
+    { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Option plus',
+      content: [
+        { p: "Extension de la couverture aux accessoires hors-série montés sur votre moto et à l'équipement vestimentaire de protection, à concurrence de 5 000 euros. Prolongation de la garantie valeur à neuf jusqu'à 18 mois après l'achat, au lieu de 6 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, GPS, intercom, sacoches)." }
+      ] },
 
     // 6a. "Pourquoi choisir AMV" -> avant la section avis "AMV c'est 1 million d'assurés"
     { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
@@ -33,14 +60,14 @@
       ] },
 
     // 6b. "Plus de 50 ans d'expertise" -> dans la section "AMV assure toutes les marques de moto"
-    { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de moto', position: 'after',
+    { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de moto', position: 'appendSection',
       content: [
         { h3: "Plus de 50 ans d'expertise deux-roues" },
         { p: "AMV a été fondé par des passionnés de moto, pour des motards. Des contrats qui couvrent les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'une chute, panne en pleine balade. À savoir : AMV connaît les spécificités de chaque type de véhicule et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. AMV assure aussi les professionnels du deux-roues : coursiers, livreurs et flottes d'entreprise." }
       ] },
 
     // 6c. "Un accompagnement de motard à motard" -> dans la section "Un contrat spécial moto pensé pour vous"
-    { mode: 'insertBlock', anchorMatch: 'Un contrat spécial moto pensé pour vous', position: 'after',
+    { mode: 'insertBlock', anchorMatch: 'Un contrat spécial moto pensé pour vous', position: 'appendSection',
       content: [
         { h3: "Un accompagnement de motard à motard" },
         { p: "Plus de 300 conseillers basés à Bordeaux, tous formés aux spécificités de l'assurance moto scooter. Conseils personnalisés par téléphone ou en ligne. En cas de sinistre, un interlocuteur dédié suit votre dossier. Gestion autonome de votre contrat moto depuis Mon Espace AMV, simple et sécurisée." }
@@ -159,6 +186,23 @@
       return re.test(b.textContent.replace(/\s+/g, ' ')) && !b.getAttribute(attr);
     });
   }
+  // En-tête (titre) d'un accordéon, pour cibler sans confondre avec le texte interne
+  function headerText(b) {
+    var s = b.querySelector('.flex.justify-between.items-center span') || b.querySelector('.flex.justify-between.items-center');
+    return (s ? s.textContent : b.textContent).trim();
+  }
+  // Cherche un accordéon par son en-tête, éventuellement restreint à une section
+  function findCollapseScoped(blockMatch, attr, scope) {
+    var re = new RegExp(blockMatch, 'i');
+    var root = document;
+    if (scope) {
+      var sh = [].slice.call(document.querySelectorAll('h2')).find(function (x) { return new RegExp(scope, 'i').test(x.textContent); });
+      if (sh) root = sh.closest('section') || document;
+    }
+    return [].slice.call(root.querySelectorAll('.collapse-block')).find(function (b) {
+      return re.test(headerText(b)) && !b.getAttribute(attr);
+    });
+  }
 
   function findTarget(edit) {
     var re = new RegExp(edit.match, 'i');
@@ -171,6 +215,15 @@
   }
 
   function applyEdit(edit) {
+    if (edit.mode === 'prependInside') {
+      var blockP = findCollapseScoped(edit.blockMatch, 'data-rl-prep', edit.scope);
+      if (!blockP) return false;
+      blockP.setAttribute('data-rl-prep', '1');
+      var partP = blockP.querySelector('.collapse-part') || blockP;
+      insertNodesBefore(renderContent(edit.content), partP.firstChild, partP);
+      return true;
+    }
+
     if (edit.mode === 'appendInside') {
       var block = findCollapse(edit.blockMatch, 'data-rl-app');
       if (!block) return false;
@@ -238,7 +291,10 @@
       h.setAttribute('data-rl-ins', '1');
       var wrapper = h.closest('.c-section-title') || h;
       var nodes = renderContent(edit.content);
-      if (edit.position === 'after') {
+      if (edit.position === 'appendSection') {
+        // à la fin du contenu de la section (après le contenu existant => texte entre H2 et H3)
+        insertNodesBefore(nodes, null, wrapper.parentNode);
+      } else if (edit.position === 'after') {
         insertNodesBefore(nodes, wrapper.nextSibling, wrapper.parentNode);
       } else {
         insertNodesBefore(nodes, wrapper, wrapper.parentNode);
