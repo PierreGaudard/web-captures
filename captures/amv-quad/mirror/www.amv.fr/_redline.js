@@ -45,19 +45,19 @@
     { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre quad ?" },
-        { p: "AMV, leader et assureur spécialiste de l'assurance moto et quad en France, assure plus d'1 million de conducteurs. Avec une note de 4,7/5 selon les avis clients vérifiés, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en quad sportif, en quad utilitaire ou en SSV, votre assurance quad est sur-mesure. Découvrez les avantages : des formules pensées pour le terrain comme pour la route, un devis assurance quad en ligne sans engagement, des tarifs à comparer et un conseiller dédié en cas de sinistre." }
+        { p: "AMV, leader de l'assurance moto en France et spécialiste du quad et du SSV, assure plus d'1 million de conducteurs. Avec une note de 4,7/5 selon les avis clients vérifiés, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en quad sportif, en quad utilitaire ou en SSV, votre assurance quad est sur-mesure. Découvrez les avantages : des formules pensées pour le terrain comme pour la route, un devis assurance quad en ligne sans engagement, des tarifs à comparer et un conseiller dédié en cas de sinistre." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de quad', position: 'appendSection',
       content: [
         { h3: "Plus de 50 ans d'expertise" },
-        { p: "AMV a été fondé par des passionnés de deux-roues et de quad, pour des conducteurs qui partagent la même passion du terrain. Une expertise qui couvre ce que les assureurs généralistes ignorent : vol d'équipement, dommages lors d'une sortie hors route, panne en pleine randonnée. AMV connaît chaque type de quad, du sportif au SSV utilitaire, du quad électrique au quad agricole, et assure toutes les marques : Can-Am, Polaris, CFMOTO, Yamaha, Kymco, TGB, Segway, Kubota, Hytrack, Arctic Cat et bien d'autres." }
+        { p: "Depuis 1974, AMV assure les passions des conducteurs de deux-roues et de quad. Une expertise qui couvre ce que les assureurs généralistes ignorent : vol d'équipement, dommages lors d'une sortie hors route, panne en pleine randonnée. AMV connaît chaque type de quad, du sportif au SSV utilitaire, du quad électrique au quad agricole, et assure toutes les marques : Can-Am, Polaris, CFMOTO, Yamaha, Kymco, TGB, Segway, Kubota, Hytrack, Arctic Cat et bien d'autres." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'Un contrat spécial quad', position: 'appendSection',
       content: [
         { h3: "Un accompagnement personnalisé" },
-        { p: "Plus de 300 conseillers basés à Bordeaux, dédiés à l'assurance quad, vous conseillent par téléphone ou en ligne. En cas de sinistre, un conseiller dédié suit votre dossier d'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
+        { p: "Plus de 300 conseillers basés à Bordeaux vous conseillent par téléphone ou en ligne. En cas de sinistre, un conseiller dédié suit votre dossier d'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'Des questions sur votre assurance', position: 'before',
@@ -65,7 +65,7 @@
         { h2: "Quel quad peut-on assurer chez AMV ?" },
         { p: "AMV, assureur spécialiste de l'assurance moto et quad, assure tous les types de quads et SSV, quelle que soit la cylindrée, la marque ou la motorisation. Découvrez le contrat qui correspond à votre véhicule et à votre usage, du loisir à la route, de la randonnée à l'usage agricole." },
         { h3: "Quad homologué route" },
-        { p: "Le quad homologué route est immatriculé et autorisé à circuler sur la voie publique. Il nécessite une carte grise et un permis de conduire adapté : le permis B1 (quadricycle lourd) ou le permis B. AMV couvre vos déplacements sur route et en agglomération. Parmi les modèles les plus assurés : Can-Am Outlander, Polaris Sportsman, CFMOTO CForce, Yamaha Grizzly." },
+        { p: "Le quad homologué route est immatriculé et autorisé à circuler sur la voie publique. Il nécessite une carte grise et un permis de conduire adapté : le permis B1 (quadricycle lourd) ou le permis B. AMV couvre vos déplacements sur route et en agglomération. Parmi les modèles courants : Can-Am Outlander, Polaris Sportsman, CFMOTO CForce, Yamaha Grizzly." },
         { h3: "Quad non homologué" },
         { p: "Le quad non homologué est destiné à un usage hors route : loisir, randonnée sur terrain privé ou exploitation agricole. Même s'il ne circule pas sur la voie publique, il doit être assuré au minimum en responsabilité civile. AMV assure les quads non homologués avec des formules adaptées à leur usage." },
         { h3: "SSV et buggy (side-by-side)" },
