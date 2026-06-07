@@ -6,7 +6,7 @@
 
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$', hlevel: 'H2',
       newText: "Nos 4 formules d'assurance scooter",
-      addParas: ["AMV, assureur spécialiste de l'assurance moto et scooter, propose 4 formules pour couvrir chaque conducteur de scooter selon son profil, son budget et ses besoins. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la prise en charge de vos équipements (casque, gants, gilet airbag) en cas de sinistre. La cotisation varie selon le niveau de protection choisi. Vous pouvez comparer les formules et obtenir votre devis assurance scooter en ligne en quelques clics, sans engagement."] },
+      addParas: ["AMV, assureur spécialiste de l'assurance moto et scooter, propose 4 formules sur-mesure pour couvrir chaque scootériste en fonction de son profil, de son budget et de ses besoins. Choisissez la formule qui correspond à votre usage : dès la première, vous bénéficiez des garanties indispensables, à savoir la responsabilité civile, l'assistance juridique et la prise en charge de vos équipements (casque, gants, gilet airbag). Comparez les formules et obtenez votre devis assurance scooter en ligne en quelques clics, sans engagement."] },
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 1',
       content: [
@@ -45,7 +45,7 @@
     { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre scooter ?" },
-        { p: "AMV, leader et assureur spécialiste de l'assurance moto et scooter en France, assure plus d'1 million de conducteurs. Avec une note de satisfaction de 4,7/5 selon les avis clients vérifiés, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en scooter 50 cm3, en 125 cm3 ou en maxi-scooter, AMV propose un contrat adapté à vos besoins et à votre budget. Parmi les avantages : des formules pensées pour les deux-roues, un devis assurance scooter en ligne sans engagement, des tarifs à comparer librement et des garanties conçues par des spécialistes des deux-roues." }
+        { p: "AMV, leader et assureur spécialiste de l'assurance moto et scooter en France, assure plus d'1 million de conducteurs. Avec une note de 4,7/5 selon les avis clients vérifiés, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en 50cc, en 125 ou en maxi-scooter, votre assurance scooter est sur-mesure. Découvrez les avantages : des formules pensées pour les deux-roues, un devis assurance scooter en ligne sans engagement, des tarifs à comparer et un conseiller dédié en cas de sinistre." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de scooter', position: 'appendSection',
@@ -108,7 +108,25 @@
       ],
       add: [
         { q: "Comment assurer un scooter 125 cm3 ?", content: [
-          { p: "Pour assurer un scooter 125, vous devez être titulaire du permis A1 ou du permis B avec une formation complémentaire de 7 heures. Munissez-vous de votre permis, de la carte grise et de votre relevé d'informations. AMV assure tous les scooters 125 cm3, du Honda PCX au Yamaha NMAX, avec des formules adaptées à votre usage." }
+          { p: "Pour assurer un scooter 125, vous devez être titulaire du permis A1 ou du permis B avec une formation complémentaire de 7 heures. Munissez-vous de votre permis de conduire, de la carte grise et de votre relevé d'informations. AMV assure tous les scooters 125 cm3, du Honda PCX au Yamaha NMAX, avec des formules adaptées à votre usage." }
+        ] },
+        { q: "L'assurance scooter couvre-t-elle le passager ?", content: [
+          { p: "Oui. La responsabilité civile couvre les dommages causés à votre passager, et l'option Individuelle pilote peut être étendue pour le protéger en cas d'accident. L'assistance 0 km prend également en charge le passager lors d'un dépannage ou d'un rapatriement." }
+        ] },
+        { q: "Quelle assurance pour un scooter d'occasion ?", content: [
+          { p: "Pour un scooter d'occasion de faible valeur, la formule Responsabilité civile ou Vol / Incendie suffit généralement. Pour un scooter d'occasion récent et de valeur, une formule Dommages collision ou Tous risques reste pertinente. AMV vous aide à choisir la formule qui correspond à la valeur réelle de votre véhicule assuré." }
+        ] },
+        { q: "Comment résilier son assurance scooter ?", content: [
+          { p: "Après la première année, vous pouvez résilier votre assurance scooter à tout moment grâce à la loi Hamon, sans frais ni pénalité. Avant la première échéance, la résiliation est possible dans certains cas (vente du scooter, changement de situation). Un conseiller AMV vous accompagne dans la démarche." }
+        ] },
+        { q: "Peut-on modifier ses garanties d'assurance scooter en cours de contrat ?", content: [
+          { p: "Oui. Vous pouvez faire évoluer vos garanties et vos options à tout moment depuis votre espace client Mon Espace AMV, en fonction de votre usage et de la saison. La modification prend effet selon les conditions de votre contrat." }
+        ] },
+        { q: "Le scooter électrique est-il plus cher à assurer ?", content: [
+          { p: "Pas nécessairement. Chez AMV, le scooter électrique s'assure dans les mêmes conditions qu'un scooter thermique, avec les mêmes formules et garanties. La cotisation dépend surtout de la valeur du véhicule, de votre profil et du niveau de couverture choisi, pas du type de motorisation." }
+        ] },
+        { q: "L'assurance scooter couvre-t-elle les trajets domicile-travail ?", content: [
+          { p: "Oui. Les trajets domicile-travail font partie de l'usage couvert par votre assurance scooter AMV, comme l'ensemble de vos déplacements urbains et périurbains du quotidien. L'assistance 0 km vous dépanne sur ces trajets, dès le bas de chez vous." }
         ] }
       ] }
   ];
