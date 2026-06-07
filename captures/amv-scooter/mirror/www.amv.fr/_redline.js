@@ -51,13 +51,13 @@
     { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de scooter', position: 'appendSection',
       content: [
         { h3: "Plus de 50 ans d'expertise deux-roues" },
-        { p: "AMV a été fondé par des passionnés de deux-roues, pour des conducteurs de scooter et de moto. Cette expertise couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'une chute, panne en pleine circulation. AMV connaît les spécificités de chaque type de scooter, du 50 cm3 urbain au maxi-scooter, du scooter électrique au trois-roues. AMV assure toutes les marques : Yamaha, Honda, Piaggio, Kymco, BMW, Peugeot, Vespa, Suzuki et bien d'autres." }
+        { p: "Depuis 1974, AMV assure les passions des conducteurs de scooter et de moto. Cette expertise couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'une chute, panne en pleine circulation. AMV connaît les spécificités de chaque type de scooter, du 50 cm3 urbain au maxi-scooter, du scooter électrique au trois-roues. AMV assure toutes les marques : Yamaha, Honda, Piaggio, Kymco, BMW, Peugeot, Vespa, Suzuki et bien d'autres." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'Un contrat spécial scooter pensé pour vous', position: 'appendSection',
       content: [
         { h3: "Un accompagnement personnalisé" },
-        { p: "Plus de 300 conseillers basés à Bordeaux, dédiés à l'assurance scooter, vous apportent des conseils personnalisés par téléphone ou en ligne. En cas de sinistre, un interlocuteur dédié suit votre dossier d'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
+        { p: "Plus de 300 conseillers basés à Bordeaux vous apportent des conseils personnalisés par téléphone ou en ligne. En cas de sinistre, un interlocuteur dédié suit votre dossier d'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'Des questions sur votre assurance', position: 'before',
@@ -65,7 +65,7 @@
         { h2: "Quel scooter peut-on assurer chez AMV ?" },
         { p: "AMV, spécialiste de l'assurance deux-roues, assure tous les types de scooters, quelle que soit la cylindrée ou la motorisation. Que vous utilisiez votre deux-roues en ville ou sur route, AMV a un contrat adapté à votre profil." },
         { h3: "Scooter 50 cm3" },
-        { p: "Le scooter 50 cm3 est idéal pour les trajets urbains courts. Accessible dès 14 ans avec le permis AM (ex-BSR), il ne nécessite pas le permis de conduire classique. AMV propose des formules adaptées aux conducteurs de 50 cm3, y compris les jeunes qui prennent la route pour la première fois. Parmi les modèles les plus assurés : Piaggio Zip, Peugeot Kisbee, Yamaha Neos, MBK Booster." },
+        { p: "Le scooter 50 cm3 est idéal pour les trajets urbains courts. Accessible dès 14 ans avec le permis AM (ex-BSR), il ne nécessite pas le permis de conduire classique. AMV propose des formules adaptées aux conducteurs de 50 cm3, y compris les jeunes qui prennent la route pour la première fois. Parmi les modèles courants : Piaggio Zip, Peugeot Kisbee, Yamaha Neos, MBK Booster." },
         { h3: "Scooter 125 cm3" },
         { p: "Le scooter 125 est le choix privilégié pour les déplacements domicile-travail et les trajets périurbains. Accessible avec le permis B et une formation de 7 heures, ou avec le permis A1, il offre un bon compromis entre performance et coût d'assurance. AMV assure tous les scooters 125, comme le Honda Forza 125, le Yamaha XMAX 125 ou le Piaggio Medley." },
         { h3: "Maxi-scooter et trois-roues" },

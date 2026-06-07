@@ -62,7 +62,7 @@
         ] } },
 
         { h2: "Pourquoi choisir AMV pour votre assurance moto A2 ?" },
-        { p: "AMV est spécialiste de l'assurance deux-roues depuis plus de 50 ans. Plus de 300 conseillers basés à Bordeaux, dédiés à l'assurance moto, accompagnent les motards débutants comme les plus expérimentés." },
+        { p: "AMV est spécialiste de l'assurance deux-roues depuis plus de 50 ans. Plus de 300 conseillers basés à Bordeaux accompagnent les motards débutants comme les plus expérimentés." },
         { p: "Les avantages AMV pour un permis A2 :" },
         { ul: ["tarifs adaptés aux jeunes conducteurs", "formules évolutives qui suivent votre progression vers le permis A", "souscription 100 % en ligne, devis assurance en quelques minutes", "accompagnement personnalisé par des conseillers spécialistes"] },
         { p: "Avec une note de satisfaction de 4,7 sur 5, AMV assure plus de 750 000 contrats en cours. Que vous rouliez en sportive, en roadster ou en scooter, AMV dispose d'une formule adaptée à votre profil." }
