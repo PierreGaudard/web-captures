@@ -2,25 +2,44 @@
 // Liste d'édits facile à compléter au fil des validations de Pierre.
 (function () {
   // Modes :
-  //  - 'clone'  : clone l'élément d'origine (même taille/style), remplace le texte, surligne en vert.
-  //               { sel, match, mode:'clone', newText }
-  //  - 'block'  : insère un bloc vert multi-lignes (FAQ, nouvelles sections).
-  //               { sel, match, mode:'block', badge, newHTML, inline }
+  //  - 'clone' : clone l'élément d'origine (même taille/style), remplace le texte, surligne vert.
+  //              Option addParas: [textes] => paragraphes verts insérés ensuite.
+  //              { sel, match, mode:'clone', newText, addParas }
+  //  - 'block' : insère un bloc vert multi-lignes (FAQ, nouvelles sections).
+  //              { sel, match, mode:'block', badge, newHTML, inline }
   var EDITS = [
     {
       sel: 'h1',
       match: 'Bienvenue chez le leader',
       mode: 'clone',
       newText: 'Assurance moto avec le leader du deux-roues'
+    },
+    {
+      sel: '.text-orange-normal',
+      match: '^Détails des formules$',
+      mode: 'clone',
+      newText: "Nos 4 formules d'assurance moto",
+      addParas: [
+        "AMV propose 4 formules d'assurance moto pour couvrir chaque motard selon son profil et son budget. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la couverture de votre casque, de vos gants et de votre gilet airbag en cas de sinistre. La cotisation varie selon le niveau de protection choisi."
+      ]
     }
   ];
 
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
 
-  function applyEdit(edit) {
+  function findTarget(edit) {
     var re = new RegExp(edit.match, 'i');
-    var nodes = [].slice.call(document.querySelectorAll(edit.sel));
-    var target = nodes.find(function (n) { return re.test(n.textContent) && !n.getAttribute('data-rl'); });
+    var nodes = [].slice.call(document.querySelectorAll(edit.sel)).filter(function (n) {
+      return !n.getAttribute('data-rl') && re.test(n.textContent.trim());
+    });
+    if (!nodes.length) return null;
+    // choisit le plus spécifique (texte le plus court) = la feuille
+    nodes.sort(function (a, b) { return a.textContent.trim().length - b.textContent.trim().length; });
+    return nodes[0];
+  }
+
+  function applyEdit(edit) {
+    var target = findTarget(edit);
     if (!target) return false;
     target.setAttribute('data-rl', '1');
     target.classList.add('rl-del');
@@ -30,18 +49,35 @@
       if (edit.badge) box.appendChild(el('span', 'rl-badge', edit.badge));
       box.insertAdjacentHTML('beforeend', edit.newHTML);
       target.parentNode.insertBefore(box, target.nextSibling);
-    } else {
-      // clone : même balise/classes que l'original => même taille
-      var clone = target.cloneNode(true);
-      clone.removeAttribute('data-rl');
-      clone.removeAttribute('id');
-      clone.classList.remove('rl-del');
-      // retire d'éventuelles classes qui masquent (animations)
-      clone.classList.remove('opacity-0');
-      clone.style.opacity = '1';
-      clone.classList.add('rl-mark');
-      clone.textContent = edit.newText;
-      target.parentNode.insertBefore(clone, target.nextSibling);
+      return true;
+    }
+
+    // mode clone : même balise/classes que l'original => même taille
+    var clone = target.cloneNode(true);
+    clone.removeAttribute('data-rl');
+    clone.removeAttribute('id');
+    clone.classList.remove('rl-del');
+    clone.classList.remove('opacity-0');
+    clone.style.opacity = '1';
+    clone.classList.add('rl-mark');
+    clone.textContent = edit.newText;
+
+    var ref = target.nextSibling;
+    target.parentNode.insertBefore(clone, ref);
+
+    // paragraphes additionnels (nouveau contenu)
+    if (edit.addParas && edit.addParas.length) {
+      var lastInserted = clone;
+      edit.addParas.forEach(function (txt) {
+        var p = el('p', 'rl-mark');
+        p.textContent = txt;
+        p.style.fontSize = '1.05rem';
+        p.style.lineHeight = '1.6';
+        p.style.fontWeight = '400';
+        p.style.marginTop = '10px';
+        lastInserted.parentNode.insertBefore(p, lastInserted.nextSibling);
+        lastInserted = p;
+      });
     }
     return true;
   }
