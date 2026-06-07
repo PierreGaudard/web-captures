@@ -1,6 +1,6 @@
-/* Redline AMV : contenu supprime (rouge barre) vs nouveau contenu (vert) */
+/* Redline AMV : contenu supprimé (rouge barré) vs nouveau contenu (vert) */
 
-/* Contenu supprime */
+/* Contenu supprimé */
 .rl-del, .rl-del * {
   text-decoration: line-through !important;
 }
@@ -8,7 +8,7 @@
   background: #ffe2e2 !important;
   color: #c0392b !important;
   border-radius: 4px;
-  padding: 2px 0;
+  padding: 2px 6px;
 }
 
 /* Nouveau contenu */
@@ -29,6 +29,7 @@
 .rl-add p { margin: 0 0 8px; }
 .rl-add ul { margin: 4px 0 10px 18px; list-style: disc; }
 .rl-add li { margin: 2px 0; }
+.rl-add .rl-h1 { font-size: 1.8em; font-weight: 800; color: #1e7e34; line-height: 1.15; display: block; }
 .rl-badge {
   display: inline-block;
   font-size: 11px;
@@ -42,14 +43,45 @@
   margin-bottom: 8px;
   text-decoration: none !important;
 }
+/* variante inline pour un remplacement court (ex: H1) */
+.rl-add.rl-inline { display: inline-block; margin: 10px 0; }
 
-/* Etat masque : on retire le marquage pour revoir la page d'origine */
+/* Badge de niveau de titre (H1/H2/H3) pour le dev */
+.rl-hntag {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: baseline;
+  background: #176a2c;
+  color: #fff;
+  padding: 0.05em 0.3em;
+  border-radius: 4px;
+  margin-right: 0.4em;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+body:not(.rl-on) .rl-hntag { display: none !important; }
+
+/* Nouveau contenu en simple surlignage vert, meme taille que l'original (clone) */
+.rl-mark, .rl-mark * {
+  background: #b9f0c6 !important;
+  color: #176a2c !important;
+  text-decoration: none !important;
+  border-radius: 4px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Etat masqué : on retire le marquage pour revoir la page d'origine */
 body:not(.rl-on) .rl-del, body:not(.rl-on) .rl-del * {
   text-decoration: none !important;
   background: transparent !important;
   color: inherit !important;
 }
 body:not(.rl-on) .rl-add { display: none !important; }
+body:not(.rl-on) .rl-mark { display: none !important; }
 
 /* Bouton bascule */
 #rl-toggle {
@@ -72,7 +104,7 @@ body:not(.rl-on) .rl-add { display: none !important; }
 #rl-toggle .dot { width: 9px; height: 9px; border-radius: 50%; background: #2ecc71; }
 body:not(.rl-on) #rl-toggle .dot { background: #888; }
 
-/* Legende */
+/* Légende */
 #rl-legend {
   position: fixed;
   right: 18px;
