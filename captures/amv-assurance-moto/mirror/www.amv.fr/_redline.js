@@ -3,11 +3,11 @@
 (function () {
   var EDITS = [
     // 1. H1
-    { mode: 'clone', sel: 'h1', match: 'Bienvenue chez le leader',
+    { mode: 'clone', sel: 'h1', match: 'Bienvenue chez le leader', hlevel: 'H1',
       newText: 'Assurance moto avec le leader du deux-roues' },
 
     // 2. Section formules : libellé + intro
-    { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$',
+    { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$', hlevel: 'H2',
       newText: "Nos 4 formules d'assurance moto",
       addParas: ["AMV, assureur spécialiste de l'assurance moto et scooter, propose 4 formules pour couvrir chaque motard selon son profil, son budget et ses besoins. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la prise en charge de vos équipements (casque, gants, gilet airbag) en cas de sinistre. La cotisation varie selon le niveau de protection et les garanties choisies. Vous pouvez comparer les formules et obtenir votre devis assurance moto en ligne en quelques clics, sans engagement."] },
 
@@ -32,7 +32,7 @@
       ] },
 
     // 4. Section options : libellé + intro
-    { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des options$',
+    { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des options$', hlevel: 'H2',
       newText: 'Les options pour personnaliser votre contrat',
       addParas: ["Chaque formule peut être complétée par des options à la carte pour renforcer votre protection selon votre pratique et votre véhicule. Ces options ajustent vos garanties au plus près de vos besoins, que vous rouliez en moto, en scooter ou en deux-roues au quotidien."] },
 
@@ -111,6 +111,14 @@
   ];
 
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
+  function prependTag(node, label) {
+    if (!label) return node;
+    var b = document.createElement('span');
+    b.className = 'rl-hntag';
+    b.textContent = label;
+    node.insertBefore(b, node.firstChild);
+    return node;
+  }
 
   // Clone un élément de référence pour hériter de sa typo, puis remplace le texte.
   function cloneAs(ref, txt) {
@@ -154,6 +162,7 @@
     var r = refHeading(tag);
     var node = r ? cloneAs(r, txt) : el(tag, 'rl-mark', txt);
     node.style.marginTop = '20px';
+    prependTag(node, tag.toUpperCase());
     return node;
   }
   function makeQuestion(txt) {
@@ -162,6 +171,7 @@
     node.style.display = 'block';
     node.style.marginTop = '18px';
     node.style.marginBottom = '4px';
+    prependTag(node, 'H3');
     return node;
   }
   function renderContent(items) {
@@ -312,6 +322,7 @@
     clone.classList.remove('rl-del'); clone.classList.remove('opacity-0');
     clone.style.opacity = '1'; clone.classList.add('rl-mark');
     clone.textContent = edit.newText;
+    prependTag(clone, edit.hlevel);
     target.parentNode.insertBefore(clone, target.nextSibling);
     if (edit.addParas && edit.addParas.length) {
       var last = clone;

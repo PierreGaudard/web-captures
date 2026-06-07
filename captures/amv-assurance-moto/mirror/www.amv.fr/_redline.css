@@ -46,6 +46,24 @@
 /* variante inline pour un remplacement court (ex: H1) */
 .rl-add.rl-inline { display: inline-block; margin: 10px 0; }
 
+/* Badge de niveau de titre (H1/H2/H3) pour le dev */
+.rl-hntag {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: baseline;
+  background: #176a2c;
+  color: #fff;
+  padding: 0.05em 0.3em;
+  border-radius: 4px;
+  margin-right: 0.4em;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+body:not(.rl-on) .rl-hntag { display: none !important; }
+
 /* Nouveau contenu en simple surlignage vert, meme taille que l'original (clone) */
 .rl-mark, .rl-mark * {
   background: #b9f0c6 !important;
