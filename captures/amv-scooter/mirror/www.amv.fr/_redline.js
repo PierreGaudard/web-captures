@@ -2,7 +2,7 @@
 (function () {
   var EDITS = [
     { mode: 'clone', sel: 'h1', match: 'Bienvenue chez le leader', hlevel: 'H1',
-      newText: 'Assurance scooter avec le leader du deux-roues' },
+      newText: 'Assurance scooter, du 50 cm3 au maxi-scooter' },
 
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$', hlevel: 'H2',
       newText: "Nos 4 formules d'assurance scooter",
@@ -72,6 +72,10 @@
         { p: "Pour les conducteurs qui recherchent confort et puissance sur de longs trajets, le maxi-scooter est la solution. AMV assure les maxi-scooters de toutes cylindrées (300, 400, 530 cm3 et plus) ainsi que les scooters trois-roues. Que vous rouliez en Yamaha TMAX, Honda Forza 350 ou Piaggio MP3, votre contrat couvre l'ensemble de vos besoins." },
         { h3: "Scooter électrique" },
         { p: "Le scooter électrique se développe rapidement en ville. AMV assure tous les modèles de scooters électriques dans les mêmes conditions que les scooters thermiques. Les garanties et les options sont identiques, et la cotisation tient compte des spécificités de la motorisation électrique." },
+        { h2: "Le vol de scooter : pourquoi bien se protéger" },
+        { p: "Le scooter, souvent stationné dans la rue, est particulièrement exposé au vol. Pour un usage urbain quotidien, la formule Vol / Incendie ou une formule plus complète est vivement conseillée. Au-delà de l'assurance, un bon antivol (U ou chaîne) et un stationnement dans un lieu fermé ou surveillé réduisent fortement le risque. En cas de vol, AMV vous indemnise à la valeur de remplacement à dire d'expert, ou à la valeur à neuf pendant les premiers mois suivant l'achat." },
+        { h2: "L'assurance scooter pour vos trajets du quotidien" },
+        { p: "Le scooter est avant tout un véhicule urbain et périurbain : trajets domicile-travail, circulation dense, stationnement facile. AMV adapte votre contrat à cet usage quotidien, avec l'assistance 0 km qui intervient dès le domicile en cas de panne, et des garanties pensées pour la ville. Que vous rouliez en 50 cm3 pour de courts trajets ou en maxi-scooter pour des distances plus longues, votre couverture suit votre rythme." },
         { h2: "Comment souscrire une assurance scooter ?" },
         { p: "Pour souscrire une assurance scooter chez AMV, la démarche est rapide. Renseignez les informations sur votre scooter (modèle, cylindrée, année) et votre profil (expérience, bonus-malus, zone géographique) pour recevoir votre devis en ligne en quelques minutes. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre carte verte par mail. Sans engagement, vous pouvez comparer et trouver la formule qui vous correspond. Les garanties prennent effet immédiatement ou à la date de votre choix. Vous pouvez aussi contacter un conseiller par téléphone." }
       ] },
