@@ -1,0 +1,258 @@
+﻿.InfoBullePopUpFond {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    z-index: 1000;
+}
+
+.InfoBullePopUpFond:target {
+    display: block;
+}
+
+.InfoBullePopUp {
+    width: 40%;
+    max-width: 80%;
+    max-height: 80%;
+    background-color: white;
+    height: auto;
+    border-bottom-color: white;
+    color: black;
+    border-start-start-radius: 1em;
+    border-start-end-radius: 1em;
+    border-end-start-radius: 1em;
+    border-end-end-radius: 1em;
+    margin-top: 5%;
+    margin-bottom: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2em white;
+    text-transform: none;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: auto;
+}
+
+.InfoBullePopUpBarTitre {
+    background-color: white;
+    opacity: 1;
+    width: auto;
+    height: auto;
+    color: orange;
+    text-align: left;
+    vertical-align: middle;
+    border-right: 1em solid white;
+}
+
+.InfoBullePopUpBarTitreButtons {
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    top: -0.5vh;
+}
+
+.InfoBullePopUpContenu {
+    /*overflow: auto;*/
+    max-height: 70vh;
+    width: 100%;
+    padding: 0.2em;
+}
+
+.InfoBullePopUpFermer {
+    display: block;
+    background: url(../images/lightbox2-close.png) no-repeat;
+    width: 2em;
+    height: 2em;
+}
+
+.InfoBullePopUpFermer:hover {
+    display: block;
+    background: url(../images/lightbox2-close-hover.png) no-repeat;
+    width: 2em;
+    height: 2em;
+}
+
+.InfoBulle {
+    background: url(../images/picto-aide-over.png) no-repeat;
+    display: inline-block;
+    width: 3vh;
+    height: 1.3em;
+    background-position: center;
+    position: relative;
+    top: 0.3em;
+}
+
+.InfoBulle:hover {
+    background: url(../images/picto-aide-over.png) no-repeat;
+    display: inline-block;
+    width: 3vh;
+    height: 1.3em;
+    background-position: center;
+    position: relative;
+    top: 0.3em;
+}
+
+.InfoBullePopUpContenu > p {
+    max-width: 300vh;
+    font-size: medium;
+    text-align: justify;
+    font-weight: normal;
+}
+
+.InfoBullePopUpContenu > div {
+    max-width: 300vh;
+    font-size: medium;
+    text-align: justify;
+    font-weight: normal;
+    font-family: "Verdana", sans-serif;
+}
+
+.InfoBullePopUpContenu > h3 {
+    max-width: 300vh;
+    font-size: medium;
+    text-align: inherit;
+    font-weight: normal;
+}
+
+.InfoBulleH1Titre {
+    text-transform: uppercase;
+    font-size: medium;
+    background: url(../images/lightbox-arrow-titre.png) no-repeat 0 2px;
+    padding-left: 1em;
+}
+
+.InfoBullePopUpContenuTexte > h3 {
+    text-align: start;
+}
+
+.InfoBullePopUpContenuTexte > .precisionTitre {
+    text-transform: uppercase;
+    color: #ec8d06;
+}
+
+@media screen and (max-width: 800px) {
+    .InfoBullePopUpContenu {
+        /*overflow: auto;*/
+        max-height: 70vh;
+    }
+
+    .InfoBullePopUpContenu > p {
+        max-width: 60vh;
+        font-size: small;
+        text-align: justify;
+        font-weight: normal;
+    }
+
+    .InfoBullePopUpContenu > div {
+        max-width: 60vh;
+        font-size: small;
+        text-align: justify;
+        font-weight: normal;
+        font-family: "Verdana", sans-serif;
+    }
+
+    .InfoBullePopUp {
+        width: 90%;
+        max-width: 90%;
+        max-height: 90%;
+        background-color: white;
+        height: auto;
+        border-bottom-color: white;
+        color: black;
+        border-start-start-radius: 1em;
+        border-start-end-radius: 1em;
+        border-end-start-radius: 1em;
+        border-end-end-radius: 1em;
+        border: solid 1em white;
+        text-transform: none;
+        font-size: medium;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50, -50%);
+        overflow: auto;
+    }
+
+    .InfoBullePopUpBarTitreButtons {
+        float: right;
+        text-align: center;
+        vertical-align: middle;
+        border: 0.1em solid white;
+        width: 0em;
+    }
+
+    .InfoBullePopUpBarTitre {
+        background-color: white;
+        opacity: 1;
+        width: 100%;
+        height: auto;
+        color: orange;
+        text-align: left;
+        vertical-align: middle;
+        border: none;
+        border-right: 1em solid white;
+    }
+
+    .InfoBullePopUpFermer {
+        display: block;
+        background: url(../images/lightbox2-close.png) no-repeat;
+        width: 2em;
+        height: 2em;
+        position: relative;
+        top: -1.25em;
+        left: 0.25em;
+    }
+
+    .InfoBullePopUpFermer:hover {
+        display: block;
+        background: url(../images/lightbox2-close-hover.png) no-repeat;
+        width: 2em;
+        height: 2em;
+        position: relative;
+        top: -1.25em;
+        left: 0.25em;
+    }
+
+    .InfoBullePopUpContenuTexte > h3 {
+        text-align: start;
+    }
+
+    .InfoBullePopUpContenuTexte > .precisionTitre {
+        text-transform: uppercase;
+        color: #ec8d06;
+    }
+}
+
+#ctl00_SampleContent_01_uscFormule_infoBulleBase_InfoBullePopUpContenuTexte > .precisionTitre, #ctl00_uscPushPanierlegende_01_uscFormule_infoBulleBase_InfoBullePopUpContenuTexte > .precisionTitre {
+    text-transform: uppercase;
+    color: #ec8d06;
+}
+
+div[id$=_uscEspaceOptions_uscPop_infoBulleBase_InfoBullePopUpContenuTexte] > h3,
+div[id$=_uscEspaceGaranties_uscPop_infoBulleBase_InfoBullePopUpContenuTexte] > h3 {
+    color: #606060;
+    font-size: 1.17em;
+    background: content-box;
+    border: 0px;
+    margin-left: -1em;
+    text-transform: none;
+    font-weight: bold;
+}
+
+div[id$=_uscEspaceOptions_uscPop_infoBulleBase_InfoBullePopUpContenuTexte],
+div[id$=_uscEspaceOptions_uscPop_infoBulleBase_InfoBullePopUpContenuTexte] {
+    font-weight: 300;
+}
+
+a[id$=uscEspaceGaranties_uscPop_infoBulleBase_InfoBulle],
+a[id$=uscEspaceOptions_uscPop_infoBulleBase_InfoBulle] {
+    background: url(../images/picto-aide.png) no-repeat;
+    background-position: center;
+    top: 0em;
+}

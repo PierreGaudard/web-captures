@@ -21,6 +21,16 @@
       "title": "AMV - Assurance Quad",
       "description": "Page assurance quad",
       "url": "https://amv-quad.pages.dev/assurance/quad/"
+    },
+    {
+      "title": "AMV - Assurance Auto et Moto de Collection",
+      "description": "Page assurance véhicule de collection",
+      "url": "https://amv-collection.pages.dev/legende/vehicule-collection/assurance-voiture-moto-collection"
+    },
+    {
+      "title": "AMV - Assurance Moto Kawasaki",
+      "description": "Page assurance moto Kawasaki",
+      "url": "https://amv-kawasaki.pages.dev/assurance-moto/assurance-moto-kawasaki/"
     }
   ]
 }

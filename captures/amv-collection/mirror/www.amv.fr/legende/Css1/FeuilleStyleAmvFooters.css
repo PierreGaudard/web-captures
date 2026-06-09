@@ -1,0 +1,74 @@
+/* SASS File for amv */
+
+@media screen and (max-width: 800px) {
+    .amvFooters_class_mention {
+        display: none !important;
+    }
+
+    .amvFooters_class_div {
+        max-width: 98%;
+        margin: auto;
+        padding-right: 10px;
+    }
+}
+
+.amvFooters_class_div {
+    max-width: 57%;
+    margin: auto;
+}
+
+.amvFooters_class_nav {
+    list-style-type: none;
+}
+
+.amvFooters_class_row {
+    /*    margin-left: 22%;
+    margin-right: 22%;*/
+}
+
+.amvFooters_class_lienFooter {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.95em;
+    color: #666666;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.amvFooters_class_liFooter {
+    display: inline;
+    margin-right: 1%;
+}
+
+.amvFooters_class_lienFooter:hover {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.95em;
+    color: #00a850;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.amvFooters_class_mention {
+    font-size: 0.9em;
+    color: #adadad;
+    text-align: justify;
+    line-height: 1.5em;
+    padding-left: 2%;
+    padding-right: 9%;
+}
+
+.amvFooters_class_mention > a {
+    font-size: 0.9em;
+    text-decoration: none;
+    color: #adadad;
+}
+
+@media screen and (max-width: 800px) {
+    .amvFooters_class_div {
+        max-width: 90%;
+        margin: auto;
+        padding-right: 10px;
+    }
+}
+/*# sourceMappingURL=FeuilleStyleAmvFooters.css.map */

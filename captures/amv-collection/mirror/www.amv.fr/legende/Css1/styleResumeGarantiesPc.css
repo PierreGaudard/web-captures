@@ -1,0 +1,36 @@
+﻿.AmvResumesGarantiesContenu {
+    font-size: 14px;
+    font-family: "Verdana", sans-serif;
+}
+
+.AmvResumesGarantiesContenu > #ctl00_SampleContent_ucResumeGaranties_lblDARemboursementFranchiseYamaha > h1 {
+    font-size: medium;
+}
+
+.AmvResumesGarantiesContenu > span {
+    text-align: justify;
+}
+
+/*#ui-id-1 {
+    font-size: 18px;
+}*/
+
+#ctl00_SampleContent_uscListeDemandes_lstView_ctrl1_uscEspaceDemande_uscEspaceGaranties_uscPop_infoBulleBase_InfoBullePopUpContenuTexte > h3 {
+    color: #606060;
+    font-size: 1.17em;
+    background: content-box;
+    border: 0px;
+    margin-left: -1em;
+    text-transform: none;
+    font-weight: bold;
+}
+
+#ctl00_SampleContent_uscListeDemandes_lstView_ctrl1_uscEspaceDemande_uscEspaceGaranties_uscPop_infoBulleBase_InfoBullePopUpContenuTexte > h3 {
+    color: #606060;
+    font-size: 1.17em;
+    background: content-box;
+    border: 0px;
+    margin-left: -1em;
+    text-transform: none;
+    font-weight: bold;
+}

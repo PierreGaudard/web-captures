@@ -1,0 +1,100 @@
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.prettycheckbox,
+.prettyradio {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.prettycheckbox>a,
+.prettyradio>a {
+    height: 36px;
+    width: 31px;
+    display: block;
+    float: left;
+    cursor: pointer;
+    margin: 0;
+    background: url('img/checkboxes_dark.png');
+}
+
+.prettycheckbox>a:focus,
+.prettyradio>a:focus {
+    outline: 0 none;
+}
+
+.prettycheckbox label,
+.prettyradio label {
+    display: block;
+    float: left;
+    padding-top: 10px;
+    cursor: pointer;
+    width: 93%;
+}
+
+.prettycheckbox a.disabled,
+.prettycheckbox label.disabled,
+.prettyradio a.disabled,
+.prettyradio label.disabled {
+    cursor: not-allowed;
+}
+
+.prettycheckbox>a {
+    background-position: 0 0;
+}
+
+.prettycheckbox>a:focus {
+    background-position: 0 0;
+}
+
+.prettycheckbox>a.checked {
+    background-position: -62px -72px;
+}
+
+.prettycheckbox>a.checked:focus {
+    background-position: -62px -72px;
+}
+
+.prettycheckbox>a.checked.disabled {
+    background-position: -150px 0;
+}
+
+.prettycheckbox>a.disabled {
+    background-position: -120px 0;
+}
+
+.prettyradio>a {
+    background-position: -180px 0;
+}
+
+.prettyradio>a:focus {
+    background-position: -210px 0;
+}
+
+.prettyradio>a.checked {
+    background-position: -240px 0;
+}
+
+.prettyradio>a.checked:focus {
+    background-position: -270px 0;
+}
+
+.prettyradio>a.checked.disabled {
+    background-position: -330px 0;
+}
+
+.prettyradio>a.disabled {
+    background-position: -300px 0;
+}
