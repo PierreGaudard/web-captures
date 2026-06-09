@@ -15,14 +15,6 @@
 
     { h2: "Les formules d'assurance moto de collection" },
     { p: "AMV décline plusieurs formules, de la couverture essentielle à la protection tous risques. Vous choisissez le niveau de garanties selon la valeur de votre véhicule, son usage et votre budget. Trois piliers restent toujours présents : la responsabilité civile obligatoire, l'assistance et la protection juridique." },
-    { table: {
-        head: ["Formule", "Pour qui ?", "Garanties principales"],
-        rows: [
-          ["Au tiers", "Moto ancienne de faible valeur, usage occasionnel", "Responsabilité civile, défense pénale et protection juridique, assistance"],
-          ["Tiers + vol et incendie", "Deux-roues stationné en extérieur ou de valeur", "Garanties du tiers + vol, tentative de vol, incendie"],
-          ["Tous risques", "Modèle de valeur, restauré ou récent", "Garanties précédentes + tous accidents, vandalisme, catastrophes naturelles"]
-        ]
-    } },
     { p: "La formule au tiers vous couvre en responsabilité civile : c'est la garantie minimale obligatoire, qui indemnise les dommages causés à un tiers. Elle convient aux motos anciennes de faible valeur ou utilisées ponctuellement pour le loisir, et reste l'option la moins chère car elle offre une couverture essentielle." },
     { p: "La formule intermédiaire ajoute la prise en charge du vol, de la tentative de vol et de l'incendie. Elle est recommandée si vous garez votre deux-roues en extérieur ou dans un lieu non clos : le risque de vol est réel, en particulier pour les modèles anciens recherchés." },
     { p: "La formule tous risques indemnise les dommages subis par votre véhicule assuré, même lors d'un sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, conseillée pour un modèle de valeur, restauré ou financé à crédit. À ces formules s'ajoutent l'assistance (dépannage, remorquage, rapatriement) et la protection juridique, qui défend vos intérêts en cas de litige." },

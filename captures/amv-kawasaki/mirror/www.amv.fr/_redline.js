@@ -15,14 +15,6 @@
 
     { h2: "Les formules d'assurance moto Kawasaki" },
     { p: "AMV propose une gamme complète de formules d'assurance moto Kawasaki, de la couverture essentielle à la protection tous risques. Vous choisissez le niveau de garanties selon la valeur de votre moto, sa cylindrée, son usage et votre profil de conducteur. Quelle que soit la formule, la responsabilité civile, l'assistance et la protection juridique sont incluses." },
-    { table: {
-        head: ["Formule", "Recommandée pour", "Garanties principales"],
-        rows: [
-          ["Au tiers", "Kawasaki ancienne ou de faible valeur", "Responsabilité civile, protection juridique, assistance"],
-          ["Tiers + vol et incendie", "Moto stationnée dehors, modèle convoité", "Garanties du tiers + vol, tentative de vol, incendie"],
-          ["Tous risques", "Kawasaki récente, Ninja ou Z de forte cylindrée", "Garanties précédentes + tous accidents, vandalisme"]
-        ]
-    } },
     { p: "L'assurance au tiers couvre la responsabilité civile : c'est la garantie minimale obligatoire, qui indemnise les dommages causés à un tiers. Elle convient à une Kawasaki ancienne, de faible valeur ou peu utilisée, et reste la formule la moins chère." },
     { p: "La formule intermédiaire ajoute le vol, la tentative de vol et l'incendie. Elle est recommandée si vous garez votre moto en extérieur : les Kawasaki sportives et de forte cylindrée figurent parmi les modèles les plus convoités par les voleurs." },
     { p: "La formule tous risques indemnise les dommages subis par votre deux-roues, même en cas de sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, recommandée pour une Kawasaki récente, une Ninja ou une Z de fortes cylindrées, ou une moto financée à crédit." },
