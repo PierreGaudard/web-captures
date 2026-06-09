@@ -39,7 +39,7 @@
       "Il doit être conservé dans son état d'origine, sans modification majeure des caractéristiques techniques.",
       "Une attestation de datation et de caractéristiques délivrée par la FFVE (Fédération Française des Véhicules d'Époque) est nécessaire pour demander le certificat d'immatriculation auprès de l'ANTS."
     ] },
-    { p: "Ce statut présente plusieurs avantages concrets pour le motard :" },
+    { p: "Ce statut de carte grise collection présente plusieurs avantages concrets pour le motard :" },
     { ul: [
       "Contrôle technique allégé : pour les deux-roues concernés, il est espacé (tous les 5 ans), et les modèles mis en circulation avant 1960 en sont exemptés.",
       "Circulation sur tout le territoire : la carte grise de collection autorise à rouler partout en France.",
@@ -50,7 +50,7 @@
     { p: "Bon à savoir : la valeur patrimoniale d'un deux-roues ancien peut augmenter avec le temps. Une couverture adaptée protège donc à la fois votre passion et votre investissement." },
 
     { h2: "Comment souscrire une assurance moto de collection en ligne ?" },
-    { p: "La souscription chez AMV est rapide et entièrement en ligne. Munissez-vous de votre permis de conduire et de la carte grise du véhicule, renseignez les informations sur votre moto (marque, modèle, cylindrée, année, usage prévu) et sur votre profil de conducteur, puis obtenez votre devis gratuit en quelques minutes. Si le tarif vous convient, finalisez en quelques clics et recevez votre carte verte par e-mail. Sans engagement, vous comparez les formules à l'aide de notre comparateur et choisissez celle qui répond le mieux à vos besoins, avant de prendre la route en toute sérénité." }
+    { p: "Pour assurer votre moto ancienne, la souscription chez AMV est rapide et entièrement en ligne. Munissez-vous de votre permis de conduire et de la carte grise du véhicule, renseignez les informations sur votre moto (marque, modèle, cylindrée, année, usage prévu) et sur votre profil de conducteur, puis obtenez votre devis gratuit en quelques minutes. Si le tarif vous convient, finalisez en quelques clics et recevez votre carte verte par e-mail. Sans engagement, vous comparez les formules à l'aide de notre comparateur et choisissez celle qui répond le mieux à vos besoins, avant de prendre la route en toute sérénité." }
   ];
 
   var FAQ = [

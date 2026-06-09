@@ -25,7 +25,7 @@
     } },
     { p: "L'assurance au tiers couvre la responsabilité civile : c'est la garantie minimale obligatoire, qui indemnise les dommages causés à un tiers. Elle convient à une Kawasaki ancienne, de faible valeur ou peu utilisée, et reste la formule la moins chère." },
     { p: "La formule intermédiaire ajoute le vol, la tentative de vol et l'incendie. Elle est recommandée si vous garez votre moto en extérieur : les Kawasaki sportives et de forte cylindrée figurent parmi les modèles les plus convoités par les voleurs." },
-    { p: "La formule tous risques indemnise les dommages subis par votre deux-roues, même en cas de sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, recommandée pour une Kawasaki récente, une Ninja ou une Z de forte cylindrée, ou une moto financée à crédit." },
+    { p: "La formule tous risques indemnise les dommages subis par votre deux-roues, même en cas de sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, recommandée pour une Kawasaki récente, une Ninja ou une Z de fortes cylindrées, ou une moto financée à crédit." },
 
     { h2: "Quelle assurance selon votre modèle Kawasaki ?" },
     { p: "La gamme Kawasaki couvre des usages très différents, et le contrat se choisit en fonction du type de moto. AMV assure toutes les Kawasaki, quelle que soit la cylindrée :" },
@@ -49,7 +49,7 @@
     { p: "Le coût d'une assurance moto Kawasaki dépend de plusieurs facteurs : le modèle et la cylindrée de la moto, l'expérience du conducteur (ancienneté du permis, bonus, antécédents de sinistres), le lieu de stationnement habituel et le niveau de garanties choisi. Une Ninja de forte cylindrée ne s'assure pas au même tarif qu'une petite Z d'entrée de gamme. Chez AMV, le devis personnalisé en ligne tient compte de tous ces éléments et vous donne un tarif adapté à votre profil en quelques minutes, gratuitement et sans engagement." },
 
     { h2: "Comment souscrire votre assurance moto Kawasaki en ligne ?" },
-    { p: "Souscrire chez AMV est simple et rapide. Munissez-vous de votre permis de conduire et de la carte grise de votre Kawasaki, renseignez le modèle, la cylindrée et votre profil de conducteur, puis obtenez votre devis gratuit en 3 minutes. Si le tarif vous convient, finalisez la souscription en quelques clics et recevez votre carte verte par e-mail. Vous bénéficiez d'une couverture immédiate, sous réserve de certaines conditions, pour prendre la route sans attendre." }
+    { p: "Pour assurer votre moto Kawasaki, la souscription chez AMV est simple et rapide. Munissez-vous de votre permis de conduire et de la carte grise de votre Kawasaki, renseignez le modèle, la cylindrée et votre profil de conducteur, puis obtenez votre devis gratuit en 3 minutes. Si le tarif vous convient, finalisez la souscription en quelques clics et recevez votre carte verte par e-mail. Vous bénéficiez d'une couverture immédiate, sous réserve de certaines conditions, pour prendre la route sans attendre." }
   ];
 
   var FAQ = [
