@@ -6,7 +6,14 @@
 
   var INTRO = [
     { note: "À retenir : AMV, spécialiste du deux-roues depuis 1974, assure toutes les Kawasaki (Ninja, Z, Versys, Vulcan, ZX) avec des formules au tiers, vol-incendie ou tous risques, une assistance 24h/24 et un devis en ligne gratuit en 3 minutes." },
-    { p: "Vous roulez en Kawasaki et cherchez une assurance moto Kawasaki adaptée à votre modèle et à votre usage ? AMV, leader de l'assurance moto en France, couvre l'ensemble de la gamme du constructeur japonais, du roadster Z à la sportive Ninja, en passant par les trails Versys et les customs Vulcan. Choisissez la protection qui correspond à vos besoins et à votre budget, et souscrivez en ligne en quelques minutes." }
+    { p: "Vous roulez en Kawasaki et cherchez une assurance moto Kawasaki adaptée à votre modèle ? AMV, leader de l'assurance moto et scooter, couvre toute la gamme du constructeur japonais, du roadster Z à la sportive Ninja, des trails Versys aux customs Vulcan. Choisissez la protection qui correspond à vos besoins et souscrivez en ligne en quelques minutes." }
+  ];
+
+  // Histoire de marque resserree (remplace les longs paragraphes existants, barres ci-dessous)
+  var HISTORY = [
+    { h2: "Kawasaki, un siècle d'histoire industrielle" },
+    { p: "Né en 1878 du chantier naval de Shozo Kawasaki, le groupe Kawasaki Heavy Industries s'est diversifié au fil des décennies (ferroviaire, aéronautique, énergie) avant de lancer la production de motos en 1953." },
+    { p: "La marque a marqué l'histoire du deux-roues avec des modèles mythiques : 500 H1, 750 H2, 900 Z1, GPZ 900 R, Ninja ZX-10R ou Ninja H2R. Un héritage de puissance et de performance, confirmé par un récent prototype à hydrogène, qui mérite une assurance moto Kawasaki à sa hauteur." }
   ];
 
   var BODY = [
@@ -35,7 +42,7 @@
     { p: "La protection juridique, incluse dès la première formule, prend en charge la défense de vos intérêts en cas de litige lié à votre moto, qu'il s'agisse d'un désaccord après un accident ou d'un conflit avec un réparateur. Combinée à l'assistance, elle vous évite bien des démarches en cas de coup dur." },
 
     { h2: "Protéger sa Kawasaki contre le vol" },
-    { p: "Les Kawasaki sportives et de forte cylindrée, comme les Ninja ou les Z, comptent parmi les motos les plus recherchées par les voleurs. La garantie vol, disponible dès la formule intermédiaire, prend alors tout son sens. Pour en bénéficier dans les meilleures conditions, quelques précautions s'imposent : utiliser un antivol homologué (bloque-disque, chaîne, U), stationner dans un lieu fermé ou surveillé dès que possible, et graver son deux-roues. Ces mesures réduisent le risque et peuvent influencer favorablement le tarif de votre assurance. En cas de vol ou de tentative de vol, l'indemnisation dépend de la formule souscrite et de la valeur du véhicule au moment du sinistre. AMV vous conseille sur le niveau de couverture adapté à votre modèle et à votre lieu de stationnement." },
+    { p: "Les Kawasaki sportives, Ninja ou Z, comptent parmi les motos les plus recherchées par les voleurs. La garantie vol, disponible dès la formule intermédiaire, prend alors tout son sens. Quelques précautions aident à en bénéficier dans les meilleures conditions : antivol homologué (bloque-disque, chaîne, U), stationnement dans un lieu fermé, gravage du deux-roues. Elles réduisent le risque et peuvent alléger votre tarif. En cas de vol, l'indemnisation dépend de la formule souscrite et de la valeur du véhicule au moment du sinistre." },
 
     { h2: "Quel est le prix d'une assurance moto Kawasaki ?" },
     { p: "Le coût d'une assurance moto Kawasaki dépend de plusieurs facteurs : le modèle et la cylindrée de la moto, l'expérience du conducteur (ancienneté du permis, bonus, antécédents de sinistres), le lieu de stationnement habituel et le niveau de garanties choisi. Une Ninja de forte cylindrée ne s'assure pas au même tarif qu'une petite Z d'entrée de gamme. Chez AMV, le devis personnalisé en ligne tient compte de tous ces éléments et vous donne un tarif adapté à votre profil en quelques minutes, gratuitement et sans engagement." },
@@ -98,6 +105,21 @@
     }
     var h1box = document.getElementById("rl-h1box");
     if(h1box && !document.getElementById("rl-intro")){ var bi=block(INTRO); bi.id="rl-intro"; insertAfter(bi, h1box); }
+
+    // Histoire condensee inseree apres l'intro
+    var introEl = document.getElementById("rl-intro");
+    if(introEl && !document.getElementById("rl-hist")){ var bh=block(HISTORY); bh.id="rl-hist"; insertAfter(bh, introEl); }
+    // Resserrage : barrer les longs paragraphes d'histoire de marque existants
+    if(!window.__rlHistStruck){
+      var HK=["épopée industrielle","kawasaki dockyard","a l'origine","première moitié du xxe","après-guerre a été","repli vers le marché","période actuelle, depuis 1997","aujourd'hui, kawasaki heavy","circuits de compétition","tout a commencé dans un chantier","conclusion sur la marque","en conclusion, l'histoire","capacité de kawasaki à surmonter","avec plus de cinquante filiales"];
+      var struck=0;
+      [].slice.call(document.querySelectorAll("h4, p")).forEach(function(e){
+        if(e.closest(".rl-add")) return;
+        var n=norm(e.textContent);
+        for(var i=0;i<HK.length;i++){ if(n.indexOf(norm(HK[i]))>=0){ e.classList.add("rl-del"); struck++; break; } }
+      });
+      if(struck) window.__rlHistStruck=true;
+    }
 
     var anchorBody = findByText("h2","comment assurer sa moto");
     if(anchorBody && !document.getElementById("rl-body")){
