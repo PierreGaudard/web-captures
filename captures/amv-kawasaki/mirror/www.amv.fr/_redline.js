@@ -6,7 +6,7 @@
 
   var INTRO = [
     { note: "À retenir : AMV, spécialiste du deux-roues depuis 1974, assure toutes les Kawasaki (Ninja, Z, Versys, Vulcan, ZX) avec des formules au tiers, vol-incendie ou tous risques, une assistance 24h/24 et un devis en ligne gratuit en 3 minutes." },
-    { p: "Vous roulez en Kawasaki et cherchez une assurance moto Kawasaki adaptée à votre modèle ? AMV, leader de l'assurance moto et scooter, couvre toute la gamme du constructeur japonais, du roadster Z à la sportive Ninja, des trails Versys aux customs Vulcan. Choisissez la protection qui correspond à vos besoins et souscrivez en ligne en quelques minutes." }
+    { p: "Vous roulez en Kawasaki et cherchez une assurance moto Kawasaki adaptée à votre modèle ? AMV, leader de <a href='https://www.amv.fr/assurance/moto/' target='_blank' rel='noopener' class='rl-link' style='color:inherit;text-decoration:underline;font-weight:600'>l'assurance moto</a> et scooter, couvre toute la gamme du constructeur japonais, du roadster Z à la sportive Ninja, des trails Versys aux customs Vulcan. Choisissez la protection qui correspond à vos besoins et souscrivez en ligne en quelques minutes." }
   ];
 
   // Histoire de marque resserree (remplace les longs paragraphes existants, barres ci-dessous)
@@ -18,11 +18,11 @@
 
   var BODY = [
     { h2: "Pourquoi assurer sa Kawasaki chez AMV ?" },
-    { p: "Une Kawasaki se conduit avec plaisir. Encore faut-il bien l'assurer. AMV, spécialiste du deux-roues depuis cinquante ans, propose une assurance en ligne simple et rapide : quelques clics suffisent pour être couvert, sans vous déplacer en agence. Plus d'1 million d'assurés font confiance à AMV, noté 4,7/5 par les avis clients vérifiés. Les conseillers AMV sont des passionnés de deux-roues. Ils comprennent les besoins d'un motard Kawasaki et vous orientent vers la couverture la plus juste. En cas de sinistre, accident, vol ou panne, l'assistance reste joignable 24h/24 et 7j/7 selon l'option choisie." },
+    { p: "Une Kawasaki se conduit avec plaisir. Encore faut-il bien l'assurer. AMV, spécialiste du deux-roues depuis cinquante ans, propose une assurance en ligne simple et rapide : quelques clics suffisent pour être couvert, sans vous déplacer en agence. Plus d'1 million d'assurés font confiance à AMV, noté 4,7/5 par Avis Vérifiés, tiers de confiance. Les conseillers AMV sont des passionnés de deux-roues. Ils comprennent les besoins d'un motard Kawasaki et vous orientent vers la couverture la plus juste. En cas de sinistre, accident, vol ou panne, l'assistance reste joignable 24h/24 et 7j/7 selon l'option choisie." },
 
     { h2: "Les formules d'assurance moto Kawasaki" },
     { p: "AMV propose une gamme complète de formules d'assurance moto Kawasaki, de la couverture essentielle à la protection tous risques. Vous choisissez le niveau de garanties selon la valeur de votre moto, sa cylindrée, son usage et votre profil de conducteur. Quelle que soit la formule, la responsabilité civile, l'assistance et la protection juridique sont incluses." },
-    { p: "L'assurance au tiers couvre la responsabilité civile : c'est la garantie minimale obligatoire, qui indemnise les dommages causés à un tiers. Elle convient à une Kawasaki ancienne, de faible valeur ou peu utilisée, et reste la formule la moins chère." },
+    { p: "L'assurance au tiers couvre la responsabilité civile : c'est la garantie minimale obligatoire, qui indemnise les dommages causés à un tiers. Elle peut convenir à une Kawasaki ancienne, de faible valeur ou peu utilisée, et reste la formule la moins chère." },
     { p: "La formule intermédiaire ajoute le vol, la tentative de vol et l'incendie. Elle est recommandée si vous garez votre moto en extérieur : les Kawasaki sportives et de forte cylindrée figurent parmi les modèles les plus convoités par les voleurs." },
     { p: "La formule tous risques indemnise les dommages subis par votre deux-roues, même en cas de sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, recommandée pour une Kawasaki récente, une Ninja ou une Z de fortes cylindrées, ou une moto financée à crédit." },
 
@@ -33,12 +33,12 @@
       "Sportives Ninja (Ninja 400, Ninja 650, Ninja ZX-6R, ZX-10R, H2) : forte cylindrée et performances élevées, la formule tous risques est souvent recommandée.",
       "Trails Versys (Versys 650, Versys 1000) : pensés pour les longs trajets et le voyage, avec une assistance étendue utile.",
       "Customs Vulcan : des motos de balade au style néo-rétro, prisées pour le loisir le week-end.",
-      "Rétros W et Eliminator : des modèles au caractère classique, parfois éligibles à une assurance moto de collection après 30 ans."
+      "Rétros W et Eliminator : des modèles au caractère classique, parfois éligibles à une <a href='https://www.amv.fr/legende/vehicule-collection/assurance-moto-collection.aspx' target='_blank' rel='noopener' class='rl-link' style='color:inherit;text-decoration:underline;font-weight:600'>assurance moto de collection</a> après 30 ans."
     ] },
     { p: "Pour chaque modèle, le tarif et les garanties s'ajustent à la cylindrée, à l'usage et au profil du conducteur. Un conseiller AMV vous aide à trouver la couverture la plus juste pour votre Kawasaki." },
 
     { h2: "Des garanties et options adaptées à votre moto" },
-    { p: "Au-delà des formules, AMV permet de personnaliser votre contrat avec des options selon votre usage. L'assistance 0 km intervient même devant chez vous, sans franchise kilométrique, pour une panne, un accident ou un vol. La garantie des équipements protège votre casque, vos gants et votre blouson en cas de sinistre. La garantie individuelle du conducteur couvre vos propres blessures, y compris en cas d'accident responsable. Vous adaptez ainsi votre protection à votre Kawasaki, au quotidien comme pour le loisir le week-end." },
+    { p: "Au-delà des formules, AMV permet de personnaliser votre contrat avec des options selon votre usage. L'assistance 0 km intervient même devant chez vous, sans franchise kilométrique, pour une panne, un accident ou un vol. La garantie des équipements protège votre casque, vos gants et votre blouson en cas de sinistre. La garantie individuelle du conducteur vous verse un capital en cas de décès ou d'invalidité permanente, même en cas d'accident responsable. Vous adaptez ainsi votre protection à votre Kawasaki, au quotidien comme pour le loisir le week-end." },
     { p: "La protection juridique, incluse dès la première formule, prend en charge la défense de vos intérêts en cas de litige lié à votre moto, qu'il s'agisse d'un désaccord après un accident ou d'un conflit avec un réparateur. Combinée à l'assistance, elle vous évite bien des démarches en cas de coup dur." },
 
     { h2: "Protéger sa Kawasaki contre le vol" },
@@ -48,7 +48,7 @@
     { p: "Le coût d'une assurance moto Kawasaki dépend de plusieurs facteurs : le modèle et la cylindrée de la moto, l'expérience du conducteur (ancienneté du permis, bonus, antécédents de sinistres), le lieu de stationnement habituel et le niveau de garanties choisi. Une Ninja de forte cylindrée ne s'assure pas au même tarif qu'une petite Z d'entrée de gamme. Chez AMV, le devis personnalisé en ligne tient compte de tous ces éléments et vous donne un tarif adapté à votre profil en quelques minutes, gratuitement et sans engagement." },
 
     { h2: "Comment souscrire votre assurance moto Kawasaki en ligne ?" },
-    { p: "Pour assurer votre moto Kawasaki, la souscription chez AMV est simple et rapide. Munissez-vous de votre permis de conduire et de la carte grise de votre Kawasaki, renseignez le modèle, la cylindrée et votre profil de conducteur, puis obtenez votre devis gratuit en 3 minutes. Si le tarif vous convient, finalisez la souscription en quelques clics et recevez votre carte verte par e-mail. Vous bénéficiez d'une couverture immédiate, sous réserve de certaines conditions, pour prendre la route sans attendre." }
+    { p: "Pour assurer votre moto Kawasaki, la souscription chez AMV est simple et rapide. Munissez-vous de votre permis de conduire et de la carte grise de votre Kawasaki, renseignez le modèle, la cylindrée et votre profil de conducteur, puis obtenez votre devis gratuit en 3 minutes. Si le tarif vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par e-mail. Vous bénéficiez d'une couverture immédiate, sous réserve de certaines conditions, pour prendre la route sans attendre." }
   ];
 
   var FAQ = [
