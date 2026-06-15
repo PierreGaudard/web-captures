@@ -9,7 +9,7 @@
     { mode: 'insertBlock', anchorMatch: 'Questions fréquentes', position: 'before',
       content: [
         { h2: "Qu'est-ce que le permis moto A2 ?" },
-        { p: "Le permis A2 est accessible dès 18 ans. Il autorise la conduite de motos dont la puissance ne dépasse pas 35 kW (soit 47,5 chevaux) et de trois-roues limités à 15 kW. Après deux ans de pratique et une formation complémentaire de 7 heures, vous pouvez obtenir le permis A, qui donne accès à toutes les motos sans restriction de puissance. Le permis A2 s'adresse à tous les profils, quel que soit l'âge : il représente souvent la première étape avant de prendre la route sur des véhicules plus puissants.",
+        { p: "Le permis A2 est accessible dès 18 ans. Il autorise la conduite de motos dont la puissance ne dépasse pas 35 kW (soit 47,5 chevaux) et de trois-roues limités à 15 kW. Après deux ans de pratique et une formation complémentaire de 7 heures, vous pouvez obtenir le permis A, qui donne accès à toutes les motos sans restriction de puissance. Le permis A2 s'adresse à tous les profils, quel que soit l'âge : il représente la première étape avant de prendre la route sur des véhicules plus puissants.",
           links: [{ t: "le permis A", href: "https://www.amv.fr/assurance-moto/assurance-moto-permis-a/" }] },
         { h3: "Les conditions d'accès au permis A2" },
         { p: "Pour obtenir le permis A2 : avoir au moins 18 ans, réussir l'examen du code de la route, puis passer deux épreuves pratiques (plateau et circulation). La formation en moto-école comprend un minimum de 20 heures de conduite, dont 8 heures en plateau et 12 heures en circulation. Le coût total varie selon les régions et les moto-écoles." },
@@ -48,9 +48,9 @@
         { h2: "Les garanties essentielles pour un jeune motard" },
         { p: "Les accidents de moto provoquent des blessures corporelles plus fréquentes et plus graves que les accidents auto. Certaines garanties méritent une attention particulière pour un conducteur novice en permis A2. Nos conseils pour bien vous protéger dès le départ." },
         { h3: "Protection corporelle du conducteur" },
-        { p: "Cette garantie indemnise le conducteur en cas d'accident corporel, même responsable : capital en cas de décès, indemnisation en cas d'invalidité permanente. Les frais de soins et d'hospitalisation, eux, relèvent de la Sécurité sociale et de votre mutuelle. Elle intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas : accident seul, accident responsable." },
+        { p: "Cette garantie indemnise le conducteur en cas d'accident corporel, même responsable : capital en cas de décès, indemnisation en cas d'invalidité permanente. Elle intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas : accident seul, accident responsable." },
         { h3: "Équipement et accessoires moto" },
-        { p: "Casque, gants, blouson, bottes : l'équipement d'un motard représente un budget conséquent. Cette garantie couvre le remplacement de vos équipements en cas de sinistre. Elle s'étend aux accessoires installés sur votre véhicule (top case, sacoches, échappement…), à hauteur de 5 000 €." },
+        { p: "Casque, gants, blouson, bottes : l'équipement d'un motard représente un budget conséquent. Cette garantie couvre le remplacement de vos équipements en cas de sinistre, à hauteur de 5 000 €. Elle s'étend aux accessoires installés sur votre véhicule (top case, sacoches, échappement…)." },
         { h3: "Assistance 24h/24" },
         { p: "Le service d'assistance AMV intervient 24h/24 et 7j/7 en cas de panne, d'accident ou de vol :" },
         { ul: ["remorquage jusqu'à la concession la plus proche", "rapatriement à domicile"] },
@@ -74,7 +74,7 @@
           links: [{ t: "AMV", href: "https://www.amv.fr/" }] },
         { p: "Les avantages AMV pour un permis A2 :" },
         { ul: ["tarifs adaptés aux jeunes conducteurs", "formules évolutives qui suivent votre progression vers le permis A", "souscription 100 % en ligne, devis assurance en quelques minutes", "accompagnement personnalisé par des conseillers spécialistes"] },
-        { p: "Avec une note de satisfaction de 4,7 sur 5, AMV revendique plus d'1 million d'assurés. Que vous rouliez en sportive, en roadster ou en scooter, AMV dispose d'une formule adaptée à votre profil." }
+        { p: "AMV a plus d'1 million d'assurés et une note de satisfaction de 4,7 sur 5. Que vous rouliez en sportive, en roadster ou en scooter, AMV dispose d'une formule adaptée à votre profil." }
       ] },
 
     // 3. FAQ : on remplace les questions correspondantes, on ajoute les nouvelles, on garde le reste

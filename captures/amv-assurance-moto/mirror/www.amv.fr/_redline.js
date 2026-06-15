@@ -40,7 +40,7 @@
     // 5. Options : reprend l'existant, ajoute la version rédigée (vert) en tête de chaque accordéon
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
       content: [
-        { p: "Versement d'un capital en cas de décès ou d'invalidité permanente consécutifs à un accident, même responsable. Les frais de soins et d'hospitalisation restent, eux, pris en charge par la Sécurité sociale et votre mutuelle, le cas échéant. Cette protection intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }
+        { p: "Versement d'un capital en cas de décès ou d'invalidité permanente consécutifs à un accident, même responsable. Cette protection intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Assistance',
       content: [
@@ -50,7 +50,7 @@
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Option plus',
       content: [
-        { p: "Extension de la couverture aux accessoires hors-série montés sur votre moto et à l'équipement vestimentaire de protection, à concurrence de 5 000 euros. Prolongation de la garantie valeur à neuf jusqu'à 18 mois après l'achat, au lieu de 6 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, sacoches, échappement…)." }
+        { p: "Extension de la couverture aux accessoires hors-série montés sur votre moto et à l'équipement vestimentaire moto de protection, à concurrence de 5 000 euros. Prolongation de la garantie valeur à neuf jusqu'à 18 mois après l'achat, au lieu de 6 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, sacoches, échappement…)." }
       ] },
 
     // 6a. "Pourquoi choisir AMV" -> avant la section avis "AMV c'est 1 million d'assurés"
@@ -80,7 +80,7 @@
     { mode: 'insertBlock', anchorMatch: 'Des questions sur votre assurance', position: 'before',
       content: [
         { h2: "Comment obtenir votre devis assurance moto ?" },
-        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, année) et votre profil (expérience, bonus-malus, région) via le formulaire pour recevoir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevez votre attestation d'assurance par mail. La souscription est sans engagement : vous restez libre de votre décision, à votre rythme. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
+        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, année) et votre profil (expérience, bonus-malus, région) via le formulaire pour recevoir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevez votre attestation d'assurance par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
           links: [{ t: "devis assurance moto en ligne", href: "https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx" }] }
       ] },
 
@@ -96,7 +96,7 @@
           { p: "Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
         ] },
         { existing: 'Quels équipements sont couverts', content: [
-          { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros) en cas de sinistre. Avec l'Option plus, couverture étendue à l'ensemble de l'équipement vestimentaire et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros." }
+          { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros) en cas de sinistre. Avec l'Option plus, couverture étendue à l'ensemble de l'équipement vestimentaire moto et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros." }
         ] },
         { existing: 'Comment déclarer un sinistre moto', content: [
           { p: "Déclaration directement depuis Mon Espace AMV sur amv.fr, 24h/24. Un gestionnaire dédié prend en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation." }
@@ -107,9 +107,7 @@
           { p: "Oui. Tout véhicule terrestre à moteur doit être assuré au minimum en responsabilité civile, même s'il est stationné dans un garage et ne circule pas. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros. Cette obligation légale s'applique à toutes les motos, scooters et autres deux-roues motorisés, quelle que soit leur puissance ou leur cylindrée." }
         ] },
         { q: "Quels documents faut-il pour assurer une moto ?", content: [
-          { p: "Chez AMV, la souscription est simplifiée : dans la grande majorité des cas, seul votre relevé d'informations (délivré par votre précédent assureur) est nécessaire, là où d'autres assureurs réclament davantage de pièces. Selon votre situation, peuvent aussi être demandés :" },
-          { ul: ["votre permis de conduire", "la carte grise du véhicule", "un justificatif de domicile (dans certains cas)"] },
-          { p: "Toutes les démarches se font en ligne, réponse immédiate." }
+          { p: "Chez AMV, la souscription est simplifiée : dans la grande majorité des cas, seul votre relevé d'informations (délivré par votre précédent assureur) est nécessaire, là où d'autres assureurs réclament davantage de pièces, telles que le permis de conduire, la carte grise du véhicule et un justificatif de domicile. Toutes les démarches se font en ligne, réponse immédiate." }
         ] }
       ] }
   ];
