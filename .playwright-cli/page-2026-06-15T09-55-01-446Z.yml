@@ -1,0 +1,985 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - img "image:" [ref=e31]
+        - generic:
+          - 'img "AMV: AMV: premier plan"'
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - heading "Bienvenue chez le leader de l’assurance moto" [level=1] [ref=e34]:
+              - text: Bienvenue chez le leader
+              - text: de l’assurance moto
+            - heading "H1 Assurance moto avec le leader de l'assurance deux-roues" [level=1] [ref=e35]:
+              - generic [ref=e36]: H1
+              - text: Assurance moto avec le leader de l'assurance deux-roues
+            - generic [ref=e37]:
+              - generic [ref=e38]:
+                - img [ref=e39]
+                - generic [ref=e40]: Tarif sans engagement
+              - generic [ref=e41]:
+                - img [ref=e42]
+                - generic [ref=e43]: Assurance immédiate 24h/24
+          - link "Testez nos tarifs en quelques clics" [ref=e46] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+      - generic [ref=e49]:
+        - generic [ref=e50]:
+          - img [ref=e51]
+          - heading "Leader de l’assurance moto et scooter" [level=3] [ref=e64]:
+            - text: Leader de l’assurance
+            - text: moto et scooter
+          - paragraph [ref=e65]: Recommandé par les assurés et les professionnels.
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - heading "50 ans d’expérience Plus d’1 million d’assurés" [level=3] [ref=e74]:
+            - text: 50 ans d’expérience
+            - text: Plus d’1 million d’assurés
+          - paragraph [ref=e75]:
+            - text: "Notre engagement depuis 1974 :"
+            - text: assurer vos passions.
+        - generic [ref=e76]:
+          - img [ref=e77]
+          - heading "L'alliance réussie d'un service client humain et du digital" [level=3] [ref=e87]:
+            - text: L'alliance réussie d'un service
+            - text: client humain et du digital
+          - paragraph [ref=e88]:
+            - text: Plus de 300 conseillers basés
+            - text: à Bordeaux à votre écoute et
+            - text: une gestion autonome de votre
+            - text: contrat dans Mon Espace AMV.
+        - generic [ref=e89]:
+          - img [ref=e90]
+          - heading "Plus de 9 assurés sur 10 recommandent AMV" [level=3] [ref=e106]:
+            - text: Plus de 9 assurés sur 10
+            - text: recommandent AMV
+          - paragraph [ref=e107]: Nous améliorons sans cesse votre expérience client. Soyez le prochain assuré heureux !
+      - generic [ref=e109]:
+        - generic [ref=e110]:
+          - generic [ref=e111]: Notre offre d'assurance moto
+          - 'heading "Assurance moto : des formules adaptées à votre moto et à vos besoins Notre offre d''assurance moto inclut dès sa première formule les garanties indispensables pour prendre la route sereinement." [level=2] [ref=e112]':
+            - text: "Assurance moto : des formules adaptées"
+            - text: à votre moto et à vos besoins
+            - paragraph [ref=e113]: Notre offre d'assurance moto inclut dès sa première formule les garanties indispensables pour prendre la route sereinement.
+        - group "exemples de formules" [ref=e115]:
+          - list [ref=e117]:
+            - listitem [ref=e118]:
+              - generic [ref=e119]:
+                - link "Testez nos tarifs moto Responsabilité civile" [ref=e120] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                  - generic [ref=e121]: Formule 1
+                  - generic [ref=e122]: Responsabilité civile
+                - link "Testez nos tarifs moto Responsabilité civile" [ref=e123] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                  - generic [ref=e125]:
+                    - img [ref=e126]
+                    - generic [ref=e127]: Responsabilité civile
+                  - generic [ref=e129]:
+                    - img [ref=e130]
+                    - generic [ref=e131]: Assistance juridique
+                  - generic [ref=e133]:
+                    - img [ref=e134]
+                    - generic [ref=e135]: Casque
+                  - generic [ref=e137]:
+                    - img [ref=e138]
+                    - generic [ref=e139]: Gants
+                  - generic [ref=e141]:
+                    - img [ref=e142]
+                    - generic [ref=e143]: Gilet airbag
+                  - generic [ref=e145]:
+                    - img [ref=e146]
+                    - generic [ref=e147]: Vol
+                  - generic [ref=e149]:
+                    - img [ref=e150]
+                    - generic [ref=e151]: Incendie
+                  - generic [ref=e153]:
+                    - img [ref=e154]
+                    - generic [ref=e155]: Dommages collision avec tiers identifié
+                  - generic [ref=e157]:
+                    - img [ref=e158]
+                    - generic [ref=e159]: Dommages tous accidents
+                - link "Testez nos tarifs" [ref=e162] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+            - listitem [ref=e163]:
+              - generic [ref=e164]:
+                - link "Testez nos tarifs moto Vol/incendie" [ref=e165] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                  - generic [ref=e166]: Formule 2
+                  - generic [ref=e167]: Vol / Incendie
+                - link "Testez nos tarifs moto Vol/incendie" [ref=e168] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                  - generic [ref=e170]:
+                    - img [ref=e171]
+                    - generic [ref=e172]: Responsabilité civile
+                  - generic [ref=e174]:
+                    - img [ref=e175]
+                    - generic [ref=e176]: Assistance juridique
+                  - generic [ref=e178]:
+                    - img [ref=e179]
+                    - generic [ref=e180]: Casque
+                  - generic [ref=e182]:
+                    - img [ref=e183]
+                    - generic [ref=e184]: Gants
+                  - generic [ref=e186]:
+                    - img [ref=e187]
+                    - generic [ref=e188]: Gilet airbag
+                  - generic [ref=e190]:
+                    - img [ref=e191]
+                    - generic [ref=e192]: Vol
+                  - generic [ref=e194]:
+                    - img [ref=e195]
+                    - generic [ref=e196]: Incendie
+                  - generic [ref=e198]:
+                    - img [ref=e199]
+                    - generic [ref=e200]: Dommages collision avec tiers identifié
+                  - generic [ref=e202]:
+                    - img [ref=e203]
+                    - generic [ref=e204]: Dommages tous accidents
+                - link "Testez nos tarifs" [ref=e207] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+            - listitem [ref=e208]:
+              - generic [ref=e209]:
+                - link "Testez nos tarifs moto Dommages collision" [ref=e210] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                  - generic [ref=e211]: Formule 3
+                  - generic [ref=e212]: Dommages collision
+                - link "Testez nos tarifs moto Dommages collision" [ref=e213] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                  - generic [ref=e215]:
+                    - img [ref=e216]
+                    - generic [ref=e217]: Responsabilité civile
+                  - generic [ref=e219]:
+                    - img [ref=e220]
+                    - generic [ref=e221]: Assistance juridique
+                  - generic [ref=e223]:
+                    - img [ref=e224]
+                    - generic [ref=e225]: Casque
+                  - generic [ref=e227]:
+                    - img [ref=e228]
+                    - generic [ref=e229]: Gants
+                  - generic [ref=e231]:
+                    - img [ref=e232]
+                    - generic [ref=e233]: Gilet airbag
+                  - generic [ref=e235]:
+                    - img [ref=e236]
+                    - generic [ref=e237]: Vol
+                  - generic [ref=e239]:
+                    - img [ref=e240]
+                    - generic [ref=e241]: Incendie
+                  - generic [ref=e243]:
+                    - img [ref=e244]
+                    - generic [ref=e245]: Dommages collision avec tiers identifié
+                  - generic [ref=e247]:
+                    - img [ref=e248]
+                    - generic [ref=e249]: Dommages tous accidents
+                - link "Testez nos tarifs" [ref=e252] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+            - listitem [ref=e253]:
+              - generic [ref=e254]:
+                - link "Testez nos tarifs moto Tous risques" [ref=e255] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                  - generic [ref=e256]: Formule 4
+                  - generic [ref=e257]: Tous risques
+                - link "Testez nos tarifs moto Tous risques" [ref=e258] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+                  - generic [ref=e260]:
+                    - img [ref=e261]
+                    - generic [ref=e262]: Responsabilité civile
+                  - generic [ref=e264]:
+                    - img [ref=e265]
+                    - generic [ref=e266]: Assistance juridique
+                  - generic [ref=e268]:
+                    - img [ref=e269]
+                    - generic [ref=e270]: Casque
+                  - generic [ref=e272]:
+                    - img [ref=e273]
+                    - generic [ref=e274]: Gants
+                  - generic [ref=e276]:
+                    - img [ref=e277]
+                    - generic [ref=e278]: Gilet airbag
+                  - generic [ref=e280]:
+                    - img [ref=e281]
+                    - generic [ref=e282]: Vol
+                  - generic [ref=e284]:
+                    - img [ref=e285]
+                    - generic [ref=e286]: Incendie
+                  - generic [ref=e288]:
+                    - img [ref=e289]
+                    - generic [ref=e290]: Dommages collision avec tiers identifié
+                  - generic [ref=e292]:
+                    - img [ref=e293]
+                    - generic [ref=e294]: Dommages tous accidents
+                - link "Testez nos tarifs" [ref=e297] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+        - link "Voir le détail des formules" [ref=e300] [cursor=pointer]:
+          - /url: "#detailFormules"
+          - img [ref=e302]
+          - text: Voir le détail des formules
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - generic [ref=e306]: Nos garanties complémentaires
+          - heading "Des options à la carte Vous êtes libre d’ajouter une ou des option(s) que vous jugerez nécessaire(s)" [level=2] [ref=e307]:
+            - text: Des options à la carte
+            - paragraph [ref=e308]: Vous êtes libre d’ajouter une ou des option(s) que vous jugerez nécessaire(s)
+        - group "exemples de formules" [ref=e310]:
+          - list [ref=e312]:
+            - listitem [ref=e313]:
+              - generic [ref=e314]:
+                - generic [ref=e315]:
+                  - generic [ref=e316]: Option
+                  - generic [ref=e317]: Individuelle pilote
+                - generic [ref=e320]:
+                  - img [ref=e321]
+                  - generic [ref=e322]: Capital en cas de décès ou invalidité
+            - listitem [ref=e323]:
+              - generic [ref=e324]:
+                - generic [ref=e325]:
+                  - generic [ref=e326]: Option
+                  - generic [ref=e327]: Assistance 0 km
+                - generic [ref=e328]:
+                  - generic [ref=e330]:
+                    - img [ref=e331]
+                    - generic [ref=e332]: En cas de panne, accident, vol ou tentative de vol
+                  - generic [ref=e334]:
+                    - img [ref=e335]
+                    - generic [ref=e336]: Crevaison, perte de clés, fourrière
+            - listitem [ref=e337]:
+              - generic [ref=e338]:
+                - generic [ref=e339]:
+                  - generic [ref=e340]: Option
+                  - generic [ref=e341]: Option plus
+                - generic [ref=e342]:
+                  - generic [ref=e344]:
+                    - img [ref=e345]
+                    - generic [ref=e346]: Remboursement des accessoires hors-série et équipement vestimentaire moto
+                  - generic [ref=e348]:
+                    - img [ref=e349]
+                    - generic [ref=e350]: Extension valeur à neuf 18 mois
+        - link "Voir le détail des options" [ref=e353] [cursor=pointer]:
+          - /url: "#detailFormules"
+          - img [ref=e355]
+          - text: Voir le détail des options
+        - link "Testez nos tarifs en quelques clics" [ref=e358] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+      - generic [ref=e360]:
+        - generic [ref=e361]:
+          - generic [ref=e362]: Assurance moto
+          - heading "Un contrat spécial moto pensé pour vous" [level=2] [ref=e363]
+        - list [ref=e364]:
+          - listitem [ref=e365]:
+            - generic [ref=e366]:
+              - img [ref=e367]
+              - generic [ref=e368]: Casque + Gants + Gilet airbag couverts dès la formule 1
+          - listitem [ref=e369]:
+            - generic [ref=e370]:
+              - img [ref=e371]
+              - generic [ref=e372]: Reprise du meilleur bonus auto, moto
+          - listitem [ref=e373]:
+            - generic [ref=e374]:
+              - img [ref=e375]
+              - generic [ref=e376]: "Hivernage : modulation de vos garanties selon votre usage"
+          - listitem [ref=e377]:
+            - generic [ref=e378]:
+              - img [ref=e379]
+              - generic [ref=e380]: Remboursement de la valeur à neuf pendant 6 ou 18 mois selon la garantie choisie
+          - listitem [ref=e381]:
+            - generic [ref=e382]:
+              - img [ref=e383]
+              - generic [ref=e384]: "Assistance 0km : dépannage même en bas de chez vous"
+          - listitem [ref=e385]:
+            - generic [ref=e386]:
+              - img [ref=e387]
+              - generic [ref=e388]: "Assistance AMV : suivi en temps réel de l'arrivée du dépanneur sur votre mobile"
+          - listitem [ref=e389]:
+            - generic [ref=e390]:
+              - img [ref=e391]
+              - generic [ref=e392]: "L'assurance de tous les motards : jeune permis, motard expérimenté, motard occasionnel,..."
+          - listitem [ref=e393]:
+            - generic [ref=e394]:
+              - img [ref=e395]
+              - generic [ref=e396]: L'assurance de tous les scooters, motos, 50cc, tricycles, électriques, thermiques, cross, enduros, quad/SSV, roadsters, trails …
+        - heading "H3 Un accompagnement de motard à motard" [level=3] [ref=e397]:
+          - generic [ref=e398]: H3
+          - text: Un accompagnement de motard à motard
+        - paragraph [ref=e399]: "Plus de 350 conseillers basés à Bordeaux vous apportent des conseils personnalisés par téléphone, par e-mail ou via votre Espace Client. En cas de sinistre, un interlocuteur dédié suit votre dossier d'indemnisation. Vous gérez votre contrat moto en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé : modification des garanties, suivi des remboursements et déclaration en quelques clics."
+      - generic [ref=e401]:
+        - generic [ref=e402]:
+          - generic [ref=e403]: Nos offres détaillées
+          - heading "Des garanties sur-mesure pour votre assurance moto" [level=2] [ref=e404]:
+            - text: Des garanties sur-mesure
+            - text: pour votre assurance moto
+        - generic [ref=e405]:
+          - generic [ref=e406]:
+            - heading "Nos garanties" [level=3] [ref=e407]
+            - group "exemples de garanties" [ref=e408]:
+              - list [ref=e410]:
+                - listitem [ref=e411]:
+                  - generic [ref=e412] [cursor=pointer]:
+                    - heading "Responsabilité civile" [level=4] [ref=e413]
+                    - paragraph [ref=e414]: Prise en charge des dommages matériels et corporels causés à un tiers, y compris au passager...
+                    - button "Lire la suite" [ref=e416]:
+                      - img [ref=e418]
+                      - text: Lire la suite
+                - listitem [ref=e419]:
+                  - generic [ref=e420] [cursor=pointer]:
+                    - heading "Assistance juridique" [level=4] [ref=e421]
+                    - paragraph [ref=e422]: Aide juridique en cas d'accident causé à un tiers ou subi par l'assuré, ou en cas de litige lié au véhicule assuré...
+                    - button "Lire la suite" [ref=e424]:
+                      - img [ref=e426]
+                      - text: Lire la suite
+                - listitem [ref=e427]:
+                  - generic [ref=e428] [cursor=pointer]:
+                    - heading "Casque, gants et gilet airbag" [level=4] [ref=e429]
+                    - paragraph [ref=e430]: Prise en charge de votre casque, de vos gants et de votre gilet airbag détériorés suite à un accident. Remboursement déduction faite de la vétusté et dans la limite du plafond...
+                    - button "Lire la suite" [ref=e432]:
+                      - img [ref=e434]
+                      - text: Lire la suite
+                - listitem [ref=e435]:
+                  - generic [ref=e436] [cursor=pointer]:
+                    - heading "Vol / Incendie" [level=4] [ref=e437]
+                    - paragraph [ref=e438]: Prise en charge des dommages matériels en cas de vol, tentative de vol, incendie...
+                    - button "Lire la suite" [ref=e440]:
+                      - img [ref=e442]
+                      - text: Lire la suite
+                - listitem [ref=e443]:
+                  - generic [ref=e444] [cursor=pointer]:
+                    - heading "Dommages collision" [level=4] [ref=e445]
+                    - paragraph [ref=e446]: Prise en charge des dommages matériels à la suite d'une collision avec un tiers identifié...
+                    - button "Lire la suite" [ref=e448]:
+                      - img [ref=e450]
+                      - text: Lire la suite
+                - listitem [ref=e451]:
+                  - generic [ref=e452] [cursor=pointer]:
+                    - heading "Dommages tous accidents « Tous risques »" [level=4] [ref=e453]
+                    - paragraph [ref=e454]: Prise en charge des dommages matériels "tous accidents" (avec ou sans tiers identifié) ou suite à un vandalisme...
+                    - button "Lire la suite" [ref=e456]:
+                      - img [ref=e458]
+                      - text: Lire la suite
+          - generic [ref=e459]:
+            - heading "Nos options" [level=3] [ref=e460]
+            - group "exemples d'options" [ref=e461]:
+              - list [ref=e463]:
+                - listitem [ref=e464]:
+                  - generic [ref=e465] [cursor=pointer]:
+                    - heading "Individuelle pilote" [level=4] [ref=e466]
+                    - paragraph [ref=e467]: Versement d'une indemnité à l'assuré ou ses ayants droit en cas de préjudices corporels subis suite à un accident responsable...
+                    - button "Lire la suite" [ref=e469]:
+                      - img [ref=e471]
+                      - text: Lire la suite
+                - listitem [ref=e472]:
+                  - generic [ref=e473] [cursor=pointer]:
+                    - heading "Assistance" [level=4] [ref=e474]
+                    - paragraph [ref=e475]: Assistance 0km en cas de panne, accident, tentative de vol, vol, crevaison, perte/ vol/ casse/ enfermement de clés ou enlèvement par la fourrière, 24h/24 7j/7...
+                    - button "Lire la suite" [ref=e477]:
+                      - img [ref=e479]
+                      - text: Lire la suite
+                - listitem [ref=e480]:
+                  - generic [ref=e481] [cursor=pointer]:
+                    - heading "Option plus" [level=4] [ref=e482]
+                    - paragraph [ref=e483]: Remboursement des accessoires hors-série et de l'équipement vestimentaire moto. Extension de la valeur à neuf jusqu'à 18 mois...
+                    - button "Lire la suite" [ref=e485]:
+                      - img [ref=e487]
+                      - text: Lire la suite
+        - link "Testez nos tarifs en quelques clics" [ref=e490] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+      - generic [ref=e492]:
+        - generic [ref=e493]:
+          - generic [ref=e494]: Assurance moto
+          - heading "AMV assure toutes les marques de moto Une expertise mise à votre service pour vous proposer des garanties sur-mesure." [level=2] [ref=e495]:
+            - text: AMV assure toutes les marques de moto
+            - paragraph [ref=e496]: Une expertise mise à votre service pour vous proposer des garanties sur-mesure.
+        - group "exemples de partenaires" [ref=e499]:
+          - list [ref=e501]:
+            - listitem [ref=e502]:
+              - 'link "Image : Yamaha Assurance Moto Yamaha" [ref=e503] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-yamaha/
+                - 'img "Image : Yamaha" [ref=e505]'
+                - generic [ref=e506]: Assurance Moto
+                - generic [ref=e507]: Yamaha
+            - listitem [ref=e508]:
+              - 'link "Image : Honda Assurance Moto Honda" [ref=e509] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-honda/
+                - 'img "Image : Honda" [ref=e511]'
+                - generic [ref=e512]: Assurance Moto
+                - generic [ref=e513]: Honda
+            - listitem [ref=e514]:
+              - 'link "Image : Suzuki Assurance Moto Suzuki" [ref=e515] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-suzuki/
+                - 'img "Image : Suzuki" [ref=e517]'
+                - generic [ref=e518]: Assurance Moto
+                - generic [ref=e519]: Suzuki
+            - listitem [ref=e520]:
+              - 'link "Image : Kawasaki Assurance Moto Kawasaki" [ref=e521] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+                - 'img "Image : Kawasaki" [ref=e523]'
+                - generic [ref=e524]: Assurance Moto
+                - generic [ref=e525]: Kawasaki
+            - listitem [ref=e526]:
+              - 'link "Image : BMW Assurance Moto BMW" [ref=e527] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-bmw/
+                - 'img "Image : BMW" [ref=e529]'
+                - generic [ref=e530]: Assurance Moto
+                - generic [ref=e531]: BMW
+            - listitem [ref=e532]:
+              - 'link "Image : KTM Assurance Moto KTM" [ref=e533] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-ktm/
+                - 'img "Image : KTM" [ref=e535]'
+                - generic [ref=e536]: Assurance Moto
+                - generic [ref=e537]: KTM
+            - listitem [ref=e538]:
+              - 'link "Image : Harley Davidson Assurance Moto Harley Davidson" [ref=e539] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-harley-davidson/
+                - 'img "Image : Harley Davidson" [ref=e541]'
+                - generic [ref=e542]: Assurance Moto
+                - generic [ref=e543]: Harley Davidson
+            - listitem [ref=e544]:
+              - 'link "Image : Triumph Assurance Moto Triumph" [ref=e545] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-triumph/
+                - 'img "Image : Triumph" [ref=e547]'
+                - generic [ref=e548]: Assurance Moto
+                - generic [ref=e549]: Triumph
+            - listitem [ref=e550]:
+              - 'link "Image : CFMOTO Assurance Moto CFMOTO" [ref=e551] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-cfmoto/
+                - 'img "Image : CFMOTO" [ref=e553]'
+                - generic [ref=e554]: Assurance Moto
+                - generic [ref=e555]: CFMOTO
+            - listitem [ref=e556]:
+              - 'link "Image : Ducati Assurance Moto Ducati" [ref=e557] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-ducati/
+                - 'img "Image : Ducati" [ref=e559]'
+                - generic [ref=e560]: Assurance Moto
+                - generic [ref=e561]: Ducati
+            - listitem [ref=e562]:
+              - 'link "Image : Aprilia Assurance Moto Aprilia" [ref=e563] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-aprilia/
+                - 'img "Image : Aprilia" [ref=e565]'
+                - generic [ref=e566]: Assurance Moto
+                - generic [ref=e567]: Aprilia
+            - listitem [ref=e568]:
+              - 'link "Image : Royal Enfield Assurance Moto Royal Enfield" [ref=e569] [cursor=pointer]':
+                - /url: /assurance-moto/assurance-moto-royal-enfield/
+                - 'img "Image : Royal Enfield" [ref=e571]'
+                - generic [ref=e572]: Assurance Moto
+                - generic [ref=e573]: Royal Enfield
+        - link "Assurance moto autres marques" [ref=e574] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - link "Testez nos tarifs en quelques clics" [ref=e577] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+        - heading "H3 Plus de 50 ans d'expertise deux-roues" [level=3] [ref=e578]:
+          - generic [ref=e579]: H3
+          - text: Plus de 50 ans d'expertise deux-roues
+        - paragraph [ref=e580]:
+          - text: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Cette expertise deux-roues couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de"
+          - link "chaque marque" [ref=e581] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/
+          - text: et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre.
+      - generic [ref=e583]:
+        - heading "AMV assure toutes les cylindrées" [level=2] [ref=e585]:
+          - text: AMV assure
+          - text: toutes les cylindrées
+        - generic [ref=e586]:
+          - group "exemples de cylindrées assurables" [ref=e588]:
+            - list [ref=e590]:
+              - listitem [ref=e591]:
+                - link "125cc Assurance moto" [ref=e592] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-125cm3/
+                  - generic [ref=e593]: 125cc
+                  - generic [ref=e594]: Assurance moto
+              - listitem [ref=e595]:
+                - link "250cc Assurance moto" [ref=e596] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-250cm3/
+                  - generic [ref=e597]: 250cc
+                  - generic [ref=e598]: Assurance moto
+              - listitem [ref=e599]:
+                - link "500cc Assurance moto" [ref=e600] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-500cm3/
+                  - generic [ref=e601]: 500cc
+                  - generic [ref=e602]: Assurance moto
+              - listitem [ref=e603]:
+                - link "650cc Assurance moto" [ref=e604] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-650cm3/
+                  - generic [ref=e605]: 650cc
+                  - generic [ref=e606]: Assurance moto
+              - listitem [ref=e607]:
+                - link "750cc Assurance moto" [ref=e608] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-750cm3/
+                  - generic [ref=e609]: 750cc
+                  - generic [ref=e610]: Assurance moto
+              - listitem [ref=e611]:
+                - link "1000cc Assurance moto" [ref=e612] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-1000cm3/
+                  - generic [ref=e613]: 1000cc
+                  - generic [ref=e614]: Assurance moto
+              - listitem [ref=e615]:
+                - link "1200cc Assurance moto" [ref=e616] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-1200cm3/
+                  - generic [ref=e617]: 1200cc
+                  - generic [ref=e618]: Assurance moto
+              - listitem [ref=e619]:
+                - link "1600cc Assurance moto" [ref=e620] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-1600cm3/
+                  - generic [ref=e621]: 1600cc
+                  - generic [ref=e622]: Assurance moto
+              - listitem [ref=e623]:
+                - link "50cc Assurance moto" [ref=e624] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-50cm3/
+                  - generic [ref=e625]: 50cc
+                  - generic [ref=e626]: Assurance moto
+              - listitem [ref=e627]:
+                - link "Électrique Assurance moto" [ref=e628] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-electrique/
+                  - generic [ref=e629]: Électrique
+                  - generic [ref=e630]: Assurance moto
+            - generic [ref=e632]:
+              - button [ref=e633] [cursor=pointer]:
+                - img [ref=e634]
+              - button [ref=e636] [cursor=pointer]:
+                - img [ref=e637]
+          - link "Assurance moto autres motorisations" [ref=e638] [cursor=pointer]:
+            - /url: /assurance-moto/assurance-moto-par-motorisation/
+        - heading "AMV vous assure quel que soit votre permis" [level=2] [ref=e640]:
+          - text: AMV vous assure
+          - text: quel que soit votre permis
+        - generic [ref=e641]:
+          - group "exemples de cylindrées assurables" [ref=e643]:
+            - list [ref=e645]:
+              - listitem [ref=e646]:
+                - link "AM Permis" [ref=e647] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-permis-am/#
+                  - generic [ref=e648]: AM
+                  - generic [ref=e649]: Permis
+              - listitem [ref=e650]:
+                - link "A1 Permis" [ref=e651] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-permis-a1/#
+                  - generic [ref=e652]: A1
+                  - generic [ref=e653]: Permis
+              - listitem [ref=e654]:
+                - link "A2 Permis" [ref=e655] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-permis-a2/#
+                  - generic [ref=e656]: A2
+                  - generic [ref=e657]: Permis
+              - listitem [ref=e658]:
+                - link "A Permis" [ref=e659] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-permis-a/#
+                  - generic [ref=e660]: A
+                  - generic [ref=e661]: Permis
+              - listitem [ref=e662]:
+                - link "B Permis" [ref=e663] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-permis-b/#
+                  - generic [ref=e664]: B
+                  - generic [ref=e665]: Permis
+              - listitem [ref=e666]:
+                - link "Sans Permis" [ref=e667] [cursor=pointer]:
+                  - /url: /assurance-moto/assurance-moto-sans-permis/
+                  - generic [ref=e668]: Sans
+                  - generic [ref=e669]: Permis
+            - generic [ref=e671]:
+              - button [ref=e672] [cursor=pointer]:
+                - img [ref=e673]
+              - button [ref=e675] [cursor=pointer]:
+                - img [ref=e676]
+          - link "Assurance moto autres permis" [ref=e677] [cursor=pointer]:
+            - /url: /assurance-moto/assurance-moto-par-permis/
+        - link "Testez nos tarifs en quelques clics" [ref=e680] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+      - generic [ref=e682]:
+        - generic [ref=e683]:
+          - generic [ref=e684]:
+            - heading "H2 Pourquoi choisir AMV pour assurer votre moto ?" [level=2] [ref=e685]:
+              - generic [ref=e686]: H2
+              - text: Pourquoi choisir AMV pour assurer votre moto ?
+            - paragraph [ref=e687]:
+              - text: AMV, leader et assureur spécialiste de l'assurance moto scooter en France depuis plus de 50 ans, assure plus d'1 million de motards. Avec une note de satisfaction de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par ses assurés. Que vous rouliez en sportive, en routière, en trail,
+              - link "en scooter" [ref=e688] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance/scooter/
+              - text: ou même
+              - link "en quad" [ref=e689] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance/quad/
+              - text: ", AMV propose un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement et des garanties conçues par des spécialistes des deux-roues."
+            - generic [ref=e690]:
+              - generic [ref=e691]: Avis clients
+              - heading "AMV, c’est 1 million d’assurés. Que disent-ils de nous ?" [level=2] [ref=e692]:
+                - text: AMV, c’est 1 million d’assurés.
+                - text: Que disent-ils de nous ?
+              - paragraph [ref=e693]:
+                - text: L’évaluation et les avis sont publiés par Avis Vérifiés, une société indépendante
+                - text: qui garantit la transparence et l’authenticité des retours d’expérience des assurés.
+            - generic [ref=e695]:
+              - img [ref=e698]
+              - paragraph [ref=e701]: Sur 5310 clients interrogés par Avis vérifiés, AMV obtient une note de satisfaction de 4,7/5
+          - 'img "Image: Avis vérifiés sur AMV" [ref=e703]'
+        - group "exemples de témoignages" [ref=e705]:
+          - list [ref=e707]:
+            - listitem [ref=e708]:
+              - generic [ref=e709]:
+                - paragraph [ref=e710]: Bonne prise en charge de la demande. Délais corrects. Seul bémol, il ne m'est possible de finaliser l'activation de mon espace client. Avec l'identifiant envoyé par courriel, il n'est pas possible d'aller au bout de la démarche, l'on "tourne en rond" entre activation et mot de passe.
+                - generic [ref=e711]:
+                  - generic [ref=e712]: 4/5
+                  - generic [ref=e713]:
+                    - generic [ref=e714]: Alain C.
+                    - generic [ref=e715]: suite à une expérience du 29/05/2026
+            - listitem [ref=e716]:
+              - generic [ref=e717]:
+                - paragraph [ref=e718]: La navigation est simple et très claire Une première pour moi chez Amv ,l’avenir nous dira si vous êtes au top 😃
+                - generic [ref=e719]:
+                  - generic [ref=e720]: 5/5
+                  - generic [ref=e721]:
+                    - generic [ref=e722]: Maxime B.
+                    - generic [ref=e723]: suite à une expérience du 27/05/2026
+            - listitem [ref=e724]:
+              - generic [ref=e725]:
+                - paragraph [ref=e726]: Tout s'est très bien passé. Clair, rapide et précis. Amabilité et professionnalisme au téléphone. Je recommande.
+                - generic [ref=e727]:
+                  - generic [ref=e728]: 5/5
+                  - generic [ref=e729]:
+                    - generic [ref=e730]: Lionel I.
+                    - generic [ref=e731]: suite à une expérience du 26/05/2026
+            - listitem [ref=e732]:
+              - generic [ref=e733]:
+                - paragraph [ref=e734]: Très rapide pour assurer un 50cc, assure au vol à Marseille pour un prix très compétitif. Je recommande
+                - generic [ref=e735]:
+                  - generic [ref=e736]: 5/5
+                  - generic [ref=e737]:
+                    - generic [ref=e738]: Teo S.
+                    - generic [ref=e739]: suite à une expérience du 21/05/2026
+            - listitem [ref=e740]:
+              - generic [ref=e741]:
+                - paragraph [ref=e742]: Le site est très simple, les informations précises, le choix aisé. Une fois la décision prise, la souscription est facile et rapide. Je recommande AMV. Maintenant ce n'est qu'à l'usage que l'on peut vraiment donner un avis définitif.
+                - generic [ref=e743]:
+                  - generic [ref=e744]: 5/5
+                  - generic [ref=e745]:
+                    - generic [ref=e746]: Laurent V.
+                    - generic [ref=e747]: suite à une expérience du 07/05/2026
+          - generic [ref=e749]:
+            - button "Avis précédent" [ref=e750] [cursor=pointer]:
+              - img [ref=e751]
+            - button "Avis suivant" [ref=e753] [cursor=pointer]:
+              - img [ref=e754]
+        - generic [ref=e755]:
+          - link "Voir plus d'avis clients" [ref=e757] [cursor=pointer]:
+            - /url: /clients/avis-client/
+            - img [ref=e759]
+            - text: Voir plus d'avis clients
+          - link "Prêt(e) à rejoindre AMV" [ref=e761] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+      - generic [ref=e763]:
+        - heading "H2 Comment obtenir votre devis assurance moto ?" [level=2] [ref=e764]:
+          - generic [ref=e765]: H2
+          - text: Comment obtenir votre devis assurance moto ?
+        - paragraph [ref=e766]: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, année) et votre profil (expérience, bonus-malus, région) via le formulaire pour recevoir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevez votre attestation d'assurance par mail. La souscription est sans engagement : vous restez libre de votre décision, à votre rythme. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape."
+        - generic [ref=e767]:
+          - generic [ref=e768]: Questions fréquentes
+          - heading "Des questions sur votre assurance moto ? Nous y répondons ici" [level=2] [ref=e769]:
+            - text: Des questions sur votre assurance moto ?
+            - text: Nous y répondons ici
+        - generic [ref=e771]:
+          - generic [ref=e772] [cursor=pointer]:
+            - generic [ref=e773]:
+              - generic [ref=e774]: Quelle assurance moto choisir ?
+              - img [ref=e775]
+            - generic [ref=e776]:
+              - paragraph [ref=e777]: Pour choisir avec soin votre assurance moto, il est primordial de scruter attentivement les tarifs, les garanties et les franchises proposées. AMV, un assureur spécialisé dans le domaine de la moto, se présente comme une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expérience dans le secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+              - paragraph [ref=e778]: Le choix dépend de la valeur de votre véhicule, de votre usage et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto ancienne ou de faible valeur. Pour une moto récente ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds proposés avant de vous décider.
+          - generic [ref=e779] [cursor=pointer]:
+            - generic [ref=e780]:
+              - generic [ref=e781]: Quel est le prix d'une assurance moto ?
+              - img [ref=e782]
+            - generic [ref=e783]:
+              - paragraph [ref=e784]: Le coût d'une assurance moto chez AMV prend en compte plusieurs facteurs, tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+              - paragraph [ref=e785]: "Le prix varie fortement d'un profil à l'autre. Il dépend de plusieurs critères :"
+              - list [ref=e786]:
+                - listitem [ref=e787]: le type de moto, sa cylindrée et sa puissance
+                - listitem [ref=e788]: l'âge et l'expérience du conducteur
+                - listitem [ref=e789]: la zone géographique et le lieu de stationnement
+                - listitem [ref=e790]: le niveau de couverture choisi
+              - paragraph [ref=e791]: Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics.
+          - generic [ref=e792] [cursor=pointer]:
+            - generic [ref=e793]:
+              - generic [ref=e794]: Quelle formule assurance moto choisir ?
+              - img [ref=e795]
+            - paragraph [ref=e797]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages Tous Risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à faire un devis sur amv.fr ou les contacter pour obtenir des informations détaillées sur les formules d'assurance moto qu'ils proposent, afin de trouver celle qui répond le mieux à vos besoins spécifiques.
+          - generic [ref=e798] [cursor=pointer]:
+            - generic [ref=e799]:
+              - generic [ref=e800]: Puis-je modifier mon devis moto ou auto sur amv.fr ?
+              - img [ref=e801]
+            - paragraph [ref=e803]: Oui, sur amv.fr, vous avez la possibilité de modifier votre devis d'assurance moto à tout moment depuis la rubrique "Retrouver vos tarifs/devis". Les devis que vous établissez sont conservés pendant une période d'un mois. Vous pouvez souscrire à effet immédiat ou différé.
+          - generic [ref=e804] [cursor=pointer]:
+            - generic [ref=e805]:
+              - generic [ref=e806]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e807]
+            - paragraph [ref=e809]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, cet assureur propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+          - generic [ref=e810] [cursor=pointer]:
+            - generic [ref=e811]:
+              - generic [ref=e812]: Comment assurer sa moto ?
+              - img [ref=e813]
+            - generic [ref=e814]:
+              - paragraph [ref=e815]: Bien assurer votre moto est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+              - paragraph [ref=e816]: AMV met à votre disposition un processus de souscription simple et rapide, vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions bien entendu. Plus besoin de vous déplacer en agence, quelques clics suffisent pour obtenir votre contrat d'assurance.
+              - paragraph [ref=e817]: L'avantage de choisir AMV réside également dans sa gamme complète de formules d'assurance moto, adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale.
+              - paragraph [ref=e818]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez souscrit cette garantie. Vous pouvez ainsi compter sur eux en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+              - paragraph [ref=e819]: En tant qu'expert de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues et comprennent parfaitement vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+              - paragraph [ref=e820]: En choisissant AMV comme assureur pour votre moto, vous bénéficiez d'une assurance fiable et de qualité, sans tracas et sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !
+          - generic [ref=e821] [cursor=pointer]:
+            - generic [ref=e822]:
+              - generic [ref=e823]: Quelles sont les garanties incluses dans une assurance moto AMV ?
+              - img [ref=e824]
+            - paragraph [ref=e826]: AMV propose 4 formules d’assurance moto. L'offre inclut dès sa première formule la Responsabilité civile, l'Assistance juridique et la garantie des équipements de protection (gants jusqu’à 70 €, casque jusqu’à 250 €, gilet airbag jusqu’à 500 € s'ils sont détériorés à la suite d'un sinistre, sous conditions). Selon la formule, vous pouvez bénéficier en plus des garanties Vol/Incendie, Dommages collision, et Dommages tous accidents (Tous Risques). D'autres garanties comme l’Assistance 0 km, l’Individuelle Pilote ou l’Option Plus (extension de garantie aux accessoires et équipements jusqu’à 5 000 €) sont également proposées en option.
+          - generic [ref=e827] [cursor=pointer]:
+            - generic [ref=e828]:
+              - generic [ref=e829]: Quand prennent effet les garanties de mon assurance moto ?
+              - img [ref=e830]
+            - paragraph [ref=e832]: Les garanties prennent effet immédiatement à la souscription ou à la date choisie (qui peut être différée jusqu’à deux mois).
+          - generic [ref=e833] [cursor=pointer]:
+            - generic [ref=e834]:
+              - generic [ref=e835]: Comment savoir si ma demande d’assurance moto a bien été enregistrée ?
+              - img [ref=e836]
+            - paragraph [ref=e838]: À la fin de votre souscription en ligne, un numéro de souscription vous est communiqué et une confirmation vous est envoyée par e-mail.
+          - generic [ref=e839] [cursor=pointer]:
+            - generic [ref=e840]:
+              - generic [ref=e841]: Qu’est-ce qu’une franchise en assurance moto AMV ?
+              - img [ref=e842]
+            - paragraph [ref=e844]: En cas de sinistre, la franchise est la part de l'indemnité qui reste à la charge de l'assuré suite à la mise en jeu d'une garantie dommages. Chez AMV, elle est plafonnée, avec un minimum et un maximum variable selon la cylindrée. Le détail des franchises est précisé dans les Dispositions Particulières
+          - generic [ref=e845] [cursor=pointer]:
+            - generic [ref=e846]:
+              - generic [ref=e847]: AMV propose-t-elle une assurance moto pour les jeunes conducteurs ?
+              - img [ref=e848]
+            - paragraph [ref=e850]: Oui, AMV propose des formules adaptées à tous les profils, y compris les jeunes conducteurs (sous réserve d'acceptation des conditions de souscription). AMV a des conditions de souscription parmi les plus larges du marché. La tarification prend en compte de nombreux critères notamment l’âge, l’expérience et l’historique de conduite, le lieu de stationnement. Vous pouvez obtenir un devis personnalisé en ligne.
+          - generic [ref=e851] [cursor=pointer]:
+            - generic [ref=e852]:
+              - generic [ref=e853]: Peut-on modifier ses garanties d’assurance moto en ligne ?
+              - img [ref=e854]
+            - paragraph [ref=e856]: Oui, il est possible de modifier ses garanties et options à tout moment via votre espace client (Mon Espace AMV) sur amv.fr, selon les conditions de votre contrat.
+          - generic [ref=e857] [cursor=pointer]:
+            - generic [ref=e858]:
+              - generic [ref=e859]: Comment déclarer un sinistre moto avec AMV ?
+              - img [ref=e860]
+            - generic [ref=e861]:
+              - paragraph [ref=e862]: Vous pouvez déclarer un sinistre directement depuis votre espace client (Mon Espace AMV) sur le site amv.fr. Un gestionnaire dédié s'occupe de la gestion de votre dossier.
+              - paragraph [ref=e863]: Déclaration directement depuis Mon Espace AMV sur amv.fr, 24h/24. Un gestionnaire dédié prend en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation.
+          - generic [ref=e864] [cursor=pointer]:
+            - generic [ref=e865]:
+              - generic [ref=e866]: AMV propose-t-elle une assistance 0 km moto ?
+              - img [ref=e867]
+            - paragraph [ref=e869]: Oui, l’option Assistance 0 km est proposée dès la formule 2. Elle inclut une assistance sans franchise kilométrique, en cas de panne, accident, vol, tentative de vol, crevaison, perte de clés ou mise en fourrière, pour votre moto, le pilote et le passager.
+          - generic [ref=e870] [cursor=pointer]:
+            - generic [ref=e871]:
+              - generic [ref=e872]: Quels équipements sont couverts par l’assurance moto AMV ?
+              - img [ref=e873]
+            - generic [ref=e874]:
+              - paragraph [ref=e875]: Dès la formule de base, AMV couvre le casque, les gants et le gilet airbag détériorié suite à un sinistre, sous conditions, dans la limite des plafonds indiqués. Avec l’Option Plus, la couverture est étendue à l’ensemble de l’équipement vestimentaire de protection du motard et aux accessoires hors-série montés sur la moto, jusqu’à 5 000 €, sous conditions.
+              - paragraph [ref=e876]: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros) en cas de sinistre. Avec l'Option plus, couverture étendue à l'ensemble de l'équipement vestimentaire et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros."
+          - generic [ref=e877]:
+            - generic [ref=e878]: H3
+            - text: Est-il obligatoire d'assurer une moto qui ne roule pas ?
+          - paragraph [ref=e879]: Oui. Tout véhicule terrestre à moteur doit être assuré au minimum en responsabilité civile, même s'il est stationné dans un garage et ne circule pas. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros. Cette obligation légale s'applique à toutes les motos, scooters et autres deux-roues motorisés, quelle que soit leur puissance ou leur cylindrée.
+          - generic [ref=e880]:
+            - generic [ref=e881]: H3
+            - text: Quels documents faut-il pour assurer une moto ?
+          - paragraph [ref=e882]: "Chez AMV, la souscription est simplifiée : dans la grande majorité des cas, seul votre relevé d'informations (délivré par votre précédent assureur) est nécessaire, là où d'autres assureurs réclament davantage de pièces. Selon votre situation, peuvent aussi être demandés :"
+          - list [ref=e883]:
+            - listitem [ref=e884]: votre permis de conduire
+            - listitem [ref=e885]: la carte grise du véhicule
+            - listitem [ref=e886]: un justificatif de domicile (dans certains cas)
+          - paragraph [ref=e887]: Toutes les démarches se font en ligne, réponse immédiate.
+          - link "Consulter toutes les questions fréquentes" [ref=e890] [cursor=pointer]:
+            - /url: /besoin-daide/
+            - img [ref=e892]
+            - text: Consulter toutes les questions fréquentes
+      - generic [ref=e895]:
+        - generic [ref=e896]:
+          - generic [ref=e897]: Le blog AMV
+          - heading "Toute l’actualité de l’assurance moto" [level=2] [ref=e898]
+        - group "exemples d'articles blog" [ref=e900]:
+          - list [ref=e902]:
+            - listitem [ref=e903]:
+              - generic [ref=e906]:
+                - link "Les accessoires essentiels pour un road trip à moto réussi" [ref=e907] [cursor=pointer]:
+                  - /url: "#"
+                  - heading "Les accessoires essentiels pour un road trip à moto réussi" [level=3] [ref=e908]
+                - paragraph [ref=e909]: Un road trip à moto ne s’improvise pas, surtout lorsqu’il s’étire sur plusieurs jours et kilomètres. Voyager loin, longtemps et ...
+                - link "Lire la suite" [ref=e912] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-moto/les-accessoires-essentiels-pour-un-road-trip-a-moto-reussi/
+                  - img [ref=e914]
+                  - text: Lire la suite
+            - listitem [ref=e915]:
+              - generic [ref=e918]:
+                - link "Les règles à respecter pour rouler en groupe à moto" [ref=e919] [cursor=pointer]:
+                  - /url: "#"
+                  - heading "Les règles à respecter pour rouler en groupe à moto" [level=3] [ref=e920]
+                - paragraph [ref=e921]: Prendre la route en groupe à moto procure un sentiment unique d’unité, de partage et de plaisir collectif. Pour que ...
+                - link "Lire la suite" [ref=e924] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-moto/les-regles-a-respecter-pour-rouler-en-groupe-a-moto/
+                  - img [ref=e926]
+                  - text: Lire la suite
+            - listitem [ref=e927]:
+              - generic [ref=e930]:
+                - 'link "Maxiscooter monocylindre ou bicylindre : quelle différence ?" [ref=e931] [cursor=pointer]':
+                  - /url: "#"
+                  - 'heading "Maxiscooter monocylindre ou bicylindre : quelle différence ?" [level=3] [ref=e932]'
+                - paragraph [ref=e933]: Quand l’envie d’acquérir un maxiscooter se précise, le choix du moteur devient un point de réflexion essentiel. Monocylindre ou bicylindre ...
+                - link "Lire la suite" [ref=e936] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-moto/maxiscooter-monocylindre-ou-bicylindre-quelle-difference/
+                  - img [ref=e938]
+                  - text: Lire la suite
+        - link "Voir tous les articles du blog" [ref=e941] [cursor=pointer]:
+          - /url: https://www.amv.fr/assurance-moto/
+          - img [ref=e943]
+          - text: Voir tous les articles du blog
+        - link "Testez nos tarifs en quelques clics" [ref=e946] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+      - generic [ref=e948]:
+        - heading "Consulter le détail des formules et des options" [level=2] [ref=e950]:
+          - text: Consulter le détail
+          - text: des formules et des options
+        - generic [ref=e951]:
+          - generic [ref=e952]:
+            - generic [ref=e953]: Détails des formules
+            - generic [ref=e954]:
+              - generic [ref=e955]: H2
+              - text: Nos 4 formules d'assurance moto
+            - paragraph [ref=e956]: AMV, assureur spécialiste de l'assurance moto et scooter, propose 4 formules pour couvrir chaque motard selon son profil, son budget et ses besoins. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la prise en charge de vos équipements (casque, gants, gilet airbag) en cas de sinistre. La cotisation varie selon le niveau de protection et les garanties choisies. Vous pouvez comparer les formules et obtenir votre devis assurance moto en ligne en quelques clics, sans engagement.
+            - generic [ref=e958] [cursor=pointer]:
+              - generic [ref=e959]: Formule 1 Responsabilité civile
+              - img [ref=e960]
+            - generic [ref=e962] [cursor=pointer]:
+              - generic [ref=e963]: Formule 2 Vol / Incendie
+              - img [ref=e964]
+            - generic [ref=e966] [cursor=pointer]:
+              - generic [ref=e967]: Formule 3 Dommages collision
+              - img [ref=e968]
+            - generic [ref=e970] [cursor=pointer]:
+              - generic [ref=e971]: Formule 4 Dommages tous accidents « Tous risques »
+              - img [ref=e972]
+          - generic [ref=e973]:
+            - generic [ref=e974]: Détails des options
+            - generic [ref=e975]:
+              - generic [ref=e976]: H2
+              - text: Les options pour personnaliser votre contrat
+            - paragraph [ref=e977]: Chaque formule peut être complétée par des options à la carte pour renforcer votre protection selon votre pratique et votre véhicule. Ces options ajustent vos garanties au plus près de vos besoins, que vous rouliez en moto, en scooter ou en deux-roues au quotidien.
+            - generic [ref=e979] [cursor=pointer]:
+              - generic [ref=e980]: Option Individuelle pilote
+              - img [ref=e981]
+            - generic [ref=e983] [cursor=pointer]:
+              - generic [ref=e984]: Option Assistance
+              - img [ref=e985]
+            - generic [ref=e987] [cursor=pointer]:
+              - generic [ref=e988]: Option plus
+              - img [ref=e989]
+        - link "Revenir aux formules" [ref=e991] [cursor=pointer]:
+          - /url: "#formulesAnchor"
+          - img [ref=e992]
+          - generic [ref=e993]: Revenir aux formules
+    - generic [ref=e994]:
+      - generic [ref=e996]:
+        - generic [ref=e997]:
+          - link "Retourner à l'accueil" [ref=e999] [cursor=pointer]:
+            - /url: /
+            - img [ref=e1000]
+          - paragraph [ref=e1003]: Leader de l'assurance moto, AMV offre des solutions en ligne dédiées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, adaptées à vos besoins réels. De l'assurance moto de collection à l'assurance jetski, personnalisez votre contrat avec des garanties spécifiques. Obtenez votre devis et souscrivez votre assurance moto en ligne, avec l'accompagnement de nos 300 conseillers. Note de satisfaction de 4,7/5 (variable) selon Avis Vérifiés.
+        - generic [ref=e1004]:
+          - generic [ref=e1006]:
+            - generic [ref=e1008]: Assurance Moto
+            - generic [ref=e1009]:
+              - link "Devis assurance moto" [ref=e1011] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Devis assurance moto par marque" [ref=e1013] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-par-constructeur/
+              - link "Devis assurance moto par motorisation" [ref=e1015] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-par-motorisation/
+              - link "Devis assurance moto par profil" [ref=e1017] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-par-profil/
+              - link "Devis assurance moto par type" [ref=e1019] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-par-type/
+              - link "Devis assurance moto par permis" [ref=e1021] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-par-permis/
+              - link "Devis assurance scooter" [ref=e1023] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Devis assurance quad/SSV" [ref=e1025] [cursor=pointer]:
+                - /url: /assurance/quad/
+          - generic [ref=e1030]:
+            - link "Devis assurance YAMAHA" [ref=e1032] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-yamaha/
+            - link "Devis assurance HONDA" [ref=e1034] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-honda/
+            - link "Devis assurance KAWASAKI" [ref=e1036] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-kawasaki/
+            - link "Devis assurance SUZUKI" [ref=e1038] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-suzuki/
+            - link "Devis assurance BMW" [ref=e1040] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-bmw/
+            - link "Devis assurance TRIUMPH" [ref=e1042] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-triumph/
+            - link "Devis assurance moto 125" [ref=e1044] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-125cm3/
+            - link "Devis assurance moto 500" [ref=e1046] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-500cm3/
+            - link "Devis assurance moto 750" [ref=e1048] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-750cm3/
+            - link "Devis assurance moto 1000" [ref=e1050] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-1000cm3/
+            - link "Devis assurance moto 1600" [ref=e1052] [cursor=pointer]:
+              - /url: /assurance-moto/assurance-moto-1600cm3/
+        - generic [ref=e1054]:
+          - 'link "Aller sur le site : Facebook" [ref=e1055] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e1056]
+          - 'link "Aller sur le site : Instagram" [ref=e1059] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e1060]
+          - 'link "Aller sur le site : LinkedIn" [ref=e1062] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e1063]
+          - 'link "Aller sur le site : Youtube" [ref=e1065] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e1066]
+      - generic [ref=e1069]:
+        - generic [ref=e1070]:
+          - link "Mentions légales" [ref=e1071] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e1072] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e1073] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e1074] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e1075] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e1076]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e1077] [cursor=pointer]: Modifications
+  - generic [ref=e1079]:
+    - text: Contenu supprimé
+    - text: Nouveau contenu
+  - dialog [ref=e1082]:
+    - generic [ref=e1084]:
+      - generic [ref=e1085]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e1086]:
+        - text: Notre site
+        - generic [ref=e1087]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e1088] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e1089] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - list:
+      - listitem "Accepter et fermer" [ref=e1090] [cursor=pointer]
+      - listitem "Refuser" [ref=e1091] [cursor=pointer]
+      - listitem "Paramétrer" [ref=e1092] [cursor=pointer]

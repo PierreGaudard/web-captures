@@ -66,7 +66,7 @@
       content: [
         { h3: "Plus de 50 ans d'expertise deux-roues" },
         { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Cette expertise deux-roues couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de chaque marque et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre.",
-          links: [{ t: "chaque marque", href: "https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/" }] }
+          links: [{ t: "AMV", href: "https://www.amv.fr/" }, { t: "chaque marque", href: "https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/" }] }
       ] },
 
     // 6c. "Un accompagnement de motard à motard" -> dans la section "Un contrat spécial moto pensé pour vous"
@@ -80,7 +80,8 @@
     { mode: 'insertBlock', anchorMatch: 'Des questions sur votre assurance', position: 'before',
       content: [
         { h2: "Comment obtenir votre devis assurance moto ?" },
-        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, année) et votre profil (expérience, bonus-malus, région) via le formulaire pour recevoir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevez votre attestation d'assurance par mail. La souscription est sans engagement : vous restez libre de votre décision, à votre rythme. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape." }
+        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, année) et votre profil (expérience, bonus-malus, région) via le formulaire pour recevoir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevez votre attestation d'assurance par mail. La souscription est sans engagement : vous restez libre de votre décision, à votre rythme. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
+          links: [{ t: "devis assurance moto en ligne", href: "https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx" }] }
       ] },
 
     // 7. FAQ : on ne touche QUE les questions remplacées (les autres restent intactes)

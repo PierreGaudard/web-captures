@@ -34,7 +34,7 @@
         { p: "Le prix d'une assurance moto A2 dépend du profil du conducteur, du modèle de la moto et de la formule choisie. La formule au tiers reste la moins chère, la formule tous risques la plus protectrice. Le prix diminue chaque année grâce au bonus-malus, à condition de ne pas déclarer de sinistre responsable. Seul un devis personnalisé en ligne donne le tarif exact pour votre situation." },
         { h3: "Comment réduire le prix de votre assurance moto A2" },
         { p: "Plusieurs leviers permettent de diminuer votre cotisation en permis A2 :" },
-        { ul: ["choisir une formule au tiers pour une première moto d'occasion de faible valeur", "faire valoir votre bonus automobile si vous possédez déjà une voiture"] },
+        { ul: ["choisir une formule au tiers pour une première moto d'occasion de faible valeur", { t: "faire valoir votre bonus automobile si vous possédez déjà une voiture", href: "https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx" }] },
 
         { h2: "Nos formules d'assurance pour les permis A2" },
         { p: "AMV propose des formules adaptées aux détenteurs du permis A2. Chaque contrat assurance moto peut être complété par des options pour ajuster votre couverture selon votre budget et votre usage. Un devis en ligne vous aide à trouver la formule adaptée en quelques clics.",
@@ -70,7 +70,8 @@
         ] } },
 
         { h2: "Pourquoi choisir AMV pour votre assurance moto A2 ?" },
-        { p: "AMV est spécialiste de l'assurance deux-roues depuis plus de 50 ans. Plus de 350 conseillers basés à Bordeaux accompagnent les motards débutants comme les plus expérimentés." },
+        { p: "AMV est spécialiste de l'assurance deux-roues depuis plus de 50 ans. Plus de 350 conseillers basés à Bordeaux accompagnent les motards débutants comme les plus expérimentés.",
+          links: [{ t: "AMV", href: "https://www.amv.fr/" }] },
         { p: "Les avantages AMV pour un permis A2 :" },
         { ul: ["tarifs adaptés aux jeunes conducteurs", "formules évolutives qui suivent votre progression vers le permis A", "souscription 100 % en ligne, devis assurance en quelques minutes", "accompagnement personnalisé par des conseillers spécialistes"] },
         { p: "Avec une note de satisfaction de 4,7 sur 5, AMV revendique plus d'1 million d'assurés. Que vous rouliez en sportive, en roadster ou en scooter, AMV dispose d'une formule adaptée à votre profil." }
@@ -80,7 +81,8 @@
     { mode: 'faqEdit', faqMatch: 'Questions fréquentes',
       replace: [
         { existing: "prix d'une assurance moto", content: [
-          { p: "Le prix assurance moto A2 varie selon le modèle de moto, la zone géographique et le niveau de couverture choisi. En permis A2, une surprime jeune conducteur s'applique les premières années : elle peut atteindre jusqu'à 100 % la première année, puis est limitée à 50 % la deuxième année et à 25 % la troisième, en l'absence de sinistre responsable, avant de disparaître. Chez AMV, un devis assurance en ligne vous donne un tarif personnalisé en quelques minutes." }
+          { p: "Le prix assurance moto A2 varie selon le modèle de moto, la zone géographique et le niveau de couverture choisi. En permis A2, une surprime jeune conducteur s'applique les premières années : elle peut atteindre jusqu'à 100 % la première année, puis est limitée à 50 % la deuxième année et à 25 % la troisième, en l'absence de sinistre responsable, avant de disparaître. Chez AMV, un devis assurance en ligne vous donne un tarif personnalisé en quelques minutes.",
+          links: [{ t: "devis assurance en ligne", href: "https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx" }] }
         ] },
         { existing: "Quelle formule", content: [
           { p: "Pour une moto neuve ou récente, la formule tous risques protège contre les dommages en cas d'accident responsable. Pour une moto d'occasion de faible valeur, une formule au tiers ou vol et incendie suffit : c'est la solution la moins chère pour un jeune motard. Le choix dépend de la valeur de votre véhicule, de votre budget et de votre usage quotidien." }

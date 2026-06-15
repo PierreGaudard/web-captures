@@ -1,0 +1,492 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par permis" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-permis/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto PERMIS A2
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - 'heading "Permis A2 : Choisir son assurance moto" [level=1] [ref=e38]':
+            - text: "Permis A2 : Choisir son"
+            - text: assurance moto
+          - heading "H1 Assurance moto permis A2" [level=1] [ref=e39]:
+            - generic [ref=e40]: H1
+            - text: Assurance moto permis A2
+        - img "permis-a2-choisir-son-assurance-moto" [ref=e41]
+      - generic [ref=e44]:
+        - 'heading "Moto avec permis A2 : contrat d’assurance et garanties" [level=2] [ref=e45]'
+        - paragraph [ref=e46]
+        - paragraph [ref=e47]: Intermédiaire entre le permis A1 et le permis A, le permis moto A2 est réservé aux individus de plus de 18 ans. Il ne permet pas de conduire toutes les cylindrées, mais uniquement les deux-roues dont la puissance est inférieure ou égale à 35 kw, ou les trois-roues dotés d'une puissance maximale de 15 kw.
+        - paragraph [ref=e48]
+        - paragraph [ref=e49]: Si le coût d’une assurance moto pour un conducteur ayant son permis A2 est généralement plus élevé que celle d’un motard expérimenté, notamment en raison du manque d’expérience, il est tout à fait possible de bénéficier d’un tarif intéressant en jouant sur les garanties, en choisissant bien votre moto, et en la protégeant correctement.
+        - paragraph [ref=e50]
+        - paragraph [ref=e51]: "Selon vos besoins réels, AMV propose de nombreuses options d’assurance moto dédiées aux titulaires du permis A2 :"
+        - list [ref=e52]:
+          - listitem [ref=e53]: Une souscription 100 % en ligne accessible 24h/24 et 7j/7,
+          - listitem [ref=e54]: Une gestion personnalisée en cas de sinistre,
+          - listitem [ref=e55]: Une équipe de plus de 300 conseillers à votre écoute,
+          - listitem [ref=e56]: Plus de 750 000 contrats d’assurance en cours,
+          - listitem [ref=e57]: Plus de 50 ans d’expérience au service des passionnés de deux-roues.
+      - generic [ref=e58]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e59]
+        - paragraph [ref=e60]
+        - paragraph [ref=e61]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e62] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e63]
+        - paragraph [ref=e64]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e65]
+        - paragraph [ref=e66]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e67] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e68]
+        - paragraph [ref=e69]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e70]
+        - paragraph [ref=e71]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e72]
+        - paragraph [ref=e73]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e74] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e75]:
+          - link "Testez notre tarif d'assurance pour votre moto" [ref=e77] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx
+          - link "Retrouver mon devis d'assurance moto" [ref=e79] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e80]:
+        - heading "H2 Qu'est-ce que le permis moto A2 ?" [level=2] [ref=e81]:
+          - generic [ref=e82]: H2
+          - text: Qu'est-ce que le permis moto A2 ?
+        - paragraph [ref=e83]:
+          - text: Le permis A2 est accessible dès 18 ans. Il autorise la conduite de motos dont la puissance ne dépasse pas 35 kW (soit 47,5 chevaux) et de trois-roues limités à 15 kW. Après deux ans de pratique et une formation complémentaire de 7 heures, vous pouvez obtenir
+          - link "le permis A" [ref=e84] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-permis-a/
+          - text: ", qui donne accès à toutes les motos sans restriction de puissance. Le permis A2 s'adresse à tous les profils, quel que soit l'âge : il représente souvent la première étape avant de prendre la route sur des véhicules plus puissants."
+        - heading "H3 Les conditions d'accès au permis A2" [level=3] [ref=e85]:
+          - generic [ref=e86]: H3
+          - text: Les conditions d'accès au permis A2
+        - paragraph [ref=e87]: "Pour obtenir le permis A2 : avoir au moins 18 ans, réussir l'examen du code de la route, puis passer deux épreuves pratiques (plateau et circulation). La formation en moto-école comprend un minimum de 20 heures de conduite, dont 8 heures en plateau et 12 heures en circulation. Le coût total varie selon les régions et les moto-écoles."
+        - heading "H3 Quelles motos peut-on conduire avec un permis A2 ?" [level=3] [ref=e88]:
+          - generic [ref=e89]: H3
+          - text: Quelles motos peut-on conduire avec un permis A2 ?
+        - paragraph [ref=e90]: "Le permis A2 autorise les motos dont la puissance ne dépasse pas 35 kW et dont le rapport puissance/poids reste inférieur à 0,2 kW par kilogramme. De nombreux modèles populaires sont compatibles :"
+        - list [ref=e91]:
+          - listitem [ref=e92]:
+            - link "Yamaha MT-07" [ref=e93] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-yamaha/
+          - listitem [ref=e94]:
+            - link "Kawasaki Z650" [ref=e95] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-kawasaki/
+          - listitem [ref=e96]:
+            - link "Honda CB500F" [ref=e97] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-honda/
+          - listitem [ref=e98]:
+            - link "KTM 390 Duke" [ref=e99] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ktm/
+          - listitem [ref=e100]:
+            - link "Suzuki SV 650" [ref=e101] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-suzuki/
+        - paragraph [ref=e102]: Certaines motos plus puissantes existent en version bridée A2, ce qui permet de les débrider une fois le permis A obtenu. Les trois-roues motorisés sont, quant à eux, limités à 15 kW en permis A2.
+        - 'heading "H3 Permis A2, permis A : quelle différence ?" [level=3] [ref=e103]':
+          - generic [ref=e104]: H3
+          - text: "Permis A2, permis A : quelle différence ?"
+        - paragraph [ref=e105]: Le permis A2 limite la puissance du deux-roues à 35 kW. Le permis A, obtenu après deux ans de pratique sous permis A2 et une formation de 7 heures, donne accès à toutes les motos sans restriction. Pour la majorité des trajets quotidiens, un deux-roues de moins de 35 kW peut suffire.
+        - heading "H2 Combien coûte une assurance moto avec un permis A2 ?" [level=2] [ref=e106]:
+          - generic [ref=e107]: H2
+          - text: Combien coûte une assurance moto avec un permis A2 ?
+        - paragraph [ref=e108]: "Le prix d'une assurance moto A2 dépend du modèle de la moto, de la zone géographique, du niveau de couverture et de l'expérience du conducteur. Les jeunes conducteurs paient plus cher en raison de la surprime jeune conducteur. Le tarif peut varier du simple au triple selon les compagnies d'assurance et les offres proposées. Pour un jeune motard, comparer les contrats est important : c'est le meilleur moyen de trouver la meilleure assurance moto A2 au tarif le moins cher."
+        - heading "H3 La surprime jeune conducteur" [level=3] [ref=e109]:
+          - generic [ref=e110]: H3
+          - text: La surprime jeune conducteur
+        - paragraph [ref=e111]: Tout conducteur débutant se voit appliquer une surprime. La première année, cette majoration peut atteindre jusqu'à 100 %. La deuxième année, en l'absence de sinistre responsable, elle est limitée à 50 %, puis à 25 % la troisième année. Après trois ans sans sinistre, la surprime disparaît. Le coefficient bonus-malus continue ensuite de baisser en l'absence de sinistre responsable, même si la cotisation finale dépend aussi de l'évolution tarifaire décidée par l'assureur.
+        - heading "H3 Quel est le prix moyen d'une assurance moto A2 ?" [level=3] [ref=e112]:
+          - generic [ref=e113]: H3
+          - text: Quel est le prix moyen d'une assurance moto A2 ?
+        - paragraph [ref=e114]: Le prix d'une assurance moto A2 dépend du profil du conducteur, du modèle de la moto et de la formule choisie. La formule au tiers reste la moins chère, la formule tous risques la plus protectrice. Le prix diminue chaque année grâce au bonus-malus, à condition de ne pas déclarer de sinistre responsable. Seul un devis personnalisé en ligne donne le tarif exact pour votre situation.
+        - heading "H3 Comment réduire le prix de votre assurance moto A2" [level=3] [ref=e115]:
+          - generic [ref=e116]: H3
+          - text: Comment réduire le prix de votre assurance moto A2
+        - paragraph [ref=e117]: "Plusieurs leviers permettent de diminuer votre cotisation en permis A2 :"
+        - list [ref=e118]:
+          - listitem [ref=e119]: choisir une formule au tiers pour une première moto d'occasion de faible valeur
+          - listitem [ref=e120]:
+            - link "faire valoir votre bonus automobile si vous possédez déjà une voiture" [ref=e121] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+        - heading "H2 Nos formules d'assurance pour les permis A2" [level=2] [ref=e122]:
+          - generic [ref=e123]: H2
+          - text: Nos formules d'assurance pour les permis A2
+        - paragraph [ref=e124]:
+          - text: AMV propose des formules adaptées aux détenteurs du permis A2. Chaque
+          - link "contrat assurance moto" [ref=e125] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance/moto/
+          - text: peut être complété par des options pour ajuster votre couverture selon votre budget et votre usage. Un devis en ligne vous aide à trouver la formule adaptée en quelques clics.
+        - generic [ref=e126]:
+          - generic [ref=e127]:
+            - generic [ref=e128] [cursor=pointer]:
+              - generic [ref=e129]:
+                - generic [ref=e130]: H3
+                - text: Formule au tiers
+              - generic [ref=e131]: ▾
+            - paragraph [ref=e132]: L'assurance au tiers couvre la responsabilité civile obligatoire et la défense pénale. C'est le choix le plus fréquent pour un jeune conducteur avec une première moto d'occasion de faible valeur marchande. Son tarif est le moins cher de nos formules, ce qui répond au besoin des jeunes motards soucieux de leur budget.
+          - generic [ref=e133]:
+            - generic [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: H3
+                - text: Formule vol et incendie
+              - generic [ref=e137]: ▾
+            - paragraph [ref=e138]: En complément du tiers, cette formule ajoute la prise en charge en cas de vol, tentative de vol ou incendie. Si vous stationnez votre moto en extérieur ou en zone urbaine, cette couverture complémentaire est recommandée.
+          - generic [ref=e139]:
+            - generic [ref=e140] [cursor=pointer]:
+              - generic [ref=e141]:
+                - generic [ref=e142]: H3
+                - text: Formule tous risques
+              - generic [ref=e143]: ▾
+            - paragraph [ref=e144]: La formule tous risques couvre l'ensemble des dommages subis par votre moto, y compris en cas d'accident responsable. Elle est recommandée pour une moto neuve ou récente, ou un véhicule financé à crédit. Un conducteur novice, plus exposé aux risques de chute, bénéficie avec cette formule d'une indemnisation dans la grande majorité des situations.
+        - heading "H2 Les garanties essentielles pour un jeune motard" [level=2] [ref=e145]:
+          - generic [ref=e146]: H2
+          - text: Les garanties essentielles pour un jeune motard
+        - paragraph [ref=e147]: Les accidents de moto provoquent des blessures corporelles plus fréquentes et plus graves que les accidents auto. Certaines garanties méritent une attention particulière pour un conducteur novice en permis A2. Nos conseils pour bien vous protéger dès le départ.
+        - heading "H3 Protection corporelle du conducteur" [level=3] [ref=e148]:
+          - generic [ref=e149]: H3
+          - text: Protection corporelle du conducteur
+        - paragraph [ref=e150]: "Cette garantie indemnise le conducteur en cas d'accident corporel, même responsable : capital en cas de décès, indemnisation en cas d'invalidité permanente. Les frais de soins et d'hospitalisation, eux, relèvent de la Sécurité sociale et de votre mutuelle. Elle intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas : accident seul, accident responsable."
+        - heading "H3 Équipement et accessoires moto" [level=3] [ref=e151]:
+          - generic [ref=e152]: H3
+          - text: Équipement et accessoires moto
+        - paragraph [ref=e153]: "Casque, gants, blouson, bottes : l'équipement d'un motard représente un budget conséquent. Cette garantie couvre le remplacement de vos équipements en cas de sinistre. Elle s'étend aux accessoires installés sur votre véhicule (top case, sacoches, échappement…), à hauteur de 5 000 €."
+        - heading "H3 Assistance 24h/24" [level=3] [ref=e154]:
+          - generic [ref=e155]: H3
+          - text: Assistance 24h/24
+        - paragraph [ref=e156]: "Le service d'assistance AMV intervient 24h/24 et 7j/7 en cas de panne, d'accident ou de vol :"
+        - list [ref=e157]:
+          - listitem [ref=e158]: remorquage jusqu'à la concession la plus proche
+          - listitem [ref=e159]: rapatriement à domicile
+        - paragraph [ref=e160]: Ce service couvre la France métropolitaine et la plupart des pays d'Europe.
+        - heading "H2 Le détail des garanties de votre assurance moto A2" [level=2] [ref=e161]:
+          - generic [ref=e162]: H2
+          - text: Le détail des garanties de votre assurance moto A2
+        - paragraph [ref=e163]: Quelle que soit la formule choisie en permis A2, votre contrat AMV repose sur un socle de garanties précises. Dépliez chaque garantie pour voir le détail des montants et des prises en charge.
+        - generic [ref=e164]:
+          - generic [ref=e165]:
+            - generic [ref=e166] [cursor=pointer]:
+              - generic [ref=e167]:
+                - generic [ref=e168]: H3
+                - text: Responsabilité civile
+              - generic [ref=e169]: ▾
+            - paragraph [ref=e170]: Prise en charge des conséquences pécuniaires de la responsabilité civile que vous pouvez encourir en raison des dommages matériels et corporels causés à autrui, y compris à votre passager. Dommages corporels illimités, dommages matériels jusqu'à 100 000 000 € en cas d'accident et 1 300 000 € en cas d'incendie.
+          - generic [ref=e171]:
+            - generic [ref=e172] [cursor=pointer]:
+              - generic [ref=e173]:
+                - generic [ref=e174]: H3
+                - text: Assistance juridique
+              - generic [ref=e175]: ▾
+            - paragraph [ref=e176]: Défense pénale et recours suite à accident, à concurrence de 2 300 €. Protection juridique en cas de conflit relatif au véhicule assuré (achat, entretien, réparation, vente ou financement) et pour les conséquences d'une infraction aux règles de la circulation.
+          - generic [ref=e177]:
+            - generic [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]:
+                - generic [ref=e180]: H3
+                - text: Casque, gants et gilet airbag
+              - generic [ref=e181]: ▾
+            - paragraph [ref=e182]: Remboursement, déduction faite de la vétusté, du casque à concurrence de 250 €, des gants à concurrence de 70 € et du gilet airbag à concurrence de 500 €, lorsqu'ils sont détériorés à la suite d'un événement couvert au titre des garanties Responsabilité civile, Dommages collision ou Dommages tous accidents.
+          - generic [ref=e183]:
+            - generic [ref=e184] [cursor=pointer]:
+              - generic [ref=e185]:
+                - generic [ref=e186]: H3
+                - text: Vol et incendie
+              - generic [ref=e187]: ▾
+            - paragraph [ref=e188]: Remboursement des dommages résultant d'un vol, d'un incendie ou d'une tentative de vol matérialisée par des traces d'effraction, à concurrence de la valeur de remplacement à dire d'expert au jour du sinistre, ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule.
+          - generic [ref=e189]:
+            - generic [ref=e190] [cursor=pointer]:
+              - generic [ref=e191]:
+                - generic [ref=e192]: H3
+                - text: Dommages collision
+              - generic [ref=e193]: ▾
+            - paragraph [ref=e194]: Remboursement des dommages subis par votre moto lors d'une collision avec un tiers identifié, à concurrence de la valeur de remplacement à dire d'expert au jour du sinistre, ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule.
+          - generic [ref=e195]:
+            - generic [ref=e196] [cursor=pointer]:
+              - generic [ref=e197]:
+                - generic [ref=e198]: H3
+                - text: Dommages tous accidents (Tous risques)
+              - generic [ref=e199]: ▾
+            - paragraph [ref=e200]: Remboursement des dommages subis par votre moto à la suite d'un accident, véhicule en mouvement ou à l'arrêt, avec ou sans collision, avec ou sans tiers identifié, à concurrence de la valeur de remplacement ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule.
+          - generic [ref=e201]:
+            - generic [ref=e202] [cursor=pointer]:
+              - generic [ref=e203]:
+                - generic [ref=e204]: H3
+                - text: Individuelle pilote
+              - generic [ref=e205]: ▾
+            - paragraph [ref=e206]: Garantie personnelle du conducteur en cas d'accident corporel, même responsable. En cas de décès, indemnisation plafonnée à 5 000 € au titre des frais d'obsèques, 15 000 € pour le conjoint ou concubin et 5 000 € par enfant à charge dans la limite de 20 000 €. En cas d'invalidité permanente supérieure à 15 %, versement d'un capital proportionnel plafonné à 800 000 €.
+          - generic [ref=e207]:
+            - generic [ref=e208] [cursor=pointer]:
+              - generic [ref=e209]:
+                - generic [ref=e210]: H3
+                - text: Assistance 0 km
+              - generic [ref=e211]: ▾
+            - generic:
+              - paragraph [ref=e212]: Assistance sans franchise kilométrique, 24h/24 et 7j/7, en cas de panne, d'accident, de vol ou de tentative de vol, de crevaison, de perte ou de casse de clés, ou d'enlèvement par la fourrière. Dépannage, remorquage et rapatriement pris en charge pour vous, votre moto et votre passager, en France métropolitaine et dans la plupart des pays d'Europe.
+              - paragraph [ref=e213]: "Valeur à neuf : prix d'achat d'un véhicule acquis neuf, pendant les 6 premiers mois, ou 18 mois au titre de l'Option plus, suivant la date d'achat."
+        - heading "H2 Pourquoi choisir AMV pour votre assurance moto A2 ?" [level=2] [ref=e214]:
+          - generic [ref=e215]: H2
+          - text: Pourquoi choisir AMV pour votre assurance moto A2 ?
+        - paragraph [ref=e216]:
+          - link "AMV" [ref=e217] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: est spécialiste de l'assurance deux-roues depuis plus de 50 ans. Plus de 350 conseillers basés à Bordeaux accompagnent les motards débutants comme les plus expérimentés.
+        - paragraph [ref=e218]: "Les avantages AMV pour un permis A2 :"
+        - list [ref=e219]:
+          - listitem [ref=e220]: tarifs adaptés aux jeunes conducteurs
+          - listitem [ref=e221]: formules évolutives qui suivent votre progression vers le permis A
+          - listitem [ref=e222]: souscription 100 % en ligne, devis assurance en quelques minutes
+          - listitem [ref=e223]: accompagnement personnalisé par des conseillers spécialistes
+        - paragraph [ref=e224]: Avec une note de satisfaction de 4,7 sur 5, AMV revendique plus d'1 million d'assurés. Que vous rouliez en sportive, en roadster ou en scooter, AMV dispose d'une formule adaptée à votre profil.
+        - heading "Questions fréquentes" [level=2] [ref=e225]
+        - generic [ref=e226]:
+          - generic [ref=e227] [cursor=pointer]:
+            - generic [ref=e228]:
+              - generic [ref=e229]: Quelle assurance moto choisir ?
+              - img [ref=e230]
+            - paragraph [ref=e232]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e233] [cursor=pointer]:
+            - generic [ref=e234]:
+              - generic [ref=e235]: Quel est le prix d'une assurance moto ?
+              - img [ref=e236]
+            - generic [ref=e237]:
+              - paragraph [ref=e238]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+              - paragraph [ref=e239]:
+                - text: "Le prix assurance moto A2 varie selon le modèle de moto, la zone géographique et le niveau de couverture choisi. En permis A2, une surprime jeune conducteur s'applique les premières années : elle peut atteindre jusqu'à 100 % la première année, puis est limitée à 50 % la deuxième année et à 25 % la troisième, en l'absence de sinistre responsable, avant de disparaître. Chez AMV, un"
+                - link "devis assurance en ligne" [ref=e240]:
+                  - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+                - text: vous donne un tarif personnalisé en quelques minutes.
+          - generic [ref=e241] [cursor=pointer]:
+            - generic [ref=e242]:
+              - generic [ref=e243]: Quelle formule assurance moto choisir ?
+              - img [ref=e244]
+            - generic [ref=e245]:
+              - paragraph [ref=e246]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+              - paragraph [ref=e247]: "Pour une moto neuve ou récente, la formule tous risques protège contre les dommages en cas d'accident responsable. Pour une moto d'occasion de faible valeur, une formule au tiers ou vol et incendie suffit : c'est la solution la moins chère pour un jeune motard. Le choix dépend de la valeur de votre véhicule, de votre budget et de votre usage quotidien."
+          - generic [ref=e248] [cursor=pointer]:
+            - generic [ref=e249]:
+              - generic [ref=e250]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e251]
+            - paragraph [ref=e253]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+          - generic [ref=e254]:
+            - generic [ref=e255]: H3
+            - text: Quelles motos peut-on assurer avec un permis A2 ?
+          - paragraph [ref=e256]: "Toutes les motos dont la puissance ne dépasse pas 35 kW (47,5 ch), y compris les versions bridées. AMV assure les modèles les plus courants : Yamaha MT-07, Kawasaki Z650, Honda CB500F, KTM 390 Duke, Suzuki SV 650. Les trois-roues motorisés, limités à 15 kW en permis A2, sont également couverts par nos formules."
+          - generic [ref=e257]:
+            - generic [ref=e258]: H3
+            - text: Comment payer moins cher son assurance moto en permis A2 ?
+          - paragraph [ref=e259]: "Plusieurs leviers permettent de réduire votre cotisation :"
+          - list [ref=e260]:
+            - listitem [ref=e261]: choisir une formule au tiers pour une première moto de faible valeur
+            - listitem [ref=e262]: faire valoir un bonus auto existant auprès de votre assureur
+          - generic [ref=e263]:
+            - generic [ref=e264]: H3
+            - text: Est-il obligatoire d'assurer une moto même si elle ne roule pas ?
+          - paragraph [ref=e265]: Oui. Tout véhicule terrestre à moteur doit être assuré au minimum en responsabilité civile, même stationné dans un garage. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros.
+      - generic [ref=e266]:
+        - heading "Assurance moto par permis" [level=2] [ref=e267]
+        - link "Assurance moto PERMIS A" [ref=e268] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-permis-a/
+          - generic [ref=e269]:
+            - generic [ref=e270]: Assurance moto PERMIS A
+            - img [ref=e271]
+        - link "Assurance moto PERMIS A1" [ref=e272] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-permis-a1/
+          - generic [ref=e273]:
+            - generic [ref=e274]: Assurance moto PERMIS A1
+            - img [ref=e275]
+        - link "Assurance moto PERMIS AM" [ref=e276] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-permis-am/
+          - generic [ref=e277]:
+            - generic [ref=e278]: Assurance moto PERMIS AM
+            - img [ref=e279]
+        - link "Assurance moto PERMIS B" [ref=e280] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-permis-b/
+          - generic [ref=e281]:
+            - generic [ref=e282]: Assurance moto PERMIS B
+            - img [ref=e283]
+        - link "Assurance moto PERMIS BSR" [ref=e284] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-permis-bsr/
+          - generic [ref=e285]:
+            - generic [ref=e286]: Assurance moto PERMIS BSR
+            - img [ref=e287]
+        - link "Assurance moto SANS PERMIS" [ref=e288] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-sans-permis/
+          - generic [ref=e289]:
+            - generic [ref=e290]: Assurance moto SANS PERMIS
+            - img [ref=e291]
+      - link "Précédent" [ref=e294] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-permis/
+        - img [ref=e296]
+        - text: Précédent
+    - generic [ref=e297]:
+      - generic [ref=e299]:
+        - generic [ref=e300]:
+          - link "Retourner à l'accueil" [ref=e302] [cursor=pointer]:
+            - /url: /
+            - img [ref=e303]
+          - paragraph [ref=e306]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e308] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e310] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e312] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e313] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5310 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e314]:
+          - generic [ref=e316]:
+            - generic [ref=e318]: A propos d’AMV
+            - generic [ref=e319]:
+              - link "Qui sommes-nous ?" [ref=e321] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e323] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e325] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e327] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e329] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e331] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e333]:
+            - generic [ref=e335]: Liens utiles
+            - generic [ref=e336]:
+              - link "Besoin d’aide ?" [ref=e338] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e340] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e342] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e344] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e346] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e348] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e350]:
+            - generic [ref=e352]: Assurances
+            - generic [ref=e353]:
+              - link "Assurance Moto" [ref=e355] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e357] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e359] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e361] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e363] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e365] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e367] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e369] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e371] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e373]:
+            - generic [ref=e375]: Devis assurance
+            - generic [ref=e376]:
+              - link "Devis assurance moto" [ref=e378] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e380] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e382] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e384] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e386] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e388] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e390] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e392] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e394] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e396] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e398]:
+          - 'link "Aller sur le site : Facebook" [ref=e399] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e400]
+          - 'link "Aller sur le site : Instagram" [ref=e403] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e404]
+          - 'link "Aller sur le site : LinkedIn" [ref=e406] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e407]
+          - 'link "Aller sur le site : Youtube" [ref=e409] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e410]
+      - generic [ref=e413]:
+        - generic [ref=e414]:
+          - link "Mentions légales" [ref=e415] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e416] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e417] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e418] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e419] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e420]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e421] [cursor=pointer]: Modifications
+  - generic [ref=e423]:
+    - text: Contenu supprimé
+    - text: Nouveau contenu
+  - dialog [ref=e426]:
+    - generic [ref=e428]:
+      - generic [ref=e429]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e430]:
+        - text: Notre site
+        - generic [ref=e431]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e432] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e433] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - list:
+      - listitem "Accepter et fermer" [ref=e434] [cursor=pointer]
+      - listitem "Refuser" [ref=e435] [cursor=pointer]
+      - listitem "Paramétrer" [ref=e436] [cursor=pointer]
