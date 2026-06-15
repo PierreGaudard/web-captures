@@ -10,11 +10,11 @@
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 1',
       content: [
-        { p: "La formule de base, au tiers, vous couvre en responsabilité civile (dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros), en assistance juridique et pour vos équipements : casque jusqu'à 250 euros, gants jusqu'à 70 euros, gilet airbag jusqu'à 500 euros. C'est le tarif le plus accessible pour conduire en toute légalité, adapté aux quads anciens, de faible valeur ou utilisés occasionnellement pour le loisir." }
+        { p: "La formule de base, au tiers, vous couvre en responsabilité civile (dommages matériels et corporels), en assistance juridique et pour vos équipements : casque jusqu'à 250 euros, gants jusqu'à 70 euros, gilet airbag jusqu'à 500 euros. C'est le tarif le plus accessible pour conduire en toute légalité, adapté aux quads anciens, de faible valeur ou utilisés occasionnellement pour le loisir." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 2',
       content: [
-        { p: "En complément, cette couverture prend en charge le vol, la tentative de vol et l'incendie, avec un remboursement à la valeur de remplacement à dire d'expert ou à la valeur à neuf les 6 premiers mois. Recommandée si vous stationnez votre quad en extérieur ou dans un lieu non clos : le risque de vol est réel, notamment pour les modèles de forte cylindrée." }
+        { p: "En complément, cette couverture prend en charge le vol, la tentative de vol et l'incendie, avec un remboursement à la valeur de remplacement à dire d'expert ou à la valeur à neuf les 6 premiers mois, déduction faite de la franchise. Recommandée si vous stationnez votre quad en extérieur ou dans un lieu non clos : le risque de vol est réel, notamment pour les modèles de forte cylindrée." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 3',
       content: [
@@ -22,7 +22,7 @@
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 4',
       content: [
-        { p: "Couverture complète des dommages subis par votre véhicule assuré, avec ou sans tiers identifié, y compris en cas de sinistre responsable ou de vandalisme. Recommandée pour un quad neuf ou récent, ou financé à crédit, quelle que soit la marque, la cylindrée ou la puissance. Vos sorties sur route comme hors piste sont couvertes en toute sérénité." }
+        { p: "Couverture complète des dommages subis par votre véhicule assuré, avec ou sans tiers identifié, y compris en cas de sinistre responsable ou de vandalisme, déduction faite de la franchise. Recommandée pour un quad neuf ou récent, ou financé à crédit, quelle que soit la marque, la cylindrée ou la puissance. Vos sorties sur route comme hors piste sont couvertes en toute sérénité." }
       ] },
 
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des options$', hlevel: 'H2',
@@ -31,7 +31,7 @@
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
       content: [
-        { p: "L'option Individuelle pilote couvre vos propres blessures en cas d'accident, même responsable : capital en cas de décès ou d'invalidité permanente jusqu'à 800 000 euros, prise en charge des frais médicaux et d'hospitalisation. Sur un quad, le risque de chute ou de retournement rend cette option particulièrement pertinente." }
+        { p: "L'option Individuelle pilote verse un capital en cas de décès ou d'invalidité permanente consécutifs à un accident, même responsable. Sur un quad, le risque de chute ou de retournement rend cette option particulièrement pertinente." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Assistance',
       content: [
@@ -45,19 +45,19 @@
     { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre quad ?" },
-        { p: "AMV, leader de l'assurance moto en France et spécialiste du quad et du SSV, assure plus d'1 million de conducteurs. Avec une note de 4,7/5 selon les avis clients vérifiés, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en quad sportif, en quad utilitaire ou en SSV, votre assurance quad est sur-mesure. Découvrez les avantages : des formules pensées pour le terrain comme pour la route, un devis assurance quad en ligne sans engagement, des tarifs à comparer et un conseiller dédié en cas de sinistre." }
+        { p: "AMV, leader de l'assurance moto en France et spécialiste du quad et du SSV, assure plus d'1 million de conducteurs. Avec une note de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en quad sportif, en quad utilitaire ou en SSV, votre assurance quad est sur-mesure. Découvrez les avantages : des formules pensées pour le terrain comme pour la route, un devis assurance quad en ligne sans engagement et un conseiller dédié en cas de sinistre." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de quad', position: 'appendSection',
       content: [
         { h3: "Plus de 50 ans d'expertise" },
-        { p: "Depuis 1974, AMV assure les passions des conducteurs de deux-roues et de quad. Une expertise qui couvre ce que les assureurs généralistes ignorent : vol d'équipement, dommages lors d'une sortie hors route, panne en pleine randonnée. AMV connaît chaque type de quad, du sportif au SSV utilitaire, du quad électrique au quad agricole, et assure toutes les marques : Can-Am, Polaris, CFMOTO, Yamaha, Kymco, TGB, Segway, Kubota, Hytrack, Arctic Cat et bien d'autres." }
+        { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Une expertise qui couvre ce que les assureurs généralistes ignorent : vol d'équipement, dommages lors d'une sortie hors route, panne en pleine randonnée. AMV connaît chaque type de quad, du sportif au SSV utilitaire, du quad électrique au quad agricole, et assure toutes les marques : Can-Am, Polaris, CFMOTO, Yamaha, Kymco, TGB, Segway, Kubota, Hytrack, Arctic Cat et bien d'autres." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'Un contrat spécial quad', position: 'appendSection',
       content: [
         { h3: "Un accompagnement personnalisé" },
-        { p: "Plus de 300 conseillers basés à Bordeaux vous conseillent par téléphone ou en ligne. En cas de sinistre, un conseiller dédié suit votre dossier d'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
+        { p: "Plus de 350 conseillers basés à Bordeaux vous conseillent par téléphone, par e-mail ou via votre Espace Client. En cas de sinistre, un conseiller dédié suit votre dossier d'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'Des questions sur votre assurance', position: 'before',
@@ -73,13 +73,13 @@
         { h3: "Quad électrique" },
         { p: "Le quad électrique se développe pour le loisir et les usages utilitaires. AMV l'assure dans les mêmes conditions que les quads thermiques, avec des garanties et des options identiques, la cotisation tenant compte des spécificités de la motorisation électrique." },
         { h2: "Comment souscrire une assurance quad ?" },
-        { p: "Pour souscrire une assurance quad chez AMV, la démarche est rapide. Munissez-vous de votre permis de conduire et de la carte grise (ou du numéro d'identification pour un quad non homologué), renseignez les informations sur votre quad (modèle, cylindrée, usage prévu) et votre profil pour obtenir votre devis en ligne en quelques minutes. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre carte verte par mail. Sans engagement, vous pouvez comparer et choisir la formule qui vous correspond." }
+        { p: "Pour souscrire une assurance quad chez AMV, la démarche est rapide. Munissez-vous de votre permis de conduire et de la carte grise (ou du numéro d'identification pour un quad non homologué), renseignez les informations sur votre quad (modèle, cylindrée, usage prévu) et votre profil pour obtenir votre devis en ligne en quelques minutes. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par mail." }
       ] },
 
     { mode: 'faqEdit', faqMatch: 'Des questions sur votre assurance',
       replace: [
         { existing: "Quel type d'assurance dois-je prendre", content: [
-          { p: "La meilleure assurance quad dépend de votre usage, de la valeur de votre véhicule et de votre budget. Pour un quad ancien ou utilisé occasionnellement, la formule Responsabilité civile suffit. Pour un quad neuf ou financé à crédit, la formule Tous risques offre la meilleure protection. AMV, spécialiste de l'assurance quad depuis plus de 50 ans, propose des formules adaptées à chaque profil." }
+          { p: "La meilleure assurance quad dépend de votre usage, de la valeur de votre véhicule et de votre budget. Pour un quad ancien ou utilisé occasionnellement, la formule Responsabilité civile pourrait suffire. Pour un quad neuf ou financé à crédit, la formule Tous risques offre la meilleure protection. AMV, spécialiste de l'assurance quad depuis plus de 50 ans, propose des formules adaptées à chaque profil." }
         ] },
         { existing: 'Combien cou', content: [
           { p: "Le prix d'une assurance quad dépend du modèle et de la cylindrée du quad ou du SSV, de l'usage prévu (loisir, route, agricole), de l'âge et de l'expérience du conducteur, de la zone géographique et du niveau de couverture choisi. Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
