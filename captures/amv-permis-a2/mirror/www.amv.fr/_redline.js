@@ -9,28 +9,28 @@
     { mode: 'insertBlock', anchorMatch: 'Questions fréquentes', position: 'before',
       content: [
         { h2: "Qu'est-ce que le permis moto A2 ?" },
-        { p: "Le permis A2 est accessible dès 18 ans. Il autorise la conduite de motos dont la puissance ne dépasse pas 35 kW (soit 47,5 chevaux) et de trois-roues limités à 15 kW. Après deux ans de pratique et une formation complémentaire de 7 heures, vous pouvez obtenir le permis A, qui donne accès à toutes les motos sans restriction de puissance. Pour un jeune permis de moins de 25 ans, le permis A2 représente la première étape avant de prendre la route sur des véhicules plus puissants." },
+        { p: "Le permis A2 est accessible dès 18 ans. Il autorise la conduite de motos dont la puissance ne dépasse pas 35 kW (soit 47,5 chevaux) et de trois-roues limités à 15 kW. Après deux ans de pratique et une formation complémentaire de 7 heures, vous pouvez obtenir le permis A, qui donne accès à toutes les motos sans restriction de puissance. Le permis A2 s'adresse à tous les profils, quel que soit l'âge : il représente souvent la première étape avant de prendre la route sur des véhicules plus puissants." },
         { h3: "Les conditions d'accès au permis A2" },
         { p: "Pour obtenir le permis A2 : avoir au moins 18 ans, réussir l'examen du code de la route, puis passer deux épreuves pratiques (plateau et circulation). La formation en moto-école comprend un minimum de 20 heures de conduite, dont 8 heures en plateau et 12 heures en circulation. Le coût total varie selon les régions et les moto-écoles." },
         { h3: "Quelles motos peut-on conduire avec un permis A2 ?" },
         { p: "Le permis A2 autorise les motos dont la puissance ne dépasse pas 35 kW et dont le rapport puissance/poids reste inférieur à 0,2 kW par kilogramme. De nombreux modèles populaires sont compatibles :" },
         { ul: ["Yamaha MT-07", "Kawasaki Z650", "Honda CB500F", "KTM 390 Duke", "Suzuki SV 650"] },
-        { p: "Certaines motos plus puissantes existent en version bridée A2, ce qui permet de les débrider une fois le permis A obtenu. Les deux-roues et trois-roues motorisés de moins de 35 kW sont également concernés par cette réglementation." },
+        { p: "Certaines motos plus puissantes existent en version bridée A2, ce qui permet de les débrider une fois le permis A obtenu. Les trois-roues motorisés sont, quant à eux, limités à 15 kW en permis A2." },
         { h3: "Permis A2, permis A : quelle différence ?" },
-        { p: "Le permis A2 limite la puissance du véhicule à 35 kW. Le permis A, obtenu après deux ans de pratique sous permis A2 et une formation de 7 heures, donne accès à toutes les motos sans restriction. Pour la majorité des trajets quotidiens, un deux-roues de moins de 35 kW suffit largement." },
+        { p: "Le permis A2 limite la puissance du deux-roues à 35 kW. Le permis A, obtenu après deux ans de pratique sous permis A2 et une formation de 7 heures, donne accès à toutes les motos sans restriction. Pour la majorité des trajets quotidiens, un deux-roues de moins de 35 kW peut suffire." },
 
         { h2: "Combien coûte une assurance moto avec un permis A2 ?" },
-        { p: "Le prix d'une assurance moto A2 dépend du modèle de la moto, de la zone géographique, du niveau de couverture et de l'expérience du conducteur. Les jeunes conducteurs paient plus cher en raison de la surprime jeune conducteur. Le tarif peut varier du simple au triple selon les compagnies et les offres proposées. Pour un jeune motard, comparer les contrats est important : c'est le meilleur moyen de trouver la meilleure assurance moto A2 au tarif le moins cher." },
+        { p: "Le prix d'une assurance moto A2 dépend du modèle de la moto, de la zone géographique, du niveau de couverture et de l'expérience du conducteur. Les jeunes conducteurs paient plus cher en raison de la surprime jeune conducteur. Le tarif peut varier du simple au triple selon les compagnies d'assurance et les offres proposées. Pour un jeune motard, comparer les contrats est important : c'est le meilleur moyen de trouver la meilleure assurance moto A2 au tarif le moins cher." },
         { h3: "La surprime jeune conducteur" },
-        { p: "Tout conducteur débutant se voit appliquer une surprime. La première année, cette majoration peut atteindre 100 % : la cotisation de base est alors doublée. Elle est réduite de moitié après chaque année sans sinistre responsable, soit 50 % la deuxième année puis 25 % la troisième. Après trois ans sans sinistre, la surprime disparaît et le bonus-malus continue de diminuer votre cotisation." },
+        { p: "Tout conducteur débutant se voit appliquer une surprime. La première année, cette majoration peut atteindre jusqu'à 100 %. La deuxième année, en l'absence de sinistre responsable, elle est limitée à 50 %, puis à 25 % la troisième année. Après trois ans sans sinistre, la surprime disparaît. Le coefficient bonus-malus continue ensuite de baisser en l'absence de sinistre responsable, même si la cotisation finale dépend aussi de l'évolution tarifaire décidée par l'assureur." },
         { h3: "Quel est le prix moyen d'une assurance moto A2 ?" },
         { p: "Le prix d'une assurance moto A2 dépend du profil du conducteur, du modèle de la moto et de la formule choisie. La formule au tiers reste la moins chère, la formule tous risques la plus protectrice. Le prix diminue chaque année grâce au bonus-malus, à condition de ne pas déclarer de sinistre responsable. Seul un devis personnalisé en ligne donne le tarif exact pour votre situation." },
         { h3: "Comment réduire le prix de votre assurance moto A2" },
         { p: "Plusieurs leviers permettent de diminuer votre cotisation en permis A2 :" },
-        { ul: ["choisir une formule au tiers pour une première moto d'occasion de faible valeur", "privilégier un stationnement en garage fermé plutôt qu'en extérieur", "suivre un stage de conduite post-permis", "faire valoir votre bonus automobile si vous possédez déjà une voiture", "utiliser un comparateur en ligne pour trouver les meilleures offres"] },
+        { ul: ["choisir une formule au tiers pour une première moto d'occasion de faible valeur", "faire valoir votre bonus automobile si vous possédez déjà une voiture"] },
 
         { h2: "Nos formules d'assurance pour les permis A2" },
-        { p: "AMV propose des formules adaptées aux détenteurs du permis A2. Chaque contrat assurance moto peut être complété par des options pour ajuster votre couverture selon votre budget et votre usage. Notre comparateur en ligne vous aide à trouver la meilleure formule en quelques clics." },
+        { p: "AMV propose des formules adaptées aux détenteurs du permis A2. Chaque contrat assurance moto peut être complété par des options pour ajuster votre couverture selon votre budget et votre usage. Un devis en ligne vous aide à trouver la formule adaptée en quelques clics." },
         { accordion: { level: 'H3', items: [
           { title: "Formule au tiers", content: [{ p: "L'assurance au tiers couvre la responsabilité civile obligatoire et la défense pénale. C'est le choix le plus fréquent pour un jeune conducteur avec une première moto d'occasion de faible valeur marchande. Son tarif est le moins cher de nos formules, ce qui répond au besoin des jeunes motards soucieux de leur budget." }] },
           { title: "Formule vol et incendie", content: [{ p: "En complément du tiers, cette formule ajoute la prise en charge en cas de vol, tentative de vol ou incendie. Si vous stationnez votre moto en extérieur ou en zone urbaine, cette couverture complémentaire est recommandée." }] },
@@ -40,39 +40,39 @@
         { h2: "Les garanties essentielles pour un jeune motard" },
         { p: "Les accidents de moto provoquent des blessures corporelles plus fréquentes et plus graves que les accidents auto. Certaines garanties méritent une attention particulière pour un conducteur novice en permis A2. Nos conseils pour bien vous protéger dès le départ." },
         { h3: "Protection corporelle du conducteur" },
-        { p: "Cette garantie couvre vos propres blessures en cas d'accident, même responsable : prise en charge des frais médicaux, indemnisation en cas d'invalidité, capital en cas de décès. Elle intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas : accident seul, accident responsable." },
+        { p: "Cette garantie indemnise le conducteur en cas d'accident corporel, même responsable : capital en cas de décès, indemnisation en cas d'invalidité permanente. Les frais de soins et d'hospitalisation, eux, relèvent de la Sécurité sociale et de votre mutuelle. Elle intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas : accident seul, accident responsable." },
         { h3: "Équipement et accessoires moto" },
-        { p: "Casque, gants, blouson, bottes : l'équipement d'un motard représente un budget conséquent. Cette garantie couvre le remplacement de vos équipements en cas de sinistre. Elle s'étend aux accessoires installés sur votre véhicule (top case, GPS, intercom)." },
+        { p: "Casque, gants, blouson, bottes : l'équipement d'un motard représente un budget conséquent. Cette garantie couvre le remplacement de vos équipements en cas de sinistre. Elle s'étend aux accessoires installés sur votre véhicule (top case, sacoches, échappement…), à hauteur de 5 000 €." },
         { h3: "Assistance 24h/24" },
         { p: "Le service d'assistance AMV intervient 24h/24 et 7j/7 en cas de panne, d'accident ou de vol :" },
-        { ul: ["remorquage jusqu'au garage le plus proche", "véhicule de remplacement", "rapatriement à domicile"] },
+        { ul: ["remorquage jusqu'à la concession la plus proche", "rapatriement à domicile"] },
         { p: "Ce service couvre la France métropolitaine et la plupart des pays d'Europe." },
 
         { h2: "Le détail des garanties de votre assurance moto A2" },
         { p: "Quelle que soit la formule choisie en permis A2, votre contrat AMV repose sur un socle de garanties précises. Dépliez chaque garantie pour voir le détail des montants et des prises en charge." },
         { accordion: { level: 'H3', items: [
-          { title: "Responsabilité civile", content: [{ p: "La Compagnie vous garantit contre les conséquences pécuniaires de la responsabilité civile que vous pouvez encourir en raison des dommages matériels et corporels causés à autrui, y compris à votre passager. Dommages corporels illimités, dommages matériels limités à 100 000 000 € en cas d'accident et 1 300 000 € en cas d'incendie." }] },
+          { title: "Responsabilité civile", content: [{ p: "Prise en charge des conséquences pécuniaires de la responsabilité civile que vous pouvez encourir en raison des dommages matériels et corporels causés à autrui, y compris à votre passager. Dommages corporels illimités, dommages matériels jusqu'à 100 000 000 € en cas d'accident et 1 300 000 € en cas d'incendie." }] },
           { title: "Assistance juridique", content: [{ p: "Défense pénale et recours suite à accident, à concurrence de 2 300 €. Protection juridique en cas de conflit relatif au véhicule assuré (achat, entretien, réparation, vente ou financement) et pour les conséquences d'une infraction aux règles de la circulation." }] },
           { title: "Casque, gants et gilet airbag", content: [{ p: "Remboursement, déduction faite de la vétusté, du casque à concurrence de 250 €, des gants à concurrence de 70 € et du gilet airbag à concurrence de 500 €, lorsqu'ils sont détériorés à la suite d'un événement couvert au titre des garanties Responsabilité civile, Dommages collision ou Dommages tous accidents." }] },
           { title: "Vol et incendie", content: [{ p: "Remboursement des dommages résultant d'un vol, d'un incendie ou d'une tentative de vol matérialisée par des traces d'effraction, à concurrence de la valeur de remplacement à dire d'expert au jour du sinistre, ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." }] },
           { title: "Dommages collision", content: [{ p: "Remboursement des dommages subis par votre moto lors d'une collision avec un tiers identifié, à concurrence de la valeur de remplacement à dire d'expert au jour du sinistre, ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." }] },
           { title: "Dommages tous accidents (Tous risques)", content: [{ p: "Remboursement des dommages subis par votre moto à la suite d'un accident, véhicule en mouvement ou à l'arrêt, avec ou sans collision, avec ou sans tiers identifié, à concurrence de la valeur de remplacement ou de la valeur à neuf, déduction faite d'une franchise variable selon le véhicule." }] },
-          { title: "Individuelle pilote", content: [{ p: "Garantie personnelle du conducteur en cas d'accident corporel, même responsable. En cas de décès, indemnisation plafonnée à 5 000 € au titre des frais d'obsèques, 15 000 € pour le conjoint ou concubin et 5 000 € par enfant à charge dans la limite de 20 000 €. En cas d'invalidité permanente supérieure à 15 %, versement d'un capital proportionnel plafonné à 800 000 €. Frais médicaux, pharmaceutiques et d'hospitalisation pris en charge dans la limite de 1 000 €." }] },
+          { title: "Individuelle pilote", content: [{ p: "Garantie personnelle du conducteur en cas d'accident corporel, même responsable. En cas de décès, indemnisation plafonnée à 5 000 € au titre des frais d'obsèques, 15 000 € pour le conjoint ou concubin et 5 000 € par enfant à charge dans la limite de 20 000 €. En cas d'invalidité permanente supérieure à 15 %, versement d'un capital proportionnel plafonné à 800 000 €." }] },
           { title: "Assistance 0 km", content: [{ p: "Assistance sans franchise kilométrique, 24h/24 et 7j/7, en cas de panne, d'accident, de vol ou de tentative de vol, de crevaison, de perte ou de casse de clés, ou d'enlèvement par la fourrière. Dépannage, remorquage et rapatriement pris en charge pour vous, votre moto et votre passager, en France métropolitaine et dans la plupart des pays d'Europe." }, { p: "Valeur à neuf : prix d'achat d'un véhicule acquis neuf, pendant les 6 premiers mois, ou 18 mois au titre de l'Option plus, suivant la date d'achat." }] }
         ] } },
 
         { h2: "Pourquoi choisir AMV pour votre assurance moto A2 ?" },
-        { p: "AMV est spécialiste de l'assurance deux-roues depuis plus de 50 ans. Plus de 300 conseillers basés à Bordeaux accompagnent les motards débutants comme les plus expérimentés." },
+        { p: "AMV est spécialiste de l'assurance deux-roues depuis plus de 50 ans. Plus de 350 conseillers basés à Bordeaux accompagnent les motards débutants comme les plus expérimentés." },
         { p: "Les avantages AMV pour un permis A2 :" },
         { ul: ["tarifs adaptés aux jeunes conducteurs", "formules évolutives qui suivent votre progression vers le permis A", "souscription 100 % en ligne, devis assurance en quelques minutes", "accompagnement personnalisé par des conseillers spécialistes"] },
-        { p: "Avec une note de satisfaction de 4,7 sur 5, AMV assure plus de 750 000 contrats en cours. Que vous rouliez en sportive, en roadster ou en scooter, AMV dispose d'une formule adaptée à votre profil." }
+        { p: "Avec une note de satisfaction de 4,7 sur 5, AMV revendique plus d'1 million d'assurés. Que vous rouliez en sportive, en roadster ou en scooter, AMV dispose d'une formule adaptée à votre profil." }
       ] },
 
     // 3. FAQ : on remplace les questions correspondantes, on ajoute les nouvelles, on garde le reste
     { mode: 'faqEdit', faqMatch: 'Questions fréquentes',
       replace: [
         { existing: "prix d'une assurance moto", content: [
-          { p: "Le prix assurance moto A2 varie selon le modèle de moto, la zone géographique et le niveau de couverture choisi. En permis A2, une surprime jeune conducteur s'applique les premières années : elle peut atteindre 100 % la première année, puis se réduit de moitié chaque année sans sinistre (50 %, puis 25 %) avant de disparaître. Chez AMV, un devis assurance en ligne vous donne un tarif personnalisé en quelques minutes." }
+          { p: "Le prix assurance moto A2 varie selon le modèle de moto, la zone géographique et le niveau de couverture choisi. En permis A2, une surprime jeune conducteur s'applique les premières années : elle peut atteindre jusqu'à 100 % la première année, puis est limitée à 50 % la deuxième année et à 25 % la troisième, en l'absence de sinistre responsable, avant de disparaître. Chez AMV, un devis assurance en ligne vous donne un tarif personnalisé en quelques minutes." }
         ] },
         { existing: "Quelle formule", content: [
           { p: "Pour une moto neuve ou récente, la formule tous risques protège contre les dommages en cas d'accident responsable. Pour une moto d'occasion de faible valeur, une formule au tiers ou vol et incendie suffit : c'est la solution la moins chère pour un jeune motard. Le choix dépend de la valeur de votre véhicule, de votre budget et de votre usage quotidien." }
@@ -80,11 +80,11 @@
       ],
       add: [
         { q: "Quelles motos peut-on assurer avec un permis A2 ?", content: [
-          { p: "Toutes les motos dont la puissance ne dépasse pas 35 kW (47,5 ch), y compris les versions bridées. AMV assure les modèles les plus courants : Yamaha MT-07, Kawasaki Z650, Honda CB500F, KTM 390 Duke, Suzuki SV 650. Les deux-roues et trois-roues de moins de 35 kW sont couverts par nos formules." }
+          { p: "Toutes les motos dont la puissance ne dépasse pas 35 kW (47,5 ch), y compris les versions bridées. AMV assure les modèles les plus courants : Yamaha MT-07, Kawasaki Z650, Honda CB500F, KTM 390 Duke, Suzuki SV 650. Les trois-roues motorisés, limités à 15 kW en permis A2, sont également couverts par nos formules." }
         ] },
         { q: "Comment payer moins cher son assurance moto en permis A2 ?", content: [
           { p: "Plusieurs leviers permettent de réduire votre cotisation :" },
-          { ul: ["choisir une formule au tiers pour une première moto de faible valeur", "opter pour un stationnement en garage fermé", "suivre un stage de conduite post-permis", "faire valoir un bonus auto existant auprès de votre assureur"] }
+          { ul: ["choisir une formule au tiers pour une première moto de faible valeur", "faire valoir un bonus auto existant auprès de votre assureur"] }
         ] },
         { q: "Est-il obligatoire d'assurer une moto même si elle ne roule pas ?", content: [
           { p: "Oui. Tout véhicule terrestre à moteur doit être assuré au minimum en responsabilité civile, même stationné dans un garage. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros." }
