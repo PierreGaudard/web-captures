@@ -29,7 +29,7 @@
       "Le véhicule doit avoir au moins 30 ans.",
       "Son type ne doit plus être produit.",
       "Il doit être conservé dans son état d'origine, sans modification majeure des caractéristiques techniques.",
-      "Une attestation de datation et de caractéristiques délivrée par la FFVE (Fédération Française des Véhicules d'Époque) est nécessaire pour demander le certificat d'immatriculation auprès de l'ANTS."
+      "Une attestation de datation et de caractéristiques, délivrée par la FFVE (Fédération Française des Véhicules d'Époque) ou par le constructeur, est nécessaire pour demander le certificat d'immatriculation de collection auprès de l'ANTS."
     ] },
     { p: "Ce statut de carte grise collection présente plusieurs avantages concrets pour le motard :" },
     { ul: [
