@@ -45,7 +45,8 @@
     { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre scooter ?" },
-        { p: "AMV, leader et assureur spécialiste de l'assurance moto et scooter en France depuis plus de 50 ans, assure plus d'1 million de conducteurs. Avec une note de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en 50cc, en 125 ou en maxi-scooter, votre assurance scooter est sur-mesure. Découvrez les avantages : des formules pensées pour les deux-roues, un devis assurance scooter en ligne sans engagement et un conseiller dédié en cas de sinistre." }
+        { p: "AMV, leader et assureur spécialiste de l'assurance moto et scooter en France depuis plus de 50 ans, compte plus d'1 million d'assurés. Avec une note de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par plus de 9 assurés sur 10. Que vous rouliez en 50cc, en 125 ou en maxi-scooter, votre assurance scooter est sur-mesure. Découvrez les avantages : des formules pensées pour les deux-roues, un devis assurance scooter en ligne sans engagement et un conseiller dédié en cas de sinistre.",
+          links: [{ t: "l'assurance moto", href: "https://www.amv.fr/assurance/moto/" }] }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de scooter', position: 'appendSection',
@@ -65,13 +66,16 @@
         { h2: "Quel scooter peut-on assurer chez AMV ?" },
         { p: "AMV, spécialiste de l'assurance deux-roues, assure tous les types de scooters, quelle que soit la cylindrée ou la motorisation. Que vous utilisiez votre deux-roues en ville ou sur route, AMV a un contrat adapté à votre profil." },
         { h3: "Scooter 50 cm3" },
-        { p: "Le scooter 50 cm3 est idéal pour les trajets urbains courts. Accessible dès 14 ans avec le permis AM (ex-BSR), il ne nécessite pas le permis de conduire classique. AMV propose des formules adaptées aux conducteurs de 50 cm3, y compris les jeunes qui prennent la route pour la première fois. Parmi les modèles courants : Piaggio Zip, Peugeot Kisbee, Yamaha Neos, MBK Booster." },
+        { p: "Le scooter 50 cm3 est idéal pour les trajets urbains courts. Accessible dès 14 ans avec le permis AM (ex-BSR), il ne nécessite pas le permis de conduire classique. AMV propose des formules adaptées aux conducteurs de 50 cm3, y compris les jeunes qui prennent la route pour la première fois. Parmi les modèles courants : Piaggio Zip, Peugeot Kisbee, Yamaha Neos, MBK Booster.",
+          links: [{ t: "scooter 50 cm3", href: "https://www.amv.fr/assurance-scooter/assurance-scooter-50cm3/" }] },
         { h3: "Scooter 125 cm3" },
-        { p: "Le scooter 125 est le choix privilégié pour les déplacements domicile-travail et les trajets périurbains. Accessible avec le permis B et une formation de 7 heures, ou avec le permis A1, il offre un bon compromis entre performance et coût d'assurance. AMV assure tous les scooters 125, comme le Honda Forza 125, le Yamaha XMAX 125 ou le Piaggio Medley." },
+        { p: "Le scooter 125 est le choix privilégié pour les déplacements domicile-travail et les trajets périurbains. Accessible avec le permis B et une formation de 7 heures, ou avec le permis A1, il offre un bon compromis entre performance et coût d'assurance. AMV assure tous les scooters 125, comme le Honda Forza 125, le Yamaha XMAX 125 ou le Piaggio Medley.",
+          links: [{ t: "scooter 125", href: "https://www.amv.fr/assurance-scooter/assurance-scooter-125cm3/" }] },
         { h3: "Maxi-scooter et trois-roues" },
         { p: "Pour les conducteurs qui recherchent confort et puissance sur de longs trajets, le maxi-scooter est la solution. AMV assure les maxi-scooters de toutes cylindrées (300, 400, 530 cm3 et plus) ainsi que les scooters trois-roues. Que vous rouliez en Yamaha TMAX, Honda Forza 350 ou Piaggio MP3, votre contrat couvre l'ensemble de vos besoins." },
         { h3: "Scooter électrique" },
-        { p: "Le scooter électrique se développe rapidement en ville. AMV assure tous les modèles de scooters électriques dans les mêmes conditions que les scooters thermiques. Les garanties et les options sont identiques, et la cotisation tient compte des spécificités de la motorisation électrique." },
+        { p: "Le scooter électrique se développe rapidement en ville. AMV assure tous les modèles de scooters électriques dans les mêmes conditions que les scooters thermiques. Les garanties et les options sont identiques, et la cotisation tient compte des spécificités de la motorisation électrique.",
+          links: [{ t: "scooter électrique", href: "https://www.amv.fr/assurance-scooter/assurance-scooter-electrique/" }] },
         { h2: "Le vol de scooter : pourquoi bien se protéger" },
         { p: "Le scooter, souvent stationné dans la rue, est particulièrement exposé au vol. Pour un usage urbain quotidien, la formule Vol / Incendie ou une formule plus complète est vivement conseillée. Au-delà de l'assurance, un bon antivol (U ou chaîne) et un stationnement dans un lieu fermé ou surveillé réduisent fortement le risque. En cas de vol, AMV vous indemnise à la valeur de remplacement à dire d'expert, ou à la valeur à neuf pendant les premiers mois suivant l'achat." },
         { h2: "L'assurance scooter pour vos trajets du quotidien" },
@@ -139,10 +143,15 @@
   function refQuestion() { return document.querySelector('.collapse-block .flex.justify-between.items-center span'); }
   function refLI() { return document.querySelector('.collapse-part li, .umb-rte li, section li'); }
   function makePara(txt) { var r = refPara(); var p = r ? cloneAs(r, txt) : el('p', 'rl-mark', null); if (!r) p.textContent = txt; p.style.marginTop = '10px'; return p; }
-  function makeUL(items) { var rli = refLI(); var ul = el('ul', 'rl-mark'); ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px'; items.forEach(function (t) { var li = rli ? cloneAs(rli, t) : el('li', null, t); li.style.display = 'list-item'; ul.appendChild(li); }); return ul; }
+  var RL_LINK_STYLE = 'color:inherit;text-decoration:underline;font-weight:600';
+  function escapeHtml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function anchorHtml(label, href) { return '<a href="' + href + '" target="_blank" rel="noopener" class="rl-link" style="' + RL_LINK_STYLE + '">' + escapeHtml(label) + '</a>'; }
+  function linkify(txt, links) { var h = escapeHtml(txt); (links || []).forEach(function (l) { h = h.replace(escapeHtml(l.t), anchorHtml(l.t, l.href)); }); return h; }
+  function makeParaLinked(txt, links) { var r = refPara(); var p = r ? r.cloneNode(true) : el('p', 'rl-mark', null); ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-rl-prep', 'data-collapse', 'data-lazy-load'].forEach(function (a) { p.removeAttribute(a); }); p.classList.remove('opacity-0', 'rl-del'); p.classList.add('rl-mark'); p.style.opacity = '1'; p.innerHTML = linkify(txt, links); p.style.marginTop = '10px'; return p; }
+  function makeUL(items) { var rli = refLI(); var ul = el('ul', 'rl-mark'); ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px'; items.forEach(function (t) { var isObj = t && typeof t === 'object'; var label = isObj ? t.t : t; var li = rli ? cloneAs(rli, label) : el('li', null, label); if (isObj) li.innerHTML = anchorHtml(label, t.href); li.style.display = 'list-item'; ul.appendChild(li); }); return ul; }
   function makeHeading(tag, txt) { var r = refHeading(tag); var node = r ? cloneAs(r, txt) : el(tag, 'rl-mark', txt); node.style.marginTop = '20px'; prependTag(node, tag.toUpperCase()); return node; }
   function makeQuestion(txt) { var r = refQuestion(); var node = r ? cloneAs(r, txt) : el('p', 'rl-mark', txt); node.style.display = 'block'; node.style.marginTop = '18px'; node.style.marginBottom = '4px'; prependTag(node, 'H3'); return node; }
-  function renderContent(items) { var n = []; items.forEach(function (it) { if (it.h2) n.push(makeHeading('h2', it.h2)); else if (it.h3) n.push(makeHeading('h3', it.h3)); else if (it.p) n.push(makePara(it.p)); else if (it.ul) n.push(makeUL(it.ul)); }); return n; }
+  function renderContent(items) { var n = []; items.forEach(function (it) { if (it.h2) n.push(makeHeading('h2', it.h2)); else if (it.h3) n.push(makeHeading('h3', it.h3)); else if (it.p) n.push(it.links ? makeParaLinked(it.p, it.links) : makePara(it.p)); else if (it.ul) n.push(makeUL(it.ul)); }); return n; }
   function insertNodesBefore(nodes, ref, parent) { var f = document.createDocumentFragment(); nodes.forEach(function (n) { f.appendChild(n); }); parent.insertBefore(f, ref); }
   function headerText(b) { var s = b.querySelector('.flex.justify-between.items-center span') || b.querySelector('.flex.justify-between.items-center'); return (s ? s.textContent : b.textContent).trim(); }
   function findCollapseScoped(blockMatch, attr, scope) { var re = new RegExp(blockMatch, 'i'); var root = document; if (scope) { var sh = [].slice.call(document.querySelectorAll('h2')).find(function (x) { return new RegExp(scope, 'i').test(x.textContent); }); if (sh) root = sh.closest('section') || document; } return [].slice.call(root.querySelectorAll('.collapse-block')).find(function (b) { return re.test(headerText(b)) && !b.getAttribute(attr); }); }

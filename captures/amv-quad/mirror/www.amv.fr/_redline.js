@@ -6,7 +6,7 @@
 
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$', hlevel: 'H2',
       newText: "Nos 4 formules d'assurance quad",
-      addParas: ["AMV, assureur spécialiste de l'assurance moto et quad, propose 4 formules sur-mesure pour couvrir chaque conducteur de quad et de SSV selon son profil, son usage et son budget. Choisissez la formule qui correspond à votre usage : dès la première, vous êtes couvert en responsabilité civile, en assistance juridique et pour vos équipements (casque, gants, gilet airbag) en cas de sinistre. Comparez les formules et obtenez votre devis assurance quad en ligne en quelques clics, sans engagement."] },
+      addParas: ["AMV, assureur spécialiste de l'assurance deux-roues, propose 4 formules sur-mesure pour couvrir chaque conducteur de quad et de SSV selon son profil, son usage et son budget. Choisissez la formule qui correspond à votre usage : dès la première, vous êtes couvert en responsabilité civile, en assistance juridique et pour vos équipements (casque, gants, gilet airbag) en cas de sinistre. Comparez les formules et obtenez votre devis assurance quad en ligne en quelques clics, sans engagement."] },
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 1',
       content: [
@@ -45,7 +45,8 @@
     { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre quad ?" },
-        { p: "AMV, leader de l'assurance moto en France et spécialiste du quad et du SSV, assure plus d'1 million de conducteurs. Avec une note de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en quad sportif, en quad utilitaire ou en SSV, votre assurance quad est sur-mesure. Découvrez les avantages : des formules pensées pour le terrain comme pour la route, un devis assurance quad en ligne sans engagement et un conseiller dédié en cas de sinistre." }
+        { p: "AMV, leader de l'assurance moto en France, assure aussi le quad et le SSV et compte plus d'1 million d'assurés. Avec une note de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par plus de 9 assurés sur 10. Que vous rouliez en quad sportif, en quad utilitaire ou en SSV, votre assurance quad est sur-mesure. Découvrez les avantages : des formules pensées pour le terrain comme pour la route, un devis assurance quad en ligne sans engagement et un conseiller dédié en cas de sinistre.",
+          links: [{ t: "l'assurance moto", href: "https://www.amv.fr/assurance/moto/" }] }
       ] },
 
     { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de quad', position: 'appendSection',
@@ -63,7 +64,7 @@
     { mode: 'insertBlock', anchorMatch: 'Des questions sur votre assurance', position: 'before',
       content: [
         { h2: "Quel quad peut-on assurer chez AMV ?" },
-        { p: "AMV, assureur spécialiste de l'assurance moto et quad, assure tous les types de quads et SSV, quelle que soit la cylindrée, la marque ou la motorisation. Découvrez le contrat qui correspond à votre véhicule et à votre usage, du loisir à la route, de la randonnée à l'usage agricole." },
+        { p: "AMV, spécialiste de l'assurance deux-roues, assure tous les types de quads et SSV, quelle que soit la cylindrée, la marque ou la motorisation. Découvrez le contrat qui correspond à votre véhicule et à votre usage, du loisir à la route, de la randonnée à l'usage agricole." },
         { h3: "Quad homologué route" },
         { p: "Le quad homologué route est immatriculé et autorisé à circuler sur la voie publique. Il nécessite une carte grise et un permis de conduire adapté : le permis B1 (quadricycle lourd) ou le permis B. AMV couvre vos déplacements sur route et en agglomération. Parmi les modèles courants : Can-Am Outlander, Polaris Sportsman, CFMOTO CForce, Yamaha Grizzly." },
         { h3: "Quad non homologué" },
@@ -71,7 +72,8 @@
         { h3: "SSV et buggy (side-by-side)" },
         { p: "Le SSV, aussi appelé buggy ou side-by-side, se distingue du quad par son habitacle, son volant et ses sièges pour transporter un ou plusieurs passagers. AMV assure tous les SSV, homologués ou non, quelle que soit la marque ou la cylindrée. Parmi les modèles courants : Polaris RZR, Can-Am Maverick, CFMOTO ZForce, Segway Villain." },
         { h3: "Quad électrique" },
-        { p: "Le quad électrique se développe pour le loisir et les usages utilitaires. AMV l'assure dans les mêmes conditions que les quads thermiques, avec des garanties et des options identiques, la cotisation tenant compte des spécificités de la motorisation électrique." },
+        { p: "Le quad électrique se développe pour le loisir et les usages utilitaires. AMV l'assure dans les mêmes conditions que les quads thermiques, avec des garanties et des options identiques, la cotisation tenant compte des spécificités de la motorisation électrique.",
+          links: [{ t: "quad électrique", href: "https://www.amv.fr/assurance-quad/assurance-quad-electrique/" }] },
         { h2: "Comment souscrire une assurance quad ?" },
         { p: "Pour souscrire une assurance quad chez AMV, la démarche est rapide. Munissez-vous de votre permis de conduire et de la carte grise (ou du numéro d'identification pour un quad non homologué), renseignez les informations sur votre quad (modèle, cylindrée, usage prévu) et votre profil pour obtenir votre devis en ligne en quelques minutes. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par mail." }
       ] },
@@ -102,7 +104,8 @@
           { p: "Pour assurer un quad non homologué, la démarche est la même que pour un quad homologué : il vous faut le numéro de série ou d'identification du véhicule et vos informations personnelles. Chez AMV, le devis est gratuit et la souscription se fait en ligne en quelques minutes." }
         ] },
         { q: "Quel permis faut-il pour conduire un quad ?", content: [
-          { p: "Le permis dépend de la catégorie du quad. Pour un quad léger (quadricycle léger, 50 cm3 maximum), le permis AM (ex-BSR) suffit dès 14 ans. Pour un quad lourd homologué route (quadricycle lourd), le permis B1 (dès 16 ans) ou le permis B est nécessaire. AMV assure les conducteurs quel que soit leur permis de conduire." }
+          { p: "Le permis dépend de la catégorie du quad. Pour un quad léger (quadricycle léger, 50 cm3 maximum), le permis AM (ex-BSR) suffit dès 14 ans. Pour un quad lourd homologué route (quadricycle lourd), le permis B1 (dès 16 ans) ou le permis B est nécessaire. AMV assure les conducteurs quel que soit leur permis de conduire.",
+          links: [{ t: "permis AM", href: "https://www.amv.fr/assurance-moto/assurance-moto-permis-am/" }] }
         ] },
         { q: "Comment assurer un buggy ou un SSV ?", content: [
           { p: "Pour assurer un buggy (ou SSV), la démarche est identique à celle d'un quad. AMV permet de couvrir votre buggy homologué ou non homologué, qu'il serve au loisir, à la randonnée sur terrain ou à un usage utilitaire. Un buggy de forte cylindrée comme un buggy plus modeste est couvert par nos 4 formules. Munissez-vous de la carte grise ou du numéro d'identification du buggy pour obtenir votre devis en ligne." }
@@ -121,10 +124,15 @@
   function refQuestion() { return document.querySelector('.collapse-block .flex.justify-between.items-center span'); }
   function refLI() { return document.querySelector('.collapse-part li, .umb-rte li, section li'); }
   function makePara(txt) { var r = refPara(); var p = r ? cloneAs(r, txt) : el('p', 'rl-mark', null); if (!r) p.textContent = txt; p.style.marginTop = '10px'; return p; }
-  function makeUL(items) { var rli = refLI(); var ul = el('ul', 'rl-mark'); ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px'; items.forEach(function (t) { var li = rli ? cloneAs(rli, t) : el('li', null, t); li.style.display = 'list-item'; ul.appendChild(li); }); return ul; }
+  var RL_LINK_STYLE = 'color:inherit;text-decoration:underline;font-weight:600';
+  function escapeHtml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function anchorHtml(label, href) { return '<a href="' + href + '" target="_blank" rel="noopener" class="rl-link" style="' + RL_LINK_STYLE + '">' + escapeHtml(label) + '</a>'; }
+  function linkify(txt, links) { var h = escapeHtml(txt); (links || []).forEach(function (l) { h = h.replace(escapeHtml(l.t), anchorHtml(l.t, l.href)); }); return h; }
+  function makeParaLinked(txt, links) { var r = refPara(); var p = r ? r.cloneNode(true) : el('p', 'rl-mark', null); ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-rl-prep', 'data-collapse', 'data-lazy-load'].forEach(function (a) { p.removeAttribute(a); }); p.classList.remove('opacity-0', 'rl-del'); p.classList.add('rl-mark'); p.style.opacity = '1'; p.innerHTML = linkify(txt, links); p.style.marginTop = '10px'; return p; }
+  function makeUL(items) { var rli = refLI(); var ul = el('ul', 'rl-mark'); ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px'; items.forEach(function (t) { var isObj = t && typeof t === 'object'; var label = isObj ? t.t : t; var li = rli ? cloneAs(rli, label) : el('li', null, label); if (isObj) li.innerHTML = anchorHtml(label, t.href); li.style.display = 'list-item'; ul.appendChild(li); }); return ul; }
   function makeHeading(tag, txt) { var r = refHeading(tag); var node = r ? cloneAs(r, txt) : el(tag, 'rl-mark', txt); node.style.marginTop = '20px'; prependTag(node, tag.toUpperCase()); return node; }
   function makeQuestion(txt) { var r = refQuestion(); var node = r ? cloneAs(r, txt) : el('p', 'rl-mark', txt); node.style.display = 'block'; node.style.marginTop = '18px'; node.style.marginBottom = '4px'; prependTag(node, 'H3'); return node; }
-  function renderContent(items) { var n = []; items.forEach(function (it) { if (it.h2) n.push(makeHeading('h2', it.h2)); else if (it.h3) n.push(makeHeading('h3', it.h3)); else if (it.p) n.push(makePara(it.p)); else if (it.ul) n.push(makeUL(it.ul)); }); return n; }
+  function renderContent(items) { var n = []; items.forEach(function (it) { if (it.h2) n.push(makeHeading('h2', it.h2)); else if (it.h3) n.push(makeHeading('h3', it.h3)); else if (it.p) n.push(it.links ? makeParaLinked(it.p, it.links) : makePara(it.p)); else if (it.ul) n.push(makeUL(it.ul)); }); return n; }
   function insertNodesBefore(nodes, ref, parent) { var f = document.createDocumentFragment(); nodes.forEach(function (n) { f.appendChild(n); }); parent.insertBefore(f, ref); }
   function headerText(b) { var s = b.querySelector('.flex.justify-between.items-center span') || b.querySelector('.flex.justify-between.items-center'); return (s ? s.textContent : b.textContent).trim(); }
   function findCollapseScoped(blockMatch, attr, scope) { var re = new RegExp(blockMatch, 'i'); var root = document; if (scope) { var sh = [].slice.call(document.querySelectorAll('h2')).find(function (x) { return new RegExp(scope, 'i').test(x.textContent); }); if (sh) root = sh.closest('section') || document; } return [].slice.call(root.querySelectorAll('.collapse-block')).find(function (b) { return re.test(headerText(b)) && !b.getAttribute(attr); }); }
