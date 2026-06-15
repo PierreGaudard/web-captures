@@ -12,7 +12,7 @@
   // Histoire de marque resserree (remplace les longs paragraphes existants, barres ci-dessous)
   var HISTORY = [
     { h2: "Kawasaki, un siècle d'histoire industrielle" },
-    { p: "Né en 1878 du chantier naval de Shozo Kawasaki, le groupe Kawasaki Heavy Industries s'est diversifié au fil des décennies (ferroviaire, aéronautique, énergie) avant de lancer la production de motos en 1953." },
+    { p: "Né en 1878 du chantier naval de Shozo Kawasaki, le groupe Kawasaki Heavy Industries s'est diversifié au fil des décennies (ferroviaire, aéronautique, énergie) avant de se lancer dans la moto à partir de 1953." },
     { p: "La marque a marqué l'histoire du deux-roues avec des modèles mythiques : 500 H1, 750 H2, 900 Z1, GPZ 900 R, Ninja ZX-10R ou Ninja H2R. Un héritage de puissance et de performance, confirmé par un récent prototype à hydrogène, qui mérite une assurance moto Kawasaki à sa hauteur." }
   ];
 
