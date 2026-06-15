@@ -16,7 +16,8 @@
       content: [
         { p: "La formule de base vous couvre en responsabilité civile (dommages matériels et corporels), en assistance juridique et en protection de vos équipements essentiels :" },
         { ul: ["casque couvert jusqu'à 250 euros", "gants couverts jusqu'à 70 euros", "gilet airbag couvert jusqu'à 500 euros"] },
-        { p: "Le choix le moins cher pour prendre la route en toute légalité. Cette formule est adaptée aux motos anciennes ou de faible valeur marchande, pour lesquelles une couverture étendue ne serait pas rentable." }
+        { p: "Le choix le moins cher pour prendre la route en toute légalité. Cette formule est adaptée aux motos anciennes ou de faible valeur marchande, pour lesquelles une couverture étendue ne serait pas rentable.",
+          links: [{ t: "motos anciennes", href: "https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx" }] }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 2',
       content: [
@@ -56,14 +57,16 @@
     { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre moto ?" },
-        { p: "AMV, leader et assureur spécialiste de l'assurance moto scooter en France depuis plus de 50 ans, assure plus d'1 million de motards. Avec une note de satisfaction de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par ses assurés. Que vous rouliez en sportive, en routière, en trail, en scooter ou même en quad, AMV propose un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement et des garanties conçues par des spécialistes des deux-roues." }
+        { p: "AMV, leader et assureur spécialiste de l'assurance moto scooter en France depuis plus de 50 ans, assure plus d'1 million de motards. Avec une note de satisfaction de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par ses assurés. Que vous rouliez en sportive, en routière, en trail, en scooter ou même en quad, AMV propose un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement et des garanties conçues par des spécialistes des deux-roues.",
+        links: [{ t: "en scooter", href: "https://www.amv.fr/assurance/scooter/" }, { t: "en quad", href: "https://www.amv.fr/assurance/quad/" }] }
       ] },
 
     // 6b. "Plus de 50 ans d'expertise" -> dans la section "AMV assure toutes les marques de moto"
     { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de moto', position: 'appendSection',
       content: [
         { h3: "Plus de 50 ans d'expertise deux-roues" },
-        { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Cette expertise deux-roues couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de chaque type de véhicule et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre." }
+        { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Cette expertise deux-roues couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de chaque marque et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre.",
+          links: [{ t: "chaque marque", href: "https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/" }] }
       ] },
 
     // 6c. "Un accompagnement de motard à motard" -> dans la section "Un contrat spécial moto pensé pour vous"
@@ -147,12 +150,35 @@
     p.style.marginTop = '10px';
     return p;
   }
+  var RL_LINK_STYLE = 'color:inherit;text-decoration:underline;font-weight:600';
+  function escapeHtml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function anchorHtml(label, href) { return '<a href="' + href + '" target="_blank" rel="noopener" class="rl-link" style="' + RL_LINK_STYLE + '">' + escapeHtml(label) + '</a>'; }
+  function linkify(txt, links) {
+    var h = escapeHtml(txt);
+    (links || []).forEach(function (l) {
+      var safe = escapeHtml(l.t);
+      h = h.replace(safe, anchorHtml(l.t, l.href));
+    });
+    return h;
+  }
+  function makeParaLinked(txt, links) {
+    var r = refPara();
+    var p = r ? r.cloneNode(true) : el('p', 'rl-mark', null);
+    ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-collapse', 'data-lazy-load'].forEach(function (a) { p.removeAttribute(a); });
+    p.classList.remove('opacity-0', 'rl-del'); p.classList.add('rl-mark'); p.style.opacity = '1';
+    p.innerHTML = linkify(txt, links);
+    p.style.marginTop = '10px';
+    return p;
+  }
   function makeUL(items) {
     var rli = refLI();
     var ul = el('ul', 'rl-mark');
     ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px';
     items.forEach(function (txt) {
-      var li = rli ? cloneAs(rli, txt) : el('li', null, txt);
+      var isObj = txt && typeof txt === 'object';
+      var label = isObj ? txt.t : txt;
+      var li = rli ? cloneAs(rli, label) : el('li', null, label);
+      if (isObj) { li.innerHTML = anchorHtml(label, txt.href); }
       li.style.display = 'list-item';
       ul.appendChild(li);
     });
@@ -179,7 +205,7 @@
     items.forEach(function (it) {
       if (it.h2) nodes.push(makeHeading('h2', it.h2));
       else if (it.h3) nodes.push(makeHeading('h3', it.h3));
-      else if (it.p) nodes.push(makePara(it.p));
+      else if (it.p) nodes.push(it.links ? makeParaLinked(it.p, it.links) : makePara(it.p));
       else if (it.ul) nodes.push(makeUL(it.ul));
     });
     return nodes;

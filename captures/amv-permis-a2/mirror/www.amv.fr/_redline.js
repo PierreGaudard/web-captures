@@ -9,12 +9,19 @@
     { mode: 'insertBlock', anchorMatch: 'Questions fréquentes', position: 'before',
       content: [
         { h2: "Qu'est-ce que le permis moto A2 ?" },
-        { p: "Le permis A2 est accessible dès 18 ans. Il autorise la conduite de motos dont la puissance ne dépasse pas 35 kW (soit 47,5 chevaux) et de trois-roues limités à 15 kW. Après deux ans de pratique et une formation complémentaire de 7 heures, vous pouvez obtenir le permis A, qui donne accès à toutes les motos sans restriction de puissance. Le permis A2 s'adresse à tous les profils, quel que soit l'âge : il représente souvent la première étape avant de prendre la route sur des véhicules plus puissants." },
+        { p: "Le permis A2 est accessible dès 18 ans. Il autorise la conduite de motos dont la puissance ne dépasse pas 35 kW (soit 47,5 chevaux) et de trois-roues limités à 15 kW. Après deux ans de pratique et une formation complémentaire de 7 heures, vous pouvez obtenir le permis A, qui donne accès à toutes les motos sans restriction de puissance. Le permis A2 s'adresse à tous les profils, quel que soit l'âge : il représente souvent la première étape avant de prendre la route sur des véhicules plus puissants.",
+          links: [{ t: "le permis A", href: "https://www.amv.fr/assurance-moto/assurance-moto-permis-a/" }] },
         { h3: "Les conditions d'accès au permis A2" },
         { p: "Pour obtenir le permis A2 : avoir au moins 18 ans, réussir l'examen du code de la route, puis passer deux épreuves pratiques (plateau et circulation). La formation en moto-école comprend un minimum de 20 heures de conduite, dont 8 heures en plateau et 12 heures en circulation. Le coût total varie selon les régions et les moto-écoles." },
         { h3: "Quelles motos peut-on conduire avec un permis A2 ?" },
         { p: "Le permis A2 autorise les motos dont la puissance ne dépasse pas 35 kW et dont le rapport puissance/poids reste inférieur à 0,2 kW par kilogramme. De nombreux modèles populaires sont compatibles :" },
-        { ul: ["Yamaha MT-07", "Kawasaki Z650", "Honda CB500F", "KTM 390 Duke", "Suzuki SV 650"] },
+        { ul: [
+          { t: "Yamaha MT-07", href: "https://www.amv.fr/assurance-moto/assurance-moto-yamaha/" },
+          { t: "Kawasaki Z650", href: "https://www.amv.fr/assurance-moto/assurance-moto-kawasaki/" },
+          { t: "Honda CB500F", href: "https://www.amv.fr/assurance-moto/assurance-moto-honda/" },
+          { t: "KTM 390 Duke", href: "https://www.amv.fr/assurance-moto/assurance-moto-ktm/" },
+          { t: "Suzuki SV 650", href: "https://www.amv.fr/assurance-moto/assurance-moto-suzuki/" }
+        ] },
         { p: "Certaines motos plus puissantes existent en version bridée A2, ce qui permet de les débrider une fois le permis A obtenu. Les trois-roues motorisés sont, quant à eux, limités à 15 kW en permis A2." },
         { h3: "Permis A2, permis A : quelle différence ?" },
         { p: "Le permis A2 limite la puissance du deux-roues à 35 kW. Le permis A, obtenu après deux ans de pratique sous permis A2 et une formation de 7 heures, donne accès à toutes les motos sans restriction. Pour la majorité des trajets quotidiens, un deux-roues de moins de 35 kW peut suffire." },
@@ -30,7 +37,8 @@
         { ul: ["choisir une formule au tiers pour une première moto d'occasion de faible valeur", "faire valoir votre bonus automobile si vous possédez déjà une voiture"] },
 
         { h2: "Nos formules d'assurance pour les permis A2" },
-        { p: "AMV propose des formules adaptées aux détenteurs du permis A2. Chaque contrat assurance moto peut être complété par des options pour ajuster votre couverture selon votre budget et votre usage. Un devis en ligne vous aide à trouver la formule adaptée en quelques clics." },
+        { p: "AMV propose des formules adaptées aux détenteurs du permis A2. Chaque contrat assurance moto peut être complété par des options pour ajuster votre couverture selon votre budget et votre usage. Un devis en ligne vous aide à trouver la formule adaptée en quelques clics.",
+          links: [{ t: "contrat assurance moto", href: "https://www.amv.fr/assurance/moto/" }] },
         { accordion: { level: 'H3', items: [
           { title: "Formule au tiers", content: [{ p: "L'assurance au tiers couvre la responsabilité civile obligatoire et la défense pénale. C'est le choix le plus fréquent pour un jeune conducteur avec une première moto d'occasion de faible valeur marchande. Son tarif est le moins cher de nos formules, ce qui répond au besoin des jeunes motards soucieux de leur budget." }] },
           { title: "Formule vol et incendie", content: [{ p: "En complément du tiers, cette formule ajoute la prise en charge en cas de vol, tentative de vol ou incendie. Si vous stationnez votre moto en extérieur ou en zone urbaine, cette couverture complémentaire est recommandée." }] },
@@ -104,7 +112,12 @@
   function refQuestion() { return document.querySelector('.collapse-block .flex.justify-between.items-center span'); }
   function refLI() { return document.querySelector('.collapse-part li, .umb-rte li, section li'); }
   function makePara(txt) { var r = refPara(); var p = r ? cloneAs(r, txt) : el('p', 'rl-mark', null); if (!r) p.textContent = txt; p.style.marginTop = '10px'; return p; }
-  function makeUL(items) { var rli = refLI(); var ul = el('ul', 'rl-mark'); ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px'; items.forEach(function (t) { var li = rli ? cloneAs(rli, t) : el('li', null, t); li.style.display = 'list-item'; ul.appendChild(li); }); return ul; }
+  var RL_LINK_STYLE = 'color:inherit;text-decoration:underline;font-weight:600';
+  function escapeHtml(s) { return String(s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function anchorHtml(label, href) { return '<a href="' + href + '" target="_blank" rel="noopener" class="rl-link" style="' + RL_LINK_STYLE + '">' + escapeHtml(label) + '</a>'; }
+  function linkify(txt, links) { var h = escapeHtml(txt); (links || []).forEach(function (l) { h = h.replace(escapeHtml(l.t), anchorHtml(l.t, l.href)); }); return h; }
+  function makeParaLinked(txt, links) { var r = refPara(); var p = r ? r.cloneNode(true) : el('p', 'rl-mark', null); ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-collapse', 'data-lazy-load'].forEach(function (a) { p.removeAttribute(a); }); p.classList.remove('opacity-0', 'rl-del'); p.classList.add('rl-mark'); p.style.opacity = '1'; p.innerHTML = linkify(txt, links); p.style.marginTop = '10px'; return p; }
+  function makeUL(items) { var rli = refLI(); var ul = el('ul', 'rl-mark'); ul.style.listStyle = 'disc'; ul.style.marginLeft = '18px'; ul.style.marginTop = '6px'; items.forEach(function (t) { var isObj = t && typeof t === 'object'; var label = isObj ? t.t : t; var li = rli ? cloneAs(rli, label) : el('li', null, label); if (isObj) li.innerHTML = anchorHtml(label, t.href); li.style.display = 'list-item'; ul.appendChild(li); }); return ul; }
   function makeHeading(tag, txt) { var r = refHeading(tag); var node = r ? cloneAs(r, txt) : el(tag, 'rl-mark', txt); node.style.marginTop = '20px'; prependTag(node, tag.toUpperCase()); return node; }
   function makeQuestion(txt) { var r = refQuestion(); var node = r ? cloneAs(r, txt) : el('p', 'rl-mark', txt); node.style.display = 'block'; node.style.marginTop = '18px'; node.style.marginBottom = '4px'; prependTag(node, 'H3'); return node; }
   function makeAccPara(txt) { var r = refPara(); var p; if (r) { p = r.cloneNode(true); ['id', 'data-rl', 'data-collapse', 'data-lazy-load'].forEach(function (a) { p.removeAttribute(a); }); p.classList.remove('opacity-0', 'rl-mark', 'rl-del'); p.style.opacity = '1'; p.textContent = txt; } else { p = el('p', null, txt); } return p; }
@@ -123,7 +136,7 @@
     });
     return box;
   }
-  function renderContent(items) { var n = []; items.forEach(function (it) { if (it.h2) n.push(makeHeading('h2', it.h2)); else if (it.h3) n.push(makeHeading('h3', it.h3)); else if (it.p) n.push(makePara(it.p)); else if (it.ul) n.push(makeUL(it.ul)); else if (it.accordion) n.push(makeAccordion(it.accordion)); }); return n; }
+  function renderContent(items) { var n = []; items.forEach(function (it) { if (it.h2) n.push(makeHeading('h2', it.h2)); else if (it.h3) n.push(makeHeading('h3', it.h3)); else if (it.p) n.push(it.links ? makeParaLinked(it.p, it.links) : makePara(it.p)); else if (it.ul) n.push(makeUL(it.ul)); else if (it.accordion) n.push(makeAccordion(it.accordion)); }); return n; }
   function insertNodesBefore(nodes, ref, parent) { var f = document.createDocumentFragment(); nodes.forEach(function (n) { f.appendChild(n); }); parent.insertBefore(f, ref); }
   function findTarget(edit) { var re = new RegExp(edit.match, 'i'); var n = [].slice.call(document.querySelectorAll(edit.sel)).filter(function (x) { return !x.getAttribute('data-rl') && re.test(x.textContent.trim()); }); if (!n.length) return null; n.sort(function (a, b) { return a.textContent.trim().length - b.textContent.trim().length; }); return n[0]; }
 
