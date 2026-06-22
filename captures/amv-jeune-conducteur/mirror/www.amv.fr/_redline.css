@@ -1,134 +1,89 @@
-/* Redline AMV : contenu supprimé (rouge barré) vs nouveau contenu (vert) */
+/* Redline AMV - DA officielle (vert #00A850, gris #455359, Montserrat / Paralucent) */
 
-/* Contenu supprimé */
-.rl-del, .rl-del * {
-  text-decoration: line-through !important;
-}
-.rl-del {
-  background: #ffe2e2 !important;
-  color: #c0392b !important;
-  border-radius: 4px;
-  padding: 2px 6px;
-}
+/* ---- Doublon supprime (rouge barre) ---- */
+.rl-del, .rl-del * { text-decoration: line-through !important; }
+.rl-del { background:#ffe7e7 !important; color:#c0392b !important; border-radius:6px; padding:2px 6px; }
 
-/* Nouveau contenu */
-.rl-add {
-  background: #e6f8ea !important;
-  border-left: 4px solid #2ecc71;
-  border-radius: 6px;
-  padding: 14px 18px;
-  margin: 14px 0;
+/* ---- Bloc de nouveau contenu : carte propre on-brand ---- */
+.rl-add{
+  position:relative;
+  background:#fff;
+  border:1px solid #e1ebe5;
+  border-left:4px solid #00A850;
+  border-radius:12px;
+  padding:22px 26px 24px;
+  margin:22px 0;
+  box-shadow:0 4px 18px rgba(0,40,20,.06);
+  font-family:Montserrat, ui-sans-serif, system-ui, sans-serif;
+  color:#455359;
 }
-.rl-add .rl-q {
-  font-weight: 700;
-  color: #1e7e34;
-  display: block;
-  margin: 12px 0 4px;
-}
-.rl-add .rl-q:first-child { margin-top: 0; }
-.rl-add p { margin: 0 0 8px; }
-.rl-add ul { margin: 4px 0 10px 18px; list-style: disc; }
-.rl-add li { margin: 2px 0; }
-.rl-add .rl-h1 { font-size: 1.8em; font-weight: 800; color: #1e7e34; line-height: 1.15; display: block; }
-.rl-badge {
-  display: inline-block;
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: .3px;
-  text-transform: uppercase;
-  color: #fff;
-  background: #2ecc71;
-  border-radius: 4px;
-  padding: 2px 8px;
-  margin-bottom: 8px;
-  text-decoration: none !important;
-}
-/* variante inline pour un remplacement court (ex: H1) */
-.rl-add.rl-inline { display: inline-block; margin: 10px 0; }
+.rl-add.rl-inline{ display:inline-block; padding:14px 20px; }
 
-/* Badge de niveau de titre (H1/H2/H3) pour le dev */
-.rl-hntag {
-  display: inline-block;
-  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
-  font-size: 1em;
-  font-weight: 700;
-  line-height: 1;
-  vertical-align: baseline;
-  background: #176a2c;
-  color: #fff;
-  padding: 0.05em 0.3em;
-  border-radius: 4px;
-  margin-right: 0.4em;
-  text-decoration: none !important;
-  white-space: nowrap;
-}
-body:not(.rl-on) .rl-hntag { display: none !important; }
-
-/* Nouveau contenu en simple surlignage vert, meme taille que l'original (clone) */
-.rl-mark, .rl-mark * {
-  background: #b9f0c6 !important;
-  color: #176a2c !important;
-  text-decoration: none !important;
-  border-radius: 4px;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+.rl-badge{
+  display:inline-block;
+  font:700 11px/1 Montserrat, sans-serif;
+  letter-spacing:.4px; text-transform:uppercase;
+  color:#fff; background:#00A850;
+  border-radius:999px; padding:5px 12px; margin-bottom:14px;
 }
 
-/* Etat masqué : on retire le marquage pour revoir la page d'origine */
-body:not(.rl-on) .rl-del, body:not(.rl-on) .rl-del * {
-  text-decoration: none !important;
-  background: transparent !important;
-  color: inherit !important;
-}
-body:not(.rl-on) .rl-add { display: none !important; }
-body:not(.rl-on) .rl-mark { display: none !important; }
+/* Titres facon AMV */
+.rl-add .rl-nh{ font-family:paralucent, Montserrat, sans-serif; color:#00A850; line-height:1.2; margin:20px 0 10px; }
+.rl-add .rl-nh:first-of-type{ margin-top:6px; }
+.rl-add .rl-nh2{ font-size:22px; font-weight:600; }
+.rl-add .rl-nh3{ font-size:17px; font-weight:600; color:#2f8f5a; }
 
-/* Accordeons modifies : on les ouvre pendant la revue pour voir le nouveau contenu
-   (les formules/options sont injectees dans .collapse-part.hidden = display:none) */
-body.rl-on .collapse-part.rl-host { display: flex !important; }
+/* Paragraphes */
+.rl-add .rl-np{ font-size:15px; line-height:1.65; color:#455359; margin:0 0 12px; }
+.rl-add .rl-h1{ font-family:paralucent, Montserrat, sans-serif; font-size:28px; font-weight:700; color:#00A850; line-height:1.15; display:block; }
+
+/* Listes a puces vertes */
+.rl-add .rl-nul{ margin:6px 0 14px; padding:0; list-style:none; }
+.rl-add .rl-nul li{ position:relative; padding-left:24px; margin:8px 0; font-size:15px; line-height:1.55; color:#455359; }
+.rl-add .rl-nul li:before{ content:"✓"; position:absolute; left:0; top:0; color:#00A850; font-weight:700; }
+
+/* Encadre "a retenir" facon AMV */
+.rl-add .rl-callout{
+  display:flex; gap:12px; align-items:flex-start;
+  background:#eefaf2; border:1px solid #bfe8cf; border-left:4px solid #00A850;
+  border-radius:10px; padding:14px 16px; margin:4px 0 18px;
+}
+.rl-add .rl-callout-ic{ flex:0 0 22px; width:22px; height:22px; border-radius:50%; background:#00A850; color:#fff; font-size:13px; font-weight:700; display:flex; align-items:center; justify-content:center; }
+.rl-add .rl-callout-tx{ font-size:14.5px; line-height:1.6; color:#2f4a3c; font-style:italic; }
+
+/* Bouton devis AMV */
+.rl-add .rl-cta{
+  display:inline-block; margin:8px 0 2px;
+  background:#00A850; color:#fff !important; text-decoration:none !important;
+  font:600 15px/1 Montserrat, sans-serif;
+  padding:14px 28px; border-radius:999px;
+  box-shadow:0 6px 16px rgba(0,168,80,.28);
+  transition:background .15s;
+}
+.rl-add .rl-cta:hover{ background:#008f44; }
+
+/* Tableau facon AMV */
+.rl-add .rl-table{ width:100%; border-collapse:separate; border-spacing:0; margin:8px 0 16px; font-size:14px; border:1px solid #cfe9d8; border-radius:12px; overflow:hidden; background:#fff; }
+.rl-add .rl-table th{ background:#00A850; color:#fff; font-weight:600; padding:11px 12px; text-align:left; font-family:Montserrat, sans-serif; }
+.rl-add .rl-table td{ padding:10px 12px; border-top:1px solid #e3efe8; text-align:left; vertical-align:top; color:#455359; }
+.rl-add .rl-table tr:nth-child(even) td{ background:#f4fbf7; }
+
+/* Petits tags de niveau (dev) masques par defaut */
+.rl-hntag{ display:inline-block; font:700 11px/1 ui-monospace, Menlo, monospace; background:#0a6e36; color:#fff; padding:2px 6px; border-radius:4px; margin-right:6px; }
+body:not(.rl-on) .rl-hntag{ display:none !important; }
+
+/* Etat masque : revoir l'original */
+body:not(.rl-on) .rl-del, body:not(.rl-on) .rl-del *{ text-decoration:none !important; background:transparent !important; color:inherit !important; }
+body:not(.rl-on) .rl-add{ display:none !important; }
 
 /* Bouton bascule */
-#rl-toggle {
-  position: fixed;
-  right: 18px;
-  bottom: 18px;
-  z-index: 99999;
-  background: #111;
-  color: #fff;
-  border: 0;
-  border-radius: 999px;
-  padding: 12px 18px;
-  font: 600 14px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  cursor: pointer;
-  box-shadow: 0 6px 20px rgba(0,0,0,.3);
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-#rl-toggle .dot { width: 9px; height: 9px; border-radius: 50%; background: #2ecc71; }
-body:not(.rl-on) #rl-toggle .dot { background: #888; }
+#rl-toggle{ position:fixed; right:18px; bottom:18px; z-index:99999; background:#1d2b30; color:#fff; border:0; border-radius:999px; padding:12px 18px; font:600 14px/1 Montserrat, sans-serif; cursor:pointer; box-shadow:0 6px 20px rgba(0,0,0,.3); display:flex; align-items:center; gap:8px; }
+#rl-toggle .dot{ width:9px; height:9px; border-radius:50%; background:#00A850; }
+body:not(.rl-on) #rl-toggle .dot{ background:#888; }
 
-/* Légende */
-#rl-legend {
-  position: fixed;
-  right: 18px;
-  bottom: 64px;
-  z-index: 99999;
-  background: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
-  padding: 10px 14px;
-  font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  color: #333;
-  box-shadow: 0 6px 20px rgba(0,0,0,.15);
-}
-body:not(.rl-on) #rl-legend { display: none; }
-#rl-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
-#rl-legend .sw-del { background: #ffe2e2; border: 1px solid #c0392b; }
-#rl-legend .sw-add { background: #e6f8ea; border: 1px solid #2ecc71; }
-
-/* Tableau insere dans le redline */
-.rl-add .rl-table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 0.95em; background:#fff; }
-.rl-add .rl-table th, .rl-add .rl-table td { border: 1px solid #bfe6c8; padding: 8px 10px; text-align: left; vertical-align: top; }
-.rl-add .rl-table th { background: #2ecc71; color: #fff; font-weight: 700; }
-.rl-add .rl-table tr:nth-child(even) td { background: #f3fbf5; }
+/* Legende */
+#rl-legend{ position:fixed; right:18px; bottom:64px; z-index:99999; background:#fff; border:1px solid #e0e6e3; border-radius:10px; padding:10px 14px; font:13px/1.5 Montserrat, sans-serif; color:#455359; box-shadow:0 6px 20px rgba(0,0,0,.15); }
+body:not(.rl-on) #rl-legend{ display:none; }
+#rl-legend .sw{ display:inline-block; width:12px; height:12px; border-radius:3px; margin-right:6px; vertical-align:-1px; }
+#rl-legend .sw-del{ background:#ffe7e7; border:1px solid #c0392b; }
+#rl-legend .sw-add{ background:#00A850; }
