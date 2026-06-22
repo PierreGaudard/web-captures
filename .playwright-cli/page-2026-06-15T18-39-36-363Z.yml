@@ -1,0 +1,900 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: index.html#content
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link:
+            - /url: index.html#
+          - heading "Quel Vêtement" [level=1] [ref=e7]:
+            - link "Quel Vêtement" [ref=e8] [cursor=pointer]:
+              - /url: index.html
+              - generic [ref=e9]: Quel Vêtement
+        - navigation [ref=e10]:
+          - generic [ref=e11]:
+            - text: 
+            - list [ref=e12]:
+              - listitem [ref=e13]:
+                - link "Fashion" [ref=e14] [cursor=pointer]:
+                  - /url: https://quel-vetement.com/category/outfits/
+              - listitem [ref=e15]:
+                - link "Beauty" [ref=e16] [cursor=pointer]:
+                  - /url: https://quel-vetement.com/category/beauty/
+              - listitem [ref=e17]:
+                - link "LIFESTYLE" [ref=e18] [cursor=pointer]:
+                  - /url: https://quel-vetement.com/category/lifestyle/
+              - listitem [ref=e19]:
+                - link "TRAVEL" [ref=e20] [cursor=pointer]:
+                  - /url: https://quel-vetement.com/category/travel/
+              - listitem [ref=e21]:
+                - link "Gift Guides" [ref=e22] [cursor=pointer]:
+                  - /url: https://quel-vetement.com/gift-guides/
+              - listitem [ref=e23]:
+                - link "SHOP" [ref=e24] [cursor=pointer]:
+                  - /url: https://quel-vetement.com/shop/
+        - text: 
+    - main [ref=e27]:
+      - generic [ref=e30]:
+        - heading "Welcome to Minimalist Sophistication with Maximum Style" [level=1] [ref=e31]
+        - paragraph [ref=e33]: Quel Vêtement is an inspired style, home, and beauty destination for those who prefer quality over quantity, subtle over obvious, and ease over complexity.
+      - article [ref=e38]:
+        - generic [ref=e39]: New post!
+        - link "featured image" [ref=e41] [cursor=pointer]:
+          - /url: https://quel-vetement.com/gifts-for-him/
+          - img "featured image" [ref=e42]
+        - generic [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "LIFESTYLE" [ref=e46] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/lifestyle/
+              - text: 
+            - listitem [ref=e47]: 6.12.26
+          - 'heading "Best Father’s Day Gifts 2026: 42 Ideas for Every Dad" [level=1] [ref=e49]':
+            - 'link "Best Father’s Day Gifts 2026: 42 Ideas for Every Dad" [ref=e50] [cursor=pointer]':
+              - /url: https://quel-vetement.com/gifts-for-him/
+          - paragraph [ref=e52]: With Father’s Day 2026 falling on Sunday, June 21, you’ve got just over a week left to find him the perfect gift — and let’s be honest, buying for any man can be hard, but especially when it comes to…
+          - link "View the Post" [ref=e54] [cursor=pointer]:
+            - /url: https://quel-vetement.com/gifts-for-him/
+          - generic [ref=e55]:
+            - generic [ref=e56]: 
+            - text: Shop
+          - generic [ref=e59]: Turn off your ad blocker to view content
+      - generic [ref=e61]:
+        - generic [ref=e62]:
+          - heading "trending" [level=2]
+          - navigation [ref=e63]:
+            - list [ref=e64]:
+              - listitem [ref=e65]:
+                - link "Popular" [ref=e66] [cursor=pointer]:
+                  - /url: index.html#section-1
+              - listitem [ref=e67]:
+                - link "Travel Tips" [ref=e68] [cursor=pointer]:
+                  - /url: index.html#section-2
+              - listitem [ref=e69]:
+                - link "Outfit Guides" [ref=e70] [cursor=pointer]:
+                  - /url: index.html#section-3
+              - listitem [ref=e71]:
+                - link "Reviews" [ref=e72] [cursor=pointer]:
+                  - /url: index.html#section-4
+        - generic [ref=e73]:
+          - generic [ref=e75]:
+            - list [ref=e77]:
+              - generic [ref=e79]:
+                - listitem [ref=e82]:
+                  - generic [ref=e83]:
+                    - link [ref=e85] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/what-to-buy-on-amazon/
+                    - generic [ref=e86]:
+                      - 'heading "What to Buy on Amazon: Chic Finds for Every Category" [level=3] [ref=e87]':
+                        - 'link "What to Buy on Amazon: Chic Finds for Every Category" [ref=e88] [cursor=pointer]':
+                          - /url: https://quel-vetement.com/what-to-buy-on-amazon/
+                      - generic [ref=e89]: You guys know how much I love a good Amazon find. Whether it's an essential item for travel, a kitchen gadget, or a trendy fashion piece at a great price, Amazon seemingly has it all plus incredibly fast shipping for…
+                      - link "View the Post" [ref=e91] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/what-to-buy-on-amazon/
+                - listitem [ref=e94]:
+                  - generic [ref=e95]:
+                    - link [ref=e97] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/fall-capsule-wardrobe/
+                      - img [ref=e98]
+                    - generic [ref=e99]:
+                      - heading [level=3] [ref=e100]:
+                        - link [ref=e101] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/fall-capsule-wardrobe/
+                          - text: "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season"
+                      - generic [ref=e102]: As the season turns, your wardrobe should too. Welcome to the 2025 Fall Capsule Wardrobe Edit, your go-to guide for styling with ease, intention, and a touch of seasonal flair. In a world full of fleeting trends, a capsule approach gives…
+                      - link [ref=e104] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/fall-capsule-wardrobe/
+                        - text: View the Post
+                - listitem [ref=e107]:
+                  - generic [ref=e108]:
+                    - link [ref=e110] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/amazon-fall-capsule-wardrobe/
+                      - img [ref=e111]
+                    - generic [ref=e112]:
+                      - heading [level=3] [ref=e113]:
+                        - link [ref=e114] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/amazon-fall-capsule-wardrobe/
+                          - text: "Fall Capsule Wardrobe: Amazon Edition"
+                      - generic [ref=e115]: Yesterday, the long-awaited 2025 fall capsule wardrobe dropped. These capsule wardrobes are such a labor of love, and seeing you guys enjoy them means the world to me and my team. That said, I always love to offer a more…
+                      - link [ref=e117] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/amazon-fall-capsule-wardrobe/
+                        - text: View the Post
+                - listitem [ref=e120]:
+                  - generic [ref=e121]:
+                    - link [ref=e123] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/master-bedroom-decor/
+                      - img [ref=e124]
+                    - generic [ref=e125]:
+                      - heading [level=3] [ref=e126]:
+                        - link [ref=e127] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/master-bedroom-decor/
+                          - text: "Stylish Living: Transitional Bedroom Decor Ideas"
+                      - generic [ref=e128]: Your home should be your sanctuary — the one place you know you can walk into and instantly feel relaxed, at peace, and comfortable. Of course, this process is just that — a process. Creating the perfect space for you…
+                      - link [ref=e130] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/master-bedroom-decor/
+                        - text: View the Post
+            - generic [ref=e131]:
+              - list [ref=e132]:
+                - listitem [ref=e133]:
+                  - 'link "1 What to Buy on Amazon: Chic Finds for Every Category" [ref=e134] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e135]: "1"
+                    - generic [ref=e136]: "What to Buy on Amazon: Chic Finds for Every Category"
+                - listitem [ref=e137]:
+                  - 'link "2 Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season" [ref=e138] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e139]: "2"
+                    - generic [ref=e140]: "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season"
+                - listitem [ref=e141]:
+                  - 'link "3 Fall Capsule Wardrobe: Amazon Edition" [ref=e142] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e143]: "3"
+                    - generic [ref=e144]: "Fall Capsule Wardrobe: Amazon Edition"
+                - listitem [ref=e145]:
+                  - 'link "4 Stylish Living: Transitional Bedroom Decor Ideas" [ref=e146] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e147]: "4"
+                    - generic [ref=e148]: "Stylish Living: Transitional Bedroom Decor Ideas"
+              - link "Read More Popular Posts" [ref=e150] [cursor=pointer]:
+                - /url: https://quel-vetement.com/page/2/
+          - generic [ref=e151]:
+            - list [ref=e153]:
+              - generic [ref=e155]:
+                - listitem [ref=e158]:
+                  - generic [ref=e159]:
+                    - link "Travel Bag Featured Image" [ref=e161] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/best-travel-bags/
+                      - img "Travel Bag Featured Image" [ref=e162]
+                    - generic [ref=e163]:
+                      - 'heading "Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [level=3] [ref=e164]':
+                        - 'link "Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [ref=e165] [cursor=pointer]':
+                          - /url: https://quel-vetement.com/best-travel-bags/
+                      - generic [ref=e166]: I’ve always been a self-proclaimed jetsetter, but I feel like my travel has really picked up a lot this first half of 2026. I’ve been go-go-going, which has allowed me to edit and refine my jetsetting methods as well as…
+                      - link "View the Post" [ref=e168] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/best-travel-bags/
+                - listitem [ref=e171]:
+                  - generic [ref=e172]:
+                    - link [ref=e174] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/airport-travel-style-outfits/
+                      - img [ref=e175]
+                    - generic [ref=e176]:
+                      - heading [level=3] [ref=e177]:
+                        - link [ref=e178] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/airport-travel-style-outfits/
+                          - text: My Favorite Airport Outfits & Travel Essentials for Jetsetters
+                      - generic [ref=e179]: Traveling by plane used to be the chicest of chic. Men and women alike would don their best sets to jetset high above the ground, in the clouds. Now, there’s no telling what kind of fashion you’ll see on any…
+                      - link [ref=e181] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/airport-travel-style-outfits/
+                        - text: View the Post
+                - listitem [ref=e184]:
+                  - generic [ref=e185]:
+                    - link [ref=e187] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/telluride-itinerary-what-to-know-know-for-your-next-winter-trip/
+                      - img [ref=e188]
+                    - generic [ref=e189]:
+                      - heading [level=3] [ref=e190]:
+                        - link [ref=e191] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/telluride-itinerary-what-to-know-know-for-your-next-winter-trip/
+                          - text: "Telluride Itinerary: What to Know Know for Your Next Winter Trip"
+                      - generic [ref=e192]: Telluride CO is one of mine and Will's favorite places to visit and we have been coming here for the past 5 years. Either during the summer or winter, you can't go wrong. As the town always says, you come…
+                      - link [ref=e194] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/telluride-itinerary-what-to-know-know-for-your-next-winter-trip/
+                        - text: View the Post
+                - listitem [ref=e197]:
+                  - generic [ref=e198]:
+                    - link [ref=e200] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/paris-summer-outfits-and-itinerary/
+                      - img [ref=e201]
+                    - generic [ref=e202]:
+                      - heading [level=3] [ref=e203]:
+                        - link [ref=e204] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/paris-summer-outfits-and-itinerary/
+                          - text: "Paris in Summer: The Chic Itinerary for Where to Stay, Eat, Shop & What to Wear"
+                      - generic [ref=e205]: If you’re planning a Paris getaway, this Paris Summer Outfits and Itinerary is the perfect mix of travel inspiration, chic style ideas, and must-visit spots. I think this was my fifth trip to Paris, although at this point, who’s really…
+                      - link [ref=e207] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/paris-summer-outfits-and-itinerary/
+                        - text: View the Post
+            - generic [ref=e208]:
+              - list [ref=e209]:
+                - listitem [ref=e210]:
+                  - 'link "1 Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [ref=e211] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e212]: "1"
+                    - generic [ref=e213]: "Best Travel Bags for Women 2026: 12 Editor-Tested Picks"
+                - listitem [ref=e214]:
+                  - link "2 My Favorite Airport Outfits & Travel Essentials for Jetsetters" [ref=e215] [cursor=pointer]:
+                    - /url: index.html#
+                    - generic [ref=e216]: "2"
+                    - generic [ref=e217]: My Favorite Airport Outfits & Travel Essentials for Jetsetters
+                - listitem [ref=e218]:
+                  - 'link "3 Telluride Itinerary: What to Know Know for Your Next Winter Trip" [ref=e219] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e220]: "3"
+                    - generic [ref=e221]: "Telluride Itinerary: What to Know Know for Your Next Winter Trip"
+                - listitem [ref=e222]:
+                  - 'link "4 Paris in Summer: The Chic Itinerary for Where to Stay, Eat, Shop & What to Wear" [ref=e223] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e224]: "4"
+                    - generic [ref=e225]: "Paris in Summer: The Chic Itinerary for Where to Stay, Eat, Shop & What to Wear"
+              - link "Read More in Travel" [ref=e227] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/travel/
+          - generic [ref=e228]:
+            - list [ref=e230]:
+              - generic [ref=e232]:
+                - listitem [ref=e235]:
+                  - generic [ref=e236]:
+                    - link "FEATURED IMAGE" [ref=e238] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/fall-capsule-wardrobe/
+                      - img "FEATURED IMAGE" [ref=e239]
+                    - generic [ref=e240]:
+                      - 'heading "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season" [level=3] [ref=e241]':
+                        - 'link "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season" [ref=e242] [cursor=pointer]':
+                          - /url: https://quel-vetement.com/fall-capsule-wardrobe/
+                      - generic [ref=e243]: As the season turns, your wardrobe should too. Welcome to the 2025 Fall Capsule Wardrobe Edit, your go-to guide for styling with ease, intention, and a touch of seasonal flair. In a world full of fleeting trends, a capsule approach gives…
+                      - link "View the Post" [ref=e245] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/fall-capsule-wardrobe/
+                - listitem [ref=e248]:
+                  - generic [ref=e249]:
+                    - link [ref=e251] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/how-to-style-a-black-blazer/
+                      - img [ref=e252]
+                    - generic [ref=e253]:
+                      - heading [level=3] [ref=e254]:
+                        - link [ref=e255] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/how-to-style-a-black-blazer/
+                          - text: 10 Ways to Style a Black Blazer
+                      - generic [ref=e256]: One of the most essential capsule wardrobe pieces is a black blazer. It’s why creating the perfect black blazer was at the very top of my list when we sat down to start designing MAYSON the label. While it’s fashionable…
+                      - link [ref=e258] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/how-to-style-a-black-blazer/
+                        - text: View the Post
+                - listitem [ref=e261]:
+                  - generic [ref=e262]:
+                    - link [ref=e264] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/my-favorite-jeans-in-my-closet/
+                      - img [ref=e265]
+                    - generic [ref=e266]:
+                      - heading [level=3] [ref=e267]:
+                        - link [ref=e268] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/my-favorite-jeans-in-my-closet/
+                          - text: "Denim Guide: My Favorite Jeans In My Closet"
+                      - generic [ref=e269]: Jeans are a way of life as far as I’m concerned. You can never have too many, especially when you consider how every single pair of jeans is made differently. Straight leg jeans, skinny jeans, ripped jeans, cropped jeans—there’s a…
+                      - link [ref=e271] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/my-favorite-jeans-in-my-closet/
+                        - text: View the Post
+                - listitem [ref=e274]:
+                  - generic [ref=e275]:
+                    - link [ref=e277] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/outfit-inspiration/
+                      - img [ref=e278]
+                    - generic [ref=e279]:
+                      - heading [level=3] [ref=e280]:
+                        - link [ref=e281] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/outfit-inspiration/
+                          - text: Copy These Outfits to Make Getting Dressed Easier
+                      - generic [ref=e282]: In need of instant outfit inspiration? In addition to following Amy’s LTK shop, this page will be consistently updated with what she’s wearing in an effort to provide you a constant stream of looks you can emulate or make your…
+                      - link [ref=e284] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/outfit-inspiration/
+                        - text: View the Post
+            - generic [ref=e285]:
+              - list [ref=e286]:
+                - listitem [ref=e287]:
+                  - 'link "1 Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season" [ref=e288] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e289]: "1"
+                    - generic [ref=e290]: "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season"
+                - listitem [ref=e291]:
+                  - link "2 10 Ways to Style a Black Blazer" [ref=e292] [cursor=pointer]:
+                    - /url: index.html#
+                    - generic [ref=e293]: "2"
+                    - generic [ref=e294]: 10 Ways to Style a Black Blazer
+                - listitem [ref=e295]:
+                  - 'link "3 Denim Guide: My Favorite Jeans In My Closet" [ref=e296] [cursor=pointer]':
+                    - /url: index.html#
+                    - generic [ref=e297]: "3"
+                    - generic [ref=e298]: "Denim Guide: My Favorite Jeans In My Closet"
+                - listitem [ref=e299]:
+                  - link "4 Copy These Outfits to Make Getting Dressed Easier" [ref=e300] [cursor=pointer]:
+                    - /url: index.html#
+                    - generic [ref=e301]: "4"
+                    - generic [ref=e302]: Copy These Outfits to Make Getting Dressed Easier
+              - link "Read More in Outfit Guides" [ref=e304] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/outfits/
+          - generic [ref=e305]:
+            - list [ref=e307]:
+              - generic [ref=e309]:
+                - listitem [ref=e312]:
+                  - generic [ref=e313]:
+                    - link "featured image" [ref=e315] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/celine-handbag-reviews/
+                      - img "featured image" [ref=e316]
+                    - generic [ref=e317]:
+                      - heading "My Celine Handbag Collection & Mini Reviews" [level=3] [ref=e318]:
+                        - link "My Celine Handbag Collection & Mini Reviews" [ref=e319] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/celine-handbag-reviews/
+                      - generic [ref=e320]: Celine has by far been my favorite brand for handbags. I remember how excited I was when I bought my very first, the Celine Mini Belt Bag, back in late 2016. It immediately became my favorite bag and still to…
+                      - link "View the Post" [ref=e322] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/celine-handbag-reviews/
+                - listitem [ref=e325]:
+                  - generic [ref=e326]:
+                    - link [ref=e328] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/goyard-st-louis-gm-tote-review/
+                      - img [ref=e329]
+                    - generic [ref=e330]:
+                      - heading [level=3] [ref=e331]:
+                        - link [ref=e332] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/goyard-st-louis-gm-tote-review/
+                          - text: My Honest Review of the Goyard St Louis GM Tote
+                      - generic [ref=e333]: Over the past few years, I've acquired a vast selection of designer handbags. I wanted to find timeless & classic styles that would hold up over over the years, especially with all the wear they would go through. One of…
+                      - link [ref=e335] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/goyard-st-louis-gm-tote-review/
+                        - text: View the Post
+                - listitem [ref=e338]:
+                  - generic [ref=e339]:
+                    - link [ref=e341] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/best-perfumes-for-women/
+                      - img [ref=e342]
+                    - generic [ref=e343]:
+                      - heading [level=3] [ref=e344]:
+                        - link [ref=e345] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/best-perfumes-for-women/
+                          - text: 7 Luxurious Fragrances I Can’t Stop Wearing
+                      - generic [ref=e346]: Scent is such a personal and vital addition to your overall style and wardrobe. Yes, scent. How many times have you been out and about and someone walks by you, leaving a lingering scent that makes you want to run…
+                      - link [ref=e348] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/best-perfumes-for-women/
+                        - text: View the Post
+                - listitem [ref=e351]:
+                  - generic [ref=e352]:
+                    - link [ref=e354] [cursor=pointer]:
+                      - /url: https://quel-vetement.com/my-favorite-beauty-products/
+                      - img [ref=e355]
+                    - generic [ref=e356]:
+                      - heading [level=3] [ref=e357]:
+                        - link [ref=e358] [cursor=pointer]:
+                          - /url: https://quel-vetement.com/my-favorite-beauty-products/
+                          - text: My Favorite Beauty Products Right Now
+                      - generic [ref=e359]: While I'm always testing out new beauty products, I have my tried-and-true products that have been on my list for years. From makeup and skincare to haircare and splurge-worthy tools, this is my holy grail list of beauty products I…
+                      - link [ref=e361] [cursor=pointer]:
+                        - /url: https://quel-vetement.com/my-favorite-beauty-products/
+                        - text: View the Post
+            - generic [ref=e362]:
+              - list [ref=e363]:
+                - listitem [ref=e364]:
+                  - link "1 My Celine Handbag Collection & Mini Reviews" [ref=e365] [cursor=pointer]:
+                    - /url: index.html#
+                    - generic [ref=e366]: "1"
+                    - generic [ref=e367]: My Celine Handbag Collection & Mini Reviews
+                - listitem [ref=e368]:
+                  - link "2 My Honest Review of the Goyard St Louis GM Tote" [ref=e369] [cursor=pointer]:
+                    - /url: index.html#
+                    - generic [ref=e370]: "2"
+                    - generic [ref=e371]: My Honest Review of the Goyard St Louis GM Tote
+                - listitem [ref=e372]:
+                  - link "3 7 Luxurious Fragrances I Can’t Stop Wearing" [ref=e373] [cursor=pointer]:
+                    - /url: index.html#
+                    - generic [ref=e374]: "3"
+                    - generic [ref=e375]: 7 Luxurious Fragrances I Can’t Stop Wearing
+                - listitem [ref=e376]:
+                  - link "4 My Favorite Beauty Products Right Now" [ref=e377] [cursor=pointer]:
+                    - /url: index.html#
+                    - generic [ref=e378]: "4"
+                    - generic [ref=e379]: My Favorite Beauty Products Right Now
+              - link "Read More in Reviews" [ref=e381] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/reviews/
+      - generic [ref=e382]:
+        - heading "shop" [level=2] [ref=e383]
+        - generic [ref=e384]:
+          - generic [ref=e385]:
+            - link [ref=e387] [cursor=pointer]:
+              - /url: https://rstyle.me/+1aij71N_aUvRxdt4epytng
+            - generic [ref=e388]:
+              - generic [ref=e391]: Turn off your ad blocker to view content
+              - generic [ref=e392]:
+                - paragraph [ref=e393]: You guys ask about this sweater all the time – it’s one of my favorites! And better yet, it’s under $80! Grab it while it’s in stock. (Wearing size XS).
+                - link "shop" [ref=e394] [cursor=pointer]:
+                  - /url: https://rstyle.me/+1aij71N_aUvRxdt4epytng
+          - generic [ref=e395]:
+            - heading "Recently on Instagram" [level=3] [ref=e396]
+            - generic [ref=e397]:
+              - generic [ref=e398]:
+                - link [ref=e400] [cursor=pointer]:
+                  - /url: https://rstyle.me/+hjx5RXalbaJl0NZylOk4WA
+                - list [ref=e401]:
+                  - listitem [ref=e402]:
+                    - link "stalk it" [ref=e403] [cursor=pointer]:
+                      - /url: https://liketk.it/65kED
+                    - text: 
+                  - listitem [ref=e404]:
+                    - link "shop it" [ref=e405] [cursor=pointer]:
+                      - /url: https://rstyle.me/+hjx5RXalbaJl0NZylOk4WA
+              - generic [ref=e406]:
+                - link [ref=e408] [cursor=pointer]:
+                  - /url: https://rstyle.me/+g19YPr5HeYVjsF9jTXC5gA
+                - list [ref=e409]:
+                  - listitem [ref=e410]:
+                    - link "stalk it" [ref=e411] [cursor=pointer]:
+                      - /url: https://liketk.it/642CZ
+                    - text: 
+                  - listitem [ref=e412]:
+                    - link "shop it" [ref=e413] [cursor=pointer]:
+                      - /url: https://rstyle.me/+g19YPr5HeYVjsF9jTXC5gA
+      - generic [ref=e414]:
+        - heading "the dailies" [level=2] [ref=e415]
+        - link "View all daily snapshots" [ref=e417] [cursor=pointer]:
+          - /url: https://quel-vetement.com/daily
+          - text: View all daily snapshots
+        - generic [ref=e418]:
+          - button [ref=e419] [cursor=pointer]
+          - generic [ref=e421]:
+            - generic [ref=e424]:
+              - link [ref=e426] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-6/
+                - generic [ref=e427]: View the snap
+              - generic [ref=e428]: 09.05.25
+            - generic [ref=e431]:
+              - link [ref=e433] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-7/
+                - generic [ref=e434]: View the snap
+              - generic [ref=e435]: 08.28.25
+            - generic [ref=e438]:
+              - link [ref=e440] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-8/
+                - generic [ref=e441]: View the snap
+              - generic [ref=e442]: 08.26.25
+            - generic [ref=e445]:
+              - link [ref=e447] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-13/
+                - generic [ref=e448]: View the snap
+              - generic [ref=e449]: 08.14.25
+            - generic [ref=e452]:
+              - link "View the snap" [ref=e454] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-21/
+                - generic [ref=e455]: View the snap
+              - generic [ref=e456]: 10.23.25
+            - generic [ref=e459]:
+              - link "View the snap" [ref=e461] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-20/
+                - generic [ref=e462]: View the snap
+              - generic [ref=e463]: 10.22.25
+            - generic [ref=e466]:
+              - link "View the snap" [ref=e468] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-19/
+                - generic [ref=e469]: View the snap
+              - generic [ref=e470]: 10.16.25
+            - generic [ref=e473]:
+              - link "View the snap" [ref=e475] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-11/
+                - generic [ref=e476]: View the snap
+              - generic [ref=e477]: 10.14.25
+            - generic [ref=e480]:
+              - link [ref=e482] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-12/
+                - generic [ref=e483]: View the snap
+              - generic [ref=e484]: 10.02.25
+            - generic [ref=e487]:
+              - link [ref=e489] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-10/
+                - generic [ref=e490]: View the snap
+              - generic [ref=e491]: 09.29.25
+            - generic [ref=e494]:
+              - link [ref=e496] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-9/
+                - generic [ref=e497]: View the snap
+              - generic [ref=e498]: 09.21.25
+            - generic [ref=e501]:
+              - link [ref=e503] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-5/
+                - generic [ref=e504]: View the snap
+              - generic [ref=e505]: 09.11.25
+            - generic [ref=e508]:
+              - link [ref=e510] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-6/
+                - generic [ref=e511]: View the snap
+              - generic [ref=e512]: 09.05.25
+            - generic [ref=e515]:
+              - link [ref=e517] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-7/
+                - generic [ref=e518]: View the snap
+              - generic [ref=e519]: 08.28.25
+            - generic [ref=e522]:
+              - link [ref=e524] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-8/
+                - generic [ref=e525]: View the snap
+              - generic [ref=e526]: 08.26.25
+            - generic [ref=e529]:
+              - link [ref=e531] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-13/
+                - generic [ref=e532]: View the snap
+              - generic [ref=e533]: 08.14.25
+            - generic [ref=e536]:
+              - link [ref=e538] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-21/
+                - generic [ref=e539]: View the snap
+              - generic [ref=e540]: 10.23.25
+            - generic [ref=e543]:
+              - link [ref=e545] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-20/
+                - generic [ref=e546]: View the snap
+              - generic [ref=e547]: 10.22.25
+            - generic [ref=e550]:
+              - link [ref=e552] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-19/
+                - generic [ref=e553]: View the snap
+              - generic [ref=e554]: 10.16.25
+            - generic [ref=e557]:
+              - link [ref=e559] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-11/
+                - generic [ref=e560]: View the snap
+              - generic [ref=e561]: 10.14.25
+            - generic [ref=e564]:
+              - link [ref=e566] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-12/
+                - generic [ref=e567]: View the snap
+              - generic [ref=e568]: 10.02.25
+            - generic [ref=e571]:
+              - link [ref=e573] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-10/
+                - generic [ref=e574]: View the snap
+              - generic [ref=e575]: 09.29.25
+            - generic [ref=e578]:
+              - link [ref=e580] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-9/
+                - generic [ref=e581]: View the snap
+              - generic [ref=e582]: 09.21.25
+            - generic [ref=e585]:
+              - link [ref=e587] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-5/
+                - generic [ref=e588]: View the snap
+              - generic [ref=e589]: 09.11.25
+            - generic [ref=e592]:
+              - link [ref=e594] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-6/
+                - generic [ref=e595]: View the snap
+              - generic [ref=e596]: 09.05.25
+            - generic [ref=e599]:
+              - link [ref=e601] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-7/
+                - generic [ref=e602]: View the snap
+              - generic [ref=e603]: 08.28.25
+            - generic [ref=e606]:
+              - link [ref=e608] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-8/
+                - generic [ref=e609]: View the snap
+              - generic [ref=e610]: 08.26.25
+            - generic [ref=e613]:
+              - link [ref=e615] [cursor=pointer]:
+                - /url: https://quel-vetement.com/daily/daily-look-13/
+                - generic [ref=e616]: View the snap
+              - generic [ref=e617]: 08.14.25
+          - button [ref=e618] [cursor=pointer]
+      - generic [ref=e619]:
+        - generic [ref=e620]:
+          - heading "recent posts:" [level=2] [ref=e621]
+          - list [ref=e623]:
+            - listitem [ref=e624]:
+              - link "browse more in:" [ref=e625] [cursor=pointer]:
+                - /url: index.html#
+            - listitem [ref=e626]:
+              - link "AMAZON" [ref=e627] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/amazon/
+            - listitem [ref=e628]:
+              - link "REVIEWS" [ref=e629] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/reviews/
+            - listitem [ref=e630]:
+              - link "BEAUTY" [ref=e631] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/beauty/
+            - listitem [ref=e632]:
+              - link "TRAVEL" [ref=e633] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/travel/
+        - generic [ref=e634]:
+          - article [ref=e635]:
+            - link "Best summer sandals 2026 editor picks featured image View the post" [ref=e637] [cursor=pointer]:
+              - /url: https://quel-vetement.com/best-summer-sandals-2026/
+              - img "Best summer sandals 2026 editor picks featured image" [ref=e638]
+              - generic [ref=e639]: View the post
+            - generic [ref=e640]:
+              - link "OUTFITS" [ref=e642] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/outfits/
+              - 'heading "The Best Summer Sandals of 2026: Designer, Mid-Range & Amazon Picks I Actually Wear" [level=2] [ref=e643]':
+                - 'link "The Best Summer Sandals of 2026: Designer, Mid-Range & Amazon Picks I Actually Wear" [ref=e644] [cursor=pointer]':
+                  - /url: https://quel-vetement.com/best-summer-sandals-2026/
+          - article [ref=e645]:
+            - link "featured image View the post" [ref=e647] [cursor=pointer]:
+              - /url: https://quel-vetement.com/memorial-day-sales-round-up/
+              - img "featured image" [ref=e648]
+              - generic [ref=e649]: View the post
+            - generic [ref=e650]:
+              - link "LIFESTYLE" [ref=e652] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/lifestyle/
+              - heading "The Memorial Day Weekend Sales You Don’t Want to Miss" [level=2] [ref=e653]:
+                - link "The Memorial Day Weekend Sales You Don’t Want to Miss" [ref=e654] [cursor=pointer]:
+                  - /url: https://quel-vetement.com/memorial-day-sales-round-up/
+          - article [ref=e655]:
+            - link "Travel Bag Featured Image View the post" [ref=e657] [cursor=pointer]:
+              - /url: https://quel-vetement.com/best-travel-bags/
+              - img "Travel Bag Featured Image" [ref=e658]
+              - generic [ref=e659]: View the post
+            - generic [ref=e660]:
+              - link "TRAVEL" [ref=e662] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/travel/
+              - 'heading "Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [level=2] [ref=e663]':
+                - 'link "Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [ref=e664] [cursor=pointer]':
+                  - /url: https://quel-vetement.com/best-travel-bags/
+          - article [ref=e665]:
+            - link "Featured Image View the post" [ref=e667] [cursor=pointer]:
+              - /url: https://quel-vetement.com/best-perfumes-for-women/
+              - img "Featured Image" [ref=e668]
+              - generic [ref=e669]: View the post
+            - generic [ref=e670]:
+              - link "BEAUTY" [ref=e672] [cursor=pointer]:
+                - /url: https://quel-vetement.com/category/beauty/
+              - heading "7 Luxurious Fragrances I Can’t Stop Wearing" [level=2] [ref=e673]:
+                - link "7 Luxurious Fragrances I Can’t Stop Wearing" [ref=e674] [cursor=pointer]:
+                  - /url: https://quel-vetement.com/best-perfumes-for-women/
+      - link "Load More" [ref=e676] [cursor=pointer]:
+        - /url: https://quel-vetement.com/page/2/
+      - generic [ref=e678]:
+        - generic [ref=e679]:
+          - heading "Subscribe" [level=3] [ref=e680]
+          - paragraph [ref=e682]: Sign up to receive newsletters with post recaps, sale alerts, and exclusive content just for subscribers!
+        - iframe [ref=e684]:
+          - generic [ref=f1e2]: "404: /thefashionjackson.substack.com/embed.html"
+      - generic [ref=e685]:
+        - heading "loving lately" [level=2] [ref=e686]
+        - generic [ref=e687]:
+          - paragraph [ref=e691]:
+            - text: Always and forever will be a white tee shirt girl. I have about a weeks supply of
+            - link "this one" [ref=e692] [cursor=pointer]:
+              - /url: https://on.ltk.com/+Ge6mhB7fXiJ87VD7UwipWQ
+            - text: ", but also found"
+            - link "this one" [ref=e693] [cursor=pointer]:
+              - /url: https://on.ltk.com/+cweubarsQAvDows5OYW2QA
+            - text: recently and love the slightly more relaxed fit. Shop the whole look
+            - link "here" [ref=e694] [cursor=pointer]:
+              - /url: https://liketk.it/6fTtJ
+            - text: .
+          - generic [ref=e695]:
+            - generic [ref=e696]:
+              - link "Shop" [ref=e698] [cursor=pointer]:
+                - /url: https://rstyle.me/+tsEtPuhfPODlzTAkVzgl3g
+                - generic [ref=e700]: Shop
+              - heading "Oxford Shirt" [level=3] [ref=e701]
+              - paragraph [ref=e703]: I just got this shirt the other day and it’s an instant favorite. I got my true size small.
+            - generic [ref=e704]:
+              - link "Shop" [ref=e706] [cursor=pointer]:
+                - /url: https://rstyle.me/+fwfevNIeIPV6P2q00Zz0Ig
+                - generic [ref=e708]: Shop
+              - heading "Leather Bucket Bag" [level=3] [ref=e709]
+              - paragraph [ref=e711]: 100% real leather and the absolute perfect alt for that iconic designer. Color ‘grey’.
+            - generic [ref=e712]:
+              - link "Shop" [ref=e714] [cursor=pointer]:
+                - /url: https://rstyle.me/+thA0up1PJH1gBiJI3aUUeg
+                - generic [ref=e716]: Shop
+              - heading "Suede Sandals" [level=3] [ref=e717]
+              - paragraph [ref=e719]: Real suede for under $100 and I love the pop of red for any outfit this spring.
+            - generic [ref=e720]:
+              - link "Shop" [ref=e722] [cursor=pointer]:
+                - /url: https://rstyle.me/+1aij71N_aUvRxdt4epytng
+                - generic [ref=e724]: Shop
+              - heading "Cotton Sweater" [level=3] [ref=e725]
+              - paragraph [ref=e727]: This is worth repeating – don’t miss this while it’s in stock! I wear size xsmall.
+      - generic [ref=e728]:
+        - generic [ref=e729]:
+          - link [ref=e731] [cursor=pointer]:
+            - /url: https://rstyle.me/+8OErChEYFM_9w6oeGCkavw
+          - generic [ref=e732]:
+            - generic [ref=e733]: "So, real quick:"
+            - heading "U Beauty Discount Code" [level=2] [ref=e734]
+            - paragraph [ref=e736]: I’ve been LOVING this line since I started using it last fall and now I have an exclusive discount code to share with you! Use code FASHIONJACKSON at checkout for 20% off your first purchase.
+            - link "SHOP U Beauty" [ref=e738] [cursor=pointer]:
+              - /url: https://rstyle.me/+8OErChEYFM_9w6oeGCkavw
+        - link [ref=e740] [cursor=pointer]:
+          - /url: https://instagram.com/fashion_jackson
+    - generic [ref=e741]:
+      - generic [ref=e742]:
+        - paragraph [ref=e743]:
+          - link [ref=e744] [cursor=pointer]:
+            - /url: https://www.shopltk.com/explore/fashion_jackson
+        - paragraph:
+          - link " Liketoknow.it" [ref=e745] [cursor=pointer]:
+            - /url: https://www.shopltk.com/explore/fashion_jackson
+      - generic [ref=e746]:
+        - heading "elsewhere:" [level=2] [ref=e747]
+        - paragraph [ref=e748]:
+          - link [ref=e749] [cursor=pointer]:
+            - /url: https://www.instagram.com/fashion_jackson
+        - paragraph:
+          - link " Instagram" [ref=e750] [cursor=pointer]:
+            - /url: https://www.instagram.com/fashion_jackson
+      - generic [ref=e751]:
+        - paragraph [ref=e752]:
+          - link [ref=e753] [cursor=pointer]:
+            - /url: https://www.pinterest.com/fashion_jackson/
+        - paragraph:
+          - link "@fashion_jackson" [ref=e754] [cursor=pointer]:
+            - /url: https://www.instagram.com/fashion_jackson
+        - paragraph:
+          - link " Pinterest" [ref=e755] [cursor=pointer]:
+            - /url: https://www.pinterest.com/fashion_jackson/
+      - generic [ref=e756]:
+        - paragraph [ref=e757]:
+          - link [ref=e758] [cursor=pointer]:
+            - /url: https://quel-vetement.com/category/outfits/
+        - paragraph:
+          - link " More Outfits" [ref=e759] [cursor=pointer]:
+            - /url: https://quel-vetement.com/category/outfits/
+    - contentinfo [ref=e760]:
+      - generic [ref=e761]:
+        - link "Quel Vêtement" [ref=e764] [cursor=pointer]:
+          - /url: index.html
+          - generic [ref=e765]: Quel Vêtement
+        - generic [ref=e767]:
+          - generic [ref=e768]:
+            - generic [ref=e769]:
+              - heading "Blog" [level=2] [ref=e770]
+              - list [ref=e772]:
+                - listitem [ref=e773]:
+                  - link "About" [ref=e774] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/about/
+                - listitem [ref=e775]:
+                  - link "Contact" [ref=e776] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/contact/
+                - listitem [ref=e777]:
+                  - link "Subscribe" [ref=e778] [cursor=pointer]:
+                    - /url: index.html#
+                - listitem [ref=e779]:
+                  - link "Partner" [ref=e780] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/partner/
+            - generic [ref=e781]:
+              - heading "Shop" [level=2] [ref=e782]
+              - list [ref=e784]:
+                - listitem [ref=e785]:
+                  - link "Recent Outfits" [ref=e786] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/daily
+                - listitem [ref=e787]:
+                  - link "By Instagram" [ref=e788] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/like-to-know-it/
+                - listitem [ref=e789]:
+                  - link "Amy’s Picks" [ref=e790] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/shop/
+                - listitem [ref=e791]:
+                  - link "LikeToKnow.It" [ref=e792] [cursor=pointer]:
+                    - /url: http://www.liketoknow.it/fashion_jackson
+            - generic [ref=e793]:
+              - heading "Browse" [level=2] [ref=e794]
+              - list [ref=e796]:
+                - listitem [ref=e797]:
+                  - link "Style" [ref=e798] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/category/outfits/
+                - listitem [ref=e799]:
+                  - link "BEAUTY" [ref=e800] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/category/beauty/
+                - listitem [ref=e801]:
+                  - link "TRAVEL" [ref=e802] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/category/travel/
+                - listitem [ref=e803]:
+                  - link "LIFESTYLE" [ref=e804] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/category/lifestyle/
+            - generic [ref=e805]:
+              - heading "Connect" [level=2] [ref=e806]
+              - list [ref=e808]:
+                - listitem [ref=e809]:
+                  - link "Instagram" [ref=e810] [cursor=pointer]:
+                    - /url: https://www.instagram.com/fashion_jackson
+                - listitem [ref=e811]:
+                  - link "LIKEtoKNOW.it" [ref=e812] [cursor=pointer]:
+                    - /url: https://www.liketoknow.it/fashion_jackson
+                - listitem [ref=e813]:
+                  - link "Pinterest" [ref=e814] [cursor=pointer]:
+                    - /url: https://www.pinterest.com/fashion_jackson/
+                - listitem [ref=e815]:
+                  - link "Facebook" [ref=e816] [cursor=pointer]:
+                    - /url: https://www.facebook.com/FashionJackson/
+            - generic [ref=e817]:
+              - heading "Subscribe" [level=2] [ref=e818]
+              - list [ref=e820]:
+                - listitem [ref=e821]:
+                  - link "Newsletter" [ref=e822] [cursor=pointer]:
+                    - /url: index.html#
+                - listitem [ref=e823]:
+                  - link "RSS Feed" [ref=e824] [cursor=pointer]:
+                    - /url: https://quel-vetement.com/feed
+                - listitem [ref=e825]:
+                  - link "Bloglovin’" [ref=e826] [cursor=pointer]:
+                    - /url: https://www.bloglovin.com/blogs/fashion-jackson-blog-8036013
+                - listitem [ref=e827]:
+                  - link "Feedly" [ref=e828] [cursor=pointer]:
+                    - /url: https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Fquel-vetement.com%2Ffeed%2F
+          - generic [ref=e829] [cursor=pointer]: Back to Top ^
+      - generic [ref=e831]:
+        - list [ref=e832]:
+          - listitem [ref=e833]:
+            - link "Terms of Use" [ref=e834] [cursor=pointer]:
+              - /url: https://quel-vetement.com/terms-of-use
+          - listitem [ref=e835]:
+            - link "Privacy Policy" [ref=e836] [cursor=pointer]:
+              - /url: https://quel-vetement.com/privacy-policy
+          - listitem [ref=e837]: © 2026 All Rights Reserved
+        - list [ref=e838]:
+          - listitem [ref=e839]:
+            - link "Site by VMS" [ref=e840] [cursor=pointer]:
+              - /url: https://victoriamcginley.com/
+          - listitem [ref=e841]:
+            - link "and Elembee" [ref=e842] [cursor=pointer]:
+              - /url: https://elembee.com/
+  - generic [ref=e843]:
+    - link "X Close" [ref=e845] [cursor=pointer]:
+      - /url: index.html#
+    - generic [ref=e846]:
+      - link:
+        - /url: index.html#
+      - link [ref=e848] [cursor=pointer]:
+        - /url: index.html
+    - generic [ref=e849]:
+      - list [ref=e852]:
+        - listitem [ref=e853]:
+          - link "Product Reviews" [ref=e854] [cursor=pointer]:
+            - /url: https://quel-vetement.com/category/reviews/
+        - listitem [ref=e855]:
+          - link "Shopbop Favorites" [ref=e856] [cursor=pointer]:
+            - /url: https://click.linksynergy.com/deeplink?id=jlQeMrueTKQ&mid=42352&murl=https%3A%2F%2Fwww.shopbop.com%2Fhearts%2Ffashion_jackson%2F9fb5aa3d-1c27-4d9d-8b4f-332b70fea7b7%3Fextid%3Daffprg_linkshare_SB-jlQeMrueTKQ%26cvosrc%3Daffiliate.linkshare.jlQeMrueTKQ%26affuid%3D%26sharedid%3D42352%26subid1%3DjlQeMrueTKQ-l8SUiFQvqU01.7_JdQXiPg%26offset%3D100
+        - listitem [ref=e857]:
+          - link "Amazon Shop" [ref=e858] [cursor=pointer]:
+            - /url: http://quel-vetement.com/category/amazon
+        - listitem [ref=e859]:
+          - link "Shop Instagram" [ref=e860] [cursor=pointer]:
+            - /url: http://liketoknow.it/fashion_jackson
+        - listitem:
+          - link:
+            - /url: index.html#%20Search
+      - list [ref=e863]:
+        - listitem:
+          - link:
+            - /url: https://www.instagram.com/fashion_jackson
+        - listitem:
+          - link:
+            - /url: https://www.pinterest.com/fashion_jackson/
+        - listitem [ref=e864]:
+          - link "" [ref=e865] [cursor=pointer]:
+            - /url: http://www.liketoknow.it/fashion_jackson
+            - generic [ref=e866]: 
+        - listitem:
+          - link:
+            - /url: https://www.facebook.com/FashionJackson/
+      - list [ref=e869]:
+        - listitem [ref=e870]:
+          - link "LTK" [ref=e871] [cursor=pointer]:
+            - /url: https://quel-vetement.com/like-to-know-it/
+        - listitem [ref=e872]:
+          - link "Contact Amy" [ref=e873] [cursor=pointer]:
+            - /url: https://quel-vetement.com/contact/
+        - listitem [ref=e874]:
+          - link "Subscribe to Newsletter" [ref=e875] [cursor=pointer]:
+            - /url: index.html#
+        - listitem [ref=e876]:
+          - link "About" [ref=e877] [cursor=pointer]:
+            - /url: https://quel-vetement.com/about/
+        - listitem [ref=e878]:
+          - link "Search" [ref=e879] [cursor=pointer]:
+            - /url: index.html#
+            - generic [ref=e880]: Search

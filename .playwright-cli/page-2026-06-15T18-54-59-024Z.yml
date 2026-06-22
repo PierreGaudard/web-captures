@@ -1,0 +1,285 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic:
+        - generic:
+          - link "Assurance AMV":
+            - /url: https://www.amv.fr
+            - img "Assurance AMV" [ref=e5] [cursor=pointer]
+    - list [ref=e13]:
+      - listitem [ref=e14]:
+        - link "AMV" [ref=e15] [cursor=pointer]:
+          - /url: https://www.amv.fr
+        - generic [ref=e16]: 
+      - listitem [ref=e17]:
+        - link "Assurance Légende" [ref=e18] [cursor=pointer]:
+          - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+        - generic [ref=e19]: 
+      - listitem [ref=e20]: Devis Assurance Légende
+    - generic [ref=e23]:
+      - generic [ref=e25]:
+        - img "Devis assurance véhicule ancien et de collection" [ref=e27]
+        - heading "Devis assurance véhicule ancien et collection" [level=1] [ref=e28]:
+          - text: Devis assurance véhicule
+          - text: ancien et collection
+        - generic [ref=e29]:
+          - generic [ref=e30]: H1
+          - generic [ref=e31]: Assurance auto et moto de collection
+        - generic [ref=e32]:
+          - generic [ref=e33]: Nouveau contenu optimisé
+          - paragraph [ref=e34]:
+            - emphasis [ref=e35]: "À retenir : l'offre AMV Légende protège vos deux-roues et autos anciens avec des formules au tiers, vol-incendie ou tous risques, des tarifs dégressifs selon l'âge et le nombre de véhicules, et un devis en ligne gratuit en quelques minutes."
+          - paragraph [ref=e36]:
+            - text: Vous cherchez une assurance moto de collection à la hauteur de votre deux-roues ancien ? AMV, leader de
+            - link "l'assurance moto" [ref=e37] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance/moto/
+            - text: "et scooter depuis 1974, a conçu l'offre AMV Légende pour couvrir les autos et motos anciennes. Couverture sur-mesure, garanties pensées pour les véhicules de collection, souscription rapide : vous construisez votre contrat selon chaque modèle et profitez de tarifs dégressifs selon l'âge et le nombre de véhicules à assurer."
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]: 
+          - text: Obtenir un tarif
+        - generic [ref=e44]:
+          - link "Vous êtes client " [ref=e45] [cursor=pointer]:
+            - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$SampleContent$UcButtonClient$btnButton", "", true, "", "", false, true))
+            - text: Vous êtes client
+            - generic [ref=e46]: 
+          - link "Vous n'êtes pas client " [ref=e47] [cursor=pointer]:
+            - /url: javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$SampleContent$UcbuttonPasClient$btnButton", "", true, "", "", false, true))
+            - text: Vous n'êtes pas client
+            - generic [ref=e48]: 
+        - generic [ref=e51]:
+          - img "AMV Légende" [ref=e54]
+          - generic [ref=e55]:
+            - heading "L'assurance auto et moto de collection chez AMV" [level=2] [ref=e56]
+            - text: AMV Légende est une offre d'assurance auto et moto anciennes, spécialement conçue pour les véhicules de collection. Notre équipe de conseillers d’assurance met à votre service son expertise pour vous garantir une qualité de service privilégiée et vous assurer une gestion personnalisée de vos contrats pour tous vos modèles. Vous pouvez construire votre contrat sur-mesure avec le niveau de garanties qui convient à chacun de vos véhicules et bénéficier de tarifs très avantageux, et dégressifs en fonction de l’âge et du nombre de véhicules à assurer.
+            - text: Pour toujours plus de facilité, vous pouvez obtenir
+            - strong [ref=e57]: votre devis AMV Légende
+            - text: et souscrire
+            - strong [ref=e58]: une assurance véhicules anciens et de collection en ligne
+            - generic [ref=e59]:
+              - generic [ref=e60]: Nouveau contenu optimisé
+              - generic [ref=e61]:
+                - generic [ref=e62]: H2
+                - text: Pourquoi choisir AMV pour votre assurance moto de collection ?
+              - paragraph [ref=e63]: AMV est l'assureur spécialiste des deux-roues et des véhicules anciens. Plus d'1 million d'assurés lui font confiance, avec une note de 4,7/5 selon Avis Vérifiés. Plus de 350 conseillers basés à Bordeaux vous accompagnent, et un interlocuteur dédié suit votre dossier en cas de sinistre. Un assureur généraliste connaît mal les besoins d'un motard collectionneur. AMV, lui, protège votre patrimoine roulant comme il le mérite, et vous gérez tout depuis l'espace client Mon Espace AMV.
+              - generic [ref=e64]:
+                - generic [ref=e65]: H2
+                - text: Les formules d'assurance moto de collection
+              - paragraph [ref=e66]: "AMV décline plusieurs formules, de la couverture essentielle à la protection tous risques. Vous choisissez le niveau de garanties selon la valeur de votre véhicule, son usage et votre budget. Trois piliers restent toujours présents : la responsabilité civile obligatoire, l'assistance et la protection juridique."
+              - paragraph [ref=e67]: "La formule au tiers vous couvre en responsabilité civile : c'est la garantie minimale obligatoire, qui indemnise les dommages causés à un tiers. Elle peut convenir aux motos anciennes de faible valeur ou utilisées ponctuellement pour le loisir, et reste l'option la moins chère car elle offre une couverture essentielle."
+              - paragraph [ref=e68]: "La formule intermédiaire ajoute la prise en charge du vol, de la tentative de vol et de l'incendie. Elle est recommandée si vous garez votre deux-roues en extérieur ou dans un lieu non clos : le risque de vol est réel, en particulier pour les modèles anciens recherchés."
+              - paragraph [ref=e69]: La formule tous risques indemnise les dommages subis par votre véhicule assuré, même lors d'un sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, conseillée pour un modèle de valeur, restauré ou financé à crédit. À ces formules s'ajoutent l'assistance (dépannage, remorquage, rapatriement) et la protection juridique, qui défend vos intérêts en cas de litige.
+              - paragraph [ref=e70]: "En cas de sinistre, l'indemnisation tient compte de la nature du véhicule : une moto ancienne se répare avec des pièces parfois rares, et son estimation relève d'une expertise spécifique. Selon la formule et l'option choisies, une franchise peut s'appliquer. C'est pourquoi le choix des garanties mérite réflexion, en lien avec la cote du modèle, son état et la fréquence de vos sorties."
+              - generic [ref=e71]:
+                - generic [ref=e72]: H2
+                - text: Les garanties spécifiques aux véhicules de collection
+              - paragraph [ref=e73]: "Un véhicule de collection ne se couvre pas comme un modèle classique. Usage limité (sorties, rassemblements, balades), faible kilométrage, entretien soigné : ces spécificités justifient des garanties adaptées et des tarifs préférentiels. Avec AMV Légende, les cotisations sont dégressives selon l'ancienneté et le nombre de motos ou autos assurées. Plusieurs deux-roues anciens ? Le contrat flotte de collection les regroupe sous une seule police. Les garanties se modulent véhicule par véhicule, selon vos trajets et la valeur de chaque modèle."
+              - generic [ref=e74]:
+                - generic [ref=e75]: H2
+                - text: "La carte grise de collection : conditions et avantages"
+              - paragraph [ref=e76]: "Passer votre moto en carte grise de collection ouvre droit à un statut spécifique et à une assurance dédiée. Voici les conditions à remplir :"
+              - list [ref=e77]:
+                - listitem [ref=e78]: Le véhicule doit avoir au moins 30 ans.
+                - listitem [ref=e79]: Son type ne doit plus être produit.
+                - listitem [ref=e80]: Il doit être conservé dans son état d'origine, sans modification majeure des caractéristiques techniques.
+                - listitem [ref=e81]: Une attestation de datation et de caractéristiques délivrée par la FFVE (Fédération Française des Véhicules d'Époque) est nécessaire pour demander le certificat d'immatriculation auprès de l'ANTS.
+              - paragraph [ref=e82]: "Ce statut de carte grise collection présente plusieurs avantages concrets pour le motard :"
+              - list [ref=e83]:
+                - listitem [ref=e84]: "Contrôle technique allégé : pour les deux-roues concernés, il est espacé (tous les 5 ans), et les modèles mis en circulation avant 1960 en sont exemptés."
+                - listitem [ref=e85]: "Circulation sur tout le territoire : la carte grise de collection autorise à rouler partout en France."
+                - listitem [ref=e86]: "Plaques noires autorisées : le format d'époque est admis."
+                - listitem [ref=e87]: "Prime réduite : peu utilisés et bien entretenus, ces véhicules bénéficient souvent d'un tarif avantageux."
+                - listitem [ref=e88]: "Dérogations possibles en ZFE : selon les collectivités, ces véhicules peuvent circuler en zone à faibles émissions."
+              - paragraph [ref=e89]: "Bon à savoir : la valeur patrimoniale d'un deux-roues ancien peut augmenter avec le temps. Une couverture adaptée protège donc à la fois votre passion et votre investissement."
+              - generic [ref=e90]:
+                - generic [ref=e91]: H2
+                - text: Comment souscrire une assurance moto de collection en ligne ?
+              - paragraph [ref=e92]: Pour assurer votre moto ancienne, la souscription chez AMV est rapide et entièrement en ligne. Munissez-vous de votre permis de conduire et de la carte grise du véhicule, renseignez les informations sur votre moto (marque, modèle, cylindrée, année, usage prévu) et sur votre profil de conducteur, puis obtenez votre devis gratuit en quelques minutes. Si le tarif vous convient, finalisez en quelques clics et recevez votre attestation d'assurance par e-mail. Vous choisissez la formule qui répond le mieux à vos besoins, avant de prendre la route en toute sérénité.
+            - text: sur amv.fr.
+        - generic [ref=e93]:
+          - link "Assurance Moto de Collection" [ref=e94] [cursor=pointer]:
+            - /url: /legende/vehicule-collection/assurance-moto-collection.aspx
+          - link "Assurance Voiture de Collection" [ref=e95] [cursor=pointer]:
+            - /url: /legende/vehicule-collection/assurance-voiture-collection.aspx
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - generic [ref=e99]: Nouveau contenu optimisé
+            - generic [ref=e100]:
+              - generic [ref=e101]: H2
+              - text: Questions fréquentes sur l'assurance moto de collection
+            - generic [ref=e102]:
+              - generic [ref=e103]: H3
+              - text: Comment bien choisir son assurance moto de collection ?
+            - paragraph [ref=e104]: "Commencez par évaluer la valeur réelle de votre véhicule ancien, pour bénéficier d'une couverture adéquate. Privilégiez un assureur spécialiste comme AMV, qui propose une offre dédiée, et lisez attentivement les garanties au-delà du seul tarif : vol, incendie, tous accidents, assistance, protection juridique. Comparez les garanties et tenez compte des spécificités du véhicule de collection, comme l'usage limité ou la possibilité de regrouper plusieurs véhicules dans un contrat flotte."
+            - generic [ref=e105]:
+              - generic [ref=e106]: H3
+              - text: Quelle est la meilleure assurance moto de collection au meilleur prix ?
+            - paragraph [ref=e107]: "Il n'existe pas de réponse unique : le prix dépend de l'âge du véhicule, des garanties choisies et du profil de l'assuré. Généralement, la formule au tiers est la moins chère car elle offre une couverture essentielle. Pour trouver la meilleure offre, un devis personnalisé en ligne vous donne le tarif adapté en quelques clics, avec des cotisations dégressives selon l'âge et le nombre de véhicules."
+            - generic [ref=e108]:
+              - generic [ref=e109]: H3
+              - text: Combien coûte ce type de contrat ?
+            - paragraph [ref=e110]: Le coût dépend de la valeur et de la cylindrée du véhicule, de son usage (loisir, rassemblements, courts trajets), de l'âge et de l'expérience du conducteur, de son bonus, de la zone géographique et du niveau de garanties choisi. Les véhicules de collection, peu roulés et bien entretenus, bénéficient souvent de primes réduites par rapport à une moto classique.
+            - generic [ref=e111]:
+              - generic [ref=e112]: H3
+              - text: Quel avantage à passer une moto en carte grise de collection ?
+            - paragraph [ref=e113]: Une moto de 30 ans et plus passée en carte grise de collection donne droit à un contrôle technique espacé, à l'usage des plaques noires d'époque, à la circulation sur tout le territoire et, souvent, à un tarif d'assurance réduit. Cette démarche valorise aussi le caractère patrimonial du véhicule.
+            - generic [ref=e114]:
+              - generic [ref=e115]: H3
+              - text: Comment changer ou résilier son assurance ?
+            - paragraph [ref=e116]: "Depuis la loi Hamon, après un an d'engagement vous pouvez procéder à la résiliation à tout moment, sans frais ni justification. Ne résiliez pas avant d'avoir souscrit ailleurs : demandez d'abord votre devis chez AMV Légende, puis mandatez AMV pour effectuer les démarches à votre place."
+            - generic [ref=e117]:
+              - generic [ref=e118]: H3
+              - text: Faut-il une carte grise de collection pour assurer une moto ancienne chez AMV ?
+            - paragraph [ref=e119]: La carte grise de collection n'est pas obligatoire pour assurer une moto ancienne, mais elle ouvre droit à des avantages spécifiques et à l'offre AMV Légende. AMV couvre aussi bien les motos anciennes immatriculées normalement que celles en collection. Un conseiller vous oriente vers la formule la plus adaptée à votre situation.
+          - heading " Comment bien choisir son assurance moto / auto pour véhicule(s) ancien(s) ou de collection ?" [level=3] [ref=e120] [cursor=pointer]:
+            - generic [ref=e121]: 
+            - text: Comment bien choisir son assurance moto / auto pour véhicule(s) ancien(s) ou de collection ?
+          - generic [ref=e122]:
+            - paragraph [ref=e123]: Pour bien choisir son assurance moto / auto pour véhicules anciens ou de collection, il est primordial de se poser les bonnes questions en fonction de ses besoins et de son véhicule.
+            - paragraph [ref=e124]: "Voici quelques étapes à suivre :"
+            - paragraph [ref=e125]: "Évaluer la valeur de votre véhicule : un véhicule de collection peut avoir une valeur très différente d'un véhicule standard. Il est donc essentiel d'avoir une évaluation juste pour bénéficier d'une couverture adéquate."
+            - paragraph [ref=e126]: Privilégier un assureur spécialisé dans les véhicules anciens ou de collection qui propose une offre spécifique comme AMV Légende.
+            - paragraph [ref=e127]: "Lire attentivement les garanties proposées : au-delà du tarif, il est essentiel de comprendre les garanties du contrat. Certains couvriront par exemple les dommages tous accidents, tandis que d'autres offriront une protection en cas de vol ou d'incendie."
+            - paragraph [ref=e128]: "Tenir compte des spécificités : les véhicules anciens ou de collection ont des particularités comme l'usage ou la possibilité de regrouper plusieurs véhicules dans un contrat flotte"
+          - heading " Comment changer d'assurance moto / auto pour véhicule(s) ancien(s) ou de collection ?" [level=3] [ref=e129] [cursor=pointer]:
+            - generic [ref=e130]: 
+            - text: Comment changer d'assurance moto / auto pour véhicule(s) ancien(s) ou de collection ?
+          - generic [ref=e131]:
+            - paragraph [ref=e132]: "Renseignez-vous sur vos droits : depuis l'entrée en vigueur de la loi Hamon, il est plus simple de résilier son contrat d'assurance. Après un an d'engagement, vous pouvez changer d'assurance à tout moment."
+            - paragraph [ref=e133]: "Recherchez un nouvel assureur et ne résiliez pas votre contrat avant de souscrire : vous pouvez demander un devis chez AMV Légende qui propose des contrats spécifiques pour les véhicules anciens et de collection."
+            - paragraph [ref=e134]: Une fois votre souscription validée, mandatez votre nouvel assureur pour effectuer les démarches de résiliation à votre place. Il s'occupera de toutes les formalités.
+          - heading " Comment résilier son assurance moto / auto de véhicule(s) ancien(s) ou de collection ?" [level=3] [ref=e135] [cursor=pointer]:
+            - generic [ref=e136]: 
+            - text: Comment résilier son assurance moto / auto de véhicule(s) ancien(s) ou de collection ?
+          - generic [ref=e137]:
+            - paragraph [ref=e138]: "Respectez le délai d'un an : suite à la loi Hamon, après une année de souscription, la résiliation est possible à tout moment sans frais ni justification."
+            - paragraph [ref=e139]: C'est votre nouvel assureur qui s'occupera des démarches de résiliation.
+          - heading " Quelle est l'assurance moto / auto pour véhicule(s) ancien(s) ou de collection la moins chère ?" [level=3] [ref=e140] [cursor=pointer]:
+            - generic [ref=e141]: 
+            - text: Quelle est l'assurance moto / auto pour véhicule(s) ancien(s) ou de collection la moins chère ?
+          - generic [ref=e142]:
+            - paragraph [ref=e143]: Il n'existe pas de réponse unique à cette question car les tarifs dépendent de nombreux facteurs (âge du véhicule, garanties choisies, profil de l'assuré...).
+            - paragraph [ref=e144]: Cependant, généralement, les assurances au tiers sont les moins chères car elles offrent une couverture minimale.
+          - heading " Quel avantage de passer une moto en carte grise de collection?" [level=3] [ref=e145] [cursor=pointer]:
+            - generic [ref=e146]: 
+            - text: Quel avantage de passer une moto en carte grise de collection?
+          - generic [ref=e147]:
+            - paragraph [ref=e148]: "Passer une moto en carte grise collection présente plusieurs avantages :"
+            - paragraph [ref=e149]: "Tarif de l'assurance : les motos de collection ont souvent des primes d'assurance réduites car elles sont généralement moins utilisées et mieux entretenues."
+            - paragraph [ref=e150]: "Carte grise collection : disponible pour les motos âgées de 30 ans ou plus, elle est souvent moins chère et offre certaines facilités, par exemple pour la circulation dans des zones restreintes."
+            - paragraph [ref=e151]: "Valeur patrimoniale : une moto de collection peut prendre de la valeur avec le temps, ce qui représente un avantage pour le propriétaire."
+      - generic [ref=e154]:
+        - generic [ref=e156]:
+          - heading "Pourquoi choisir AMV ?" [level=2] [ref=e157]
+          - generic [ref=e159]:
+            - generic [ref=e160]:
+              - img "Assurance véhicules anciens et de collection" [ref=e162]
+              - generic [ref=e163]: Spécialiste de l'assurance véhicules anciens et de collection
+            - generic [ref=e164]:
+              - img "Contrat assurance" [ref=e166]
+              - generic [ref=e167]: Plus d'1 million d'assurés
+            - generic [ref=e168]:
+              - img "Conseillers assurance" [ref=e170]
+              - generic [ref=e171]: Plus de 300 conseillers dédiés basés en France
+            - generic [ref=e172]:
+              - img "Assurance immédiate" [ref=e174]
+              - generic [ref=e175]: Assurance immédiate 24h/24 et 7j/7
+            - generic [ref=e176]:
+              - img "Gestion personnalisée assurance" [ref=e178]
+              - generic [ref=e179]: Gestion personnalisée en cas de sinistre
+            - generic [ref=e180]:
+              - img "Passion moto" [ref=e182]
+              - generic [ref=e183]: 50 ans d'expérience et de passion moto
+        - generic [ref=e185]:
+          - heading "Conseil AMV" [level=2] [ref=e186]
+          - generic [ref=e189]:
+            - img "Carte grise et permis" [ref=e191]
+            - generic [ref=e192]:
+              - text: Aidez-vous de votre
+              - strong [ref=e193]: carte grise
+              - text: et de votre
+              - strong [ref=e194]: permis
+              - text: .
+        - generic [ref=e196]:
+          - img "palmares_capital" [ref=e197]
+          - generic [ref=e200] [cursor=pointer]:
+            - img "4 stars" [ref=e201]
+            - img [ref=e203]
+            - img [ref=e205]
+            - img [ref=e207]
+            - img [ref=e209]
+            - img [ref=e211]
+            - img [ref=e213]
+            - generic [ref=e214]: 4.7/5
+    - contentinfo [ref=e215]:
+      - generic [ref=e218]:
+        - list [ref=e219]:
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - link "Mentions légales" [ref=e222] [cursor=pointer]:
+                - /url: https://www.amv.fr/mentions-legales
+            - listitem [ref=e223]:
+              - link "Protection des données" [ref=e224] [cursor=pointer]:
+                - /url: https://www.amv.fr/protection-des-donnees/
+            - listitem [ref=e225]:
+              - link "Gérer mes cookies" [ref=e226] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e227]:
+              - link "Assurance moto" [ref=e228] [cursor=pointer]:
+                - /url: https://www.amv.fr
+            - listitem [ref=e229]:
+              - link "Assurance voiture moto de collection" [ref=e230] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - listitem [ref=e231]:
+              - link "Devis assurance Moto" [ref=e232] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+            - listitem [ref=e233]:
+              - link "Devis assurance moto Yamaha" [ref=e234] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-yamaha/
+            - listitem [ref=e235]:
+              - link "Devis assurance moto MBK" [ref=e236] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-mbk/
+            - listitem [ref=e237]:
+              - link "Devis assurance moto Kawasaki" [ref=e238] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-kawasaki/
+            - listitem [ref=e239]:
+              - link "Devis assurance moto Honda" [ref=e240] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-honda/
+            - listitem [ref=e241]:
+              - link "Devis assurance moto Suzuki" [ref=e242] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-suzuki/
+            - listitem [ref=e243]:
+              - link "Devis assurance moto 125" [ref=e244] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-125cm3/
+            - listitem [ref=e245]:
+              - link "Devis assurance moto 50" [ref=e246] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-50cm3/
+            - listitem [ref=e247]:
+              - link "Devis assurance moto électrique" [ref=e248] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-electrique/
+            - listitem [ref=e249]:
+              - link "Devis assurance moto par motorisation" [ref=e250] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-par-motorisation/
+        - generic [ref=e251]: AMV, leader de l'assurance moto et scooter, propose en ligne des solutions d'assurances dédiées aux particuliers. Choisissez parmi notre gamme complète d'assurances, de l'auto à l'habitation en passant par la moto de collection. Modulez vos contrats selon vos besoins réels et bénéficiez de garanties spécifiques pour votre véhicule. Demandez un devis en ligne et souscrivez facilement. Nos conseillers sont là pour vous accompagner dans votre choix. Avec AMV, l'excellence de l'assurance moto est garantie. Rejoignez nos 5332 clients satisfaits avec une note de 4,7/5 selon Avis Vérifiés.
+    - generic "titre dialog"
+  - button "Modifications" [ref=e252] [cursor=pointer]: Modifications
+  - generic [ref=e254]:
+    - text: Contenu supprimé/remplacé
+    - text: Nouveau contenu optimisé
+  - dialog [ref=e257]:
+    - generic [ref=e259]:
+      - generic [ref=e260]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e261]:
+        - text: Notre site
+        - generic [ref=e262]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e263] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e264] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - list:
+      - listitem "Accepter et fermer" [ref=e265] [cursor=pointer]
+      - listitem "Refuser" [ref=e266] [cursor=pointer]
+      - listitem "Paramétrer" [ref=e267] [cursor=pointer]

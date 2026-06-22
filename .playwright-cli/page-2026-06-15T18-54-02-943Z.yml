@@ -1,0 +1,521 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto KAWASAKI
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance Kawasaki" [level=1] [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e40]: H1
+            - generic [ref=e41]: Assurance moto Kawasaki
+          - generic [ref=e42]:
+            - generic [ref=e43]: Nouveau contenu optimisé
+            - paragraph [ref=e44]:
+              - emphasis [ref=e45]: "À retenir : AMV, spécialiste du deux-roues depuis 1974, assure toutes les Kawasaki (Ninja, Z, Versys, Vulcan, ZX) avec des formules au tiers, vol-incendie ou tous risques, une assistance 24h/24 et un devis en ligne gratuit en 3 minutes."
+            - paragraph [ref=e46]:
+              - text: Vous roulez en Kawasaki et cherchez une assurance moto Kawasaki adaptée à votre modèle ? AMV, leader de
+              - link "l'assurance moto" [ref=e47] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance/moto/
+              - text: et scooter, couvre toute la gamme du constructeur japonais, du roadster Z à la sportive Ninja, des trails Versys aux customs Vulcan. Choisissez la protection qui correspond à vos besoins et souscrivez en ligne en quelques minutes.
+          - generic [ref=e48]:
+            - generic [ref=e49]: Nouveau contenu optimisé
+            - generic [ref=e50]:
+              - generic [ref=e51]: H2
+              - text: Kawasaki, un siècle d'histoire industrielle
+            - paragraph [ref=e52]: Né en 1878 du chantier naval de Shozo Kawasaki, le groupe Kawasaki Heavy Industries s'est diversifié au fil des décennies (ferroviaire, aéronautique, énergie) avant de lancer la production de motos en 1953.
+            - paragraph [ref=e53]: "La marque a marqué l'histoire du deux-roues avec des modèles mythiques : 500 H1, 750 H2, 900 Z1, GPZ 900 R, Ninja ZX-10R ou Ninja H2R. Un héritage de puissance et de performance, confirmé par un récent prototype à hydrogène, qui mérite une assurance moto Kawasaki à sa hauteur."
+        - img "assurance-kawasaki" [ref=e54]
+      - generic [ref=e56]:
+        - paragraph [ref=e58]: Kawasaki Heavy Industries, Ltd (KHI) incarne une saga industrielle impressionnante qui s'étend sur plus d'un siècle. Ce chantier naval fondé en 1878 par Kawasaki Shōzō a connu des mutations, élargissant son champ d'activités pour devenir une multinationale aux facettes multiples.
+        - generic [ref=e59]:
+          - 'heading "Kawasaki Heavy Industries, Ltd : un voyage à travers l''épopée industrielle japonaise" [level=4] [ref=e60]':
+            - strong [ref=e61]: "Kawasaki Heavy Industries, Ltd : un voyage à travers l'épopée industrielle japonaise"
+          - paragraph [ref=e62]
+          - paragraph [ref=e63]: A l'origine, Kawasaki Dockyard Co., Ltd était connue de 1896 à 1969 pour s'être hissée au rang de constructeur naval de renom. Les débuts furent ardus, avec des défis liés à la transition des voiliers aux navires occidentaux standardisés. Toutefois, grâce à la commande majeure du Hokkai Maru en 1878, un bateau de 80 tonnes, l'entreprise a marqué le début d'une histoire qui allait façonner le paysage industriel japonais.
+          - paragraph [ref=e64]
+          - paragraph [ref=e65]: Au cours de la première moitié du XXe siècle, Kawasaki s'est diversifiée, investissant dans la construction ferroviaire, les moteurs diesel, les turbines à vapeur et même l'aéronautique. L'entreprise a également joué un rôle crucial dans l'effort de guerre, construisant les premiers sous-marins japonais en 1906 et fournissant des navires de guerre pendant la première guerre mondiale.
+          - paragraph [ref=e66]
+          - paragraph [ref=e67]: L'après-guerre a été une période de restructuration et de redressement, avec une spécialisation progressive dans des secteurs tels que la construction navale, les moteurs et les machines électriques. La croissance fulgurante de l'après-guerre a propulsé Kawasaki Dockyard vers le statut de leader mondial de la construction navale dans les années 1950. La production de motos allait quant à elle démarrer en 1953.
+          - paragraph [ref=e68]
+          - paragraph [ref=e69]: La période de 1969 à 1980 a été marquée par une diversification accrue et le passage à l'appellation Kawasaki Heavy Industries, Ltd. L'entreprise a élargi son champ d'action à l'aérospatiale, l'énergie, l'environnement et, bien sûr, les motos. Malgré les défis liés au choc pétrolier des années 1970, Kawasaki a maintenu sa position de leader mondial dans divers secteurs.
+          - paragraph [ref=e70]
+          - paragraph [ref=e71]: Le repli vers le marché intérieur dans les années 1980 a été stratégique, permettant à Kawasaki de consolider ses activités et de renouer avec les bénéfices dans les années 1990. Cependant, la construction navale a connu des défis persistants en raison d'une surcapacité et de la concurrence internationale.
+          - paragraph [ref=e72]
+          - paragraph [ref=e73]: La période actuelle, depuis 1997, a vu Kawasaki évoluer en tant que multinationale diversifiée, avec des activités comme l'aérospatiale ou les motos, en passant par l'énergie, l'environnement et bien d'autres. La société a réussi à maintenir sa position dans un environnement économique parfois ardu, illustrant sa résilience et son adaptabilité.
+          - paragraph [ref=e74]
+          - paragraph [ref=e75]: Aujourd'hui, Kawasaki Heavy Industries, Ltd est composée de plus de cinquante filiales, opérant dans sept principaux départements, notamment l'aérospatiale, le ferroviaire, l'énergie, l'environnement, la marine, les motos, et les usines et ouvrages d'arts. La diversité et l'envergure de ses activités témoignent du parcours exceptionnel de cette entreprise japonaise emblématique.
+          - paragraph [ref=e76]
+          - paragraph [ref=e77]: Que ce soit sur les circuits de compétition avec des succès en Grand Prix et en Superbike ou sur les routes avec une gamme variée de motos, Kawasaki continue de marquer l'industrie mondiale. L'innovation persistante de l'entreprise, comme en témoigne le récent prototype de moto à hydrogène, souligne son engagement envers l'avenir et sa contribution continue à l'évolution de la technologie et de l'industrie.
+          - paragraph [ref=e78]
+          - paragraph [ref=e79]: "Tout a commencé dans un chantier naval en 1878 avec un homme : Shozo Kawasaki. La production en grande série de motos a débuté il y a plus de cinquante ans. Le premier moteur a été conçu en utilisant le savoir-faire de l’entreprise acquis avec la conception et la réalisation de moteurs d’avions. L’entrée de Kawasaki dans l’industrie motocycliste est la conséquence directe de la recherche perpétuelle de nouvelles technologies et de solutions innovantes. Au fil des années, Kawasaki a conçu de nombreux modèles qui ont contribué à façonner le marché comme les 500 H1, 750 H2, 900 Z1, GPZ 900 R, Ninja ZX-10R ou plus récemment la Ninja H2R. En 1996, le 10 millionième véhicule a été produit, ce qui constitue une preuve irréfutable de la capacité de Kawasaki à répondre aux besoins d’une part importante de la communauté motarde."
+        - generic [ref=e80]:
+          - heading "Conclusion sur la marque moto kawasaki" [level=4] [ref=e81]:
+            - strong [ref=e82]: Conclusion sur la marque moto kawasaki
+          - paragraph [ref=e83]
+          - paragraph [ref=e84]: En conclusion, l'histoire captivante de Kawasaki Heavy Industries, Ltd reflète un siècle d'innovation, de diversification et de résilience dans le paysage industriel japonais. Parti d'un modeste chantier naval en 1878, l'entreprise a évolué pour devenir une multinationale aux multiples facettes, englobant des domaines aussi variés que la construction navale, l'aérospatiale, l'énergie, l'environnement, les motos et bien d'autres.
+          - paragraph [ref=e85]
+          - paragraph [ref=e86]: La capacité de Kawasaki à surmonter les défis, que ce fut pendant les périodes de guerre, les chocs pétroliers ou les réorientations stratégiques, témoigne de sa force d'adaptation et de sa vision à long terme. La diversification intelligente, la recherche constante de l'innovation et l'engagement envers la qualité ont propulsé l'entreprise au sommet de l'industrie mondiale.
+          - paragraph [ref=e87]
+          - paragraph [ref=e88]: Aujourd'hui, avec plus de cinquante filiales opérant dans sept départements majeurs, Kawasaki Heavy Industries, Ltd continue de laisser une empreinte indélébile sur la scène mondiale. Des circuits de compétition aux routes empruntées par ses motos, l'entreprise reste un pilier de l'excellence technologique japonaise. Le prototype récent de moto à hydrogène illustre son engagement envers l'avenir, démontrant que l'innovation et la détermination sont les forces motrices qui continuent de propulser Kawasaki vers de nouveaux horizons.
+      - generic [ref=e89]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e90]
+        - paragraph [ref=e91]
+        - paragraph [ref=e92]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e93] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e94]
+        - paragraph [ref=e95]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e96]
+        - paragraph [ref=e97]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e98] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e99]
+        - paragraph [ref=e100]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e101]
+        - paragraph [ref=e102]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e103]
+        - paragraph [ref=e104]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e105] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e106]:
+          - link "Testez notre tarif d'assurance pour votre KAWASAKI" [ref=e108] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx?extmar=kawasaki
+          - link "Retrouver mon devis d'assurance KAWASAKI" [ref=e110] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e111]:
+        - generic [ref=e112]: Nouveau contenu optimisé
+        - generic [ref=e113]:
+          - generic [ref=e114]: H2
+          - text: Pourquoi assurer sa Kawasaki chez AMV ?
+        - paragraph [ref=e115]: "Une Kawasaki se conduit avec plaisir. Encore faut-il bien l'assurer. AMV, spécialiste du deux-roues depuis cinquante ans, propose une assurance en ligne simple et rapide : quelques clics suffisent pour être couvert, sans vous déplacer en agence. Plus d'1 million d'assurés font confiance à AMV, noté 4,7/5 par Avis Vérifiés, tiers de confiance. Les conseillers AMV sont des passionnés de deux-roues. Ils comprennent les besoins d'un motard Kawasaki et vous orientent vers la couverture la plus juste. En cas de sinistre, accident, vol ou panne, l'assistance reste joignable 24h/24 et 7j/7 selon l'option choisie."
+        - generic [ref=e116]:
+          - generic [ref=e117]: H2
+          - text: Les formules d'assurance moto Kawasaki
+        - paragraph [ref=e118]: AMV propose une gamme complète de formules d'assurance moto Kawasaki, de la couverture essentielle à la protection tous risques. Vous choisissez le niveau de garanties selon la valeur de votre moto, sa cylindrée, son usage et votre profil de conducteur. Quelle que soit la formule, la responsabilité civile, l'assistance et la protection juridique sont incluses.
+        - paragraph [ref=e119]: "L'assurance au tiers couvre la responsabilité civile : c'est la garantie minimale obligatoire, qui indemnise les dommages causés à un tiers. Elle peut convenir à une Kawasaki ancienne, de faible valeur ou peu utilisée, et reste la formule la moins chère."
+        - paragraph [ref=e120]: "La formule intermédiaire ajoute le vol, la tentative de vol et l'incendie. Elle est recommandée si vous garez votre moto en extérieur : les Kawasaki sportives et de forte cylindrée figurent parmi les modèles les plus convoités par les voleurs."
+        - paragraph [ref=e121]: La formule tous risques indemnise les dommages subis par votre deux-roues, même en cas de sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, recommandée pour une Kawasaki récente, une Ninja ou une Z de fortes cylindrées, ou une moto financée à crédit.
+        - generic [ref=e122]:
+          - generic [ref=e123]: H2
+          - text: Quelle assurance selon votre modèle Kawasaki ?
+        - paragraph [ref=e124]: "La gamme Kawasaki couvre des usages très différents, et le contrat se choisit en fonction du type de moto. AMV assure toutes les Kawasaki, quelle que soit la cylindrée :"
+        - list [ref=e125]:
+          - listitem [ref=e126]: "Roadsters Z (Z650, Z900, Z H2) : des motos polyvalentes pour la ville et la route, à assurer selon leur valeur et leur puissance."
+          - listitem [ref=e127]: "Sportives Ninja (Ninja 400, Ninja 650, Ninja ZX-6R, ZX-10R, H2) : forte cylindrée et performances élevées, la formule tous risques est souvent recommandée."
+          - listitem [ref=e128]: "Trails Versys (Versys 650, Versys 1000) : pensés pour les longs trajets et le voyage, avec une assistance étendue utile."
+          - listitem [ref=e129]: "Customs Vulcan : des motos de balade au style néo-rétro, prisées pour le loisir le week-end."
+          - listitem [ref=e130]:
+            - text: "Rétros W et Eliminator : des modèles au caractère classique, parfois éligibles à une"
+            - link "assurance moto de collection" [ref=e131] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-moto-collection.aspx
+            - text: après 30 ans.
+        - paragraph [ref=e132]: Pour chaque modèle, le tarif et les garanties s'ajustent à la cylindrée, à l'usage et au profil du conducteur. Un conseiller AMV vous aide à trouver la couverture la plus juste pour votre Kawasaki.
+        - generic [ref=e133]:
+          - generic [ref=e134]: H2
+          - text: Des garanties et options adaptées à votre moto
+        - paragraph [ref=e135]: Au-delà des formules, AMV permet de personnaliser votre contrat avec des options selon votre usage. L'assistance 0 km intervient même devant chez vous, sans franchise kilométrique, pour une panne, un accident ou un vol. La garantie des équipements protège votre casque, vos gants et votre blouson en cas de sinistre. La garantie individuelle du conducteur vous verse un capital en cas de décès ou d'invalidité permanente, même en cas d'accident responsable. Vous adaptez ainsi votre protection à votre Kawasaki, au quotidien comme pour le loisir le week-end.
+        - paragraph [ref=e136]: La protection juridique, incluse dès la première formule, prend en charge la défense de vos intérêts en cas de litige lié à votre moto, qu'il s'agisse d'un désaccord après un accident ou d'un conflit avec un réparateur. Combinée à l'assistance, elle vous évite bien des démarches en cas de coup dur.
+        - generic [ref=e137]:
+          - generic [ref=e138]: H2
+          - text: Protéger sa Kawasaki contre le vol
+        - paragraph [ref=e139]: "Les Kawasaki sportives, Ninja ou Z, comptent parmi les motos les plus recherchées par les voleurs. La garantie vol, disponible dès la formule intermédiaire, prend alors tout son sens. Quelques précautions aident à en bénéficier dans les meilleures conditions : antivol homologué (bloque-disque, chaîne, U), stationnement dans un lieu fermé, gravage du deux-roues. Elles réduisent le risque et peuvent alléger votre tarif. En cas de vol, l'indemnisation dépend de la formule souscrite et de la valeur du véhicule au moment du sinistre."
+        - generic [ref=e140]:
+          - generic [ref=e141]: H2
+          - text: Quel est le prix d'une assurance moto Kawasaki ?
+        - paragraph [ref=e142]: "Le coût d'une assurance moto Kawasaki dépend de plusieurs facteurs : le modèle et la cylindrée de la moto, l'expérience du conducteur (ancienneté du permis, bonus, antécédents de sinistres), le lieu de stationnement habituel et le niveau de garanties choisi. Une Ninja de forte cylindrée ne s'assure pas au même tarif qu'une petite Z d'entrée de gamme. Chez AMV, le devis personnalisé en ligne tient compte de tous ces éléments et vous donne un tarif adapté à votre profil en quelques minutes, gratuitement et sans engagement."
+        - generic [ref=e143]:
+          - generic [ref=e144]: H2
+          - text: Comment souscrire votre assurance moto Kawasaki en ligne ?
+        - paragraph [ref=e145]: Pour assurer votre moto Kawasaki, la souscription chez AMV est simple et rapide. Munissez-vous de votre permis de conduire et de la carte grise de votre Kawasaki, renseignez le modèle, la cylindrée et votre profil de conducteur, puis obtenez votre devis gratuit en 3 minutes. Si le tarif vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par e-mail. Vous bénéficiez d'une couverture immédiate, sous réserve de certaines conditions, pour prendre la route sans attendre.
+      - generic [ref=e146]:
+        - generic [ref=e147]: Nouveau contenu optimisé
+        - generic [ref=e148]:
+          - generic [ref=e149]: H2
+          - text: Questions fréquentes sur l'assurance moto Kawasaki
+        - generic [ref=e150]:
+          - generic [ref=e151]: H3
+          - text: Quelle assurance moto Kawasaki choisir ?
+        - paragraph [ref=e152]: Pour bien choisir, comparez les tarifs, les garanties et les franchises. Une Kawasaki récente ou de forte cylindrée justifie une formule tous risques, tandis qu'un modèle ancien peut se contenter du tiers. AMV, spécialiste de la moto, propose des solutions adaptées aux besoins de chaque motard et à chaque type de deux-roues, des conseils d'experts et une couverture fiable.
+        - generic [ref=e153]:
+          - generic [ref=e154]: H3
+          - text: Quel est le prix d'une assurance moto Kawasaki ?
+        - paragraph [ref=e155]: Le prix dépend du modèle de la moto, de l'expérience du conducteur (permis, sinistres, bonus), du lieu de stationnement et du niveau de garanties désiré. AMV propose des tarifs compétitifs adaptés à chaque profil et à chaque cylindrée. Un devis personnalisé gratuit vous donne le coût exact en quelques minutes.
+        - generic [ref=e156]:
+          - generic [ref=e157]: H3
+          - text: Quelle formule d'assurance moto choisir pour une Kawasaki récente ?
+        - paragraph [ref=e158]: "Pour une Kawasaki récente, la garantie dommages tous risques est fortement recommandée : elle couvre les frais de réparation même en cas d'accident responsable. AMV propose différentes garanties et options à adapter selon votre usage et votre budget. Réalisez un devis sur amv.fr pour comparer les formules."
+        - generic [ref=e159]:
+          - generic [ref=e160]: H3
+          - text: Comment obtenir un devis d'assurance moto Kawasaki ?
+        - paragraph [ref=e161]: Rendez-vous sur amv.fr et complétez le formulaire pour découvrir votre tarif en 3 minutes. Spécialiste de l'assurance moto depuis cinquante ans, AMV vous propose une couverture sur mesure et vous accompagne pour rouler au guidon de votre Kawasaki.
+        - generic [ref=e162]:
+          - generic [ref=e163]: H3
+          - text: Peut-on assurer une Kawasaki en jeune permis ou en conduite accompagnée ?
+        - paragraph [ref=e164]: Oui. AMV assure tous les profils, y compris les jeunes conducteurs et les motards récemment titulaires du permis. Le tarif est personnalisé selon votre expérience et votre bonus-malus. Que vous débutiez sur une Z d'entrée de gamme ou que vous rouliez depuis des années sur une Ninja, AMV propose une formule adaptée à votre situation.
+        - generic [ref=e165]:
+          - generic [ref=e166]: H3
+          - text: L'assistance est-elle incluse dans l'assurance moto Kawasaki ?
+        - paragraph [ref=e167]: Une assistance de base est prévue dans le contrat, et l'option assistance 0 km étend la couverture jusque devant votre domicile, sans condition de distance. Elle prend en charge le dépannage, le remorquage et le rapatriement en cas de panne, d'accident ou de vol, en France comme à l'étranger selon les garanties.
+      - generic [ref=e168]:
+        - heading "Questions fréquentes" [level=2] [ref=e169]
+        - generic [ref=e170]:
+          - generic [ref=e171] [cursor=pointer]:
+            - generic [ref=e172]:
+              - generic [ref=e173]: Comment Kawasaki Heavy Industries, Ltd a-t-elle évolué depuis ses débuts en tant que chantier naval en 1878 ?
+              - img [ref=e174]
+            - paragraph [ref=e176]: Fondée en 1878 en tant que chantier naval par Kawasaki Shōzō, l'entreprise a connu une évolution remarquable. Initialement spécialisée dans la construction navale, elle s'est diversifiée au fil des décennies, englobant des secteurs tels que la construction ferroviaire, l'aérospatiale, l'énergie, l'environnement, les motos et bien d'autres.
+          - generic [ref=e177] [cursor=pointer]:
+            - generic [ref=e178]:
+              - generic [ref=e179]: Quels ont été les défis majeurs auxquels Kawasaki a dû faire face au cours de son histoire ?
+              - img [ref=e180]
+            - paragraph [ref=e182]: Kawasaki a dû surmonter divers défis, allant des débuts difficiles en raison de la transition des voiliers aux navires occidentaux, aux périodes de récession, des guerres mondiales, en passant par les chocs pétroliers des années 1970. La surcapacité dans la construction navale et la concurrence internationale ont également été des obstacles, mais l'entreprise a démontré une résilience exceptionnelle.
+          - generic [ref=e183] [cursor=pointer]:
+            - generic [ref=e184]:
+              - generic [ref=e185]: Comment Kawasaki Heavy Industries, Ltd s'est-elle adaptée aux changements économiques et technologiques récents ?
+              - img [ref=e186]
+            - paragraph [ref=e188]: Kawasaki a adopté une stratégie de diversification intelligente, se recentrant sur le marché intérieur japonais dans les années 1980 pour ensuite se rétablir avec succès. Au fil des décennies, l'entreprise a continué à innover, embrassant des domaines tels que l'aérospatiale, l'énergie, l'environnement, et récemment, en présentant un prototype de moto à hydrogène en 2023. Ces ajustements stratégiques témoignent de sa capacité à rester dans la course, prospère, dans un environnement économique en constante évolution.
+        - generic [ref=e189]:
+          - generic [ref=e190] [cursor=pointer]:
+            - generic [ref=e191]:
+              - generic [ref=e192]: Quelle assurance moto choisir ?
+              - img [ref=e193]
+            - paragraph [ref=e195]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e196] [cursor=pointer]:
+            - generic [ref=e197]:
+              - generic [ref=e198]: Quel est le prix d'une assurance moto ?
+              - img [ref=e199]
+            - paragraph [ref=e201]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e202] [cursor=pointer]:
+            - generic [ref=e203]:
+              - generic [ref=e204]: Quelle formule assurance moto choisir ?
+              - img [ref=e205]
+            - paragraph [ref=e207]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e208] [cursor=pointer]:
+            - generic [ref=e209]:
+              - generic [ref=e210]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e211]
+            - paragraph [ref=e213]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e214]:
+        - heading "Assurance pour les modèles Kawasaki" [level=2] [ref=e215]
+        - link "Assurance 1400 GTR" [ref=e216] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-1400-gtr/
+          - generic [ref=e217]:
+            - generic [ref=e218]: Assurance 1400 GTR
+            - img [ref=e219]
+        - link "Assurance ER-5" [ref=e220] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-er-5/
+          - generic [ref=e221]:
+            - generic [ref=e222]: Assurance ER-5
+            - img [ref=e223]
+        - link "Assurance ER-6" [ref=e224] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-er-6/
+          - generic [ref=e225]:
+            - generic [ref=e226]: Assurance ER-6
+            - img [ref=e227]
+        - link "Assurance ER-6 47,5CV" [ref=e228] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-er-6-47-5cv/
+          - generic [ref=e229]:
+            - generic [ref=e230]: Assurance ER-6 47,5CV
+            - img [ref=e231]
+        - link "Assurance KLR 650" [ref=e232] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-klr-650/
+          - generic [ref=e233]:
+            - generic [ref=e234]: Assurance KLR 650
+            - img [ref=e235]
+        - link "Assurance NINJA 1000 SX" [ref=e236] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-1000-sx/
+          - generic [ref=e237]:
+            - generic [ref=e238]: Assurance NINJA 1000 SX
+            - img [ref=e239]
+        - link "Assurance NINJA 250R" [ref=e240] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-250r/
+          - generic [ref=e241]:
+            - generic [ref=e242]: Assurance NINJA 250R
+            - img [ref=e243]
+        - link "Assurance NINJA 300" [ref=e244] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-300/
+          - generic [ref=e245]:
+            - generic [ref=e246]: Assurance NINJA 300
+            - img [ref=e247]
+        - link "Assurance NINJA 400" [ref=e248] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-400/
+          - generic [ref=e249]:
+            - generic [ref=e250]: Assurance NINJA 400
+            - img [ref=e251]
+        - link "Assurance NINJA 500R" [ref=e252] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-500r/
+          - generic [ref=e253]:
+            - generic [ref=e254]: Assurance NINJA 500R
+            - img [ref=e255]
+        - link "Assurance NINJA 650R" [ref=e256] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-650r/
+          - generic [ref=e257]:
+            - generic [ref=e258]: Assurance NINJA 650R
+            - img [ref=e259]
+        - link "Assurance NINJA H2" [ref=e260] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-h2/
+          - generic [ref=e261]:
+            - generic [ref=e262]: Assurance NINJA H2
+            - img [ref=e263]
+        - link "Assurance NINJA ZX 6R" [ref=e264] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-zx-6r/
+          - generic [ref=e265]:
+            - generic [ref=e266]: Assurance NINJA ZX 6R
+            - img [ref=e267]
+        - link "Assurance NINJA ZX 9R" [ref=e268] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-ninja-zx-9r/
+          - generic [ref=e269]:
+            - generic [ref=e270]: Assurance NINJA ZX 9R
+            - img [ref=e271]
+        - link "Assurance VERSYS" [ref=e272] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-versys/
+          - generic [ref=e273]:
+            - generic [ref=e274]: Assurance VERSYS
+            - img [ref=e275]
+        - link "Assurance VERSYS 1000" [ref=e276] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-versys-1000/
+          - generic [ref=e277]:
+            - generic [ref=e278]: Assurance VERSYS 1000
+            - img [ref=e279]
+        - link "Assurance VERSYS 650" [ref=e280] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-versys-650/
+          - generic [ref=e281]:
+            - generic [ref=e282]: Assurance VERSYS 650
+            - img [ref=e283]
+        - link "Assurance W650" [ref=e284] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-w650/
+          - generic [ref=e285]:
+            - generic [ref=e286]: Assurance W650
+            - img [ref=e287]
+        - link "Assurance Z 1000" [ref=e288] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-1000/
+          - generic [ref=e289]:
+            - generic [ref=e290]: Assurance Z 1000
+            - img [ref=e291]
+        - link "Assurance Z 1000 SX" [ref=e292] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-1000-sx/
+          - generic [ref=e293]:
+            - generic [ref=e294]: Assurance Z 1000 SX
+            - img [ref=e295]
+        - link "Assurance Z 300" [ref=e296] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-300/
+          - generic [ref=e297]:
+            - generic [ref=e298]: Assurance Z 300
+            - img [ref=e299]
+        - link "Assurance Z 650" [ref=e300] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-650/
+          - generic [ref=e301]:
+            - generic [ref=e302]: Assurance Z 650
+            - img [ref=e303]
+        - link "Assurance Z 650 47,5CV" [ref=e304] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-650-47-5cv/
+          - generic [ref=e305]:
+            - generic [ref=e306]: Assurance Z 650 47,5CV
+            - img [ref=e307]
+        - link "Assurance Z 750" [ref=e308] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-750/
+          - generic [ref=e309]:
+            - generic [ref=e310]: Assurance Z 750
+            - img [ref=e311]
+        - link "Assurance Z 800" [ref=e312] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-800/
+          - generic [ref=e313]:
+            - generic [ref=e314]: Assurance Z 800
+            - img [ref=e315]
+        - link "Assurance Z 800 E 47,5CV" [ref=e316] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-800-e-47-5cv/
+          - generic [ref=e317]:
+            - generic [ref=e318]: Assurance Z 800 E 47,5CV
+            - img [ref=e319]
+        - link "Assurance Z 900" [ref=e320] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-900/
+          - generic [ref=e321]:
+            - generic [ref=e322]: Assurance Z 900
+            - img [ref=e323]
+        - link "Assurance Z 900 47,5CV" [ref=e324] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-z-900-47-5cv/
+          - generic [ref=e325]:
+            - generic [ref=e326]: Assurance Z 900 47,5CV
+            - img [ref=e327]
+        - link "Assurance ZX-10R" [ref=e328] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-kawasaki/assurance-zx-10r/
+          - generic [ref=e329]:
+            - generic [ref=e330]: Assurance ZX-10R
+            - img [ref=e331]
+      - link "Précédent" [ref=e334] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - img [ref=e336]
+        - text: Précédent
+    - generic [ref=e337]:
+      - generic [ref=e339]:
+        - generic [ref=e340]:
+          - link "Retourner à l'accueil" [ref=e342] [cursor=pointer]:
+            - /url: /
+            - img [ref=e343]
+          - paragraph [ref=e346]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e348] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e350] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e352] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e353] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5332 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e354]:
+          - generic [ref=e356]:
+            - generic [ref=e358]: A propos d’AMV
+            - generic [ref=e359]:
+              - link "Qui sommes-nous ?" [ref=e361] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e363] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e365] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e367] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e369] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e371] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e373]:
+            - generic [ref=e375]: Liens utiles
+            - generic [ref=e376]:
+              - link "Besoin d’aide ?" [ref=e378] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e380] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e382] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e384] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e386] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e388] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e390]:
+            - generic [ref=e392]: Assurances
+            - generic [ref=e393]:
+              - link "Assurance Moto" [ref=e395] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e397] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e399] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e401] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e403] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e405] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e407] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e409] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e411] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e413]:
+            - generic [ref=e415]: Devis assurance
+            - generic [ref=e416]:
+              - link "Devis assurance moto" [ref=e418] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e420] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e422] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e424] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e426] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e428] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e430] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e432] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e434] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e436] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e438]:
+          - 'link "Aller sur le site : Facebook" [ref=e439] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e440]
+          - 'link "Aller sur le site : Instagram" [ref=e443] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e444]
+          - 'link "Aller sur le site : LinkedIn" [ref=e446] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e447]
+          - 'link "Aller sur le site : Youtube" [ref=e449] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e450]
+      - generic [ref=e453]:
+        - generic [ref=e454]:
+          - link "Mentions légales" [ref=e455] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e456] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e457] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e458] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e459] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e460]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e461] [cursor=pointer]: Modifications
+  - generic [ref=e463]:
+    - text: Contenu remplacé
+    - text: Nouveau contenu optimisé
+  - dialog [ref=e466]:
+    - generic [ref=e468]:
+      - generic [ref=e469]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e470]:
+        - text: Notre site
+        - generic [ref=e471]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e472] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e473] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - list:
+      - listitem "Accepter et fermer" [ref=e474] [cursor=pointer]
+      - listitem "Refuser" [ref=e475] [cursor=pointer]
+      - listitem "Paramétrer" [ref=e476] [cursor=pointer]

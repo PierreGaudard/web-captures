@@ -1,0 +1,42 @@
+(function( $ ) {
+	'use strict';
+
+	$(document).ready(function(){
+		var _ouibounce = ouibounce(document.getElementById('em-popup-wrapper'), {
+		  cookieExpire: parseInt( em_pop_display_options.cookie_expire, 10 ),
+		  sitewide: true,
+		});
+
+		$('#em-popup-overlay').on('click', function() {
+			$('#em-popup-wrapper').fadeOut(500);
+		});
+
+		$('#em-popup-wrapper #em-popup-close').on('click', function() {
+			event.preventDefault();
+			$('#em-popup-wrapper').fadeOut(500);
+		});	
+
+		$('.em-popup-open').on('click', function() {
+			event.preventDefault();
+			$('#em-popup-wrapper').fadeIn(500);
+		});
+		
+		$(window).on('scroll', function(){
+			var s = $(window).scrollTop(),
+				d = $(document).height(),
+				c = $(window).height();
+
+			var scrollPercent = (s / (d - c)) * 100;
+			
+			var scrollTrigger = parseInt( em_pop_display_options.scroll_percentage, 10  );
+			
+			var isMobile = window.matchMedia("only screen and (max-width: 767px)");
+			
+			if (isMobile.matches && (em_pop_display_options.mobile_enable == 1) && (scrollPercent > scrollTrigger)) {
+				_ouibounce.fire();
+			}
+			
+		})
+	});
+
+})( jQuery );

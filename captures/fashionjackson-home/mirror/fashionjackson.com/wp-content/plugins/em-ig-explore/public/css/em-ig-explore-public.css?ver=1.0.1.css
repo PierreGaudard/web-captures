@@ -1,0 +1,132 @@
+/**
+ * Public-specific CSS.
+ */
+
+#template-em-ig-explore {
+	width: 90%;
+	max-width: 750px;
+	margin: 0 auto;
+}
+
+#template-em-ig-explore .page-header {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#em-ig-explore-featured-content {
+	margin-bottom: 35px;
+}
+
+#em-ig-explore-featured-header {
+	width: 100vw;
+	margin-left: calc(50% - 50vw); 
+	padding: 20px 0 110px;
+	margin-bottom: -90px;
+}
+
+#em-ig-explore-featured-title {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#em-ig-explore-featured-post .em-featured-image img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+#em-ig-explore-featured-post .em-entry-content {
+	position: relative;
+	z-index: 1;
+	margin: -45px 25px 0 25px;
+	padding: 15px;
+	background: #fff;
+	text-align: center;
+}
+
+#em-ig-explore-featured-post .em-read-more {
+	display: inline-block;
+	margin-top: 20px;
+	padding: 10px 20px;
+}
+
+#em-ig-explore-featured-post .em-shop-the-post {
+	padding: 0;
+	border: none;
+}
+
+#em-ig-explore-featured-post .em-shop-title {
+	display: none;
+}
+
+#em-ig-explore-links {
+	margin-bottom: 60px;
+}
+
+#em-ig-explore-links-header {
+	width: 100vw;
+	margin-left: calc(50% - 50vw); 
+	padding: 20px 0 50px;
+	margin-bottom: -30px;
+}
+
+#em-ig-explore-links-title {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.em-ig-explore-link {
+	margin-bottom: 10px;
+}
+
+.em-ig-explore-link:last-of-type {
+	margin-bottom: 10px;
+}
+
+.em-ig-explore-link a {
+	display: block;
+	text-align: center;
+	padding: 25px;
+}
+
+#em-ig-explore-product-title {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+#em-ig-explore-product-widget {
+	margin-bottom: 20px;
+}
+
+#em-ig-explore-product-list {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.em-ig-explore-product {
+	width: 47.368421%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.em-ig-explore-product-image img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	height: auto;
+}
+
+.em-ig-explore-product-description {
+	margin-top: 10px;
+}
+
+#em-ig-explore-credit {
+	max-width: 30px;
+	margin: 30px auto 0;
+	opacity: .3
+}

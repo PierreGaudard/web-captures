@@ -1,0 +1,947 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "" [ref=e7] [cursor=pointer]:
+            - /url: "#"
+          - heading [level=1] [ref=e8]:
+            - link [ref=e9] [cursor=pointer]:
+              - /url: https://fashionjackson.com/
+        - navigation [ref=e10]:
+          - generic [ref=e11]:
+            - text: 
+            - list [ref=e12]:
+              - listitem [ref=e13]:
+                - link "Fashion" [ref=e14] [cursor=pointer]:
+                  - /url: https://fashionjackson.com/category/outfits/
+              - listitem [ref=e15]:
+                - link "Beauty" [ref=e16] [cursor=pointer]:
+                  - /url: https://fashionjackson.com/category/beauty/
+              - listitem [ref=e17]:
+                - link "LIFESTYLE" [ref=e18] [cursor=pointer]:
+                  - /url: https://fashionjackson.com/category/lifestyle/
+              - listitem [ref=e19]:
+                - link "TRAVEL" [ref=e20] [cursor=pointer]:
+                  - /url: https://fashionjackson.com/category/travel/
+              - listitem [ref=e21]:
+                - link "Gift Guides" [ref=e22] [cursor=pointer]:
+                  - /url: https://fashionjackson.com/gift-guides/
+              - listitem [ref=e23]:
+                - link "SHOP" [ref=e24] [cursor=pointer]:
+                  - /url: https://fashionjackson.com/shop/
+        - text:     
+    - main [ref=e27]:
+      - generic [ref=e30]:
+        - heading "Welcome to Minimalist Sophistication with Maximum Style" [level=1] [ref=e31]
+        - paragraph [ref=e33]: Fashion Jackson is an inspired style, home, and beauty destination for those who prefer quality over quantity, subtle over obvious, and ease over complexity.
+      - article [ref=e38]:
+        - generic [ref=e39]:
+          - generic [ref=e40]: 
+          - text: New post!
+        - link "featured image" [ref=e42] [cursor=pointer]:
+          - /url: https://fashionjackson.com/gifts-for-him/
+          - img "featured image" [ref=e43]
+        - generic [ref=e44]:
+          - list [ref=e45]:
+            - listitem [ref=e46]:
+              - link "LIFESTYLE" [ref=e47] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/lifestyle/
+              - text: 
+            - listitem [ref=e48]: 6.12.26
+          - 'heading "Best Father’s Day Gifts 2026: 42 Ideas for Every Dad" [level=1] [ref=e50]':
+            - 'link "Best Father’s Day Gifts 2026: 42 Ideas for Every Dad" [ref=e51] [cursor=pointer]':
+              - /url: https://fashionjackson.com/gifts-for-him/
+          - paragraph [ref=e53]: With Father’s Day 2026 falling on Sunday, June 21, you’ve got just over a week left to find him the perfect gift — and let’s be honest, buying for any man can be hard, but especially when it comes to…
+          - link "View the Post" [ref=e55] [cursor=pointer]:
+            - /url: https://fashionjackson.com/gifts-for-him/
+          - generic [ref=e56]:
+            - generic [ref=e57]: 
+            - text: Shop
+          - region "Shop the post" [ref=e60]:
+            - button "Previous products" [ref=e61] [cursor=pointer]: <
+            - generic [ref=e63]:
+              - group "1 of 25" [ref=e64]:
+                - link "Click for more info about Orphéon Eau de Toilette (Women) | Nordstrom":
+                  - /url: https://on.ltk.com/+Jn2fFJRRpk4rkzMz8iUG7Q?__cid=1152
+                  - img "Click for more info about Orphéon Eau de Toilette (Women) | Nordstrom" [ref=e65] [cursor=pointer]
+              - group "2 of 25" [ref=e66]:
+                - link "Click for more info about Duchie Johnny Collar Short Sleeve Wool Polo Sweater (Men) | Nordstrom":
+                  - /url: https://on.ltk.com/+-_-xhxHrTfHN2Iw5X8jpaQ?__cid=1152
+                  - img "Click for more info about Duchie Johnny Collar Short Sleeve Wool Polo Sweater (Men) | Nordstrom" [ref=e67] [cursor=pointer]
+            - button "Next products" [ref=e68] [cursor=pointer]: ">"
+      - generic [ref=e70]:
+        - generic [ref=e71]:
+          - heading "trending" [level=2]
+          - navigation [ref=e72]:
+            - list [ref=e73]:
+              - listitem [ref=e74]:
+                - link "Popular" [ref=e75] [cursor=pointer]:
+                  - /url: "#section-1"
+              - listitem [ref=e76]:
+                - link "Travel Tips" [ref=e77] [cursor=pointer]:
+                  - /url: "#section-2"
+              - listitem [ref=e78]:
+                - link "Outfit Guides" [ref=e79] [cursor=pointer]:
+                  - /url: "#section-3"
+              - listitem [ref=e80]:
+                - link "Reviews" [ref=e81] [cursor=pointer]:
+                  - /url: "#section-4"
+        - generic [ref=e82]:
+          - generic [ref=e84]:
+            - list [ref=e86]:
+              - generic [ref=e88]:
+                - listitem [ref=e91]:
+                  - generic [ref=e92]:
+                    - link [ref=e94] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/what-to-buy-on-amazon/
+                    - generic [ref=e95]:
+                      - 'heading "What to Buy on Amazon: Chic Finds for Every Category" [level=3] [ref=e96]':
+                        - 'link "What to Buy on Amazon: Chic Finds for Every Category" [ref=e97] [cursor=pointer]':
+                          - /url: https://fashionjackson.com/what-to-buy-on-amazon/
+                      - generic [ref=e98]: You guys know how much I love a good Amazon find. Whether it's an essential item for travel, a kitchen gadget, or a trendy fashion piece at a great price, Amazon seemingly has it all plus incredibly fast shipping for…
+                      - link "View the Post" [ref=e100] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/what-to-buy-on-amazon/
+                - listitem [ref=e103]:
+                  - generic [ref=e104]:
+                    - link [ref=e106] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/fall-capsule-wardrobe/
+                      - img [ref=e107]
+                    - generic [ref=e108]:
+                      - heading [level=3] [ref=e109]:
+                        - link [ref=e110] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/fall-capsule-wardrobe/
+                          - text: "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season"
+                      - generic [ref=e111]: As the season turns, your wardrobe should too. Welcome to the 2025 Fall Capsule Wardrobe Edit, your go-to guide for styling with ease, intention, and a touch of seasonal flair. In a world full of fleeting trends, a capsule approach gives…
+                      - link [ref=e113] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/fall-capsule-wardrobe/
+                        - text: View the Post
+                - listitem [ref=e116]:
+                  - generic [ref=e117]:
+                    - link [ref=e119] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/amazon-fall-capsule-wardrobe/
+                      - img [ref=e120]
+                    - generic [ref=e121]:
+                      - heading [level=3] [ref=e122]:
+                        - link [ref=e123] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/amazon-fall-capsule-wardrobe/
+                          - text: "Fall Capsule Wardrobe: Amazon Edition"
+                      - generic [ref=e124]: Yesterday, the long-awaited 2025 fall capsule wardrobe dropped. These capsule wardrobes are such a labor of love, and seeing you guys enjoy them means the world to me and my team. That said, I always love to offer a more…
+                      - link [ref=e126] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/amazon-fall-capsule-wardrobe/
+                        - text: View the Post
+                - listitem [ref=e129]:
+                  - generic [ref=e130]:
+                    - link [ref=e132] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/master-bedroom-decor/
+                      - img [ref=e133]
+                    - generic [ref=e134]:
+                      - heading [level=3] [ref=e135]:
+                        - link [ref=e136] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/master-bedroom-decor/
+                          - text: "Stylish Living: Transitional Bedroom Decor Ideas"
+                      - generic [ref=e137]: Your home should be your sanctuary — the one place you know you can walk into and instantly feel relaxed, at peace, and comfortable. Of course, this process is just that — a process. Creating the perfect space for you…
+                      - link [ref=e139] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/master-bedroom-decor/
+                        - text: View the Post
+            - generic [ref=e140]:
+              - list [ref=e141]:
+                - listitem [ref=e142]:
+                  - 'link "1 What to Buy on Amazon: Chic Finds for Every Category" [ref=e143] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e144]: "1"
+                    - generic [ref=e145]: "What to Buy on Amazon: Chic Finds for Every Category"
+                - listitem [ref=e146]:
+                  - 'link "2 Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season" [ref=e147] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e148]: "2"
+                    - generic [ref=e149]: "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season"
+                - listitem [ref=e150]:
+                  - 'link "3 Fall Capsule Wardrobe: Amazon Edition" [ref=e151] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e152]: "3"
+                    - generic [ref=e153]: "Fall Capsule Wardrobe: Amazon Edition"
+                - listitem [ref=e154]:
+                  - 'link "4 Stylish Living: Transitional Bedroom Decor Ideas" [ref=e155] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e156]: "4"
+                    - generic [ref=e157]: "Stylish Living: Transitional Bedroom Decor Ideas"
+              - link "Read More Popular Posts" [ref=e159] [cursor=pointer]:
+                - /url: https://fashionjackson.com/page/2/
+          - generic [ref=e160]:
+            - list [ref=e162]:
+              - generic [ref=e164]:
+                - listitem [ref=e167]:
+                  - generic [ref=e168]:
+                    - link "Travel Bag Featured Image" [ref=e170] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/best-travel-bags/
+                      - img "Travel Bag Featured Image" [ref=e171]
+                    - generic [ref=e172]:
+                      - 'heading "Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [level=3] [ref=e173]':
+                        - 'link "Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [ref=e174] [cursor=pointer]':
+                          - /url: https://fashionjackson.com/best-travel-bags/
+                      - generic [ref=e175]: I’ve always been a self-proclaimed jetsetter, but I feel like my travel has really picked up a lot this first half of 2026. I’ve been go-go-going, which has allowed me to edit and refine my jetsetting methods as well as…
+                      - link "View the Post" [ref=e177] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/best-travel-bags/
+                - listitem [ref=e180]:
+                  - generic [ref=e181]:
+                    - link [ref=e183] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/airport-travel-style-outfits/
+                      - img [ref=e184]
+                    - generic [ref=e185]:
+                      - heading [level=3] [ref=e186]:
+                        - link [ref=e187] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/airport-travel-style-outfits/
+                          - text: My Favorite Airport Outfits & Travel Essentials for Jetsetters
+                      - generic [ref=e188]: Traveling by plane used to be the chicest of chic. Men and women alike would don their best sets to jetset high above the ground, in the clouds. Now, there’s no telling what kind of fashion you’ll see on any…
+                      - link [ref=e190] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/airport-travel-style-outfits/
+                        - text: View the Post
+                - listitem [ref=e193]:
+                  - generic [ref=e194]:
+                    - link [ref=e196] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/telluride-itinerary-what-to-know-know-for-your-next-winter-trip/
+                      - img [ref=e197]
+                    - generic [ref=e198]:
+                      - heading [level=3] [ref=e199]:
+                        - link [ref=e200] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/telluride-itinerary-what-to-know-know-for-your-next-winter-trip/
+                          - text: "Telluride Itinerary: What to Know Know for Your Next Winter Trip"
+                      - generic [ref=e201]: Telluride CO is one of mine and Will's favorite places to visit and we have been coming here for the past 5 years. Either during the summer or winter, you can't go wrong. As the town always says, you come…
+                      - link [ref=e203] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/telluride-itinerary-what-to-know-know-for-your-next-winter-trip/
+                        - text: View the Post
+                - listitem [ref=e206]:
+                  - generic [ref=e207]:
+                    - link [ref=e209] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/paris-summer-outfits-and-itinerary/
+                      - img [ref=e210]
+                    - generic [ref=e211]:
+                      - heading [level=3] [ref=e212]:
+                        - link [ref=e213] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/paris-summer-outfits-and-itinerary/
+                          - text: "Paris in Summer: The Chic Itinerary for Where to Stay, Eat, Shop & What to Wear"
+                      - generic [ref=e214]: If you’re planning a Paris getaway, this Paris Summer Outfits and Itinerary is the perfect mix of travel inspiration, chic style ideas, and must-visit spots. I think this was my fifth trip to Paris, although at this point, who’s really…
+                      - link [ref=e216] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/paris-summer-outfits-and-itinerary/
+                        - text: View the Post
+            - generic [ref=e217]:
+              - list [ref=e218]:
+                - listitem [ref=e219]:
+                  - 'link "1 Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [ref=e220] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e221]: "1"
+                    - generic [ref=e222]: "Best Travel Bags for Women 2026: 12 Editor-Tested Picks"
+                - listitem [ref=e223]:
+                  - link "2 My Favorite Airport Outfits & Travel Essentials for Jetsetters" [ref=e224] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e225]: "2"
+                    - generic [ref=e226]: My Favorite Airport Outfits & Travel Essentials for Jetsetters
+                - listitem [ref=e227]:
+                  - 'link "3 Telluride Itinerary: What to Know Know for Your Next Winter Trip" [ref=e228] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e229]: "3"
+                    - generic [ref=e230]: "Telluride Itinerary: What to Know Know for Your Next Winter Trip"
+                - listitem [ref=e231]:
+                  - 'link "4 Paris in Summer: The Chic Itinerary for Where to Stay, Eat, Shop & What to Wear" [ref=e232] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e233]: "4"
+                    - generic [ref=e234]: "Paris in Summer: The Chic Itinerary for Where to Stay, Eat, Shop & What to Wear"
+              - link "Read More in Travel" [ref=e236] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/travel/
+          - generic [ref=e237]:
+            - list [ref=e239]:
+              - generic [ref=e241]:
+                - listitem [ref=e244]:
+                  - generic [ref=e245]:
+                    - link "FEATURED IMAGE" [ref=e247] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/fall-capsule-wardrobe/
+                      - img "FEATURED IMAGE" [ref=e248]
+                    - generic [ref=e249]:
+                      - 'heading "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season" [level=3] [ref=e250]':
+                        - 'link "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season" [ref=e251] [cursor=pointer]':
+                          - /url: https://fashionjackson.com/fall-capsule-wardrobe/
+                      - generic [ref=e252]: As the season turns, your wardrobe should too. Welcome to the 2025 Fall Capsule Wardrobe Edit, your go-to guide for styling with ease, intention, and a touch of seasonal flair. In a world full of fleeting trends, a capsule approach gives…
+                      - link "View the Post" [ref=e254] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/fall-capsule-wardrobe/
+                - listitem [ref=e257]:
+                  - generic [ref=e258]:
+                    - link [ref=e260] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/how-to-style-a-black-blazer/
+                      - img [ref=e261]
+                    - generic [ref=e262]:
+                      - heading [level=3] [ref=e263]:
+                        - link [ref=e264] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/how-to-style-a-black-blazer/
+                          - text: 10 Ways to Style a Black Blazer
+                      - generic [ref=e265]: One of the most essential capsule wardrobe pieces is a black blazer. It’s why creating the perfect black blazer was at the very top of my list when we sat down to start designing MAYSON the label. While it’s fashionable…
+                      - link [ref=e267] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/how-to-style-a-black-blazer/
+                        - text: View the Post
+                - listitem [ref=e270]:
+                  - generic [ref=e271]:
+                    - link [ref=e273] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/my-favorite-jeans-in-my-closet/
+                      - img [ref=e274]
+                    - generic [ref=e275]:
+                      - heading [level=3] [ref=e276]:
+                        - link [ref=e277] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/my-favorite-jeans-in-my-closet/
+                          - text: "Denim Guide: My Favorite Jeans In My Closet"
+                      - generic [ref=e278]: Jeans are a way of life as far as I’m concerned. You can never have too many, especially when you consider how every single pair of jeans is made differently. Straight leg jeans, skinny jeans, ripped jeans, cropped jeans—there’s a…
+                      - link [ref=e280] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/my-favorite-jeans-in-my-closet/
+                        - text: View the Post
+                - listitem [ref=e283]:
+                  - generic [ref=e284]:
+                    - link [ref=e286] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/outfit-inspiration/
+                      - img [ref=e287]
+                    - generic [ref=e288]:
+                      - heading [level=3] [ref=e289]:
+                        - link [ref=e290] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/outfit-inspiration/
+                          - text: Copy These Outfits to Make Getting Dressed Easier
+                      - generic [ref=e291]: In need of instant outfit inspiration? In addition to following Amy’s LTK shop, this page will be consistently updated with what she’s wearing in an effort to provide you a constant stream of looks you can emulate or make your…
+                      - link [ref=e293] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/outfit-inspiration/
+                        - text: View the Post
+            - generic [ref=e294]:
+              - list [ref=e295]:
+                - listitem [ref=e296]:
+                  - 'link "1 Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season" [ref=e297] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e298]: "1"
+                    - generic [ref=e299]: "Your Ultimate Fall Capsule Wardrobe 2025: What to Wear This Season"
+                - listitem [ref=e300]:
+                  - link "2 10 Ways to Style a Black Blazer" [ref=e301] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e302]: "2"
+                    - generic [ref=e303]: 10 Ways to Style a Black Blazer
+                - listitem [ref=e304]:
+                  - 'link "3 Denim Guide: My Favorite Jeans In My Closet" [ref=e305] [cursor=pointer]':
+                    - /url: "#"
+                    - generic [ref=e306]: "3"
+                    - generic [ref=e307]: "Denim Guide: My Favorite Jeans In My Closet"
+                - listitem [ref=e308]:
+                  - link "4 Copy These Outfits to Make Getting Dressed Easier" [ref=e309] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e310]: "4"
+                    - generic [ref=e311]: Copy These Outfits to Make Getting Dressed Easier
+              - link "Read More in Outfit Guides" [ref=e313] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/outfits/
+          - generic [ref=e314]:
+            - list [ref=e316]:
+              - generic [ref=e318]:
+                - listitem [ref=e321]:
+                  - generic [ref=e322]:
+                    - link "featured image" [ref=e324] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/celine-handbag-reviews/
+                      - img "featured image" [ref=e325]
+                    - generic [ref=e326]:
+                      - heading "My Celine Handbag Collection & Mini Reviews" [level=3] [ref=e327]:
+                        - link "My Celine Handbag Collection & Mini Reviews" [ref=e328] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/celine-handbag-reviews/
+                      - generic [ref=e329]: Celine has by far been my favorite brand for handbags. I remember how excited I was when I bought my very first, the Celine Mini Belt Bag, back in late 2016. It immediately became my favorite bag and still to…
+                      - link "View the Post" [ref=e331] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/celine-handbag-reviews/
+                - listitem [ref=e334]:
+                  - generic [ref=e335]:
+                    - link [ref=e337] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/goyard-st-louis-gm-tote-review/
+                      - img [ref=e338]
+                    - generic [ref=e339]:
+                      - heading [level=3] [ref=e340]:
+                        - link [ref=e341] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/goyard-st-louis-gm-tote-review/
+                          - text: My Honest Review of the Goyard St Louis GM Tote
+                      - generic [ref=e342]: Over the past few years, I've acquired a vast selection of designer handbags. I wanted to find timeless & classic styles that would hold up over over the years, especially with all the wear they would go through. One of…
+                      - link [ref=e344] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/goyard-st-louis-gm-tote-review/
+                        - text: View the Post
+                - listitem [ref=e347]:
+                  - generic [ref=e348]:
+                    - link [ref=e350] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/best-perfumes-for-women/
+                      - img [ref=e351]
+                    - generic [ref=e352]:
+                      - heading [level=3] [ref=e353]:
+                        - link [ref=e354] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/best-perfumes-for-women/
+                          - text: 7 Luxurious Fragrances I Can’t Stop Wearing
+                      - generic [ref=e355]: Scent is such a personal and vital addition to your overall style and wardrobe. Yes, scent. How many times have you been out and about and someone walks by you, leaving a lingering scent that makes you want to run…
+                      - link [ref=e357] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/best-perfumes-for-women/
+                        - text: View the Post
+                - listitem [ref=e360]:
+                  - generic [ref=e361]:
+                    - link [ref=e363] [cursor=pointer]:
+                      - /url: https://fashionjackson.com/my-favorite-beauty-products/
+                      - img [ref=e364]
+                    - generic [ref=e365]:
+                      - heading [level=3] [ref=e366]:
+                        - link [ref=e367] [cursor=pointer]:
+                          - /url: https://fashionjackson.com/my-favorite-beauty-products/
+                          - text: My Favorite Beauty Products Right Now
+                      - generic [ref=e368]: While I'm always testing out new beauty products, I have my tried-and-true products that have been on my list for years. From makeup and skincare to haircare and splurge-worthy tools, this is my holy grail list of beauty products I…
+                      - link [ref=e370] [cursor=pointer]:
+                        - /url: https://fashionjackson.com/my-favorite-beauty-products/
+                        - text: View the Post
+            - generic [ref=e371]:
+              - list [ref=e372]:
+                - listitem [ref=e373]:
+                  - link "1 My Celine Handbag Collection & Mini Reviews" [ref=e374] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e375]: "1"
+                    - generic [ref=e376]: My Celine Handbag Collection & Mini Reviews
+                - listitem [ref=e377]:
+                  - link "2 My Honest Review of the Goyard St Louis GM Tote" [ref=e378] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e379]: "2"
+                    - generic [ref=e380]: My Honest Review of the Goyard St Louis GM Tote
+                - listitem [ref=e381]:
+                  - link "3 7 Luxurious Fragrances I Can’t Stop Wearing" [ref=e382] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e383]: "3"
+                    - generic [ref=e384]: 7 Luxurious Fragrances I Can’t Stop Wearing
+                - listitem [ref=e385]:
+                  - link "4 My Favorite Beauty Products Right Now" [ref=e386] [cursor=pointer]:
+                    - /url: "#"
+                    - generic [ref=e387]: "4"
+                    - generic [ref=e388]: My Favorite Beauty Products Right Now
+              - link "Read More in Reviews" [ref=e390] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/reviews/
+      - generic [ref=e391]:
+        - heading "shop" [level=2] [ref=e392]
+        - generic [ref=e393]:
+          - generic [ref=e394]:
+            - link [ref=e396] [cursor=pointer]:
+              - /url: https://rstyle.me/+1aij71N_aUvRxdt4epytng
+            - generic [ref=e397]:
+              - region "Shop the post" [ref=e400]:
+                - group "1 of 1" [ref=e403]:
+                  - link "Click for more info about 100% Cotton Oversized Crop Sweater":
+                    - /url: https://on.ltk.com/+1aij71N_aUvRxdt4epytng?__cid=1152
+                    - img "Click for more info about 100% Cotton Oversized Crop Sweater" [ref=e404] [cursor=pointer]
+              - generic [ref=e405]:
+                - paragraph [ref=e406]: You guys ask about this sweater all the time – it’s one of my favorites! And better yet, it’s under $80! Grab it while it’s in stock. (Wearing size XS).
+                - link "shop" [ref=e407] [cursor=pointer]:
+                  - /url: https://rstyle.me/+1aij71N_aUvRxdt4epytng
+          - generic [ref=e408]:
+            - heading "Recently on Instagram" [level=3] [ref=e409]
+            - generic [ref=e410]:
+              - generic [ref=e411]:
+                - link [ref=e413] [cursor=pointer]:
+                  - /url: https://rstyle.me/+hjx5RXalbaJl0NZylOk4WA
+                - list [ref=e414]:
+                  - listitem [ref=e415]:
+                    - link "stalk it" [ref=e416] [cursor=pointer]:
+                      - /url: https://liketk.it/65kED
+                    - text: 
+                  - listitem [ref=e417]:
+                    - link "shop it" [ref=e418] [cursor=pointer]:
+                      - /url: https://rstyle.me/+hjx5RXalbaJl0NZylOk4WA
+              - generic [ref=e419]:
+                - link [ref=e421] [cursor=pointer]:
+                  - /url: https://rstyle.me/+g19YPr5HeYVjsF9jTXC5gA
+                - list [ref=e422]:
+                  - listitem [ref=e423]:
+                    - link "stalk it" [ref=e424] [cursor=pointer]:
+                      - /url: https://liketk.it/642CZ
+                    - text: 
+                  - listitem [ref=e425]:
+                    - link "shop it" [ref=e426] [cursor=pointer]:
+                      - /url: https://rstyle.me/+g19YPr5HeYVjsF9jTXC5gA
+      - generic [ref=e427]:
+        - heading "the dailies" [level=2] [ref=e428]
+        - link " View all daily snapshots" [ref=e430] [cursor=pointer]:
+          - /url: https://fashionjackson.com/daily
+          - generic [ref=e431]: 
+          - text: View all daily snapshots
+        - generic [ref=e432]:
+          - button "" [ref=e433] [cursor=pointer]:
+            - generic [ref=e434]: 
+          - generic [ref=e436]:
+            - generic [ref=e439]:
+              - link [ref=e441] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-6/
+                - generic [ref=e442]: View the snap
+              - generic [ref=e443]: 09.05.25
+            - generic [ref=e446]:
+              - link [ref=e448] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-7/
+                - generic [ref=e449]: View the snap
+              - generic [ref=e450]: 08.28.25
+            - generic [ref=e453]:
+              - link [ref=e455] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-8/
+                - generic [ref=e456]: View the snap
+              - generic [ref=e457]: 08.26.25
+            - generic [ref=e460]:
+              - link [ref=e462] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-13/
+                - generic [ref=e463]: View the snap
+              - generic [ref=e464]: 08.14.25
+            - generic [ref=e467]:
+              - link "View the snap" [ref=e469] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-21/
+                - generic [ref=e470]: View the snap
+              - generic [ref=e471]: 10.23.25
+            - generic [ref=e474]:
+              - link "View the snap" [ref=e476] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-20/
+                - generic [ref=e477]: View the snap
+              - generic [ref=e478]: 10.22.25
+            - generic [ref=e481]:
+              - link "View the snap" [ref=e483] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-19/
+                - generic [ref=e484]: View the snap
+              - generic [ref=e485]: 10.16.25
+            - generic [ref=e488]:
+              - link "View the snap" [ref=e490] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-11/
+                - generic [ref=e491]: View the snap
+              - generic [ref=e492]: 10.14.25
+            - generic [ref=e495]:
+              - link [ref=e497] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-12/
+                - generic [ref=e498]: View the snap
+              - generic [ref=e499]: 10.02.25
+            - generic [ref=e502]:
+              - link [ref=e504] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-10/
+                - generic [ref=e505]: View the snap
+              - generic [ref=e506]: 09.29.25
+            - generic [ref=e509]:
+              - link [ref=e511] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-9/
+                - generic [ref=e512]: View the snap
+              - generic [ref=e513]: 09.21.25
+            - generic [ref=e516]:
+              - link [ref=e518] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-5/
+                - generic [ref=e519]: View the snap
+              - generic [ref=e520]: 09.11.25
+            - generic [ref=e523]:
+              - link [ref=e525] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-6/
+                - generic [ref=e526]: View the snap
+              - generic [ref=e527]: 09.05.25
+            - generic [ref=e530]:
+              - link [ref=e532] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-7/
+                - generic [ref=e533]: View the snap
+              - generic [ref=e534]: 08.28.25
+            - generic [ref=e537]:
+              - link [ref=e539] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-8/
+                - generic [ref=e540]: View the snap
+              - generic [ref=e541]: 08.26.25
+            - generic [ref=e544]:
+              - link [ref=e546] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-13/
+                - generic [ref=e547]: View the snap
+              - generic [ref=e548]: 08.14.25
+            - generic [ref=e551]:
+              - link [ref=e553] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-21/
+                - generic [ref=e554]: View the snap
+              - generic [ref=e555]: 10.23.25
+            - generic [ref=e558]:
+              - link [ref=e560] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-20/
+                - generic [ref=e561]: View the snap
+              - generic [ref=e562]: 10.22.25
+            - generic [ref=e565]:
+              - link [ref=e567] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-19/
+                - generic [ref=e568]: View the snap
+              - generic [ref=e569]: 10.16.25
+            - generic [ref=e572]:
+              - link [ref=e574] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-11/
+                - generic [ref=e575]: View the snap
+              - generic [ref=e576]: 10.14.25
+            - generic [ref=e579]:
+              - link [ref=e581] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-12/
+                - generic [ref=e582]: View the snap
+              - generic [ref=e583]: 10.02.25
+            - generic [ref=e586]:
+              - link [ref=e588] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-10/
+                - generic [ref=e589]: View the snap
+              - generic [ref=e590]: 09.29.25
+            - generic [ref=e593]:
+              - link [ref=e595] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-9/
+                - generic [ref=e596]: View the snap
+              - generic [ref=e597]: 09.21.25
+            - generic [ref=e600]:
+              - link [ref=e602] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-5/
+                - generic [ref=e603]: View the snap
+              - generic [ref=e604]: 09.11.25
+            - generic [ref=e607]:
+              - link [ref=e609] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-6/
+                - generic [ref=e610]: View the snap
+              - generic [ref=e611]: 09.05.25
+            - generic [ref=e614]:
+              - link [ref=e616] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-7/
+                - generic [ref=e617]: View the snap
+              - generic [ref=e618]: 08.28.25
+            - generic [ref=e621]:
+              - link [ref=e623] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-8/
+                - generic [ref=e624]: View the snap
+              - generic [ref=e625]: 08.26.25
+            - generic [ref=e628]:
+              - link [ref=e630] [cursor=pointer]:
+                - /url: https://fashionjackson.com/daily/daily-look-13/
+                - generic [ref=e631]: View the snap
+              - generic [ref=e632]: 08.14.25
+          - button "" [ref=e633] [cursor=pointer]:
+            - generic [ref=e634]: 
+      - generic [ref=e635]:
+        - generic [ref=e636]:
+          - heading "recent posts:" [level=2] [ref=e637]
+          - list [ref=e639]:
+            - listitem [ref=e640]:
+              - link "browse more in:" [ref=e641] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e642]:
+              - link "AMAZON" [ref=e643] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/amazon/
+            - listitem [ref=e644]:
+              - link "REVIEWS" [ref=e645] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/reviews/
+            - listitem [ref=e646]:
+              - link "BEAUTY" [ref=e647] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/beauty/
+            - listitem [ref=e648]:
+              - link "TRAVEL" [ref=e649] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/travel/
+        - generic [ref=e650]:
+          - article [ref=e651]:
+            - link "Best summer sandals 2026 editor picks featured image View the post" [ref=e653] [cursor=pointer]:
+              - /url: https://fashionjackson.com/best-summer-sandals-2026/
+              - img "Best summer sandals 2026 editor picks featured image" [ref=e654]
+              - generic [ref=e655]: View the post
+            - generic [ref=e656]:
+              - link "OUTFITS" [ref=e658] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/outfits/
+              - 'heading "The Best Summer Sandals of 2026: Designer, Mid-Range & Amazon Picks I Actually Wear" [level=2] [ref=e659]':
+                - 'link "The Best Summer Sandals of 2026: Designer, Mid-Range & Amazon Picks I Actually Wear" [ref=e660] [cursor=pointer]':
+                  - /url: https://fashionjackson.com/best-summer-sandals-2026/
+          - article [ref=e661]:
+            - link "featured image View the post" [ref=e663] [cursor=pointer]:
+              - /url: https://fashionjackson.com/memorial-day-sales-round-up/
+              - img "featured image" [ref=e664]
+              - generic [ref=e665]: View the post
+            - generic [ref=e666]:
+              - link "LIFESTYLE" [ref=e668] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/lifestyle/
+              - heading "The Memorial Day Weekend Sales You Don’t Want to Miss" [level=2] [ref=e669]:
+                - link "The Memorial Day Weekend Sales You Don’t Want to Miss" [ref=e670] [cursor=pointer]:
+                  - /url: https://fashionjackson.com/memorial-day-sales-round-up/
+          - article [ref=e671]:
+            - link "Travel Bag Featured Image View the post" [ref=e673] [cursor=pointer]:
+              - /url: https://fashionjackson.com/best-travel-bags/
+              - img "Travel Bag Featured Image" [ref=e674]
+              - generic [ref=e675]: View the post
+            - generic [ref=e676]:
+              - link "TRAVEL" [ref=e678] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/travel/
+              - 'heading "Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [level=2] [ref=e679]':
+                - 'link "Best Travel Bags for Women 2026: 12 Editor-Tested Picks" [ref=e680] [cursor=pointer]':
+                  - /url: https://fashionjackson.com/best-travel-bags/
+          - article [ref=e681]:
+            - link "Featured Image View the post" [ref=e683] [cursor=pointer]:
+              - /url: https://fashionjackson.com/best-perfumes-for-women/
+              - img "Featured Image" [ref=e684]
+              - generic [ref=e685]: View the post
+            - generic [ref=e686]:
+              - link "BEAUTY" [ref=e688] [cursor=pointer]:
+                - /url: https://fashionjackson.com/category/beauty/
+              - heading "7 Luxurious Fragrances I Can’t Stop Wearing" [level=2] [ref=e689]:
+                - link "7 Luxurious Fragrances I Can’t Stop Wearing" [ref=e690] [cursor=pointer]:
+                  - /url: https://fashionjackson.com/best-perfumes-for-women/
+      - link "Load More" [ref=e692] [cursor=pointer]:
+        - /url: https://fashionjackson.com/page/2/
+      - generic [ref=e694]:
+        - generic [ref=e695]:
+          - heading "Subscribe" [level=3] [ref=e696]
+          - paragraph [ref=e698]: Sign up to receive newsletters with post recaps, sale alerts, and exclusive content just for subscribers!
+        - iframe [ref=e700]:
+          - generic [ref=f1e2]:
+            - iframe
+            - generic [ref=f1e4]:
+              - generic [ref=f1e5]:
+                - link:
+                  - /url: https://thefashionjackson.substack.com/
+                - generic [ref=f1e10]:
+                  - textbox "Type your email..." [ref=f1e13]
+                  - button "Subscribe" [disabled] [ref=f1e14]
+                - generic [ref=f1e16]:
+                  - text: By subscribing you agree to
+                  - link "Substack's Terms of Use" [ref=f1e17] [cursor=pointer]:
+                    - /url: https://thefashionjackson.substack.com/tos?utm_source=embed_publication
+                  - text: ","
+                  - link "our Privacy Policy" [ref=f1e18] [cursor=pointer]:
+                    - /url: https://thefashionjackson.substack.com/privacy?utm_source=embed_publication
+                  - text: and
+                  - link "our Information collection notice" [ref=f1e19] [cursor=pointer]:
+                    - /url: https://substack.com/ccpa?utm_source=embed_publication#personal-data-collected
+              - link "Substack":
+                - /url: https://substack.com/?utm_source=embed&utm_content=thefashionjackson
+                - img "Substack" [ref=f1e20] [cursor=pointer]
+            - region "Notifications (F8)":
+              - list
+      - generic [ref=e701]:
+        - heading "loving lately" [level=2] [ref=e702]
+        - generic [ref=e703]:
+          - paragraph [ref=e707]:
+            - text: Always and forever will be a white tee shirt girl. I have about a weeks supply of
+            - link "this one" [ref=e708] [cursor=pointer]:
+              - /url: https://on.ltk.com/+Ge6mhB7fXiJ87VD7UwipWQ
+            - text: ", but also found"
+            - link "this one" [ref=e709] [cursor=pointer]:
+              - /url: https://on.ltk.com/+cweubarsQAvDows5OYW2QA
+            - text: recently and love the slightly more relaxed fit. Shop the whole look
+            - link "here" [ref=e710] [cursor=pointer]:
+              - /url: https://liketk.it/6fTtJ
+            - text: .
+          - generic [ref=e711]:
+            - generic [ref=e712]:
+              - link "Shop" [ref=e714] [cursor=pointer]:
+                - /url: https://rstyle.me/+tsEtPuhfPODlzTAkVzgl3g
+                - generic [ref=e716]: Shop
+              - heading "Oxford Shirt" [level=3] [ref=e717]
+              - paragraph [ref=e719]: I just got this shirt the other day and it’s an instant favorite. I got my true size small.
+            - generic [ref=e720]:
+              - link "Shop" [ref=e722] [cursor=pointer]:
+                - /url: https://rstyle.me/+fwfevNIeIPV6P2q00Zz0Ig
+                - generic [ref=e724]: Shop
+              - heading "Leather Bucket Bag" [level=3] [ref=e725]
+              - paragraph [ref=e727]: 100% real leather and the absolute perfect alt for that iconic designer. Color ‘grey’.
+            - generic [ref=e728]:
+              - link "Shop" [ref=e730] [cursor=pointer]:
+                - /url: https://rstyle.me/+thA0up1PJH1gBiJI3aUUeg
+                - generic [ref=e732]: Shop
+              - heading "Suede Sandals" [level=3] [ref=e733]
+              - paragraph [ref=e735]: Real suede for under $100 and I love the pop of red for any outfit this spring.
+            - generic [ref=e736]:
+              - link "Shop" [ref=e738] [cursor=pointer]:
+                - /url: https://rstyle.me/+1aij71N_aUvRxdt4epytng
+                - generic [ref=e740]: Shop
+              - heading "Cotton Sweater" [level=3] [ref=e741]
+              - paragraph [ref=e743]: This is worth repeating – don’t miss this while it’s in stock! I wear size xsmall.
+      - generic [ref=e744]:
+        - generic [ref=e745]:
+          - link [ref=e747] [cursor=pointer]:
+            - /url: https://rstyle.me/+8OErChEYFM_9w6oeGCkavw
+          - generic [ref=e748]:
+            - generic [ref=e749]: "So, real quick:"
+            - heading "U Beauty Discount Code" [level=2] [ref=e750]
+            - paragraph [ref=e752]: I’ve been LOVING this line since I started using it last fall and now I have an exclusive discount code to share with you! Use code FASHIONJACKSON at checkout for 20% off your first purchase.
+            - link "SHOP U Beauty" [ref=e754] [cursor=pointer]:
+              - /url: https://rstyle.me/+8OErChEYFM_9w6oeGCkavw
+        - link [ref=e756] [cursor=pointer]:
+          - /url: https://instagram.com/fashion_jackson
+    - generic [ref=e757]:
+      - generic [ref=e758]:
+        - paragraph [ref=e759]:
+          - link [ref=e760] [cursor=pointer]:
+            - /url: https://www.shopltk.com/explore/fashion_jackson
+        - paragraph:
+          - link " Liketoknow.it" [ref=e761] [cursor=pointer]:
+            - /url: https://www.shopltk.com/explore/fashion_jackson
+      - generic [ref=e762]:
+        - heading "elsewhere:" [level=2] [ref=e763]
+        - paragraph [ref=e764]:
+          - link [ref=e765] [cursor=pointer]:
+            - /url: https://www.instagram.com/fashion_jackson
+        - paragraph:
+          - link " Instagram" [ref=e766] [cursor=pointer]:
+            - /url: https://www.instagram.com/fashion_jackson
+      - generic [ref=e767]:
+        - paragraph [ref=e768]:
+          - link [ref=e769] [cursor=pointer]:
+            - /url: https://www.pinterest.com/fashion_jackson/
+        - paragraph:
+          - link "@fashion_jackson" [ref=e770] [cursor=pointer]:
+            - /url: https://www.instagram.com/fashion_jackson
+        - paragraph:
+          - link " Pinterest" [ref=e771] [cursor=pointer]:
+            - /url: https://www.pinterest.com/fashion_jackson/
+      - generic [ref=e772]:
+        - paragraph [ref=e773]:
+          - link [ref=e774] [cursor=pointer]:
+            - /url: https://fashionjackson.com/category/outfits/
+        - paragraph:
+          - link " More Outfits" [ref=e775] [cursor=pointer]:
+            - /url: https://fashionjackson.com/category/outfits/
+    - contentinfo [ref=e776]:
+      - generic [ref=e777]:
+        - link [ref=e780] [cursor=pointer]:
+          - /url: https://fashionjackson.com/
+        - generic [ref=e782]:
+          - generic [ref=e783]:
+            - generic [ref=e784]:
+              - heading "Blog" [level=2] [ref=e785]
+              - list [ref=e787]:
+                - listitem [ref=e788]:
+                  - link "About" [ref=e789] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/about/
+                - listitem [ref=e790]:
+                  - link "Contact" [ref=e791] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/contact/
+                - listitem [ref=e792]:
+                  - link "Subscribe" [ref=e793] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e794]:
+                  - link "Partner" [ref=e795] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/partner/
+            - generic [ref=e796]:
+              - heading "Shop" [level=2] [ref=e797]
+              - list [ref=e799]:
+                - listitem [ref=e800]:
+                  - link "Recent Outfits" [ref=e801] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/daily
+                - listitem [ref=e802]:
+                  - link "By Instagram" [ref=e803] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/like-to-know-it/
+                - listitem [ref=e804]:
+                  - link "Amy’s Picks" [ref=e805] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/shop/
+                - listitem [ref=e806]:
+                  - link "LikeToKnow.It" [ref=e807] [cursor=pointer]:
+                    - /url: http://www.liketoknow.it/fashion_jackson
+            - generic [ref=e808]:
+              - heading "Browse" [level=2] [ref=e809]
+              - list [ref=e811]:
+                - listitem [ref=e812]:
+                  - link "Style" [ref=e813] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/category/outfits/
+                - listitem [ref=e814]:
+                  - link "BEAUTY" [ref=e815] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/category/beauty/
+                - listitem [ref=e816]:
+                  - link "TRAVEL" [ref=e817] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/category/travel/
+                - listitem [ref=e818]:
+                  - link "LIFESTYLE" [ref=e819] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/category/lifestyle/
+            - generic [ref=e820]:
+              - heading "Connect" [level=2] [ref=e821]
+              - list [ref=e823]:
+                - listitem [ref=e824]:
+                  - link "Instagram" [ref=e825] [cursor=pointer]:
+                    - /url: https://www.instagram.com/fashion_jackson
+                - listitem [ref=e826]:
+                  - link "LIKEtoKNOW.it" [ref=e827] [cursor=pointer]:
+                    - /url: https://www.liketoknow.it/fashion_jackson
+                - listitem [ref=e828]:
+                  - link "Pinterest" [ref=e829] [cursor=pointer]:
+                    - /url: https://www.pinterest.com/fashion_jackson/
+                - listitem [ref=e830]:
+                  - link "Facebook" [ref=e831] [cursor=pointer]:
+                    - /url: https://www.facebook.com/FashionJackson/
+            - generic [ref=e832]:
+              - heading "Subscribe" [level=2] [ref=e833]
+              - list [ref=e835]:
+                - listitem [ref=e836]:
+                  - link "Newsletter" [ref=e837] [cursor=pointer]:
+                    - /url: "#"
+                - listitem [ref=e838]:
+                  - link "RSS Feed" [ref=e839] [cursor=pointer]:
+                    - /url: https://fashionjackson.com/feed
+                - listitem [ref=e840]:
+                  - link "Bloglovin’" [ref=e841] [cursor=pointer]:
+                    - /url: https://www.bloglovin.com/blogs/fashion-jackson-blog-8036013
+                - listitem [ref=e842]:
+                  - link "Feedly" [ref=e843] [cursor=pointer]:
+                    - /url: https://feedly.com/i/subscription/feed%2Fhttp%3A%2F%2Ffashionjackson.com%2Ffeed%2F
+          - generic [ref=e844] [cursor=pointer]: Back to Top ^
+      - generic [ref=e846]:
+        - list [ref=e847]:
+          - listitem [ref=e848]:
+            - link "Terms of Use" [ref=e849] [cursor=pointer]:
+              - /url: https://fashionjackson.com/terms-of-use
+          - listitem [ref=e850]:
+            - link "Privacy Policy" [ref=e851] [cursor=pointer]:
+              - /url: https://fashionjackson.com/privacy-policy
+          - listitem [ref=e852]: © 2026 All Rights Reserved
+        - list [ref=e853]:
+          - listitem [ref=e854]:
+            - link "Site by VMS" [ref=e855] [cursor=pointer]:
+              - /url: https://victoriamcginley.com/
+          - listitem [ref=e856]:
+            - link "and Elembee" [ref=e857] [cursor=pointer]:
+              - /url: https://elembee.com/
+  - generic [ref=e858]:
+    - link "X Close" [ref=e860] [cursor=pointer]:
+      - /url: "#"
+    - generic [ref=e861]:
+      - link "" [ref=e862] [cursor=pointer]:
+        - /url: "#"
+      - link [ref=e864] [cursor=pointer]:
+        - /url: https://fashionjackson.com/
+    - generic [ref=e865]:
+      - list [ref=e868]:
+        - listitem [ref=e869]:
+          - link "Product Reviews" [ref=e870] [cursor=pointer]:
+            - /url: https://fashionjackson.com/category/reviews/
+        - listitem [ref=e871]:
+          - link "Shopbop Favorites" [ref=e872] [cursor=pointer]:
+            - /url: https://click.linksynergy.com/deeplink?id=jlQeMrueTKQ&mid=42352&murl=https%3A%2F%2Fwww.shopbop.com%2Fhearts%2Ffashion_jackson%2F9fb5aa3d-1c27-4d9d-8b4f-332b70fea7b7%3Fextid%3Daffprg_linkshare_SB-jlQeMrueTKQ%26cvosrc%3Daffiliate.linkshare.jlQeMrueTKQ%26affuid%3D%26sharedid%3D42352%26subid1%3DjlQeMrueTKQ-l8SUiFQvqU01.7_JdQXiPg%26offset%3D100
+        - listitem [ref=e873]:
+          - link "Amazon Shop" [ref=e874] [cursor=pointer]:
+            - /url: http://fashionjackson.com/category/amazon
+        - listitem [ref=e875]:
+          - link "Shop Instagram" [ref=e876] [cursor=pointer]:
+            - /url: http://liketoknow.it/fashion_jackson
+        - listitem [ref=e877]:
+          - link "" [ref=e878] [cursor=pointer]:
+            - /url: "#%20Search"
+            - generic [ref=e879]: 
+      - list [ref=e882]:
+        - listitem [ref=e883]:
+          - link "" [ref=e884] [cursor=pointer]:
+            - /url: https://www.instagram.com/fashion_jackson
+            - generic [ref=e885]: 
+        - listitem [ref=e886]:
+          - link "" [ref=e887] [cursor=pointer]:
+            - /url: https://www.pinterest.com/fashion_jackson/
+            - generic [ref=e888]: 
+        - listitem [ref=e889]:
+          - link "" [ref=e890] [cursor=pointer]:
+            - /url: http://www.liketoknow.it/fashion_jackson
+            - generic [ref=e891]: 
+        - listitem [ref=e892]:
+          - link "" [ref=e893] [cursor=pointer]:
+            - /url: https://www.facebook.com/FashionJackson/
+            - generic [ref=e894]: 
+      - list [ref=e897]:
+        - listitem [ref=e898]:
+          - link "LTK" [ref=e899] [cursor=pointer]:
+            - /url: https://fashionjackson.com/like-to-know-it/
+        - listitem [ref=e900]:
+          - link "Contact Amy" [ref=e901] [cursor=pointer]:
+            - /url: https://fashionjackson.com/contact/
+        - listitem [ref=e902]:
+          - link "Subscribe to Newsletter" [ref=e903] [cursor=pointer]:
+            - /url: "#"
+        - listitem [ref=e904]:
+          - link "About" [ref=e905] [cursor=pointer]:
+            - /url: https://fashionjackson.com/about/
+        - listitem [ref=e906]:
+          - link " Search" [ref=e907] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e908]: 
+            - generic [ref=e909]: Search
+  - text: 

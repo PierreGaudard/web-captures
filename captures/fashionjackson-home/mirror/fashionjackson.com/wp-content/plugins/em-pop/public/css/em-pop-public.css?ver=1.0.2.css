@@ -1,0 +1,266 @@
+/**
+ * Public-specific CSS.
+ */
+
+#em-popup-wrapper {
+	display: none;
+	position: fixed;
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#em-popup {
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 90%;
+	max-width: 450px;
+	text-align: center;
+	-webkit-animation: fadein 0.5s;
+	animation: fadein 0.5s;
+}
+
+#em-popup.has-image {
+	max-width: 700px;
+}
+
+#em-popup-overlay {
+	position: absolute;
+	z-index: 1;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-animation: fadein 0.5s;
+	animation: fadein 0.5s;
+}
+
+#em-popup-close {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	margin: 5px;
+	background: url(../images/close.svg) center no-repeat;
+	background-size: contain;
+	cursor: pointer;
+}
+
+#em-popup-container {
+	padding: 30px;
+	background: #000;
+	color: #fff;
+}
+
+#em-popup.has-image #em-popup-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.em-pop-image {
+	width: 48%;
+}
+
+.em-pop-image img {
+	max-width: 100%;
+	height: auto;
+}
+
+#em-popup.has-image #em-popup-inner {
+	width: 48%;
+	text-align: left;
+}
+
+.em-pop-title {
+	margin-bottom: 20px;
+}
+
+.em-pop-description {
+	margin-bottom: 20px;
+}
+
+.em-popup-form-code label {
+	display: block;
+	margin-bottom: 5px;
+	text-align: left;
+}
+
+.em-popup-form-code input:not([type="submit"]) {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.em-popup-form-code input[type="submit"],
+.em-popup-form-code button {
+	width: 100%;
+	padding: 15px;
+	border: none;
+}
+
+.em-popup-form-code ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.em-popup-form-code ul li {
+	display: inline-block;
+	margin-right: 15px;
+}
+
+.em-popup-form-code ul li:last-of-type {
+	margin-right: 0;
+}
+
+.em-popup-form-code ul li label {
+	display: inline-block;
+}
+
+.em-popup-form-code input[type="checkbox"],
+.em-popup-form-code input[type="radio"] {
+	display: inline-block;
+	width: auto;
+	margin-right: 5px;
+}
+
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@-ms-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 767px) {
+	
+	#em-popup.has-image {
+		max-width: 450px;
+	}
+
+	#em-popup.has-image #em-popup-container {
+		display: block;
+	}
+
+	.em-pop-image {
+		display: none;
+	}
+
+	#em-popup.has-image #em-popup-inner {
+		width: 100%;
+	}
+
+}
+
+/*--------------------------------------------------------------
+### Flodesk
+--------------------------------------------------------------*/
+
+.em-popup-form-code .fd-form-group {
+	margin-bottom: 10px;
+}
+
+.em-popup-form-code .fd-form-control {
+	text-align: center;
+}
+
+.em-popup-form-code .fd-form-group label {
+	display: none;
+}
+
+.em-popup-form-code .fd-btn {
+	width: 100%;
+}
+
+.em-popup-form-code .fd-form-success {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+### ConvertKit
+--------------------------------------------------------------*/
+
+.em-popup-form-code > form > div {
+	padding: 0 !important;
+}
+
+.em-popup-form-code .formkit-input {
+	border: none !important;
+	border-radius: 0 !important;
+	box-sizing: border-box !important;
+	font-family: inherit;
+	font-size: inherit;
+	padding: 10px !important;
+}
+
+.em-popup-form-code .formkit-submit {
+	border: none !important;
+	border-radius: 0 !important;
+	box-sizing: border-box !important;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	text-transform: uppercase;
+	letter-spacing: inherit;
+	padding: 15px !important;
+}
+
+.em-popup-form-code .formkit-submit > span {
+	transition: none !important;
+}
+
+.em-popup-form-code .formkit-submit span {
+	background: none !important;
+	padding: 0 !important;
+}
+
+/*--------------------------------------------------------------
+### Mailchimp
+--------------------------------------------------------------*/
+
+.em-popup-form-code #mc_embed_signup .indicates-required {
+	display: none;
+}
+
+.em-popup-form-code .mc-field-group {
+	margin-bottom: 10px;
+}
+
+.em-popup-form-code #mc-embedded-subscribe {
+	width: 100%;
+}
+
+.em-popup-form-code .brandingLogo {
+	margin-top: 20px;
+	margin-bottom: 0;
+}

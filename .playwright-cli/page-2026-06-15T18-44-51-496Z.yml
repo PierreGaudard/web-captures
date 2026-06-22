@@ -1,0 +1,893 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - img "image:" [ref=e31]
+        - generic:
+          - 'img "AMV: AMV: premier plan"'
+        - generic [ref=e32]:
+          - generic [ref=e33]:
+            - heading "Bienvenue chez le leader de l'assurance quad/SSV" [level=1] [ref=e34]:
+              - text: Bienvenue chez le leader
+              - text: de l'assurance
+              - text: quad/SSV
+            - generic [ref=e35]:
+              - generic [ref=e36]:
+                - img [ref=e37]
+                - generic [ref=e38]: Tarif sans engagement
+              - generic [ref=e39]:
+                - img [ref=e40]
+                - generic [ref=e41]: Assurance immédiate 24h/24
+          - link "Testez nos tarifs en quelques clics" [ref=e44] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - img [ref=e49]
+          - heading "Leader de l’assurance moto et scooter" [level=3] [ref=e62]:
+            - text: Leader de l’assurance
+            - text: moto et scooter
+          - paragraph [ref=e63]: Recommandé par les assurés et les professionnels.
+        - generic [ref=e64]:
+          - img [ref=e65]
+          - heading "50 ans d’expérience Plus d’1 million d’assurés" [level=3] [ref=e72]:
+            - text: 50 ans d’expérience
+            - text: Plus d’1 million d’assurés
+          - paragraph [ref=e73]:
+            - text: "Notre engagement depuis 1974 :"
+            - text: assurer vos passions.
+        - generic [ref=e74]:
+          - img [ref=e75]
+          - heading "L'alliance réussie d'un service client humain et du digital" [level=3] [ref=e85]:
+            - text: L'alliance réussie d'un service
+            - text: client humain et du digital
+          - paragraph [ref=e86]:
+            - text: Plus de 300 conseillers basés
+            - text: à Bordeaux à votre écoute et
+            - text: une gestion autonome de votre
+            - text: contrat dans Mon Espace AMV.
+        - generic [ref=e87]:
+          - img [ref=e88]
+          - heading "Plus de 9 assurés sur 10 recommandent AMV" [level=3] [ref=e104]:
+            - text: Plus de 9 assurés sur 10
+            - text: recommandent AMV
+          - paragraph [ref=e105]: Nous améliorons sans cesse votre expérience client. Soyez le prochain assuré heureux !
+      - generic [ref=e107]:
+        - generic [ref=e108]:
+          - generic [ref=e109]: Notre offre d'assurance quad/SSV
+          - 'heading "Assurance quad/SSV : des formules adaptées à votre quad/SSV et à vos besoins Notre offre d''assurance quad/SSV inclut dès sa première formule les garanties indispensables pour prendre la route sereinement." [level=2] [ref=e110]':
+            - text: "Assurance quad/SSV : des formules adaptées"
+            - text: à votre quad/SSV et à vos besoins
+            - paragraph [ref=e111]: Notre offre d'assurance quad/SSV inclut dès sa première formule les garanties indispensables pour prendre la route sereinement.
+        - group "exemples de formules" [ref=e113]:
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - generic [ref=e117]:
+                - link "Testez nos tarifs quad Responsabilité civile" [ref=e118] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                  - generic [ref=e119]: Formule 1
+                  - generic [ref=e120]: Responsabilité civile
+                - link "Testez nos tarifs quad Responsabilité civile" [ref=e121] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                  - generic [ref=e123]:
+                    - img [ref=e124]
+                    - generic [ref=e125]: Responsabilité civile
+                  - generic [ref=e127]:
+                    - img [ref=e128]
+                    - generic [ref=e129]: Assistance juridique
+                  - generic [ref=e131]:
+                    - img [ref=e132]
+                    - generic [ref=e133]: Casque
+                  - generic [ref=e135]:
+                    - img [ref=e136]
+                    - generic [ref=e137]: Gants
+                  - generic [ref=e139]:
+                    - img [ref=e140]
+                    - generic [ref=e141]: Gilet airbag
+                  - generic [ref=e143]:
+                    - img [ref=e144]
+                    - generic [ref=e145]: Vol
+                  - generic [ref=e147]:
+                    - img [ref=e148]
+                    - generic [ref=e149]: Incendie
+                  - generic [ref=e151]:
+                    - img [ref=e152]
+                    - generic [ref=e153]: Dommages collision avec tiers identifié
+                  - generic [ref=e155]:
+                    - img [ref=e156]
+                    - generic [ref=e157]: Dommages tous accidents
+                - link "Testez nos tarifs" [ref=e160] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+            - listitem [ref=e161]:
+              - generic [ref=e162]:
+                - link "Testez nos tarifs quad Vol/incendie" [ref=e163] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                  - generic [ref=e164]: Formule 2
+                  - generic [ref=e165]: Vol / Incendie
+                - link "Testez nos tarifs quad Vol/incendie" [ref=e166] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                  - generic [ref=e168]:
+                    - img [ref=e169]
+                    - generic [ref=e170]: Responsabilité civile
+                  - generic [ref=e172]:
+                    - img [ref=e173]
+                    - generic [ref=e174]: Assistance juridique
+                  - generic [ref=e176]:
+                    - img [ref=e177]
+                    - generic [ref=e178]: Casque
+                  - generic [ref=e180]:
+                    - img [ref=e181]
+                    - generic [ref=e182]: Gants
+                  - generic [ref=e184]:
+                    - img [ref=e185]
+                    - generic [ref=e186]: Gilet airbag
+                  - generic [ref=e188]:
+                    - img [ref=e189]
+                    - generic [ref=e190]: Vol
+                  - generic [ref=e192]:
+                    - img [ref=e193]
+                    - generic [ref=e194]: Incendie
+                  - generic [ref=e196]:
+                    - img [ref=e197]
+                    - generic [ref=e198]: Dommages collision avec tiers identifié
+                  - generic [ref=e200]:
+                    - img [ref=e201]
+                    - generic [ref=e202]: Dommages tous accidents
+                - link "Testez nos tarifs" [ref=e205] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+            - listitem [ref=e206]:
+              - generic [ref=e207]:
+                - link "Testez nos tarifs quad Dommages collision" [ref=e208] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                  - generic [ref=e209]: Formule 3
+                  - generic [ref=e210]: Dommages collision
+                - link "Testez nos tarifs quad Dommages collision" [ref=e211] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                  - generic [ref=e213]:
+                    - img [ref=e214]
+                    - generic [ref=e215]: Responsabilité civile
+                  - generic [ref=e217]:
+                    - img [ref=e218]
+                    - generic [ref=e219]: Assistance juridique
+                  - generic [ref=e221]:
+                    - img [ref=e222]
+                    - generic [ref=e223]: Casque
+                  - generic [ref=e225]:
+                    - img [ref=e226]
+                    - generic [ref=e227]: Gants
+                  - generic [ref=e229]:
+                    - img [ref=e230]
+                    - generic [ref=e231]: Gilet airbag
+                  - generic [ref=e233]:
+                    - img [ref=e234]
+                    - generic [ref=e235]: Vol
+                  - generic [ref=e237]:
+                    - img [ref=e238]
+                    - generic [ref=e239]: Incendie
+                  - generic [ref=e241]:
+                    - img [ref=e242]
+                    - generic [ref=e243]: Dommages collision avec tiers identifié
+                  - generic [ref=e245]:
+                    - img [ref=e246]
+                    - generic [ref=e247]: Dommages tous accidents
+                - link "Testez nos tarifs" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+            - listitem [ref=e251]:
+              - generic [ref=e252]:
+                - link "Testez nos tarifs quad Tous risques" [ref=e253] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                  - generic [ref=e254]: Formule 4
+                  - generic [ref=e255]: Tous risques
+                - link "Testez nos tarifs quad Tous risques" [ref=e256] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+                  - generic [ref=e258]:
+                    - img [ref=e259]
+                    - generic [ref=e260]: Responsabilité civile
+                  - generic [ref=e262]:
+                    - img [ref=e263]
+                    - generic [ref=e264]: Assistance juridique
+                  - generic [ref=e266]:
+                    - img [ref=e267]
+                    - generic [ref=e268]: Casque
+                  - generic [ref=e270]:
+                    - img [ref=e271]
+                    - generic [ref=e272]: Gants
+                  - generic [ref=e274]:
+                    - img [ref=e275]
+                    - generic [ref=e276]: Gilet airbag
+                  - generic [ref=e278]:
+                    - img [ref=e279]
+                    - generic [ref=e280]: Vol
+                  - generic [ref=e282]:
+                    - img [ref=e283]
+                    - generic [ref=e284]: Incendie
+                  - generic [ref=e286]:
+                    - img [ref=e287]
+                    - generic [ref=e288]: Dommages collision avec tiers identifié
+                  - generic [ref=e290]:
+                    - img [ref=e291]
+                    - generic [ref=e292]: Dommages tous accidents
+                - link "Testez nos tarifs" [ref=e295] [cursor=pointer]:
+                  - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+        - link "Voir le détail des formules" [ref=e298] [cursor=pointer]:
+          - /url: "#detailFormules"
+          - img [ref=e300]
+          - text: Voir le détail des formules
+      - generic [ref=e302]:
+        - generic [ref=e303]:
+          - generic [ref=e304]: Nos garanties complémentaires
+          - heading "Des options à la carte Vous êtes libre d’ajouter une ou des option(s) que vous jugerez nécessaire(s)" [level=2] [ref=e305]:
+            - text: Des options à la carte
+            - paragraph [ref=e306]: Vous êtes libre d’ajouter une ou des option(s) que vous jugerez nécessaire(s)
+        - group "exemples de formules" [ref=e308]:
+          - list [ref=e310]:
+            - listitem [ref=e311]:
+              - generic [ref=e312]:
+                - generic [ref=e313]:
+                  - generic [ref=e314]: Option
+                  - generic [ref=e315]: Individuelle pilote
+                - generic [ref=e318]:
+                  - img [ref=e319]
+                  - generic [ref=e320]: Capital en cas de décès ou invalidité
+            - listitem [ref=e321]:
+              - generic [ref=e322]:
+                - generic [ref=e323]:
+                  - generic [ref=e324]: Option
+                  - generic [ref=e325]: Assistance 0 km
+                - generic [ref=e326]:
+                  - generic [ref=e328]:
+                    - img [ref=e329]
+                    - generic [ref=e330]: En cas de panne, accident, vol ou tentative de vol
+                  - generic [ref=e332]:
+                    - img [ref=e333]
+                    - generic [ref=e334]: Crevaison, perte de clés, fourrière
+            - listitem [ref=e335]:
+              - generic [ref=e336]:
+                - generic [ref=e337]:
+                  - generic [ref=e338]: Option
+                  - generic [ref=e339]: Option plus
+                - generic [ref=e340]:
+                  - generic [ref=e342]:
+                    - img [ref=e343]
+                    - generic [ref=e344]: Remboursement des accessoires hors-série et équipement vestimentaire moto
+                  - generic [ref=e346]:
+                    - img [ref=e347]
+                    - generic [ref=e348]: Extension valeur à neuf 18 mois
+        - link "Voir le détail des options" [ref=e351] [cursor=pointer]:
+          - /url: "#detailFormules"
+          - img [ref=e353]
+          - text: Voir le détail des options
+        - link "Testez nos tarifs en quelques clics" [ref=e356] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+      - generic [ref=e358]:
+        - generic [ref=e359]:
+          - generic [ref=e360]: Assurance quad/SSV
+          - heading "Un contrat spécial quad/SSV pensé pour vous" [level=2] [ref=e361]
+        - list [ref=e362]:
+          - listitem [ref=e363]:
+            - generic [ref=e364]:
+              - img [ref=e365]
+              - generic [ref=e366]: Casque + Gants + Gilet airbag couverts dès la formule 1
+          - listitem [ref=e367]:
+            - generic [ref=e368]:
+              - img [ref=e369]
+              - generic [ref=e370]: Reprise du meilleur bonus auto, moto
+          - listitem [ref=e371]:
+            - generic [ref=e372]:
+              - img [ref=e373]
+              - generic [ref=e374]: "Hivernage : modulation de vos garanties selon votre usage"
+          - listitem [ref=e375]:
+            - generic [ref=e376]:
+              - img [ref=e377]
+              - generic [ref=e378]: Remboursement de la valeur à neuf pendant 6 ou 18 mois selon la garantie choisie
+          - listitem [ref=e379]:
+            - generic [ref=e380]:
+              - img [ref=e381]
+              - generic [ref=e382]: "Assistance 0km : sur voie ouverte à la circulation."
+          - listitem [ref=e383]:
+            - generic [ref=e384]:
+              - img [ref=e385]
+              - generic [ref=e386]: "Assistance AMV : suivi en temps réel de l'arrivée du dépanneur sur votre mobile"
+          - listitem [ref=e387]:
+            - generic [ref=e388]:
+              - img [ref=e389]
+              - generic [ref=e390]: L'assurance loisir ou agricole en tous lieux.
+          - listitem [ref=e391]:
+            - generic [ref=e392]:
+              - img [ref=e393]
+              - generic [ref=e394]: L'assurance de tous les scooters, motos, 50cc, tricycles, électriques, thermiques, cross, enduros, quad/SSV, roadsters, trails …
+      - generic [ref=e396]:
+        - generic [ref=e397]:
+          - generic [ref=e398]: Nos offres détaillées
+          - heading "Des garanties sur-mesure pour votre assurance quad/SSV" [level=2] [ref=e399]:
+            - text: Des garanties sur-mesure
+            - text: pour votre assurance quad/SSV
+        - generic [ref=e400]:
+          - generic [ref=e401]:
+            - heading "Nos garanties" [level=3] [ref=e402]
+            - group "exemples de garanties" [ref=e403]:
+              - list [ref=e405]:
+                - listitem [ref=e406]:
+                  - generic [ref=e407] [cursor=pointer]:
+                    - heading "Responsabilité civile" [level=4] [ref=e408]
+                    - paragraph [ref=e409]: Prise en charge des dommages matériels et corporels causés à un tiers, y compris au passager...
+                    - button "Lire la suite" [ref=e411]:
+                      - img [ref=e413]
+                      - text: Lire la suite
+                - listitem [ref=e414]:
+                  - generic [ref=e415] [cursor=pointer]:
+                    - heading "Assistance juridique" [level=4] [ref=e416]
+                    - paragraph [ref=e417]: Aide juridique en cas d'accident causé à un tiers ou subi par l'assuré, ou en cas de litige lié au véhicule assuré...
+                    - button "Lire la suite" [ref=e419]:
+                      - img [ref=e421]
+                      - text: Lire la suite
+                - listitem [ref=e422]:
+                  - generic [ref=e423] [cursor=pointer]:
+                    - heading "Casque, gants et gilet airbag" [level=4] [ref=e424]
+                    - paragraph [ref=e425]: Prise en charge de votre casque, de vos gants et de votre gilet airbag détériorés suite à un accident. Remboursement déduction faite de la vétusté et dans la limite du plafond...
+                    - button "Lire la suite" [ref=e427]:
+                      - img [ref=e429]
+                      - text: Lire la suite
+                - listitem [ref=e430]:
+                  - generic [ref=e431] [cursor=pointer]:
+                    - heading "Vol / Incendie" [level=4] [ref=e432]
+                    - paragraph [ref=e433]: Prise en charge des dommages matériels en cas de vol, tentative de vol, incendie...
+                    - button "Lire la suite" [ref=e435]:
+                      - img [ref=e437]
+                      - text: Lire la suite
+                - listitem [ref=e438]:
+                  - generic [ref=e439] [cursor=pointer]:
+                    - heading "Dommages collision" [level=4] [ref=e440]
+                    - paragraph [ref=e441]: Prise en charge des dommages matériels à la suite d'une collision avec un tiers identifié...
+                    - button "Lire la suite" [ref=e443]:
+                      - img [ref=e445]
+                      - text: Lire la suite
+                - listitem [ref=e446]:
+                  - generic [ref=e447] [cursor=pointer]:
+                    - heading "Dommages tous accidents « Tous risques »" [level=4] [ref=e448]
+                    - paragraph [ref=e449]: Prise en charge des dommages matériels "tous accidents" (avec ou sans tiers identifié) ou suite à un vandalisme...
+                    - button "Lire la suite" [ref=e451]:
+                      - img [ref=e453]
+                      - text: Lire la suite
+          - generic [ref=e454]:
+            - heading "Nos options" [level=3] [ref=e455]
+            - group "exemples d'options" [ref=e456]:
+              - list [ref=e458]:
+                - listitem [ref=e459]:
+                  - generic [ref=e460] [cursor=pointer]:
+                    - heading "Individuelle pilote" [level=4] [ref=e461]
+                    - paragraph [ref=e462]: Versement d'une indemnité à l'assuré ou ses ayants droit en cas de préjudices corporels subis suite à un accident responsable...
+                    - button "Lire la suite" [ref=e464]:
+                      - img [ref=e466]
+                      - text: Lire la suite
+                - listitem [ref=e467]:
+                  - generic [ref=e468] [cursor=pointer]:
+                    - heading "Assistance" [level=4] [ref=e469]
+                    - paragraph [ref=e470]: Assistance 0km en cas de panne, accident, tentative de vol, vol, crevaison, perte/vol/casse/enfermement de clés ou enlèvement par la fourrière, 24h/24 7j/7...
+                    - button "Lire la suite" [ref=e472]:
+                      - img [ref=e474]
+                      - text: Lire la suite
+                - listitem [ref=e475]:
+                  - generic [ref=e476] [cursor=pointer]:
+                    - heading "Option plus" [level=4] [ref=e477]
+                    - paragraph [ref=e478]: Remboursement des accessoires hors-série et de l'équipement vestimentaire moto. Extension de la valeur à neuf jusqu'à 18 mois...
+                    - button "Lire la suite" [ref=e480]:
+                      - img [ref=e482]
+                      - text: Lire la suite
+        - link "Testez nos tarifs en quelques clics" [ref=e485] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+      - generic [ref=e487]:
+        - generic [ref=e488]:
+          - generic [ref=e489]: Assurance quad/SSV
+          - heading "AMV assure toutes les marques de quad/SSV Une expertise mise à votre service pour vous proposer des garanties sur-mesure." [level=2] [ref=e490]:
+            - text: AMV assure toutes les marques de quad/SSV
+            - paragraph [ref=e491]: Une expertise mise à votre service pour vous proposer des garanties sur-mesure.
+        - group "exemples de partenaires" [ref=e494]:
+          - list [ref=e496]:
+            - listitem [ref=e497]:
+              - 'link "Image : CFMOTO Assurance Quad CFMOTO" [ref=e498] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-cfmoto/
+                - 'img "Image : CFMOTO" [ref=e500]'
+                - generic [ref=e501]: Assurance Quad
+                - generic [ref=e502]: CFMOTO
+            - listitem [ref=e503]:
+              - 'link "Image : Linhai Assurance Quad Linhai" [ref=e504] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-linhai/
+                - 'img "Image : Linhai" [ref=e506]'
+                - generic [ref=e507]: Assurance Quad
+                - generic [ref=e508]: Linhai
+            - listitem [ref=e509]:
+              - 'link "Image : Polaris Assurance Quad Polaris" [ref=e510] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-polaris/
+                - 'img "Image : Polaris" [ref=e512]'
+                - generic [ref=e513]: Assurance Quad
+                - generic [ref=e514]: Polaris
+            - listitem [ref=e515]:
+              - 'link "Image : Can Am Assurance Quad Can Am" [ref=e516] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-can-am/
+                - 'img "Image : Can Am" [ref=e518]'
+                - generic [ref=e519]: Assurance Quad
+                - generic [ref=e520]: Can Am
+            - listitem [ref=e521]:
+              - 'link "Image : Kymco Assurance Quad Kymco" [ref=e522] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-kymco/
+                - 'img "Image : Kymco" [ref=e524]'
+                - generic [ref=e525]: Assurance Quad
+                - generic [ref=e526]: Kymco
+            - listitem [ref=e527]:
+              - 'link "Image : Yamaha Assurance Quad Yamaha" [ref=e528] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-yamaha/
+                - 'img "Image : Yamaha" [ref=e530]'
+                - generic [ref=e531]: Assurance Quad
+                - generic [ref=e532]: Yamaha
+            - listitem [ref=e533]:
+              - 'link "Image : TGB Assurance Quad TGB" [ref=e534] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-tgb/
+                - 'img "Image : TGB" [ref=e536]'
+                - generic [ref=e537]: Assurance Quad
+                - generic [ref=e538]: TGB
+            - listitem [ref=e539]:
+              - 'link "Image : Segway Assurance Quad Segway" [ref=e540] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-segway/
+                - 'img "Image : Segway" [ref=e542]'
+                - generic [ref=e543]: Assurance Quad
+                - generic [ref=e544]: Segway
+            - listitem [ref=e545]:
+              - 'link "Image : Goes Assurance Quad Goes" [ref=e546] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-goes/
+                - 'img "Image : Goes" [ref=e548]'
+                - generic [ref=e549]: Assurance Quad
+                - generic [ref=e550]: Goes
+            - listitem [ref=e551]:
+              - 'link "Image : Kubota Assurance Quad Kubota" [ref=e552] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-kubota/
+                - 'img "Image : Kubota" [ref=e554]'
+                - generic [ref=e555]: Assurance Quad
+                - generic [ref=e556]: Kubota
+            - listitem [ref=e557]:
+              - 'link "Image : Hytrack Assurance Quad Hytrack" [ref=e558] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-hytrack/
+                - 'img "Image : Hytrack" [ref=e560]'
+                - generic [ref=e561]: Assurance Quad
+                - generic [ref=e562]: Hytrack
+            - listitem [ref=e563]:
+              - 'link "Image : Arctic Cat Assurance Quad Arctic Cat" [ref=e564] [cursor=pointer]':
+                - /url: /assurance-quad/assurance-quad-arctic-cat/
+                - 'img "Image : Arctic Cat" [ref=e566]'
+                - generic [ref=e567]: Assurance Quad
+                - generic [ref=e568]: Arctic Cat
+        - link "Assurance quad autres marques" [ref=e569] [cursor=pointer]:
+          - /url: /assurance-quad/assurance-quad-par-constructeur/
+        - link "Testez nos tarifs en quelques clics" [ref=e572] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+      - generic [ref=e574]:
+        - heading "AMV assure toutes les cylindrées" [level=2] [ref=e576]:
+          - text: AMV assure
+          - text: toutes les cylindrées
+        - generic [ref=e577]:
+          - group "exemples de cylindrées assurables" [ref=e579]:
+            - list [ref=e581]:
+              - listitem [ref=e582]:
+                - link "250cc Assurance quad/SSV" [ref=e583] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-250cm3/#
+                  - generic [ref=e584]: 250cc
+                  - generic [ref=e585]: Assurance quad/SSV
+              - listitem [ref=e586]:
+                - link "300cc Assurance quad/SSV" [ref=e587] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-300cm3/#
+                  - generic [ref=e588]: 300cc
+                  - generic [ref=e589]: Assurance quad/SSV
+              - listitem [ref=e590]:
+                - link "400cc Assurance quad/SSV" [ref=e591] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-400cm3/#
+                  - generic [ref=e592]: 400cc
+                  - generic [ref=e593]: Assurance quad/SSV
+              - listitem [ref=e594]:
+                - link "500cc Assurance quad/SSV" [ref=e595] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-500cm3/#
+                  - generic [ref=e596]: 500cc
+                  - generic [ref=e597]: Assurance quad/SSV
+              - listitem [ref=e598]:
+                - link "900cc Assurance quad/SSV" [ref=e599] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-900cm3/#
+                  - generic [ref=e600]: 900cc
+                  - generic [ref=e601]: Assurance quad/SSV
+              - listitem [ref=e602]:
+                - link "50cc Assurance quad/SSV" [ref=e603] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-50cm3/#
+                  - generic [ref=e604]: 50cc
+                  - generic [ref=e605]: Assurance quad/SSV
+              - listitem [ref=e606]:
+                - link "Électrique Assurance quad/SSV" [ref=e607] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-electrique/#
+                  - generic [ref=e608]: Électrique
+                  - generic [ref=e609]: Assurance quad/SSV
+            - generic [ref=e611]:
+              - button [ref=e612] [cursor=pointer]:
+                - img [ref=e613]
+              - button [ref=e615] [cursor=pointer]:
+                - img [ref=e616]
+          - link "Assurance quad autres motorisations" [ref=e617] [cursor=pointer]:
+            - /url: /assurance-quad/assurance-quad-par-motorisation/
+        - heading "AMV vous assure quel que soit votre permis" [level=2] [ref=e619]:
+          - text: AMV vous assure
+          - text: quel que soit votre permis
+        - generic [ref=e620]:
+          - group "exemples de cylindrées assurables" [ref=e622]:
+            - list [ref=e624]:
+              - listitem [ref=e625]:
+                - link "BSR" [ref=e626] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-permis-bsr/#
+                  - generic [ref=e627]: BSR
+              - listitem [ref=e629]:
+                - link "AM Permis" [ref=e630] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-permis-am/#
+                  - generic [ref=e631]: AM
+                  - generic [ref=e632]: Permis
+              - listitem [ref=e633]:
+                - link "A1 Permis" [ref=e634] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-permis-a1/#
+                  - generic [ref=e635]: A1
+                  - generic [ref=e636]: Permis
+              - listitem [ref=e637]:
+                - link "A2 Permis" [ref=e638] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-permis-a2/#
+                  - generic [ref=e639]: A2
+                  - generic [ref=e640]: Permis
+              - listitem [ref=e641]:
+                - link "A Permis" [ref=e642] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-permis-a/#
+                  - generic [ref=e643]: A
+                  - generic [ref=e644]: Permis
+              - listitem [ref=e645]:
+                - link "B Permis" [ref=e646] [cursor=pointer]:
+                  - /url: /assurance-quad/assurance-quad-permis-b/#
+                  - generic [ref=e647]: B
+                  - generic [ref=e648]: Permis
+            - generic [ref=e650]:
+              - button [ref=e651] [cursor=pointer]:
+                - img [ref=e652]
+              - button [ref=e654] [cursor=pointer]:
+                - img [ref=e655]
+          - link "Assurance quad autres permis" [ref=e656] [cursor=pointer]:
+            - /url: /assurance-quad/assurance-quad-par-permis/
+        - link "Testez nos tarifs en quelques clics" [ref=e659] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+      - generic [ref=e661]:
+        - generic [ref=e662]:
+          - generic [ref=e663]:
+            - generic [ref=e664]:
+              - generic [ref=e665]: Avis clients
+              - heading "AMV, c’est 1 million d’assurés. Que disent-ils de nous ?" [level=2] [ref=e666]:
+                - text: AMV, c’est 1 million d’assurés.
+                - text: Que disent-ils de nous ?
+              - paragraph [ref=e667]:
+                - text: L’évaluation et les avis sont publiés par Avis Vérifiés, une société indépendante
+                - text: qui garantit la transparence et l’authenticité des retours d’expérience des assurés.
+            - generic [ref=e669]:
+              - img [ref=e672]
+              - paragraph [ref=e675]: Sur 5328 clients interrogés par Avis vérifiés, AMV obtient une note de satisfaction de 4,7/5
+          - 'img "Image: Avis vérifiés sur AMV" [ref=e677]'
+        - group "exemples de témoignages" [ref=e679]:
+          - list [ref=e681]:
+            - listitem [ref=e682]:
+              - generic [ref=e683]:
+                - paragraph [ref=e684]: Nous avons toujours pris AMV et n'avons jamais eu de problème. Nous sommes appelés si nous ne remplissons pas correctement
+                - generic [ref=e685]:
+                  - generic [ref=e686]: 5/5
+                  - generic [ref=e687]:
+                    - generic [ref=e688]: Patrick V.
+                    - generic [ref=e689]: suite à une expérience du 30/05/2026
+            - listitem [ref=e690]:
+              - generic [ref=e691]:
+                - paragraph [ref=e692]: Réactifs, et souples l'interlocutrice au téléphone très à l'écoute. Sincèrement je suis agréablement surpris. Cordialement Frédéric
+                - generic [ref=e693]:
+                  - generic [ref=e694]: 5/5
+                  - generic [ref=e695]:
+                    - generic [ref=e696]: Frederic R.
+                    - generic [ref=e697]: suite à une expérience du 30/05/2026
+            - listitem [ref=e698]:
+              - generic [ref=e699]:
+                - paragraph [ref=e700]: Client chez vous depuis maintenant un moment, je n’ai jamais bénéficié de réduction. Si une fois la souscription faite je reçois un mail réduction pour le prochain véhicule. Dommage.
+                - generic [ref=e701]:
+                  - generic [ref=e702]: 4/5
+                  - generic [ref=e703]:
+                    - generic [ref=e704]: Philippe D.
+                    - generic [ref=e705]: suite à une expérience du 30/05/2026
+            - listitem [ref=e706]:
+              - generic [ref=e707]:
+                - paragraph [ref=e708]: Site clair et fonctionnel. J’ai obtenu mon devis en quelques minutes et les tarifs sont raisonnables
+                - generic [ref=e709]:
+                  - generic [ref=e710]: 5/5
+                  - generic [ref=e711]:
+                    - generic [ref=e712]: William M.
+                    - generic [ref=e713]: suite à une expérience du 21/05/2026
+            - listitem [ref=e714]:
+              - generic [ref=e715]:
+                - paragraph [ref=e716]: je ne pensais pas que celas serais si simple et rapide. assure de suite et contra reçus 2 jours après. bien moins cher que mon ancien assureur, je vais réunir tous mes contras d'assurances chez eu
+                - generic [ref=e717]:
+                  - generic [ref=e718]: 5/5
+                  - generic [ref=e719]:
+                    - generic [ref=e720]: Vincent C.
+                    - generic [ref=e721]: suite à une expérience du 07/05/2026
+          - generic [ref=e723]:
+            - button "Avis précédent" [ref=e724] [cursor=pointer]:
+              - img [ref=e725]
+            - button "Avis suivant" [ref=e727] [cursor=pointer]:
+              - img [ref=e728]
+        - generic [ref=e729]:
+          - link "Voir plus d'avis clients" [ref=e731] [cursor=pointer]:
+            - /url: /clients/avis-client/
+            - img [ref=e733]
+            - text: Voir plus d'avis clients
+          - link "Prêt(e) à rejoindre AMV" [ref=e735] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+      - generic [ref=e737]:
+        - generic [ref=e738]:
+          - generic [ref=e739]: Questions fréquentes
+          - heading "Des questions sur votre assurance quad/SSV ? Nous y répondons ici" [level=2] [ref=e740]:
+            - text: Des questions sur votre assurance quad/SSV ?
+            - text: Nous y répondons ici
+        - generic [ref=e742]:
+          - generic [ref=e743] [cursor=pointer]:
+            - generic [ref=e744]:
+              - generic [ref=e745]: Comment obtenir un devis d'assurance quad ?
+              - img [ref=e746]
+            - paragraph [ref=e748]: Obtenir un devis personnalisé pour l'assurance de votre quad est une démarche simple et rapide, spécialement conçue pour répondre à vos besoins. En tant qu'expert dans le domaine des produits AMV, je suis heureux de vous guider à travers le processus. Il vous suffit de consacrer quelques minutes en ligne pour remplir un formulaire dédié. Une fois vos informations fournies, notre système expert se chargera de calculer le devis qui correspond le mieux à votre situation. Cette étape est entièrement gratuite et ne demande que peu de temps de votre part. En choisissant AMV, vous optez pour la simplicité et l'efficacité pour assurer votre quad en toute sérénité.
+          - generic [ref=e749] [cursor=pointer]:
+            - generic [ref=e750]:
+              - generic [ref=e751]: Comment assurer un quad ?
+              - img [ref=e752]
+            - generic [ref=e753]:
+              - paragraph [ref=e754]: Pour une assurance optimale de votre quad, que ce soit homologué ou non, je vous recommande vivement de vous tourner vers un expert en la matière telle qu'AMV. Grâce à leur spécialisation dans ce domaine, AMV peut vous offrir une couverture sur mesure parfaitement adaptée à vos besoins.
+              - paragraph [ref=e755]: Pour obtenir une assurance pour votre quad, qu'il soit homologué ou non, je vous conseille vivement de vous tourner vers AMV. Leur expertise dans ce domaine leur permet de vous proposer une couverture sur mesure qui répondra précisément à vos besoins. Rendez-vous sur amv.fr pour souscrire votre contrat en ligne en toute simplicité
+          - generic [ref=e756] [cursor=pointer]:
+            - generic [ref=e757]:
+              - generic [ref=e758]: Combien coute une assurance quad ?
+              - img [ref=e759]
+            - paragraph [ref=e761]: Le coût de l'assurance pour un quad peut varier en fonction de plusieurs facteurs, tels que s'il est homologué ou non homologué, ainsi que de l'usage que vous prévoyez, qu'il s'agisse de loisirs ou d'une utilisation utilitaire. Pour obtenir une estimation précise de votre tarif d'assurance quad, je vous recommande vivement de faire appel à AMV. Leur expertise dans le domaine et leur expérience en assurance quad vous permettront d'obtenir un devis personnalisé en visitant simplement leur site web amv.fr. Cela vous aidera à comprendre les coûts associés à votre situation spécifique et à choisir la meilleure option d'assurance pour votre quad.
+          - generic [ref=e762] [cursor=pointer]:
+            - generic [ref=e763]:
+              - generic [ref=e764]: Quel type d'assurance dois-je prendre pour assurer mon quad ?
+              - img [ref=e765]
+            - generic [ref=e766]:
+              - paragraph [ref=e767]: Lorsque vous envisagez d'assurer votre quad, qu'il soit homologué ou non, je vous recommande vivement de faire appel à AMV. Ils sont des experts reconnus dans le domaine de l'assurance pour les véhicules spéciaux tels que les quads. Pour assurer au mieux la protection de votre quad, il est essentiel de souscrire à la garantie Responsabilité Civile. Cela vous couvrira en cas de dommages que vous pourriez causer à autrui ou à leurs biens tout en utilisant votre quad.
+              - paragraph [ref=e768]: Cependant, pour une couverture plus complète, AMV propose également des options supplémentaires. Si votre quad est homologué, envisagez d'ajouter la garantie Vol ou Dommages à votre assurance. Cette étape vous offre une protection supplémentaire contre le vol de votre quad ou les dommages qu'il pourrait subir.
+              - paragraph [ref=e769]: Dans tous les cas, pour obtenir des conseils spécifiques à votre situation et pour choisir la meilleure assurance pour votre quad, je vous encourage fortement à prendre contact avec AMV. Leurs experts sauront vous guider à travers les différentes options et vous aider à sélectionner la couverture qui répond le mieux à vos besoins et à la nature particulière de votre quad.
+          - generic [ref=e770] [cursor=pointer]:
+            - generic [ref=e771]:
+              - generic [ref=e772]: Est-il obligatoire d'assurer un quad ?
+              - img [ref=e773]
+            - paragraph [ref=e775]: Il est impératif de souligner que lorsqu'il s'agit d'assurer un quad, que ce soit un modèle homologué circulant sur la voie publique ou non, la nécessité de souscrire un contrat d'assurance demeure incontournable. À cet égard, il est fortement recommandé de faire appel à AMV, une référence incontestée en matière d'assurance spécialisée. Que votre quad soit destiné à une utilisation urbaine ou tout-terrain, AMV propose des solutions d'assurance sur mesure parfaitement adaptées à vos besoins. N'oubliez pas qu'une couverture adéquate chez AMV garantit votre conformité légale et votre tranquillité d'esprit tout au long de vos aventures en quad.
+          - generic [ref=e776] [cursor=pointer]:
+            - generic [ref=e777]:
+              - generic [ref=e778]: Quelles sont les garanties incluses dans une assurance quad/SSV AMV ?
+              - img [ref=e779]
+            - paragraph [ref=e781]: AMV propose 4 formules d’assurance quad/SSV. L'offre inclut dès sa première formule la Responsabilité civile, l'Assistance juridique et la garantie des équipements de protection (gants jusqu’à 70 €, casque jusqu’à 250 €, gilet airbag jusqu’à 500 € s'ils sont détériorés à la suite d'un sinistre, sous conditions). Selon la formule, vous pouvez bénéficier en plus des garanties Vol/Incendie, Dommages collision, et Dommages tous accidents (Tous Risques). D'autres garanties comme l’Assistance 0 km, l’Individuelle Pilote ou l’Option Plus (extension de garantie aux accessoires et équipements jusqu’à 5 000 €) sont également proposées en option.
+          - generic [ref=e782] [cursor=pointer]:
+            - generic [ref=e783]:
+              - generic [ref=e784]: Quand prennent effet les garanties de mon assurance quad/SSV ?
+              - img [ref=e785]
+            - paragraph [ref=e787]: Les garanties prennent effet immédiatement à la souscription ou à la date choisie (qui peut être différée jusqu’à deux mois).
+          - generic [ref=e788] [cursor=pointer]:
+            - generic [ref=e789]:
+              - generic [ref=e790]: Comment savoir si ma demande d’assurance quad/SSV a bien été enregistrée ?
+              - img [ref=e791]
+            - paragraph [ref=e793]: À la fin de votre souscription en ligne, un numéro de souscription vous est communiqué et une confirmation vous est envoyée par e-mail.
+          - generic [ref=e794] [cursor=pointer]:
+            - generic [ref=e795]:
+              - generic [ref=e796]: Qu’est-ce qu’une franchise en assurance quad/SSV AMV ?
+              - img [ref=e797]
+            - paragraph [ref=e799]: En cas de sinistre, la franchise est la part de l'indemnité qui reste à la charge de l'assuré suite à la mise en jeu d'une garantie dommages. Chez AMV, elle est plafonnée, avec un minimum et un maximum variable selon la cylindrée. Le détail des franchises est précisé dans les Dispositions Particulières.
+          - generic [ref=e800] [cursor=pointer]:
+            - generic [ref=e801]:
+              - generic [ref=e802]: AMV propose-t-elle une assurance quad/SSV pour les jeunes conducteurs ?
+              - img [ref=e803]
+            - paragraph [ref=e805]: Oui, AMV propose des formules adaptées à tous les profils, y compris les jeunes conducteurs (sous réserve d'acceptation des conditions de souscription). AMV a des conditions de souscription parmi les plus larges du marché. La tarification prend en compte de nombreux critères notamment l’âge, l’expérience et l’historique de conduite, le lieu de stationnement. Vous pouvez obtenir un devis personnalisé en ligne.
+          - generic [ref=e806] [cursor=pointer]:
+            - generic [ref=e807]:
+              - generic [ref=e808]: Peut-on modifier ses garanties d’assurance quad/SSV en ligne ?
+              - img [ref=e809]
+            - paragraph [ref=e811]: Oui, il est possible de modifier ses garanties et options à tout moment via votre espace client (Mon Espace AMV) sur amv.fr, selon les conditions de votre contrat.
+          - generic [ref=e812] [cursor=pointer]:
+            - generic [ref=e813]:
+              - generic [ref=e814]: Comment déclarer un sinistre quad/SSV avec AMV ?
+              - img [ref=e815]
+            - paragraph [ref=e817]: Vous pouvez déclarer un sinistre directement depuis votre espace client (Mon Espace AMV) sur le site amv.fr. Un gestionnaire dédié s'occupe de la gestion de votre dossier.
+          - generic [ref=e818] [cursor=pointer]:
+            - generic [ref=e819]:
+              - generic [ref=e820]: AMV propose-t-elle une assistance 0 km quad/SSV ?
+              - img [ref=e821]
+            - paragraph [ref=e823]: Oui, l’option Assistance 0 km est proposée dès la formule 2. Elle inclut une assistance sans franchise kilométrique, en cas de panne, accident, vol, tentative de vol, crevaison, perte de clés ou mise en fourrière, pour votre quad/SSV, le pilote et le passager.
+          - generic [ref=e824] [cursor=pointer]:
+            - generic [ref=e825]:
+              - generic [ref=e826]: Quels équipements sont couverts par l’assurance quad/SSV AMV ?
+              - img [ref=e827]
+            - paragraph [ref=e829]: Dès la formule de base, AMV couvre le casque, les gants et le gilet airbag détériorié suite à un sinistre, sous conditions, dans la limite des plafonds indiqués. Avec l’Option Plus, la couverture est étendue à l’ensemble de l’équipement vestimentaire de protection du motard et aux accessoires hors-série montés sur le quad/SSV, jusqu’à 5 000 €, sous conditions.
+          - link "Consulter toutes les questions fréquentes" [ref=e832] [cursor=pointer]:
+            - /url: /besoin-daide/
+            - img [ref=e834]
+            - text: Consulter toutes les questions fréquentes
+      - generic [ref=e837]:
+        - generic [ref=e838]:
+          - generic [ref=e839]: Le blog AMV
+          - heading "Toute l’actualité de l’assurance quad/SSV" [level=2] [ref=e840]
+        - group "exemples d'articles blog" [ref=e842]:
+          - list [ref=e844]:
+            - listitem [ref=e845]:
+              - generic [ref=e848]:
+                - link "L’hivernage, aussi pour les quads" [ref=e849] [cursor=pointer]:
+                  - /url: "#"
+                  - heading "L’hivernage, aussi pour les quads" [level=3] [ref=e850]
+                - paragraph [ref=e851]: "L’arrivée de l’hiver soulève une question importante pour tout possesseur de quad : comment le stocker en toute sécurité jusqu’au ..."
+                - link "Lire la suite" [ref=e854] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-quad/lhivernage-aussi-pour-les-quads/
+                  - img [ref=e856]
+                  - text: Lire la suite
+            - listitem [ref=e857]:
+              - generic [ref=e860]:
+                - 'link "Les différents types de quads : comment s’y retrouver ?" [ref=e861] [cursor=pointer]':
+                  - /url: "#"
+                  - 'heading "Les différents types de quads : comment s’y retrouver ?" [level=3] [ref=e862]'
+                - paragraph [ref=e863]: Derrière le terme générique de « quad » se cache une mosaïque de véhicules aux usages et aux caractéristiques bien ...
+                - link "Lire la suite" [ref=e866] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-quad/les-differents-types-de-quads-comment-sy-retrouver/
+                  - img [ref=e868]
+                  - text: Lire la suite
+            - listitem [ref=e869]:
+              - generic [ref=e872]:
+                - link "Quel équipement pour faire du quad de loisir ?" [ref=e873] [cursor=pointer]:
+                  - /url: "#"
+                  - heading "Quel équipement pour faire du quad de loisir ?" [level=3] [ref=e874]
+                - paragraph [ref=e875]: Le quad de loisir séduit par son côté aventureux, entre grands espaces et sensations fortes. Chaque sortie en quad sollicite ...
+                - link "Lire la suite" [ref=e878] [cursor=pointer]:
+                  - /url: https://www.amv.fr/assurance-quad/quel-equipement-pour-faire-du-quad-de-loisir/
+                  - img [ref=e880]
+                  - text: Lire la suite
+        - link "Voir tous les articles du blog" [ref=e883] [cursor=pointer]:
+          - /url: https://www.amv.fr/assurance-quad/
+          - img [ref=e885]
+          - text: Voir tous les articles du blog
+        - link "Testez nos tarifs en quelques clics" [ref=e888] [cursor=pointer]:
+          - /url: https://www.amv.fr/moto/assurance-quad/assurance-quad.aspx
+      - generic [ref=e890]:
+        - heading "Consulter le détail des formules et des options" [level=2] [ref=e892]:
+          - text: Consulter le détail
+          - text: des formules et des options
+        - generic [ref=e893]:
+          - generic [ref=e894]:
+            - generic [ref=e895]: Détails des formules
+            - generic [ref=e897] [cursor=pointer]:
+              - generic [ref=e898]: Formule 1 Responsabilité civile
+              - img [ref=e899]
+            - generic [ref=e901] [cursor=pointer]:
+              - generic [ref=e902]: Formule 2 Vol / incendie
+              - img [ref=e903]
+            - generic [ref=e905] [cursor=pointer]:
+              - generic [ref=e906]: Formule 3 Dommages collision
+              - img [ref=e907]
+            - generic [ref=e909] [cursor=pointer]:
+              - generic [ref=e910]: Formule 4 Dommages tous accidents "Tous risques"
+              - img [ref=e911]
+          - generic [ref=e912]:
+            - generic [ref=e913]: Détails des options
+            - generic [ref=e915] [cursor=pointer]:
+              - generic [ref=e916]: Option Individuelle pilote
+              - img [ref=e917]
+            - generic [ref=e919] [cursor=pointer]:
+              - generic [ref=e920]: Option Assistance
+              - img [ref=e921]
+            - generic [ref=e923] [cursor=pointer]:
+              - generic [ref=e924]: Option plus
+              - img [ref=e925]
+        - link "Revenir aux formules" [ref=e927] [cursor=pointer]:
+          - /url: "#formulesAnchor"
+          - img [ref=e928]
+          - generic [ref=e929]: Revenir aux formules
+    - generic [ref=e930]:
+      - generic [ref=e932]:
+        - generic [ref=e933]:
+          - link "Retourner à l'accueil" [ref=e935] [cursor=pointer]:
+            - /url: /
+            - img [ref=e936]
+          - paragraph [ref=e939]: Leader de l'assurance moto, AMV vous offre une gamme complète de solutions d'assurance quad/SSV. Notre expertise couvre également l'assurance auto, l'assurance habitation, l'assurance moto de collection et bien plus encore. Modifiez vos contrats selon vos besoins et les risques associés à votre véhicule. De la demande de devis à la souscription, tout se fait en ligne. Nos 300 conseillers sont là pour vous guider. Découvrez l'histoire des constructeurs moto et leurs modèles de référence. Choisissez AMV, l'assurance qui gagne la confiance de 5328 clients satisfaits 4,7/5 selon Avis Vérifiés.
+        - generic [ref=e940]:
+          - generic [ref=e942]:
+            - generic [ref=e944]: Assurance quad
+            - generic [ref=e945]:
+              - link "Devis assurance quad/SSV" [ref=e947] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Devis assurance quad par marque" [ref=e949] [cursor=pointer]:
+                - /url: /assurance-quad/assurance-quad-par-constructeur/
+              - link "Devis assurance quad par motorisation" [ref=e951] [cursor=pointer]:
+                - /url: /assurance-quad/assurance-quad-par-motorisation/
+              - link "Devis assurance quad par profil" [ref=e953] [cursor=pointer]:
+                - /url: /assurance-quad/assurance-quad-par-profil/
+              - link "Devis assurance quad par type" [ref=e955] [cursor=pointer]:
+                - /url: /assurance-quad/assurance-quad-par-type/
+              - link "Devis assurance quad par permis" [ref=e957] [cursor=pointer]:
+                - /url: /assurance-quad/assurance-quad-par-permis/
+              - link "Devis assurance moto" [ref=e959] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Devis assurance scooter" [ref=e961] [cursor=pointer]:
+                - /url: /assurance/scooter/
+          - generic [ref=e966]:
+            - link "Devis assurance KYMCO" [ref=e968] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-kymco/
+            - link "Devis assurance CFMOTO" [ref=e970] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-cfmoto/
+            - link "Devis assurance YAMAHA" [ref=e972] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-yamaha/
+            - link "Devis assurance POLARIS" [ref=e974] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-polaris/
+            - link "Devis assurance CAN-AM" [ref=e976] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-can-am/
+            - link "Devis assurance quad/SSV 250" [ref=e978] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-250cm3/
+            - link "Devis assurance quad/SSV 400" [ref=e980] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-400cm3/
+            - link "Devis assurance quad/SSV 500" [ref=e982] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-500cm3/
+            - link "Devis assurance quad/SSV 900" [ref=e984] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-900cm3/
+            - link "Devis assurance quad/SSV 50" [ref=e986] [cursor=pointer]:
+              - /url: /assurance-quad/assurance-quad-50cm3/
+        - generic [ref=e988]:
+          - 'link "Aller sur le site : Facebook" [ref=e989] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e990]
+          - 'link "Aller sur le site : Instagram" [ref=e993] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e994]
+          - 'link "Aller sur le site : LinkedIn" [ref=e996] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e997]
+          - 'link "Aller sur le site : Youtube" [ref=e999] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e1000]
+      - generic [ref=e1003]:
+        - generic [ref=e1004]:
+          - link "Mentions légales" [ref=e1005] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e1006] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e1007] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e1008] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e1009] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e1010]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - dialog [ref=e1011]:
+    - generic [ref=e1013]:
+      - generic [ref=e1014]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e1015]:
+        - text: Notre site
+        - generic [ref=e1016]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e1017] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e1018] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - list:
+      - listitem "Accepter et fermer" [ref=e1019] [cursor=pointer]
+      - listitem "Refuser" [ref=e1020] [cursor=pointer]
+      - listitem "Paramétrer" [ref=e1021] [cursor=pointer]
