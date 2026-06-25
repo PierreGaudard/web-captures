@@ -47,34 +47,38 @@ const toEN = s => fr2en[s] || s;
 const QUOTE_FR = "Le gentleman moderne n'est pas l'aboutissement de l'évolution de Darwin. Un vrai gentleman cherche toujours à s'enrichir par l'expérience, le travail sur soi et le goût de la qualité, sans jamais perdre de vue la valeur des choses.";
 const QUOTE_EN = "The modern gentleman is not the final stage in evolution. A true gentleman is always looking to enrich himself through experience, self-improvement and the enjoyment of quality, while keeping an eye on real value.";
 
-// [libelle FR, libelle EN, url FR, url EN]
-// Slugs FR en francais (/categorie/...), slugs EN en anglais (/en/category/...).
-const NAV = [
-  ['Mode homme', 'Menswear', '/mode-homme/', '/en/menswear/'],
-  ['Costume', 'Suits', '/costume/', '/en/suits/'],
-  ['Lin', 'Linen', '/lin/', '/en/linen/'],
-  ['Été', 'Summer', '/ete/', '/en/summer/'],
-  ['Mode femme', "Women's fashion", '/mode-femme/', '/en/womens-fashion/'],
-  ['À propos', 'About', '/a-propos/', '/en/about/'],
+// Categories canoniques : [slug FR, slug EN, libelle FR, libelle EN].
+// Slugs FR en francais, slugs EN en anglais (sous /en/). Une page est generee
+// pour chaque categorie (FR + EN), donc tous les liens du menu sont valides.
+const CATS = [
+  ['mode-homme', 'menswear', 'Mode homme', 'Menswear'],
+  ['costume', 'suits', 'Costume', 'Suits'],
+  ['lin', 'linen', 'Lin', 'Linen'],
+  ['ete', 'summer', 'Été', 'Summer'],
+  ['mode-femme', 'womens-fashion', 'Mode femme', "Women's fashion"],
+  ['soins-homme', 'mens-grooming', 'Soins homme', "Men's grooming"],
+  ['style-homme', 'mens-style', 'Style homme', "Men's style"],
+  ['tenues-homme', 'mens-outfits', 'Tenues homme', 'Outfits for men'],
+  ['marques-vetements-homme', 'mens-clothing-brands', 'Marques de vêtements homme', "Men's clothing brands"],
 ];
-const FOOT = [
-  ['Mode homme', "Men's Fashion", '/mode-homme/', '/en/mens-fashion/'],
-  ['Soins homme', "Men's Grooming", '/soins-homme/', '/en/mens-grooming/'],
-  ['Style homme', "Men's Style", '/style-homme/', '/en/mens-style/'],
-  ['Tenues homme', 'Outfits For Men', '/tenues-homme/', '/en/mens-outfits/'],
-  ['Marques de vêtements homme', "Men's Clothing Brands", '/marques-vetements-homme/', '/en/mens-clothing-brands/'],
-  ['Mode femme', "Women's Fashion", '/mode-femme/', '/en/womens-fashion/'],
-];
+const catBy = {}; CATS.forEach(c => catBy[c[0]] = c);
+const catUrl = (c, en) => en ? `/en/${c[1]}/` : `/${c[0]}/`;
+const catLabel = (c, en) => en ? c[3] : c[2];
+
+// Menu principal (header) et footer : sous-ensembles de CATS (par slug FR).
+const NAV_SLUGS = ['mode-homme', 'costume', 'lin', 'ete', 'mode-femme'];
+const FOOT_SLUGS = ['mode-homme', 'soins-homme', 'style-homme', 'tenues-homme', 'marques-vetements-homme', 'mode-femme'];
+// Page A propos (existe en FR + EN)
+const ABOUT = { frUrl: '/a-propos/', enUrl: '/en/about/', labelFr: 'À propos', labelEn: 'About' };
 const ICON = {
   instagram: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38C1.35 2.67.94 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.12.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.12-1.38.66-.66 1.07-1.33 1.38-2.12.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.12C21.33 1.35 20.66.94 19.86.63 19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg>',
   facebook: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.05V9.41c0-3.02 1.79-4.69 4.53-4.69 1.31 0 2.69.24 2.69.24v2.97h-1.52c-1.49 0-1.96.93-1.96 1.89v2.25h3.33l-.53 3.49h-2.8V24C19.61 23.1 24 18.1 24 12.07z"/></svg>',
   x: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.22-6.82-5.97 6.82H1.66l7.73-8.84L1.24 2.25h6.83l4.71 6.23 5.46-6.23zm-1.16 17.52h1.83L7.01 4.13H5.05l12.03 15.64z"/></svg>',
 };
-const SOCIAL = [
-  ['instagram', 'https://www.instagram.com/quel-vetement/'],
-  ['facebook', 'https://www.facebook.com/quel-vetement/'],
-  ['x', 'https://twitter.com/quel-vetement/'],
-];
+// Reseaux sociaux : vide tant que les comptes officiels n'existent pas
+// (evite des liens externes morts). Ajouter ['instagram','https://...'] ici
+// pour les reafficher.
+const SOCIAL = [];
 const socIcons = () => SOCIAL.map(([k, href]) => `<a href="${href}" target="_blank" rel="noopener" aria-label="${k}">${ICON[k]}</a>`).join('');
 
 const FONTCSS = '/__ext/use.typekit.net/bki1nqp.css';
@@ -216,7 +220,48 @@ function page(lang) {
 </div></section>${sec2}`;
   const title = en ? "Men's Fashion & Lifestyle Blog 2026 - Quel Vêtement" : "Blog mode & lifestyle homme 2026 - Quel Vêtement";
   const desc = en ? "A modern men's fashion & lifestyle blog: timeless yet contemporary style, intelligent living and value." : "Blog mode & lifestyle masculin : un style intemporel mais actuel, l'art de vivre et le goût de la qualité.";
-  return shell(lang, en ? '/en/' : '/', title, desc, main);
+  return shell(lang, '/', '/en/', title, desc, main);
+}
+
+// page de categorie (etat vide pour l'instant, se remplira avec les articles)
+function catPage(c, lang) {
+  const en = lang === 'en';
+  const t = (fr, eng) => en ? eng : fr;
+  const label = catLabel(c, en);
+  const main = `
+<section class="sec"><div class="wrap" style="max-width:760px;text-align:center;padding-top:34px">
+  <div class="eyebrow">${t('Catégorie', 'Category')}</div>
+  <h1 style="font-size:2.4rem;margin:.4rem 0 1rem">${esc(label)}</h1>
+  <p style="color:var(--muted)">${esc(t(`Nos guides et comparatifs ${label.toLowerCase()} arrivent bientôt. Revenez très vite.`, `Our ${label.toLowerCase()} guides and comparisons are coming soon. Check back shortly.`))}</p>
+  <p style="margin-top:1.6rem"><a class="btn" href="${en ? '/en/' : '/'}" style="border-color:var(--ink);color:var(--ink)">${t("Retour à l'accueil", 'Back to home')}</a></p>
+</div></section>`;
+  const title = `${label} - Quel Vêtement`;
+  const desc = en ? `${label}: guides, comparisons and style advice on Quel Vêtement.` : `${label} : guides, comparatifs et conseils style sur Quel Vêtement.`;
+  return shell(lang, catUrl(c, false), catUrl(c, true), title, desc, main);
+}
+
+// page A propos
+function aboutPage(lang) {
+  const en = lang === 'en';
+  const t = (fr, eng) => en ? eng : fr;
+  const main = en ? `
+<section class="sec"><div class="wrap legal">
+  <div class="eyebrow">About</div>
+  <h1>About Quel Vêtement</h1>
+  <p>Quel Vêtement is an online magazine dedicated to men's style. Our goal is simple: help you choose the right clothes for every occasion, with clear, concrete and no-nonsense advice, from the suit to linen, from shirts to sneakers.</p>
+  <p>We don't just tell you what to wear, we explain why: which suit cut for a wedding, which shirt for a job interview, which shoes to pair with chinos. Useful guides and comparisons to build a coherent wardrobe and always know what to wear and when.</p>
+  <p>Editor: Maxime Coste, menswear writer.</p>
+</div></section>` : `
+<section class="sec"><div class="wrap legal">
+  <div class="eyebrow">À propos</div>
+  <h1>À propos de Quel Vêtement</h1>
+  <p>Quel Vêtement est un magazine en ligne dédié au style masculin. Notre objectif est simple : vous aider à choisir le bon vêtement pour chaque occasion, avec des conseils clairs, concrets et sans blabla, du costume au lin, de la chemise aux sneakers.</p>
+  <p>On ne se contente pas de dire quoi mettre, on explique pourquoi : quelle coupe de costume pour un mariage, quelle chemise pour un entretien, quelles chaussures porter avec un chino. Des guides et comparatifs utiles pour composer un vestiaire cohérent et savoir, d'un coup d'œil, quoi porter et quand.</p>
+  <p>Rédacteur : Maxime Coste, rédacteur mode homme.</p>
+</div></section>`;
+  const title = t('À propos - Quel Vêtement', 'About - Quel Vêtement');
+  const desc = t("Qui est derrière Quel Vêtement : un magazine de style masculin, guides et comparatifs pour bien choisir ses vêtements.", "Who is behind Quel Vêtement: a men's style magazine, guides and comparisons to choose your clothes well.");
+  return shell(lang, ABOUT.frUrl, ABOUT.enUrl, title, desc, main);
 }
 
 // page mentions légales / legal notice
@@ -244,19 +289,30 @@ function legalPage(lang) {
   <h3>Cookies</h3><p>Ce site n'utilise pas de cookies publicitaires ni de traceurs.</p>
 </div></section>`;
   const title = en ? 'Legal notice - Quel Vêtement' : 'Mentions légales - Quel Vêtement';
-  return shell(lang, en ? '/en/legal-notice/' : '/mentions-legales/', title, '', main);
+  return shell(lang, '/mentions-legales/', '/en/legal-notice/', title, '', main);
 }
 
 // coquille commune : head + double header + contenu + footer image
-function shell(lang, canonPath, title, desc, main) {
+// frPath / enPath : chemins de la page dans chaque langue (pour canonical + hreflang).
+function shell(lang, frPath, enPath, title, desc, main, noindex) {
   const en = lang === 'en';
   const t = (fr, eng) => en ? eng : fr;
   const home = en ? '/en/' : '/';
   const legalUrl = en ? '/en/legal-notice/' : '/mentions-legales/';
-  const navHtml = NAV.map(n => `<a href="${en ? n[3] : n[2]}">${esc(t(n[0], n[1]))}</a>`).join('');
-  const footHtml = FOOT.map(n => `<a href="${en ? n[3] : n[2]}">${esc(t(n[0], n[1]))}</a>`).join('');
+  const canonPath = en ? enPath : frPath;
+  const ogImage = 'https://quel-vetement.com/assets/uploads/qv-footer-bg.jpg';
+  const navHtml = NAV_SLUGS.map(s => `<a href="${catUrl(catBy[s], en)}">${esc(catLabel(catBy[s], en))}</a>`).join('')
+    + `<a href="${en ? ABOUT.enUrl : ABOUT.frUrl}">${esc(en ? ABOUT.labelEn : ABOUT.labelFr)}</a>`;
+  const footHtml = FOOT_SLUGS.map(s => `<a href="${catUrl(catBy[s], en)}">${esc(catLabel(catBy[s], en))}</a>`).join('');
   const socHtml = socIcons();
   const info = en ? "Style, sharp advice and a little panache, every week." : "Du style, des conseils et un peu de panache, chaque semaine.";
+  const jsonld = {
+    "@context": "https://schema.org",
+    "@graph": [
+      { "@type": "Organization", "@id": "https://quel-vetement.com/#org", "name": "Quel Vêtement", "url": "https://quel-vetement.com/", "logo": ogImage },
+      { "@type": "WebSite", "@id": "https://quel-vetement.com/#website", "name": "Quel Vêtement", "url": "https://quel-vetement.com/", "inLanguage": en ? "en" : "fr-FR", "publisher": { "@id": "https://quel-vetement.com/#org" } }
+    ]
+  };
   return `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -264,10 +320,24 @@ function shell(lang, canonPath, title, desc, main) {
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>${esc(title)}</title>
 ${desc ? `<meta name="description" content="${esc(desc)}">` : ''}
+${noindex ? '<meta name="robots" content="noindex,follow">' : ''}
 <link rel="canonical" href="https://quel-vetement.com${canonPath}">
-<link rel="alternate" hreflang="fr" href="https://quel-vetement.com/">
-<link rel="alternate" hreflang="en" href="https://quel-vetement.com/en/">
-<link rel="alternate" hreflang="x-default" href="https://quel-vetement.com/">
+<link rel="alternate" hreflang="fr" href="https://quel-vetement.com${frPath}">
+<link rel="alternate" hreflang="en" href="https://quel-vetement.com${enPath}">
+<link rel="alternate" hreflang="x-default" href="https://quel-vetement.com${frPath}">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Quel Vêtement">
+<meta property="og:locale" content="${en ? 'en_US' : 'fr_FR'}">
+<meta property="og:title" content="${esc(title)}">
+${desc ? `<meta property="og:description" content="${esc(desc)}">` : ''}
+<meta property="og:url" content="https://quel-vetement.com${canonPath}">
+<meta property="og:image" content="${ogImage}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="${esc(title)}">
+${desc ? `<meta name="twitter:description" content="${esc(desc)}">` : ''}
+<meta name="twitter:image" content="${ogImage}">
+<script type="application/ld+json">${JSON.stringify(jsonld)}</script>
 <link rel="stylesheet" href="${FONTCSS}">
 <style>${CSS}</style>
 </head>
@@ -308,7 +378,7 @@ function notFoundPage(lang) {
   <p style="color:var(--muted);margin-bottom:1.6rem">${t("La page que vous cherchez n'existe pas ou a été déplacée.", 'The page you are looking for does not exist or has moved.')}</p>
   <a class="btn" href="${home}" style="border-color:var(--ink);color:var(--ink)">${t("Retour à l'accueil", 'Back to home')}</a>
 </div></section>`;
-  return shell(lang, en ? '/en/404/' : '/404/', t('Page introuvable - Quel Vêtement', 'Page not found - Quel Vêtement'), '', main);
+  return shell(lang, '/404/', '/en/404/', t('Page introuvable - Quel Vêtement', 'Page not found - Quel Vêtement'), '', main, true);
 }
 
 // robots.txt (remplace le robots managé par Cloudflare)
@@ -318,27 +388,56 @@ Allow: /
 Sitemap: https://quel-vetement.com/sitemap.xml
 `;
 
-// sitemap.xml : uniquement les pages reellement publiees
-const sitemapUrls = [
-  'https://quel-vetement.com/',
-  'https://quel-vetement.com/en/',
-  'https://quel-vetement.com/mentions-legales/',
-  'https://quel-vetement.com/en/legal-notice/',
+// favicon (monogramme QV, SVG)
+const favicon = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="#16130f"/><text x="32" y="43" font-family="Georgia,'Times New Roman',serif" font-size="30" font-weight="600" fill="#fbfaf8" text-anchor="middle">QV</text></svg>
+`;
+
+// _redirects : www -> apex (301)
+const redirects = `https://www.quel-vetement.com/* https://quel-vetement.com/:splat 301
+`;
+
+// _headers : securite sur toutes les pages (HSTS, etc.)
+const headers = `/*
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: SAMEORIGIN
+`;
+
+// sitemap.xml : toutes les pages reellement publiees
+const sitemapPaths = [
+  '/', '/en/',
+  ...CATS.map(c => catUrl(c, false)),
+  ...CATS.map(c => catUrl(c, true)),
+  ABOUT.frUrl, ABOUT.enUrl,
+  '/mentions-legales/', '/en/legal-notice/',
 ];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemapUrls.map(u => `  <url><loc>${u}</loc></url>`).join('\n')}
+${sitemapPaths.map(p => `  <url><loc>https://quel-vetement.com${p}</loc></url>`).join('\n')}
 </urlset>
 `;
 
-fs.writeFileSync(path.join(ROOT, 'index.html'), page('fr'));
-fs.mkdirSync(path.join(ROOT, 'en'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'en', 'index.html'), page('en'));
-fs.mkdirSync(path.join(ROOT, 'mentions-legales'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'mentions-legales', 'index.html'), legalPage('fr'));
-fs.mkdirSync(path.join(ROOT, 'en', 'legal-notice'), { recursive: true });
-fs.writeFileSync(path.join(ROOT, 'en', 'legal-notice', 'index.html'), legalPage('en'));
-fs.writeFileSync(path.join(ROOT, '404.html'), notFoundPage('fr'));
-fs.writeFileSync(path.join(ROOT, 'robots.txt'), robots);
-fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap);
-console.log('Home + mentions legales (FR+EN) + 404 + robots.txt + sitemap.xml reconstruits (', arts.length, 'articles ).');
+const write = (rel, content) => {
+  const fp = path.join(ROOT, rel);
+  fs.mkdirSync(path.dirname(fp), { recursive: true });
+  fs.writeFileSync(fp, content);
+};
+
+write('index.html', page('fr'));
+write('en/index.html', page('en'));
+write('mentions-legales/index.html', legalPage('fr'));
+write('en/legal-notice/index.html', legalPage('en'));
+write('a-propos/index.html', aboutPage('fr'));
+write('en/about/index.html', aboutPage('en'));
+CATS.forEach(c => {
+  write(`${c[0]}/index.html`, catPage(c, 'fr'));
+  write(`en/${c[1]}/index.html`, catPage(c, 'en'));
+});
+write('404.html', notFoundPage('fr'));
+write('robots.txt', robots);
+write('sitemap.xml', sitemap);
+write('favicon.svg', favicon);
+write('_redirects', redirects);
+write('_headers', headers);
+console.log('Reconstruit : home, ' + CATS.length + ' categories (FR+EN), a propos, mentions legales, 404, robots, sitemap, favicon, _redirects, _headers -', arts.length, 'articles.');
