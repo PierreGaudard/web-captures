@@ -52,7 +52,7 @@ const NAV = [
   ['Costume', 'Suits', '/category/costume/'],
   ['Lin', 'Linen', '/category/lin/'],
   ['Été', 'Summer', '/category/ete/'],
-  ['Montres', 'Watches', '/category/montres/'],
+  ['Mode femme', "Women's fashion", '/category/mode-femme/'],
   ['À propos', 'About', '/about/'],
 ];
 const FOOT = [
@@ -61,7 +61,7 @@ const FOOT = [
   ['Style homme', "Men's Style", '/category/fashion/'],
   ['Tenues homme', 'Outfits For Men', '/category/fashion/outfit-inspiration/'],
   ['Marques de vêtements homme', "Men's Clothing Brands", '/category/fashion/mens-clothing-brands/'],
-  ['Montres homme', "Men's Watches", '/category/watches/'],
+  ['Mode femme', "Women's Fashion", '/category/mode-femme/'],
 ];
 const ICON = {
   instagram: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38C1.35 2.67.94 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.12.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.12-1.38.66-.66 1.07-1.33 1.38-2.12.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.12C21.33 1.35 20.66.94 19.86.63 19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg>',
@@ -154,33 +154,64 @@ h1,h2,h3{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spacin
 function page(lang) {
   const en = lang === 'en';
   const t = (fr, eng) => en ? eng : fr;
-  const tt = s => en ? toEN(s) : s;
+  // Titre/extrait par article : si l'article fournit ses propres champs EN
+  // (titleEn / excEn) on les utilise, sinon on retombe sur la table de
+  // traduction PAIRS, sinon sur le texte FR. Marche pour les futurs articles.
+  const artTitle = a => en ? (a.titleEn || toEN(a.title)) : a.title;
+  const artExc = a => en ? (a.excEn || a.exc || '') : (a.exc || '');
+
+  const hasArts = arts.length > 0;
   const hero = arts[0];
   const grid1 = arts.slice(1, 13);
   const grid2 = arts.slice(13);
-  const card = a => `<a class="card" href="${esc(a.href)}"><div class="ph"><img src="${esc(a.img)}" alt="${esc(tt(a.title))}" loading="lazy"></div><h3>${esc(tt(a.title))}</h3></a>`;
-  const main = `
+  const card = a => `<a class="card" href="${esc(a.href)}"><div class="ph"><img src="${esc(a.img)}" alt="${esc(artTitle(a))}" loading="lazy"></div><h3>${esc(artTitle(a))}</h3></a>`;
+
+  // Hero : article à la une si on en a un, sinon hero de marque (pas d'article)
+  const heroHtml = hasArts ? `
 <section class="hero">
   <div class="bg" style="background-image:url('${esc(hero.img)}')"></div>
   <div class="inner">
     <div class="eyebrow">${t('À la une', 'Featured')}</div>
-    <h1>${esc(tt(hero.title))}</h1>
-    <p>${esc(tt(hero.exc))}</p>
+    <h1>${esc(artTitle(hero))}</h1>
+    <p>${esc(artExc(hero))}</p>
     <a class="btn" href="${esc(hero.href)}">${t('Lire la suite', 'Read more')}</a>
   </div>
-</section>
+</section>` : `
+<section class="hero">
+  <div class="bg" style="background-image:url('/assets/uploads/qv-footer-bg.jpg')"></div>
+  <div class="inner">
+    <div class="eyebrow">${t('Bienvenue', 'Welcome')}</div>
+    <h1>Quel Vêtement</h1>
+    <p>${t("Comparatifs, guides d'achat et conseils style pour bien choisir ses vêtements.", 'Comparisons, buying guides and style advice to choose your clothes well.')}</p>
+  </div>
+</section>`;
+
+  // Sections d'articles : affichées seulement s'il y a du contenu.
+  // Quand on publiera des articles (dans _articles.json), elles se rempliront
+  // automatiquement avec le meme affichage qu'aujourd'hui.
+  const sec1 = grid1.length ? `
 <section class="sec"><div class="wrap">
   <div class="sec-head"><h2>${t('Derniers articles', 'Latest articles')}</h2><span class="eyebrow">${t('Mode & style homme', "Men's fashion & style")}</span></div>
   <div class="grid">${grid1.map(card).join('')}</div>
-</div></section>
-<section class="edito"><div class="wrap">
-  <div class="eyebrow">${t("L'esprit Quel Vêtement", 'The Quel Vêtement spirit')}</div>
-  <blockquote>${t(QUOTE_FR, QUOTE_EN)}</blockquote>
-</div></section>
+</div></section>` : '';
+  const sec2 = grid2.length ? `
 <section class="sec"><div class="wrap">
   <div class="sec-head"><h2>${t('À découvrir', 'More to read')}</h2><span class="eyebrow">${t('Guides & inspirations', 'Guides & inspiration')}</span></div>
   <div class="grid">${grid2.map(card).join('')}</div>
-</div></section>`;
+</div></section>` : '';
+
+  // Etat vide (aucun article publie pour l'instant)
+  const empty = !hasArts ? `
+<section class="sec"><div class="wrap" style="text-align:center;max-width:640px">
+  <div class="sec-head" style="justify-content:center"><h2>${t('Nos premiers articles arrivent bientôt', 'Our first articles are coming soon')}</h2></div>
+  <p style="color:var(--muted)">${t("Le contenu est en préparation. Revenez très vite pour découvrir nos guides et comparatifs.", 'Content is on the way. Check back soon for our guides and comparisons.')}</p>
+</div></section>` : '';
+
+  const main = `${heroHtml}${sec1}${empty}
+<section class="edito"><div class="wrap">
+  <div class="eyebrow">${t("L'esprit Quel Vêtement", 'The Quel Vêtement spirit')}</div>
+  <blockquote>${t(QUOTE_FR, QUOTE_EN)}</blockquote>
+</div></section>${sec2}`;
   const title = en ? "Men's Fashion & Lifestyle Blog 2026 - Quel Vêtement" : "Blog mode & lifestyle homme 2026 - Quel Vêtement";
   const desc = en ? "A modern men's fashion & lifestyle blog: timeless yet contemporary style, intelligent living and value." : "Blog mode & lifestyle masculin : un style intemporel mais actuel, l'art de vivre et le goût de la qualité.";
   return shell(lang, en ? '/en/' : '/', title, desc, main);
