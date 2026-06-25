@@ -50,20 +50,20 @@ const QUOTE_EN = "The modern gentleman is not the final stage in evolution. A tr
 // [libelle FR, libelle EN, url FR, url EN]
 // Slugs FR en francais (/categorie/...), slugs EN en anglais (/en/category/...).
 const NAV = [
-  ['Mode homme', 'Menswear', '/categorie/mode-homme/', '/en/category/menswear/'],
-  ['Costume', 'Suits', '/categorie/costume/', '/en/category/suits/'],
-  ['Lin', 'Linen', '/categorie/lin/', '/en/category/linen/'],
-  ['Été', 'Summer', '/categorie/ete/', '/en/category/summer/'],
-  ['Mode femme', "Women's fashion", '/categorie/mode-femme/', '/en/category/womens-fashion/'],
+  ['Mode homme', 'Menswear', '/mode-homme/', '/en/menswear/'],
+  ['Costume', 'Suits', '/costume/', '/en/suits/'],
+  ['Lin', 'Linen', '/lin/', '/en/linen/'],
+  ['Été', 'Summer', '/ete/', '/en/summer/'],
+  ['Mode femme', "Women's fashion", '/mode-femme/', '/en/womens-fashion/'],
   ['À propos', 'About', '/a-propos/', '/en/about/'],
 ];
 const FOOT = [
-  ['Mode homme', "Men's Fashion", '/categorie/mode-homme/', '/en/category/mens-fashion/'],
-  ['Soins homme', "Men's Grooming", '/categorie/soins-homme/', '/en/category/mens-grooming/'],
-  ['Style homme', "Men's Style", '/categorie/style-homme/', '/en/category/mens-style/'],
-  ['Tenues homme', 'Outfits For Men', '/categorie/tenues-homme/', '/en/category/mens-outfits/'],
-  ['Marques de vêtements homme', "Men's Clothing Brands", '/categorie/marques-vetements-homme/', '/en/category/mens-clothing-brands/'],
-  ['Mode femme', "Women's Fashion", '/categorie/mode-femme/', '/en/category/womens-fashion/'],
+  ['Mode homme', "Men's Fashion", '/mode-homme/', '/en/mens-fashion/'],
+  ['Soins homme', "Men's Grooming", '/soins-homme/', '/en/mens-grooming/'],
+  ['Style homme', "Men's Style", '/style-homme/', '/en/mens-style/'],
+  ['Tenues homme', 'Outfits For Men', '/tenues-homme/', '/en/mens-outfits/'],
+  ['Marques de vêtements homme', "Men's Clothing Brands", '/marques-vetements-homme/', '/en/mens-clothing-brands/'],
+  ['Mode femme', "Women's Fashion", '/mode-femme/', '/en/womens-fashion/'],
 ];
 const ICON = {
   instagram: '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.16c3.2 0 3.58.01 4.85.07 1.17.05 1.8.25 2.23.41.56.22.96.48 1.38.9.42.42.68.82.9 1.38.16.43.36 1.06.41 2.23.06 1.27.07 1.65.07 4.85s-.01 3.58-.07 4.85c-.05 1.17-.25 1.8-.41 2.23-.22.56-.48.96-.9 1.38-.42.42-.82.68-1.38.9-.43.16-1.06.36-2.23.41-1.27.06-1.65.07-4.85.07s-3.58-.01-4.85-.07c-1.17-.05-1.8-.25-2.23-.41-.56-.22-.96-.48-1.38-.9-.42-.42-.68-.82-.9-1.38-.16-.43-.36-1.06-.41-2.23C2.17 15.58 2.16 15.2 2.16 12s.01-3.58.07-4.85c.05-1.17.25-1.8.41-2.23.22-.56.48-.96.9-1.38.42-.42.82-.68 1.38-.9.43-.16 1.06-.36 2.23-.41C8.42 2.17 8.8 2.16 12 2.16M12 0C8.74 0 8.33.01 7.05.07 5.78.13 4.9.33 4.14.63c-.79.31-1.46.72-2.12 1.38C1.35 2.67.94 3.34.63 4.14.33 4.9.13 5.78.07 7.05.01 8.33 0 8.74 0 12s.01 3.67.07 4.95c.06 1.27.26 2.15.56 2.91.31.79.72 1.46 1.38 2.12.66.66 1.33 1.07 2.12 1.38.76.3 1.64.5 2.91.56C8.33 23.99 8.74 24 12 24s3.67-.01 4.95-.07c1.27-.06 2.15-.26 2.91-.56.79-.31 1.46-.72 2.12-1.38.66-.66 1.07-1.33 1.38-2.12.3-.76.5-1.64.56-2.91.06-1.28.07-1.69.07-4.95s-.01-3.67-.07-4.95c-.06-1.27-.26-2.15-.56-2.91-.31-.79-.72-1.46-1.38-2.12C21.33 1.35 20.66.94 19.86.63 19.1.33 18.22.13 16.95.07 15.67.01 15.26 0 12 0z"/><path d="M12 5.84A6.16 6.16 0 1018.16 12 6.16 6.16 0 0012 5.84zm0 10.16A4 4 0 1116 12a4 4 0 01-4 4z"/><circle cx="18.41" cy="5.59" r="1.44"/></svg>',
@@ -256,7 +256,7 @@ function shell(lang, canonPath, title, desc, main) {
   const navHtml = NAV.map(n => `<a href="${en ? n[3] : n[2]}">${esc(t(n[0], n[1]))}</a>`).join('');
   const footHtml = FOOT.map(n => `<a href="${en ? n[3] : n[2]}">${esc(t(n[0], n[1]))}</a>`).join('');
   const socHtml = socIcons();
-  const info = en ? "Style, sharp advice and a little panache — every week." : "Du style, des conseils et un peu de panache — chaque semaine.";
+  const info = en ? "Style, sharp advice and a little panache, every week." : "Du style, des conseils et un peu de panache, chaque semaine.";
   return `<!DOCTYPE html>
 <html lang="${lang}">
 <head>
@@ -290,11 +290,46 @@ ${main}
   <div class="brand"><a href="${home}">Quel Vêtement</a></div>
   <nav class="fnav">${footHtml}<a href="${legalUrl}">${t('Mentions légales', 'Legal notice')}</a></nav>
   <div class="soc">${socHtml}</div>
-  <div class="copy">© Quel Vêtement 2026 — <a href="${legalUrl}">${t('Mentions légales', 'Legal notice')}</a></div>
+  <div class="copy">© Quel Vêtement 2026 · <a href="${legalUrl}">${t('Mentions légales', 'Legal notice')}</a></div>
 </div></footer>
 </body>
 </html>`;
 }
+
+// page 404 (Cloudflare Pages sert 404.html en statut 404 pour toute URL inconnue)
+function notFoundPage(lang) {
+  const en = lang === 'en';
+  const t = (fr, eng) => en ? eng : fr;
+  const home = en ? '/en/' : '/';
+  const main = `
+<section class="sec"><div class="wrap" style="text-align:center;max-width:640px;padding:90px 0">
+  <div class="eyebrow">${t('Erreur 404', 'Error 404')}</div>
+  <h1 style="font-size:2.4rem;margin:.4rem 0 1rem">${t('Page introuvable', 'Page not found')}</h1>
+  <p style="color:var(--muted);margin-bottom:1.6rem">${t("La page que vous cherchez n'existe pas ou a été déplacée.", 'The page you are looking for does not exist or has moved.')}</p>
+  <a class="btn" href="${home}" style="border-color:var(--ink);color:var(--ink)">${t("Retour à l'accueil", 'Back to home')}</a>
+</div></section>`;
+  return shell(lang, en ? '/en/404/' : '/404/', t('Page introuvable - Quel Vêtement', 'Page not found - Quel Vêtement'), '', main);
+}
+
+// robots.txt (remplace le robots managé par Cloudflare)
+const robots = `User-agent: *
+Allow: /
+
+Sitemap: https://quel-vetement.com/sitemap.xml
+`;
+
+// sitemap.xml : uniquement les pages reellement publiees
+const sitemapUrls = [
+  'https://quel-vetement.com/',
+  'https://quel-vetement.com/en/',
+  'https://quel-vetement.com/mentions-legales/',
+  'https://quel-vetement.com/en/legal-notice/',
+];
+const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+${sitemapUrls.map(u => `  <url><loc>${u}</loc></url>`).join('\n')}
+</urlset>
+`;
 
 fs.writeFileSync(path.join(ROOT, 'index.html'), page('fr'));
 fs.mkdirSync(path.join(ROOT, 'en'), { recursive: true });
@@ -303,4 +338,7 @@ fs.mkdirSync(path.join(ROOT, 'mentions-legales'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'mentions-legales', 'index.html'), legalPage('fr'));
 fs.mkdirSync(path.join(ROOT, 'en', 'legal-notice'), { recursive: true });
 fs.writeFileSync(path.join(ROOT, 'en', 'legal-notice', 'index.html'), legalPage('en'));
-console.log('Home FR+EN + mentions légales FR+EN reconstruites (', arts.length, 'articles ).');
+fs.writeFileSync(path.join(ROOT, '404.html'), notFoundPage('fr'));
+fs.writeFileSync(path.join(ROOT, 'robots.txt'), robots);
+fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sitemap);
+console.log('Home + mentions legales (FR+EN) + 404 + robots.txt + sitemap.xml reconstruits (', arts.length, 'articles ).');
