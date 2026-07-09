@@ -56,6 +56,26 @@
       "title": "AMV - Assurance moto jeune conducteur (avant / après)",
       "description": "Optimisation SEO de la page assurance moto jeune conducteur : surprime, permis A2, garanties, FAQ.",
       "url": "https://amv-jeune-conducteur.pages.dev/assurance-moto/assurance-moto-jeune-conducteur/"
+    },
+    {
+      "title": "AMV - Assurance moto 125 (avant / après)",
+      "description": "Refonte complète de la page assurance moto 125 : 4 formules, options, tableau de garanties, permis, FAQ. Avant / après : bouton « Modifications » en bas à droite.",
+      "url": "https://amv-moto-125.pages.dev/assurance-moto/assurance-moto-125cm3/"
+    },
+    {
+      "title": "AMV - Assurance CFMOTO (avant / après)",
+      "description": "Nouveau contenu assurance CFMOTO (moto + quad/SSV) : formules, options, modèles, permis A2, FAQ. Avant / après : bouton « Modifications » en bas à droite.",
+      "url": "https://amv-moto-cfmoto.pages.dev/assurance-moto/assurance-moto-cfmoto/"
+    },
+    {
+      "title": "AMV - Assurance moto sportive (avant / après)",
+      "description": "Refonte de la page assurance moto sportive : formules, options, équipement, jeune conducteur, circuit, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-moto-sportive.pages.dev/assurance-moto/assurance-moto-sportive/"
+    },
+    {
+      "title": "AMV - Assurance TMAX (avant / après)",
+      "description": "Refonte de la page assurance TMAX : générations XP500/530/560, formules, options, vol, permis, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-moto-tmax.pages.dev/assurance-moto/assurance-moto-yamaha/assurance-t-max/"
     }
   ]
 }

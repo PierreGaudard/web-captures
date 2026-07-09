@@ -1,0 +1,310 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par motorisation" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-motorisation/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto 125cm³
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance moto 125cm³" [level=1] [ref=e38]
+        - img "assurance-moto-125cm" [ref=e39]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - heading "AMV Moto dévoile les secrets des 125cm³" [level=2] [ref=e43]
+          - paragraph [ref=e44]
+          - paragraph [ref=e45]: AMV Moto vous invite à découvrir l'univers des 125cm³, un segment emblématique qui séduit autant les jeunes conducteurs que les motards aguerris.
+          - paragraph [ref=e46]: Pour les novices, la 125cm³ représente le premier pas vers l'aventure sur deux roues, synonyme d'indépendance et de premières sensations fortes. Pour les passionnés aguerris, elle évoque la nostalgie de compétitions mémorables.
+          - paragraph [ref=e47]
+          - paragraph [ref=e48]: La Yamaha DTMX 125, lancée en 1977, reste un modèle de référence pour ceux qui l'ont connue. Avec son design sobre et élégant, elle est devenue la moto des jeunes à la recherche d'un véhicule rebelle. Honda a suivi cette tendance en introduisant la 125 XLS dès 1978, marquant ainsi l'engouement pour ce segment. Au milieu des années 80, la Suzuki 125 RG Gamma a révolutionné le marché avec une des premières sportives en 125cm³, offrant légèreté et maniabilité. Elle s'est distinguée comme l'une des motos les plus attrayantes en 1985 grâce à son design sportif. L'Aprilia 125 RS, introduite en 1998, est célèbre pour avoir été le tremplin de Valentino Rossi, légende du motoGP. Ce modèle combine performance, fiabilité et un rapport poids/puissance/plaisir exceptionnel, captivant tous ceux qui la croisent.
+          - paragraph [ref=e49]: Aujourd'hui, le marché du 125cm³ continue de se renouveler avec des modèles tels que le roadster Honda CB 125 R, qui brille par sa légèreté et ses innovations, et la Mash New Seventy 125, qui séduit par sa simplicité et son style rétro.
+        - generic [ref=e51]:
+          - heading "Conclusion sur la moto 125cm³" [level=2] [ref=e52]
+          - paragraph [ref=e53]
+          - paragraph [ref=e54]: Les 125cm³ restent une pierre angulaire de la culture motarde qui traverse les générations. Que l'on recherche la sensation de liberté, l'adrénaline des premières accélérations, ou que l'on souhaite simplement se remémorer les jours de gloire de ce segment, la 125cm³ a une histoire riche et diversifiée qui continue d'inspirer et de fasciner. AMV Moto accompagne avec plaisir chaque motard dans la découverte de cet univers passionnant.
+      - generic [ref=e55]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e56]
+        - paragraph [ref=e57]
+        - paragraph [ref=e58]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e59] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e60]
+        - paragraph [ref=e61]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e62]
+        - paragraph [ref=e63]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e64] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e65]
+        - paragraph [ref=e66]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e67]
+        - paragraph [ref=e68]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e69]
+        - paragraph [ref=e70]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e71] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e72]:
+          - link "Testez notre tarif d'assurance pour votre moto" [ref=e74] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx
+          - link "Retrouver mon devis d'assurance moto" [ref=e76] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e77]:
+        - heading "Questions fréquentes" [level=2] [ref=e78]
+        - generic [ref=e79]:
+          - generic [ref=e80] [cursor=pointer]:
+            - generic [ref=e81]:
+              - generic [ref=e82]: Quelle est l'importance des motos 125cm³ pour les jeunes conducteurs ?
+              - img [ref=e83]
+            - paragraph [ref=e85]: Pour les jeunes conducteurs, les motos 125cm³ représentent la première étape vers l'autonomie et l'exploration du monde du deux roues. Elles symbolisent l'indépendance et offrent les premières sensations de liberté et d'adrénaline sur route.
+          - generic [ref=e86] [cursor=pointer]:
+            - generic [ref=e87]:
+              - generic [ref=e88]: Pourquoi les motards expérimentés éprouvent-ils de la nostalgie pour les 125cm³ ?
+              - img [ref=e89]
+            - paragraph [ref=e91]: Les motards expérimentés associent les 125cm³ à la grande époque des courses et des premières aventures sur deux roues. Ces motos leur rappellent des sonorités uniques, l'odeur de l'huile ou encore les compétitions légendaires, éveillant un sentiment de nostalgie.
+          - generic [ref=e92] [cursor=pointer]:
+            - generic [ref=e93]:
+              - generic [ref=e94]: Quel modèle de 125cm³ de Yamaha est si mémorable et pourquoi ?
+              - img [ref=e95]
+            - generic [ref=e96]: Le Yamaha DTMX 125, lancé en 1977, est particulièrement mémorable pour sa sobriété et son élégance. Il a su captiver les jeunes de l'époque, devenant symbole de rébellion grâce à son large choix de coloris et sa facilité de personnalisation.
+          - generic [ref=e97] [cursor=pointer]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: Quelle moto Suzuki a marqué une révolution dans les sportives de 125cm³ dans les années 80 ?
+              - img [ref=e100]
+            - paragraph [ref=e102]: La Suzuki 125 RG Gamma a révolutionné le segment des sportives en 125cm³ au milieu des années 1980. Avec son design léger, maniable et son allure sportive, elle a marqué un tournant décisif en 1985.
+        - generic [ref=e103]:
+          - generic [ref=e104] [cursor=pointer]:
+            - generic [ref=e105]:
+              - generic [ref=e106]: Quelle assurance moto choisir ?
+              - img [ref=e107]
+            - paragraph [ref=e109]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: Quel est le prix d'une assurance moto ?
+              - img [ref=e113]
+            - paragraph [ref=e115]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e116] [cursor=pointer]:
+            - generic [ref=e117]:
+              - generic [ref=e118]: Quelle formule assurance moto choisir ?
+              - img [ref=e119]
+            - paragraph [ref=e121]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e122] [cursor=pointer]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e125]
+            - paragraph [ref=e127]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e128]:
+        - heading "Assurance moto par motorisation" [level=2] [ref=e129]
+        - link "Assurance moto 1000cm³" [ref=e130] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-1000cm3/
+          - generic [ref=e131]:
+            - generic [ref=e132]: Assurance moto 1000cm³
+            - img [ref=e133]
+        - link "Assurance moto 1200cm³" [ref=e134] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-1200cm3/
+          - generic [ref=e135]:
+            - generic [ref=e136]: Assurance moto 1200cm³
+            - img [ref=e137]
+        - link "Assurance moto 1600cm³" [ref=e138] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-1600cm3/
+          - generic [ref=e139]:
+            - generic [ref=e140]: Assurance moto 1600cm³
+            - img [ref=e141]
+        - link "Assurance moto 250cm³" [ref=e142] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-250cm3/
+          - generic [ref=e143]:
+            - generic [ref=e144]: Assurance moto 250cm³
+            - img [ref=e145]
+        - link "Assurance moto 500cm³" [ref=e146] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-500cm3/
+          - generic [ref=e147]:
+            - generic [ref=e148]: Assurance moto 500cm³
+            - img [ref=e149]
+        - link "Assurance moto 50cm³" [ref=e150] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-50cm3/
+          - generic [ref=e151]:
+            - generic [ref=e152]: Assurance moto 50cm³
+            - img [ref=e153]
+        - link "Assurance moto 650cm³" [ref=e154] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-650cm3/
+          - generic [ref=e155]:
+            - generic [ref=e156]: Assurance moto 650cm³
+            - img [ref=e157]
+        - link "Assurance moto 750cm³" [ref=e158] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-750cm3/
+          - generic [ref=e159]:
+            - generic [ref=e160]: Assurance moto 750cm³
+            - img [ref=e161]
+        - link "Assurance moto électrique" [ref=e162] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-electrique/
+          - generic [ref=e163]:
+            - generic [ref=e164]: Assurance moto électrique
+            - img [ref=e165]
+      - link "Précédent" [ref=e168] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-motorisation/
+        - img [ref=e170]
+        - text: Précédent
+    - generic [ref=e171]:
+      - generic [ref=e173]:
+        - generic [ref=e174]:
+          - link "Retourner à l'accueil" [ref=e176] [cursor=pointer]:
+            - /url: /
+            - img [ref=e177]
+          - paragraph [ref=e180]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e182] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e184] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e186] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e187] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5356 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e188]:
+          - generic [ref=e190]:
+            - generic [ref=e192]: A propos d’AMV
+            - generic [ref=e193]:
+              - link "Qui sommes-nous ?" [ref=e195] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e197] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e199] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e201] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e203] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e205] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e207]:
+            - generic [ref=e209]: Liens utiles
+            - generic [ref=e210]:
+              - link "Besoin d’aide ?" [ref=e212] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e214] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e216] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e218] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e220] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e222] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e224]:
+            - generic [ref=e226]: Assurances
+            - generic [ref=e227]:
+              - link "Assurance Moto" [ref=e229] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e231] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e233] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e235] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e237] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e239] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e241] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e243] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e245] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e247]:
+            - generic [ref=e249]: Devis assurance
+            - generic [ref=e250]:
+              - link "Devis assurance moto" [ref=e252] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e254] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e256] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e258] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e260] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e262] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e264] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e266] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e268] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e270] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e272]:
+          - 'link "Aller sur le site : Facebook" [ref=e273] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e274]
+          - 'link "Aller sur le site : Instagram" [ref=e277] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e278]
+          - 'link "Aller sur le site : LinkedIn" [ref=e280] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e281]
+          - 'link "Aller sur le site : Youtube" [ref=e283] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e284]
+      - generic [ref=e287]:
+        - generic [ref=e288]:
+          - link "Mentions légales" [ref=e289] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e290] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e291] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e292] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e293] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e294]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - dialog [ref=e295]:
+    - generic [ref=e297]:
+      - generic [ref=e298]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e299]:
+        - text: Notre site
+        - strong [ref=e300]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e301] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e302] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - group:
+      - button "Accepter et fermer" [ref=e303] [cursor=pointer]
+      - button "Refuser" [ref=e304] [cursor=pointer]
+      - button "Paramétrer" [ref=e305] [cursor=pointer]

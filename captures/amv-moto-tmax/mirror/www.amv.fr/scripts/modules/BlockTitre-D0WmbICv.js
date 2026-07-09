@@ -1,0 +1,1 @@
+import{e}from"../chunk/enter-view.min-CXpvrNLt.js";class n{constructor(){e({selector:".c-section-title",enter:function(e){null==e||e.classList.add("in-screen")},exit:function(e){null==e||e.classList.remove("in-screen")},offset:.25,once:!1})}}export{n as default};

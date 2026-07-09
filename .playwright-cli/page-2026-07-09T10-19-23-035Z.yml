@@ -1,0 +1,312 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto CFMOTO
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance CFMOTO" [level=1] [ref=e38]
+          - generic [ref=e39]:
+            - generic [ref=e40]: H1 propose
+            - generic [ref=e41]: Assurance CFMOTO
+          - generic [ref=e42]:
+            - generic [ref=e43]: Nouveau contenu optimise
+            - generic [ref=e44]:
+              - generic [ref=e45]: ✓
+              - generic [ref=e46]: AMV assure toute la gamme CFMOTO, motos (450SR, 450NK, 800NK, trails 450MT et 800MT) avec 4 formules du tiers au tous risques et des options dédiées aux équipements, ainsi que les quads et SSV (CFORCE, ZFORCE). Devis d'assurance CFMOTO gratuit en ligne, en quelques minutes.
+            - heading "Assurer votre CFMOTO chez AMV" [level=2] [ref=e47]
+            - paragraph [ref=e48]: CFMOTO s'est imposée comme l'une des marques qui montent sur le marché français du deux-roues et du quad, avec un rapport équipement-prix qui séduit de plus en plus de conducteurs. AMV, spécialiste de l'assurance deux-roues depuis 1974, propose une assurance adaptée à chaque modèle CFMOTO, moto comme quad. Obtenez votre devis en ligne en quelques clics, sans engagement, et choisissez la formule qui correspond à votre machine et à votre budget.
+            - heading "Quels modèles CFMOTO peut-on assurer ?" [level=2] [ref=e49]
+            - paragraph [ref=e50]:
+              - text: "AMV assure l'ensemble de la gamme moto CFMOTO : les roadsters NK (450NK, 800NK), la sportive 450SR, les trails 450MT et 800MT, ainsi que les modèles accessibles au permis A2. Neuve ou d'occasion, votre CFMOTO bénéficie des mêmes formules et options que toutes les motos assurées chez AMV. Et comme CFMOTO est aussi très présente sur le quad et le SSV (gammes CFORCE et ZFORCE), AMV assure également ces véhicules : rendez-vous sur notre page"
+              - link "assurance quad" [ref=e51] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance/quad/
+              - text: pour un quad CFMOTO.
+            - heading "Nos formules d'assurance moto CFMOTO" [level=2] [ref=e52]
+            - paragraph [ref=e53]: "Quatre niveaux de couverture, à choisir selon la valeur de votre CFMOTO et votre budget :"
+            - list [ref=e54]:
+              - listitem [ref=e55]: "✓ Responsabilité civile : la formule au tiers couvre les dommages causés aux tiers lors d'un sinistre responsable, inclut une assistance juridique et garantit vos équipements de protection (casque, gants, gilet airbag). Elle peut convenir aux modèles de faible valeur marchande."
+              - listitem [ref=e56]: "✓ Vol / Incendie : ajoute la couverture du vol, de la tentative de vol et de l'incendie, avec indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois. Particulièrement adaptée si votre CFMOTO est stationnée majoritairement en extérieur ou dans un lieu non clos."
+              - listitem [ref=e57]: "✓ Dommages collision : prend en charge les dommages causés à votre moto lors d'une collision avec un tiers identifié, sous déduction, en cas de sinistre responsable, de la franchise prévue au contrat."
+              - listitem [ref=e58]: "✓ Tous risques : la protection la plus complète, qui couvre les dommages subis par votre véhicule quelles que soient les circonstances, y compris en cas de sinistre responsable ou de vandalisme. Recommandée pour une CFMOTO neuve, récente ou financée à crédit."
+            - paragraph [ref=e59]: "Chaque formule peut être complétée par des options : l'Individuelle pilote (capital jusqu'à 800 000 euros versé en cas d'invalidité permanente, ou aux ayants droit en cas de décès), l'Assistance 0 km (dépannage sans franchise kilométrique, 24h/24) et l'Option plus (équipement vestimentaire moto et accessoires hors-série jusqu'à 5 000 euros, valeur à neuf prolongée à 18 mois)."
+            - heading "Pourquoi assurer votre CFMOTO chez AMV ?" [level=2] [ref=e60]
+            - paragraph [ref=e61]:
+              - text: "AMV, leader de l'assurance deux-roues en France, a plus d'1 million d'assurés, avec une note de 4,7/5 via Avis Vérifiés. AMV propose des tarifs ajustés au modèle exact de votre CFMOTO et un accompagnement de spécialiste : plus de 350 conseillers basés à Bordeaux, un conseiller dédié en cas de sinistre, et la gestion de votre contrat depuis Mon Espace AMV. Marque récente sur le marché français, CFMOTO n'est pas toujours référencée chez les assureurs généralistes : chez AMV, spécialiste de l'assurance deux-roues, chaque modèle de la gamme l'est, de la 450SR au quad CFORCE, pour un devis précis en quelques clics. Retrouvez aussi toutes les marques sur notre page"
+              - link "assurance moto" [ref=e62] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance/moto/
+              - text: .
+            - heading "Comment obtenir votre devis d'assurance CFMOTO ?" [level=2] [ref=e63]
+            - paragraph [ref=e64]: "Munissez-vous de votre permis de conduire et de votre relevé d'information, renseignez les informations sur votre CFMOTO (modèle, année) et votre profil pour obtenir votre devis en ligne en quelques minutes. Comparez les formules, choisissez celle qui vous correspond, et si le tarif vous convient, finalisez la souscription en quelques clics : vous recevez votre attestation d'assurance par e-mail."
+        - img "assurance-cfmoto" [ref=e65]
+      - generic [ref=e67]:
+        - paragraph [ref=e69]: Pour la saison 2024, CFMOTO prend un nouveau virage dans le monde de la compétition motocycliste. Après avoir été associé au team PruestelGP en 2022 et 2023, la marque chinoise se tourne vers de nouveaux horizons en s'engageant aux côtés du team Aspar en Moto2 et Moto3. Un partenariat qui ne vise que le titre, ni plus ni moins !
+        - generic [ref=e70]:
+          - 'heading "CFMOTO et Aspar : Une alliance prometteuse pour dompter les circuits Moto2 et Moto3 en 2024" [level=4] [ref=e71]':
+            - strong [ref=e72]: "CFMOTO et Aspar : Une alliance prometteuse pour dompter les circuits Moto2 et Moto3 en 2024"
+          - paragraph [ref=e73]
+          - paragraph [ref=e74]: Il est indéniable que CFMOTO a saisi toute l'importance d'une présence active dans les championnats du monde pour sa réputation et son image de marque, même si elle ne propose pas de motos sportives dans sa gamme et n'a pas de prototypes pour les Grands Prix. Jusqu'à l'année précédente, CFMOTO était associé aux KTM de Joel Kelso et Xavier Artigas en Moto3, mais pour 2024, la marque franchit une nouvelle étape en rejoignant la prestigieuse écurie de Jorge Martinez.
+          - paragraph [ref=e75]
+          - paragraph [ref=e76]: Ce nouveau partenariat offre à CFMOTO l'opportunité d'être représenté dans deux catégories majeures, avec de réelles chances de victoire. C'est un pas en avant significatif qui laisse entrevoir la possibilité à terme de voir CFMOTO lancer sa propre équipe en Grand Prix.
+          - paragraph [ref=e77]
+          - paragraph [ref=e78]: "Jorge Martinez, également connu sous le nom d'Aspar, exprime clairement les ambitions communes pour la saison à venir : remporter les titres en Moto3 et Moto2. Pour lui, cette collaboration avec CFMOTO est une motivation supplémentaire, et il se dit très heureux de pouvoir compter sur leur soutien. Il promet de tout mettre en œuvre pour rendre fier CFMOTO et lui offrir de nombreuses victoires tout au long de la saison."
+          - paragraph [ref=e79]
+          - paragraph [ref=e80]: Du côté de CFMOTO Racing, Su Zhen, le responsable du développement, partage cet enthousiasme. Il est convaincu que le partenariat avec Aspar propulsera CFMOTO Racing vers de nouveaux sommets. Il anticipe déjà des victoires et des podiums à foison et envisage même des possibilités de coopération au-delà du paddock pour renforcer davantage cette collaboration fructueuse.
+          - paragraph [ref=e81]
+          - paragraph [ref=e82]: En somme, l'alliance entre CFMOTO et Aspar pour la saison 2024 s'annonce prometteuse. Les deux entités partagent des objectifs communs et une détermination sans faille à conquérir les circuits et à écrire une nouvelle page d'histoire dans le monde de la compétition motocycliste.
+        - generic [ref=e83]:
+          - heading "Conclusion sur CFMOTO" [level=4] [ref=e84]:
+            - strong [ref=e85]: Conclusion sur CFMOTO
+          - paragraph [ref=e86]
+          - paragraph [ref=e87]: En conclusion, l'association entre CFMOTO et Aspar pour la saison 2024 marque un tournant décisif dans le monde de la compétition motocycliste. Avec des objectifs ambitieux et une détermination sans faille, ces deux partenaires s'engagent à conquérir les circuits de Moto2 et Moto3. Portés par une vision commune et une volonté de succès, CFMOTO et Aspar incarnent l'esprit de compétition et la recherche incessante de l'excellence. Leur collaboration promet non seulement des victoires sur la piste, mais également une expansion des opportunités de coopération au-delà du monde des Grands Prix. Ensemble, ils tracent la voie vers un avenir radieux, où l'innovation, la passion et le talent se conjuguent pour repousser les limites de la performance motocycliste.
+      - generic [ref=e88]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e89]
+        - paragraph [ref=e90]
+        - paragraph [ref=e91]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e92] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e93]
+        - paragraph [ref=e94]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e95]
+        - paragraph [ref=e96]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e97] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e98]
+        - paragraph [ref=e99]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e100]
+        - paragraph [ref=e101]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e102]
+        - paragraph [ref=e103]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e104] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e105]:
+          - link "Testez notre tarif d'assurance pour votre CFMOTO" [ref=e107] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx?extmar=cfmoto
+          - link "Retrouver mon devis d'assurance CFMOTO" [ref=e109] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e110]:
+        - generic [ref=e111]: Nouveau contenu optimise
+        - heading "Questions fréquentes sur l'assurance CFMOTO" [level=2] [ref=e112]
+        - heading "Combien coûte une assurance moto CFMOTO ?" [level=3] [ref=e113]
+        - paragraph [ref=e114]: Le tarif dépend du modèle, de la sinistralité déclarée du conducteur, de l'adresse du domicile ou du lieu de stationnement, et du niveau de couverture choisi. Le devis en ligne vous donne un tarif personnalisé pour votre modèle CFMOTO en quelques clics.
+        - heading "Peut-on assurer une CFMOTO avec un permis A2 ?" [level=3] [ref=e115]
+        - paragraph [ref=e116]: Oui. Plusieurs modèles de la gamme sont accessibles au permis A2, comme la 450SR ou les versions bridées à 35 kW (47,5 ch) des roadsters et trails. Les formules et options sont les mêmes quel que soit votre permis ; seul le tarif tient compte de votre sinistralité déclarée.
+        - heading "Comment assurer un quad CFMOTO ?" [level=3] [ref=e117]
+        - paragraph [ref=e118]: "L'assurance quad CFMOTO et SSV (gammes CFORCE et ZFORCE) se souscrit aussi simplement que l'assurance moto : devis en ligne avec les informations du véhicule, puis souscription en quelques clics. Pour un modèle homologué route, vous choisissez parmi les formules présentées sur notre page assurance quad ; pour un modèle non homologué, une formule Responsabilité civile dédiée est proposée, en usage privé."
+        - heading "Une CFMOTO d'occasion peut-elle être assurée en tous risques ?" [level=3] [ref=e119]
+        - paragraph [ref=e120]: "Oui. La formule Tous risques n'est pas réservée aux véhicules neufs : elle peut couvrir une CFMOTO d'occasion récente ou de valeur. Pour un modèle de faible valeur marchande, la formule Responsabilité civile ou Vol / Incendie peut suffire."
+      - generic [ref=e121]:
+        - heading "Questions fréquentes" [level=2] [ref=e122]
+        - generic [ref=e123]:
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]:
+              - generic [ref=e126]: Quels sont les objectifs de CFMOTO et Aspar pour la saison 2024 ?
+              - img [ref=e127]
+            - paragraph [ref=e129]: CFMOTO et Aspar ont pour ambition de se battre pour le titre en Moto3 et Moto2 lors de la saison 2024.
+          - generic [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]:
+              - generic [ref=e132]: Pourquoi CFMOTO a-t-il décidé de changer d'équipe pour la saison 2024 ?
+              - img [ref=e133]
+            - paragraph [ref=e135]: CFMOTO a choisi de s'associer au team Aspar pour la saison 2024 afin de poursuivre sa stratégie de visibilité en championnat du monde et d'augmenter ses chances de succès avec une équipe réputée.
+          - generic [ref=e136] [cursor=pointer]:
+            - generic [ref=e137]:
+              - generic [ref=e138]: Comment envisage Su Zhen, responsable du développement chez CFMOTO Racing, la collaboration avec Aspar au-delà de la saison 2024 ?
+              - img [ref=e139]
+            - paragraph [ref=e141]: Su Zhen voit cette collaboration comme une opportunité de passer à un niveau supérieur pour CFMOTO Racing. Il anticipe non seulement des victoires et des podiums, mais aussi la recherche de nouvelles possibilités de coopération au-delà du paddock, soulignant ainsi l'engagement à long terme de CFMOTO dans le monde de la compétition motocycliste..
+        - generic [ref=e142]:
+          - generic [ref=e143] [cursor=pointer]:
+            - generic [ref=e144]:
+              - generic [ref=e145]: Quelle assurance moto choisir ?
+              - img [ref=e146]
+            - paragraph [ref=e148]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e149] [cursor=pointer]:
+            - generic [ref=e150]:
+              - generic [ref=e151]: Quel est le prix d'une assurance moto ?
+              - img [ref=e152]
+            - paragraph [ref=e154]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e155] [cursor=pointer]:
+            - generic [ref=e156]:
+              - generic [ref=e157]: Quelle formule assurance moto choisir ?
+              - img [ref=e158]
+            - paragraph [ref=e160]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e161] [cursor=pointer]:
+            - generic [ref=e162]:
+              - generic [ref=e163]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e164]
+            - paragraph [ref=e166]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - link "Précédent" [ref=e169] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - img [ref=e171]
+        - text: Précédent
+    - generic [ref=e172]:
+      - generic [ref=e174]:
+        - generic [ref=e175]:
+          - link "Retourner à l'accueil" [ref=e177] [cursor=pointer]:
+            - /url: /
+            - img [ref=e178]
+          - paragraph [ref=e181]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e183] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e185] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e187] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e188] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5356 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e189]:
+          - generic [ref=e191]:
+            - generic [ref=e193]: A propos d’AMV
+            - generic [ref=e194]:
+              - link "Qui sommes-nous ?" [ref=e196] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e198] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e200] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e202] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e204] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e206] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e208]:
+            - generic [ref=e210]: Liens utiles
+            - generic [ref=e211]:
+              - link "Besoin d’aide ?" [ref=e213] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e215] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e217] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e219] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e221] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e223] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e225]:
+            - generic [ref=e227]: Assurances
+            - generic [ref=e228]:
+              - link "Assurance Moto" [ref=e230] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e232] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e234] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e236] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e238] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e240] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e242] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e244] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e246] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e248]:
+            - generic [ref=e250]: Devis assurance
+            - generic [ref=e251]:
+              - link "Devis assurance moto" [ref=e253] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e255] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e257] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e259] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e261] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e263] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e265] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e267] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e269] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e271] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e273]:
+          - 'link "Aller sur le site : Facebook" [ref=e274] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e275]
+          - 'link "Aller sur le site : Instagram" [ref=e278] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e279]
+          - 'link "Aller sur le site : LinkedIn" [ref=e281] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e282]
+          - 'link "Aller sur le site : Youtube" [ref=e284] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e285]
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - link "Mentions légales" [ref=e290] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e291] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e292] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e293] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e294] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e295]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e296] [cursor=pointer]: Modifications
+  - generic [ref=e298]:
+    - text: Doublon supprime
+    - text: Nouveau contenu optimise
+  - dialog [ref=e301]:
+    - generic [ref=e303]:
+      - generic [ref=e304]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e305]:
+        - text: Notre site
+        - strong [ref=e306]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e307] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e308] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - group:
+      - button "Accepter et fermer" [ref=e309] [cursor=pointer]
+      - button "Refuser" [ref=e310] [cursor=pointer]
+      - button "Paramétrer" [ref=e311] [cursor=pointer]
