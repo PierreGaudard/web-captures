@@ -28,8 +28,10 @@
       if(af){var fs=af.closest("section")||af;insertBefore(bf,fs);}
       else{var b=document.getElementById("rl-body");if(b)insertAfter(bf,b);}
     }
-    if(!window.__rlStruck){var n=0;[].slice.call(document.querySelectorAll("h2,h3,h4,p,li")).forEach(function(e){
-      if(e.closest(".rl-add"))return;var t=norm(e.textContent);
+    if(!window.__rlStruck){var n=0;var faqH=findByText("h2","questions fr");[].slice.call(document.querySelectorAll("h2,h3,h4,p,li")).forEach(function(e){
+      if(e.closest(".rl-add"))return;
+      if(faqH&&(faqH===e||(faqH.compareDocumentPosition(e)&4)))return;/* ne pas barrer la FAQ existante ni ce qui suit */
+      var t=norm(e.textContent);
       for(var i=0;i<STRIKE.length;i++){if(STRIKE[i]&&t.indexOf(norm(STRIKE[i]))>=0){e.classList.add("rl-del");n++;break;}}
     });if(n)window.__rlStruck=true;}
     return !!(h1&&document.getElementById("rl-body"));

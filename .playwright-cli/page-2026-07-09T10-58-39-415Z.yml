@@ -1,0 +1,351 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par type" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-type/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto sportive
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Comment choisir son assurance moto sportive ?" [level=1] [ref=e38]:
+            - text: Comment choisir son
+            - text: assurance moto sportive ?
+          - generic [ref=e39]:
+            - generic [ref=e40]: H1 propose
+            - generic [ref=e41]: Assurance moto sportive
+        - img "comment-choisir-son-assurance-moto-sportive" [ref=e42]
+      - generic [ref=e43]:
+        - generic [ref=e44]: Nouveau contenu optimise
+        - 'heading "Assurer une moto sportive : ce qui change vraiment" [level=2] [ref=e45]'
+        - paragraph [ref=e46]: "Une moto sportive ne s'assure pas comme un roadster de moyenne cylindrée. Machine de puissance aux performances taillées pour la piste, elle se distingue surtout par une valeur d'achat importante et des pièces et carénages coûteux à réparer : autant d'éléments qui pèsent sur le choix de la couverture et, in fine, sur le prix de l'assurance. AMV, spécialiste de l'assurance deux-roues depuis 1974, assure les sportives et hypersportives de toutes les marques, de la Yamaha YZF-R7 à la BMW S1000RR en passant par les Honda CBR, Suzuki GSX-R, Kawasaki ZX et Ducati Panigale. Comparez les formules et obtenez votre devis en ligne en quelques clics, sans engagement."
+        - heading "Quelle formule d'assurance pour votre moto sportive ?" [level=2] [ref=e47]
+        - paragraph [ref=e48]: AMV propose quatre formules, du tiers au tous risques. Pour bien choisir, raisonnez à partir de la valeur de votre sportive et de son exposition au risque.
+        - heading "Formule Responsabilité civile" [level=3] [ref=e49]
+        - paragraph [ref=e50]: "La formule de base, au tiers, couvre les dommages causés aux tiers lors d'un sinistre responsable (dommages corporels illimités et dommages matériels jusqu'à 100 millions d'euros), inclut une assistance juridique et garantit vos équipements de protection : casque, gants et gilet airbag. Elle peut convenir à une sportive de faible valeur marchande, mais laisse votre machine sans couverture propre en cas de dommages."
+        - heading "Formule Vol / Incendie" [level=3] [ref=e51]
+        - paragraph [ref=e52]: "Cette formule couvre le vol, la tentative de vol et l'incendie, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois. Elle est particulièrement adaptée si votre sportive est stationnée majoritairement en extérieur ou sur la voie publique, où le risque de vol est plus élevé. Bon à savoir : chez AMV, le gravage de votre deux-roues divise la franchise vol par deux."
+        - heading "Formule Dommages collision" [level=3] [ref=e53]
+        - paragraph [ref=e54]: En cas de collision avec un tiers identifié, les dommages causés à votre sportive sont pris en charge et indemnisés à la valeur de remplacement à dire d'expert ou à la valeur à neuf, sous déduction, en cas de sinistre responsable, de la franchise prévue au contrat. Sur une machine dont les carénages et périphériques coûtent cher, cette prise en charge fait la différence.
+        - heading "Formule Tous risques" [level=3] [ref=e55]
+        - paragraph [ref=e56]: "La formule la plus complète : elle couvre les dommages subis par votre moto sportive quelles que soient les circonstances, y compris en cas de sinistre responsable ou de vandalisme. C'est la formule particulièrement recommandée pour une sportive neuve, récente ou financée à crédit, dont la valeur justifie une couverture maximale."
+        - heading "Les options utiles pour une sportive" [level=2] [ref=e57]
+        - heading "Individuelle pilote" [level=3] [ref=e58]
+        - paragraph [ref=e59]: Cette option vous verse un capital pouvant atteindre 800 000 euros en cas d'invalidité permanente, ou à vos ayants droit en cas de décès, même lors d'un accident responsable. Sur une moto aux performances élevées, cette option mérite toute votre attention.
+        - heading "Assistance 0 km" [level=3] [ref=e60]
+        - paragraph [ref=e61]: "Assistance sans franchise kilométrique, 24h/24 et 7j/7 : panne, accident, vol ou tentative de vol, crevaison, perte ou casse de clés, fourrière. Votre sportive est dépannée ou remorquée, et vous êtes rapatrié avec votre passager, en France et dans la plupart des pays d'Europe."
+        - heading "Option plus" [level=3] [ref=e62]
+        - paragraph [ref=e63]: Étend la couverture aux accessoires hors-série et à l'équipement vestimentaire moto, à concurrence de 5 000 euros, et prolonge la valeur à neuf jusqu'à 18 mois. Pour un pilote de sportive, dont le blouson, le casque et la combinaison représentent un vrai budget, cette option peut se révéler particulièrement pertinente.
+        - heading "Le détail des garanties de votre assurance moto sportive" [level=2] [ref=e64]
+        - paragraph [ref=e65]: Quelle que soit la formule choisie, elle repose sur un socle de garanties solides. Les plafonds d'indemnisation sont détaillés ci-dessous.
+        - table [ref=e66]:
+          - rowgroup [ref=e67]:
+            - row "Garantie Couverture" [ref=e68]:
+              - columnheader "Garantie" [ref=e69]
+              - columnheader "Couverture" [ref=e70]
+          - rowgroup [ref=e71]:
+            - row "Responsabilité civile Dommages corporels illimités, dommages matériels jusqu'à 100 000 000 € (1 300 000 € en cas d'incendie)" [ref=e72]:
+              - cell "Responsabilité civile" [ref=e73]
+              - cell "Dommages corporels illimités, dommages matériels jusqu'à 100 000 000 € (1 300 000 € en cas d'incendie)" [ref=e74]
+            - row "Défense pénale et recours suite à accident Jusqu'à 2 300 €" [ref=e75]:
+              - cell "Défense pénale et recours suite à accident" [ref=e76]
+              - cell "Jusqu'à 2 300 €" [ref=e77]
+            - row "Casque, gants, gilet airbag Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 € (vétusté déduite)" [ref=e78]:
+              - cell "Casque, gants, gilet airbag" [ref=e79]
+              - cell "Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 € (vétusté déduite)" [ref=e80]
+            - row "Vol / Incendie Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e81]:
+              - cell "Vol / Incendie" [ref=e82]
+              - cell "Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e83]
+            - row "Individuelle pilote (option) Capital jusqu'à 800 000 € en cas de décès ou d'invalidité permanente" [ref=e84]:
+              - cell "Individuelle pilote (option)" [ref=e85]
+              - cell "Capital jusqu'à 800 000 € en cas de décès ou d'invalidité permanente" [ref=e86]
+            - row "Option plus Équipement vestimentaire moto et accessoires hors-série jusqu'à 5 000 €, valeur à neuf 18 mois" [ref=e87]:
+              - cell "Option plus" [ref=e88]
+              - cell "Équipement vestimentaire moto et accessoires hors-série jusqu'à 5 000 €, valeur à neuf 18 mois" [ref=e89]
+        - heading "L'équipement du motard sportif, un poste à ne pas négliger" [level=2] [ref=e90]
+        - paragraph [ref=e91]: "Sur une sportive, l'équipement n'est pas un accessoire de confort : casque intégral, blouson ou combinaison, gants homologués et bottes protègent le motard à chaque sortie. Dès la première formule, AMV couvre le casque, les gants et le gilet airbag en cas de sinistre. Avec l'Option plus, la couverture s'étend à l'ensemble de l'équipement vestimentaire moto et aux accessoires (top case, sacoches, échappement), jusqu'à 5 000 euros. Un vrai plus, cette garantie étant souvent réservée aux formules haut de gamme ailleurs sur le marché."
+        - 'heading "Jeune conducteur et moto sportive : ce qu''il faut savoir" [level=2] [ref=e92]'
+        - paragraph [ref=e93]:
+          - text: "Le permis A2 limite la puissance à 35 kW (47,5 ch) : certaines sportives existent en version bridée compatible A2, comme la Yamaha YZF-R7 ou la RS 660 d'Aprilia, et les hypersportives exigent le permis A, accessible après la passerelle. L'assurance d'une sportive en début de permis reste toutefois soumise à conditions : selon le modèle et les antécédents du conducteur, elle pourrait ne pas être proposée. Le plus simple est d'en parler à un conseiller AMV. Retrouvez aussi nos conseils sur la page"
+          - link "assurance moto jeune conducteur" [ref=e94] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-jeune-conducteur/
+          - text: . Pour rappel, une surprime jeune conducteur peut atteindre jusqu'à 100 % la première année ; en l'absence de sinistre responsable, elle est limitée à 50 % la deuxième année, puis 25 % la troisième.
+        - heading "Pourquoi choisir AMV pour assurer votre sportive ?" [level=2] [ref=e95]
+        - paragraph [ref=e96]:
+          - text: "AMV, leader de l'assurance deux-roues en France, a plus d'1 million d'assurés. Avec une note de 4,7/5 via Avis Vérifiés, AMV est recommandé par ses assurés (9 sur 10). Depuis 1974, AMV assure toutes les motos, de la 125cc sportive à l'hypersportive, et connaît les besoins spécifiques de leurs pilotes : équipement coûteux, valeur de la machine, réparations particulières. Plus de 350 conseillers basés à Bordeaux vous accompagnent par téléphone ou en ligne, et un conseiller dédié suit votre dossier en cas de sinistre. Découvrez aussi notre"
+          - link "assurance moto" [ref=e97] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance/moto/
+          - text: pour tous les autres types de machines.
+        - heading "Comment souscrire votre assurance moto sportive ?" [level=2] [ref=e98]
+        - paragraph [ref=e99]: Munissez-vous de votre permis de conduire et de votre relevé d'information, renseignez les informations sur votre sportive (marque, modèle, année) et votre profil pour obtenir votre devis en ligne en quelques minutes. Vous pouvez alors comparer les formules et choisir celle qui vous correspond. Si le coût vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par e-mail.
+      - generic [ref=e102]:
+        - heading "Les critères d’une bonne assurance moto sportive" [level=2] [ref=e103]
+        - paragraph [ref=e104]
+        - paragraph [ref=e105]: "Comme pour les autres typologies d’assurance moto, le tarif d’une assurance pour moto sportive dépendra d’une multitude de facteurs : garantie choisie, type de sportive à assurer, date de mise sur le marché, profil du conducteur, ou encore lieu de résidence."
+        - paragraph [ref=e106]
+        - paragraph [ref=e107]: La loi vous impose de souscrire à minima une assurance au tiers. Néanmoins, selon la valeur et votre usage de la moto sportive, cette couverture peut s’avérer insuffisante. En effet, vous ne serez pas protégé en cas de vol, d’incendie, de dégâts matériels sur votre machine ou encore en cas d’accident. Selon le prix d’achat de votre moto sportive, il sera judicieux de privilégier l’assurance Vol/Incendie, voire la garantie Tous Risques, pour rouler plus sereinement.
+        - paragraph [ref=e108]
+        - paragraph [ref=e109]: Selon les caractéristiques de votre moto et les garanties souhaitées, AMV vous propose des offres d’assurance pour moto sportive adaptées à vos besoins réels.
+      - generic [ref=e110]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e111]
+        - paragraph [ref=e112]
+        - paragraph [ref=e113]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e114] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e115]
+        - paragraph [ref=e116]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e117]
+        - paragraph [ref=e118]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e119] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e120]
+        - paragraph [ref=e121]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e122]
+        - paragraph [ref=e123]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e124]
+        - paragraph [ref=e125]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e126] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e127]:
+          - link "Testez notre tarif d'assurance pour votre moto" [ref=e129] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx
+          - link "Retrouver mon devis d'assurance moto" [ref=e131] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e132]:
+        - generic [ref=e133]: Nouveau contenu optimise
+        - heading "Questions fréquentes sur l'assurance moto sportive" [level=2] [ref=e134]
+        - heading "Quelle assurance choisir pour une moto sportive ?" [level=3] [ref=e135]
+        - paragraph [ref=e136]: "Pour une sportive de valeur, la formule Tous risques offre la meilleure protection : dommages toutes circonstances, vol, incendie et vandalisme. Pour un modèle de faible valeur marchande, la formule Vol / Incendie peut constituer un bon compromis, en particulier en cas de stationnement sur la voie publique."
+        - heading "Pourquoi l'assurance d'une moto sportive coûte-t-elle plus cher ?" [level=3] [ref=e137]
+        - paragraph [ref=e138]: Le tarif dépend du modèle, de la sinistralité déclarée du conducteur, de l'adresse du domicile ou du lieu de stationnement, et du niveau de couverture choisi. Sur une sportive, le coût des pièces et des réparations pèse aussi naturellement sur le choix du niveau de couverture.
+        - heading "Peut-on assurer une hypersportive chez AMV ?" [level=3] [ref=e139]
+        - paragraph [ref=e140]: Oui. AMV assure les sportives comme les hypersportives (Yamaha R1, BMW S1000RR, Ducati Panigale V4, Kawasaki ZX-10R...), quelle que soit la puissance, avec les mêmes formules et options. Le devis en ligne s'adapte au modèle exact de votre machine.
+        - heading "L'assurance couvre-t-elle le roulage sur circuit ?" [level=3] [ref=e141]
+        - paragraph [ref=e142]: "Les garanties de votre contrat s'appliquent sur les voies ouvertes à la circulation. Pour la pratique sur circuit ou en compétition, les conditions sont différentes : rapprochez-vous d'un conseiller AMV pour faire le point sur votre situation avant votre journée de roulage."
+        - heading "Comment réduire le prix de son assurance moto sportive ?" [level=3] [ref=e143]
+        - paragraph [ref=e144]: Une sinistralité déclarée favorable et un choix de formule ajusté à la valeur réelle de la machine peuvent influer sur la cotisation. Comparer les niveaux de couverture sur votre devis en ligne permet de trouver le bon équilibre entre protection et budget. Stationner dans un lieu clos reste par ailleurs un bon réflexe contre le vol.
+        - heading "Quels équipements sont couverts avec une sportive ?" [level=3] [ref=e145]
+        - paragraph [ref=e146]: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros) en cas de sinistre. Avec l'Option plus, la couverture s'étend à l'ensemble de l'équipement vestimentaire moto et aux accessoires hors-série, jusqu'à 5 000 euros."
+      - generic [ref=e147]:
+        - heading "Questions fréquentes" [level=2] [ref=e148]
+        - generic [ref=e149]:
+          - generic [ref=e150] [cursor=pointer]:
+            - generic [ref=e151]:
+              - generic [ref=e152]: Quelle assurance moto choisir ?
+              - img [ref=e153]
+            - paragraph [ref=e155]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e156] [cursor=pointer]:
+            - generic [ref=e157]:
+              - generic [ref=e158]: Quel est le prix d'une assurance moto ?
+              - img [ref=e159]
+            - paragraph [ref=e161]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e162] [cursor=pointer]:
+            - generic [ref=e163]:
+              - generic [ref=e164]: Quelle formule assurance moto choisir ?
+              - img [ref=e165]
+            - paragraph [ref=e167]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e168] [cursor=pointer]:
+            - generic [ref=e169]:
+              - generic [ref=e170]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e171]
+            - paragraph [ref=e173]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e174]:
+        - heading "Assurance moto par type" [level=2] [ref=e175]
+        - link "Assurance moto comparatif" [ref=e176] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-comparatif/
+          - generic [ref=e177]:
+            - generic [ref=e178]: Assurance moto comparatif
+            - img [ref=e179]
+        - link "Assurance moto courtier" [ref=e180] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-courtier/
+          - generic [ref=e181]:
+            - generic [ref=e182]: Assurance moto courtier
+            - img [ref=e183]
+        - link "Assurance moto cross" [ref=e184] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-cross/
+          - generic [ref=e185]:
+            - generic [ref=e186]: Assurance moto cross
+            - img [ref=e187]
+        - link "Assurance moto de collection" [ref=e188] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-de-collection/
+          - generic [ref=e189]:
+            - generic [ref=e190]: Assurance moto de collection
+            - img [ref=e191]
+        - link "Assurance moto enduro" [ref=e192] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-enduro/
+          - generic [ref=e193]:
+            - generic [ref=e194]: Assurance moto enduro
+            - img [ref=e195]
+      - link "Précédent" [ref=e198] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-type/
+        - img [ref=e200]
+        - text: Précédent
+    - generic [ref=e201]:
+      - generic [ref=e203]:
+        - generic [ref=e204]:
+          - link "Retourner à l'accueil" [ref=e206] [cursor=pointer]:
+            - /url: /
+            - img [ref=e207]
+          - paragraph [ref=e210]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e212] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e214] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e216] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e217] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5356 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e218]:
+          - generic [ref=e220]:
+            - generic [ref=e222]: A propos d’AMV
+            - generic [ref=e223]:
+              - link "Qui sommes-nous ?" [ref=e225] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e227] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e229] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e231] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e233] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e235] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e237]:
+            - generic [ref=e239]: Liens utiles
+            - generic [ref=e240]:
+              - link "Besoin d’aide ?" [ref=e242] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e244] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e246] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e248] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e250] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e252] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e254]:
+            - generic [ref=e256]: Assurances
+            - generic [ref=e257]:
+              - link "Assurance Moto" [ref=e259] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e261] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e263] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e265] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e267] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e269] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e271] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e273] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e275] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e277]:
+            - generic [ref=e279]: Devis assurance
+            - generic [ref=e280]:
+              - link "Devis assurance moto" [ref=e282] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e284] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e286] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e288] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e290] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e292] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e294] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e296] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e298] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e300] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e302]:
+          - 'link "Aller sur le site : Facebook" [ref=e303] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e304]
+          - 'link "Aller sur le site : Instagram" [ref=e307] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e308]
+          - 'link "Aller sur le site : LinkedIn" [ref=e310] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e311]
+          - 'link "Aller sur le site : Youtube" [ref=e313] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e314]
+      - generic [ref=e317]:
+        - generic [ref=e318]:
+          - link "Mentions légales" [ref=e319] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e320] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e321] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e322] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e323] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e324]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e325] [cursor=pointer]: Modifications
+  - generic [ref=e327]:
+    - text: Doublon supprime
+    - text: Nouveau contenu optimise
+  - dialog [ref=e330]:
+    - generic [ref=e332]:
+      - generic [ref=e333]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e334]:
+        - text: Notre site
+        - strong [ref=e335]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e336] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e337] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - group:
+      - button "Accepter et fermer" [ref=e338] [cursor=pointer]
+      - button "Refuser" [ref=e339] [cursor=pointer]
+      - button "Paramétrer" [ref=e340] [cursor=pointer]
