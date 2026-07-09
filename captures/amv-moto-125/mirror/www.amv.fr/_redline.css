@@ -90,3 +90,7 @@ body:not(.rl-on) #rl-legend{ display:none; }
 
 /* Garde-fou : empeche l'image hero (flex align-stretch) de s'etirer quand on injecte du contenu */
 main img.lazy-img{ max-height:520px !important; object-fit:cover !important; align-self:flex-start !important; }
+
+/* Neutralise la popup cookies TrustCommander sur la copie de preview */
+#popin_tc_privacy, .tc-privacy-wrapper, #privacy-overlay, .tc-privacy-overlay, .tc-privacy-popin, .tc-privacy-banner { display:none !important; visibility:hidden !important; }
+html, body { overflow-y:auto !important; }
