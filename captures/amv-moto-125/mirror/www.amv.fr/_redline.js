@@ -21,7 +21,7 @@
     var h1=document.querySelector("h1");
     if(h1&&!h1.getAttribute("data-rl")){h1.setAttribute("data-rl","1");var nh=el("div","rl-add rl-inline",null);nh.id="rl-h1box";nh.appendChild(el("span","rl-badge","H1 propose"));nh.appendChild(el("span","rl-h1",H1));insertAfter(nh,h1);}
     var h1box=document.getElementById("rl-h1box");
-    if(h1box&&!document.getElementById("rl-body")){var bb=block(BODY);bb.id="rl-body";insertAfter(bb,h1box);}
+    if(h1box&&!document.getElementById("rl-body")){var bb=block(BODY);bb.id="rl-body";var hero=h1.closest(".gap-amv40")||h1.closest("section")||h1.closest(".umb-block-list")||h1box;insertAfter(bb,hero);}
     if(FAQ&&FAQ.length&&!document.getElementById("rl-faq")){
       var af=findByText("h2","questions fr");
       var bf=block(FAQ);bf.id="rl-faq";

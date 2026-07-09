@@ -87,3 +87,6 @@ body:not(.rl-on) #rl-legend{ display:none; }
 #rl-legend .sw{ display:inline-block; width:12px; height:12px; border-radius:3px; margin-right:6px; vertical-align:-1px; }
 #rl-legend .sw-del{ background:#ffe7e7; border:1px solid #c0392b; }
 #rl-legend .sw-add{ background:#00A850; }
+
+/* Garde-fou : empeche l'image hero (flex align-stretch) de s'etirer quand on injecte du contenu */
+main img.lazy-img{ max-height:520px !important; object-fit:cover !important; align-self:flex-start !important; }

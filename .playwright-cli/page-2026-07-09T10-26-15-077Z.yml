@@ -1,0 +1,539 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - generic [ref=e32]: ">"
+        - link "Assurance moto YAMAHA" [ref=e33] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/assurance-moto-yamaha/
+        - generic [ref=e34]: ">"
+        - generic [ref=e35]: Assurance T-MAX
+      - generic [ref=e36]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: AMV
+          - heading "Assurance Yamaha T-Max" [level=1] [ref=e40]
+          - generic [ref=e41]:
+            - generic [ref=e42]: H1 propose
+            - generic [ref=e43]: Assurance TMAX
+          - generic [ref=e44]:
+            - generic [ref=e45]: Nouveau contenu optimise
+            - generic [ref=e46]:
+              - generic [ref=e47]: ✓
+              - generic [ref=e48]: l'assurance TMAX chez AMV couvre toutes les générations du maxi-scooter Yamaha (XP 500, TMAX 530, TMAX 560, séries Iron Max et Tech Max) avec 4 formules, du tiers au tous risques. Si votre TMAX stationne sur la voie publique, où le risque de vol est plus élevé, la garantie Vol / Incendie est particulièrement pertinente. Devis en ligne gratuit en quelques minutes.
+            - heading "Nos 4 formules d'assurance TMAX" [level=2] [ref=e49]
+            - paragraph [ref=e50]: "Le TMAX Yamaha est la référence des maxi-scooters : puissance, confort et design en font l'un des deux-roues les plus prisés de France. AMV, spécialiste de l'assurance deux-roues, propose quatre formules d'assurance adaptées à chaque TMAX, selon sa valeur, son usage et votre budget. Comparez les différentes formules et options et obtenez votre devis en ligne en quelques clics, sans engagement."
+            - heading "Formule Responsabilité civile" [level=3] [ref=e51]
+            - paragraph [ref=e52]: "La formule de base, au tiers, couvre les dommages causés aux tiers lors d'un sinistre responsable (dommages corporels illimités et dommages matériels jusqu'à 100 millions d'euros), inclut une assistance juridique et garantit vos équipements de protection : casque, gants et gilet airbag. La responsabilité civile est la garantie obligatoire pour circuler en toute légalité. Elle peut convenir aux TMAX de faible valeur marchande."
+            - heading "Formule Vol / Incendie" [level=3] [ref=e53]
+            - paragraph [ref=e54]: Cette formule couvre le vol, la tentative de vol et l'incendie, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois. Elle est particulièrement pertinente si votre TMAX stationne majoritairement en extérieur ou sur la voie publique, où le risque de vol est plus élevé.
+            - heading "Formule Dommages collision" [level=3] [ref=e55]
+            - paragraph [ref=e56]: En cas de collision avec un tiers identifié, les dommages causés à votre maxi-scooter sont pris en charge et indemnisés à la valeur de remplacement à dire d'expert ou à la valeur à neuf, sous déduction, en cas de sinistre responsable, de la franchise prévue au contrat. Adaptée à un usage quotidien en circulation dense.
+            - heading "Formule Tous risques" [level=3] [ref=e57]
+            - paragraph [ref=e58]: La formule la plus complète pour protéger votre TMAX. Elle couvre les dommages subis par votre véhicule, quelles que soient les circonstances, y compris en cas de sinistre responsable ou de vandalisme. L'indemnisation est effectuée selon les conditions prévues au contrat, après déduction de la franchise applicable. Compte tenu du prix d'un TMAX neuf, c'est la formule particulièrement recommandée pour un modèle récent ou financé à crédit.
+            - heading "Les options pour personnaliser votre contrat" [level=2] [ref=e59]
+            - paragraph [ref=e60]: Chaque formule peut être complétée par des options afin d'adapter votre couverture à vos besoins et aux caractéristiques de votre TMAX.
+            - heading "Individuelle pilote" [level=3] [ref=e61]
+            - paragraph [ref=e62]: Cette option vous verse un capital pouvant atteindre 800 000 euros en cas d'invalidité permanente, ou à vos ayants droit en cas de décès, même lors d'un accident responsable. Pour un maxi-scooter utilisé au quotidien, cette option est précieuse.
+            - heading "Assistance 0 km" [level=3] [ref=e63]
+            - paragraph [ref=e64]: "Assistance sans franchise kilométrique, 24h/24 et 7j/7 : panne, accident, vol ou tentative de vol, crevaison, perte ou casse de clés, fourrière. Votre TMAX est dépanné ou remorqué, et vous êtes rapatrié avec votre passager, en France et dans la plupart des pays d'Europe."
+            - heading "Option plus" [level=3] [ref=e65]
+            - paragraph [ref=e66]: Étend la couverture aux accessoires hors-série et à l'équipement vestimentaire moto, à concurrence de 5 000 euros, et prolonge la valeur à neuf jusqu'à 18 mois. Intéressante pour les TMAX équipés (top case, sacoches, échappement).
+            - heading "Le détail des garanties de votre assurance TMAX" [level=2] [ref=e67]
+            - paragraph [ref=e68]: Quelle que soit la formule choisie, elle repose sur un socle de garanties solides. Les plafonds d'indemnisation sont détaillés ci-dessous.
+            - table [ref=e69]:
+              - rowgroup [ref=e70]:
+                - row "Garantie Couverture" [ref=e71]:
+                  - columnheader "Garantie" [ref=e72]
+                  - columnheader "Couverture" [ref=e73]
+              - rowgroup [ref=e74]:
+                - row "Responsabilité civile Dommages corporels illimités, dommages matériels jusqu'à 100 000 000 € (1 300 000 € en cas d'incendie)" [ref=e75]:
+                  - cell "Responsabilité civile" [ref=e76]
+                  - cell "Dommages corporels illimités, dommages matériels jusqu'à 100 000 000 € (1 300 000 € en cas d'incendie)" [ref=e77]
+                - row "Défense pénale et recours suite à accident Jusqu'à 2 300 €" [ref=e78]:
+                  - cell "Défense pénale et recours suite à accident" [ref=e79]
+                  - cell "Jusqu'à 2 300 €" [ref=e80]
+                - row "Casque, gants, gilet airbag Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 € (vétusté déduite)" [ref=e81]:
+                  - cell "Casque, gants, gilet airbag" [ref=e82]
+                  - cell "Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 € (vétusté déduite)" [ref=e83]
+                - row "Vol / Incendie Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e84]:
+                  - cell "Vol / Incendie" [ref=e85]
+                  - cell "Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e86]
+                - row "Individuelle pilote (option) Capital jusqu'à 800 000 € en cas de décès ou d'invalidité permanente" [ref=e87]:
+                  - cell "Individuelle pilote (option)" [ref=e88]
+                  - cell "Capital jusqu'à 800 000 € en cas de décès ou d'invalidité permanente" [ref=e89]
+                - row "Option plus Équipement vestimentaire moto et accessoires hors-série jusqu'à 5 000 €, valeur à neuf 18 mois" [ref=e90]:
+                  - cell "Option plus" [ref=e91]
+                  - cell "Équipement vestimentaire moto et accessoires hors-série jusqu'à 5 000 €, valeur à neuf 18 mois" [ref=e92]
+            - heading "Quel TMAX peut-on assurer chez AMV ?" [level=2] [ref=e93]
+            - paragraph [ref=e94]: "Depuis son lancement en 2001, le TMAX incarne l'évolution du maxi-scooter : à chaque génération, Yamaha a fait progresser la puissance, le design et les innovations embarquées (contrôle de traction, modes de conduite, connectivité). AMV assure toutes les générations et toutes les séries :"
+            - list [ref=e95]:
+              - listitem [ref=e96]: "✓ Yamaha XP 500 TMAX : le modèle d'origine, qui a créé la catégorie du maxi-scooter sportif ;"
+              - listitem [ref=e97]: ✓ TMAX 530, y compris les versions SX et DX ;
+              - listitem [ref=e98]: "✓ TMAX Iron Max : la série spéciale au design premium, très recherchée en occasion ;"
+              - listitem [ref=e99]: ✓ TMAX 560 et sa version haut de gamme Tech Max, la génération actuelle.
+            - paragraph [ref=e100]:
+              - text: Neuf ou d'occasion, votre
+              - link "assurance scooter" [ref=e101] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance/scooter/
+              - text: "s'adapte à votre modèle et à votre usage. AMV assure également tous les autres modèles de la marque, du XMAX 125 aux roadsters MT-07 et MT-09, en passant par les FZ6 et FZS Fazer d'occasion : retrouvez-les sur notre page"
+              - link "assurance moto Yamaha" [ref=e102] [cursor=pointer]:
+                - /url: https://www.amv.fr/assurance-moto/assurance-moto-yamaha/
+              - text: .
+            - heading "Protéger votre TMAX contre le vol" [level=2] [ref=e103]
+            - paragraph [ref=e104]: "Comme tout deux-roues stationné sur la voie publique, le TMAX est exposé au risque de vol, en particulier en ville. Pour limiter ce risque, privilégiez un antivol homologué (U ou chaîne), idéalement combiné à un bloque-disque avec alarme, et attachez votre maxi-scooter à un point fixe. Le stationnement dans un parking fermé est également dissuasif. Bon à savoir : chez AMV, le gravage de votre deux-roues divise la franchise vol par deux. Côté assurance, la formule Vol / Incendie ou une formule plus complète mérite d'être envisagée : en cas de vol, vous êtes indemnisé à la valeur de remplacement à dire d'expert, ou à la valeur à neuf durant les 6 premiers mois suivant l'achat (jusqu'à 18 mois avec l'Option plus)."
+            - heading "Pourquoi choisir AMV pour votre assurance TMAX ?" [level=2] [ref=e105]
+            - paragraph [ref=e106]: "AMV, leader de l'assurance deux-roues en France, a plus d'1 million d'assurés. Avec une note de 4,7/5 via Avis Vérifiés, AMV est recommandé par ses assurés (9 sur 10). En tant que spécialiste de l'assurance deux-roues depuis 1974, AMV assure les maxi-scooters au quotidien et connaît leurs besoins spécifiques : stationnement urbain, valeur importante du véhicule, équipement sollicité chaque jour. Là où d'autres compagnies s'appuient sur des grilles plus standardisées, AMV ajuste la cotisation au modèle exact et à sa génération. Plus de 350 conseillers basés à Bordeaux vous accompagnent par téléphone ou en ligne, et un conseiller dédié suit votre dossier en cas de sinistre, de la déclaration à l'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV."
+            - heading "Comment obtenir votre devis d'assurance TMAX ?" [level=2] [ref=e107]
+            - paragraph [ref=e108]: Munissez-vous de votre permis de conduire et de votre relevé d'information, renseignez les informations sur votre TMAX (génération, année, valeur) et votre profil pour obtenir votre devis d'assurance en ligne en quelques minutes. Vous pouvez alors comparer les formules et choisir celle qui vous correspond. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par e-mail.
+        - img "assurance-yamaha-t-max" [ref=e109]
+      - generic [ref=e111]:
+        - paragraph [ref=e113]: Le Yamaha XP 500 T-Max, scooter emblématique de la marque japonaise, a connu une évolution remarquable depuis 2001, date de sa sortie sur le marché européen. La seconde génération a été présentée en 2008 en Europe, puis introduite sur le marché américain en 2009. Ce maxi-scooter se distingue par ses performances et sa conception robuste, offrant aux passionnés de deux-roues une expérience de conduite exceptionnelle.
+        - generic [ref=e114]:
+          - 'heading "Évolution Exquise : le Yamaha XP 500 T-Max, un Maxi-Scooter à la Confluence de la Puissance et de l''Innovation" [level=2] [ref=e115]'
+          - paragraph [ref=e116]
+          - paragraph [ref=e117]:
+            - text: Dès 1996, le XP 500 a succédé au XP 250 Majesty, arborant une configuration imposante avec un moteur bicylindre de 499cm³. Le modèle de 2004 a marqué l'introduction de l'injection, tandis que le châssis rigide en fonte d'aluminium a été adopté à partir de 2008, renforçant la structure du scooter. Une caractéristique distinctive est la transmission finale à double chaîne logée dans le bras de suspension gauche, baignant dans l'huile (remplacée ultérieurement par une courroie plus légère en 2012). Le moteur est monté sur le cadre et non sur les bras de suspension, conférant une stabilité exceptionnelle.
+            - text: Le XP 500 T-Max est salué comme maxi-scooter, combinant la puissance d'une moto avec la praticité d'un scooter urbain. En Italie et en France, les scooters de grosse cylindrée comme le T-Max sont prisés par les citadins qui cherchent à concilier puissance et agilité pour naviguer dans les grandes villes congestionnées aux espaces de stationnement limités.
+            - text: Néanmoins, ces scooters suscitent parfois des regards désapprobateurs en France, en raison du comportement parfois irresponsable de leurs pilote. Depuis 2001, le T-Max détient la triste première place dans le classement des deux-roues les plus volés en France, marquant à la fois sa popularité et sa convoitise.
+            - text: Les principaux rivaux du T-Max sont des modèles tels le Kymco AK 550, Honda X-ADV, BMW C 650, Suzuki Burgman, Piaggio X9, Aprilia Scarabeo 500 ie et Honda Silver Wing, illustrant la compétition féroce dans la catégorie des maxi-scooters.
+            - text: Les différentes générations du T-Max présentent des améliorations notables. La première génération en 2001 se caractérise par un cadre tubulaire en acier, une fourche télescopique de 38 mm, et un moteur bicylindre de 499cm³. En 2008, la deuxième génération voit l'introduction d'un cadre en aluminium coulé, des étriers de frein avant radiaux, et une roue avant de 15 pouces. La troisième génération reste peu évolutive, mais la quatrième génération de 2015 marque l'adoption d'une fourche inversée de 41 mm et d'un système d'allumage sans clé.
+            - text: En 2017, le T-Max subit un lifting avec un nouveau carénage, un bras oscillant en aluminium plus léger, un contrôle de traction et un espace de rangement accru. La version DX propose des fonctionnalités avancées telles qu'un régulateur de vitesse, des courbes de puissance réglables, une bulle électronique, un guidon et une selle chauffants, une suspension arrière réglable et l'application My T-MaxConnect avec GPS intégré.
+            - text: "En 2020, le T-Max évolue davantage encore avec une cylindrée portée à 562cm³, une puissance de 47,5 ch à 7 500 tr/min, un couple de 5,88 m kg à 5 250 tr/min et la mise en conformité à la norme Euro 5. Deux versions sont disponibles : la standard et la Tech Max, offrant des équipements avancés hérités de la version DX de 2019. Ainsi, le Yamaha XP 500 T-Max continue d'évoluer pour répondre aux exigences évolutives des passionnés de scooters à travers le monde."
+        - generic [ref=e118]:
+          - heading "Conclusion sur la Yamaha T- Max" [level=2] [ref=e119]
+          - paragraph [ref=e120]
+          - paragraph [ref=e121]: En conclusion, le Yamaha XP 500 T-Max incarne l'alliance parfaite entre la puissance d'une moto et la praticité d'un scooter, suscitant l'admiration des passionnés à travers ses différentes générations. Malgré sa popularité, il fait face à des défis tels qu'une perception négative en France et le triste classement des deux-roues les plus volés. Cependant, ses constantes évolutions, ses caractéristiques innovantes et les améliorations techniques lui permettent de rester au sommet de la hiérarchie des maxi-scooters. Le T-Max, véritable symbole d'évolution, reste une valeur sûre du deux-roues urbain performant et élégant.
+      - generic [ref=e122]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e123]
+        - paragraph [ref=e124]
+        - paragraph [ref=e125]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e126] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e127]
+        - paragraph [ref=e128]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e129]
+        - paragraph [ref=e130]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e131] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e132]
+        - paragraph [ref=e133]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e134]
+        - paragraph [ref=e135]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e136]
+        - paragraph [ref=e137]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e138] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e139]:
+          - link "Testez notre tarif d'assurance pour votre YAMAHA" [ref=e141] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx?extmar=yamaha
+          - link "Retrouver mon devis d'assurance YAMAHA" [ref=e143] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e144]:
+        - generic [ref=e145]: Nouveau contenu optimise
+        - heading "Questions fréquentes sur l'assurance TMAX" [level=2] [ref=e146]
+        - heading "Quelle est la meilleure assurance pour un TMAX ?" [level=3] [ref=e147]
+        - paragraph [ref=e148]: La meilleure assurance pour un TMAX dépend de la valeur de votre maxi-scooter et de votre budget. Si votre TMAX stationne régulièrement sur la voie publique, la formule Vol / Incendie peut constituer un socle pertinent, et la formule Tous risques offre la meilleure protection pour un modèle neuf, récent ou financé à crédit.
+        - heading "Combien coûte une assurance TMAX ?" [level=3] [ref=e149]
+        - paragraph [ref=e150]: La cotisation dépend du modèle et de la génération du TMAX, de la sinistralité déclarée du conducteur, de l'adresse du domicile ou du lieu de stationnement, et du niveau de couverture choisi. Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics.
+        - heading "Quel permis faut-il pour conduire un TMAX ?" [level=3] [ref=e151]
+        - paragraph [ref=e152]: "Le TMAX 560 développe une puissance qui le rend accessible avec le permis A2 (dès 18 ans) comme avec le permis A. Le permis B, même avec la formation de 7 heures, ne suffit pas : cette formation ne permet de conduire que des deux-roues de 125cc maximum."
+        - heading "Un jeune conducteur peut-il assurer un TMAX ?" [level=3] [ref=e153]
+        - paragraph [ref=e154]: Oui, dès 18 ans avec le permis adapté. Une surprime jeune conducteur peut atteindre jusqu'à 100 % la première année ; en l'absence de sinistre responsable, elle est limitée à 50 % la deuxième année, puis 25 % la troisième. Le niveau de couverture et le modèle choisis influencent aussi la prime.
+        - heading "L'assurance TMAX couvre-t-elle le vol sans effraction ?" [level=3] [ref=e155]
+        - paragraph [ref=e156]: Les conditions d'indemnisation en cas de vol, notamment l'exigence de traces d'effraction pour une tentative de vol, sont détaillées au contrat. Dans tous les cas, utilisez systématiquement un antivol homologué et déclarez tout vol rapidement aux forces de l'ordre, puis à AMV depuis Mon Espace AMV.
+        - heading "Comment résilier son assurance TMAX actuelle ?" [level=3] [ref=e157]
+        - paragraph [ref=e158]: Après la première année, la loi Hamon vous permet de résilier à tout moment, sans frais ni pénalité. Demandez d'abord votre devis chez AMV, puis mandatez AMV pour effectuer les démarches de résiliation à votre place auprès de votre assureur actuel.
+      - generic [ref=e159]:
+        - heading "Questions fréquentes" [level=2] [ref=e160]
+        - generic [ref=e161]:
+          - generic [ref=e162] [cursor=pointer]:
+            - generic [ref=e163]:
+              - generic [ref=e164]: Quelles caractéristiques distinguent le Yamaha XP 500 T-Max des autres scooters de grosse cylindrée sur le marché ?
+              - img [ref=e165]
+            - paragraph [ref=e167]: Le T-Max se démarque par son moteur bicylindre de 499cm³, son châssis rigide en fonte d'aluminium (à partir de 2008), et sa transmission finale à double chaîne (plus tard remplacée par une courroie en 2012). Ces éléments, associés à son montage de moteur sur le cadre plutôt que sur les bras de suspension, confèrent au T-Max une stabilité exceptionnelle et une puissance comparable à celle d'une moto.
+          - generic [ref=e168] [cursor=pointer]:
+            - generic [ref=e169]:
+              - generic [ref=e170]: Quels sont les défis auxquels le Yamaha XP 500 T-Max est confronté en France malgré sa popularité ?
+              - img [ref=e171]
+            - paragraph [ref=e173]: En France, le T-Max est parfois mal perçu en raison du comportement irresponsable de leurs pilotes, souvent séduits par sa facilité de conduite et sa puissance. De plus, le scooter détient depuis 2001 la première place dans le triste classement des deux-roues les plus volés en France, mettant en évidence un défi majeur en matière de sécurité et de prévention du vol.
+          - generic [ref=e174] [cursor=pointer]:
+            - generic [ref=e175]:
+              - generic [ref=e176]: Comment le Yamaha XP 500 T-Max a-t-il évolué au fil des générations, et quelles sont les innovations clés introduites au fil des ans ?
+              - img [ref=e177]
+            - paragraph [ref=e179]: Le T-Max a connu une évolution significative depuis la première génération en 2001. Les améliorations incluent le passage à un cadre en aluminium coulé en 2008, l'adoption d'une transmission par courroie en 2012, l'introduction d'une fourche inversée et d'un système d'allumage sans clé en 2015, et des mises à jour continues telles que l'augmentation de la cylindrée en 2020 pour répondre aux normes Euro 5. Ces innovations témoignent de l'engagement constant de Yamaha à améliorer le T-Max et à offrir une expérience de conduite toujours meilleure.
+        - generic [ref=e180]:
+          - generic [ref=e181] [cursor=pointer]:
+            - generic [ref=e182]:
+              - generic [ref=e183]: Quelle assurance moto choisir ?
+              - img [ref=e184]
+            - paragraph [ref=e186]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e187] [cursor=pointer]:
+            - generic [ref=e188]:
+              - generic [ref=e189]: Quel est le prix d'une assurance moto ?
+              - img [ref=e190]
+            - paragraph [ref=e192]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e193] [cursor=pointer]:
+            - generic [ref=e194]:
+              - generic [ref=e195]: Quelle formule assurance moto choisir ?
+              - img [ref=e196]
+            - paragraph [ref=e198]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e199] [cursor=pointer]:
+            - generic [ref=e200]:
+              - generic [ref=e201]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e202]
+            - paragraph [ref=e204]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e205]:
+        - heading "Assurance pour les autres modèles Yamaha" [level=2] [ref=e206]
+        - link "Assurance 1300 XJR" [ref=e207] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-1300-xjr/
+          - generic [ref=e208]:
+            - generic [ref=e209]: Assurance 1300 XJR
+            - img [ref=e210]
+        - link "Assurance 450 SUPERMOTARD" [ref=e211] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-450-supermotard/
+          - generic [ref=e212]:
+            - generic [ref=e213]: Assurance 450 SUPERMOTARD
+            - img [ref=e214]
+        - link "Assurance FJR" [ref=e215] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-fjr/
+          - generic [ref=e216]:
+            - generic [ref=e217]: Assurance FJR
+            - img [ref=e218]
+        - link "Assurance FZ6 FAZER" [ref=e219] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-fz6-fazer/
+          - generic [ref=e220]:
+            - generic [ref=e221]: Assurance FZ6 FAZER
+            - img [ref=e222]
+        - link "Assurance FZ6 FAZER 98CV" [ref=e223] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-fz6-fazer-98cv/
+          - generic [ref=e224]:
+            - generic [ref=e225]: Assurance FZ6 FAZER 98CV
+            - img [ref=e226]
+        - link "Assurance FZ8" [ref=e227] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-fz8/
+          - generic [ref=e228]:
+            - generic [ref=e229]: Assurance FZ8
+            - img [ref=e230]
+        - link "Assurance FZS 600 FAZER" [ref=e231] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-fzs-600-fazer/
+          - generic [ref=e232]:
+            - generic [ref=e233]: Assurance FZS 600 FAZER
+            - img [ref=e234]
+        - link "Assurance FZS FAZER" [ref=e235] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-fzs-fazer/
+          - generic [ref=e236]:
+            - generic [ref=e237]: Assurance FZS FAZER
+            - img [ref=e238]
+        - link "Assurance FZX 750 FAZER" [ref=e239] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-fzx-750-fazer/
+          - generic [ref=e240]:
+            - generic [ref=e241]: Assurance FZX 750 FAZER
+            - img [ref=e242]
+        - link "Assurance MT-07" [ref=e243] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-mt-07/
+          - generic [ref=e244]:
+            - generic [ref=e245]: Assurance MT-07
+            - img [ref=e246]
+        - link "Assurance MT-07 47,5CV" [ref=e247] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-mt-07-47-5cv/
+          - generic [ref=e248]:
+            - generic [ref=e249]: Assurance MT-07 47,5CV
+            - img [ref=e250]
+        - link "Assurance MT-09" [ref=e251] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-mt-09/
+          - generic [ref=e252]:
+            - generic [ref=e253]: Assurance MT-09
+            - img [ref=e254]
+        - link "Assurance MT-09 TRACER" [ref=e255] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-mt-09-tracer/
+          - generic [ref=e256]:
+            - generic [ref=e257]: Assurance MT-09 TRACER
+            - img [ref=e258]
+        - link "Assurance MT-125" [ref=e259] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-mt-125/
+          - generic [ref=e260]:
+            - generic [ref=e261]: Assurance MT-125
+            - img [ref=e262]
+        - link "Assurance NIKEN GT" [ref=e263] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-niken-gt/
+          - generic [ref=e264]:
+            - generic [ref=e265]: Assurance NIKEN GT
+            - img [ref=e266]
+        - link "Assurance R1" [ref=e267] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-r1/
+          - generic [ref=e268]:
+            - generic [ref=e269]: Assurance R1
+            - img [ref=e270]
+        - link "Assurance R6" [ref=e271] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-r6/
+          - generic [ref=e272]:
+            - generic [ref=e273]: Assurance R6
+            - img [ref=e274]
+        - link "Assurance RAPTOR" [ref=e275] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-raptor/
+          - generic [ref=e276]:
+            - generic [ref=e277]: Assurance RAPTOR
+            - img [ref=e278]
+        - link "Assurance T-MAX 530" [ref=e279] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-t-max-530/
+          - generic [ref=e280]:
+            - generic [ref=e281]: Assurance T-MAX 530
+            - img [ref=e282]
+        - link "Assurance T-MAX 530 ABS" [ref=e283] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-t-max-530-abs/
+          - generic [ref=e284]:
+            - generic [ref=e285]: Assurance T-MAX 530 ABS
+            - img [ref=e286]
+        - link "Assurance T-MAX 530 DX" [ref=e287] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-t-max-530-dx/
+          - generic [ref=e288]:
+            - generic [ref=e289]: Assurance T-MAX 530 DX
+            - img [ref=e290]
+        - link "Assurance T-MAX IRON MAX" [ref=e291] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-t-max-iron-max/
+          - generic [ref=e292]:
+            - generic [ref=e293]: Assurance T-MAX IRON MAX
+            - img [ref=e294]
+        - link "Assurance TDM" [ref=e295] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-tdm/
+          - generic [ref=e296]:
+            - generic [ref=e297]: Assurance TDM
+            - img [ref=e298]
+        - link "Assurance TÉNÉRÉ 700" [ref=e299] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-tenere-700/
+          - generic [ref=e300]:
+            - generic [ref=e301]: Assurance TÉNÉRÉ 700
+            - img [ref=e302]
+        - link "Assurance TRACER 7 GT" [ref=e303] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-tracer-7-gt/
+          - generic [ref=e304]:
+            - generic [ref=e305]: Assurance TRACER 7 GT
+            - img [ref=e306]
+        - link "Assurance TRACER 9 GT+" [ref=e307] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-tracer-9-gtplus/
+          - generic [ref=e308]:
+            - generic [ref=e309]: Assurance TRACER 9 GT+
+            - img [ref=e310]
+        - link "Assurance X-MAX 125" [ref=e311] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-x-max-125/
+          - generic [ref=e312]:
+            - generic [ref=e313]: Assurance X-MAX 125
+            - img [ref=e314]
+        - link "Assurance XJ 600" [ref=e315] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-xj-600/
+          - generic [ref=e316]:
+            - generic [ref=e317]: Assurance XJ 600
+            - img [ref=e318]
+        - link "Assurance XJ6" [ref=e319] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-xj6/
+          - generic [ref=e320]:
+            - generic [ref=e321]: Assurance XJ6
+            - img [ref=e322]
+        - link "Assurance XJ6 47,5CV" [ref=e323] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-xj6-47-5cv/
+          - generic [ref=e324]:
+            - generic [ref=e325]: Assurance XJ6 47,5CV
+            - img [ref=e326]
+        - link "Assurance XJR" [ref=e327] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-xjr/
+          - generic [ref=e328]:
+            - generic [ref=e329]: Assurance XJR
+            - img [ref=e330]
+        - link "Assurance XJR 400" [ref=e331] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-xjr-400/
+          - generic [ref=e332]:
+            - generic [ref=e333]: Assurance XJR 400
+            - img [ref=e334]
+        - link "Assurance YBR 125" [ref=e335] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-ybr-125/
+          - generic [ref=e336]:
+            - generic [ref=e337]: Assurance YBR 125
+            - img [ref=e338]
+        - link "Assurance YZF R1" [ref=e339] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-yzf-r1/
+          - generic [ref=e340]:
+            - generic [ref=e341]: Assurance YZF R1
+            - img [ref=e342]
+        - link "Assurance YZF R6" [ref=e343] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-yzf-r6/
+          - generic [ref=e344]:
+            - generic [ref=e345]: Assurance YZF R6
+            - img [ref=e346]
+        - link "Assurance YZF-R 125" [ref=e347] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-yamaha/assurance-yzf-r-125/
+          - generic [ref=e348]:
+            - generic [ref=e349]: Assurance YZF-R 125
+            - img [ref=e350]
+      - link "Précédent" [ref=e353] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-constructeur/assurance-moto-yamaha/
+        - img [ref=e355]
+        - text: Précédent
+    - generic [ref=e356]:
+      - generic [ref=e358]:
+        - generic [ref=e359]:
+          - link "Retourner à l'accueil" [ref=e361] [cursor=pointer]:
+            - /url: /
+            - img [ref=e362]
+          - paragraph [ref=e365]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e367] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e369] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e371] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e372] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5356 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e373]:
+          - generic [ref=e375]:
+            - generic [ref=e377]: A propos d’AMV
+            - generic [ref=e378]:
+              - link "Qui sommes-nous ?" [ref=e380] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e382] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e384] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e386] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e388] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e390] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e392]:
+            - generic [ref=e394]: Liens utiles
+            - generic [ref=e395]:
+              - link "Besoin d’aide ?" [ref=e397] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e399] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e401] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e403] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e405] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e407] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e409]:
+            - generic [ref=e411]: Assurances
+            - generic [ref=e412]:
+              - link "Assurance Moto" [ref=e414] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e416] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e418] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e420] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e422] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e424] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e426] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e428] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e430] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e432]:
+            - generic [ref=e434]: Devis assurance
+            - generic [ref=e435]:
+              - link "Devis assurance moto" [ref=e437] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e439] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e441] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e443] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e445] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e447] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e449] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e451] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e453] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e455] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e457]:
+          - 'link "Aller sur le site : Facebook" [ref=e458] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e459]
+          - 'link "Aller sur le site : Instagram" [ref=e462] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e463]
+          - 'link "Aller sur le site : LinkedIn" [ref=e465] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e466]
+          - 'link "Aller sur le site : Youtube" [ref=e468] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e469]
+      - generic [ref=e472]:
+        - generic [ref=e473]:
+          - link "Mentions légales" [ref=e474] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e475] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e476] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e477] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e478] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e479]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e480] [cursor=pointer]: Modifications
+  - generic [ref=e482]:
+    - text: Doublon supprime
+    - text: Nouveau contenu optimise
+  - dialog [ref=e485]:
+    - generic [ref=e487]:
+      - generic [ref=e488]: Chez AMV, nous respectons votre vie privée.
+      - paragraph [ref=e489]:
+        - text: Notre site
+        - strong [ref=e490]: amv.fr
+        - text: et nos
+        - link "partenaires" [ref=e491] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#quiSontNosPartenaires
+        - text: utilisent des cookies pour assurer le bon fonctionnement du site, procéder à des mesures d’audience et vous proposer des offres personnalisées. Nous conservons votre choix pendant 13 mois. Vous pouvez changer d’avis à tout moment en cliquant sur le lien «gérer mes cookies» en bas de chaque page ou
+        - link "consulter notre politique de cookies" [ref=e492] [cursor=pointer]:
+          - /url: https://www.amv.fr/faq/politique-de-protection-des-donnees-personnelles/#cookies
+        - text: .
+    - group:
+      - button "Accepter et fermer" [ref=e493] [cursor=pointer]
+      - button "Refuser" [ref=e494] [cursor=pointer]
+      - button "Paramétrer" [ref=e495] [cursor=pointer]
