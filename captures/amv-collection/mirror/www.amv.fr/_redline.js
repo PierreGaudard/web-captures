@@ -2,29 +2,29 @@
 // Ancien contenu barre (rouge), nouveau contenu optimise (vert). Bouton "Modifications".
 (function () {
   // Contenu optimise (score Datafer 88/100, mot-cle "assurance moto de collection").
-  var H1 = "Assurance auto et moto de collection";
+  var H1 = "Assurance auto et moto anciennes ou de collection";
 
   var INTRO = [
-    { note: "À retenir : l'offre AMV Légende protège vos deux-roues et autos anciens avec des formules au tiers, vol-incendie ou tous risques, des tarifs dégressifs selon l'âge et le nombre de véhicules, et un devis en ligne gratuit en quelques minutes." },
-    { p: "Vous cherchez une assurance moto de collection à la hauteur de votre deux-roues ancien ? AMV, leader de <a href='https://www.amv.fr/assurance/moto/' target='_blank' rel='noopener' class='rl-link' style='color:inherit;text-decoration:underline;font-weight:600'>l'assurance moto</a> et scooter depuis 1974, a conçu l'offre AMV Légende pour couvrir les autos et motos anciennes. Couverture sur-mesure, garanties pensées pour les véhicules de collection, souscription rapide : vous construisez votre contrat selon chaque modèle et profitez de tarifs dégressifs selon l'âge et le nombre de véhicules à assurer." }
+    { note: "À retenir : l'offre AMV Légende assure vos autos et deux-roues anciens (de plus de 15 ans) ou de collection. Formules au tiers, vol-incendie ou tous risques, tarifs dégressifs selon l'âge des véhicules et leur nombre, devis en ligne gratuit en quelques minutes." },
+    { p: "Vous cherchez une assurance dédiée à votre moto ancienne ou de collection ? AMV, spécialiste de <a href='https://www.amv.fr/assurance/moto/' target='_blank' rel='noopener' class='rl-link' style='color:inherit;text-decoration:underline;font-weight:600'>l'assurance moto</a> et scooter depuis 1974, a conçu l'offre AMV Légende pour couvrir les autos et motos anciennes (de plus de 15 ans) ou de collection. Couverture sur mesure, garanties adaptées, souscription rapide : vous construisez votre contrat selon chaque modèle et profitez de tarifs dégressifs selon l'âge des véhicules et leur nombre." }
   ];
 
   var BODY = [
-    { h2: "Pourquoi choisir AMV pour votre assurance moto de collection ?" },
-    { p: "AMV est l'assureur spécialiste des deux-roues et des véhicules anciens. Plus d'1 million d'assurés lui font confiance, avec une note de 4,7/5 selon Avis Vérifiés. Plus de 350 conseillers basés à Bordeaux vous accompagnent, et un interlocuteur dédié suit votre dossier en cas de sinistre. Un assureur généraliste connaît mal les besoins d'un motard collectionneur. AMV, lui, protège votre patrimoine roulant comme il le mérite, et vous gérez tout depuis l'espace client Mon Espace AMV." },
+    { h2: "Pourquoi choisir AMV Légende pour votre assurance moto ancienne ou de collection ?" },
+    { p: "AMV Légende est l'offre dédiée aux véhicules anciens ou de collection d'AMV, le spécialiste de l'assurance deux-roues. Nos conseillers basés à Bordeaux vous accompagnent, et un interlocuteur dédié suit votre dossier en cas de sinistre. Seul un assureur spécialiste, fort de plus de 50 ans d'expérience, connaît les besoins d'un motard collectionneur : AMV Légende protège votre patrimoine roulant comme il le mérite, avec des conseillers disponibles et experts pour vous accompagner dans toutes vos démarches." },
 
-    { h2: "Les formules d'assurance moto de collection" },
-    { p: "AMV décline plusieurs formules, de la couverture essentielle à la protection tous risques. Vous choisissez le niveau de garanties selon la valeur de votre véhicule, son usage et votre budget. Trois piliers restent toujours présents : la responsabilité civile obligatoire, l'assistance et la protection juridique." },
-    { p: "La formule au tiers vous couvre en responsabilité civile : c'est la garantie minimale obligatoire, qui indemnise les dommages causés à un tiers. Elle peut convenir aux motos anciennes de faible valeur ou utilisées ponctuellement pour le loisir, et reste l'option la moins chère car elle offre une couverture essentielle." },
-    { p: "La formule intermédiaire ajoute la prise en charge du vol, de la tentative de vol et de l'incendie. Elle est recommandée si vous garez votre deux-roues en extérieur ou dans un lieu non clos : le risque de vol est réel, en particulier pour les modèles anciens recherchés." },
-    { p: "La formule tous risques indemnise les dommages subis par votre véhicule assuré, même lors d'un sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, conseillée pour un modèle de valeur, restauré ou financé à crédit. À ces formules s'ajoutent l'assistance (dépannage, remorquage, rapatriement) et la protection juridique, qui défend vos intérêts en cas de litige." },
-    { p: "En cas de sinistre, l'indemnisation tient compte de la nature du véhicule : une moto ancienne se répare avec des pièces parfois rares, et son estimation relève d'une expertise spécifique. Selon la formule et l'option choisies, une franchise peut s'appliquer. C'est pourquoi le choix des garanties mérite réflexion, en lien avec la cote du modèle, son état et la fréquence de vos sorties." },
+    { h2: "Les formules d'assurance moto ancienne ou de collection" },
+    { p: "AMV Légende propose plusieurs formules, du minimum obligatoire à la protection tous risques. Vous choisissez le niveau de garanties selon la valeur de votre véhicule et votre budget. Chaque formule inclut la responsabilité civile obligatoire, une garantie du conducteur et la garantie Défense Pénale et Recours Suite à Accident (DPRSA)." },
+    { p: "La formule au tiers couvre votre responsabilité civile : c'est la garantie minimum obligatoire, qui indemnise les dommages causés à un tiers en cas de sinistre responsable. Elle peut convenir aux motos anciennes de faible valeur ou utilisées ponctuellement pour le loisir, et reste la formule la moins chère." },
+    { p: "La formule vol-incendie ajoute la prise en charge du vol, de la tentative de vol et de l'incendie. Elle est recommandée si vous garez votre deux-roues en extérieur ou dans un lieu non clos, où le risque de vol est plus élevé." },
+    { p: "La formule tous risques indemnise les dommages subis par votre véhicule assuré, même lors d'un sinistre responsable, et couvre le vandalisme. C'est la protection la plus complète, conseillée pour un modèle de valeur, restauré ou financé à crédit. À ces formules peut s'ajouter, en option, l'assistance (dépannage, remorquage, rapatriement)." },
+    { p: "En cas de sinistre, l'indemnisation tient compte de la nature du véhicule : une moto ancienne se répare avec des pièces parfois rares, et son estimation relève d'une expertise spécifique. En dehors de la formule au tiers, une franchise peut s'appliquer, sauf lorsque votre responsabilité n'est pas engagée. C'est pourquoi le choix des garanties mérite réflexion, en lien avec la cote du modèle, son état et la fréquence de vos sorties." },
 
-    { h2: "Les garanties spécifiques aux véhicules de collection" },
-    { p: "Un véhicule de collection ne se couvre pas comme un modèle classique. Usage limité (sorties, rassemblements, balades), faible kilométrage, entretien soigné : ces spécificités justifient des garanties adaptées et des tarifs préférentiels. Avec AMV Légende, les cotisations sont dégressives selon l'ancienneté et le nombre de motos ou autos assurées. Plusieurs deux-roues anciens ? Le contrat flotte de collection les regroupe sous une seule police. Les garanties se modulent véhicule par véhicule, selon vos trajets et la valeur de chaque modèle." },
+    { h2: "Les garanties spécifiques aux véhicules anciens ou de collection" },
+    { p: "Un véhicule ancien ou de collection ne s'assure pas comme un modèle plus récent ou un véhicule à usage quotidien. Usage secondaire (sorties, rassemblements, balades) : cette spécificité justifie des garanties adaptées. Avec AMV Légende, les cotisations sont dégressives selon l'ancienneté et le nombre de véhicules assurés. Plusieurs deux-roues anciens ? Le contrat flotte de collection les regroupe sous une seule police, et les garanties se modulent véhicule par véhicule, selon la valeur de chaque modèle. Bon à savoir : les trajets domicile-travail restent possibles de façon occasionnelle, dans la limite de 12 fois par an, à condition de le mentionner lors du devis." },
 
     { h2: "La carte grise de collection : conditions et avantages" },
-    { p: "Passer votre moto en carte grise de collection ouvre droit à un statut spécifique et à une assurance dédiée. Voici les conditions à remplir :" },
+    { p: "Passer votre moto en carte grise de collection lui donne un statut administratif spécifique. Voici les conditions à remplir :" },
     { ul: [
       "Le véhicule doit avoir au moins 30 ans.",
       "Son type ne doit plus être produit.",
@@ -33,32 +33,30 @@
     ] },
     { p: "Ce statut de carte grise collection présente plusieurs avantages concrets pour le motard :" },
     { ul: [
-      "Contrôle technique allégé : pour les deux-roues concernés, il est espacé (tous les 5 ans), et les modèles mis en circulation avant 1960 en sont exemptés.",
-      "Circulation sur tout le territoire : la carte grise de collection autorise à rouler partout en France.",
+      "Contrôle technique allégé : pour les deux-roues concernés, il est plus espacé (tous les 5 ans), et les modèles mis en circulation avant 1960 en sont exemptés.",
       "Plaques noires autorisées : le format d'époque est admis.",
-      "Prime réduite : peu utilisés et bien entretenus, ces véhicules bénéficient souvent d'un tarif avantageux.",
       "Dérogations possibles en ZFE : selon les collectivités, ces véhicules peuvent circuler en zone à faibles émissions."
     ] },
-    { p: "Bon à savoir : la valeur patrimoniale d'un deux-roues ancien peut augmenter avec le temps. Une couverture adaptée protège donc à la fois votre passion et votre investissement." },
+    { p: "Côté assurance, chez AMV Légende, les garanties proposées sont les mêmes pour un véhicule en carte grise de collection et pour un véhicule de plus de 15 ans immatriculé normalement. Bon à savoir : la valeur patrimoniale d'un deux-roues ancien peut augmenter avec le temps. Une couverture adaptée protège donc à la fois votre passion et votre investissement." },
 
-    { h2: "Comment souscrire une assurance moto de collection en ligne ?" },
-    { p: "Pour assurer votre moto ancienne, la souscription chez AMV est rapide et entièrement en ligne. Munissez-vous de votre permis de conduire et de la carte grise du véhicule, renseignez les informations sur votre moto (marque, modèle, cylindrée, année, usage prévu) et sur votre profil de conducteur, puis obtenez votre devis gratuit en quelques minutes. Si le tarif vous convient, finalisez en quelques clics et recevez votre attestation d'assurance par e-mail. Vous choisissez la formule qui répond le mieux à vos besoins, avant de prendre la route en toute sérénité." }
+    { h2: "Comment souscrire une assurance moto ancienne ou de collection en ligne ?" },
+    { p: "Pour assurer votre moto ancienne ou de collection, la souscription chez AMV Légende est rapide et entièrement en ligne. Munissez-vous de votre permis de conduire, renseignez les informations sur votre moto (marque, modèle, année, valeur), puis obtenez votre devis gratuit en quelques minutes. Si le tarif vous convient, finalisez en quelques clics et recevez votre attestation d'assurance par e-mail. Choisissez la formule qui répond le mieux à vos besoins, avant de prendre la route en toute sérénité." }
   ];
 
   var FAQ = [
-    { h2: "Questions fréquentes sur l'assurance moto de collection" },
-    { h3: "Comment bien choisir son assurance moto de collection ?" },
-    { p: "Commencez par évaluer la valeur réelle de votre véhicule ancien, pour bénéficier d'une couverture adéquate. Privilégiez un assureur spécialiste comme AMV, qui propose une offre dédiée, et lisez attentivement les garanties au-delà du seul tarif : vol, incendie, tous accidents, assistance, protection juridique. Comparez les garanties et tenez compte des spécificités du véhicule de collection, comme l'usage limité ou la possibilité de regrouper plusieurs véhicules dans un contrat flotte." },
-    { h3: "Quelle est la meilleure assurance moto de collection au meilleur prix ?" },
-    { p: "Il n'existe pas de réponse unique : le prix dépend de l'âge du véhicule, des garanties choisies et du profil de l'assuré. Généralement, la formule au tiers est la moins chère car elle offre une couverture essentielle. Pour trouver la meilleure offre, un devis personnalisé en ligne vous donne le tarif adapté en quelques clics, avec des cotisations dégressives selon l'âge et le nombre de véhicules." },
+    { h2: "Questions fréquentes sur l'assurance moto ancienne ou de collection" },
+    { h3: "Comment bien choisir son assurance moto ancienne ou de collection ?" },
+    { p: "Commencez par évaluer la valeur réelle de votre véhicule ancien ou de collection, pour bénéficier d'une couverture adéquate. Privilégiez un assureur spécialiste comme AMV Légende, qui propose une offre dédiée, et lisez attentivement les garanties au-delà du seul tarif : vol, incendie, tous accidents, assistance (en option), garantie Défense Pénale et Recours Suite à Accident. Tenez compte des spécificités de votre véhicule ancien ou de collection, comme l'usage secondaire ou la possibilité de regrouper plusieurs véhicules dans un contrat flotte." },
+    { h3: "Quelle est la meilleure assurance moto ancienne ou de collection au meilleur prix ?" },
+    { p: "Il n'existe pas de réponse unique : le prix dépend de l'âge du véhicule, du nombre de véhicules assurés et des garanties choisies. La formule au tiers est la moins chère, car elle offre moins de garanties. Pour trouver la meilleure offre, un devis personnalisé en ligne sur AMV Légende vous propose un tarif adapté en quelques clics, avec des cotisations dégressives selon l'âge des véhicules et leur nombre." },
     { h3: "Combien coûte ce type de contrat ?" },
-    { p: "Le coût dépend de la valeur et de la cylindrée du véhicule, de son usage (loisir, rassemblements, courts trajets), de l'âge et de l'expérience du conducteur, de son bonus, de la zone géographique et du niveau de garanties choisi. Les véhicules de collection, peu roulés et bien entretenus, bénéficient souvent de primes réduites par rapport à une moto classique." },
+    { p: "Chez AMV Légende, la cotisation dépend de trois critères : le nombre de véhicules assurés, la tranche d'âge de chaque véhicule et sa valeur lorsque des garanties dommages (vol, incendie) sont souscrites. Dédié à un véhicule secondaire, un contrat AMV Légende coûte en général moins cher qu'un contrat pour un véhicule à usage quotidien." },
     { h3: "Quel avantage à passer une moto en carte grise de collection ?" },
-    { p: "Une moto de 30 ans et plus passée en carte grise de collection donne droit à un contrôle technique espacé, à l'usage des plaques noires d'époque, à la circulation sur tout le territoire et, souvent, à un tarif d'assurance réduit. Cette démarche valorise aussi le caractère patrimonial du véhicule." },
+    { p: "Une moto de 30 ans et plus passée en carte grise de collection donne droit à un contrôle technique plus espacé, à l'usage des plaques noires d'époque et, selon les collectivités, à des dérogations en zone à faibles émissions. Cette démarche peut aussi valoriser le caractère patrimonial du véhicule. Côté assurance, chez AMV Légende, les garanties sont les mêmes avec ou sans carte grise de collection." },
     { h3: "Comment changer ou résilier son assurance ?" },
-    { p: "Depuis la loi Hamon, après un an d'engagement vous pouvez procéder à la résiliation à tout moment, sans frais ni justification. Ne résiliez pas avant d'avoir souscrit ailleurs : demandez d'abord votre devis chez AMV Légende, puis mandatez AMV pour effectuer les démarches à votre place." },
-    { h3: "Faut-il une carte grise de collection pour assurer une moto ancienne chez AMV ?" },
-    { p: "La carte grise de collection n'est pas obligatoire pour assurer une moto ancienne, mais elle ouvre droit à des avantages spécifiques et à l'offre AMV Légende. AMV couvre aussi bien les motos anciennes immatriculées normalement que celles en collection. Un conseiller vous oriente vers la formule la plus adaptée à votre situation." }
+    { p: "Depuis la loi Hamon, après un an d'engagement, vous pouvez procéder à la résiliation à tout moment, sans frais ni justification. Ne résiliez pas avant d'avoir souscrit ailleurs : demandez d'abord votre devis chez AMV Légende, puis mandatez-la pour effectuer les démarches à votre place." },
+    { h3: "Faut-il une carte grise de collection pour assurer une moto ancienne chez AMV Légende ?" },
+    { p: "La carte grise de collection n'est pas obligatoire pour assurer une moto ancienne chez AMV Légende. Les garanties proposées sont les mêmes, que votre moto soit en carte grise de collection ou qu'il s'agisse d'une moto de plus de 15 ans immatriculée normalement. Un conseiller peut vous orienter vers la formule la plus adaptée à votre situation." }
   ];
 
   // ----- moteur de rendu -----
