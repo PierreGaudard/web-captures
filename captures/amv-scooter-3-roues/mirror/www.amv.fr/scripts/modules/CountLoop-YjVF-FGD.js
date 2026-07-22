@@ -1,0 +1,1 @@
+class t{constructor(){this.values=[2,3,4];const t=document.querySelectorAll(".amv-counter");if(t&&t.length>0){let e=0;t.forEach((t=>{setInterval((()=>{t.textContent=this.values[e].toString(),e=(e+1)%this.values.length}),1e3)}))}}}export{t as default};

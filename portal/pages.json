@@ -91,6 +91,11 @@
       "title": "AMV - Assurance moto Ducati (avant / après)",
       "description": "Réoptimisation de la page assurance moto Ducati : gamme Monster/Multistrada/Panigale, 4 formules, options, vol, prix, permis A2, FAQ. Avant / après : bouton « Modifications ».",
       "url": "https://amv-moto-ducati.pages.dev/assurance-moto/assurance-moto-ducati/"
+    },
+    {
+      "title": "AMV - Assurance scooter 3 roues (création)",
+      "description": "Proposition de NOUVELLE page assurance scooter 3 roues (MP3, Metropolis, Tricity) : permis B, 4 formules, options, prix, FAQ. Maquette dans le template AMV.",
+      "url": "https://amv-scooter-3-roues.pages.dev/assurance-scooter/assurance-scooter-3-roues/"
     }
   ]
 }
