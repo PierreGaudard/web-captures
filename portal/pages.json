@@ -81,6 +81,11 @@
       "title": "AMV - Assurance scooter 50cc (avant / après)",
       "description": "Réoptimisation de la page assurance scooter 50cc : permis AM dès 14 ans, obligation d'assurance, 3 formules dédiées 50cc, options, prix, contrôle technique, FAQ. Avant / après : bouton « Modifications ».",
       "url": "https://amv-scooter-50.pages.dev/assurance-scooter/assurance-scooter-50cm3/"
+    },
+    {
+      "title": "AMV - Assurance moto KTM (avant / après)",
+      "description": "Réoptimisation de la page assurance moto KTM : gamme Duke/Adventure/EXC/RC, 4 formules, options, prix, jeune permis, circuit, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-moto-ktm.pages.dev/assurance-moto/assurance-moto-ktm/"
     }
   ]
 }
