@@ -86,6 +86,11 @@
       "title": "AMV - Assurance moto KTM (avant / après)",
       "description": "Réoptimisation de la page assurance moto KTM : gamme Duke/Adventure/EXC/RC, 4 formules, options, prix, jeune permis, circuit, FAQ. Avant / après : bouton « Modifications ».",
       "url": "https://amv-moto-ktm.pages.dev/assurance-moto/assurance-moto-ktm/"
+    },
+    {
+      "title": "AMV - Assurance moto Ducati (avant / après)",
+      "description": "Réoptimisation de la page assurance moto Ducati : gamme Monster/Multistrada/Panigale, 4 formules, options, vol, prix, permis A2, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-moto-ducati.pages.dev/assurance-moto/assurance-moto-ducati/"
     }
   ]
 }
