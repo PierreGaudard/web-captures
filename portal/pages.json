@@ -76,6 +76,11 @@
       "title": "AMV - Assurance TMAX (avant / après)",
       "description": "Refonte de la page assurance TMAX : générations XP500/530/560, formules, options, vol, permis, FAQ. Avant / après : bouton « Modifications ».",
       "url": "https://amv-moto-tmax.pages.dev/assurance-moto/assurance-moto-yamaha/assurance-t-max/"
+    },
+    {
+      "title": "AMV - Assurance scooter 50cc (avant / après)",
+      "description": "Réoptimisation de la page assurance scooter 50cc : permis AM dès 14 ans, obligation d'assurance, 3 formules dédiées 50cc, options, prix, contrôle technique, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-scooter-50.pages.dev/assurance-scooter/assurance-scooter-50cm3/"
     }
   ]
 }
