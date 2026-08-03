@@ -88,6 +88,26 @@
     if (!col || !model) return false;
     var stop = linkBox(col);
 
+    // Certaines maquettes barrent TOUTE la section FAQ d'origine (zontes, kove) : nos cadres
+    // inseres dedans heriteraient du display:none en version finale. On deplace donc le barre
+    // des conteneurs vers les seules questions d'origine, le chemin jusqu'a nos cadres reste visible.
+    (function () {
+      var chemin = col, e = col;
+      while (e && e !== document.body) {
+        if (e.classList.contains('rl-del')) {
+          e.classList.remove('rl-del');
+          [].slice.call(e.children).forEach(function (enfant) {
+            if (enfant !== chemin) enfant.classList.add('rl-del');
+          });
+        }
+        chemin = e;
+        e = e.parentElement;
+      }
+      [].slice.call(col.querySelectorAll('.collapse-block')).forEach(function (b) {
+        if (!b.classList.contains('rl-faq-new')) b.classList.add('rl-del');
+      });
+    })();
+
     // Un H3 ouvre une question, ses paragraphes / listes / tableaux forment la reponse
     var groupes = [], courant = null, n = h2.nextElementSibling, aRetirer = [h2];
     while (n) {

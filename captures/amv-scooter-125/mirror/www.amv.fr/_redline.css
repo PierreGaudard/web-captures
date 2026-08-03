@@ -92,3 +92,6 @@ body:not(.rl-on) #rl-legend{ display:none; }
 body.rl-on .rl-faq-new .collapse-part { background: #f2fbf5 !important; border-left: 3px solid #2ecc71; border-radius: 6px; }
 body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c !important; }
 .rl-faq-new .collapse-part.hidden { display: none !important; }
+
+/* Vue "page d'origine" : les cadres FAQ ajoutes doivent disparaitre, comme le bloc vert */
+body:not(.rl-on):not(.rl-final) .rl-faq-new { display: none !important; }
