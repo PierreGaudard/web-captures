@@ -318,6 +318,7 @@
     ['data-collapse', 'data-lazy-load', 'data-rl-faq'].forEach(function (a) { card.removeAttribute(a); });
     card.classList.remove('opacity-0');
     card.classList.add('rl-card');
+    card.setAttribute('data-rl-clic', '1');
     card.style.opacity = '1';
     var head = card.querySelector('.flex.justify-between.items-center');
     var span = head ? head.querySelector('span') : null;
@@ -341,6 +342,27 @@
       });
     }
     return card;
+  }
+  // Les accordeons du site ne s'ouvrent pas dans la copie (le chunk JS "Collapse" du
+  // site n'est pas fonctionnel hors production) : sans ca, le nouveau contenu insere
+  // dans "Consulter le detail des formules et des options" reste invisible en recette.
+  // On garde l'etat ferme par defaut, fidele a la page reelle, et on rend le clic actif.
+  function enableCollapses() {
+    [].slice.call(document.querySelectorAll('.collapse-block')).forEach(function (b) {
+      if (b.getAttribute('data-rl-clic')) return;
+      var head = b.querySelector('.flex.justify-between.items-center');
+      var part = b.querySelector('.collapse-part');
+      if (!head || !part) return;
+      b.setAttribute('data-rl-clic', '1');
+      head.style.cursor = 'pointer';
+      var arrow = head.querySelector('svg');
+      if (getComputedStyle(part).display !== 'none' && arrow) arrow.style.transform = 'rotate(180deg)';
+      head.addEventListener('click', function () {
+        var closed = part.classList.toggle('hidden');
+        part.style.display = closed ? '' : 'flex';
+        if (arrow) arrow.style.transform = closed ? '' : 'rotate(180deg)';
+      });
+    });
   }
   // Lien "Consulter toutes les questions fréquentes" : centré (règle AMV : avec flèche = centré)
   function centerFaqLink() {
@@ -499,6 +521,7 @@
     var allDone = true;
     EDITS.forEach(function (e) { if (!e._done) { e._done = applyEdit(e); if (!e._done) allDone = false; } });
     centerFaqLink();
+    enableCollapses();
     return allDone;
   }
 
