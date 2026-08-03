@@ -65,7 +65,7 @@
     { mode: 'appendInTitle', anchorMatch: 'AMV assure toutes les marques de moto',
       content: [
         { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Cette expertise deux-roues couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de chaque marque et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre.",
-          links: [{ t: "AMV", href: "https://www.amv.fr/" }, { t: "chaque marque", href: "https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/" }] }
+          links: [{ t: "chaque marque", href: "https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/" }] }
       ] },
 
     // 6c. "Un accompagnement de motard à motard" -> dans la section "Un contrat spécial moto pensé pour vous"
@@ -371,13 +371,27 @@
       return true;
     }
 
-    // Paragraphe ajouté DANS le bloc titre existant (aligné sur le titre, pas de titre en plus)
+    // Paragraphe ajouté DANS le bloc titre existant (aligné sur le titre, pas de titre en plus).
+    // S'il y a déjà une phrase d'intro sous le titre, le texte est collé à sa suite, dans le
+    // MEME paragraphe (demande du 03/08 : pas de saut de ligne).
     if (edit.mode === 'appendInTitle') {
       var wrap = titleWrapper(edit.anchorMatch);
       if (!wrap) return false;
       if (wrap.getAttribute('data-rl-title')) return true;
       wrap.setAttribute('data-rl-title', '1');
-      renderContent(edit.content).forEach(function (n) { n.style.marginTop = '8px'; wrap.appendChild(n); });
+      // la balise de titre du gabarit est mal fermee dans la copie : la phrase d'intro du
+      // site se retrouve DANS le h2, il faut donc chercher le dernier <p> dans tout le bloc
+      var ps = [].slice.call(wrap.querySelectorAll('p')).filter(function (x) { return !x.classList.contains('rl-mark'); });
+      var lastP = ps.length ? ps[ps.length - 1] : null;
+      edit.content.forEach(function (it) {
+        if (lastP && it.p) {
+          var sp = el('span', 'rl-mark');
+          sp.innerHTML = ' ' + linkify(it.p, it.links);
+          lastP.appendChild(sp);
+        } else {
+          renderContent([it]).forEach(function (n) { n.style.marginTop = '8px'; wrap.appendChild(n); });
+        }
+      });
       return true;
     }
 

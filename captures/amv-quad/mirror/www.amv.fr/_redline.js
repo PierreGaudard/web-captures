@@ -370,13 +370,27 @@
       return true;
     }
 
-    // Paragraphe ajouté DANS le bloc titre existant (aligné sur le titre, pas de titre en plus)
+    // Paragraphe ajouté DANS le bloc titre existant (aligné sur le titre, pas de titre en plus).
+    // S'il y a déjà une phrase d'intro sous le titre, le texte est collé à sa suite, dans le
+    // MEME paragraphe (demande du 03/08 : pas de saut de ligne).
     if (edit.mode === 'appendInTitle') {
       var wrap = titleWrapper(edit.anchorMatch);
       if (!wrap) return false;
       if (wrap.getAttribute('data-rl-title')) return true;
       wrap.setAttribute('data-rl-title', '1');
-      renderContent(edit.content).forEach(function (n) { n.style.marginTop = '8px'; wrap.appendChild(n); });
+      // la balise de titre du gabarit est mal fermee dans la copie : la phrase d'intro du
+      // site se retrouve DANS le h2, il faut donc chercher le dernier <p> dans tout le bloc
+      var ps = [].slice.call(wrap.querySelectorAll('p')).filter(function (x) { return !x.classList.contains('rl-mark'); });
+      var lastP = ps.length ? ps[ps.length - 1] : null;
+      edit.content.forEach(function (it) {
+        if (lastP && it.p) {
+          var sp = el('span', 'rl-mark');
+          sp.innerHTML = ' ' + linkify(it.p, it.links);
+          lastP.appendChild(sp);
+        } else {
+          renderContent([it]).forEach(function (n) { n.style.marginTop = '8px'; wrap.appendChild(n); });
+        }
+      });
       return true;
     }
 
