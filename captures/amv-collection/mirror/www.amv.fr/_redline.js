@@ -122,11 +122,58 @@
       while(sib && sib.nextElementSibling && !/^H[1-3]$/.test(sib.nextElementSibling.tagName) && !sib.nextElementSibling.classList.contains("accordion")){ last = sib.nextElementSibling; sib = sib.nextElementSibling; }
       insertAfter(bb, last);
     }
-    // 4. FAQ optimisee avant la 1re question existante ; on barre les questions existantes
+    // 4. FAQ : les nouvelles questions sont RATTACHEES a la FAQ du gabarit (h3.accordion + div.panel),
+    //    a la suite des questions existantes, elles-memes barrees. Demande Pierre du 03/08.
     var firstFaq = findByText("h3.accordion","comment bien choisir") || document.querySelector("h3.accordion");
-    if(firstFaq && !document.getElementById("rl-faq")){
-      var bf=block(FAQ); bf.id="rl-faq"; insertBefore(bf, firstFaq);
-      [].slice.call(document.querySelectorAll("h3.accordion")).forEach(function(h){ h.classList.add("rl-del"); });
+    if(firstFaq && !document.getElementById("rl-faq-titre")){
+      var host = firstFaq.parentNode;
+      var existants = [].slice.call(host.querySelectorAll("h3.accordion"));
+      var dernier = existants.length ? existants[existants.length - 1] : firstFaq;
+      var apres = dernier.nextElementSibling && dernier.nextElementSibling.classList.contains("panel")
+        ? dernier.nextElementSibling : dernier;
+
+      // titre de section, juste avant l'encadre FAQ
+      var titre = FAQ.find(function(it){ return it.h2; });
+      if(titre){
+        var refH2 = document.querySelector("h2.h2-orange") || document.querySelector("h2");
+        var h2 = refH2 ? refH2.cloneNode(false) : el("h2", null, null);
+        h2.removeAttribute("id");
+        h2.className = (refH2 ? refH2.className + " " : "") + "rl-faq-new";
+        h2.id = "rl-faq-titre";
+        h2.textContent = titre.h2;
+        var encadre = host.closest(".encadre-faq") || host;
+        encadre.parentNode.insertBefore(h2, encadre);
+      }
+
+      // une question = un h3.accordion + un div.panel, au format du gabarit
+      var courant = null, ref = apres;
+      FAQ.forEach(function(it){
+        if(it.h2) return;
+        if(it.h3){
+          var h3 = el("h3", "accordion active rl-faq-new", '<span class="chevron fa"></span>&nbsp;' + it.h3);
+          ref.parentNode.insertBefore(h3, ref.nextSibling); ref = h3;
+          courant = el("div", "panel rl-faq-new", null);
+          // le gabarit pilote l'ouverture par un max-height inline (JS du site inerte dans la copie)
+          courant.style.maxHeight = "none";
+          ref.parentNode.insertBefore(courant, ref.nextSibling); ref = courant;
+          (function(titre3, panneau){
+            titre3.style.cursor = "pointer";
+            titre3.addEventListener("click", function(){
+              var ferme = panneau.style.maxHeight === "0px";
+              panneau.style.maxHeight = ferme ? "none" : "0px";
+              titre3.classList.toggle("active", ferme);
+            });
+          })(h3, courant);
+        } else if(courant){
+          courant.appendChild(renderItems([it]));
+        }
+      });
+
+      existants.forEach(function(h){
+        h.classList.add("rl-del");
+        var pan = h.nextElementSibling;
+        if(pan && pan.classList.contains("panel")) pan.classList.add("rl-del");
+      });
     }
     if(!h1 || !anchorIntro || !firstFaq) done=false;
     return done;

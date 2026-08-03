@@ -59,7 +59,7 @@
         { p: "Plus de 350 conseillers basés à Bordeaux vous conseillent par téléphone ou en ligne. En cas de sinistre, un conseiller dédié suit votre dossier d'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
       ] },
 
-    { mode: 'insertSection', beforeH2: 'Des questions sur votre assurance',
+    { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
       content: [
         { h2: "Quel quad peut-on assurer chez AMV ?" },
         { p: "AMV, assureur spécialiste de l'assurance moto et quad, assure tous les types de quads et SSV, quelle que soit la cylindrée, la marque ou la motorisation. Découvrez le contrat qui correspond à votre véhicule." },
@@ -348,6 +348,16 @@
       });
     });
   }
+  // Colonne de la FAQ (celle qui porte les cadres de questions) et lien de bas de FAQ
+  function faqColumn(section) {
+    var blocks = [].slice.call(section.querySelectorAll('.collapse-block'));
+    return blocks.length ? blocks[blocks.length - 1].parentNode : null;
+  }
+  function faqLinkBox(root) {
+    return [].slice.call((root || document).querySelectorAll('div.flex.mt-amv40')).find(function (b) {
+      return b.querySelector('a[href="/besoin-daide/"]');
+    }) || null;
+  }
   // Lien "Consulter toutes les questions fréquentes" : centré (règle AMV : avec flèche = centré)
   function centerFaqLink() {
     // le lien "Besoin d'aide ?" existe aussi dans la nav : on cible le bloc sous la FAQ
@@ -390,6 +400,30 @@
         } else {
           renderContent([it]).forEach(function (n) { n.style.marginTop = '8px'; wrap.appendChild(n); });
         }
+      });
+      return true;
+    }
+
+    // Blocs ajoutés rattachés à la FAQ, en cadres d'accordéon : un cadre par H2,
+    // le H2 devient l'intitulé de la question, ses H3 et paragraphes forment la réponse.
+    if (edit.mode === 'faqCards') {
+      var fq = findH2(edit.faqMatch);
+      if (!fq) return false;
+      var sec = fq.closest('section') || fq.parentElement;
+      var col = faqColumn(sec);
+      if (!col) return false;
+      if (sec.getAttribute('data-rl-faqcards')) return true;
+      sec.setAttribute('data-rl-faqcards', '1');
+      var stop = faqLinkBox(col);
+      var groups = [];
+      edit.content.forEach(function (it) {
+        if (it.h2 || !groups.length) groups.push({ q: it.h2 || '', items: [] });
+        if (!it.h2) groups[groups.length - 1].items.push(it);
+      });
+      groups.forEach(function (g) {
+        var card = faqCard(g.q, g.items, sec);
+        if (!card) return;
+        if (stop) col.insertBefore(card, stop); else col.appendChild(card);
       });
       return true;
     }
@@ -461,9 +495,7 @@
       if (edit.add && edit.add.length && blocks.length) {
         var lastB = blocks[blocks.length - 1];
         var col = lastB.parentNode;
-        var linkBox = [].slice.call(col.querySelectorAll('div.flex.mt-amv40')).find(function (b) {
-          return b.querySelector('a[href="/besoin-daide/"]');
-        }) || null;
+        var linkBox = faqLinkBox(col);
         var stop = linkBox && linkBox.parentNode === col ? linkBox : lastB.nextSibling;
         edit.add.forEach(function (it) {
           var card = faqCard(it.q, it.content, section);

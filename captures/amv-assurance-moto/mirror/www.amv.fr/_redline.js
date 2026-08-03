@@ -75,7 +75,7 @@
       ] },
 
     // 6d. "Comment obtenir votre devis" -> juste avant la FAQ
-    { mode: 'insertSection', beforeH2: 'Des questions sur votre assurance',
+    { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
       content: [
         { h2: "Comment obtenir votre devis assurance moto ?" },
         { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, année) et votre profil (expérience, bonus-malus, région) via le formulaire pour recevoir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevez votre attestation d'assurance par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
@@ -349,6 +349,16 @@
       });
     });
   }
+  // Colonne de la FAQ (celle qui porte les cadres de questions) et lien de bas de FAQ
+  function faqColumn(section) {
+    var blocks = [].slice.call(section.querySelectorAll('.collapse-block'));
+    return blocks.length ? blocks[blocks.length - 1].parentNode : null;
+  }
+  function faqLinkBox(root) {
+    return [].slice.call((root || document).querySelectorAll('div.flex.mt-amv40')).find(function (b) {
+      return b.querySelector('a[href="/besoin-daide/"]');
+    }) || null;
+  }
   // Lien "Consulter toutes les questions fréquentes" : centré (règle AMV : avec flèche = centré)
   function centerFaqLink() {
     // le lien "Besoin d'aide ?" existe aussi dans la nav : on cible le bloc sous la FAQ
@@ -391,6 +401,30 @@
         } else {
           renderContent([it]).forEach(function (n) { n.style.marginTop = '8px'; wrap.appendChild(n); });
         }
+      });
+      return true;
+    }
+
+    // Blocs ajoutés rattachés à la FAQ, en cadres d'accordéon : un cadre par H2,
+    // le H2 devient l'intitulé de la question, ses H3 et paragraphes forment la réponse.
+    if (edit.mode === 'faqCards') {
+      var fq = findH2(edit.faqMatch);
+      if (!fq) return false;
+      var sec = fq.closest('section') || fq.parentElement;
+      var col = faqColumn(sec);
+      if (!col) return false;
+      if (sec.getAttribute('data-rl-faqcards')) return true;
+      sec.setAttribute('data-rl-faqcards', '1');
+      var stop = faqLinkBox(col);
+      var groups = [];
+      edit.content.forEach(function (it) {
+        if (it.h2 || !groups.length) groups.push({ q: it.h2 || '', items: [] });
+        if (!it.h2) groups[groups.length - 1].items.push(it);
+      });
+      groups.forEach(function (g) {
+        var card = faqCard(g.q, g.items, sec);
+        if (!card) return;
+        if (stop) col.insertBefore(card, stop); else col.appendChild(card);
       });
       return true;
     }
@@ -462,9 +496,7 @@
       if (edit.add && edit.add.length && blocks.length) {
         var lastB = blocks[blocks.length - 1];
         var col = lastB.parentNode;
-        var linkBox = [].slice.call(col.querySelectorAll('div.flex.mt-amv40')).find(function (b) {
-          return b.querySelector('a[href="/besoin-daide/"]');
-        }) || null;
+        var linkBox = faqLinkBox(col);
         var stop = linkBox && linkBox.parentNode === col ? linkBox : lastB.nextSibling;
         edit.add.forEach(function (it) {
           var card = faqCard(it.q, it.content, section);
