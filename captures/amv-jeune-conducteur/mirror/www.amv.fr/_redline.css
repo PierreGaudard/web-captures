@@ -87,3 +87,8 @@ body:not(.rl-on) #rl-legend{ display:none; }
 #rl-legend .sw{ display:inline-block; width:12px; height:12px; border-radius:3px; margin-right:6px; vertical-align:-1px; }
 #rl-legend .sw-del{ background:#ffe7e7; border:1px solid #c0392b; }
 #rl-legend .sw-add{ background:#00A850; }
+
+/* FAQ rattachee au gabarit du site (03/08) : vert en mode modifications, rendu du site en version finale */
+body.rl-on .rl-faq-new .collapse-part { background: #f2fbf5 !important; border-left: 3px solid #2ecc71; border-radius: 6px; }
+body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c !important; }
+.rl-faq-new .collapse-part.hidden { display: none !important; }

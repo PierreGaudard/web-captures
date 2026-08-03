@@ -132,3 +132,8 @@ body:not(.rl-on) #rl-legend { display: none; }
 .rl-add .rl-table th, .rl-add .rl-table td { border: 1px solid #bfe6c8; padding: 8px 10px; text-align: left; vertical-align: top; }
 .rl-add .rl-table th { background: #2ecc71; color: #fff; font-weight: 700; }
 .rl-add .rl-table tr:nth-child(even) td { background: #f3fbf5; }
+
+/* FAQ rattachee au gabarit du site (03/08) : vert en mode modifications, rendu du site en version finale */
+body.rl-on .rl-faq-new .collapse-part { background: #f2fbf5 !important; border-left: 3px solid #2ecc71; border-radius: 6px; }
+body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c !important; }
+.rl-faq-new .collapse-part.hidden { display: none !important; }

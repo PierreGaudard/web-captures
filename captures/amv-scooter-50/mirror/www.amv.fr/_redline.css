@@ -91,3 +91,8 @@ body:not(.rl-on) #rl-legend{ display:none; }
 /* Neutralisation popup cookies TrustCommander (capture hors-ligne) */
 #popin_tc_privacy, #privacy-overlay { display: none !important; }
 body { overflow: auto !important; }
+
+/* FAQ rattachee au gabarit du site (03/08) : vert en mode modifications, rendu du site en version finale */
+body.rl-on .rl-faq-new .collapse-part { background: #f2fbf5 !important; border-left: 3px solid #2ecc71; border-radius: 6px; }
+body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c !important; }
+.rl-faq-new .collapse-part.hidden { display: none !important; }

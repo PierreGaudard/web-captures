@@ -101,3 +101,8 @@ html, body { overflow-y:auto !important; }
 body:not(.rl-on) .rl-offtopic{ background:transparent !important; border:0 !important; padding:0 !important; }
 body:not(.rl-on) .rl-offtopic:before{ display:none !important; }
 #rl-legend .sw-off{ background:#e6a100; }
+
+/* FAQ rattachee au gabarit du site (03/08) : vert en mode modifications, rendu du site en version finale */
+body.rl-on .rl-faq-new .collapse-part { background: #f2fbf5 !important; border-left: 3px solid #2ecc71; border-radius: 6px; }
+body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c !important; }
+.rl-faq-new .collapse-part.hidden { display: none !important; }
