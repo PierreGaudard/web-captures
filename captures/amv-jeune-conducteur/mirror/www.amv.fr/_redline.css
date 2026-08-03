@@ -95,3 +95,7 @@ body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c 
 
 /* Vue "page d'origine" : les cadres FAQ ajoutes doivent disparaitre, comme le bloc vert */
 body:not(.rl-on):not(.rl-final) .rl-faq-new { display: none !important; }
+
+/* Popup cookies TrustCommander neutralisee (confort de recette) */
+#popin_tc_privacy, .tc-privacy-wrapper, #tc-privacy-wrapper, #privacy-overlay, .tc-privacy-overlay, .tc-privacy-popin, .tc-privacy-banner { display: none !important; visibility: hidden !important; }
+html, body { overflow-y: auto !important; }

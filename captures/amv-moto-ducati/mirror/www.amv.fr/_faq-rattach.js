@@ -76,9 +76,29 @@
     });
   }
 
+  // niveau d'un titre : balise h2/h3 reelle, ou div.rl-q avec un badge H2/H3 (ancien moteur)
+  function niveau(e) {
+    if (!e) return null;
+    if (e.tagName === 'H2') return 'H2';
+    if (e.tagName === 'H3') return 'H3';
+    if (e.classList && e.classList.contains('rl-q')) {
+      var b = e.querySelector('.rl-hntag, .rl-badge');
+      var t = b ? norm(b.textContent).toUpperCase() : '';
+      if (t.indexOf('H2') === 0) return 'H2';
+      if (t.indexOf('H3') === 0) return 'H3';
+    }
+    return null;
+  }
+  function texteTitre(e) {
+    var b = e.querySelector ? e.querySelector('.rl-hntag, .rl-badge') : null;
+    var t = norm(e.textContent);
+    if (b) t = norm(t.replace(norm(b.textContent), ''));
+    return t;
+  }
+
   function run() {
-    var h2 = [].slice.call(document.querySelectorAll('.rl-add h2')).find(function (x) {
-      return /questions fr/.test(norm(x.textContent));
+    var h2 = [].slice.call(document.querySelectorAll('.rl-add h2, .rl-add .rl-q')).find(function (x) {
+      return niveau(x) === 'H2' && /questions fr/.test(norm(x.textContent));
     });
     if (!h2) return false;
     var sec = faqSection();
@@ -112,9 +132,10 @@
     var groupes = [], courant = null, n = h2.nextElementSibling, aRetirer = [h2];
     while (n) {
       var suivant = n.nextElementSibling;
-      if (n.tagName === 'H2') break;
-      if (n.tagName === 'H3') {
-        courant = { q: n.textContent.trim(), nodes: [] };
+      var niv = niveau(n);
+      if (niv === 'H2') break;
+      if (niv === 'H3') {
+        courant = { q: texteTitre(n), nodes: [] };
         groupes.push(courant);
         aRetirer.push(n);
       } else if (courant) {

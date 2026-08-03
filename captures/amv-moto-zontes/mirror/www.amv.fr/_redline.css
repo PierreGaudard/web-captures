@@ -167,3 +167,10 @@ body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c 
 
 /* Vue "page d'origine" : les cadres FAQ ajoutes doivent disparaitre, comme le bloc vert */
 body:not(.rl-on):not(.rl-final) .rl-faq-new { display: none !important; }
+
+/* Retours Agnes du 03/08 : paragraphe d'origine barre, version corrigee affichee ensuite */
+body.rl-on .ag-del, body.rl-on .ag-del * { text-decoration: line-through !important; color: #c0392b !important; }
+body.rl-on .ag-new { background: #eafaef !important; border-left: 3px solid #2ecc71; padding: 6px 10px !important; }
+.ag-new { color: inherit; }
+body.rl-final .ag-del { display: none !important; }
+body:not(.rl-on):not(.rl-final) .ag-new { display: none !important; }
