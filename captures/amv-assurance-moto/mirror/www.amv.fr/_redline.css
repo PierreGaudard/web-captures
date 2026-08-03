@@ -1,10 +1,10 @@
 /* Redline AMV : contenu supprimé (rouge barré) vs nouveau contenu (vert) */
 
 /* Contenu supprimé */
-.rl-del, .rl-del * {
+body.rl-on .rl-del, body.rl-on .rl-del * {
   text-decoration: line-through !important;
 }
-.rl-del {
+body.rl-on .rl-del {
   background: #ffe2e2 !important;
   color: #c0392b !important;
   border-radius: 4px;
@@ -12,7 +12,7 @@
 }
 
 /* Nouveau contenu */
-.rl-add {
+body.rl-on .rl-add {
   background: #e6f8ea !important;
   border-left: 4px solid #2ecc71;
   border-radius: 6px;
@@ -21,7 +21,6 @@
 }
 .rl-add .rl-q {
   font-weight: 700;
-  color: #1e7e34;
   display: block;
   margin: 12px 0 4px;
 }
@@ -29,7 +28,8 @@
 .rl-add p { margin: 0 0 8px; }
 .rl-add ul { margin: 4px 0 10px 18px; list-style: disc; }
 .rl-add li { margin: 2px 0; }
-.rl-add .rl-h1 { font-size: 1.8em; font-weight: 800; color: #1e7e34; line-height: 1.15; display: block; }
+body.rl-on .rl-add .rl-h1 { color: #1e7e34 !important; }
+.rl-add .rl-h1 { font-size: 1.8em; font-weight: 800; line-height: 1.15; display: block; }
 .rl-badge {
   display: inline-block;
   font-size: 11px;
@@ -65,7 +65,7 @@
 body:not(.rl-on) .rl-hntag { display: none !important; }
 
 /* Nouveau contenu en simple surlignage vert, meme taille que l'original (clone) */
-.rl-mark, .rl-mark * {
+body.rl-on .rl-mark, body.rl-on .rl-mark * {
   background: #b9f0c6 !important;
   color: #176a2c !important;
   text-decoration: none !important;
@@ -122,3 +122,30 @@ body:not(.rl-on) #rl-legend { display: none; }
 #rl-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
 #rl-legend .sw-del { background: #ffe2e2; border: 1px solid #c0392b; }
 #rl-legend .sw-add { background: #e6f8ea; border: 1px solid #2ecc71; }
+
+/* ===== Etat "version finale" : rendu tel qu'il sera reellement en ligne (mode par defaut) ===== */
+body.rl-final .rl-del, body.rl-final .rl-del * { display: none !important; }
+body.rl-final .rl-badge,
+body.rl-final .rl-hntag,
+body.rl-final #rl-legend { display: none !important; }
+body.rl-final .rl-add {
+  display: block !important;
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin: 14px 0 !important;
+}
+body.rl-final .rl-mark { display: revert !important; }
+body.rl-final #rl-toggle .dot { background: #888 !important; }
+
+/* ===== Recette AMV 30/07/2026 : blocs ajoutes au gabarit du site ===== */
+/* Sections ajoutees (pleine largeur, trait vert) et cadres FAQ clones */
+body:not(.rl-on):not(.rl-final) .rl-sec,
+body:not(.rl-on):not(.rl-final) .rl-card { display: none !important; }
+.rl-card .collapse-part.hidden { display: none !important; }
+body.rl-on .rl-sec .c-section-title { background: rgba(185, 240, 198, .35); border-radius: 6px; }
+
+/* Popup cookies TrustCommander neutralisee (confort de recette) */
+#popin_tc_privacy, .tc-privacy-wrapper, #tc-privacy-wrapper, #privacy-overlay, .tc-privacy-overlay, .tc-privacy-popin, .tc-privacy-banner { display: none !important; visibility: hidden !important; }
+html, body { overflow-y: auto !important; }

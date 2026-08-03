@@ -4,9 +4,16 @@
   // Contenu optimise (score Datafer 88/100, mot-cle "assurance moto de collection").
   var H1 = "Assurance auto et moto anciennes ou de collection";
 
-  var INTRO = [
-    { note: "À retenir : l'offre AMV Légende assure vos autos et deux-roues anciens (de plus de 15 ans) ou de collection. Formules au tiers, vol-incendie ou tous risques, tarifs dégressifs selon l'âge des véhicules et leur nombre, devis en ligne gratuit en quelques minutes." },
-    { p: "Vous cherchez une assurance dédiée à votre moto ancienne ou de collection ? AMV, spécialiste de <a href='https://www.amv.fr/assurance/moto/' target='_blank' rel='noopener' class='rl-link' style='color:inherit;text-decoration:underline;font-weight:600'>l'assurance moto</a> et scooter depuis 1974, a conçu l'offre AMV Légende pour couvrir les autos et motos anciennes (de plus de 15 ans) ou de collection. Couverture sur mesure, garanties adaptées, souscription rapide : vous construisez votre contrat selon chaque modèle et profitez de tarifs dégressifs selon l'âge des véhicules et leur nombre." }
+  // Recette AMV du 30/07/2026 : l'intro est coupee en deux pour ne pas repousser le CTA.
+  // INTRO_TOP reste au-dessus de "Obtenir un tarif" (3 lignes), INTRO_BAS passe SOUS les
+  // boutons "Vous etes client / Vous n'etes pas client".
+  var INTRO_TOP = [
+    { p: "Vous cherchez une assurance dédiée à votre moto ancienne ou de collection ? AMV, spécialiste de <a href='https://www.amv.fr/assurance/moto/' target='_blank' rel='noopener' class='rl-link' style='color:inherit;text-decoration:underline;font-weight:600'>l'assurance moto</a> et scooter depuis 1974, a conçu l'offre AMV Légende pour couvrir les autos et motos anciennes (de plus de 15 ans) ou de collection." }
+  ];
+
+  var INTRO_BAS = [
+    { p: "Couverture sur mesure, garanties adaptées, souscription rapide : vous construisez votre contrat selon chaque modèle et profitez de tarifs dégressifs selon l'âge des véhicules et leur nombre." },
+    { note: "À retenir : l'offre AMV Légende assure vos autos et deux-roues anciens (de plus de 15 ans) ou de collection. Formules au tiers, vol-incendie ou tous risques, tarifs dégressifs selon l'âge des véhicules et leur nombre, devis en ligne gratuit en quelques minutes." }
   ];
 
   var BODY = [
@@ -97,9 +104,12 @@
       var nh = el("div","rl-add rl-inline",null); nh.id="rl-h1box"; nh.appendChild(badge("H1"));
       nh.appendChild(el("span","rl-h1", H1)); insertAfter(nh, h1);
     }
-    // 2. Intro apres le nouveau H1
+    // 2. Intro haute (3 lignes) apres le nouveau H1, au-dessus de "Obtenir un tarif"
     var h1box = document.getElementById("rl-h1box");
-    if(h1box && !document.getElementById("rl-intro")){ var bi=block(INTRO); bi.id="rl-intro"; insertAfter(bi, h1box); }
+    if(h1box && !document.getElementById("rl-intro")){ var bi=block(INTRO_TOP); bi.id="rl-intro"; insertAfter(bi, h1box); }
+    // 2 bis. Suite de l'intro SOUS les boutons client / pas client (recette 30/07)
+    var btns = document.querySelector(".buttonsEntreeTunnel");
+    if(btns && !document.getElementById("rl-intro-bas")){ var bb2=block(INTRO_BAS); bb2.id="rl-intro-bas"; insertAfter(bb2, btns); }
     // 3. Corps optimise apres le paragraphe d'intro existant (ancre H2 "chez AMV")
     var anchorIntro = findByText("h2", "chez amv") || findByText("h2", "assurance auto et moto de collection");
     if(anchorIntro && !document.getElementById("rl-body")){
@@ -124,12 +134,16 @@
 
   function addControls(){
     if(document.getElementById("rl-toggle")) return;
-    var btn=el("button",null,'<span class="dot"></span> Modifications'); btn.id="rl-toggle";
-    btn.addEventListener("click", function(){ document.body.classList.toggle("rl-on"); });
+    var btn=el("button",null,'<span class="dot"></span> Voir les modifications'); btn.id="rl-toggle";
+    btn.addEventListener("click", function () {
+      var b = document.body, on = b.classList.toggle("rl-on");
+      b.classList.toggle("rl-final", !on);
+      btn.innerHTML = '<span class="dot"></span> ' + (on ? "Version finale" : "Voir les modifications");
+    });
     document.body.appendChild(btn);
     var lg=el("div",null,'<span class="sw sw-del"></span> Contenu supprimé/remplacé<br><span class="sw sw-add"></span> Nouveau contenu optimisé'); lg.id="rl-legend";
     document.body.appendChild(lg);
-    document.body.classList.add("rl-on");
+    document.body.classList.add("rl-final");
   }
   function init(){ addControls(); var t=0; var timer=setInterval(function(){ t++; if(apply()||t>40){ clearInterval(timer);} }, 250); }
   if(document.readyState==="complete"||document.readyState==="interactive") init();

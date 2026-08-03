@@ -1,10 +1,10 @@
 /* Redline AMV : contenu supprimé (rouge barré) vs nouveau contenu (vert) */
 
 /* Contenu supprimé */
-.rl-del, .rl-del * {
+body.rl-on .rl-del, body.rl-on .rl-del * {
   text-decoration: line-through !important;
 }
-.rl-del {
+body.rl-on .rl-del {
   background: #ffe2e2 !important;
   color: #c0392b !important;
   border-radius: 4px;
@@ -12,7 +12,7 @@
 }
 
 /* Nouveau contenu */
-.rl-add {
+body.rl-on .rl-add {
   background: #e6f8ea !important;
   border-left: 4px solid #2ecc71;
   border-radius: 6px;
@@ -21,7 +21,6 @@
 }
 .rl-add .rl-q {
   font-weight: 700;
-  color: #1e7e34;
   display: block;
   margin: 12px 0 4px;
 }
@@ -29,7 +28,8 @@
 .rl-add p { margin: 0 0 8px; }
 .rl-add ul { margin: 4px 0 10px 18px; list-style: disc; }
 .rl-add li { margin: 2px 0; }
-.rl-add .rl-h1 { font-size: 1.8em; font-weight: 800; color: #1e7e34; line-height: 1.15; display: block; }
+body.rl-on .rl-add .rl-h1 { color: #1e7e34 !important; }
+.rl-add .rl-h1 { font-size: 1.8em; font-weight: 800; line-height: 1.15; display: block; }
 .rl-badge {
   display: inline-block;
   font-size: 11px;
@@ -65,7 +65,7 @@
 body:not(.rl-on) .rl-hntag { display: none !important; }
 
 /* Nouveau contenu en simple surlignage vert, meme taille que l'original (clone) */
-.rl-mark, .rl-mark * {
+body.rl-on .rl-mark, body.rl-on .rl-mark * {
   background: #b9f0c6 !important;
   color: #176a2c !important;
   text-decoration: none !important;
@@ -132,3 +132,23 @@ body:not(.rl-on) #rl-legend { display: none; }
 .rl-add .rl-table th, .rl-add .rl-table td { border: 1px solid #bfe6c8; padding: 8px 10px; text-align: left; vertical-align: top; }
 .rl-add .rl-table th { background: #2ecc71; color: #fff; font-weight: 700; }
 .rl-add .rl-table tr:nth-child(even) td { background: #f3fbf5; }
+
+/* ===== Etat "version finale" : rendu tel qu'il sera reellement en ligne (mode par defaut) ===== */
+body.rl-final .rl-del, body.rl-final .rl-del * { display: none !important; }
+body.rl-final .rl-badge,
+body.rl-final .rl-hntag,
+body.rl-final #rl-legend { display: none !important; }
+body.rl-final .rl-add {
+  display: block !important;
+  background: transparent !important;
+  border-left: 0 !important;
+  border-radius: 0 !important;
+  padding: 0 !important;
+  margin: 14px 0 !important;
+}
+body.rl-final .rl-mark { display: revert !important; }
+body.rl-final #rl-toggle .dot { background: #888 !important; }
+
+/* Popup cookies TrustCommander neutralisee (confort de recette) */
+#popin_tc_privacy, .tc-privacy-wrapper, #tc-privacy-wrapper, #privacy-overlay, .tc-privacy-overlay, .tc-privacy-popin, .tc-privacy-banner { display: none !important; visibility: hidden !important; }
+html, body { overflow-y: auto !important; }

@@ -15,21 +15,21 @@
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 1',
       content: [
         { p: "La formule de base vous couvre en responsabilité civile (dommages matériels et corporels), en assistance juridique et en protection de vos équipements essentiels :" },
-        { ul: ["casque couvert jusqu'à 250 euros", "gants couverts jusqu'à 70 euros", "gilet airbag couvert jusqu'à 500 euros"] },
-        { p: "Le choix le moins cher pour prendre la route en toute légalité. Cette formule est adaptée aux motos anciennes ou de faible valeur marchande, pour lesquelles une couverture étendue ne serait pas rentable.",
+        { ul: ["casque jusqu'à 250 euros", "gants jusqu'à 70 euros", "gilet airbag jusqu'à 500 euros"] },
+        { p: "C'est le tarif le plus accessible pour prendre la route en toute légalité. Cette formule est adaptée aux motos anciennes ou de faible valeur marchande.",
           links: [{ t: "motos anciennes", href: "https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx" }] }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 2',
       content: [
-        { p: "En complément du socle de la première formule, cette couverture prend en charge les dommages en cas de vol, tentative de vol ou incendie. Remboursement à hauteur de la valeur de remplacement à dire d'expert, ou à la valeur à neuf pendant les 6 premiers mois suivant l'achat, déduction faite de la franchise. Idéale si vous stationnez votre véhicule en extérieur ou en zone urbaine." }
+        { p: "En complément du socle de la première formule, cette couverture prend en charge les dommages en cas de vol, de tentative de vol ou d'incendie, avec un remboursement à la valeur de remplacement à dire d'expert ou à la valeur à neuf les 6 premiers mois, déduction faite de la franchise. Idéale si vous stationnez votre véhicule en extérieur ou en zone urbaine." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 3',
       content: [
-        { p: "Prise en charge des dommages subis par votre moto lors d'une collision avec un tiers identifié. Remboursement à la valeur de remplacement ou à la valeur à neuf, déduction faite de la franchise. Adaptée aux motards qui circulent quotidiennement, notamment en ville, où le risque de collision est statistiquement plus élevé." }
+        { p: "Cette formule assure la prise en charge des dommages subis par votre moto lors d'une collision avec un tiers identifié, remboursés à la valeur de remplacement ou à la valeur à neuf, déduction faite de la franchise. Adaptée aux motards qui circulent quotidiennement, notamment en ville, où le risque de collision est plus élevé." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 4',
       content: [
-        { p: "Couverture complète de l'ensemble des dommages subis par votre moto, avec ou sans tiers identifié, y compris en cas de sinistre responsable ou de vandalisme, déduction faite de la franchise. Recommandée pour les motos neuves ou récentes et les véhicules financés à crédit. Si vous venez d'acquérir une nouvelle moto, cette formule vous garantit une indemnisation dans la grande majorité des situations, quel que soit le modèle ou la puissance." }
+        { p: "La formule Tous risques offre une couverture complète des dommages subis par votre moto, avec ou sans tiers identifié, y compris en cas de sinistre responsable ou de vandalisme, déduction faite de la franchise. Recommandée pour les motos neuves ou récentes et les véhicules financés à crédit." }
       ] },
 
     // 4. Section options : libellé + intro
@@ -40,21 +40,21 @@
     // 5. Options : reprend l'existant, ajoute la version rédigée (vert) en tête de chaque accordéon
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
       content: [
-        { p: "Versement d'un capital en cas de décès ou d'invalidité permanente consécutifs à un accident, même responsable. Cette protection intervient dans les situations où l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }
+        { p: "L'option Individuelle pilote verse un capital en cas de décès ou d'invalidité permanente consécutifs à un accident, même responsable. Elle intervient quand l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Assistance',
       content: [
-        { p: "Intervention sans franchise kilométrique, 24h/24 et 7j/7, en cas de :" },
-        { ul: ["panne ou accident", "vol ou tentative de vol", "crevaison", "perte, vol ou casse de clés", "enlèvement par la fourrière"] },
+        { p: "L'assistance 0 km intervient sans franchise kilométrique, 24h/24 et 7j/7, en cas de :" },
+        { ul: ["panne", "accident", "vol ou tentative de vol", "crevaison", "perte ou casse de clés", "enlèvement par la fourrière"] },
         { p: "Dépannage, remorquage et rapatriement pris en charge pour vous, votre véhicule et votre passager, en France métropolitaine et dans la plupart des pays d'Europe." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Option plus',
       content: [
-        { p: "Extension de la couverture aux accessoires hors-série montés sur votre moto et à l'équipement vestimentaire moto de protection, à concurrence de 5 000 euros. Prolongation de la garantie valeur à neuf jusqu'à 18 mois après l'achat, au lieu de 6 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, sacoches, échappement…)." }
+        { p: "L'Option plus étend la couverture aux accessoires hors-série et à l'équipement vestimentaire moto de protection, à concurrence de 5 000 euros, et prolonge la garantie valeur à neuf jusqu'à 18 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, sacoches, échappement…)." }
       ] },
 
     // 6a. "Pourquoi choisir AMV" -> avant la section avis "AMV c'est 1 million d'assurés"
-    { mode: 'insertBlock', anchorMatch: 'million d', position: 'before',
+    { mode: 'insertSection', beforeSel: 'section.c-avis-section',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre moto ?" },
         { p: "AMV, leader et assureur spécialiste de l'assurance moto scooter en France depuis plus de 50 ans, assure plus d'1 million de motards. Avec une note de satisfaction de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par ses assurés. Que vous rouliez en sportive, en routière, en trail, en scooter ou même en quad, AMV propose un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement et des garanties conçues par des spécialistes des deux-roues.",
@@ -62,22 +62,20 @@
       ] },
 
     // 6b. "Plus de 50 ans d'expertise" -> dans la section "AMV assure toutes les marques de moto"
-    { mode: 'insertBlock', anchorMatch: 'AMV assure toutes les marques de moto', position: 'appendSection',
+    { mode: 'appendInTitle', anchorMatch: 'AMV assure toutes les marques de moto',
       content: [
-        { h3: "Plus de 50 ans d'expertise deux-roues" },
         { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Cette expertise deux-roues couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de chaque marque et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre.",
           links: [{ t: "AMV", href: "https://www.amv.fr/" }, { t: "chaque marque", href: "https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/" }] }
       ] },
 
     // 6c. "Un accompagnement de motard à motard" -> dans la section "Un contrat spécial moto pensé pour vous"
-    { mode: 'insertBlock', anchorMatch: 'Un contrat spécial moto pensé pour vous', position: 'appendSection',
+    { mode: 'appendInTitle', anchorMatch: 'Un contrat spécial moto pensé pour vous',
       content: [
-        { h3: "Un accompagnement de motard à motard" },
         { p: "Plus de 350 conseillers basés à Bordeaux vous apportent des conseils personnalisés par téléphone, par e-mail ou via votre Espace Client. En cas de sinistre, un interlocuteur dédié suit votre dossier d'indemnisation. Vous gérez votre contrat moto en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé : modification des garanties, suivi des remboursements et déclaration en quelques clics." }
       ] },
 
     // 6d. "Comment obtenir votre devis" -> juste avant la FAQ
-    { mode: 'insertBlock', anchorMatch: 'Des questions sur votre assurance', position: 'before',
+    { mode: 'insertSection', beforeH2: 'Des questions sur votre assurance',
       content: [
         { h2: "Comment obtenir votre devis assurance moto ?" },
         { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, année) et votre profil (expérience, bonus-malus, région) via le formulaire pour recevoir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevez votre attestation d'assurance par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
@@ -88,18 +86,18 @@
     { mode: 'faqEdit', faqMatch: 'Des questions sur votre assurance',
       replace: [
         { existing: '^Quelle assurance moto choisir', content: [
-          { p: "Le choix dépend de la valeur de votre véhicule, de votre usage et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto ancienne ou de faible valeur. Pour une moto récente ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds proposés avant de vous décider." }
+          { p: "Le choix dépend de la valeur de votre véhicule, de votre usage et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto ancienne ou de faible valeur. Pour une moto récente ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds avant de vous décider." }
         ] },
         { existing: "prix d'une assurance moto", content: [
-          { p: "Le prix varie fortement d'un profil à l'autre. Il dépend de plusieurs critères :" },
+          { p: "Le prix d'une assurance moto varie fortement d'un profil à l'autre. Il dépend de plusieurs critères :" },
           { ul: ["le type de moto, sa cylindrée et sa puissance", "l'âge et l'expérience du conducteur", "la zone géographique et le lieu de stationnement", "le niveau de couverture choisi"] },
           { p: "Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
         ] },
         { existing: 'Quels équipements sont couverts', content: [
-          { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros) en cas de sinistre. Avec l'Option plus, couverture étendue à l'ensemble de l'équipement vestimentaire moto et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros." }
+          { p: "Dès la première formule, le casque (jusqu'à 250 euros), les gants (jusqu'à 70 euros) et le gilet airbag (jusqu'à 500 euros) sont pris en charge en cas de sinistre. Avec l'Option plus, la couverture est étendue à l'ensemble de l'équipement vestimentaire moto et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros." }
         ] },
         { existing: 'Comment déclarer un sinistre moto', content: [
-          { p: "Déclaration directement depuis Mon Espace AMV sur amv.fr, 24h/24. Un gestionnaire dédié prend en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation." }
+          { p: "La déclaration se fait directement depuis votre espace client Mon Espace AMV sur amv.fr, 24h/24. Un gestionnaire dédié prend ensuite en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation." }
         ] }
       ],
       add: [
@@ -107,10 +105,20 @@
           { p: "Oui. Tout véhicule terrestre à moteur doit être assuré au minimum en responsabilité civile, même s'il est stationné dans un garage et ne circule pas. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros. Cette obligation légale s'applique à toutes les motos, scooters et autres deux-roues motorisés, quelle que soit leur puissance ou leur cylindrée." }
         ] },
         { q: "Quels documents faut-il pour assurer une moto ?", content: [
-          { p: "Chez AMV, la souscription est simplifiée : dans la grande majorité des cas, seul votre relevé d'informations (délivré par votre précédent assureur) est nécessaire, là où d'autres assureurs réclament davantage de pièces, telles que le permis de conduire, la carte grise du véhicule et un justificatif de domicile. Toutes les démarches se font en ligne, réponse immédiate." }
+          { p: "Chez AMV, la souscription est simplifiée : dans la grande majorité des cas, seul votre relevé d'informations (délivré par votre précédent assureur) est nécessaire, là où d'autres assureurs réclament davantage de pièces, telles que le permis de conduire, la carte grise du véhicule et un justificatif de domicile. Toutes les démarches se font en ligne, avec une réponse immédiate." }
         ] }
       ] }
   ];
+  // ===== Moteur de rendu (commun aux 3 LP Umbraco) =====
+  // Recette AMV du 30/07/2026 : titres de surcouche retires, paragraphes alignes dans
+  // le bloc titre (trait vert), blocs ajoutes en pleine largeur avec trait vert,
+  // questions ajoutees rendues en vrais cadres d'accordeon FAQ, lien FAQ centre.
+
+  // Classes du bloc titre AMV (petit trait vert a gauche)
+  // 'in-screen' est indispensable : le site anime les blocs titre a l'apparition
+  // (opacity 0 par defaut), et notre bloc n'est pas suivi par l'observer du site.
+  var RL_TITLE_CLS = 'c-section-title in-screen pl-7 relative after:absolute after:left-0 after:top-0 after:h-full after:w-[5px] after:bg-vertamv-normal';
+  var RL_CONT_CLS = 'mx-auto px-[1.81rem] md:px-[4rem] xl:px-[6.86rem] relative w-full max-w-[1440px] flex flex-col';
 
   function el(tag, cls, html) { var e = document.createElement(tag); if (cls) e.className = cls; if (html != null) e.innerHTML = html; return e; }
   function prependTag(node, label) {
@@ -125,7 +133,7 @@
   // Clone un élément de référence pour hériter de sa typo, puis remplace le texte.
   function cloneAs(ref, txt) {
     var c = ref.cloneNode(true);
-    ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-collapse', 'data-lazy-load'].forEach(function (a) { c.removeAttribute(a); });
+    ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-rl-prep', 'data-rl-title', 'data-collapse', 'data-lazy-load'].forEach(function (a) { c.removeAttribute(a); });
     c.classList.remove('opacity-0', 'rl-del');
     c.classList.add('rl-mark');
     c.style.opacity = '1';
@@ -163,7 +171,7 @@
   function makeParaLinked(txt, links) {
     var r = refPara();
     var p = r ? r.cloneNode(true) : el('p', 'rl-mark', null);
-    ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-collapse', 'data-lazy-load'].forEach(function (a) { p.removeAttribute(a); });
+    ['id', 'data-rl', 'data-rl-app', 'data-rl-edit', 'data-rl-prep', 'data-rl-title', 'data-collapse', 'data-lazy-load'].forEach(function (a) { p.removeAttribute(a); });
     p.classList.remove('opacity-0', 'rl-del'); p.classList.add('rl-mark'); p.style.opacity = '1';
     p.innerHTML = linkify(txt, links);
     p.style.marginTop = '10px';
@@ -249,6 +257,88 @@
     return nodes[0];
   }
 
+  // ---- Recette 30/07 : helpers de structure ----
+  // Certaines pages (quad) ont des accents decomposes (e + accent combinant) et des
+  // apostrophes courbes : on normalise avant de comparer, sinon aucun match.
+  function norm(s) {
+    return (s || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[\u2019\u02bc]/g, "'").replace(/\s+/g, ' ').toLowerCase();
+  }
+  function findH2(match) {
+    var m = norm(match);
+    return [].slice.call(document.querySelectorAll('h2')).find(function (x) { return norm(x.textContent).indexOf(m) >= 0; });
+  }
+  // Bloc titre AMV (div.c-section-title) qui porte le trait vert
+  function titleWrapper(match) {
+    var h = findH2(match);
+    if (!h) return null;
+    return h.closest('.c-section-title') || h.parentNode;
+  }
+  // Section pleine largeur au gabarit AMV, avec trait vert devant le titre
+  function newTitleSection() {
+    var sec = el('section', 'rl-sec pt-amv40 md:pt-amv60 w-full relative');
+    var cont = el('div', RL_CONT_CLS);
+    var wrap = el('div', RL_TITLE_CLS);
+    cont.appendChild(wrap);
+    sec.appendChild(cont);
+    return { sec: sec, wrap: wrap };
+  }
+  // Un bloc titre (donc un trait vert) par H2 : chaque H2 ouvre une nouvelle section
+  function buildTitleSections(items) {
+    var sections = [], wrap = null;
+    items.forEach(function (it) {
+      if (it.h2 || !wrap) {
+        var s = newTitleSection();
+        sections.push(s.sec);
+        wrap = s.wrap;
+      }
+      renderContent([it]).forEach(function (n) { wrap.appendChild(n); });
+    });
+    return sections;
+  }
+  // Vrai cadre d'accordéon FAQ, cloné sur un cadre existant de la page
+  function faqCard(question, items, scope) {
+    var model = (scope || document).querySelector('.collapse-block');
+    if (!model) return null;
+    var card = model.cloneNode(true);
+    ['data-collapse', 'data-lazy-load', 'data-rl-faq'].forEach(function (a) { card.removeAttribute(a); });
+    card.classList.remove('opacity-0');
+    card.classList.add('rl-card');
+    card.style.opacity = '1';
+    var head = card.querySelector('.flex.justify-between.items-center');
+    var span = head ? head.querySelector('span') : null;
+    if (span) { span.textContent = question; span.classList.add('rl-mark'); }
+    var part = card.querySelector('.collapse-part');
+    if (!part) return null;
+    part.removeAttribute('id');
+    part.innerHTML = '';
+    renderContent(items).forEach(function (n) { part.appendChild(n); });
+    // ouvert par defaut, comme les reponses remplacees : la maquette doit montrer le texte
+    part.classList.remove('hidden');
+    part.style.display = 'flex';
+    var arrow = head ? head.querySelector('svg') : null;
+    if (arrow) arrow.style.transform = 'rotate(180deg)';
+    if (head) {
+      head.style.cursor = 'pointer';
+      head.addEventListener('click', function () {
+        var closed = part.classList.toggle('hidden');
+        part.style.display = closed ? '' : 'flex';
+        if (arrow) arrow.style.transform = closed ? '' : 'rotate(180deg)';
+      });
+    }
+    return card;
+  }
+  // Lien "Consulter toutes les questions fréquentes" : centré (règle AMV : avec flèche = centré)
+  function centerFaqLink() {
+    // le lien "Besoin d'aide ?" existe aussi dans la nav : on cible le bloc sous la FAQ
+    var box = [].slice.call(document.querySelectorAll('div.flex.mt-amv40')).find(function (b) {
+      return b.querySelector('a[href="/besoin-daide/"]');
+    });
+    if (!box || box.getAttribute('data-rl-center')) return;
+    box.setAttribute('data-rl-center', '1');
+    box.classList.remove('md:justify-start');
+    box.classList.add('md:justify-center');
+  }
+
   function applyEdit(edit) {
     if (edit.mode === 'prependInside') {
       var blockP = findCollapseScoped(edit.blockMatch, 'data-rl-prep', edit.scope);
@@ -256,6 +346,31 @@
       blockP.setAttribute('data-rl-prep', '1');
       var partP = blockP.querySelector('.collapse-part') || blockP;
       insertNodesBefore(renderContent(edit.content), partP.firstChild, partP);
+      return true;
+    }
+
+    // Paragraphe ajouté DANS le bloc titre existant (aligné sur le titre, pas de titre en plus)
+    if (edit.mode === 'appendInTitle') {
+      var wrap = titleWrapper(edit.anchorMatch);
+      if (!wrap) return false;
+      if (wrap.getAttribute('data-rl-title')) return true;
+      wrap.setAttribute('data-rl-title', '1');
+      renderContent(edit.content).forEach(function (n) { n.style.marginTop = '8px'; wrap.appendChild(n); });
+      return true;
+    }
+
+    // Bloc ajouté en pleine largeur, juste avant une section repère
+    if (edit.mode === 'insertSection') {
+      var target = null;
+      if (edit.beforeSel) target = document.querySelector(edit.beforeSel);
+      if (!target && edit.beforeH2) {
+        var h = findH2(edit.beforeH2);
+        target = h ? h.closest('section') : null;
+      }
+      if (!target) return false;
+      if (target.getAttribute('data-rl-sec')) return true;
+      target.setAttribute('data-rl-sec', '1');
+      buildTitleSections(edit.content).forEach(function (sec) { target.parentNode.insertBefore(sec, target); });
       return true;
     }
 
@@ -306,16 +421,21 @@
         renderContent(item.content).forEach(function (n) { part.appendChild(n); });
       });
 
-      // Ajoute les nouvelles questions (vert) à la fin de la FAQ
+      // Questions ajoutées : vrais cadres d'accordéon, dans la colonne de la FAQ,
+      // avant le lien "Consulter toutes les questions fréquentes" qui doit rester en bas
       if (edit.add && edit.add.length && blocks.length) {
-        var nodes = [];
-        edit.add.forEach(function (it) {
-          nodes.push(makeQuestion(it.q));
-          renderContent(it.content).forEach(function (n) { nodes.push(n); });
-        });
         var lastB = blocks[blocks.length - 1];
-        insertNodesBefore(nodes, lastB.nextSibling, lastB.parentNode);
+        var col = lastB.parentNode;
+        var linkBox = [].slice.call(col.querySelectorAll('div.flex.mt-amv40')).find(function (b) {
+          return b.querySelector('a[href="/besoin-daide/"]');
+        }) || null;
+        var stop = linkBox && linkBox.parentNode === col ? linkBox : lastB.nextSibling;
+        edit.add.forEach(function (it) {
+          var card = faqCard(it.q, it.content, section);
+          if (card) col.insertBefore(card, stop);
+        });
       }
+      centerFaqLink();
       return true;
     }
 
@@ -363,19 +483,24 @@
   function applyAll() {
     var allDone = true;
     EDITS.forEach(function (e) { if (!e._done) { e._done = applyEdit(e); if (!e._done) allDone = false; } });
+    centerFaqLink();
     return allDone;
   }
 
   function addControls() {
     if (document.getElementById('rl-toggle')) return;
-    var btn = el('button', null, '<span class="dot"></span> Modifications');
+    var btn = el('button', null, '<span class="dot"></span> Voir les modifications');
     btn.id = 'rl-toggle';
-    btn.addEventListener('click', function () { document.body.classList.toggle('rl-on'); });
+    btn.addEventListener("click", function () {
+      var b = document.body, on = b.classList.toggle("rl-on");
+      b.classList.toggle("rl-final", !on);
+      btn.innerHTML = '<span class="dot"></span> ' + (on ? "Version finale" : "Voir les modifications");
+    });
     document.body.appendChild(btn);
     var legend = el('div', null, '<span class="sw sw-del"></span> Contenu supprimé<br><span class="sw sw-add"></span> Nouveau contenu');
     legend.id = 'rl-legend';
     document.body.appendChild(legend);
-    document.body.classList.add('rl-on');
+    document.body.classList.add("rl-final");
   }
 
   function init() {
