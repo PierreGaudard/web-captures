@@ -1,4 +1,35 @@
-var AGNES_EDITS = [];
+var AGNES_EDITS = [
+ {
+  "ancre": "Cette option vous verse un capital pouvant atteindre 800 000 euros en cas d'invalidité permanente, ou à vos ayants droit en cas de décès, même lors d'un accident responsable. Sur une moto aux performances élevées, cette option mérite toute votre attention.",
+  "old": "Cette option vous verse un capital pouvant atteindre 800 000 euros en cas d'invalidité permanente, ou à vos ayants droit en cas de décès, même lors d'un accident responsable. Sur une moto aux performances élevées, cette option mérite toute votre attention.",
+  "new": "L'option Individuelle pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote. Sur une moto aux performances élevées, cette option mérite toute votre attention."
+ },
+ {
+  "ancre": "Capital jusqu'à 800 000 € en cas de décès ou d'invalidité permanente",
+  "old": "Capital jusqu'à 800 000 € en cas de décès ou d'invalidité permanente",
+  "new": "Capital (jusqu'à 800 000 €) en cas de déficit fonctionnel ou de décès consécutif à un accident"
+ },
+ {
+  "ancre": "Bien assurer votre moto est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.",
+  "old": "Bien assurer votre moto est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.",
+  "new": "Bien assurer votre moto est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis plus de 50 ans."
+ },
+ {
+  "ancre": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.",
+  "old": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.",
+  "new": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance même en bas de chez vous, qu'il s'agisse d'un accident, d'un vol, d'une crevaison ou d'une panne."
+ },
+ {
+  "ancre": "Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.",
+  "old": "Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.",
+  "new": "Chez AMV, nous sommes fiers d'accompagner les motards depuis plus de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité."
+ },
+ {
+  "ancre": "Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins.",
+  "old": "Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins.",
+  "new": "Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis plus de 50 ans, AMV propose des solutions adaptées à vos besoins."
+ }
+];
 // Retours d'Agnes Rouviere du 03/08/2026 appliques sur la maquette.
 // Le paragraphe d'origine est barre, la version corrigee d'Agnes s'affiche juste apres.
 // Cela vaut aussi pour les blocs fixes du gabarit (FAQ produit, blocs de bas de page) que nous

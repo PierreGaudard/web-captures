@@ -27,7 +27,7 @@ var AGNES_EDITS = [
  {
   "ancre": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.",
   "old": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.",
-  "new": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistancemême en bas de chez vous, qu'il s'agisse d'un accident, d'un vol ou d'une panne."
+  "new": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance même en bas de chez vous, qu'il s'agisse d'un accident, d'un vol, d'une crevaison ou d'une panne."
  },
  {
   "ancre": "Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.",
@@ -106,8 +106,21 @@ var AGNES_EDITS = [
       var src = trouve(edit.ancre || edit.old);
       if (!src) { rates.push(idx + 1); return; }
       src.setAttribute('data-agnes', '1');
-      src.classList.add('ag-del', 'rl-del', 'ag-bloc');
-      src.parentNode.insertBefore(versionCorrigee(src, edit.new), src.nextSibling);
+      if (src.tagName === 'TD' || src.tagName === 'TH') {
+        // dans un tableau, la correction va DANS la cellule (une cellule en plus
+        // decalerait la ligne par rapport a l'en-tete) : ancien texte barre, version d'Agnes dessous
+        var ancien = document.createElement('div');
+        ancien.className = 'ag-del rl-del';
+        while (src.firstChild) ancien.appendChild(src.firstChild);
+        src.classList.add('ag-bloc');
+        src.appendChild(ancien);
+        var nv = versionCorrigee(ancien, edit.new);
+        nv.style.marginTop = '4px';
+        src.appendChild(nv);
+      } else {
+        src.classList.add('ag-del', 'rl-del', 'ag-bloc');
+        src.parentNode.insertBefore(versionCorrigee(src, edit.new), src.nextSibling);
+      }
       edit._ok = true; faits++;
     });
     return faits === AGNES_EDITS.length;

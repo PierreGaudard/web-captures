@@ -17,7 +17,7 @@ var AGNES_EDITS = [
  {
   "ancre": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.",
   "old": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.",
-  "new": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol d'une panne et même d'une crevaison."
+  "new": "En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance même en bas de chez vous, qu'il s'agisse d'un accident, d'un vol, d'une crevaison ou d'une panne."
  },
  {
   "ancre": "Après la première année, vous pouvez résilier à tout moment grâce à la loi Hamon, sans frais ni pénalité. Un conseiller AMV vous accompagne dans la démarche et peut effectuer les formalités auprès de votre ancien assureur, que ce soit une compagnie ou une mutuelle.",
@@ -106,8 +106,21 @@ var AGNES_EDITS = [
       var src = trouve(edit.ancre || edit.old);
       if (!src) { rates.push(idx + 1); return; }
       src.setAttribute('data-agnes', '1');
-      src.classList.add('ag-del', 'rl-del', 'ag-bloc');
-      src.parentNode.insertBefore(versionCorrigee(src, edit.new), src.nextSibling);
+      if (src.tagName === 'TD' || src.tagName === 'TH') {
+        // dans un tableau, la correction va DANS la cellule (une cellule en plus
+        // decalerait la ligne par rapport a l'en-tete) : ancien texte barre, version d'Agnes dessous
+        var ancien = document.createElement('div');
+        ancien.className = 'ag-del rl-del';
+        while (src.firstChild) ancien.appendChild(src.firstChild);
+        src.classList.add('ag-bloc');
+        src.appendChild(ancien);
+        var nv = versionCorrigee(ancien, edit.new);
+        nv.style.marginTop = '4px';
+        src.appendChild(nv);
+      } else {
+        src.classList.add('ag-del', 'rl-del', 'ag-bloc');
+        src.parentNode.insertBefore(versionCorrigee(src, edit.new), src.nextSibling);
+      }
       edit._ok = true; faits++;
     });
     return faits === AGNES_EDITS.length;

@@ -76,8 +76,21 @@ var AGNES_EDITS = [
       var src = trouve(edit.ancre || edit.old);
       if (!src) { rates.push(idx + 1); return; }
       src.setAttribute('data-agnes', '1');
-      src.classList.add('ag-del', 'rl-del', 'ag-bloc');
-      src.parentNode.insertBefore(versionCorrigee(src, edit.new), src.nextSibling);
+      if (src.tagName === 'TD' || src.tagName === 'TH') {
+        // dans un tableau, la correction va DANS la cellule (une cellule en plus
+        // decalerait la ligne par rapport a l'en-tete) : ancien texte barre, version d'Agnes dessous
+        var ancien = document.createElement('div');
+        ancien.className = 'ag-del rl-del';
+        while (src.firstChild) ancien.appendChild(src.firstChild);
+        src.classList.add('ag-bloc');
+        src.appendChild(ancien);
+        var nv = versionCorrigee(ancien, edit.new);
+        nv.style.marginTop = '4px';
+        src.appendChild(nv);
+      } else {
+        src.classList.add('ag-del', 'rl-del', 'ag-bloc');
+        src.parentNode.insertBefore(versionCorrigee(src, edit.new), src.nextSibling);
+      }
       edit._ok = true; faits++;
     });
     return faits === AGNES_EDITS.length;

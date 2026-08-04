@@ -96,6 +96,16 @@
       "title": "AMV - Assurance scooter 3 roues (création)",
       "description": "Proposition de NOUVELLE page assurance scooter 3 roues (MP3, Metropolis, Tricity) : permis B, 4 formules, options, prix, FAQ. Maquette dans le template AMV.",
       "url": "https://amv-scooter-3-roues.pages.dev/assurance-scooter/assurance-scooter-3-roues/"
+    },
+    {
+      "title": "AMV - Assurance moto Zontes (création)",
+      "description": "Proposition de NOUVELLE page marque Zontes (125 Urban à 703 RR) : gamme assurable, permis A1/A2 et bridage 35 kW, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-zontes.pages.dev/assurance-moto/assurance-moto-zontes/"
+    },
+    {
+      "title": "AMV - Assurance moto Kove (création)",
+      "description": "Proposition de NOUVELLE page marque Kove (450 Rally, 510X, 800X, NK 125R) : gamme assurable, permis, usage tout-terrain et circuit, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-kove.pages.dev/assurance-moto/assurance-moto-kove/"
     }
   ]
 }
