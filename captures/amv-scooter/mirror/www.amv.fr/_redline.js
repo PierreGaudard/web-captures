@@ -51,11 +51,13 @@
 
     { mode: 'appendInTitle', anchorMatch: 'AMV assure toutes les marques de scooter',
       content: [
+        { h3: "Plus de 50 ans d'expertise deux-roues" },
         { p: "Depuis 1974, AMV assure les passions des scootéristes et des motards. Une expertise qui couvre ce que les assureurs généralistes connaissent moins : vol de casque, équipement endommagé lors d'une chute, panne en pleine circulation. AMV connaît chaque type de scooter, du 125cc urbain au maxi-scooter, et assure toutes les marques : Yamaha, Honda, Piaggio, Kymco, BMW, Peugeot, Vespa, Suzuki et bien d'autres." }
       ] },
 
     { mode: 'appendInTitle', anchorMatch: 'Un contrat spécial scooter pensé pour vous',
       content: [
+        { h3: "Un accompagnement personnalisé" },
         { p: "Plus de 350 conseillers basés à Bordeaux vous conseillent par téléphone ou en ligne. En cas de sinistre, un conseiller dédié suit votre dossier d'indemnisation de bout en bout. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
       ] },
 
@@ -138,7 +140,18 @@
         { q: "L'assurance scooter couvre-t-elle les trajets domicile-travail ?", content: [
           { p: "Oui. Les trajets domicile-travail font partie de l'usage couvert par votre assurance scooter AMV, comme l'ensemble de vos déplacements urbains et périurbains du quotidien. Avec l'option Assistance 0 km, vous êtes dépanné sur ces trajets, même à proximité immédiate de votre domicile." }
         ] }
-      ] }
+      ] },
+
+    { mode: 'renameHeader', pairs: [
+      ["Formule 1", "Formule Responsabilité civile"],
+      ["Formule 2", "Formule Vol / Incendie"],
+      ["Formule 3", "Formule Dommages collision"],
+      ["Formule 4", "Formule Tous risques"],
+      ["Option Individuelle pilote", "Individuelle pilote"],
+      ["Option Assistance", "Assistance 0 km"],
+      ["Option plus", "Option Plus"],
+      ["Des questions sur votre assurance", "Questions fréquentes sur l'assurance scooter"],
+    ] }
   ];
   // ===== Moteur de rendu (commun aux 3 LP Umbraco) =====
   // Recette AMV du 30/07/2026 : titres de surcouche retires, paragraphes alignes dans
@@ -415,6 +428,26 @@
     // Paragraphe ajouté DANS le bloc titre existant (aligné sur le titre, pas de titre en plus).
     // S'il y a déjà une phrase d'intro sous le titre, le texte est collé à sa suite, dans le
     // MEME paragraphe (demande du 03/08 : pas de saut de ligne).
+    // Intitules repris a l'identique du Word valide (MEP 05/08)
+    if (edit.mode === 'renameHeader') {
+      var nren = 0;
+      (edit.pairs || []).forEach(function (pr) {
+        var want = norm(pr[0]);
+        var cands = [].slice.call(document.querySelectorAll('.collapse-block .flex.justify-between.items-center span, h2, h3, h4, .text-orange-normal'));
+        for (var i = 0; i < cands.length; i++) {
+          var e = cands[i];
+          if (e.getAttribute('data-rl-ren') || e.closest('.rl-add')) continue;
+          if (norm(e.textContent).indexOf(want) < 0) continue;
+          e.setAttribute('data-rl-ren', '1');
+          e.textContent = pr[1];
+          e.classList.add('rl-mark');
+          nren++;
+          break;
+        }
+      });
+      return nren === (edit.pairs || []).length;
+    }
+
     if (edit.mode === 'appendInTitle') {
       var wrap = titleWrapper(edit.anchorMatch);
       if (!wrap) return false;
@@ -425,6 +458,14 @@
       var ps = [].slice.call(wrap.querySelectorAll('p')).filter(function (x) { return !x.classList.contains('rl-mark'); });
       var lastP = ps.length ? ps[ps.length - 1] : null;
       edit.content.forEach(function (it) {
+        if (!it.h3) return;
+        var h2e = wrap.querySelector('h2') || wrap.firstElementChild;
+        var hn = makeHeading('h3', it.h3);
+        hn.style.marginTop = '12px';
+        if (h2e && h2e.nextSibling) wrap.insertBefore(hn, h2e.nextSibling); else wrap.appendChild(hn);
+      });
+      edit.content.forEach(function (it) {
+        if (it.h3) return;
         if (lastP && it.p) {
           var sp = el('span', 'rl-mark');
           sp.innerHTML = ' ' + linkify(it.p, it.links);
@@ -586,7 +627,19 @@
 
   function applyAll() {
     var allDone = true;
-    EDITS.forEach(function (e) { if (!e._done) { e._done = applyEdit(e); if (!e._done) allDone = false; } });
+    // les renommages d'intitules passent EN DERNIER : ils detruisent les ancres
+    // sur lesquelles les autres edits se reperent (Formule 1..4, titre de la FAQ).
+    EDITS.forEach(function (e) {
+      if (e.mode === 'renameHeader') return;
+      if (!e._done) { e._done = applyEdit(e); if (!e._done) allDone = false; }
+    });
+    if (allDone) {
+      EDITS.forEach(function (e) {
+        if (e.mode !== 'renameHeader' || e._done) return;
+        e._done = applyEdit(e);
+        if (!e._done) allDone = false;
+      });
+    }
     centerFaqLink();
     enableCollapses();
     return allDone;
