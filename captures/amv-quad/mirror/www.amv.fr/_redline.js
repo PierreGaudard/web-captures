@@ -7,7 +7,7 @@
 
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$', hlevel: 'H2',
       newText: "Nos 4 formules d'assurance quad",
-      addParas: ["AMV, spécialiste de l'assurance moto, quad et SSV, propose quatre formules adaptées à chaque quad et SSV, selon sa valeur, son usage et votre budget. Choisissez la formule la mieux adaptée à votre utilisation : dès le premier niveau de couverture, vous bénéficiez de la responsabilité civile, d'une assistance juridique et d'une protection de vos équipements de quadeur (casque, gants, gilet airbag) en cas de sinistre. Comparez les différentes formules et options et obtenez votre devis d'assurance quad en ligne en quelques clics, sans engagement."] },
+      addParas: ["AMV, spécialiste de l'assurance moto, quad et SSV, propose jusqu'à quatre formules adaptées à chaque quad et SSV, selon sa valeur, son utilisation et votre budget. Choisissez la formule la mieux adaptée à votre situation : dès le premier niveau de couverture, vous bénéficiez de la responsabilité civile, d'une assistance juridique et d'une protection de vos équipements de quadeur (casque, gants, gilet airbag) en cas de sinistre. Comparez les différentes formules et options et obtenez votre devis d'assurance quad en ligne en quelques clics, sans engagement."] },
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 1',
       content: [
@@ -15,11 +15,11 @@
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 2',
       content: [
-        { p: "En complément, cette formule couvre le vol, la tentative de vol et l'incendie de votre quad, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois. Elle est particulièrement adaptée si votre quad est régulièrement stationné en extérieur ou dans un lieu non clos, le risque de vol étant plus important." }
+        { p: "En complément, cette formule couvre le vol, la tentative de vol et l'incendie de votre quad, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois, deduction faite de la franchise. Elle est particulièrement adaptée si votre quad est régulièrement stationné en extérieur ou dans un lieu non clos, le risque de vol étant plus important." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 3',
       content: [
-        { p: "En cas de collision avec un tiers identifié, les dommages causés à votre quad sont pris en charge et indemnisés à la valeur de remplacement à dire d'expert ou à la valeur à neuf, sous déduction, si votre responsabilité est engagée, de la franchise prévue au contrat. Cette formule constitue un bon compromis pour les conducteurs utilisant leur quad sur route et souhaitant bénéficier d'une protection renforcée face aux principaux risques de circulation." }
+        { p: "En cas de collision avec un tiers identifié, les dommages causés à votre quad sont pris en charge et indemnisés à la valeur de remplacement à dire d'expert ou à la valeur à neuf, deduction faite, si votre responsabilité est engagée, de la franchise prévue au contrat. Cette formule constitue un bon compromis pour les conducteurs utilisant leur quad sur route et souhaitant bénéficier d'une protection renforcée face aux principaux risques de circulation." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 4',
       content: [
@@ -32,7 +32,7 @@
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
       content: [
-        { p: "L'option Individuelle pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote. Sur un quad, où le risque de chute ou de retournement est réel, cette garantie mérite d'être étudiée." }
+        { p: "L'option Individuelle Pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote. Sur un quad, où le risque de chute ou de retournement existe, cette option mérite d'être étudiée." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Assistance',
       content: [
@@ -46,12 +46,12 @@
     { mode: 'insertSection', beforeSel: 'section.c-avis-section',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre quad ?" },
-        { p: "AMV, leader de l'assurance deux-roues en France et spécialiste de l'assurance quad et SSV, a plus d'1 million d'assurés. Avec une note de 4,7/5 via Avis Vérifiés, AMV est recommandé par ses assurés (9 sur 10). Que vous rouliez en quad sportif, en quad utilitaire ou en SSV, votre assurance quad est sur mesure. Découvrez les avantages : des formules pensées pour le terrain comme pour la route, un devis d'assurance quad en ligne sans engagement et un conseiller dédié en cas de sinistre." }
+        { p: "AMV, leader de l'assurance deux-roues en France et spécialiste de l'assurance quad et SSV, compte plus d'1 million d'assurés. Avec une note de 4,7/5 via Avis Vérifiés, AMV est largement recommandé par ses assurés (9 sur 10). Que vous pilotiez un quad sportif, un quad utilitaire ou un SSV, votre assurance quad est sur mesure. Découvrez les avantages : des formules pensées pour le terrain comme pour la route, un devis d'assurance quad en ligne sans engagement et un conseiller dédié en cas de sinistre." }
       ] },
 
     { mode: 'appendInTitle', anchorMatch: 'AMV assure toutes les marques de quad',
       content: [
-        { p: "Depuis 1974, AMV assure les passions des conducteurs de deux-roues et de quad. Une expertise qui couvre ce que les assureurs généralistes connaissent moins : vol d'équipement, dommages lors d'une sortie hors route, panne en pleine randonnée. AMV connaît chaque type de quad, du sportif au SSV utilitaire, et assure toutes les marques : Can-Am, Polaris, CFMOTO, Yamaha, Kymco, TGB, Segway, Kubota, Hytrack, Arctic Cat et bien d'autres." }
+        { p: "Depuis 1974, AMV assure les passions des conducteurs de deux-roues et de quad. Une expertise qui couvre ce que les assureurs généralistes connaissent moins : vol d'équipement, dommages lors d'une sortie hors route, panne éventuelle. AMV connaît chaque type de quad, du sportif au SSV utilitaire, et assure toutes les marques : Can-Am, Polaris, CFMOTO, Yamaha, Kymco, TGB, Segway, Kubota, Hytrack, Arctic Cat et bien d'autres." }
       ] },
 
     { mode: 'appendInTitle', anchorMatch: 'Un contrat spécial quad',
@@ -66,7 +66,7 @@
         { h3: "Quad homologué route" },
         { p: "Le quad homologué route est immatriculé et autorisé à circuler sur la voie publique. Il dispose d'une carte grise, et le permis requis dépend de la catégorie du quad. AMV couvre vos déplacements sur route et en agglomération. Modèles courants : Can-Am Outlander, Polaris Sportsman, CFMOTO CForce, Yamaha Grizzly." },
         { h3: "Quad non homologué" },
-        { p: "Le quad non homologué est destiné à un usage hors route : loisir ou randonnée sur terrain privé. Même s'il ne circule pas sur la voie publique, il doit être assuré en responsabilité civile et faire l'objet d'une identification (numéro d'identification). AMV assure les quads non homologués avec une formule dédiée, en usage privé." },
+        { p: "Le quad non homologué est destiné à un usage hors route : loisir ou randonnée sur terrain privé. Même s'il ne circule pas sur la voie publique, il doit être assuré en responsabilité civile et faire l'objet d'une identification (numéro d'identification). AMV assure les quads non homologués avec une formule unique (Responsabilité Civile), en usage privé." },
         { h3: "SSV et buggy (Side by Side Vehicle)" },
         { p: "Le SSV (Side by Side Vehicle), aussi appelé buggy, se distingue du quad par son habitacle, son volant et ses sièges pour transporter un ou plusieurs passagers. AMV assure tous les SSV, homologués ou non, quelle que soit la marque ou la cylindrée. Modèles courants : Polaris RZR, Can-Am Maverick, CFMOTO ZForce, Segway Villain." },
         { h3: "Quad électrique" },
@@ -81,13 +81,13 @@
           { p: "La meilleure assurance quad dépend de la valeur de votre véhicule et de votre budget. Pour un quad de faible valeur ou utilisé occasionnellement, la formule Responsabilité civile peut suffire. Pour un quad neuf ou financé à crédit, la formule Tous risques offre la meilleure protection. AMV, spécialiste de l'assurance quad, fort de plus de 50 ans d'expertise deux-roues, propose des formules adaptées à chaque véhicule." }
         ] },
         { existing: 'Combien cou', content: [
-          { p: "Le prix d'une assurance quad dépend du modèle et de la cylindrée du quad ou du SSV, de la sinistralité déclarée du conducteur, de la zone géographique et du niveau de couverture choisi. Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
+          { p: "Le prix d'une assurance quad non homologué est unique pour tous les assurés. Le prix de l'assurance vol/Incendie et dommages dépend du modèle et de la cylindrée du quad ou du SSV, de la sinistralité déclarée du conducteur, du lieu de stationnement habituel et du niveau de couverture choisi. Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
         ] },
         { existing: "obligatoire d'assurer un quad", content: [
           { p: "Oui. Tout véhicule terrestre à moteur doit être assuré en responsabilité civile, même s'il n'est pas homologué et ne circule pas sur la voie publique, et même stationné dans un garage. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros. Cette obligation légale s'applique à tous les quads et SSV, homologués ou non." }
         ] },
         { existing: 'Quels équipements sont couverts', content: [
-          { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros). Avec l'Option plus, couverture étendue à l'équipement vestimentaire de protection et aux accessoires hors-série montés sur votre quad, jusqu'à 5 000 euros." }
+          { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros). Avec l'Option Plus, couverture étendue à l'équipement vestimentaire de protection et aux accessoires hors-série montés sur votre quad, jusqu'à 5 000 euros." }
         ] },
         { existing: 'déclarer un sinistre quad', content: [
           { p: "Déclaration directement depuis Mon Espace AMV sur amv.fr, 24h/24. À la suite de votre déclaration, un conseiller dédié prend en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation." }

@@ -9,14 +9,14 @@
     // 2. Section formules : libellé + intro
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$', hlevel: 'H2',
       newText: "Nos 4 formules d'assurance moto",
-      addParas: ["AMV, assureur spécialiste de l'assurance moto et scooter, propose 4 formules pour couvrir chaque motard selon son profil, son budget et ses besoins. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la prise en charge de vos équipements (casque, gants, gilet airbag) en cas de sinistre. La cotisation varie selon le niveau de protection et les garanties choisies. Vous pouvez comparer les formules et obtenir votre devis assurance moto en ligne en quelques clics, sans engagement."] },
+      addParas: ["AMV, assureur spécialiste de l'assurance moto et scooter, propose jusqu'à 4 formules pour couvrir chaque motard selon son profil, son budget et ses besoins. Dès la première formule, vous bénéficiez de la responsabilité civile, de l'assistance juridique et de la prise en charge de vos équipements (casque, gants, gilet airbag) en cas de sinistre. La cotisation varie selon le niveau de protection, donc des garanties et options choisies. Vous pouvez comparer les formules et obtenir votre devis assurance moto en ligne en quelques clics, sans engagement."] },
 
     // 3. Formules : reprend l'existant, ajoute la version rédigée (vert) en tête de chaque accordéon
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 1',
       content: [
         { p: "La formule de base vous couvre en responsabilité civile (dommages matériels et corporels), en assistance juridique et en protection de vos équipements essentiels :" },
-        { ul: ["casque jusqu'à 250 euros", "gants jusqu'à 70 euros", "gilet airbag jusqu'à 500 euros"] },
-        { p: "C'est le tarif le plus accessible pour prendre la route en toute légalité. Cette formule est adaptée aux motos anciennes ou de faible valeur marchande.",
+        { ul: ["casque jusqu'à 250 euros", "gants jusqu'à 70 euros", "gilet airbag jusqu'à 500 euros."] },
+        { p: "C'est le tarif le plus accessible pour prendre la route en toute légalité. Cette formule peut être adaptée aux motos d'occasion ou récentes, de faible valeur.",
           links: [{ t: "motos anciennes", href: "https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx" }] }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 2',
@@ -25,7 +25,7 @@
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 3',
       content: [
-        { p: "Cette formule assure la prise en charge des dommages subis par votre moto lors d'une collision avec un tiers identifié, remboursés à la valeur de remplacement ou à la valeur à neuf, déduction faite de la franchise. Adaptée aux motards qui circulent quotidiennement, notamment en ville, où le risque de collision est plus élevé." }
+        { p: "Cette formule assure la prise en charge des dommages subis par votre moto lors d'une collision avec un tiers identifié, remboursés à la valeur de remplacement à dire d'expert ou à la valeur à neuf les 6 premiers mois, déduction faite de la franchise. Adaptée aux motards qui circulent quotidiennement, notamment en ville, où le risque de collision est plus élevé." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 4',
       content: [
@@ -35,50 +35,50 @@
     // 4. Section options : libellé + intro
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des options$', hlevel: 'H2',
       newText: 'Les options pour personnaliser votre contrat',
-      addParas: ["Chaque formule peut être complétée par des options à la carte pour renforcer votre protection selon votre pratique et votre véhicule. Ces options ajustent vos garanties au plus près de vos besoins, que vous rouliez en moto, en scooter ou en deux-roues au quotidien."] },
+      addParas: ["Chaque formule peut être complétée par des options à la carte pour renforcer votre protection selon votre pratique, votre véhicule et votre budget. Ces options ajustent vos garanties au plus près de vos besoins, que vous rouliez en moto ou en scooter au quotidien."] },
 
     // 5. Options : reprend l'existant, ajoute la version rédigée (vert) en tête de chaque accordéon
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
       content: [
-        { p: "L'option Individuelle pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote. Elle intervient quand l'assurance du tiers adverse ne vous couvre pas, notamment lors d'un accident seul ou responsable." }
+        { p: "L'option Individuelle Pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote" }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Assistance',
       content: [
         { p: "L'assistance 0 km intervient sans franchise kilométrique, 24h/24 et 7j/7, en cas de :" },
-        { ul: ["panne", "accident", "vol ou tentative de vol", "crevaison", "perte ou casse de clés", "enlèvement par la fourrière"] },
+        { ul: ["panne, d'accident,", "vol ou de tentative de vol", "crevaison", "perte ou de casse de clés", "enlèvement par la fourrière."] },
         { p: "Dépannage, remorquage et rapatriement pris en charge pour vous, votre véhicule et votre passager, en France métropolitaine et dans la plupart des pays d'Europe." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Option plus',
       content: [
-        { p: "L'Option plus étend la couverture aux accessoires hors-série et à l'équipement vestimentaire moto de protection, à concurrence de 5 000 euros, et prolonge la garantie valeur à neuf jusqu'à 18 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, sacoches, échappement…)." }
+        { p: "L'Option Plus étend la couverture aux accessoires hors-série et à l'équipement vestimentaire moto de protection, à concurrence de 5 000 euros, et prolonge la garantie valeur à neuf jusqu'à 18 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, sacoches, échappement…)." }
       ] },
 
     // 6a. "Pourquoi choisir AMV" -> avant la section avis "AMV c'est 1 million d'assurés"
     { mode: 'insertSection', beforeSel: 'section.c-avis-section',
       content: [
         { h2: "Pourquoi choisir AMV pour assurer votre moto ?" },
-        { p: "AMV, leader et assureur spécialiste de l'assurance moto scooter en France depuis plus de 50 ans, assure plus d'1 million de motards. Avec une note de satisfaction de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est recommandé par ses assurés. Que vous rouliez en sportive, en routière, en trail, en scooter ou même en quad, AMV propose un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement et des garanties conçues par des spécialistes des deux-roues.",
+        { p: "AMV, leader et assureur spécialiste de l'assurance moto scooter en France depuis plus de 50 ans, compte plus d'1 million d'assurés. Avec une note de satisfaction de 4,7/5 selon Avis Vérifiés, tiers de confiance, AMV est largement recommandé par ses assurés. Que vous rouliez en roadster, en routière, en trail, ou même en sportive, AMV propose un contrat assurance moto adapté à vos besoins. Parmi les avantages : des formules proposées exclusivement pour les deux-roues, un devis assurance moto en ligne sans engagement et des garanties conçues par des spécialistes des deux-roues.",
         links: [{ t: "en scooter", href: "https://www.amv.fr/assurance/scooter/" }, { t: "en quad", href: "https://www.amv.fr/assurance/quad/" }] }
       ] },
 
     // 6b. "Plus de 50 ans d'expertise" -> dans la section "AMV assure toutes les marques de moto"
     { mode: 'appendInTitle', anchorMatch: 'AMV assure toutes les marques de moto',
       content: [
-        { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Cette expertise deux-roues couvre les situations que les assureurs généralistes ignorent : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de chaque marque et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre.",
+        { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Son expertise deux-roues lui donne un avantage et des connaissances, par rapport aux assureurs généralistes, au service des passionnés moto : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de chaque marque et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre.",
           links: [{ t: "chaque marque", href: "https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/" }] }
       ] },
 
     // 6c. "Un accompagnement de motard à motard" -> dans la section "Un contrat spécial moto pensé pour vous"
     { mode: 'appendInTitle', anchorMatch: 'Un contrat spécial moto pensé pour vous',
       content: [
-        { p: "Plus de 350 conseillers basés à Bordeaux vous apportent des conseils personnalisés par téléphone, par e-mail ou via votre Espace Client. En cas de sinistre, un interlocuteur dédié suit votre dossier d'indemnisation. Vous gérez votre contrat moto en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé : modification des garanties, suivi des remboursements et déclaration en quelques clics." }
+        { p: "Plus de 350 conseillers basés à Bordeaux vous apportent des conseils personnalisés par téléphone, par e-mail ou via votre Espace Client. En cas de sinistre, un interlocuteur dédié suit votre dossier d'indemnisation. Vous gérez votre contrat moto en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé : modification des garanties, paiement de votre prime d'assurance, et declaration de sinistre et suivi de votre dossier en quelques clics." }
       ] },
 
     // 6d. "Comment obtenir votre devis" -> juste avant la FAQ
     { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
       content: [
         { h2: "Comment obtenir votre devis assurance moto ?" },
-        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, année) et votre profil (expérience, bonus-malus, région) via le formulaire pour recevoir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevez votre attestation d'assurance par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
+        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, dates de mise en circulation et d'achat) et votre profil (expérience, bonus-malus, lieu de stationnement habituel) via le formulaire pour obtenir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevrez votre attestation d'assurance par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
           links: [{ t: "devis assurance moto en ligne", href: "https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx" }] }
       ] },
 
@@ -86,11 +86,11 @@
     { mode: 'faqEdit', faqMatch: 'Des questions sur votre assurance',
       replace: [
         { existing: '^Quelle assurance moto choisir', content: [
-          { p: "Le choix dépend de la valeur de votre véhicule, de votre usage et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto ancienne ou de faible valeur. Pour une moto récente ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds avant de vous décider." }
+          { p: "Le choix dépend,entre autres, de la valeur de votre véhicule, de la fréquence d'utilisation et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto d'occasion ou récente de faible valeur. Pour une moto neuve ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds avant de vous décider." }
         ] },
         { existing: "prix d'une assurance moto", content: [
           { p: "Le prix d'une assurance moto varie fortement d'un profil à l'autre. Il dépend de plusieurs critères :" },
-          { ul: ["le type de moto, sa cylindrée et sa puissance", "l'âge et l'expérience du conducteur", "la zone géographique et le lieu de stationnement", "le niveau de couverture choisi"] },
+          { ul: ["le type de moto et sa cylindrée", "l'âge et l'expérience du conducteur", "le lieu de stationnement", "le niveau de couverture choisi."] },
           { p: "Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
         ] },
         { existing: 'Quels équipements sont couverts', content: [
