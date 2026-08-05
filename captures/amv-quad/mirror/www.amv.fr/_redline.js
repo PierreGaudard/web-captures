@@ -7,7 +7,7 @@
 
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des formules$', hlevel: 'H2',
       newText: "Nos 4 formules d'assurance quad",
-      addParas: ["AMV, spécialiste de l'assurance moto, quad et SSV, propose jusqu'à quatre formules adaptées à chaque quad et SSV, selon sa valeur, son utilisation et votre budget. Choisissez la formule la mieux adaptée à votre situation : dès le premier niveau de couverture, vous bénéficiez de la responsabilité civile, d'une assistance juridique et d'une protection de vos équipements de quadeur (casque, gants, gilet airbag) en cas de sinistre. Comparez les différentes formules et options et obtenez votre devis d'assurance quad en ligne en quelques clics, sans engagement."] },
+      addParas: ["AMV, spécialiste de l'assurance moto, quad et SSV, propose jusqu'à quatre formules adaptées à chaque quad et SSV, selon sa valeur, son utilisation et votre budget. Choisissez la formule la mieux adaptée à votre situation : dès le premier niveau de couverture, vous bénéficiez de la responsabilité civile, d'une assistance juridique et d'une protection de vos équipements de quadeur (casque, gants, gilet airbag) en cas de sinistre. Comparez les différentes formules d'assurance quad et leurs options et obtenez gratuitement votre devis en ligne en quelques clics, sans engagement."] },
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 1',
       content: [
@@ -28,7 +28,7 @@
 
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des options$', hlevel: 'H2',
       newText: 'Les options pour personnaliser votre contrat',
-      addParas: ["Chaque formule peut être complétée par des options afin d'adapter votre couverture à vos besoins, à votre usage et aux caractéristiques de votre quad."] },
+      addParas: ["Chaque formule peut être complétée par des options afin d'adapter votre assurance quad à vos besoins, à votre usage et aux caractéristiques de votre véhicule."] },
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
       content: [
@@ -40,7 +40,7 @@
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Option plus',
       content: [
-        { p: "Étend la couverture aux accessoires hors-série montés sur votre quad et à l'équipement vestimentaire de protection, à concurrence de 5 000 euros, et prolonge la valeur à neuf jusqu'à 18 mois. Intéressante pour les quads équipés (treuil, pare-buffle, coffre, protège-mains)." }
+        { p: "Étend la couverture aux accessoires hors-série montés sur votre quad et à l'équipement vestimentaire de protection, à concurrence de 5 000 euros, et prolonge la valeur à neuf jusqu'à 18 mois. Intéressante pour les quads équipés (treuil, pare-buffle, coffre, protège-mains) : votre assurance quad couvre alors l'ensemble de vos accessoires." }
       ] },
 
     { mode: 'insertSection', beforeSel: 'section.c-avis-section',
@@ -62,7 +62,7 @@
     { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
       content: [
         { h2: "Quel quad peut-on assurer chez AMV ?" },
-        { p: "AMV, assureur spécialiste de l'assurance moto et quad, assure tous les types de quads et SSV, quelle que soit la cylindrée, la marque ou la motorisation. Découvrez le contrat qui correspond à votre véhicule." },
+        { p: "AMV, assureur spécialiste de l'assurance moto et quad, assure tous les types de quads et SSV, quelle que soit la cylindrée, la puissance, la marque ou la motorisation. Découvrez le contrat d'assurance quad qui correspond à votre véhicule." },
         { h3: "Quad homologué route" },
         { p: "Le quad homologué route est immatriculé et autorisé à circuler sur la voie publique. Il dispose d'une carte grise, et le permis requis dépend de la catégorie du quad. AMV couvre vos déplacements sur route et en agglomération. Modèles courants : Can-Am Outlander, Polaris Sportsman, CFMOTO CForce, Yamaha Grizzly." },
         { h3: "Quad non homologué" },
@@ -72,7 +72,7 @@
         { h3: "Quad électrique" },
         { p: "Le quad électrique se développe pour le loisir comme pour les usages utilitaires. AMV propose une assurance adaptée aux quads électriques : demandez votre devis en ligne pour connaître les garanties et le tarif correspondant à votre modèle." },
         { h2: "Comment souscrire une assurance quad ?" },
-        { p: "Pour souscrire une assurance quad chez AMV, la démarche est rapide. Munissez-vous de votre permis de conduire et de votre relevé d'information, renseignez les informations sur votre quad (modèle, cylindrée, numéro d'identification pour un quad non homologué) et votre profil pour obtenir votre devis en ligne en quelques minutes. Vous pouvez alors comparer les formules et choisir celle qui vous correspond. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par e-mail." }
+        { p: "Pour souscrire une assurance quad chez AMV, la démarche est rapide. Munissez-vous de votre permis de conduire et de votre relevé d'information, renseignez les informations sur votre quad (modèle, cylindrée, numéro d'identification pour un quad non homologué) et votre profil pour obtenir votre devis et votre tarif d'assurance quad en ligne en quelques minutes. Vous pouvez alors comparer les formules et choisir celle qui vous correspond. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par e-mail." }
       ] },
 
     { mode: 'faqEdit', faqMatch: 'Des questions sur votre assurance',

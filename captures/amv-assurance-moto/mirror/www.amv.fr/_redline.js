@@ -35,7 +35,7 @@
     // 4. Section options : libellé + intro
     { mode: 'clone', sel: '.text-orange-normal', match: '^Détails des options$', hlevel: 'H2',
       newText: 'Les options pour personnaliser votre contrat',
-      addParas: ["Chaque formule peut être complétée par des options à la carte pour renforcer votre protection selon votre pratique, votre véhicule et votre budget. Ces options ajustent vos garanties au plus près de vos besoins, que vous rouliez en moto ou en scooter au quotidien."] },
+      addParas: ["Chaque formule peut être complétée par des options à la carte pour renforcer votre protection et personnaliser votre assurance moto selon votre pratique, votre véhicule et votre budget. Ces options ajustent vos garanties au plus près de vos besoins, que vous rouliez en moto ou en scooter au quotidien."] },
 
     // 5. Options : reprend l'existant, ajoute la version rédigée (vert) en tête de chaque accordéon
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
@@ -50,7 +50,7 @@
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Option plus',
       content: [
-        { p: "L'Option Plus étend la couverture aux accessoires hors-série et à l'équipement vestimentaire moto de protection, à concurrence de 5 000 euros, et prolonge la garantie valeur à neuf jusqu'à 18 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, sacoches, échappement…)." }
+        { p: "L'Option Plus étend la couverture aux accessoires hors-série et à l'équipement vestimentaire moto de protection, à concurrence de 5 000 euros, et prolonge la garantie valeur à neuf jusqu'à 18 mois. Particulièrement intéressante pour les motos équipées d'accessoires (top case, sacoches, échappement…) : votre assurance moto couvre alors l'ensemble de votre équipement." }
       ] },
 
     // 6a. "Pourquoi choisir AMV" -> avant la section avis "AMV c'est 1 million d'assurés"
@@ -78,7 +78,7 @@
     { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
       content: [
         { h2: "Comment obtenir votre devis assurance moto ?" },
-        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, dates de mise en circulation et d'achat) et votre profil (expérience, bonus-malus, lieu de stationnement habituel) via le formulaire pour obtenir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevrez votre attestation d'assurance par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
+        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, dates de mise en circulation et d'achat) et votre profil (expérience, bonus-malus, lieu de stationnement habituel) via le formulaire pour obtenir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevrez votre attestation d'assurance moto par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
           links: [{ t: "devis assurance moto en ligne", href: "https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx" }] }
       ] },
 
@@ -86,7 +86,7 @@
     { mode: 'faqEdit', faqMatch: 'Des questions sur votre assurance',
       replace: [
         { existing: '^Quelle assurance moto choisir', content: [
-          { p: "Le choix dépend,entre autres, de la valeur de votre véhicule, de la fréquence d'utilisation et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto d'occasion ou récente de faible valeur. Pour une moto neuve ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds avant de vous décider." }
+          { p: "Le choix de votre assurance moto dépend, entre autres, de la valeur de votre véhicule, de la fréquence d'utilisation et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto d'occasion ou récente de faible valeur. Pour une moto neuve ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds avant de vous décider." }
         ] },
         { existing: "prix d'une assurance moto", content: [
           { p: "Le prix d'une assurance moto varie fortement d'un profil à l'autre. Il dépend de plusieurs critères :" },
@@ -97,7 +97,7 @@
           { p: "Dès la première formule, le casque (jusqu'à 250 euros), les gants (jusqu'à 70 euros) et le gilet airbag (jusqu'à 500 euros) sont pris en charge en cas de sinistre. Avec l'Option plus, la couverture est étendue à l'ensemble de l'équipement vestimentaire moto et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros." }
         ] },
         { existing: 'Comment déclarer un sinistre moto', content: [
-          { p: "La déclaration se fait directement depuis votre espace client Mon Espace AMV sur amv.fr, 24h/24. Un gestionnaire dédié prend ensuite en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation." }
+          { p: "La déclaration se fait directement depuis votre espace client Mon Espace AMV sur amv.fr, 24h/24. Un gestionnaire dédié prend ensuite en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation, en cas d'accident comme en cas de vol." }
         ] }
       ],
       add: [
