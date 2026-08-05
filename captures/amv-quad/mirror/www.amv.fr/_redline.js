@@ -15,11 +15,11 @@
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 2',
       content: [
-        { p: "En complément, cette formule couvre le vol, la tentative de vol et l'incendie de votre quad, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois, deduction faite de la franchise. Elle est particulièrement adaptée si votre quad est régulièrement stationné en extérieur ou dans un lieu non clos, le risque de vol étant plus important." }
+        { p: "En complément, cette formule couvre le vol, la tentative de vol et l'incendie de votre quad, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois, déduction faite de la franchise. Elle est particulièrement adaptée si votre quad est régulièrement stationné en extérieur ou dans un lieu non clos, le risque de vol étant plus important." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 3',
       content: [
-        { p: "En cas de collision avec un tiers identifié, les dommages causés à votre quad sont pris en charge et indemnisés à la valeur de remplacement à dire d'expert ou à la valeur à neuf, deduction faite, si votre responsabilité est engagée, de la franchise prévue au contrat. Cette formule constitue un bon compromis pour les conducteurs utilisant leur quad sur route et souhaitant bénéficier d'une protection renforcée face aux principaux risques de circulation." }
+        { p: "En cas de collision avec un tiers identifié, les dommages causés à votre quad sont pris en charge et indemnisés à la valeur de remplacement à dire d'expert ou à la valeur à neuf, déduction faite, si votre responsabilité est engagée, de la franchise prévue au contrat. Cette formule constitue un bon compromis pour les conducteurs utilisant leur quad sur route et souhaitant bénéficier d'une protection renforcée face aux principaux risques de circulation." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 4',
       content: [

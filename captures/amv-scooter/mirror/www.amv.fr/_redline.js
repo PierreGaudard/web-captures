@@ -19,7 +19,7 @@
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 3',
       content: [
-        { p: "En cas de collision avec un tiers identifié, les dommages causés à votre scooter sont pris en charge et indemnisés à la valeur de remplacement à dire d'expert ou à la valeur à neuf, deduction faite de la franchise prévue au contrat, en cas de sinistre responsable. Elle offre une protection renforcée au scootériste qui circule quotidiennement en ville, où le risque de collision avec une voiture ou un autre deux-roues est le plus important." }
+        { p: "En cas de collision avec un tiers identifié, les dommages causés à votre scooter sont pris en charge et indemnisés à la valeur de remplacement à dire d'expert ou à la valeur à neuf, déduction faite de la franchise prévue au contrat, en cas de sinistre responsable. Elle offre une protection renforcée au scootériste qui circule quotidiennement en ville, où le risque de collision avec une voiture ou un autre deux-roues est le plus important." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Formule 4',
       content: [
@@ -32,7 +32,7 @@
 
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Individuelle pilote',
       content: [
-        { p: "L'option Individuelle Pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote. option précieuse pour le scootériste urbain, plus exposé aux chutes." }
+        { p: "L'option Individuelle Pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote. Une option précieuse pour le scootériste urbain, plus exposé aux chutes." }
       ] },
     { mode: 'prependInside', scope: 'Consulter le détail', blockMatch: 'Assistance',
       content: [
@@ -74,7 +74,7 @@
         { h2: "Le vol de scooter : pourquoi bien se protéger" },
         { p: "Le scooter est souvent stationné dans la rue, où le risque de vol est plus élevé, plutôt qu'au garage. Pour un usage urbain, la formule Vol / Incendie ou une formule plus complète peut être vivement conseillée. En cas de vol, votre assurance scooter AMV vous indemnise à la valeur de remplacement à dire d'expert ou à la valeur à neuf les 6 premiers mois suivant l'achat. Pour limiter le risque, privilégiez un antivol homologué (U, chaîne ou bloque-disque), idéalement combiné à une alarme, et attachez votre scooter à un point fixe. Le gravage du véhicule et le stationnement dans un parking fermé ou une zone surveillée sont également dissuasifs. En cas de vol, déclarez-le rapidement aux forces de l'ordre, puis à AMV depuis Mon Espace AMV, pour accélérer la prise en charge." },
         { h2: "L'assurance scooter pour vos trajets du quotidien" },
-        { p: "Le scooter est avant tout un véhicule urbain et périurbain : trajets domicile-travail, circulation dense, stationnement facile. AMV adapte votre assurance scooter à cet usage. Du 125cc au maxi-scooter, votre couverture suit votre rythme. Pour rouler l'esprit serein, l'option Individuelle Pilote garantit le versement d'un capital en cas de deficit fonctionnel permanent, ou à vos ayants droit en cas de décès, et l'option Assistance 0 km vous dépanne même à proximité immédiate de votre domicile. Si vous utilisez votre scooter toute l'année, pensez à la garantie de vos équipements et accessoires, sollicités à chaque trajet." },
+        { p: "Le scooter est avant tout un véhicule urbain et périurbain : trajets domicile-travail, circulation dense, stationnement facile. AMV adapte votre assurance scooter à cet usage. Du 125cc au maxi-scooter, votre couverture suit votre rythme. Pour rouler l'esprit serein, l'option Individuelle Pilote garantit le versement d'un capital en cas de déficit fonctionnel permanent, ou à vos ayants droit en cas de décès, et l'option Assistance 0 km vous dépanne même à proximité immédiate de votre domicile. Si vous utilisez votre scooter toute l'année, pensez à la garantie de vos équipements et accessoires, sollicités à chaque trajet." },
         { h2: "Comment souscrire une assurance scooter ?" },
         { p: "Souscrire une assurance scooter chez AMV est rapide. Munissez-vous de votre permis de conduire et de votre relevé d'information, renseignez les informations sur votre scooter (modèle, cylindrée, date de mise en circulation et d'achat) et votre profil pour obtenir votre tarif et recevoir votre devis d'assurance scooter en ligne en quelques minutes. Vous pouvez alors comparer les formules et choisir celle qui vous correspond. Si le prix vous convient, finalisez la souscription en quelques clics et recevez votre attestation d'assurance par e-mail. Les garanties prennent effet immédiatement ou à la date de votre choix." }
       ] },
@@ -94,7 +94,7 @@
           { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros) en cas de sinistre. Avec l'Option Plus, couverture étendue à l'ensemble de l'équipement vestimentaire de protection et aux accessoires hors-série montés sur votre scooter, jusqu'à 5 000 euros." }
         ] },
         { existing: 'jeunes conducteurs', content: [
-          { p: "Oui, dès lors que vous avez 18 ans car la souscription n'est pas possible avant la majorité. AMV assure les jeunes scootéristes et les conducteurs novices" }
+          { p: "Oui, AMV assure les jeunes scootéristes et les conducteurs novices. Vous pouvez souscrire le contrat en votre nom dès lors que vous avez 18 ans ou être désigné, à partir de 16 ans, selon les conditions du contrat." }
         ] },
         { existing: 'déclarer un sinistre scooter', content: [
           { p: "Déclaration directement depuis Mon Espace AMV sur amv.fr, 24h/24. À la suite de votre déclaration, un conseiller dédié prend en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation." }

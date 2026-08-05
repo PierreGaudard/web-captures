@@ -77,8 +77,8 @@
     // 6d. "Comment obtenir votre devis" -> juste avant la FAQ
     { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
       content: [
-        { h2: "Comment obtenir votre devis assurance moto ?" },
-        { p: "Obtenir votre devis assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, dates de mise en circulation et d'achat) et votre profil (expérience, bonus-malus, lieu de stationnement habituel) via le formulaire pour obtenir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevrez votre attestation d'assurance moto par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
+        { h2: "Comment obtenir votre devis d'assurance moto ?" },
+        { p: "Obtenir votre devis d'assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, dates de mise en circulation et d'achat) et votre profil (expérience, bonus-malus, lieu de stationnement habituel) via le formulaire pour obtenir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevrez votre attestation d'assurance moto par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
           links: [{ t: "devis assurance moto en ligne", href: "https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx" }] }
       ] },
 
@@ -94,7 +94,7 @@
           { p: "Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
         ] },
         { existing: 'Quels équipements sont couverts', content: [
-          { p: "Dès la première formule, le casque (jusqu'à 250 euros), les gants (jusqu'à 70 euros) et le gilet airbag (jusqu'à 500 euros) sont pris en charge en cas de sinistre. Avec l'Option plus, la couverture est étendue à l'ensemble de l'équipement vestimentaire moto et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros." }
+          { p: "Dès la première formule, le casque (jusqu'à 250 euros), les gants (jusqu'à 70 euros) et le gilet airbag (jusqu'à 500 euros) sont pris en charge en cas de sinistre. Avec l'Option Plus, la couverture est étendue à l'ensemble de l'équipement vestimentaire moto et aux accessoires hors-série montés sur votre moto, jusqu'à 5 000 euros." }
         ] },
         { existing: 'Comment déclarer un sinistre moto', content: [
           { p: "La déclaration se fait directement depuis votre espace client Mon Espace AMV sur amv.fr, 24h/24. Un gestionnaire dédié prend ensuite en charge votre dossier et vous accompagne dans toutes les démarches d'indemnisation, en cas d'accident comme en cas de vol." }
