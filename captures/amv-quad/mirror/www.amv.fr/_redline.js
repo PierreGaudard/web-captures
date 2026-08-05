@@ -51,13 +51,11 @@
 
     { mode: 'appendInTitle', anchorMatch: 'AMV assure toutes les marques de quad',
       content: [
-        { h3: "Plus de 50 ans d'expertise" },
         { p: "Depuis 1974, AMV assure les passions des conducteurs de deux-roues et de quad. Une expertise qui couvre ce que les assureurs généralistes connaissent moins : vol d'équipement, dommages lors d'une sortie hors route, panne éventuelle. AMV connaît chaque type de quad, du sportif au SSV utilitaire, et assure toutes les marques : Can-Am, Polaris, CFMOTO, Yamaha, Kymco, TGB, Segway, Kubota, Hytrack, Arctic Cat et bien d'autres." }
       ] },
 
     { mode: 'appendInTitle', anchorMatch: 'Un contrat spécial quad',
       content: [
-        { h3: "Un accompagnement personnalisé" },
         { p: "Plus de 350 conseillers basés à Bordeaux vous conseillent par téléphone ou en ligne. En cas de sinistre, un conseiller dédié suit votre dossier d'indemnisation. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
       ] },
 

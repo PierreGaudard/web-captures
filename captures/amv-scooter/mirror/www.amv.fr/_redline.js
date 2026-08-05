@@ -51,13 +51,11 @@
 
     { mode: 'appendInTitle', anchorMatch: 'AMV assure toutes les marques de scooter',
       content: [
-        { h3: "Plus de 50 ans d'expertise deux-roues" },
         { p: "Depuis 1974, AMV assure les passions des scootéristes et des motards. Une expertise qui couvre ce que les assureurs généralistes connaissent moins : vol de casque, équipement endommagé lors d'une chute, panne en pleine circulation. AMV connaît chaque type de scooter, du 125cc urbain au maxi-scooter, et assure toutes les marques : Yamaha, Honda, Piaggio, Kymco, BMW, Peugeot, Vespa, Suzuki et bien d'autres." }
       ] },
 
     { mode: 'appendInTitle', anchorMatch: 'Un contrat spécial scooter pensé pour vous',
       content: [
-        { h3: "Un accompagnement personnalisé" },
         { p: "Plus de 350 conseillers basés à Bordeaux vous conseillent par téléphone ou en ligne. En cas de sinistre, un conseiller dédié suit votre dossier d'indemnisation de bout en bout. Vous gérez votre contrat en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé." }
       ] },
 

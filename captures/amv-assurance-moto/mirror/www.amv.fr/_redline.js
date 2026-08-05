@@ -64,7 +64,6 @@
     // 6b. "Plus de 50 ans d'expertise" -> dans la section "AMV assure toutes les marques de moto"
     { mode: 'appendInTitle', anchorMatch: 'AMV assure toutes les marques de moto',
       content: [
-        { h3: "Plus de 50 ans d'expertise deux-roues" },
         { p: "AMV a été fondée en 1974, par un passionné de moto, pour les motards. Son expertise deux-roues lui donne un avantage et des connaissances, par rapport aux assureurs généralistes, au service des passionnés moto : vol de casque, équipement endommagé lors d'un accident, panne en pleine balade. AMV connaît les spécificités de chaque marque et de chaque modèle, de la moto sportive à la routière, du scooter urbain au trail d'aventure, du quad au trois-roues. Cette connaissance des deux-roues permet une prise en charge adaptée en cas de sinistre.",
           links: [{ t: "chaque marque", href: "https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/" }] }
       ] },
@@ -72,7 +71,6 @@
     // 6c. "Un accompagnement de motard à motard" -> dans la section "Un contrat spécial moto pensé pour vous"
     { mode: 'appendInTitle', anchorMatch: 'Un contrat spécial moto pensé pour vous',
       content: [
-        { h3: "Un accompagnement de motard à motard" },
         { p: "Plus de 350 conseillers basés à Bordeaux vous apportent des conseils personnalisés par téléphone, par e-mail ou via votre Espace Client. En cas de sinistre, un interlocuteur dédié suit votre dossier d'indemnisation. Vous gérez votre contrat moto en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé : modification des garanties, paiement de votre prime d'assurance, et declaration de sinistre et suivi de votre dossier en quelques clics." }
       ] },
 
