@@ -4,15 +4,16 @@
   // Contenu optimise (score Datafer 88/100, mot-cle "assurance moto de collection").
   var H1 = "Assurance auto et moto anciennes ou de collection";
 
-  // Recette AMV du 05/08/2026 : Heliaq a integre sur qualif2 l'encart "A retenir" PUIS
-  // l'intro complete AU-DESSUS de "Obtenir un tarif". L'apercu reprend ce meme ordre.
-  // (Avant le 05/08 l'intro etait coupee en deux, la suite passant sous les boutons.)
+  // Recette AMV du 05/08/2026 (2e passe) : l'encart "A retenir" reste tout en haut,
+  // le bloc "Obtenir un tarif" + boutons remonte juste apres, et le paragraphe
+  // d'introduction passe SOUS les boutons.
   var INTRO_TOP = [
-    { note: "À retenir : l'offre AMV Légende assure vos autos et deux-roues anciens (de plus de 15 ans) ou de collection. Formules au tiers, vol-incendie ou tous risques, tarifs dégressifs selon l'âge des véhicules et leur nombre, devis en ligne gratuit en quelques minutes." },
-    { p: "Vous cherchez une assurance dédiée à votre moto ancienne ou de collection ? AMV, spécialiste de <a href='https://www.amv.fr/assurance/moto/' target='_blank' rel='noopener' class='rl-link' style='color:inherit;text-decoration:underline;font-weight:600'>l'assurance moto</a> et scooter depuis 1974, a conçu l'offre AMV Légende pour couvrir les autos et motos anciennes (de plus de 15 ans) ou de collection. Couverture sur mesure, garanties adaptées, souscription rapide : vous construisez votre contrat selon chaque modèle et profitez de tarifs dégressifs selon l'âge des véhicules et leur nombre." }
+    { note: "À retenir : l'offre AMV Légende assure vos autos et deux-roues anciens (de plus de 15 ans) ou de collection. Formules au tiers, vol-incendie ou tous risques, tarifs dégressifs selon l'âge des véhicules et leur nombre, devis en ligne gratuit en quelques minutes." }
   ];
 
-  var INTRO_BAS = [];
+  var INTRO_BAS = [
+    { p: "Vous cherchez une assurance dédiée à votre moto ancienne ou de collection ? AMV, spécialiste de <a href='https://www.amv.fr/assurance/moto/' target='_blank' rel='noopener' class='rl-link' style='color:inherit;text-decoration:underline;font-weight:600'>l'assurance moto</a> et scooter depuis 1974, a conçu l'offre AMV Légende pour couvrir les autos et motos anciennes (de plus de 15 ans) ou de collection. Couverture sur mesure, garanties adaptées, souscription rapide : vous construisez votre contrat selon chaque modèle et profitez de tarifs dégressifs selon l'âge des véhicules et leur nombre." }
+  ];
 
   var BODY = [
     { h2: "Pourquoi choisir AMV Légende pour votre assurance moto ancienne ou de collection ?" },
@@ -108,8 +109,7 @@
     // a cote du H1 au lieu de la passer dessous.
     var cta = document.querySelector(".Transform_h2_div_obtenirTarif");
     if(cta && !document.getElementById("rl-intro")){ var bi=block(INTRO_TOP); bi.id="rl-intro"; insertBefore(bi, cta); }
-    // 2 bis. Bloc sous les boutons : desactive depuis le 05/08 (INTRO_BAS vide), garde en place
-    //        au cas ou AMV redemanderait de scinder l'intro.
+    // 2 bis. Paragraphe d'introduction SOUS les boutons client / pas client.
     var btns = document.querySelector(".buttonsEntreeTunnel");
     if(btns && INTRO_BAS.length && !document.getElementById("rl-intro-bas")){ var bb2=block(INTRO_BAS); bb2.id="rl-intro-bas"; insertAfter(bb2, btns); }
     // 3. Corps optimise apres le paragraphe d'intro existant (ancre H2 "chez AMV")
