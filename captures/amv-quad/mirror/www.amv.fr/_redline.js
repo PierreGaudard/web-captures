@@ -61,6 +61,22 @@
 
     { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
       content: [
+        { h2: "Le détail des garanties de votre assurance quad" },
+        { p: "Quelle que soit la formule choisie, elle repose sur un socle de garanties solides." },
+        { h3: "Responsabilité civile" },
+        { p: "La Compagnie vous garantit contre les conséquences pécuniaires de la responsabilité civile que vous pouvez encourir, en cas de sinistre responsable, en raison des dommages matériels et corporels causés à autrui, y compris à votre passager. Dommages corporels illimités, dommages matériels limités à 100 000 000 € en cas d'accident et 1 300 000 € en cas d'incendie." },
+        { h3: "Assistance juridique" },
+        { p: "Défense pénale et recours suite à accident, à concurrence de 2 300 €. Cette garantie vous accompagne en cas de conflit relatif au véhicule assuré (accident de la circulation, vol ou une tentative de vol de la moto, conflit avec un professionnel suite à l'achat, la vente ou l'entretien de votre quad,…)." },
+        { h3: "Casque, gants et gilet airbag" },
+        { p: "Remboursement, déduction faite de la vétusté, du casque à concurrence de 250 €, des gants à concurrence de 70 € et du gilet airbag à concurrence de 500 €, lorsqu'ils sont détériorés à la suite d'un événement couvert." },
+        { h3: "Vol et incendie" },
+        { p: "Remboursement des dommages résultant d'un vol, d'un incendie ou d'une tentative de vol avec traces d'effraction, à concurrence de la valeur de remplacement à dire d'expert, ou de la valeur à neuf, déduction faite d'une franchise." },
+        { h3: "Dommages collision" },
+        { p: "Remboursement des dommages subis par votre véhicule assuré lors d'une collision avec un tiers identifié, à concurrence de la valeur de remplacement à dire d'expert ou de la valeur à neuf les 6 premiers mois, déduction faite de la franchise prévue au contrat, en cas de sinistre responsable." },
+        { h3: "Dommages tous accidents" },
+        { p: "Remboursement des dommages subis par votre véhicule assuré à la suite d'un accident, avec ou sans collision, avec ou sans tiers identifié, à concurrence de la valeur de remplacement à dire d'expert, ou de la valeur à neuf les 6 premiers mois, déduction faite de la franchise prevue au contrat, en cas de sinistre responsable." },
+        { h3: "Valeur à neuf" },
+        { p: "Prix d'achat d'un véhicule acquis neuf, pendant les 6 premiers mois, ou 18 mois au titre de l'Option Plus, suivant la date d'achat." },
         { h2: "Quel quad peut-on assurer chez AMV ?" },
         { p: "AMV, assureur spécialiste de l'assurance moto et quad, assure tous les types de quads et SSV, quelle que soit la cylindrée, la puissance, la marque ou la motorisation. Découvrez le contrat d'assurance quad qui correspond à votre véhicule." },
         { h3: "Quad homologué route" },
@@ -77,16 +93,16 @@
 
     { mode: 'faqEdit', faqMatch: 'Des questions sur votre assurance',
       replace: [
-        { existing: "Quel type d'assurance dois-je prendre", content: [
+        { existing: "Quel type d'assurance dois-je prendre", newQ: "Quelle est la meilleure assurance pour un quad ?", content: [
           { p: "La meilleure assurance quad dépend de la valeur de votre véhicule et de votre budget. Pour un quad de faible valeur ou utilisé occasionnellement, la formule Responsabilité civile peut suffire. Pour un quad neuf ou financé à crédit, la formule Tous risques offre la meilleure protection. AMV, spécialiste de l'assurance quad, fort de plus de 50 ans d'expertise deux-roues, propose des formules adaptées à chaque véhicule." }
         ] },
-        { existing: 'Combien cou', content: [
+        { existing: 'Combien cou', newQ: "Combien coûte une assurance quad ?", content: [
           { p: "Le prix d'une assurance quad non homologué est unique pour tous les assurés. Le prix de l'assurance vol/Incendie et dommages dépend du modèle et de la cylindrée du quad ou du SSV, de la sinistralité déclarée du conducteur, du lieu de stationnement habituel et du niveau de couverture choisi. Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
         ] },
         { existing: "obligatoire d'assurer un quad", content: [
           { p: "Oui. Tout véhicule terrestre à moteur doit être assuré en responsabilité civile, même s'il n'est pas homologué et ne circule pas sur la voie publique, et même stationné dans un garage. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros. Cette obligation légale s'applique à tous les quads et SSV, homologués ou non." }
         ] },
-        { existing: 'Quels équipements sont couverts', content: [
+        { existing: 'Quels équipements sont couverts', newQ: "Quels équipements sont couverts par l'assurance quad AMV ?", content: [
           { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros). Avec l'Option Plus, couverture étendue à l'équipement vestimentaire de protection et aux accessoires hors-série montés sur votre quad, jusqu'à 5 000 euros." }
         ] },
         { existing: 'déclarer un sinistre quad', content: [
@@ -485,6 +501,11 @@
         if (!b) return;
         var part = b.querySelector('.collapse-part');
         if (!part) return;
+        // intitule de question aligne sur le Word valide (MEP 05/08)
+        if (item.newQ) {
+          var sp = b.querySelector('.flex.justify-between.items-center span');
+          if (sp && sp.textContent.trim() !== item.newQ) { sp.textContent = item.newQ; sp.classList.add('rl-mark'); }
+        }
         part.classList.remove('hidden'); part.style.display = 'flex';
         [].slice.call(part.children).forEach(function (c) { c.classList.add('rl-del'); });
         renderContent(item.content).forEach(function (n) { part.appendChild(n); });

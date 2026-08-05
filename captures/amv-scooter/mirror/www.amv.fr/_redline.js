@@ -61,6 +61,22 @@
 
     { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
       content: [
+        { h2: "Le détail des garanties de votre assurance scooter" },
+        { p: "Quelle que soit la formule choisie, elle repose sur un socle de garanties solides." },
+        { h3: "Responsabilité civile" },
+        { p: "La Compagnie vous garantit contre les conséquences pécuniaires de la responsabilité civile que vous pouvez encourir, en cas de sinistre responsable, en raison des dommages matériels et corporels causés à autrui, y compris à votre passager. Dommages corporels illimités, dommages matériels limités à 100 000 000 € en cas d'accident et 1 300 000 € en cas d'incendie." },
+        { h3: "Assistance juridique" },
+        { p: "Défense pénale et recours suite à accident, à concurrence de 2 300 €. Cette garantie vous accompagne en cas de conflit relatif au véhicule assuré (achat, entretien, réparation, vente ou financement) et pour les conséquences d'une infraction aux règles de la circulation, sans frais supplémentaires." },
+        { h3: "Casque, gants et gilet airbag" },
+        { p: "Remboursement, déduction faite de la vétusté, du casque à concurrence de 250 €, des gants à concurrence de 70 € et du gilet airbag à concurrence de 500 €, lorsqu'ils sont détériorés à la suite d'un événement couvert." },
+        { h3: "Vol et incendie" },
+        { p: "Remboursement des dommages résultant d'un vol, d'un incendie ou d'une tentative de vol avec traces d'effraction, à concurrence de la valeur de remplacement à dire d'expert, ou de la valeur à neuf, déduction faite d'une franchise." },
+        { h3: "Dommages collision" },
+        { p: "Remboursement des dommages subis par votre véhicule assuré lors d'une collision avec un tiers identifié, à concurrence de la valeur de remplacement ou de la valeur à neuf, déduction faite d'une franchise en cas de sinistre responsable." },
+        { h3: "Dommages tous accidents" },
+        { p: "Remboursement des dommages subis par votre véhicule assuré à la suite d'un accident, avec ou sans collision, avec ou sans tiers identifié, à concurrence de la valeur de remplacement ou de la valeur à neuf, déduction faite d'une franchise en cas de sinistre responsable." },
+        { h3: "Valeur à neuf" },
+        { p: "Prix d'achat d'un véhicule acquis neuf, pendant les 6 premiers mois, ou 18 mois au titre de l'Option Plus, suivant la date d'achat." },
         { h2: "Quel scooter peut-on assurer chez AMV ?" },
         { p: "Pour assurer votre scooter, AMV, assureur spécialiste de l'assurance deux-roues, couvre les scooters 125cc, les maxi-scooters et les trois-roues, quelle que soit la marque ou la motorisation. Découvrez l'assurance scooter qui correspond à votre véhicule et à votre usage, du trajet urbain quotidien aux plus longues distances." },
         { h3: "Scooter 125cc" },
@@ -93,7 +109,7 @@
         { existing: 'Quels équipements sont couverts', content: [
           { p: "Dès la première formule : casque (jusqu'à 250 euros), gants (jusqu'à 70 euros) et gilet airbag (jusqu'à 500 euros) en cas de sinistre. Avec l'Option Plus, couverture étendue à l'ensemble de l'équipement vestimentaire de protection et aux accessoires hors-série montés sur votre scooter, jusqu'à 5 000 euros." }
         ] },
-        { existing: 'jeunes conducteurs', content: [
+        { existing: 'jeunes conducteurs', newQ: "Les jeunes conducteurs sont-ils acceptés ?", content: [
           { p: "Oui, AMV assure les jeunes scootéristes et les conducteurs novices. Vous pouvez souscrire le contrat en votre nom dès lors que vous avez 18 ans ou être désigné, à partir de 16 ans, selon les conditions du contrat." }
         ] },
         { existing: 'déclarer un sinistre scooter', content: [
@@ -501,6 +517,11 @@
         if (!b) return;
         var part = b.querySelector('.collapse-part');
         if (!part) return;
+        // intitule de question aligne sur le Word valide (MEP 05/08)
+        if (item.newQ) {
+          var sp = b.querySelector('.flex.justify-between.items-center span');
+          if (sp && sp.textContent.trim() !== item.newQ) { sp.textContent = item.newQ; sp.classList.add('rl-mark'); }
+        }
         part.classList.remove('hidden'); part.style.display = 'flex';
         [].slice.call(part.children).forEach(function (c) { c.classList.add('rl-del'); });
         renderContent(item.content).forEach(function (n) { part.appendChild(n); });

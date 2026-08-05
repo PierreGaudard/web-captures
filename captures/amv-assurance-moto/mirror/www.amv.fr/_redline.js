@@ -88,7 +88,7 @@
         { existing: '^Quelle assurance moto choisir', content: [
           { p: "Le choix de votre assurance moto dépend, entre autres, de la valeur de votre véhicule, de la fréquence d'utilisation et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto d'occasion ou récente de faible valeur. Pour une moto neuve ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds avant de vous décider." }
         ] },
-        { existing: "prix d'une assurance moto", content: [
+        { existing: "prix d'une assurance moto", newQ: "Combien coûte une assurance moto ?", content: [
           { p: "Le prix d'une assurance moto varie fortement d'un profil à l'autre. Il dépend de plusieurs critères :" },
           { ul: ["le type de moto et sa cylindrée", "l'âge et l'expérience du conducteur", "le lieu de stationnement", "le niveau de couverture choisi."] },
           { p: "Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics." }
@@ -486,6 +486,11 @@
         if (!b) return;
         var part = b.querySelector('.collapse-part');
         if (!part) return;
+        // intitule de question aligne sur le Word valide (MEP 05/08)
+        if (item.newQ) {
+          var sp = b.querySelector('.flex.justify-between.items-center span');
+          if (sp && sp.textContent.trim() !== item.newQ) { sp.textContent = item.newQ; sp.classList.add('rl-mark'); }
+        }
         part.classList.remove('hidden'); part.style.display = 'flex';
         [].slice.call(part.children).forEach(function (c) { c.classList.add('rl-del'); });
         renderContent(item.content).forEach(function (n) { part.appendChild(n); });
