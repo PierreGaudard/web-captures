@@ -157,3 +157,22 @@ html, body { overflow-y: auto !important; }
 body.rl-on .rl-faq-new { background: #e6f8ea !important; border-left: 4px solid #2ecc71; border-radius: 6px; padding: 6px 10px !important; }
 body.rl-on h3.rl-faq-new { color: #176a2c !important; }
 body.rl-final .rl-faq-new { background: transparent !important; border-left: 0 !important; padding: revert !important; }
+
+/* Recette 05/08/2026 : alignement sur le rendu Heliaq de qualif2.
+   Le H1 injecte occupe la place du H1 d'origine dans le .page-header (flex),
+   et l'intro passe en haut de la colonne de contenu, au-dessus de "Obtenir un tarif". */
+.page-header #rl-h1box { flex: 1 1 auto; }
+#rl-intro { margin-top: 0 !important; }
+#rl-intro p:last-child { margin-bottom: 14px; }
+
+/* Le H1 injecte reprend la typo du gabarit AMV (Montserrat 700, majuscules, vert #00A84F). */
+body.rl-final .rl-add .rl-h1,
+#rl-h1box .rl-h1 {
+  font-family: Montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1.25px;
+  text-transform: uppercase;
+  line-height: 1.25;
+}
+body.rl-final .rl-add .rl-h1 { color: #00A84F; }
