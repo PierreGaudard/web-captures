@@ -89,10 +89,15 @@
     }
     return null;
   }
+  // Le libelle AFFICHE doit garder ses accents et sa casse : norm() ne sert qu'a comparer,
+  // jamais a produire du texte visible (sinon « bridee en a2 » au lieu de « bridée en A2 »).
   function texteTitre(e) {
     var b = e.querySelector ? e.querySelector('.rl-hntag, .rl-badge') : null;
-    var t = norm(e.textContent);
-    if (b) t = norm(t.replace(norm(b.textContent), ''));
+    var t = (e.textContent || '').replace(/\s+/g, ' ').trim();
+    if (b) {
+      var bt = (b.textContent || '').replace(/\s+/g, ' ').trim();
+      if (bt) t = t.replace(bt, '').replace(/\s+/g, ' ').trim();
+    }
     return t;
   }
 

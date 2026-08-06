@@ -106,6 +106,16 @@
       "title": "AMV - Assurance moto Kove (création)",
       "description": "Proposition de NOUVELLE page marque Kove (450 Rally, 510X, 800X, NK 125R) : gamme assurable, permis, usage tout-terrain et circuit, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
       "url": "https://amv-moto-kove.pages.dev/assurance-moto/assurance-moto-kove/"
+    },
+    {
+      "title": "AMV - Assurance scooter Zontes (création)",
+      "description": "Proposition de NOUVELLE page marque scooter Zontes (125 X et 125 E en 125 cm³, 368 D, 368 E et 368 G ETC en 367 cm³) : gamme assurable, permis A1 et B après formation de 7 heures pour les 125, permis A2 sans bridage pour les 367 cm³, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-scooter-zontes.pages.dev/assurance-scooter/assurance-scooter-zontes/"
+    },
+    {
+      "title": "AMV - Assurance Moto Guzzi (création)",
+      "description": "Proposition de NOUVELLE page marque Moto Guzzi (V7 Stone, Special et Sport, V85 Strada, V85 TT et TT Travel, V100 Mandello et Mandello S, Stelvio) : gamme assurable, gamme intégralement accessible en permis A2 avec les versions bridées à 47,5 ch, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-guzzi.pages.dev/assurance-moto/assurance-moto-guzzi/"
     }
   ]
 }

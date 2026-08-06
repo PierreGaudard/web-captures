@@ -1,0 +1,176 @@
+/* Redline AMV : contenu supprimé (rouge barré) vs nouveau contenu (vert) */
+
+/* Contenu supprimé */
+.rl-del, .rl-del * {
+  text-decoration: line-through !important;
+}
+.rl-del {
+  background: #ffe2e2 !important;
+  color: #c0392b !important;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
+
+/* Nouveau contenu */
+.rl-add {
+  background: #e6f8ea !important;
+  border-left: 4px solid #2ecc71;
+  border-radius: 6px;
+  padding: 14px 18px;
+  margin: 14px 0;
+}
+.rl-add .rl-q {
+  font-weight: 700;
+  color: #1e7e34;
+  display: block;
+  margin: 12px 0 4px;
+}
+.rl-add .rl-q:first-child { margin-top: 0; }
+.rl-add p { margin: 0 0 8px; }
+.rl-add ul { margin: 4px 0 10px 18px; list-style: disc; }
+.rl-add li { margin: 2px 0; }
+.rl-add .rl-h1 { font-size: 1.8em; font-weight: 800; color: #1e7e34; line-height: 1.15; display: block; }
+.rl-badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .3px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #2ecc71;
+  border-radius: 4px;
+  padding: 2px 8px;
+  margin-bottom: 8px;
+  text-decoration: none !important;
+}
+/* variante inline pour un remplacement court (ex: H1) */
+.rl-add.rl-inline { display: inline-block; margin: 10px 0; }
+
+/* Badge de niveau de titre (H1/H2/H3) pour le dev */
+.rl-hntag {
+  display: inline-block;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1;
+  vertical-align: baseline;
+  background: #176a2c;
+  color: #fff;
+  padding: 0.05em 0.3em;
+  border-radius: 4px;
+  margin-right: 0.4em;
+  text-decoration: none !important;
+  white-space: nowrap;
+}
+body:not(.rl-on) .rl-hntag { display: none !important; }
+
+/* Nouveau contenu en simple surlignage vert, meme taille que l'original (clone) */
+.rl-mark, .rl-mark * {
+  background: #b9f0c6 !important;
+  color: #176a2c !important;
+  text-decoration: none !important;
+  border-radius: 4px;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Etat masqué : on retire le marquage pour revoir la page d'origine */
+body:not(.rl-on) .rl-del, body:not(.rl-on) .rl-del * {
+  text-decoration: none !important;
+  background: transparent !important;
+  color: inherit !important;
+}
+body:not(.rl-on) .rl-add { display: none !important; }
+body:not(.rl-on) .rl-mark { display: none !important; }
+
+/* Accordeons modifies : on les ouvre pendant la revue pour voir le nouveau contenu
+   (les formules/options sont injectees dans .collapse-part.hidden = display:none) */
+body.rl-on .collapse-part.rl-host { display: flex !important; }
+
+/* Bouton bascule */
+#rl-toggle {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 99999;
+  background: #111;
+  color: #fff;
+  border: 0;
+  border-radius: 999px;
+  padding: 12px 18px;
+  font: 600 14px/1 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 6px 20px rgba(0,0,0,.3);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+#rl-toggle .dot { width: 9px; height: 9px; border-radius: 50%; background: #2ecc71; }
+body:not(.rl-on) #rl-toggle .dot { background: #888; }
+
+/* Légende */
+#rl-legend {
+  position: fixed;
+  right: 18px;
+  bottom: 64px;
+  z-index: 99999;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font: 13px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #333;
+  box-shadow: 0 6px 20px rgba(0,0,0,.15);
+}
+body:not(.rl-on) #rl-legend { display: none; }
+#rl-legend .sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+#rl-legend .sw-del { background: #ffe2e2; border: 1px solid #c0392b; }
+#rl-legend .sw-add { background: #e6f8ea; border: 1px solid #2ecc71; }
+
+/* Tableau insere dans le redline */
+.rl-add .rl-table { width: 100%; border-collapse: collapse; margin: 10px 0; font-size: 0.95em; background:#fff; }
+.rl-add .rl-table th, .rl-add .rl-table td { border: 1px solid #bfe6c8; padding: 8px 10px; text-align: left; vertical-align: top; }
+.rl-add .rl-table th { background: #2ecc71; color: #fff; font-weight: 700; }
+.rl-add .rl-table tr:nth-child(even) td { background: #f3fbf5; }
+
+/* FAQ rattachee au gabarit du site (03/08) : vert en mode modifications, rendu du site en version finale */
+body.rl-on .rl-faq-new .collapse-part { background: #f2fbf5 !important; border-left: 3px solid #2ecc71; border-radius: 6px; }
+body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c !important; }
+.rl-faq-new .collapse-part.hidden { display: none !important; }
+
+/* Vue "page d'origine" : les cadres FAQ ajoutes doivent disparaitre, comme le bloc vert */
+body:not(.rl-on):not(.rl-final) .rl-faq-new { display: none !important; }
+
+/* Retours Agnes du 03/08 : paragraphe d'origine barre, version corrigee affichee ensuite */
+body.rl-on .ag-del, body.rl-on .ag-del * { text-decoration: line-through !important; color: #c0392b !important; }
+body.rl-on .ag-new { background: #eafaef !important; border-left: 3px solid #2ecc71; padding: 6px 10px !important; }
+.ag-new { color: inherit; }
+body.rl-final .ag-del { display: none !important; }
+body:not(.rl-on):not(.rl-final) .ag-new { display: none !important; }
+
+/* Popup cookies TrustCommander neutralisee (confort de recette) */
+#popin_tc_privacy, .tc-privacy-wrapper, #tc-privacy-wrapper, #privacy-overlay, .tc-privacy-overlay, .tc-privacy-popin, .tc-privacy-banner { display: none !important; visibility: hidden !important; }
+html, body { overflow-y: auto !important; }
+
+/* Etat "version finale" : rendu tel qu'il sera en ligne (defaut depuis le 28/07/2026) */
+body.rl-final .rl-badge,
+body.rl-final .rl-hntag,
+body.rl-final #rl-legend { display: none !important; }
+/* le nouveau contenu EST la page en etat final : il doit rester visible */
+body.rl-final .rl-add { display: block !important; background: transparent !important; border: 0 !important; padding: 0 !important; }
+body.rl-final .rl-add.rl-inline { display: none !important; }
+/* tableaux : rendu neutre en etat final, vert seulement en mode modifications */
+body.rl-final .rl-add .rl-table th { background: #f3f3f3 !important; color: #101010 !important; }
+body.rl-final .rl-add .rl-table th, body.rl-final .rl-add .rl-table td { border-color: #dcdcdc !important; }
+/* typographie du site : releve sur les H2 et paragraphes natifs d'amv.fr */
+body.rl-final .rl-add .rl-nh2 { font-size: 22px !important; font-weight: 600 !important; line-height: 28px !important; color: #00a850 !important; margin: 32px 0 16px !important; }
+body.rl-final .rl-add .rl-nh3 { font-size: 17px !important; font-weight: 700 !important; line-height: 24px !important; color: #00a850 !important; margin: 22px 0 8px !important; }
+body.rl-final .rl-add .rl-np { font-size: 14px !important; line-height: 21px !important; color: #455359 !important; margin: 0 0 12px !important; }
+body.rl-final .rl-add .rl-nul { font-size: 14px !important; line-height: 21px !important; color: #455359 !important; margin: 0 0 16px 20px !important; }
+body.rl-final .rl-add .rl-nul li { margin: 0 0 6px !important; }
+body.rl-final .rl-add .rl-table { font-size: 14px !important; }
+body.rl-final .rl-add .rl-table th { font-weight: 600 !important; }
+body.rl-final .rl-add a { color: #00a850 !important; text-decoration: underline; }
+body.rl-final #rl-toggle .dot { background: #888 !important; }
+body.rl-final .rl-del, body.rl-final .rl-del * { display: none !important; }
+body.rl-on .rl-del { opacity: .45; text-decoration: line-through; background: #fde8e8; }
