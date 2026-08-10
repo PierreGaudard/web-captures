@@ -58,15 +58,24 @@ body.tc-modal-open,body{position:static!important;height:auto!important}
 .ds-encart-t{text-transform:uppercase;letter-spacing:.06em;font-weight:700;color:#009640;margin:0 0 8px;font-size:14px}
 .ds-encart ul{margin:10px 0 0;padding-left:20px}
 .ds-encart li{margin-bottom:6px}
+.entry-content ul.ds-ul{margin:16px 0 22px;padding-left:20px}
+.entry-content ul.ds-ul li{margin-bottom:9px}
 .entry-content .ds-tw{overflow-x:auto;margin:22px 0}
 .entry-content .ds-tw table{border-collapse:collapse;width:100%;font-size:15px}
 .entry-content .ds-tw th{background:#101010;color:#fff;text-align:left;padding:10px 12px;font-weight:600}
 .entry-content .ds-tw td{border:1px solid #e2e2e2;padding:10px 12px;vertical-align:top}
 .entry-content .ds-tw tr:nth-child(even) td{background:#fafafa}
 .entry-content .ds-tw tr.ds-total td{font-weight:700;background:#eef6f1}
-.ds-faq{border-bottom:1px solid #e6e6e6;padding:14px 0}
-.ds-faq h3{margin:0 0 6px;font-size:18px}
-.ds-faq p{margin:0}
+.ds-acc{margin:18px 0 30px;border-top:1px solid #e6e6e6}
+.ds-acc-i{border-bottom:1px solid #e6e6e6}
+.ds-acc-i summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px 2px}
+.ds-acc-i summary::-webkit-details-marker{display:none}
+.ds-acc-i summary h3{margin:0;font-size:17px;line-height:1.4;text-transform:none;color:#101010}
+.ds-acc-i[open] summary h3{color:#009640}
+.ds-chev{flex:0 0 14px;height:14px;border-right:2px solid #009640;border-bottom:2px solid #009640;transform:rotate(45deg);transition:transform .2s;margin-right:6px}
+.ds-acc-i[open] .ds-chev{transform:rotate(-135deg)}
+.ds-acc-c{padding:0 2px 18px}
+.ds-acc-c p{margin:0}
 .ds-cta{margin:26px 0}
 .ds-cta a{display:inline-block;background:#009640;color:#fff!important;text-decoration:none;font-weight:700;padding:14px 26px;border-radius:3px}
 .ds-auteur{display:flex;gap:18px;align-items:flex-start;border:1px dashed #bbb;padding:18px;margin:34px 0;background:#fbfbfb}
@@ -171,120 +180,72 @@ body:not(.ds-orig) #ds-old{display:none}
       <p class="date-category">
         10 août 2026        <i class="fas fa-circle"></i>
         <a href="https://www.amv.fr/assurance-moto/">Assurance Moto</a>
-      </p><div id="ds-new">
-<div class="ds-encart">
-  <p class="ds-encart-t">À retenir</p>
-  <p><strong>Il faut compter entre 5 000 et 6 000 € pour un projet moto équilibré</strong>, en incluant le permis, l'équipement complet, une première moto d'occasion et l'assurance. Le détail poste par poste :</p>
-  <ul>
-    <li><strong>Permis</strong> : de 150 à 400 € pour le permis AM, de 700 à 1 200 € pour le permis A1, de 850 à 1 200 € pour le permis A2</li>
-    <li><strong>Équipement obligatoire</strong> : de 520 à 760 € pour le casque, les gants, le blouson, le pantalon et les chaussures montantes</li>
-    <li><strong>Première moto d'occasion</strong> : de 2 000 à 4 000 € en 125cc, de 5 000 à 6 000 € pour une moto accessible en permis A2</li>
-    <li><strong>Entretien</strong> : de 200 à 400 € par an en petite cylindrée, jusqu'à 1 500 € sur une grosse cylindrée</li>
-    <li><strong>Assurance</strong> : variable selon le modèle, la cylindrée, le lieu de stationnement et le niveau de couverture retenu</li>
-  </ul>
+      </p><div id="ds-new"><div class="ds-encart"><p class="ds-encart-t">À retenir</p>
+<p><strong>Il faut compter entre 5 000 et 6 000 € pour un projet moto équilibré</strong>, en incluant le permis, l'équipement complet, une première moto d'occasion et l'assurance.</p>
+<ul><li><strong>Permis</strong> : de 150 à 400 € en permis AM, de 700 à 1 200 € en permis A1, de 850 à 1 200 € en permis A2</li><li><strong>Équipement obligatoire</strong> : de 520 à 760 € pour le casque, les gants, le blouson, le pantalon et les chaussures montantes</li><li><strong>Première moto d'occasion</strong> : de 2 000 à 4 000 € en 125cc, de 5 000 à 6 000 € pour une moto accessible en permis A2</li><li><strong>Entretien</strong> : de 200 à 400 € par an en petite cylindrée, jusqu'à 1 500 € sur une grosse cylindrée</li><li><strong>Assurance</strong> : variable selon le modèle, la cylindrée, le lieu de stationnement et le niveau de couverture retenu</li></ul>
 </div>
-
 <p>Devenir motard commence par un budget à évaluer avec justesse. Permis, équipement, moto, assurance, entretien, voici le panorama des frais à anticiper pour établir un budget clair, réaliste et adapté à vos premiers tours de roue.</p>
-
-<h2>Combien coûte un projet moto complet, selon votre profil ?</h2>
-<p>La réponse dépend d'abord du permis que vous visez, car c'est lui qui conditionne la cylindrée accessible, donc le prix de la machine.</p>
-<div class="ds-tw"><table>
-<thead><tr><th>Profil</th><th>Permis visé</th><th>Budget de départ</th><th>Ce que cela comprend</th></tr></thead>
-<tbody>
-<tr><td>Dès 14 ans, cyclomoteur 50cc</td><td>Permis AM</td><td>2 500 à 4 000 €</td><td>Permis, équipement complet, première machine</td></tr>
-<tr><td>Dès 16 ans, 125cc</td><td>Permis A1</td><td>3 000 à 6 000 €</td><td>Permis, équipement complet, 125cc d'occasion</td></tr>
-<tr><td>Moto jusqu'à 35 kW</td><td>Permis A2</td><td>6 000 à 8 000 €</td><td>Permis, équipement complet, moto d'occasion</td></tr>
+<h2>Le budget poste par poste, en un coup d'œil</h2>
+<p>Un projet moto se découpe en cinq dépenses, dont <strong>quatre sont connues à l'avance</strong>. Seule l'assurance dépend de votre situation, car elle se calcule au cas par cas.</p>
+<div class="ds-tw"><table><thead><tr><th>Poste de dépense</th><th>Budget à prévoir</th><th>Ce qui fait varier le prix</th></tr></thead><tbody>
+<tr><td>Permis</td><td>150 à 1 200 €</td><td>La catégorie visée, le nombre d'heures de conduite, les éventuelles sessions de rattrapage</td></tr>
+<tr><td>Équipement obligatoire</td><td>520 à 760 €</td><td>Le niveau de gamme du casque, la technicité du blouson et du pantalon</td></tr>
+<tr><td>Première moto d'occasion</td><td>2 000 à 6 000 €</td><td>Le type de machine, sa cylindrée et son état</td></tr>
+<tr><td>Entretien, par an</td><td>200 à 1 500 €</td><td>La cylindrée, les kilomètres parcourus, la technicité de la moto</td></tr>
+<tr><td>Assurance</td><td>Sur devis</td><td>Le modèle, la cylindrée, le lieu de stationnement, la formule retenue</td></tr>
+<tr class="ds-total"><td><strong>Enveloppe de départ</strong></td><td><strong>5 000 à 6 000 €</strong></td><td><strong>Pour un projet équilibré, assurance comprise</strong></td></tr>
 </tbody></table></div>
-<p>Ces enveloppes s'entendent hors assurance et hors entretien courant, deux postes détaillés plus bas. Elles varient selon la formation suivie, l'état du deux-roues choisi et le niveau de couverture retenu.</p>
-
+<p>Le total varie surtout selon le permis visé, car c'est lui qui conditionne la cylindrée accessible, donc le prix de la machine. Comptez <strong>2 500 à 4 000 € en permis AM</strong>, <strong>3 000 à 6 000 € en permis A1</strong> et <strong>6 000 à 8 000 € en permis A2</strong>, hors assurance et hors entretien courant.</p>
 <h2>Le coût du permis moto selon la catégorie</h2>
-<p>L'obtention du permis constitue la première étape. Selon la catégorie choisie et le profil du futur motard, le budget initial varie significativement.</p>
-<div class="ds-tw"><table>
-<thead><tr><th>Permis</th><th>Âge minimum</th><th>Véhicules accessibles</th><th>Budget</th></tr></thead>
-<tbody>
-<tr><td>Permis AM</td><td>14 ans</td><td><a href="https://www.amv.fr/assurance-moto/assurance-moto-50cm3/">Cyclomoteurs 50cc</a></td><td>150 à 400 €</td></tr>
+<p>L'obtention du permis constitue la première étape, et <strong>le budget initial varie du simple au sextuple</strong> selon la catégorie choisie.</p>
+<div class="ds-tw"><table><thead><tr><th>Permis</th><th>Âge minimum</th><th>Véhicules accessibles</th><th>Budget</th></tr></thead><tbody>
+<tr><td>Permis AM</td><td>14 ans</td><td>Cyclomoteurs <a href="https://www.amv.fr/assurance-moto/assurance-moto-50cm3/">50cc</a></td><td>150 à 400 €</td></tr>
 <tr><td>Permis A1</td><td>16 ans</td><td><a href="https://www.amv.fr/assurance-moto/assurance-moto-125cm3/">125cc</a></td><td>700 à 1 200 €</td></tr>
 <tr><td>Formation 7 heures</td><td>Permis B depuis 2 ans</td><td>125cc</td><td>200 à 350 €</td></tr>
-<tr><td><a href="https://www.amv.fr/assurance-moto/assurance-moto-permis-a2/">Permis A2</a></td><td>18 ans</td><td>Motos jusqu'à 35 kW</td><td>850 à 1 200 €</td></tr>
+<tr><td>Permis A2</td><td>18 ans</td><td>Motos jusqu'à 35 kW</td><td>850 à 1 200 €</td></tr>
 <tr><td>Permis A</td><td>Après 2 ans de permis A2</td><td>Toutes cylindrées</td><td>200 à 400 €</td></tr>
 </tbody></table></div>
-<p>Le permis A1 inclut le code, le plateau et la circulation, et le budget peut dépasser la fourchette haute selon les heures supplémentaires nécessaires. Il existe également des forfaits à partir de 250 €, et des formules aux alentours de 500 € pour le permis A2. Attention, ces forfaits d'entrée limitent le nombre d'heures de conduite ou excluent le code, pensez à vérifier ce qu'ils comprennent réellement avant de vous engager. Des frais additionnels peuvent également survenir en cas de sessions de rattrapage ou de modules complémentaires.</p>
-<p>Le permis A2 est la première étape vers le permis A, qui prend la forme d'une formation complémentaire de 7 heures pour accéder aux motos sans restriction de puissance.</p>
-
+<p>Le permis A1 inclut le code, le plateau et la circulation, et le budget peut dépasser la fourchette haute selon les heures supplémentaires nécessaires. Il existe également des forfaits à partir de 250 €, et des formules aux alentours de 500 € pour le permis A2. <strong>Attention aux forfaits d'entrée de gamme</strong>, qui limitent le nombre d'heures de conduite ou excluent le code, pensez à vérifier ce qu'ils comprennent réellement avant de vous engager. Des frais additionnels peuvent également survenir en cas de sessions de rattrapage ou de modules complémentaires.</p>
+<p>Le <a href="https://www.amv.fr/assurance-moto/assurance-moto-permis-a2/">permis A2</a> est <strong>la première étape vers le permis A</strong>, qui prend la forme d'une formation complémentaire de 7 heures pour accéder aux motos sans restriction de puissance.</p>
 <h2>Le prix de l'équipement obligatoire du motard</h2>
-<p>Avant même de monter en selle, il faut s'équiper. Ce matériel n'est pas facultatif, il est obligatoire pour accéder aux cours de conduite et constitue le premier bouclier du motard.</p>
-<div class="ds-tw"><table>
-<thead><tr><th>Équipement</th><th>Budget</th><th>Précision</th></tr></thead>
-<tbody>
-<tr><td>Casque homologué</td><td>150 à 200 €</td><td>Conformité à la norme ECE obligatoire</td></tr>
-<tr><td>Gants homologués</td><td>40 à 60 €</td><td>Un second modèle peut être utile selon la saison</td></tr>
-<tr><td>Blouson moto</td><td>100 à 200 €</td><td>Selon les matériaux et les protections intégrées</td></tr>
-<tr><td>Pantalon</td><td>Environ 150 €</td><td>Conçu pour la résistance à l'abrasion</td></tr>
-<tr><td>Chaussures montantes</td><td>80 à 150 €</td><td>Nécessaires pour l'épreuve pratique</td></tr>
-<tr class="ds-total"><td>Total</td><td>520 à 760 €</td><td>Hors accessoires facultatifs ou saisonniers</td></tr>
-</tbody></table></div>
+<p>Avant même de monter en selle, il faut s'équiper. Ce matériel n'est pas facultatif, <strong>il est obligatoire pour accéder aux cours de conduite</strong> et constitue le premier bouclier du motard.</p>
+<ul class="ds-ul"><li><strong>Casque homologué, de 150 à 200 €.</strong> La conformité à la norme ECE est obligatoire.</li><li><strong>Gants homologués, de 40 à 60 €.</strong> Un second modèle peut être utile selon la saison.</li><li><strong>Blouson moto, de 100 à 200 €</strong>, selon les matériaux et les protections intégrées.</li><li><strong>Pantalon, environ 150 €</strong>, conçu pour la résistance à l'abrasion.</li><li><strong>Chaussures montantes, de 80 à 150 €</strong>, nécessaires pour l'épreuve pratique.</li></ul>
 <p class="ds-img-slot">Emplacement image, section équipement. Alt : casque, gants et blouson moto posés sur une selle</p>
-<p>L'ensemble de l'équipement vestimentaire moto obligatoire représente donc un investissement compris entre 520 et 760 €, auquel peuvent s'ajouter des accessoires facultatifs ou saisonniers.</p>
-<p>Bon à savoir : chez AMV, le casque, les gants et le gilet airbag sont couverts dès la première formule, vétusté déduite. En souscrivant l'Option Plus, la couverture est étendue à l'ensemble de votre équipement moto ainsi qu'aux accessoires hors-série et top case, dans la limite de 5 000 €.</p>
-
+<p>L'ensemble de l'équipement vestimentaire moto obligatoire représente donc <strong>un investissement compris entre 520 et 760 €</strong>, auquel peuvent s'ajouter des accessoires facultatifs ou saisonniers.</p>
+<p>Bon à savoir : chez AMV, <strong>le casque, les gants et le gilet airbag sont couverts dès la première formule</strong>, vétusté déduite. En souscrivant l'Option Plus, la couverture est étendue à l'ensemble de votre équipement moto ainsi qu'aux accessoires hors-série et top case, dans la limite de 5 000 €.</p>
 <h2>Le prix d'une première moto d'occasion</h2>
-<p>L'acquisition de la moto constitue un jalon important dans ce parcours. L'occasion est souvent envisagée comme point de départ, avec des prix très variables selon le type, l'état et la cylindrée du deux-roues.</p>
-<div class="ds-tw"><table>
-<thead><tr><th>Type de deux-roues</th><th>Prix en occasion</th><th>À prévoir en plus</th></tr></thead>
-<tbody>
-<tr><td>50cc</td><td>2 000 à 3 000 €</td><td>Antivol, bagagerie</td></tr>
-<tr><td>125cc</td><td>2 000 à 4 000 €</td><td>Antivol, top case, sacoches</td></tr>
-<tr><td>Moto accessible en permis A2</td><td>5 000 à 6 000 €</td><td>Débridage éventuel de 150 à 500 €</td></tr>
-</tbody></table></div>
-<p>Ce poste de dépense est à adapter à votre profil et à vos intentions de conduite, tout en anticipant d'éventuels ajustements mécaniques ou accessoires supplémentaires.</p>
-
+<p>L'acquisition de la moto constitue un jalon important dans ce parcours. <strong>L'occasion est souvent envisagée comme point de départ</strong>, avec des prix très variables selon le type, l'état et la cylindrée du deux-roues.</p>
+<ul class="ds-ul"><li><strong>Une 50cc d'occasion, de 2 000 à 3 000 €</strong> pour un véhicule fonctionnel.</li><li><strong>Une 125cc, de 2 000 à 4 000 €</strong> selon les caractéristiques.</li><li><strong>Une moto accessible en permis A2, de 5 000 à 6 000 €</strong>, à laquelle peut s'ajouter un coût de débridage de 150 à 500 €.</li></ul>
+<p>Ce poste de dépense est à adapter à votre profil et à vos intentions de conduite, tout en anticipant d'éventuels ajustements mécaniques ou accessoires supplémentaires, comme un antivol, un top case ou des sacoches.</p>
 <h2>L'entretien, un budget annuel à anticiper</h2>
-<p>Une fois la moto acquise et assurée, il reste à l'entretenir. Ce poste dépend de la fréquence d'utilisation, du modèle, des kilomètres parcourus et du type d'entretien requis.</p>
-<p><strong>Le coût annuel moyen se situe entre 200 et 400 € pour une petite cylindrée (50cc ou 125cc), et peut atteindre 1 000 € voire 1 500 € sur une machine plus puissante</strong>, selon l'intensité de l'usage et la technicité de la moto.</p>
-<div class="ds-tw"><table>
-<thead><tr><th>Prestation</th><th>Budget</th></tr></thead>
-<tbody>
-<tr><td>Vidange</td><td>150 à 190 €</td></tr>
-<tr><td>Remplacement des pneus</td><td>300 à 400 €</td></tr>
-<tr><td>Plaquettes de frein</td><td>Environ 150 €</td></tr>
-<tr><td>Liquide de frein</td><td>Environ 120 €</td></tr>
-<tr><td>Kit chaîne</td><td>Environ 250 €</td></tr>
-</tbody></table></div>
-<p>Ces opérations sont échelonnées dans le temps, mais elles doivent être intégrées dans une vision budgétaire à moyen terme.</p>
-
+<p>Une fois la moto acquise et assurée, il reste à l'entretenir. <strong>Le coût annuel moyen se situe entre 200 et 400 € pour une petite cylindrée</strong>, 50cc ou 125cc, et peut atteindre 1 000 € voire 1 500 € sur une machine plus puissante, selon l'intensité de l'usage et la technicité de la moto.</p>
+<p>Dans le détail, les prestations courantes se répartissent ainsi :</p>
+<ul class="ds-ul"><li><strong>Vidange, de 150 à 190 €</strong></li><li><strong>Remplacement des pneus, de 300 à 400 €</strong></li><li><strong>Plaquettes de frein, environ 150 €</strong></li><li><strong>Liquide de frein, environ 120 €</strong></li><li><strong>Kit chaîne, environ 250 €</strong></li></ul>
+<p>Ces opérations sont échelonnées dans le temps, mais elles doivent être intégrées dans <strong>une vision budgétaire à moyen terme</strong>.</p>
 <h2>L'assurance moto, le poste qui dépend de votre situation</h2>
-<p>L'assurance est obligatoire dès l'acquisition du véhicule. Il est en revanche difficile de donner un ordre de prix, car de nombreux critères entrent dans le calcul de la cotisation.</p>
-<p><strong>Les critères qui déterminent votre tarif</strong> : le modèle du deux-roues, sa cylindrée, sa date de mise en circulation et d'achat, le lieu de stationnement, votre sinistralité déclarée et le niveau de couverture retenu.</p>
-<p><strong>Les formules et les options qui font varier le montant</strong> : chez AMV, un seul contrat et quatre formules, de la Responsabilité civile, couverture minimale obligatoire qui couvre les dommages causés aux tiers lors d'un sinistre responsable, jusqu'à la formule Tous risques, qui couvre les dommages subis par votre deux-roues quelles que soient les circonstances. Entre les deux, la formule Vol / Incendie et la formule Dommages collision, qui couvre les accidents avec un tiers identifié et permet une meilleure couverture tout en maîtrisant son budget.</p>
-<p>S'y ajoutent des options complémentaires dédiées au pilote et aux équipements. L'option Individuelle Pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote. L'Assistance 0 km, également en option, vous permet de compter sur une assistance même en bas de chez vous, qu'il s'agisse d'un accident, d'un vol, d'une crevaison ou d'une panne.</p>
-<p>Le choix de la formule dépend surtout de la valeur de votre deux-roues, de sa fréquence d'utilisation et de votre budget. Pour un premier achat en occasion de faible valeur, la formule Responsabilité civile peut suffire, alors qu'une machine récente ou financée à crédit justifie en général d'étudier une couverture plus large. Si vous venez d'obtenir votre permis, notre page dédiée à l'<a href="https://www.amv.fr/assurance-moto/assurance-moto-jeune-conducteur/">assurance moto jeune conducteur</a> détaille les points à connaître.</p>
-<p>Un point utile pour un premier contrat : la souscription chez AMV demande peu de justificatifs, surtout le relevé d'information délivré par votre précédent assureur, là où d'autres assureurs réclament davantage de pièces, telles que le permis, la carte grise et un justificatif de domicile. Pas besoin de vous déplacer en agence.</p>
+<p>L'assurance est obligatoire dès l'acquisition du véhicule. Il est en revanche difficile de donner un ordre de prix, car <strong>de nombreux critères entrent dans le calcul de la cotisation</strong> :</p>
+<ul class="ds-ul"><li>le <strong>modèle</strong> du deux-roues et sa <strong>cylindrée</strong></li><li>sa <strong>date de mise en circulation et d'achat</strong></li><li>le <strong>lieu de stationnement</strong></li><li>votre <strong>sinistralité déclarée</strong></li><li>le <strong>niveau de couverture</strong> retenu</li></ul>
+<p>Chez AMV, <strong>un seul contrat et quatre formules</strong>, de la Responsabilité civile, couverture minimale obligatoire qui couvre les dommages causés aux tiers lors d'un sinistre responsable, jusqu'à la formule Tous risques, qui couvre les dommages subis par votre deux-roues quelles que soient les circonstances. Entre les deux, la formule Vol / Incendie et la formule <strong>Dommages collision</strong>, qui couvre les accidents avec un tiers identifié et permet une meilleure couverture tout en maîtrisant son budget.</p>
+<p>S'y ajoutent des options complémentaires dédiées au pilote et aux équipements. L'option <strong>Individuelle Pilote</strong> permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote. L'<strong>Assistance 0 km</strong>, également en option, vous permet de compter sur une assistance même en bas de chez vous, qu'il s'agisse d'un accident, d'un vol, d'une crevaison ou d'une panne.</p>
+<p>Le choix de la formule dépend surtout de <strong>la valeur de votre deux-roues</strong>, de sa fréquence d'utilisation et de votre budget. Pour un premier achat en occasion de faible valeur, la formule Responsabilité civile peut suffire, alors qu'une machine récente ou financée à crédit justifie en général d'étudier une couverture plus large. Si vous venez d'obtenir votre permis, notre page dédiée à l'<a href="https://www.amv.fr/assurance-moto/assurance-moto-jeune-conducteur/">assurance moto jeune conducteur</a> détaille les points à connaître.</p>
+<p>Un point utile pour un premier contrat : la souscription chez AMV demande <strong>peu de justificatifs</strong>, surtout le relevé d'information délivré par votre précédent assureur, là où d'autres assureurs réclament davantage de pièces, telles que le permis, la carte grise et un justificatif de domicile. Pas besoin de vous déplacer en agence.</p>
 <p class="ds-cta"><a href="https://www.amv.fr/assurance/moto">Obtenez votre tarif assurance moto en 3 minutes</a></p>
-
 <h2>Le budget de départ à prévoir, en résumé</h2>
-<p>En agrégeant les différentes étapes, il devient possible d'estimer une enveloppe de départ pour un projet moto complet.</p>
-<p>Pour les profils les plus jeunes, la formation AM, l'équipement et une première machine peuvent représenter un budget initial de l'ordre de 2 500 à 4 000 €, hors assurance et entretien. Pour ceux qui accèdent directement au permis A1 ou A2, les coûts grimpent, notamment du fait d'un permis plus long et d'un deux-roues souvent plus imposant. L'enveloppe globale se situe alors entre 3 000 et 6 000 € pour le permis A1, et entre 6 000 et 8 000 € pour le permis A2, en incluant le permis, l'équipement complet et la moto d'occasion.</p>
-<p>La diversité des cas de figure implique toutefois de moduler ces estimations. Selon la formation suivie, une machine neuve ou d'occasion, une formule Responsabilité civile ou Tous risques, les écarts peuvent être significatifs. Anticiper un budget de départ autour de 5 000 à 6 000 € pour un projet équilibré permet généralement de couvrir les postes essentiels, assurance comprise, tout en laissant une marge pour les imprévus ou les ajustements mécaniques nécessaires après l'achat.</p>
-
+<p>En agrégeant les différentes étapes, il devient possible d'estimer une enveloppe de départ pour un projet moto complet :</p>
+<ul class="ds-ul"><li><strong>Permis AM, de 2 500 à 4 000 €</strong> pour la formation, l'équipement et une première machine, hors assurance et entretien.</li><li><strong>Permis A1, de 3 000 à 6 000 €</strong>, avec un permis plus long et un deux-roues souvent plus imposant.</li><li><strong>Permis A2, de 6 000 à 8 000 €</strong>, en incluant le permis, l'équipement complet et la moto d'occasion.</li></ul>
+<p>La diversité des cas de figure implique toutefois de moduler ces estimations. Selon la formation suivie, une machine neuve ou d'occasion, une formule Responsabilité civile ou Tous risques, les écarts peuvent être significatifs. <strong>Anticiper un budget de départ autour de 5 000 à 6 000 € pour un projet équilibré</strong> permet généralement de couvrir les postes essentiels, assurance comprise, tout en laissant une marge pour les imprévus ou les ajustements mécaniques nécessaires après l'achat.</p>
 <h2>Questions fréquentes sur le budget pour débuter la moto</h2>
-<div class="ds-faq"><h3>Quel budget faut-il pour débuter la moto ?</h3><p>Il faut compter entre 5 000 et 6 000 € pour un projet équilibré, permis, équipement, moto d'occasion et assurance compris. Le budget descend à 2 500 à 4 000 € pour un projet en permis AM et monte à 6 000 à 8 000 € pour un projet en permis A2.</p></div>
-<div class="ds-faq"><h3>Combien coûte le permis moto ?</h3><p>Le permis AM se situe entre 150 et 400 €, le permis A1 entre 700 et 1 200 €, le permis A2 entre 850 et 1 200 €. La formation de 7 heures accessible aux titulaires du permis B depuis au moins 2 ans coûte entre 200 et 350 €, et la formation complémentaire vers le permis A entre 200 et 400 €.</p></div>
-<div class="ds-faq"><h3>Quel est le prix de l'équipement obligatoire pour passer le permis moto ?</h3><p>Entre 520 et 760 € pour l'ensemble casque, gants, blouson, pantalon et chaussures montantes. Le casque homologué représente le poste le plus lourd, de 150 à 200 €, et doit être conforme à la norme ECE.</p></div>
-<div class="ds-faq"><h3>Combien coûte l'entretien d'une moto par an ?</h3><p>De 200 à 400 € par an pour une 50cc ou une 125cc, et jusqu'à 1 000 voire 1 500 € pour une machine plus puissante. Les postes principaux sont les pneus, de 300 à 400 €, le kit chaîne, environ 250 €, et la vidange, de 150 à 190 €.</p></div>
-<div class="ds-faq"><h3>Combien coûte l'assurance d'une première moto ?</h3><p>Il n'existe pas de tarif unique. La cotisation dépend du modèle, de la cylindrée, de la date de mise en circulation et d'achat, du lieu de stationnement, de la sinistralité déclarée et du niveau de couverture retenu. Un devis en ligne reste le moyen le plus fiable de connaître le montant exact pour votre situation.</p></div>
-<div class="ds-faq"><h3>Faut-il acheter sa première moto neuve ou d'occasion ?</h3><p>L'occasion est souvent le point de départ retenu, car elle permet de limiter le budget d'acquisition et la perte de valeur des premières années. Une machine neuve ou récente justifie en général d'étudier une formule plus large, la valeur du véhicule étant le premier critère de choix de la couverture.</p></div>
-<div class="ds-faq"><h3>Peut-on débuter la moto avec 3 000 € ?</h3><p>C'est envisageable avec un permis AM et un cyclomoteur 50cc d'occasion, en comptant 150 à 400 € de permis, 520 à 760 € d'équipement et 2 000 à 3 000 € de machine. Il faut alors prévoir l'assurance et l'entretien en plus de cette enveloppe.</p></div>
-
-<div class="ds-auteur">
-  <div class="ds-auteur-ph">Photo</div>
-  <div>
-    <p class="ds-auteur-n">Encart auteur, à compléter par AMV</p>
-    <p>Nom, mini-bio et lien LinkedIn de l'auteur retenu pour l'univers moto. Cet encart est obligatoire sur tous les articles, conformément à la décision E-E-A-T du call du 30 juillet.</p>
-  </div>
+<div class="ds-acc">
+<details class="ds-acc-i" open><summary><h3>Quel budget faut-il pour débuter la moto ?</h3><span class="ds-chev"></span></summary><div class="ds-acc-c"><p>Il faut compter entre 5 000 et 6 000 € pour un projet équilibré, permis, équipement, moto d'occasion et assurance compris. Le budget descend à 2 500 à 4 000 € pour un projet en permis AM et monte à 6 000 à 8 000 € pour un projet en permis A2.</p></div></details>
+<details class="ds-acc-i"><summary><h3>Combien coûte le permis moto ?</h3><span class="ds-chev"></span></summary><div class="ds-acc-c"><p>Le permis AM se situe entre 150 et 400 €, le permis A1 entre 700 et 1 200 €, le permis A2 entre 850 et 1 200 €. La formation de 7 heures accessible aux titulaires du permis B depuis au moins 2 ans coûte entre 200 et 350 €, et la formation complémentaire vers le permis A entre 200 et 400 €.</p></div></details>
+<details class="ds-acc-i"><summary><h3>Quel est le prix de l'équipement obligatoire pour passer le permis moto ?</h3><span class="ds-chev"></span></summary><div class="ds-acc-c"><p>Entre 520 et 760 € pour l'ensemble casque, gants, blouson, pantalon et chaussures montantes. Le casque homologué représente le poste le plus lourd, de 150 à 200 €, et doit être conforme à la norme ECE.</p></div></details>
+<details class="ds-acc-i"><summary><h3>Combien coûte l'entretien d'une moto par an ?</h3><span class="ds-chev"></span></summary><div class="ds-acc-c"><p>De 200 à 400 € par an pour une 50cc ou une 125cc, et jusqu'à 1 000 voire 1 500 € pour une machine plus puissante. Les postes principaux sont les pneus, de 300 à 400 €, le kit chaîne, environ 250 €, et la vidange, de 150 à 190 €.</p></div></details>
+<details class="ds-acc-i"><summary><h3>Combien coûte l'assurance d'une première moto ?</h3><span class="ds-chev"></span></summary><div class="ds-acc-c"><p>Il n'existe pas de tarif unique. La cotisation dépend du modèle, de la cylindrée, de la date de mise en circulation et d'achat, du lieu de stationnement, de la sinistralité déclarée et du niveau de couverture retenu. Un devis en ligne reste le moyen le plus fiable de connaître le montant exact pour votre situation.</p></div></details>
+<details class="ds-acc-i"><summary><h3>Faut-il acheter sa première moto neuve ou d'occasion ?</h3><span class="ds-chev"></span></summary><div class="ds-acc-c"><p>L'occasion est souvent le point de départ retenu, car elle permet de limiter le budget d'acquisition et la perte de valeur des premières années. Une machine neuve ou récente justifie en général d'étudier une formule plus large, la valeur du véhicule étant le premier critère de choix de la couverture.</p></div></details>
+<details class="ds-acc-i"><summary><h3>Peut-on débuter la moto avec 3 000 € ?</h3><span class="ds-chev"></span></summary><div class="ds-acc-c"><p>C'est envisageable avec un permis AM et un cyclomoteur 50cc d'occasion, en comptant 150 à 400 € de permis, 520 à 760 € d'équipement et 2 000 à 3 000 € de machine. Il faut alors prévoir l'assurance et l'entretien en plus de cette enveloppe.</p></div></details>
 </div>
-
-<p class="ds-sources">Les chiffres sont le croisement de plusieurs sources, notamment les prix des écoles de conduite du réseau Codes Rousseau pour le coût des permis, et du blog La Bécanerie pour les autres tarifs, équipements et entretien. D'autres ressources ont également servi à la rédaction, comme le site permisapoints.fr et icasque.com pour les équipements moto.</p>
-</div>
+<div class="ds-auteur"><div class="ds-auteur-ph">Photo</div><div><p class="ds-auteur-n">Encart auteur, à compléter par AMV</p><p>Nom, mini-bio et lien LinkedIn de l'auteur retenu pour l'univers moto. Cet encart est obligatoire sur tous les articles, conformément à la décision E-E-A-T du call du 30 juillet.</p></div></div>
+<p class="ds-sources">Les chiffres sont le croisement de plusieurs sources, notamment les prix des écoles de conduite du réseau Codes Rousseau pour le coût des permis, et du blog La Bécanerie pour les autres tarifs, équipements et entretien. D'autres ressources ont également servi à la rédaction, comme le site permisapoints.fr et icasque.com pour les équipements moto.</p></div>
 <div id="ds-old">
 			<p><span data-contrast="auto">Porter un casque est obligatoire, le choisir avec soin l’est tout autant. Derrière l’apparente simplicité de cet équipement se cache un univers technique exigeant, régi par des normes rigoureuses. Au-delà du style, ce qui compte réellement, c’est la protection. Découvrons ensemble pourquoi et comment un casque homologué vous assure une conduite plus sereine et, surtout, plus sûre.</span><span data-ccp-props="{}"> </span></p>
 <h2><span data-contrast="none">Homologation : la promesse d’une protection fiable</span><span data-ccp-props="{&quot;134233117&quot;:true,&quot;134233118&quot;:true,&quot;201341983&quot;:0,&quot;335559740&quot;:240}"> </span></h2>
