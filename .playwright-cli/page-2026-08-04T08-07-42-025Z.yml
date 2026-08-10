@@ -1,0 +1,437 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto HONDA
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance moto pour votre Honda" [level=1] [ref=e38]:
+            - text: Assurance moto pour
+            - text: votre Honda
+        - img "assurance-moto-pour-votre-honda" [ref=e39]
+      - generic [ref=e41]:
+        - paragraph [ref=e43]: Honda Motor Co. Ltd, communément appelé Honda, occupe une place prépondérante dans le monde automobile japonais. Fondé en 1948 par Soichiro Honda et Takeo Fujisawa, l'entreprise a évolué pour devenir non seulement un constructeur automobile renommé, mais aussi un acteur majeur dans la production de motocyclettes, quads, scooters, avions d'affaires, générateurs électriques, moteurs de bateaux, ainsi que d'équipements de jardinage et de bricolage.
+        - generic [ref=e44]:
+          - 'heading "De la bicyclette économique à l''innovation motorisée : l''épopée de Honda dans l''industrie automobile et motocycliste" [level=4] [ref=e45]':
+            - strong [ref=e46]: "De la bicyclette économique à l'innovation motorisée : l'épopée de Honda dans l'industrie automobile et motocycliste"
+          - paragraph [ref=e47]
+          - paragraph [ref=e48]: Seiki Heavy Industry, une entreprise produisant des segments de pistons. Pendant la Seconde Guerre mondiale, cette entreprise a été absorbée par Toyota. Après la guerre, Soichiro Honda s'est associé à Takeo Fujisawa pour fonder Honda Motor Company Limited, le 24 septembre 1948. Leur premier succès a été le Type A, un véhicule économique équipé d'un moteur de générateur monté sur une bicyclette.
+          - paragraph [ref=e49]
+          - paragraph [ref=e50]: La renommée de Honda a continué de croître avec l'introduction de motocyclettes dans les années 1960, suivie d'une incursion réussie dans la production automobile en 1963 avec des modèles tels que la S360 et la S600. Actuellement, le siège social de l'entreprise est situé à Tokyo, dans le quartier de Minato, et son président-directeur général est Takahiro Hachigō depuis juin 2015, succédant à Takanobu Itō.
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: Honda a marqué l'histoire de la compétition automobile, remportant tous les titres mondiaux « constructeur » en 1967 avec ses machines multicylindres. Dans les années 1970, la domination de Honda en endurance a été consolidée par des victoires à Daytona aux États-Unis. La moto de tourisme VT 500 E a également marqué un tournant dans l'industrie, témoignant de l'innovation constante de Honda.
+          - paragraph [ref=e53]
+          - paragraph [ref=e54]: La gamme de motos Honda dans les années 1980, avec notamment des modèles tels que la CB 99F, la VT 500 E et la CB 450 avec double arbre à cames en tête, a contribué à asseoir la réputation de la marque. La CB 750 Four, surnommée « Quatre pattes », a été un véritable succès commercial des années 1970, dotée du premier frein à disque hydraulique.
+          - paragraph [ref=e55]
+          - paragraph [ref=e56]: La Gold Wing, lancée au milieu des années 1970 avec un moteur de 1 000cm³, a été suivie de diverses déclinaisons, y compris une version 6-cylindres à 1 500cm³ et jusqu'à 1 800cm³. Honda a continué d'innover avec la commercialisation en série de la moto turbocompressée 500 CX Turbo en 1982, suivi de la 650 Turbo.
+          - paragraph [ref=e57]
+          - paragraph [ref=e58]: Les années suivantes ont vu l'arrivée des Honda VFR en 1986, avec des solutions technologiques éprouvées en compétition. Cependant, confronté à la nécessité d'améliorer sa compétitivité, Honda a fini par commercialiser des engins tout-terrain équipés de moteurs deux-temps.
+          - paragraph [ref=e59]
+          - paragraph [ref=e60]: Parmi les réalisations les plus marquantes de Honda, mentionnons le moteur à pistons oblongs de la gamme NR, un V4 à 32 soupapes tournant à 14 000 tr/min. Ce moteur, initialement conçu pour la compétition, a été monté sur la machine homologable 750 NR.
+          - paragraph [ref=e61]
+          - paragraph [ref=e62]: En octobre 2019, Honda a entrepris une fusion avec Hitachi Automotive Systems, Keihin, Showa Corporation et Nissin Kogyo, renforçant ainsi sa position dans l'industrie automobile. Ainsi, avec son riche héritage et une culture d'innovation, Honda continue d'être un leader mondial dans le domaine de l'automobile et de la moto.
+        - generic [ref=e63]:
+          - heading "Conclusion" [level=4] [ref=e64]:
+            - strong [ref=e65]: Conclusion
+          - paragraph [ref=e66]
+          - paragraph [ref=e67]: En conclusion, l'histoire de Honda est une saga fascinante de détermination, d'innovation et de réussite. De ses modestes débuts en tant que fabricant de segments de pistons aux sommets de l'industrie automobile et motocycliste mondiale, Honda a su évoluer avec agilité et constance. La marque a laissé une empreinte incontestable dans le monde du deux-roues, introduisant des technologies révolutionnaires et remportant des victoires éclatantes sur les circuits internationaux. En perpétuelle quête d'excellence, Honda continue de tracer sa route, marquant l'industrie de son esprit novateur et son engagement pour la qualité et la performance.
+      - generic [ref=e68]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e69]
+        - paragraph [ref=e70]
+        - paragraph [ref=e71]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e72] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e73]
+        - paragraph [ref=e74]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e75]
+        - paragraph [ref=e76]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e77] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e78]
+        - paragraph [ref=e79]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e80]
+        - paragraph [ref=e81]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e82]
+        - paragraph [ref=e83]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e84] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e85]:
+          - link "Testez notre tarif d'assurance pour votre HONDA" [ref=e87] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx?extmar=honda
+          - link "Retrouver mon devis d'assurance HONDA" [ref=e89] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e90]:
+        - heading "Questions fréquentes" [level=2] [ref=e91]
+        - generic [ref=e92]:
+          - generic [ref=e93] [cursor=pointer]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: Qu'est-ce qui a lancé le succès de Honda sur la scène automobile et motocycliste ?
+              - img [ref=e96]
+            - paragraph [ref=e98]: Le succès de Honda prend sa source avec le lancement du "Type A", un véhicule économique équipé d'un moteur de générateur monté sur une bicyclette, qui a connu un grand succès et a marqué le début de la renommée de la marque.
+          - generic [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: Quels ont été les étapes marquants de Honda dans l'industrie de la compétition motocycliste ?
+              - img [ref=e102]
+            - paragraph [ref=e104]: Honda a marqué la compétition motocycliste de son empreinte en remportant tous les titres mondiaux "constructeur" en 1967 et en introduisant des modèles emblématiques tels que la CB 750 Four, surnommée familièrement "Quatre pattes", qui a été un succès commercial majeur des années 1970.
+          - generic [ref=e105] [cursor=pointer]:
+            - generic [ref=e106]:
+              - generic [ref=e107]: Comment Honda a-t-il continué à innover au fil des décennies ?
+              - img [ref=e108]
+            - paragraph [ref=e110]: Honda a maintenu son statut de constructeur innovant en introduisant des modèles révolutionnaires tels que la Gold Wing dans les années 1970, la première moto turbocompressée en série en 1982, et les Honda VFR en 1986, témoignant de sa constante quête d'excellence et de sa capacité à anticiper les tendances de l'industrie.
+        - generic [ref=e111]:
+          - generic [ref=e112] [cursor=pointer]:
+            - generic [ref=e113]:
+              - generic [ref=e114]: Quelle assurance moto choisir ?
+              - img [ref=e115]
+            - paragraph [ref=e117]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: Quel est le prix d'une assurance moto ?
+              - img [ref=e121]
+            - paragraph [ref=e123]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]:
+              - generic [ref=e126]: Quelle formule assurance moto choisir ?
+              - img [ref=e127]
+            - paragraph [ref=e129]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]:
+              - generic [ref=e132]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e133]
+            - paragraph [ref=e135]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e136]:
+        - heading "Assurance pour les modèles Honda" [level=2] [ref=e137]
+        - link "Assurance CB 1000 R" [ref=e138] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cb-1000-r/
+          - generic [ref=e139]:
+            - generic [ref=e140]: Assurance CB 1000 R
+            - img [ref=e141]
+        - link "Assurance CB 500" [ref=e142] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cb-500/
+          - generic [ref=e143]:
+            - generic [ref=e144]: Assurance CB 500
+            - img [ref=e145]
+        - link "Assurance CB 500 F" [ref=e146] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cb-500-f/
+          - generic [ref=e147]:
+            - generic [ref=e148]: Assurance CB 500 F
+            - img [ref=e149]
+        - link "Assurance CB 600 F HORNET" [ref=e150] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cb-600-f-hornet/
+          - generic [ref=e151]:
+            - generic [ref=e152]: Assurance CB 600 F HORNET
+            - img [ref=e153]
+        - link "Assurance CB 650 F" [ref=e154] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cb-650-f/
+          - generic [ref=e155]:
+            - generic [ref=e156]: Assurance CB 650 F
+            - img [ref=e157]
+        - link "Assurance CB 650 F 47,5CV" [ref=e158] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cb-650-f-47-5cv/
+          - generic [ref=e159]:
+            - generic [ref=e160]: Assurance CB 650 F 47,5CV
+            - img [ref=e161]
+        - link "Assurance CB 650 R E-CLUTCH" [ref=e162] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cb-650-r-e-clutch/
+          - generic [ref=e163]:
+            - generic [ref=e164]: Assurance CB 650 R E-CLUTCH
+            - img [ref=e165]
+        - link "Assurance CBF 125" [ref=e166] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cbf-125/
+          - generic [ref=e167]:
+            - generic [ref=e168]: Assurance CBF 125
+            - img [ref=e169]
+        - link "Assurance CBF 500" [ref=e170] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cbf-500/
+          - generic [ref=e171]:
+            - generic [ref=e172]: Assurance CBF 500
+            - img [ref=e173]
+        - link "Assurance CBF 600 N" [ref=e174] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cbf-600-n/
+          - generic [ref=e175]:
+            - generic [ref=e176]: Assurance CBF 600 N
+            - img [ref=e177]
+        - link "Assurance CBR 500 R" [ref=e178] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cbr-500-r/
+          - generic [ref=e179]:
+            - generic [ref=e180]: Assurance CBR 500 R
+            - img [ref=e181]
+        - link "Assurance CBR 600 F" [ref=e182] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cbr-600-f/
+          - generic [ref=e183]:
+            - generic [ref=e184]: Assurance CBR 600 F
+            - img [ref=e185]
+        - link "Assurance CBR 600 RR" [ref=e186] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cbr-600-rr/
+          - generic [ref=e187]:
+            - generic [ref=e188]: Assurance CBR 600 RR
+            - img [ref=e189]
+        - link "Assurance CBR–RR" [ref=e190] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cbr-rr/
+          - generic [ref=e191]:
+            - generic [ref=e192]: Assurance CBR–RR
+            - img [ref=e193]
+        - link "Assurance CL 500" [ref=e194] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cl-500/
+          - generic [ref=e195]:
+            - generic [ref=e196]: Assurance CL 500
+            - img [ref=e197]
+        - link "Assurance CMX 1100 TOURING" [ref=e198] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cmx-1100-touring/
+          - generic [ref=e199]:
+            - generic [ref=e200]: Assurance CMX 1100 TOURING
+            - img [ref=e201]
+        - link "Assurance CMX 1100 TOURING DCT" [ref=e202] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cmx-1100-touring-dct/
+          - generic [ref=e203]:
+            - generic [ref=e204]: Assurance CMX 1100 TOURING DCT
+            - img [ref=e205]
+        - link "Assurance CMX 500 REBEL S" [ref=e206] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-cmx-500-rebel-s/
+          - generic [ref=e207]:
+            - generic [ref=e208]: Assurance CMX 500 REBEL S
+            - img [ref=e209]
+        - link "Assurance CRF 1100 L AFRICA TWIN" [ref=e210] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-crf-1100-l-africa-twin/
+          - generic [ref=e211]:
+            - generic [ref=e212]: Assurance CRF 1100 L AFRICA TWIN
+            - img [ref=e213]
+        - link "Assurance CRF 300 L" [ref=e214] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-crf-300-l/
+          - generic [ref=e215]:
+            - generic [ref=e216]: Assurance CRF 300 L
+            - img [ref=e217]
+        - link "Assurance DAX 125 ST" [ref=e218] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-dax-125-st/
+          - generic [ref=e219]:
+            - generic [ref=e220]: Assurance DAX 125 ST
+            - img [ref=e221]
+        - link "Assurance FORZA 125" [ref=e222] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-forza-125/
+          - generic [ref=e223]:
+            - generic [ref=e224]: Assurance FORZA 125
+            - img [ref=e225]
+        - link "Assurance GL 1800 GOLDWING TOUR DCT-AIRBAG" [ref=e226] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-gl-1800-goldwing-tour-dct-airbag/
+          - generic [ref=e227]:
+            - generic [ref=e228]: Assurance GL 1800 GOLDWING TOUR DCT-AIRBAG
+            - img [ref=e229]
+        - link "Assurance GOLDWING" [ref=e230] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-goldwing/
+          - generic [ref=e231]:
+            - generic [ref=e232]: Assurance GOLDWING
+            - img [ref=e233]
+        - link "Assurance HORNET" [ref=e234] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-hornet/
+          - generic [ref=e235]:
+            - generic [ref=e236]: Assurance HORNET
+            - img [ref=e237]
+        - link "Assurance MONKEY 125" [ref=e238] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-monkey-125/
+          - generic [ref=e239]:
+            - generic [ref=e240]: Assurance MONKEY 125
+            - img [ref=e241]
+        - link "Assurance NC 750 X" [ref=e242] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-nc-750-x/
+          - generic [ref=e243]:
+            - generic [ref=e244]: Assurance NC 750 X
+            - img [ref=e245]
+        - link "Assurance NT 1100" [ref=e246] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-nt-1100/
+          - generic [ref=e247]:
+            - generic [ref=e248]: Assurance NT 1100
+            - img [ref=e249]
+        - link "Assurance NX 500" [ref=e250] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-nx-500/
+          - generic [ref=e251]:
+            - generic [ref=e252]: Assurance NX 500
+            - img [ref=e253]
+        - link "Assurance PCX" [ref=e254] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-pcx/
+          - generic [ref=e255]:
+            - generic [ref=e256]: Assurance PCX
+            - img [ref=e257]
+        - link "Assurance PCX 125" [ref=e258] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-pcx-125/
+          - generic [ref=e259]:
+            - generic [ref=e260]: Assurance PCX 125
+            - img [ref=e261]
+        - link "Assurance TRANSALP" [ref=e262] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-transalp/
+          - generic [ref=e263]:
+            - generic [ref=e264]: Assurance TRANSALP
+            - img [ref=e265]
+        - link "Assurance VARADERO 125" [ref=e266] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-varadero-125/
+          - generic [ref=e267]:
+            - generic [ref=e268]: Assurance VARADERO 125
+            - img [ref=e269]
+        - link "Assurance X ADV" [ref=e270] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-x-adv/
+          - generic [ref=e271]:
+            - generic [ref=e272]: Assurance X ADV
+            - img [ref=e273]
+        - link "Assurance XL 750 TRANSALP" [ref=e274] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-honda/assurance-xl-750-transalp/
+          - generic [ref=e275]:
+            - generic [ref=e276]: Assurance XL 750 TRANSALP
+            - img [ref=e277]
+      - link "Précédent" [ref=e280] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - img [ref=e282]
+        - text: Précédent
+    - generic [ref=e283]:
+      - generic [ref=e285]:
+        - generic [ref=e286]:
+          - link "Retourner à l'accueil" [ref=e288] [cursor=pointer]:
+            - /url: /
+            - img [ref=e289]
+          - paragraph [ref=e292]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e294] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e296] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e298] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e299] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5314 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e300]:
+          - generic [ref=e302]:
+            - generic [ref=e304]: A propos d’AMV
+            - generic [ref=e305]:
+              - link "Qui sommes-nous ?" [ref=e307] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e309] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e311] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e313] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e315] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e317] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e319]:
+            - generic [ref=e321]: Liens utiles
+            - generic [ref=e322]:
+              - link "Besoin d’aide ?" [ref=e324] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e326] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e328] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e330] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e332] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e334] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e336]:
+            - generic [ref=e338]: Assurances
+            - generic [ref=e339]:
+              - link "Assurance Moto" [ref=e341] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e343] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e345] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e347] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e349] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e351] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e353] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e355] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e357] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e359]:
+            - generic [ref=e361]: Devis assurance
+            - generic [ref=e362]:
+              - link "Devis assurance moto" [ref=e364] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e366] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e368] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e370] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e372] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e374] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e376] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e378] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e380] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e382] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e384]:
+          - 'link "Aller sur le site : Facebook" [ref=e385] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e386]
+          - 'link "Aller sur le site : Instagram" [ref=e389] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e390]
+          - 'link "Aller sur le site : LinkedIn" [ref=e392] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e393]
+          - 'link "Aller sur le site : Youtube" [ref=e395] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e396]
+      - generic [ref=e399]:
+        - generic [ref=e400]:
+          - link "Mentions légales" [ref=e401] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e402] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e403] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e404] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e405] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e406]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e407] [cursor=pointer]: Modifications
+  - generic [ref=e409]:
+    - text: Contenu remplacé
+    - text: Nouveau contenu optimisé

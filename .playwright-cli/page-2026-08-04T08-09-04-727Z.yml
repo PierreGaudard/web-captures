@@ -1,0 +1,285 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance scooter par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-par-constructeur/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance scooter KYMCO
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance scooter Kymco" [level=1] [ref=e38]
+        - img "assurance-scooter-kymco" [ref=e39]
+      - generic [ref=e41]:
+        - paragraph [ref=e43]: Depuis sa création, Kymco s’est imposé comme l’un des acteurs majeurs du marché des scooters, combinant innovation, performance et accessibilité. Pour les amateurs de deux-roues, la marque est synonyme de fiabilité et de design bien pensé, mais aussi d’une capacité à s’adapter aux besoins changeants des consommateurs. Cet article explore l’histoire de Kymco, sa gamme diversifiée de scooters, ainsi que sa position actuelle sur le marché.
+        - generic [ref=e44]:
+          - 'heading "Kymco : l’histoire, la gamme, et l’influence sur le marché des scooters" [level=2] [ref=e45]'
+          - paragraph [ref=e46]
+          - paragraph [ref=e47]: "L’histoire de Kymco, des débuts prometteurs à une marque de renommée mondiale :"
+          - paragraph [ref=e48]: Kymco, ou « Kwang Yang Motor Co, Ltd. », a vu le jour en 1963 à Taïwan. À ses débuts, l'entreprise était principalement un sous-traitant pour Honda, produisant des pièces et des véhicules complets sous licence pour le constructeur japonais. C’est au fil des années que Kymco a pris son envol en tant que marque indépendante, capitalisant sur son savoir-faire pour développer ses propres gammes de scooters.
+          - paragraph [ref=e49]
+          - paragraph [ref=e50]: Les années 1990 marquent un tournant pour Kymco, avec l’élargissement de son catalogue et l’introduction de modèles phares qui ont rapidement trouvé leur public, d’abord en Asie, puis en Europe et aux États-Unis. Cette expansion rapide a été soutenue par une politique d'innovation continue, avec des investissements massifs dans la recherche et le développement, permettant à la marque de répondre aux exigences d’un marché en pleine mutation.
+          - paragraph [ref=e51]
+          - paragraph [ref=e52]: "Une gamme de scooters diversifiée pour répondre à tous les besoins :"
+          - paragraph [ref=e53]: "Kymco a su diversifier son offre pour séduire un large éventail de consommateurs. De l'utilisateur urbain cherchant un moyen de transport pratique, au passionné de deux-roues à la recherche de sensations fortes, chacun peut trouver un modèle qui lui convient au sein de la gamme Kymco :"
+          - paragraph [ref=e54]: "- Scooters 50cm³ : conçus principalement pour un usage urbain, les scooters 50cm³ de Kymco, comme l'Agility 50, offrent une solution de mobilité simple et efficace. Leur légèreté et leur faible consommation en font un choix idéal pour les déplacements quotidiens en ville."
+          - paragraph [ref=e55]: "- Scooters 125cm³ : pour ceux qui souhaitent un peu plus de puissance sans sacrifier la maniabilité, les scooters 125cm³, tels que le Kymco People S 125, sont parfaits. Ils allient performance et confort, tout en restant accessibles pour les conducteurs ayant un permis B."
+          - paragraph [ref=e56]: "- Maxi-scooters : Kymco excelle également dans la catégorie des maxi-scooters, avec des modèles comme le Xciting S 400. Ces engins sont conçus pour ceux qui recherchent des performances de haute volée, combinées à un confort optimal pour les longs trajets. Avec des moteurs puissants et des équipements haut de gamme, les maxi-scooters Kymco sont une alternative sérieuse à la moto pour les trajets longue distance."
+          - paragraph [ref=e57]: "- Scooters électriques : conscient des enjeux environnementaux, Kymco a également développé une gamme de scooters électriques, dont le Kymco iONEX. Avec ces modèles, la marque démontre sa capacité à innover et à anticiper les tendances du marché, offrant des solutions de mobilité durables sans compromettre la performance."
+          - paragraph [ref=e58]
+          - paragraph [ref=e59]: "La place de Kymco sur le marché des scooters :"
+          - paragraph [ref=e60]: Aujourd'hui, Kymco se positionne parmi les leaders du marché mondial des scooters. La marque bénéficie d’une réputation solide, acquise grâce à une combinaison de qualité, de fiabilité et d’un bon rapport qualité-prix. Sa présence dans plus de 100 pays témoigne de son succès international, avec des ventes en constante progression.
+          - paragraph [ref=e61]
+          - paragraph [ref=e62]: Kymco a su bâtir une relation de confiance avec ses clients, en proposant des produits répondant aux normes les plus strictes en matière de sécurité et de performance. La marque est particulièrement appréciée pour la robustesse de ses modèles, leur facilité d’entretien, ainsi que pour son réseau de distribution étendu, qui garantit un service après-vente réactif.
+          - paragraph [ref=e63]
+        - generic [ref=e64]:
+          - 'heading "Conclusion : Kymco, un acteur incontournable pour tous les passionnés de scooters" [level=2] [ref=e65]'
+          - paragraph [ref=e66]
+          - paragraph [ref=e67]: Kymco n’est pas simplement un fabricant de scooters ; c’est une marque qui incarne la passion du deux-roues, l’innovation, et l’engagement envers ses clients. Avec une histoire riche, une gamme diversifiée, et une position dominante sur le marché, Kymco continue d’être un choix de prédilection pour les utilisateurs du monde entier. Que vous soyez un novice ou un vétéran du scooter, Kymco a probablement un modèle qui répondra à vos attentes, tout en offrant un plaisir de conduite inégalé.
+      - generic [ref=e68]:
+        - heading "Comment assurer son scooter ?" [level=2] [ref=e69]
+        - paragraph [ref=e70]
+        - paragraph [ref=e71]:
+          - text: Bien
+          - link "assurer votre scooter" [ref=e72] [cursor=pointer]:
+            - /url: /assurance/scooter/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e73]
+        - paragraph [ref=e74]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Pas besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e75]
+        - paragraph [ref=e76]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance scooter" [ref=e77] [cursor=pointer]:
+            - /url: /assurance/scooter/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de scooter que vous possédez, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e78]
+        - paragraph [ref=e79]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e80]
+        - paragraph [ref=e81]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que pilote de scooter. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e82]
+        - paragraph [ref=e83]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre scooter" [ref=e84] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance scooter en ligne et prendre la route en toute tranquillité dès maintenant !
+        - generic [ref=e85]:
+          - link "Testez notre tarif d'assurance pour votre KYMCO" [ref=e87] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-scooter/scooter_entree_vehicule.aspx?extmar=kymco
+          - link "Retrouver mon devis d'assurance KYMCO" [ref=e89] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-scooter/devis-assurance-scooter.aspx?rech_devis_memo=1
+      - generic [ref=e90]:
+        - heading "Questions fréquentes" [level=2] [ref=e91]
+        - generic [ref=e92]:
+          - generic [ref=e93] [cursor=pointer]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: Quels sont les avantages d'acheter un scooter Kymco par rapport à d'autres marques?
+              - img [ref=e96]
+            - paragraph [ref=e98]: Kymco est reconnu pour offrir un excellent rapport qualité-prix. Les scooters Kymco sont réputés pour leur fiabilité, leur durabilité, et leur conception innovante. La marque propose une large gamme de modèles adaptés à divers besoins, que ce soit pour un usage urbain quotidien ou des déplacements de plus longue distance. De plus, Kymco bénéficie d'un réseau de distribution et de service après-vente bien établi, garantissant un entretien facile et un accès aux pièces de rechange.
+          - generic [ref=e99] [cursor=pointer]:
+            - generic [ref=e100]:
+              - generic [ref=e101]: Pourquoi choisir un scooter électrique Kymco plutôt qu'un modèle à essence ?
+              - img [ref=e102]
+            - paragraph [ref=e104]: Les scooters électriques Kymco offrent plusieurs avantages par rapport aux modèles à essence, principalement une réduction des coûts liés à l'énergie électrique et l'entretien. Ils sont également plus silencieux et respectueux de l'environnement, avec zéro émission de CO2. De plus, Kymco propose des modèles électriques avec des fonctionnalités innovantes, comme des batteries amovibles et des systèmes de gestion d'énergie intelligente, ce qui rend l'utilisation encore plus pratique et économique.
+          - generic [ref=e105] [cursor=pointer]:
+            - generic [ref=e106]:
+              - generic [ref=e107]: Quels sont les principaux modèles de scooters proposés par Kymco et à qui s'adressent-ils ?
+              - img [ref=e108]
+            - paragraph [ref=e110]: Kymco propose une large gamme de scooters, allant des modèles urbains compacts aux scooters de plus grande cylindrée pour les trajets plus longs. Par exemple, le Kymco Agility est idéal pour les citadins à la recherche d'un scooter économique et maniable, tandis que le Kymco Xciting est un maxi-scooter conçu pour ceux qui recherchent confort et performance sur de plus longues distances. Kymco propose également des modèles électriques, comme le Kymco Like EV, pour les utilisateurs soucieux de l'environnement.
+        - generic [ref=e111]:
+          - generic [ref=e112] [cursor=pointer]:
+            - generic [ref=e113]:
+              - generic [ref=e114]: Quelle assurance scooter choisir ?
+              - img [ref=e115]
+            - paragraph [ref=e117]: Pour choisir avec soin votre assurance scooter, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des conducteurs de scooter, assurant ainsi une couverture complète et fiable pour leurs véhicules tout-terrain. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes et passionnés de tout-terrain tout au long de leurs aventures sur la route.
+          - generic [ref=e118] [cursor=pointer]:
+            - generic [ref=e119]:
+              - generic [ref=e120]: Quel est le prix d'une assurance scooter ?
+              - img [ref=e121]
+            - paragraph [ref=e123]: Le coût d'une assurance scooter chez AMV intègre plusieurs facteurs tels que le modèle du scooter, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de scooter. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre scooter. Chez AMV, nous sommes fiers d'accompagner les conducteurs de scooter depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]:
+              - generic [ref=e126]: Quelle formule assurance scooter choisir ?
+              - img [ref=e127]
+            - paragraph [ref=e129]: Le choix de la formule d'assurance scooter dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez un scooter récent, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance scooter, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance quad proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e130] [cursor=pointer]:
+            - generic [ref=e131]:
+              - generic [ref=e132]: Comment obtenir un devis d'assurance scooter ?
+              - img [ref=e133]
+            - paragraph [ref=e135]: Pour obtenir un devis d'assurance scooter rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance quad depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e136]:
+        - heading "Assurance pour les modèles Kymco" [level=2] [ref=e137]
+        - link "Assurance AGILITY 16+ 125" [ref=e138] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-kymco/assurance-agility-16plus-125/
+          - generic [ref=e139]:
+            - generic [ref=e140]: Assurance AGILITY 16+ 125
+            - img [ref=e141]
+        - link "Assurance AK 550" [ref=e142] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-kymco/assurance-ak-550/
+          - generic [ref=e143]:
+            - generic [ref=e144]: Assurance AK 550
+            - img [ref=e145]
+        - link "Assurance LIKE 125" [ref=e146] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-kymco/assurance-like-125/
+          - generic [ref=e147]:
+            - generic [ref=e148]: Assurance LIKE 125
+            - img [ref=e149]
+        - link "Assurance PEOPLE S 125" [ref=e150] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-kymco/assurance-people-s-125/
+          - generic [ref=e151]:
+            - generic [ref=e152]: Assurance PEOPLE S 125
+            - img [ref=e153]
+        - link "Assurance X-TOWN 125" [ref=e154] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-kymco/assurance-x-town-125/
+          - generic [ref=e155]:
+            - generic [ref=e156]: Assurance X-TOWN 125
+            - img [ref=e157]
+      - link "Précédent" [ref=e160] [cursor=pointer]:
+        - /url: /assurance-scooter/assurance-scooter-par-constructeur/
+        - img [ref=e162]
+        - text: Précédent
+    - generic [ref=e163]:
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - link "Retourner à l'accueil" [ref=e168] [cursor=pointer]:
+            - /url: /
+            - img [ref=e169]
+          - paragraph [ref=e172]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e174] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e176] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e178] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e179] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5314 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e180]:
+          - generic [ref=e182]:
+            - generic [ref=e184]: A propos d’AMV
+            - generic [ref=e185]:
+              - link "Qui sommes-nous ?" [ref=e187] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e189] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e191] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e193] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e195] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e197] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e199]:
+            - generic [ref=e201]: Liens utiles
+            - generic [ref=e202]:
+              - link "Besoin d’aide ?" [ref=e204] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e206] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e208] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e210] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e212] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e214] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e216]:
+            - generic [ref=e218]: Assurances
+            - generic [ref=e219]:
+              - link "Assurance Moto" [ref=e221] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e223] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e225] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e227] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e229] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e231] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e233] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e235] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e237] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e239]:
+            - generic [ref=e241]: Devis assurance
+            - generic [ref=e242]:
+              - link "Devis assurance moto" [ref=e244] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e246] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e248] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e250] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e252] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e254] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e256] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e258] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e260] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e262] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e264]:
+          - 'link "Aller sur le site : Facebook" [ref=e265] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e266]
+          - 'link "Aller sur le site : Instagram" [ref=e269] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e270]
+          - 'link "Aller sur le site : LinkedIn" [ref=e272] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e273]
+          - 'link "Aller sur le site : Youtube" [ref=e275] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e276]
+      - generic [ref=e279]:
+        - generic [ref=e280]:
+          - link "Mentions légales" [ref=e281] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e282] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e283] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e284] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e285] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e286]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e287] [cursor=pointer]: Modifications
+  - generic [ref=e289]:
+    - text: Contenu remplacé
+    - text: Nouveau contenu optimisé

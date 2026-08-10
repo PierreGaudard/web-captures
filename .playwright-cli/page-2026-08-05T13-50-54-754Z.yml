@@ -1,0 +1,259 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto Kove
+      - generic [ref=e36]:
+        - generic [ref=e37]: AMV
+        - heading "Assurance moto Kove" [level=1] [ref=e38]
+      - generic [ref=e39]:
+        - paragraph [ref=e40]: AMV, spécialiste de l'assurance deux-roues, assure les motos Kove, de la 450 Rally homologuée route aux trails bicylindres 800X, en passant par la 510X et le roadster NK 125R. Un seul contrat, jusqu'à quatre formules, des options au choix. Le casque, les gants et le gilet airbag sont couverts dès la première formule, et le devis en ligne ne prend que quelques minutes.
+        - list [ref=e41]:
+          - listitem [ref=e42]: "La gamme Kove est assurable : 450 Rally, trails 800X, 510X et roadster NK 125R."
+          - listitem [ref=e43]: Jusqu'à quatre formules au choix, selon les modèles, de la Responsabilité civile à la formule Tous risques.
+          - listitem [ref=e44]: La garantie Dommages collision permet une couverture renforcée en maîtrisant votre budget.
+          - listitem [ref=e45]: "Le tarif est personnalisé : modèle, cylindrée, date de première mise en circulation, lieu de stationnement, niveau de couverture et sinistralité déclarée."
+          - listitem [ref=e46]: Roulage libre sur circuit autorisé, compétition jamais couverte.
+        - heading "Kove, la marque chinoise venue du rallye-raid" [level=2] [ref=e47]
+        - paragraph [ref=e48]: "Kove est une marque chinoise adossée au groupe industriel Summit Motor Co., qui produit aujourd'hui environ 35 000 machines par an. Elle s'est fait connaître par la compétition : sa 450 Rally, dans sa version course, a été engagée au Dakar avec une équipe de plusieurs pilotes internationaux, une trajectoire rare pour un constructeur aussi jeune. La gamme s'est ensuite élargie vers la route et l'aventure, avec les trails bicylindres 800X, la 510X et le roadster NK 125R, distribués en France depuis 2025."
+        - paragraph [ref=e49]: "Des machines conçues pour l'usage intensif et le franchissement, qui s'assurent avec la même exigence : la couverture d'une Kove se choisit selon sa valeur, sa fréquence d'utilisation et votre budget, pas par défaut."
+        - heading "Quels modèles Kove peut-on assurer ?" [level=2] [ref=e50]
+        - paragraph [ref=e51]: "AMV assure la gamme moto Kove, du roadster NK 125R aux maxi-trails 800X. Le choix de la formule dépend ensuite surtout de la valeur de votre moto, de sa fréquence d'utilisation et de votre budget :"
+        - list [ref=e52]:
+          - listitem [ref=e53]: "La NK 125R, souvent utilisée en ville, stationne fréquemment sur la voie publique : la formule Vol / Incendie serait alors à envisager, et le gravage du deux-roues, associé à un antivol agréé SRA, divise la franchise vol par 2."
+          - listitem [ref=e54]: "Une 800X préparée pour l'aventure reçoit sabot moteur, protections et bagagerie : l'Option Plus couvre les accessoires hors-série et le top case dans la limite de 5 000 €, et l'Assistance 0 km couvre les pannes loin de chez soi."
+          - listitem [ref=e55]: Une 450 Rally qui alterne bitume et chemins reste couverte sur les voies ouvertes à la circulation publique. Le roulage libre sur circuit est autorisé, la compétition n'est jamais couverte, et une machine non homologuée ne peut recevoir qu'une formule Responsabilité civile dédiée.
+        - heading "Quel permis pour conduire une Kove ?" [level=2] [ref=e56]
+        - paragraph [ref=e57]: La gamme couvre les trois grands niveaux de permis moto. La NK 125R se conduit avec le permis A1, mais également avec le permis B détenu depuis au moins 2 ans, après une formation de 7 heures. La 450 Rally Standard et la 510X sont homologuées A2, sans passer par une version bridée artificiellement. Les trails 800X et leur bicylindre de 799 cm³ demandent le permis A dans leur version de puissance libre.
+        - paragraph [ref=e58]: "Toute la gamme est tarifée par AMV : la NK 125R, la 450 Rally Standard, la 510 X, les trails 800 X Pro, 800 X GT et 800 X Rally, ainsi que la 350 RR et la 625 X GT. Quel que soit votre permis, la formule reste la même : AMV n'a pas de formule dédiée aux jeunes conducteurs, ce sont les mêmes garanties pour tous les assurés, et c'est la tarification qui est personnalisée."
+        - heading "Les formules d'assurance moto Kove" [level=2] [ref=e59]
+        - paragraph [ref=e60]: "AMV propose les formules de garanties et options adaptées à votre Kove et à l'usage que vous en faites. Un seul contrat et jusqu'à quatre formules : à vous de choisir selon la valeur de votre moto, sa fréquence d'utilisation et votre budget."
+        - paragraph [ref=e61]: La formule Responsabilité civile, couverture minimale obligatoire, couvre les dommages causés aux tiers lors d'un sinistre responsable. C'est le minimum obligatoire pour rouler sur la route tout en maîtrisant son budget.
+        - paragraph [ref=e62]: "La formule Vol / Incendie protège en plus votre moto contre le vol et l'incendie, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois. Elle serait à envisager si votre Kove stationne majoritairement sur la voie publique. À noter également : chez AMV, le gravage du deux-roues, associé à un antivol agréé SRA, permet de diviser la franchise vol par 2."
+        - paragraph [ref=e63]: La formule Dommages collision, la garantie distinctive d'AMV, couvre les dommages causés à votre moto lors d'une collision avec un tiers identifié, déduction faite, en cas de sinistre responsable, de la franchise prévue au contrat. Elle permet une meilleure couverture tout en maîtrisant votre budget.
+        - paragraph [ref=e64]: La formule Tous risques couvre les dommages subis par votre deux-roues quelles que soient les circonstances. Elle serait recommandée pour une Kove neuve, récente ou financée à crédit.
+        - paragraph [ref=e65]: "Et dès la première formule, votre équipement de pilote est protégé : casque, gants et gilet airbag sont garantis s'ils sont détériorés lors d'un événement couvert."
+        - table [ref=e66]:
+          - rowgroup [ref=e67]:
+            - row "Garantie Couverture" [ref=e68]:
+              - columnheader "Garantie" [ref=e69]
+              - columnheader "Couverture" [ref=e70]
+          - rowgroup [ref=e71]:
+            - row "Responsabilité civile Dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros (sinistre responsable)" [ref=e72]:
+              - cell "Responsabilité civile" [ref=e73]
+              - cell "Dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros (sinistre responsable)" [ref=e74]
+            - row "Défense pénale et recours suite à accident + Protection juridique Jusqu'à 20 000 € au total" [ref=e75]:
+              - cell "Défense pénale et recours suite à accident + Protection juridique" [ref=e76]
+              - cell "Jusqu'à 20 000 € au total" [ref=e77]
+            - row "Casque, gants, gilet airbag (vétusté déduite) Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 €" [ref=e78]:
+              - cell "Casque, gants, gilet airbag (vétusté déduite)" [ref=e79]
+              - cell "Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 €" [ref=e80]
+            - row "Vol / Incendie Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e81]:
+              - cell "Vol / Incendie" [ref=e82]
+              - cell "Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e83]
+            - row "Individuelle Pilote (option) Capital (jusqu'à 800 000 €) en cas de déficit fonctionnel ou de décès consécutif à un accident." [ref=e84]:
+              - cell "Individuelle Pilote (option)" [ref=e85]
+              - cell "Capital (jusqu'à 800 000 €) en cas de déficit fonctionnel ou de décès consécutif à un accident." [ref=e86]
+            - row "Option Plus (option) Équipement moto couvert en vol comme en dommages, accessoires hors-série et top case, dans la limite de 5 000 €" [ref=e87]:
+              - cell "Option Plus (option)" [ref=e88]
+              - cell "Équipement moto couvert en vol comme en dommages, accessoires hors-série et top case, dans la limite de 5 000 €" [ref=e89]
+        - paragraph [ref=e90]: La Défense pénale et recours suite à accident, associée à la Protection juridique, vous accompagne en cas de litige lié, notamment à un accident, jusqu'à 20 000 € au total.
+        - heading "Les options pour une protection sur-mesure" [level=2] [ref=e91]
+        - paragraph [ref=e92]: Votre contrat se complète d'options dédiées au pilote et aux équipements, pour ajuster la protection à votre Kove et à votre pratique.
+        - paragraph [ref=e93]: L'option Individuelle pilote permet le versement d'un capital à l'assuré en cas de déficit fonctionnel permanent ou à ses ayants droit en cas de décès, consécutifs à un accident, même responsable. C'est une garantie dédiée au pilote.
+        - paragraph [ref=e94]: Sur des machines qui quittent régulièrement le bitume, cette protection du pilote lui-même mérite d'être étudiée.
+        - paragraph [ref=e95]: "Avec l'Option Plus, votre deux-roues acheté neuf, volé ou détruit suite à un sinistre est remboursé à sa valeur d'achat pendant un an et demi à compter de la date d'achat. L'ensemble de votre équipement moto est couvert en vol comme en dommages, mais également les accessoires hors-série, comme le top case par exemple, dans la limite de 5 000 € : un vrai plus pour un trail équipé de sacoches, d'un sabot moteur ou de protections."
+        - paragraph [ref=e96]: "AMV propose aussi une Assistance 0 km en option, pour un dépannage sur mesure : votre moto est dépannée ou remorquée jusqu'à la concession la plus proche, vous et votre passager êtes rapatriés. La crevaison est incluse. Une option utile quand la panne arrive loin de chez soi, au retour d'un raid ou d'un week-end en montagne : l'assistance intervient sur les routes carrossables, pas en plein désert."
+        - heading "Quel est le prix d'une assurance moto Kove ?" [level=2] [ref=e97]
+        - paragraph [ref=e98]: "Assurer sa moto n'est pas une option : le code des assurances impose au minimum la Responsabilité civile pour tout véhicule terrestre à moteur. Reste à savoir ce que représente ce coût pour une Kove."
+        - paragraph [ref=e99]: "Le montant d'une assurance moto Kove est personnalisé. Il est établi à partir, entre autres, du modèle à assurer, de sa cylindrée, de sa date de première mise en circulation, du lieu de stationnement, du niveau de couverture choisi et de la sinistralité déclarée. À profil identique, une NK 125R ne s'assurerait donc pas au même tarif qu'une 800X, dont la cylindrée et la valeur sont supérieures. La formule retenue pèse tout autant : une Responsabilité civile revient logiquement moins chère qu'une Tous risques, pour une protection bien moindre en cas de sinistre."
+        - paragraph [ref=e100]: Le devis en ligne AMV, gratuit et sans engagement, vous donne en quelques minutes le tarif de chaque formule pour votre modèle, avant de choisir la couverture qui correspond à votre budget.
+        - heading "Pourquoi assurer votre Kove chez AMV ?" [level=2] [ref=e101]
+        - paragraph [ref=e102]: AMV, spécialiste de l'assurance deux-roues fondée en 1974 par un passionné de moto, pour les motards, compte plus d'1 million d'assurés et affiche une note de satisfaction de 4,7 sur 5 via Avis Vérifiés. Nos plus de 350 conseillers, basés à Bordeaux, suivent les marques qui arrivent sur le marché français, et un conseiller dédié vous suit en cas de sinistre.
+        - paragraph [ref=e103]:
+          - text: "Marque récente sur le marché français, Kove n'est pas toujours référencée chez les assureurs généralistes : chez AMV, chaque modèle de la gamme l'est, du roadster 125 au trail 800X Pro, pour un devis précis en quelques clics. Souscrire prend peu de temps : un devis en ligne gratuit, peu de justificatifs là où d'autres assureurs réclament davantage de pièces, et une couverture qui peut prendre effet immédiatement, sous réserve de certaines conditions. Si vous le souhaitez, vous pouvez ensuite gérer votre contrat en toute autonomie depuis Mon Espace AMV. Découvrez également notre"
+          - link "assurance moto" [ref=e104] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance/moto/
+          - text: pour
+          - link "l'ensemble des constructeurs" [ref=e105] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/
+          - text: .
+      - generic [ref=e107]:
+        - generic [ref=e108] [cursor=pointer]:
+          - generic [ref=e109]:
+            - generic [ref=e110]: quel est le prix d'une assurance pour une kove 450 rally ou une 800x ?
+            - img [ref=e111]
+          - paragraph [ref=e113]: "Il n'existe pas de tarif unique : chaque cotisation est calculée selon, notamment, le modèle, sa cylindrée, sa date de première mise en circulation, le lieu de stationnement, le niveau de couverture et la sinistralité déclarée. À profil identique, une 450 Rally et une 800X ne se situent pas sur les mêmes niveaux de tarif, ne serait-ce que par leur cylindrée et leur valeur. Le devis en ligne vous donne un tarif personnalisé pour votre Kove en quelques minutes."
+        - generic [ref=e114] [cursor=pointer]:
+          - generic [ref=e115]:
+            - generic [ref=e116]: quelle assurance choisir pour une kove ?
+            - img [ref=e117]
+          - paragraph [ref=e119]: Le choix dépend surtout de la valeur de votre moto. Pour une Kove de faible valeur, la formule Responsabilité civile peut suffire. Pour un modèle neuf, récent ou financé à crédit, la formule Tous risques offrirait la protection la plus complète. Entre les deux, la formule Vol / Incendie serait pertinente si votre moto stationne majoritairement dehors, et la formule Dommages collision renforce votre couverture en cas d'accident avec un tiers identifié, tout en maîtrisant votre budget.
+        - generic [ref=e120] [cursor=pointer]:
+          - generic [ref=e121]:
+            - generic [ref=e122]: une kove 450 rally est-elle accessible au permis a2 ?
+            - img [ref=e123]
+          - paragraph [ref=e125]:
+            - text: Oui, la 450 Rally Standard est homologuée route et accessible au
+            - link "permis A2" [ref=e126]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-permis-a2/
+            - text: ", tout comme la 510X. Le tarif reste personnalisé, sans formule spécifique aux jeunes conducteurs : les mêmes garanties s'appliquent à tous les assurés."
+        - generic [ref=e127] [cursor=pointer]:
+          - generic [ref=e128]:
+            - generic [ref=e129]: une kove utilisee en tout-terrain est-elle couverte ?
+            - img [ref=e130]
+          - paragraph [ref=e132]: Une Kove homologuée route reste couverte sur les chemins ouverts à la circulation publique, et le roulage libre sur circuit est également assuré. En revanche, la compétition, entraînements chronométrés et courses, n'est couverte par aucune garantie. Et si votre machine n'est pas homologuée pour la route, seule une formule Responsabilité civile dédiée est proposée.
+        - generic [ref=e133] [cursor=pointer]:
+          - generic [ref=e134]:
+            - generic [ref=e135]: faut-il fournir beaucoup de documents pour assurer une kove ?
+            - img [ref=e136]
+          - paragraph [ref=e138]: "Non. La souscription chez AMV demande peu de justificatifs, là où d'autres assureurs en réclament davantage. Le permis, la carte grise ou le relevé d'information ne sont pas des pièces à fournir en tant que telles : ce sont les renseignements qu'ils contiennent qui sont nécessaires pour établir votre tarif. Vous recevez ensuite votre attestation d'assurance par e-mail."
+      - link "Précédent" [ref=e141] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - img [ref=e143]
+        - text: Précédent
+    - generic [ref=e144]:
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - link "Retourner à l'accueil" [ref=e149] [cursor=pointer]:
+            - /url: /
+            - img [ref=e150]
+          - paragraph [ref=e153]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e155] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e157] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e159] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e160] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5242 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e161]:
+          - generic [ref=e163]:
+            - generic [ref=e165]: A propos d’AMV
+            - generic [ref=e166]:
+              - link "Qui sommes-nous ?" [ref=e168] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e170] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e172] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e174] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e176] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e178] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e180]:
+            - generic [ref=e182]: Liens utiles
+            - generic [ref=e183]:
+              - link "Besoin d’aide ?" [ref=e185] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e187] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e189] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e191] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e193] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e195] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e197]:
+            - generic [ref=e199]: Assurances
+            - generic [ref=e200]:
+              - link "Assurance Moto" [ref=e202] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e204] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e206] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e208] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e210] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e212] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e214] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e216] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e218] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e220]:
+            - generic [ref=e222]: Devis assurance
+            - generic [ref=e223]:
+              - link "Devis assurance moto" [ref=e225] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e227] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e229] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e231] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e233] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e235] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e237] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e239] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e241] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e243] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e245]:
+          - 'link "Aller sur le site : Facebook" [ref=e246] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e247]
+          - 'link "Aller sur le site : Instagram" [ref=e250] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e251]
+          - 'link "Aller sur le site : LinkedIn" [ref=e253] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e254]
+          - 'link "Aller sur le site : Youtube" [ref=e256] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e257]
+      - generic [ref=e260]:
+        - generic [ref=e261]:
+          - link "Mentions légales" [ref=e262] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e263] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e264] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e265] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e266] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e267]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Voir les modifications" [ref=e268] [cursor=pointer]: Voir les modifications

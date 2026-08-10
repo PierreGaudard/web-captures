@@ -74,17 +74,20 @@
         { p: "Plus de 350 conseillers basés à Bordeaux vous apportent des conseils personnalisés par téléphone, par e-mail ou via votre Espace Client. En cas de sinistre, un interlocuteur dédié suit votre dossier d'indemnisation. Vous gérez votre contrat moto en toute autonomie depuis votre espace client Mon Espace AMV, simple et sécurisé : modification des garanties, paiement de votre prime d'assurance, et declaration de sinistre et suivi de votre dossier en quelques clics." }
       ] },
 
-    // 6d. "Comment obtenir votre devis" -> juste avant la FAQ
-    { mode: 'faqCards', faqMatch: 'Des questions sur votre assurance',
-      content: [
-        { h2: "Comment obtenir votre devis d'assurance moto ?" },
-        { p: "Obtenir votre devis d'assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, dates de mise en circulation et d'achat) et votre profil (expérience, bonus-malus, lieu de stationnement habituel) via le formulaire pour obtenir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevrez votre attestation d'assurance moto par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
-          links: [{ t: "devis assurance moto en ligne", href: "https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx" }] }
-      ] },
+    // 6d. "Comment obtenir votre devis" : recette Coraline du 07/08/2026.
+    // Ce bloc etait rendu en cadre d'accordeon (mode faqCards, recette du 30/07) et se
+    // retrouvait donc DANS la FAQ, juste a cote de la question AMV existante
+    // « Comment obtenir un devis d'assurance moto ? » que nous n'avions pas reecrite
+    // -> doublon visible. Il devient la REPONSE de cette question existante (voir bloc 7),
+    // renommee « Comment obtenir votre devis... ». Une seule entree, en H3 comme les autres.
 
     // 7. FAQ : on ne touche QUE les questions remplacées (les autres restent intactes)
     { mode: 'faqEdit', faqMatch: 'Des questions sur votre assurance',
       replace: [
+        { existing: '^Comment obtenir un devis', newQ: "Comment obtenir votre devis d'assurance moto ?", content: [
+          { p: "Obtenir votre devis d'assurance moto en ligne se fait en quelques étapes simples. Renseignez les informations sur votre véhicule (modèle, puissance, dates de mise en circulation et d'achat) et votre profil (expérience, bonus-malus, lieu de stationnement habituel) via le formulaire pour obtenir votre tarif en quelques minutes. Si le prix vous convient, vous pouvez souscrire en quelques clics et recevrez votre attestation d'assurance moto par mail. Que vous cherchiez l'assurance moto la moins chère ou la couverture la plus complète, nos conseillers vous accompagnent aussi par téléphone à chaque étape.",
+            links: [{ t: "devis assurance moto en ligne", href: "https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx" }] }
+        ] },
         { existing: '^Quelle assurance moto choisir', content: [
           { p: "Le choix de votre assurance moto dépend, entre autres, de la valeur de votre véhicule, de la fréquence d'utilisation et de votre budget. Une formule Responsabilité civile pourrait suffire pour une moto d'occasion ou récente de faible valeur. Pour une moto neuve ou financée à crédit, la formule Tous risques avec dommages tous accidents offre la meilleure protection. Si vous stationnez en extérieur en zone urbaine, la formule Vol / Incendie mérite d'être envisagée. Comparez les garanties, les franchises et les plafonds avant de vous décider." }
         ] },

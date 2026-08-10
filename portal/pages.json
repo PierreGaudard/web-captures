@@ -116,6 +116,11 @@
       "title": "AMV - Assurance Moto Guzzi (création)",
       "description": "Proposition de NOUVELLE page marque Moto Guzzi (V7 Stone, Special et Sport, V85 Strada, V85 TT et TT Travel, V100 Mandello et Mandello S, Stelvio) : gamme assurable, gamme intégralement accessible en permis A2 avec les versions bridées à 47,5 ch, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
       "url": "https://amv-moto-guzzi.pages.dev/assurance-moto/assurance-moto-guzzi/"
+    },
+    {
+      "title": "AMV - Article pilote blog : quel budget pour débuter la moto",
+      "description": "Gabarit de blog réel, contenu retravaillé. Bouton en bas à droite pour basculer entre la version proposée et l'article d'origine",
+      "url": "https://amv-blog-budget-moto.pages.dev/assurance-moto/budget-pour-debuter-la-moto/"
     }
   ]
 }

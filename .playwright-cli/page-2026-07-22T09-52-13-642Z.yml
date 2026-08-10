@@ -1,0 +1,403 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto DUCATI
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance Ducati" [level=1] [ref=e38]
+        - img "assurance-ducati" [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e41]: Nouveau contenu optimise
+        - paragraph [ref=e42]: "En résumé : AMV, spécialiste de l'assurance deux-roues, assure toute la gamme Ducati, du Scrambler à la Panigale en passant par le Monster et la Multistrada. Un seul contrat, quatre formules et des options au choix : le devis en ligne, gratuit, vous donne en quelques clics le tarif de chaque formule pour votre modèle. Les motos Ducati affichant souvent une valeur élevée, le choix de la couverture mérite une attention particulière."
+        - list [ref=e43]:
+          - listitem [ref=e44]: "Toute la gamme Ducati est assurable : Monster, Multistrada, Diavel, Scrambler, Streetfighter et Panigale."
+          - listitem [ref=e45]: Quatre formules au choix, de la Responsabilité civile à la formule Tous risques, souvent pertinente vu la valeur des modèles.
+          - listitem [ref=e46]: Le casque, les gants et le gilet airbag sont couverts dès la première formule.
+          - listitem [ref=e47]: "Le tarif est personnalisé : modèle, date de mise en circulation, lieu de stationnement, niveau de couverture et sinistralité déclarée."
+          - listitem [ref=e48]: Devis gratuit en ligne, souscription rapide avec peu de justificatifs.
+        - heading "Ducati, l'excellence motocycliste italienne" [level=2] [ref=e49]
+        - paragraph [ref=e50]: Fondée en 1926 à Bologne par les frères Ducati, l'entreprise s'est d'abord consacrée aux composants radio avant de trouver sa voie dans la moto, depuis son site historique de Borgo Panigale. Ducati Motor Holding, propriété du groupe allemand Audi depuis 2012, s'est bâti une renommée mondiale grâce à ses moteurs bicylindres en V, sa distribution desmodromique et ses succès en compétition. Du roadster Monster à l'hypersportive Panigale, chaque moto Ducati conjugue design italien et technologies de pointe.
+        - paragraph [ref=e51]: "Ce positionnement premium a une conséquence directe pour l'assureur comme pour l'assuré : une Ducati est une moto de valeur, qui justifierait en général une couverture étendue."
+        - heading "Quelle assurance selon votre modèle Ducati ?" [level=2] [ref=e52]
+        - paragraph [ref=e53]: "Le choix de la formule dépend surtout de la valeur de votre moto et de sa fréquence d'utilisation :"
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - text: Les roadsters, du
+            - link "Monster SP" [ref=e56] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ducati/assurance-monster-sp/
+            - text: au
+            - link "Streetfighter V4" [ref=e57] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ducati/assurance-streetfighter-v4-lamborghini/
+            - text: ", souvent utilisés au quotidien."
+          - listitem [ref=e58]:
+            - text: Les trails, comme la
+            - link "Multistrada V4 Rally" [ref=e59] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ducati/assurance-multistrada-v4-rally/
+            - text: ", équipés pour les longs voyages."
+          - listitem [ref=e60]:
+            - text: Les cruisers sportifs, comme le
+            - link "Diavel V4" [ref=e61] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ducati/assurance-diavel-v4/
+            - text: .
+          - listitem [ref=e62]:
+            - text: Les
+            - link "Scrambler" [ref=e63] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ducati/assurance-scrambler-icon-full-throttle-et-nightshift/
+            - text: ", plus accessibles, dont certaines versions bridées conviennent au permis A2."
+          - listitem [ref=e64]:
+            - text: Les sportives, comme la
+            - link "Panigale V4 R" [ref=e65] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ducati/assurance-panigale-v4-r/
+            - text: ", dont la valeur justifierait en général la formule la plus complète."
+        - paragraph [ref=e66]: "Deux points à connaître sur les modèles les plus puissants de la gamme : l'assurance des hypersportives est accessible si vous avez plus de 30 ans ou des antécédents d'assurance, et un jeune permis ne pourrait pas être assuré sur une sportive. Si vous roulez sur piste, le roulage libre sur circuit est assuré ; la compétition, elle, n'est couverte par aucune garantie."
+        - heading "Les formules d'assurance moto Ducati" [level=2] [ref=e67]
+        - paragraph [ref=e68]: "AMV propose les formules de garanties et options adaptées à votre Ducati et à l'usage que vous en faites. Un seul contrat d'assurance moto, quatre formules : à vous de choisir selon la valeur de votre moto, sa fréquence d'utilisation et votre budget."
+        - paragraph [ref=e69]: La formule Responsabilité civile, couverture minimale obligatoire, couvre les dommages causés aux tiers lors d'un sinistre responsable. Elle pourrait convenir à une Ducati de faible valeur.
+        - paragraph [ref=e70]: "La formule Vol / Incendie ajoute la protection de votre moto contre le vol et l'incendie, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois. Elle serait à envisager si votre Ducati stationne majoritairement sur la voie publique, où le risque est plus élevé. Bon à savoir : le gravage de votre deux-roues divise la franchise vol par 2 chez AMV, un vrai atout pour une moto de valeur."
+        - paragraph [ref=e71]: La formule Dommages collision, la garantie distinctive d'AMV, couvre les dommages causés à votre moto lors d'une collision avec un tiers identifié, déduction faite, en cas de sinistre responsable, de la franchise prévue au contrat. Elle permet une meilleure couverture tout en maîtrisant votre budget.
+        - paragraph [ref=e72]: La formule Tous risques couvre les dommages subis par votre deux-roues quelles que soient les circonstances. C'est la formule que choisissent la plupart des propriétaires de Ducati neuves, récentes ou financées à crédit, la remise en état d'une moto premium représentant des coûts élevés.
+        - paragraph [ref=e73]: "Quelle que soit la formule, votre équipement de pilote est couvert dès la première : casque, gants et gilet airbag sont garantis s'ils sont détériorés lors d'un événement couvert."
+        - table [ref=e74]:
+          - rowgroup [ref=e75]:
+            - row "Garantie Couverture" [ref=e76]:
+              - columnheader "Garantie" [ref=e77]
+              - columnheader "Couverture" [ref=e78]
+          - rowgroup [ref=e79]:
+            - row "Responsabilité civile Dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros (sinistre responsable)" [ref=e80]:
+              - cell "Responsabilité civile" [ref=e81]
+              - cell "Dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros (sinistre responsable)" [ref=e82]
+            - row "Défense pénale et recours suite à accident + Protection juridique Jusqu'à 20 000 € au total" [ref=e83]:
+              - cell "Défense pénale et recours suite à accident + Protection juridique" [ref=e84]
+              - cell "Jusqu'à 20 000 € au total" [ref=e85]
+            - row "Casque, gants, gilet airbag (vétusté déduite) Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 €" [ref=e86]:
+              - cell "Casque, gants, gilet airbag (vétusté déduite)" [ref=e87]
+              - cell "Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 €" [ref=e88]
+            - row "Vol / Incendie Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e89]:
+              - cell "Vol / Incendie" [ref=e90]
+              - cell "Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e91]
+            - row "Individuelle Pilote (option) Capital jusqu'à 800 000 € en cas d'invalidité permanente ; capital versé aux ayants droit en cas de décès" [ref=e92]:
+              - cell "Individuelle Pilote (option)" [ref=e93]
+              - cell "Capital jusqu'à 800 000 € en cas d'invalidité permanente ; capital versé aux ayants droit en cas de décès" [ref=e94]
+            - row "Option Plus Équipement moto couvert en vol comme en dommages, accessoires hors-série et top case, dans la limite de 5 000 €" [ref=e95]:
+              - cell "Option Plus" [ref=e96]
+              - cell "Équipement moto couvert en vol comme en dommages, accessoires hors-série et top case, dans la limite de 5 000 €" [ref=e97]
+        - paragraph [ref=e98]: La Défense pénale et recours suite à accident, associée à la Protection juridique, vous accompagne en cas de litige lié à un accident, jusqu'à 20 000 € au total.
+        - heading "Les options pour une protection à la hauteur de votre Ducati" [level=2] [ref=e99]
+        - paragraph [ref=e100]: Votre contrat se complète d'options dédiées au pilote et aux équipements.
+        - paragraph [ref=e101]: "L'Option Individuelle Pilote verse un capital, jusqu'à 800 000 euros, en cas d'invalidité permanente, ou à vos ayants droit en cas de décès, même lors d'un accident responsable. Sur des motos aux performances élevées, cette protection du pilote lui-même mérite une vraie réflexion : la Responsabilité civile ne couvre que les dommages causés aux autres."
+        - paragraph [ref=e102]: "Avec l'Option Plus, votre deux-roues acheté neuf, volé ou détruit suite à un sinistre est remboursé à sa valeur d'achat pendant un an et demi à compter de la date d'achat. L'ensemble de votre équipement moto est couvert en vol comme en dommages, mais également les accessoires hors-série et top case, dans la limite de 5 000 € : pertinent pour une Panigale équipée d'un échappement ou de protections de carénage, comme pour une Multistrada avec ses valises."
+        - paragraph [ref=e103]: "AMV propose aussi une assistance en option, pour un dépannage sur mesure : votre moto est dépannée ou remorquée jusqu'à la concession la plus proche, le pilote et son passager sont rapatriés. La crevaison est incluse."
+        - heading "Quel est le prix d'une assurance moto Ducati ?" [level=2] [ref=e104]
+        - paragraph [ref=e105]: Le tarif d'une assurance Ducati est personnalisé. Il est établi à partir du modèle assuré, de sa date de première mise en circulation, du lieu de stationnement, du niveau de couverture choisi et de la sinistralité déclarée. À profil identique, un Scrambler ne s'assurerait donc pas au même prix qu'une Panigale V4 R, dont la valeur est plusieurs fois supérieure.
+        - paragraph [ref=e106]: Pour connaître le coût exact pour votre moto, le devis en ligne AMV, gratuit et sans engagement, vous donne en quelques minutes le tarif de chaque formule. Vous pouvez ainsi ajuster la couverture à votre budget avant de souscrire.
+        - heading "Pourquoi assurer votre Ducati chez AMV ?" [level=2] [ref=e107]
+        - paragraph [ref=e108]: AMV, spécialiste de l'assurance deux-roues fondée en 1974 par un passionné de moto, pour les motards, compte plus d'1 million d'assurés et affiche une note de satisfaction de 4,7 sur 5 via Avis Vérifiés. Nos plus de 350 conseillers, basés à Bordeaux, connaissent les spécificités de la gamme Ducati et vous accompagnent en toute confiance, du devis à la gestion des sinistres.
+        - paragraph [ref=e109]:
+          - text: "La souscription se veut simple et rapide : un devis gratuit en quelques clics, peu de justificatifs là où d'autres assureurs réclament davantage de pièces, et une couverture qui peut prendre effet immédiatement, sous réserve de certaines conditions. Vous gérez ensuite votre contrat en toute autonomie depuis Mon Espace AMV. Découvrez également notre"
+          - link "assurance moto" [ref=e110] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance/moto/
+          - text: pour l'ensemble des
+          - link "constructeurs" [ref=e111] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/
+          - text: .
+      - generic [ref=e113]:
+        - paragraph [ref=e115]: Ducati Motor Holding S.p.A., le célèbre constructeur italien de motos basé à Bologne en Émilie-Romagne, incarne l'essence même de l'ingénierie et de la passion motocycliste. L'histoire fascinante de cette entreprise remonte à 1926, lorsque la famille Ducati, originaire de la Sardaigne, créa la « Società Scientifica Radio Brevetti Ducati » avec pour objectif initial la production de condensateurs électriques et de composants pour la transmission radio.
+        - generic [ref=e116]:
+          - 'heading "Ducati : l''épopée italienne de l''ingénierie moto, de la renaissance après la guerre à la conquête mondiale avec Audi." [level=4] [ref=e117]':
+            - strong [ref=e118]: "Ducati : l'épopée italienne de l'ingénierie moto, de la renaissance après la guerre à la conquête mondiale avec Audi."
+          - paragraph [ref=e119]
+          - paragraph [ref=e120]: L'entreprise a traversé des épreuves pendant la Seconde Guerre mondiale, avec l'occupation allemande de son usine à Borgo Panigale en 1943, suivie de sa destruction lors des bombardements alliés en 1944. Cependant, les frères Ducati ont montré une résilience remarquable en relançant leur activité après la guerre. En 1946, ils ont produit le Cucciolo, un moteur auxiliaire destiné à s'adapter sur le cadre des bicyclettes. Malheureusement, cette tentative n'a pas connu le succès escompté, entraînant des difficultés financières qui ont conduit à la faillite en 1949. Les frères Ducati se sont retirés, laissant l'entreprise sous le contrôle de l'État italien jusqu'en 1983.
+          - paragraph [ref=e121]
+          - paragraph [ref=e122]: La renaissance de Ducati a eu lieu en 1983, lorsque les frères Castiglioni, propriétaires de Cagiva, ont racheté la société. Cependant, en 1996, Ducati a été confronté à de nouveaux défis financiers et a été acquis par le fonds d'investissement américain Texas Pacific Group. Ce n'est qu'en 2006 que la marque est redevenue entièrement italienne, grâce à l'acquisition par le fonds d'investissement italien InvestIndustrial.
+          - paragraph [ref=e123]
+          - paragraph [ref=e124]: Le tournant majeur s'est produit en 2012, lorsque le constructeur automobile allemand Audi, filiale du Groupe Volkswagen, a acquis Ducati pour la somme impressionnante de 860 millions d'euros. Cette acquisition a consolidé la position de Ducati sur le marché mondial de la moto, ouvrant de nouvelles perspectives et renforçant sa réputation d'excellence.
+          - paragraph [ref=e125]
+          - paragraph [ref=e126]: Ducati est célèbre pour ses moteurs bicylindres en « V » à 90° et sa distribution desmodromique, des caractéristiques techniques qui distinguent ses motos sur le plan de la performance. La renommée de Ducati s'est consolidée au fil de ses nombreuses victoires en compétition moto, que ce soit dans les Grand-Prix ou en Endurance.
+          - paragraph [ref=e127]
+          - paragraph [ref=e128]: Au fil des décennies, Ducati a élargi sa gamme de produits, passant des machines utilitaires des années 1940 aux motos sportives emblématiques des années 1960 et 1970. Les modèles tels que la 750 GT, la Desmosedici RR, la Multistrada et la Panigale ont marqué des époques et défini de nouvelles normes en matière de design et de performances.
+          - paragraph [ref=e129]
+          - paragraph [ref=e130]: La production de Ducati ne se limite pas seulement aux motos sportives, mais englobe également des segments tels que les gros trails routiers, les motos néo-rétro et les machines de tourisme. L'innovation continue avec des modèles tels que la 1199 Panigale, qui a introduit des changements notables, abandonnant certaines traditions au profit de l'efficacité et de la performance.
+          - paragraph [ref=e131]
+          - paragraph [ref=e132]: Aujourd'hui, Ducati continue de susciter l'admiration des amateurs de motos du monde entier, avec son mariage réussi de puissance, de style et de technologie. Avec une histoire riche et une vision constante d'aller au-delà des limites, Ducati reste une icône dans le monde des motos, une fusion parfaite entre l'art italien et l'ingénierie de pointe.
+        - generic [ref=e133]:
+          - heading "Conclusion" [level=4] [ref=e134]:
+            - strong [ref=e135]: Conclusion
+          - paragraph [ref=e136]
+          - paragraph [ref=e137]: Ainsi, l'histoire captivante de Ducati s'étend sur plusieurs décennies, ponctuée de défis surmontés, de renaissances audacieuses et de triomphes sur les circuits du monde entier. De ses modestes débuts dans la production de composants radio à son acquisition par Audi, Ducati a transcendé les frontières pour devenir une légende de l'ingénierie motocycliste italienne. Avec son héritage riche, sa passion indomptable et son engagement envers l'innovation, Ducati continue de réinventer l'avenir de la moto.
+      - generic [ref=e138]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e139]
+        - paragraph [ref=e140]
+        - paragraph [ref=e141]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e142] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e143]
+        - paragraph [ref=e144]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e145]
+        - paragraph [ref=e146]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e147] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e148]
+        - paragraph [ref=e149]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e150]
+        - paragraph [ref=e151]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e152]
+        - paragraph [ref=e153]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e154] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e155]:
+          - link "Testez notre tarif d'assurance pour votre DUCATI" [ref=e157] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx?extmar=ducati
+          - link "Retrouver mon devis d'assurance DUCATI" [ref=e159] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e160]:
+        - generic [ref=e161]: Nouveau contenu optimise
+        - heading "Questions fréquentes sur l'assurance moto Ducati" [level=2] [ref=e162]
+        - heading "Quel est le prix d'une assurance moto Ducati ?" [level=3] [ref=e163]
+        - paragraph [ref=e164]: "Il n'existe pas de tarif unique : chaque cotisation est calculée selon le modèle, sa date de première mise en circulation, le lieu de stationnement, le niveau de couverture et la sinistralité déclarée. La gamme Ducati étant large, le tarif d'un Scrambler se situe en général bien en dessous de celui d'une Panigale ou d'une Streetfighter V4. Le devis en ligne, gratuit, vous donne un tarif personnalisé pour votre Ducati en quelques minutes."
+        - heading "Quelle formule d'assurance choisir pour une Ducati ?" [level=3] [ref=e165]
+        - paragraph [ref=e166]: Le choix dépend surtout de la valeur de votre moto. La plupart des Ducati récentes justifieraient une formule Tous risques, la remise en état d'une moto premium représentant des coûts élevés. La formule Vol / Incendie serait pertinente si votre moto stationne dehors, et la formule Dommages collision renforce la couverture en cas d'accident avec un tiers identifié, tout en maîtrisant votre budget. Votre conseiller AMV peut vous orienter selon votre modèle.
+        - heading "Peut-on assurer une Ducati avec un permis A2 ?" [level=3] [ref=e167]
+        - paragraph [ref=e168]:
+          - text: "Oui, sur les modèles compatibles : certaines versions bridées à 35 kW, comme sur le Scrambler ou le Monster, conviennent au"
+          - link "permis A2" [ref=e169] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-permis-a2/
+          - text: . En revanche, un jeune permis ne pourrait pas être assuré sur une sportive comme la Panigale, et l'assurance des hypersportives est accessible si vous avez plus de 30 ans ou des antécédents d'assurance. Le devis en ligne s'adapte au modèle exact que vous renseignez.
+        - heading "Comment protéger sa Ducati contre le vol ?" [level=3] [ref=e170]
+        - paragraph [ref=e171]: "La garantie Vol / Incendie, disponible dès la deuxième formule, indemnise votre moto à la valeur de remplacement à dire d'expert, ou à la valeur à neuf durant les 6 premiers mois. Le montant d'indemnisation est identique quelle que soit la formule : ce sont la valeur du véhicule et la franchise qui le déterminent. Chez AMV, le gravage de votre deux-roues divise la franchise vol par 2. Un stationnement en lieu clos reste par ailleurs un bon réflexe de prévention, particulièrement en ville."
+      - generic [ref=e172]:
+        - heading "Questions fréquentes" [level=2] [ref=e173]
+        - generic [ref=e174]:
+          - generic [ref=e175] [cursor=pointer]:
+            - generic [ref=e176]:
+              - generic [ref=e177]: Quels étaient les défis majeurs auxquels Ducati a été confronté pendant la Seconde Guerre mondiale, et comment l'entreprise a-t-elle surmonté ces épreuves ?
+              - img [ref=e178]
+            - paragraph [ref=e180]: Pendant la Seconde Guerre mondiale, l'usine Ducati à Borgo Panigale a été envahie par l'armée allemande en 1943, puis détruite lors des bombardements alliés en 1944. Malgré ces obstacles, les frères Ducati ont relancé leur activité après la guerre, produisant le moteur auxiliaire Cucciolo en 1946.
+          - generic [ref=e181] [cursor=pointer]:
+            - generic [ref=e182]:
+              - generic [ref=e183]: Quels ont été les moments clés de l'évolution de Ducati depuis les années 1960 jusqu'aux années 2000, et comment la marque a-t-elle consolidé sa réputation dans l'univers des motos sportives ?
+              - img [ref=e184]
+            - paragraph [ref=e186]: Durant les années 1960 Ducati s'est concentré sur des monocylindres et a introduit la série Scrambler. Dans les années 1970, la marque a développé des moteurs bicylindres en "V" de 750 cm3, tels que la 750 GT et la 900 SS, consolidant sa position dans le domaine de la moto sportive. Les années 2000 ont connu des avancées significatives, notamment avec des modèles emblématiques tels que la Desmosedici RR et la Panigale.
+          - generic [ref=e187] [cursor=pointer]:
+            - generic [ref=e188]:
+              - generic [ref=e189]: Comment Ducati a-t-elle évolué au fil des années pour rester à la pointe de l'innovation dans l'industrie motocycliste, et quels sont les modèles qui ont symbolisé ces avancées technologiques ?
+              - img [ref=e190]
+            - paragraph [ref=e192]: Ducati a su évoluer en introduisant des innovations telles que la distribution desmodromique et le moteur Testastretta. Des modèles emblématiques tels que la Multistrada ont élargi la gamme de produits. La Panigale, avec son moteur porteur, embrayage à bain d'huile et distribution par chaîne, a marqué une rupture avec les traditions, soulignant l'engagement continu de Ducati envers la performance et l'efficacité.
+        - generic [ref=e193]:
+          - generic [ref=e194] [cursor=pointer]:
+            - generic [ref=e195]:
+              - generic [ref=e196]: Quelle assurance moto choisir ?
+              - img [ref=e197]
+            - paragraph [ref=e199]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e200] [cursor=pointer]:
+            - generic [ref=e201]:
+              - generic [ref=e202]: Quel est le prix d'une assurance moto ?
+              - img [ref=e203]
+            - paragraph [ref=e205]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e206] [cursor=pointer]:
+            - generic [ref=e207]:
+              - generic [ref=e208]: Quelle formule assurance moto choisir ?
+              - img [ref=e209]
+            - paragraph [ref=e211]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e212] [cursor=pointer]:
+            - generic [ref=e213]:
+              - generic [ref=e214]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e215]
+            - paragraph [ref=e217]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e218]:
+        - heading "Assurance pour les modèles Ducati" [level=2] [ref=e219]
+        - link "Assurance DIAVEL V4" [ref=e220] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ducati/assurance-diavel-v4/
+          - generic [ref=e221]:
+            - generic [ref=e222]: Assurance DIAVEL V4
+            - img [ref=e223]
+        - link "Assurance MONSTER SP" [ref=e224] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ducati/assurance-monster-sp/
+          - generic [ref=e225]:
+            - generic [ref=e226]: Assurance MONSTER SP
+            - img [ref=e227]
+        - link "Assurance MULTISTRADA V4 RALLY" [ref=e228] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ducati/assurance-multistrada-v4-rally/
+          - generic [ref=e229]:
+            - generic [ref=e230]: Assurance MULTISTRADA V4 RALLY
+            - img [ref=e231]
+        - link "Assurance PANIGALE V4 R" [ref=e232] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ducati/assurance-panigale-v4-r/
+          - generic [ref=e233]:
+            - generic [ref=e234]: Assurance PANIGALE V4 R
+            - img [ref=e235]
+        - link "Assurance SCRAMBLER ICON FULL THROTTLE ET NIGHTSHIFT" [ref=e236] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ducati/assurance-scrambler-icon-full-throttle-et-nightshift/
+          - generic [ref=e237]:
+            - generic [ref=e238]: Assurance SCRAMBLER ICON FULL THROTTLE ET NIGHTSHIFT
+            - img [ref=e239]
+        - link "Assurance STREETFIGHTER V4 LAMBORGHINI" [ref=e240] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ducati/assurance-streetfighter-v4-lamborghini/
+          - generic [ref=e241]:
+            - generic [ref=e242]: Assurance STREETFIGHTER V4 LAMBORGHINI
+            - img [ref=e243]
+        - link "Assurance STREETFIGHTER V4-V4 S-V4 SP2" [ref=e244] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ducati/assurance-streetfighter-v4-v4-s-v4-sp2/
+          - generic [ref=e245]:
+            - generic [ref=e246]: Assurance STREETFIGHTER V4-V4 S-V4 SP2
+            - img [ref=e247]
+      - link "Précédent" [ref=e250] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - img [ref=e252]
+        - text: Précédent
+    - generic [ref=e253]:
+      - generic [ref=e255]:
+        - generic [ref=e256]:
+          - link "Retourner à l'accueil" [ref=e258] [cursor=pointer]:
+            - /url: /
+            - img [ref=e259]
+          - paragraph [ref=e262]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e264] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e266] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e268] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e269] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5229 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e270]:
+          - generic [ref=e272]:
+            - generic [ref=e274]: A propos d’AMV
+            - generic [ref=e275]:
+              - link "Qui sommes-nous ?" [ref=e277] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e279] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e281] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e283] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e285] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e287] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e289]:
+            - generic [ref=e291]: Liens utiles
+            - generic [ref=e292]:
+              - link "Besoin d’aide ?" [ref=e294] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e296] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e298] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e300] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e302] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e304] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e306]:
+            - generic [ref=e308]: Assurances
+            - generic [ref=e309]:
+              - link "Assurance Moto" [ref=e311] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e313] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e315] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e317] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e319] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e321] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e323] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e325] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e327] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e329]:
+            - generic [ref=e331]: Devis assurance
+            - generic [ref=e332]:
+              - link "Devis assurance moto" [ref=e334] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e336] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e338] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e340] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e342] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e344] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e346] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e348] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e350] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e352] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e354]:
+          - 'link "Aller sur le site : Facebook" [ref=e355] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e356]
+          - 'link "Aller sur le site : Instagram" [ref=e359] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e360]
+          - 'link "Aller sur le site : LinkedIn" [ref=e362] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e363]
+          - 'link "Aller sur le site : Youtube" [ref=e365] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e366]
+      - generic [ref=e369]:
+        - generic [ref=e370]:
+          - link "Mentions légales" [ref=e371] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e372] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e373] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e374] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e375] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e376]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e377] [cursor=pointer]: Modifications
+  - generic [ref=e379]:
+    - text: Ancien contenu retire
+    - text: Hors sujet
+    - text: Nouveau contenu optimise

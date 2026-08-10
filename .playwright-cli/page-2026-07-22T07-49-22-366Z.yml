@@ -1,0 +1,333 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance scooter par motorisation" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-par-motorisation/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance scooter 50cm³
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance scooter 50cm³" [level=1] [ref=e38]
+        - img "assurance-scooter-50cm3" [ref=e39]
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - heading "AMV Scooter dévoile les secrets des 50cm³" [level=2] [ref=e43]
+          - paragraph [ref=e44]
+          - paragraph [ref=e45]: "Dès 14 ans, le scooter 50cm³ devient une clé vers l'indépendance pour les jeunes, marquant un premier pas significatif vers l'apprentissage de la conduite et la liberté de mouvement. Que ce soit pour se rendre au lycée ou pour des sorties entre amis, offrir un scooter 50cm³ à votre adolescent(e) représente plus qu'un cadeau : c'est une porte ouverte vers une nouvelle étape de sa vie. Pour veiller à la sécurité de votre enfant tout en lui permettant de profiter de cette liberté nouvellement acquise, il est essentiel de connaître les spécificités liées à l'assurance de ces véhicules."
+        - generic [ref=e46]:
+          - 'heading "Scooters 50cm³ : une gamme variée pour tous les goûts" [level=2] [ref=e47]'
+          - paragraph [ref=e48]
+          - paragraph [ref=e49]: "Le terme \"50cm³\" englobe une variété de véhicules deux-roues, tels que les mobylettes, les petites scooters, les cyclomoteurs, et les scooters, tous unis par une caractéristique commune : la possibilité d'être conduits dès l'âge de 14 ans, sans nécessiter de permis de conduire, à condition de respecter certaines règles spécifiques liées à l'âge et à l'année de naissance de l'utilisateur. Exemples de scooters 50cm³ populaires, la Peugeot XP6, une scooter de style enduro adaptée aussi bien à la ville qu'aux chemins de terre, la Yamaha DT 50, reconnue pour sa fiabilité et ses performances, ou encore la Aprilia RS 50, qui séduira les amateurs d'esthétique sportive. Chacun de ces modèles peut être une excellente introduction au monde du deux-roues pour un jeune conducteur."
+        - generic [ref=e50]:
+          - heading "Conclusion sur le scooter 50cm³" [level=2] [ref=e51]
+          - paragraph [ref=e52]
+          - paragraph [ref=e53]: Offrir un scooter 50cm³ à un adolescent est bien plus qu’un simple passage à l’âge adulte ; c’est l’ouverture vers une nouvelle forme d’indépendance, une invitation à explorer le monde avec plus de liberté tout en apprenant les responsabilités impliquées par la conduite sur les routes. Les modèles de scooter 50cm³, qu’ils soient de style sportif ou classique, offrent une gamme variée pour satisfaire les goûts et les besoins de chaque jeune conducteur, tout en soulignant l'obligation de prudence et du respect des règles de sécurité routière. En tant que parent, témoin de cette étape particulière, il s’agit d’une opportunité d’accompagner votre enfant vers plus d’autonomie, en le guidant dans ses choix et en veillant à son apprentissage. Cette expérience de la scooter 50cm³, riche en enseignements, marque le début d’un voyage à la fois personnel et familial, vers plus de confiance, de partage, et d’aventures.
+      - generic [ref=e54]:
+        - heading "Comment assurer son scooter ?" [level=2] [ref=e55]
+        - paragraph [ref=e56]
+        - paragraph [ref=e57]:
+          - text: Bien
+          - link "assurer votre scooter" [ref=e58] [cursor=pointer]:
+            - /url: /assurance/scooter/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e59]
+        - paragraph [ref=e60]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Pas besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e61]
+        - paragraph [ref=e62]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance scooter" [ref=e63] [cursor=pointer]:
+            - /url: /assurance/scooter/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de scooter que vous possédez, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e64]
+        - paragraph [ref=e65]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e66]
+        - paragraph [ref=e67]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que pilote de scooter. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e68]
+        - paragraph [ref=e69]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre scooter" [ref=e70] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance scooter en ligne et prendre la route en toute tranquillité dès maintenant !
+        - generic [ref=e71]:
+          - link "Testez notre tarif d'assurance pour votre scooter" [ref=e73] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-scooter/scooter_entree_vehicule.aspx
+          - link "Retrouver mon devis d'assurance scooter" [ref=e75] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-scooter/devis-assurance-scooter.aspx?rech_devis_memo=1
+      - generic [ref=e76]:
+        - heading "Questions fréquentes" [level=2] [ref=e77]
+        - generic [ref=e78]:
+          - generic [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]:
+              - generic [ref=e81]: À partir de quel âge peut-on conduire un scooter 50cm³ ?
+              - img [ref=e82]
+            - paragraph [ref=e84]: Il est possible de conduire un scooter 50cm³ dès l'âge de 14 ans en France, à condition d'avoir réussi le brevet de sécurité routière (BSR) ou d'être titulaire du certificat de sécurité routière (CSR) pour les jeunes nés après le 31 décembre 1987. Ce cadre légal permet aux adolescents d’acquérir une première expérience de conduite tout en se familiarisant avec les règles de sécurité routière.
+          - generic [ref=e85] [cursor=pointer]:
+            - generic [ref=e86]:
+              - generic [ref=e87]: Faut-il un permis pour conduire un scooter 50cm³ ?
+              - img [ref=e88]
+            - paragraph [ref=e90]: Non, il n'est pas nécessaire de détenir un permis de conduire classique pour piloter un scooter 50cm³. Toutefois, la formation au BSR (ou CSR selon l'année de naissance) est obligatoire. Cette formation permet d'apprendre les bases de la conduite et de la sécurité sur la route pour les cyclomoteurs.
+          - generic [ref=e91] [cursor=pointer]:
+            - generic [ref=e92]:
+              - generic [ref=e93]: Quels sont les équipements de sécurité obligatoires pour conduire un scooter 50cm³ ?
+              - img [ref=e94]
+            - paragraph [ref=e96]: Pour conduire un scooter 50cm³, le port d’un casque homologué est obligatoire pour le conducteur et éventuellement pour le passager. Le casque doit être correctement attaché. Il est également recommandé de porter des gants, un blouson, un pantalon long et des chaussures montantes pour une protection optimale.
+          - generic [ref=e97] [cursor=pointer]:
+            - generic [ref=e98]:
+              - generic [ref=e99]: Comment choisir sa première moto 50cm³ ?
+              - img [ref=e100]
+            - paragraph [ref=e102]: Le choix d’un scooter 50cm³ dépend de plusieurs critères, tels que le style de moto (sportive, enduro, classique), l’usage prévu (trajets urbains courts, randonnées plus longues, etc.), et le budget. Il est important de prendre en compte la fiabilité de la marque, la disponibilité des pièces détachées, et les préférences personnelles en termes de design et de confort. Visiter des concessionnaires et tester différents modèles peut aider à faire un choix éclairé.
+        - generic [ref=e103]:
+          - generic [ref=e104] [cursor=pointer]:
+            - generic [ref=e105]:
+              - generic [ref=e106]: Quelle assurance scooter choisir ?
+              - img [ref=e107]
+            - paragraph [ref=e109]: Pour choisir avec soin votre assurance scooter, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des conducteurs de scooter, assurant ainsi une couverture complète et fiable pour leurs véhicules tout-terrain. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes et passionnés de tout-terrain tout au long de leurs aventures sur la route.
+          - generic [ref=e110] [cursor=pointer]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: Quel est le prix d'une assurance scooter ?
+              - img [ref=e113]
+            - paragraph [ref=e115]: Le coût d'une assurance scooter chez AMV intègre plusieurs facteurs tels que le modèle du scooter, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de scooter. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre scooter. Chez AMV, nous sommes fiers d'accompagner les conducteurs de scooter depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e116] [cursor=pointer]:
+            - generic [ref=e117]:
+              - generic [ref=e118]: Quelle formule assurance scooter choisir ?
+              - img [ref=e119]
+            - paragraph [ref=e121]: Le choix de la formule d'assurance scooter dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez un scooter récent, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance scooter, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance quad proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e122] [cursor=pointer]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: Comment obtenir un devis d'assurance scooter ?
+              - img [ref=e125]
+            - paragraph [ref=e127]: Pour obtenir un devis d'assurance scooter rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance quad depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e128]:
+        - heading "Assurance scooter par motorisation" [level=2] [ref=e129]
+        - link "Assurance scooter 110cm³" [ref=e130] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-110cm3/
+          - generic [ref=e131]:
+            - generic [ref=e132]: Assurance scooter 110cm³
+            - img [ref=e133]
+        - link "Assurance scooter 125cm³" [ref=e134] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-125cm3/
+          - generic [ref=e135]:
+            - generic [ref=e136]: Assurance scooter 125cm³
+            - img [ref=e137]
+        - link "Assurance scooter 150cm³" [ref=e138] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-150cm3/
+          - generic [ref=e139]:
+            - generic [ref=e140]: Assurance scooter 150cm³
+            - img [ref=e141]
+        - link "Assurance scooter 200cm³" [ref=e142] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-200cm3/
+          - generic [ref=e143]:
+            - generic [ref=e144]: Assurance scooter 200cm³
+            - img [ref=e145]
+        - link "Assurance scooter 250cm³" [ref=e146] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-250cm3/
+          - generic [ref=e147]:
+            - generic [ref=e148]: Assurance scooter 250cm³
+            - img [ref=e149]
+        - link "Assurance scooter 300cm³" [ref=e150] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-300cm3/
+          - generic [ref=e151]:
+            - generic [ref=e152]: Assurance scooter 300cm³
+            - img [ref=e153]
+        - link "Assurance scooter 350cm³" [ref=e154] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-350cm3/
+          - generic [ref=e155]:
+            - generic [ref=e156]: Assurance scooter 350cm³
+            - img [ref=e157]
+        - link "Assurance scooter 400cm³" [ref=e158] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-400cm3/
+          - generic [ref=e159]:
+            - generic [ref=e160]: Assurance scooter 400cm³
+            - img [ref=e161]
+        - link "Assurance scooter 500cm³" [ref=e162] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-500cm3/
+          - generic [ref=e163]:
+            - generic [ref=e164]: Assurance scooter 500cm³
+            - img [ref=e165]
+        - link "Assurance scooter 530cm³" [ref=e166] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-530cm3/
+          - generic [ref=e167]:
+            - generic [ref=e168]: Assurance scooter 530cm³
+            - img [ref=e169]
+        - link "Assurance scooter 560cm³" [ref=e170] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-560cm3/
+          - generic [ref=e171]:
+            - generic [ref=e172]: Assurance scooter 560cm³
+            - img [ref=e173]
+        - link "Assurance scooter 600cm³" [ref=e174] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-600cm3/
+          - generic [ref=e175]:
+            - generic [ref=e176]: Assurance scooter 600cm³
+            - img [ref=e177]
+        - link "Assurance scooter 650cm³" [ref=e178] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-650cm3/
+          - generic [ref=e179]:
+            - generic [ref=e180]: Assurance scooter 650cm³
+            - img [ref=e181]
+        - link "Assurance scooter 750" [ref=e182] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-750/
+          - generic [ref=e183]:
+            - generic [ref=e184]: Assurance scooter 750
+            - img [ref=e185]
+        - link "Assurance scooter 750cm³" [ref=e186] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-750cm3/
+          - generic [ref=e187]:
+            - generic [ref=e188]: Assurance scooter 750cm³
+            - img [ref=e189]
+        - link "Assurance scooter électrique" [ref=e190] [cursor=pointer]:
+          - /url: /assurance-scooter/assurance-scooter-electrique/
+          - generic [ref=e191]:
+            - generic [ref=e192]: Assurance scooter électrique
+            - img [ref=e193]
+      - link "Précédent" [ref=e196] [cursor=pointer]:
+        - /url: /assurance-scooter/assurance-scooter-par-motorisation/
+        - img [ref=e198]
+        - text: Précédent
+    - generic [ref=e199]:
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - link "Retourner à l'accueil" [ref=e204] [cursor=pointer]:
+            - /url: /
+            - img [ref=e205]
+          - paragraph [ref=e208]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e210] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e212] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e214] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e215] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5242 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e216]:
+          - generic [ref=e218]:
+            - generic [ref=e220]: A propos d’AMV
+            - generic [ref=e221]:
+              - link "Qui sommes-nous ?" [ref=e223] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e225] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e227] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e229] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e231] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e233] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e235]:
+            - generic [ref=e237]: Liens utiles
+            - generic [ref=e238]:
+              - link "Besoin d’aide ?" [ref=e240] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e242] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e244] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e246] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e248] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e250] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e252]:
+            - generic [ref=e254]: Assurances
+            - generic [ref=e255]:
+              - link "Assurance Moto" [ref=e257] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e259] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e261] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e263] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e265] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e267] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e269] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e271] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e273] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e275]:
+            - generic [ref=e277]: Devis assurance
+            - generic [ref=e278]:
+              - link "Devis assurance moto" [ref=e280] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e282] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e284] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e286] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e288] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e290] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e292] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e294] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e296] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e298] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e300]:
+          - 'link "Aller sur le site : Facebook" [ref=e301] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e302]
+          - 'link "Aller sur le site : Instagram" [ref=e305] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e306]
+          - 'link "Aller sur le site : LinkedIn" [ref=e308] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e309]
+          - 'link "Aller sur le site : Youtube" [ref=e311] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e312]
+      - generic [ref=e315]:
+        - generic [ref=e316]:
+          - link "Mentions légales" [ref=e317] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e318] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e319] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e320] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e321] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e322]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e323] [cursor=pointer]: Modifications
+  - generic [ref=e325]:
+    - text: Ancien contenu retire
+    - text: Hors sujet
+    - text: Nouveau contenu optimise

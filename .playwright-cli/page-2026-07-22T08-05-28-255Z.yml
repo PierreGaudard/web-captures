@@ -1,0 +1,435 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto KTM
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance KTM" [level=1] [ref=e38]
+        - img "assurance-ktm" [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e41]: Nouveau contenu optimise
+        - paragraph [ref=e42]: "En résumé : AMV, spécialiste de l'assurance deux-roues, assure l'ensemble de la gamme KTM, de la 125 Duke à la Super Duke R en passant par les trails Adventure et les enduros EXC. Un seul contrat, quatre formules et des options au choix, avec le casque, les gants et le gilet airbag couverts dès la première formule. Le devis en ligne prend quelques minutes."
+        - list [ref=e43]:
+          - listitem [ref=e44]: "Toute la gamme KTM est assurable : roadsters Duke, sportives RC, trails Adventure, enduros EXC et supermotards SMC."
+          - listitem [ref=e45]: Quatre formules au choix, de la Responsabilité civile à la formule Tous risques.
+          - listitem [ref=e46]: La garantie Dommages collision permet une couverture renforcée en maîtrisant votre budget.
+          - listitem [ref=e47]: "Le tarif est personnalisé : modèle, date de mise en circulation, lieu de stationnement, niveau de couverture et sinistralité déclarée."
+          - listitem [ref=e48]: Devis en ligne gratuit, souscription rapide avec peu de justificatifs.
+        - heading "KTM, la marque autrichienne du \"Ready to Race\"" [level=2] [ref=e49]
+        - paragraph [ref=e50]: "Fondée en 1934 à Mattighofen, en Autriche, KTM s'est d'abord illustrée dans le tout-terrain : enduro, motocross et supermoto ont forgé sa réputation et son palmarès en compétition. Depuis la fin des années 1990, la marque autrichienne s'est imposée sur la route avec des motos au caractère affirmé, reconnaissables à leur orange emblématique. Roadsters nerveux, trails taillés pour l'aventure et sportives de pointe : la gamme KTM cultive les performances et les sensations fortes, avec des innovations issues de la course."
+        - paragraph [ref=e51]: "Ce tempérament sportif a une conséquence directe pour vous : une KTM mérite une assurance à la hauteur de sa valeur et de son usage, choisie avec soin plutôt que par défaut."
+        - heading "Quelle assurance selon votre modèle KTM ?" [level=2] [ref=e52]
+        - paragraph [ref=e53]: "Chaque famille de modèles répond à des besoins différents, et le choix de la formule dépend surtout de la valeur de votre moto :"
+        - list [ref=e54]:
+          - listitem [ref=e55]:
+            - text: Les roadsters Duke, de la
+            - link "125 Duke" [ref=e56] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ktm/assurance-125-duke/
+            - text: accessible dès le permis A1 à la
+            - link "Super Duke R" [ref=e57] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ktm/assurance-super-duke-r/
+            - text: ", en passant par la"
+            - link "390 Duke" [ref=e58] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ktm/assurance-390-duke/
+            - text: "compatible A2 : des motos utilisées au quotidien, souvent stationnées en ville."
+          - listitem [ref=e59]:
+            - text: Les trails Adventure, comme la
+            - link "890 Adventure R" [ref=e60] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ktm/assurance-890-adventure-r/
+            - text: ", équipés pour les longs trajets et les voyages."
+          - listitem [ref=e61]:
+            - text: Les enduros
+            - link "EXC" [ref=e62] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ktm/assurance-exc/
+            - text: ", homologuées route, qui alternent chemins et bitume."
+          - listitem [ref=e63]:
+            - text: Les sportives, comme la
+            - link "RC 8C" [ref=e64] [cursor=pointer]:
+              - /url: https://www.amv.fr/assurance-moto/assurance-moto-ktm/assurance-rc-8c/
+            - text: ", dont la valeur élevée justifierait en général la couverture la plus complète."
+        - paragraph [ref=e65]: "Un point à connaître si vous roulez sur piste : le roulage libre sur circuit est assuré, la compétition n'est en revanche couverte par aucune garantie. Et pour les modèles les plus puissants de la gamme, l'assurance est accessible si vous avez plus de 30 ans ou des antécédents d'assurance."
+        - heading "Les formules d'assurance moto KTM" [level=2] [ref=e66]
+        - paragraph [ref=e67]: "AMV propose les formules de garanties et options adaptées à votre KTM et à l'usage que vous en faites. Un seul contrat, quatre formules : à vous de choisir selon la valeur de votre moto, sa fréquence d'utilisation et votre budget."
+        - paragraph [ref=e68]: La formule Responsabilité civile, couverture minimale obligatoire, couvre les dommages causés aux tiers lors d'un sinistre responsable. Elle peut suffire pour une KTM de faible valeur.
+        - paragraph [ref=e69]: "La formule Vol / Incendie protège en plus votre moto contre le vol et l'incendie, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois. Elle serait à envisager si votre KTM stationne majoritairement sur la voie publique. Bon à savoir : le gravage de votre deux-roues divise la franchise vol par 2 chez AMV."
+        - paragraph [ref=e70]: La formule Dommages collision, la garantie distinctive d'AMV, couvre les dommages causés à votre moto lors d'une collision avec un tiers identifié, déduction faite, en cas de sinistre responsable, de la franchise prévue au contrat. Elle permet une meilleure couverture tout en maîtrisant votre budget.
+        - paragraph [ref=e71]: La formule Tous risques couvre les dommages subis par votre deux-roues quelles que soient les circonstances. Elle serait recommandée pour une KTM neuve, récente ou financée à crédit.
+        - paragraph [ref=e72]: "Quelle que soit la formule, votre équipement de pilote est couvert dès la première : casque, gants et gilet airbag sont garantis s'ils sont détériorés lors d'un événement couvert."
+        - table [ref=e73]:
+          - rowgroup [ref=e74]:
+            - row "Garantie Couverture" [ref=e75]:
+              - columnheader "Garantie" [ref=e76]
+              - columnheader "Couverture" [ref=e77]
+          - rowgroup [ref=e78]:
+            - row "Responsabilité civile Dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros (sinistre responsable)" [ref=e79]:
+              - cell "Responsabilité civile" [ref=e80]
+              - cell "Dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros (sinistre responsable)" [ref=e81]
+            - row "Défense pénale et recours suite à accident + Protection juridique Jusqu'à 20 000 € au total" [ref=e82]:
+              - cell "Défense pénale et recours suite à accident + Protection juridique" [ref=e83]
+              - cell "Jusqu'à 20 000 € au total" [ref=e84]
+            - row "Casque, gants, gilet airbag (vétusté déduite) Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 €" [ref=e85]:
+              - cell "Casque, gants, gilet airbag (vétusté déduite)" [ref=e86]
+              - cell "Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 €" [ref=e87]
+            - row "Vol / Incendie Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e88]:
+              - cell "Vol / Incendie" [ref=e89]
+              - cell "Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e90]
+            - row "Individuelle Pilote (option) Capital jusqu'à 800 000 € en cas d'invalidité permanente ; capital versé aux ayants droit en cas de décès" [ref=e91]:
+              - cell "Individuelle Pilote (option)" [ref=e92]
+              - cell "Capital jusqu'à 800 000 € en cas d'invalidité permanente ; capital versé aux ayants droit en cas de décès" [ref=e93]
+            - row "Option Plus Équipement moto couvert en vol comme en dommages, accessoires hors-série et top case, dans la limite de 5 000 €" [ref=e94]:
+              - cell "Option Plus" [ref=e95]
+              - cell "Équipement moto couvert en vol comme en dommages, accessoires hors-série et top case, dans la limite de 5 000 €" [ref=e96]
+        - paragraph [ref=e97]: La Défense pénale et recours suite à accident, associée à la Protection juridique, vous accompagne en cas de litige lié à un accident, jusqu'à 20 000 € au total.
+        - heading "Les options pour une protection sur-mesure" [level=2] [ref=e98]
+        - paragraph [ref=e99]: Votre contrat se complète d'options dédiées au pilote et aux équipements, pour ajuster la protection à votre KTM et à votre pratique.
+        - paragraph [ref=e100]: L'Option Individuelle Pilote verse un capital, jusqu'à 800 000 euros, en cas d'invalidité permanente, ou à vos ayants droit en cas de décès, même lors d'un accident responsable. Sur des motos au tempérament sportif, cette protection du pilote lui-même mérite une vraie réflexion.
+        - paragraph [ref=e101]: "Avec l'Option Plus, votre deux-roues acheté neuf, volé ou détruit suite à un sinistre est remboursé à sa valeur d'achat pendant un an et demi à compter de la date d'achat. L'ensemble de votre équipement moto est couvert en vol comme en dommages, mais également les accessoires hors-série et top case, dans la limite de 5 000 € : un vrai plus pour les Adventure équipées de valises ou les Duke personnalisées (échappement, protections)."
+        - paragraph [ref=e102]: "AMV propose aussi une assistance en option, pour un dépannage sur mesure : votre moto est dépannée ou remorquée jusqu'à la concession la plus proche, le pilote et son passager sont rapatriés. La crevaison est incluse."
+        - heading "Quel est le prix d'une assurance moto KTM ?" [level=2] [ref=e103]
+        - paragraph [ref=e104]: Le tarif d'une assurance KTM est personnalisé. Il est établi à partir du modèle assuré, de sa date de première mise en circulation, du lieu de stationnement, du niveau de couverture choisi et de la sinistralité déclarée. À profil identique, une 125 Duke ne s'assurerait donc pas au même tarif qu'une Super Duke R, dont la valeur est nettement supérieure.
+        - paragraph [ref=e105]: Le devis en ligne AMV, gratuit et sans engagement, vous donne en quelques minutes le tarif de chaque formule pour votre modèle, avant de choisir la couverture qui correspond à votre budget.
+        - heading "Pourquoi assurer votre KTM chez AMV ?" [level=2] [ref=e106]
+        - paragraph [ref=e107]: AMV, spécialiste de l'assurance deux-roues fondée en 1974 par un passionné de moto, pour les motards, compte plus d'1 million d'assurés et affiche une note de satisfaction de 4,7 sur 5 via Avis Vérifiés. Nos plus de 350 conseillers, basés à Bordeaux, connaissent les spécificités de la gamme KTM, du monocylindre de la 125 Duke aux gros trails Adventure.
+        - paragraph [ref=e108]:
+          - text: "La souscription se veut simple et rapide : un devis en ligne en quelques clics, peu de justificatifs là où d'autres assureurs réclament davantage de pièces, et une couverture qui peut prendre effet immédiatement, sous réserve de certaines conditions. Vous gérez ensuite votre contrat en toute autonomie depuis Mon Espace AMV. Découvrez également notre"
+          - link "assurance moto" [ref=e109] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance/moto/
+          - text: pour l'ensemble des
+          - link "constructeurs" [ref=e110] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/
+          - text: .
+      - generic [ref=e112]:
+        - paragraph [ref=e114]: KTM, marque autrichienne de motos, de vélos et de sports mécaniques, trouve ses origines en 1934 sous la dénomination de Kronreif & Trunkenpolz Mattighofen. Aujourd'hui, Pierer Mobility AG opère en tant que fabricant de motos sous la marque KTM, tandis que KTM Fahrrad AG fabrique des vélos estampillés KTM.
+        - generic [ref=e115]:
+          - 'heading "KTM : une épopée mécanique autrichienne, de ses origines humble à la conquête mondiale" [level=4] [ref=e116]':
+            - strong [ref=e117]: "KTM : une épopée mécanique autrichienne, de ses origines humble à la conquête mondiale"
+          - paragraph [ref=e118]
+          - paragraph [ref=e119]: La renommée de KTM repose principalement sur ses motos tout-terrain (enduro, motocross et supermoto). Depuis la fin des années 1990, la marque s'est diversifiée en produisant des motos de route et en développant des voitures de sport, notamment la X-Bow. En 2015, KTM a vendu presque autant de motos de route que de motos tout-terrain.
+          - paragraph [ref=e120]
+          - paragraph [ref=e121]: "Histoire :"
+          - paragraph [ref=e122]
+          - paragraph [ref=e123]:
+            - text: Les débuts
+            - text: En 1934, l'ingénieur autrichien Johann (Hans) Trunkenpolz (1909-1962) a créé un atelier de montage et de réparation automobile à Mattighofen. En 1937, il a commencé à vendre des motos DKW et des voitures Opel l'année suivante. Son atelier était connu sous le nom de Kraftfahrzeug Trunkenpolz Mattighofen, mais le nom n'était pas enregistré. Pendant la Seconde Guerre mondiale, sa femme gérait l'entreprise, prospérant principalement grâce aux réparations de moteurs diesel.
+          - paragraph [ref=e124]
+          - paragraph [ref=e125]: Après la guerre, la demande de travaux de réparation a chuté, incitant Trunkenpolz à envisager la production de ses propres motos. Le prototype de sa première moto, la R100, a été fabriqué en 1951. Les composants de la moto étaient usinés en interne, à l'exception des moteurs Rotax produits par Fichtel & Sachs. La production en série de la R100 a commencé en 1953, avec seulement 20 employés produisant trois motos par jour.
+          - paragraph [ref=e126]
+          - paragraph [ref=e127]:
+            - text: KTM de 1953 à 1991
+            - text: En 1953, l'homme d'affaires Ernst Kronreif est devenu un important actionnaire de l'entreprise, et qui a dès lors été renommée Kronreif & Trunkenpolz Mattighofen. En 1954, la R125 Tourist a été introduite, suivie par la Grand Tourist et le scooter Mirabell en 1955.
+          - paragraph [ref=e128]
+          - paragraph [ref=e129]: En 1954, KTM remporte son premier titre de champion autrichien en 125cm³. En 1956, KTM fait sa première apparition aux International Six Days Trials, où Egon Dornauer remporte une médaille d'or sur une machine KTM. En 1957, KTM construit sa première moto sportive, la Trophy 125cm³. Le premier cyclomoteur de KTM, nommé Mecky, est lancé en 1957, suivi de Ponny I en 1960 et Ponny II en 1962, puis Comet en 1963. Les années 1960 voient également le début de la production de vélos à Mattighofen.
+          - paragraph [ref=e130]
+          - paragraph [ref=e131]: Ernst Kronreif décède en 1960. Deux ans plus tard, en 1962, Hans Trunkenpolz décède également d'une crise cardiaque. Son fils, Erich Trunkenpolz, prend la direction de l'entreprise.
+          - paragraph [ref=e132]
+          - paragraph [ref=e133]: À mesure que l'entreprise continue de se développer, la main-d'œuvre atteint 400 personnes en 1971, et quarante ans après sa fondation, KTM propose 42 modèles différents. De plus, KTM est en mesure de produire des motos pour l'industrie de la compétition. Au cours des années 1970 et 1980, KTM commence également à développer et produire des moteurs et des radiateurs. Les radiateurs vendus aux constructeurs automobiles européens constituent une part importante des activités de l'entreprise dans les années 1980.
+          - paragraph [ref=e134]
+          - paragraph [ref=e135]: En 1978, la filiale américaine KTM North America Inc. est fondée à Lorain, Ohio. En 1980, l'entreprise est renommée KTM Motor-Fahrzeugbau KG. Un an plus tard, KTM compte environ 700 employés et un chiffre d'affaires de 750 millions de schillings (environ 54,5 millions d'euros). Les activités internationales représentent alors 76% du chiffre d'affaires de l'entreprise.
+          - paragraph [ref=e136]
+          - paragraph [ref=e137]: Le chiffre d'affaires des scooters et cyclomoteurs a chuté rapidement, et la production a dû être interrompue en 1988. Erich Trunkenpolz décède en 1989. La prise de contrôle de 51% de l'entreprise par le trust d'investissement autrichien GIT Trust Holding, contrôlé par l'homme politique autrichien Josef Taus en 1989, a été suivie de tentatives infructueuses pour redresser une entreprise endettée. En 1991, la direction de KTM est transférée à un consortium de banques créancières.
+          - paragraph [ref=e138]
+          - paragraph [ref=e139]:
+            - text: KTM après 1991
+            - text: "En 1991, l'entreprise est scindée en quatre entités distinctes : KTM Sportmotorcycle GmbH (division motos), KTM Fahrrad GmbH (division vélos), KTM Kühler GmbH (division radiateurs) et KTM Werkzeugbau GmbH (division outillage)."
+          - paragraph [ref=e140]
+          - paragraph [ref=e141]: Désormais propriété de KTM Motorradholding GmbH, formée par Cross Holding (une filiale de Cross Industries), et d'autres investisseurs, KTM Sportmotorcycle GmbH a commencé ses opérations en 1992 et a ensuite repris la division outillage KTM Werkzeugbau. Au fil des années, tout en augmentant régulièrement sa production et son chiffre d'affaires, en investissant dans de nouvelles installations de production et de R&D, en introduisant de nouveaux modèles et en sponsorisant avec succès divers événements sportifs, l'entreprise a subi une série de restructurations et de changements d'actionnaires dirigés par Stefan Pierer, directeur général de KTM et propriétaire de Cross Industries. En 1994, KTM a lancé la production de la série Duke de motos de route, en 1996, les motos tout-terrain KTM ont été habillées pour la première fois de la couleur orange caractéristique de la marque, et en 1997, ce fut l'introduction des motos Supermoto et Adventure à deux cylindres refroidies par liquide. En 2007, l'entreprise a présenté la voiture de sport KTM X-Bow.
+          - paragraph [ref=e142]
+          - paragraph [ref=e143]: En 1995, KTM Motorradholding GmbH a acquis le fabricant suédois de motos Husaberg AB et pris le contrôle de la société néerlandaise White Power Suspension.
+          - paragraph [ref=e144]: En 2007, le fabricant indien de motos Bajaj Auto a acquis une participation de 14,5% dans KTM Power Sports AG. Après 2013, Bajaj Auto détenait une participation de 47,97% dans l'entreprise.
+          - paragraph [ref=e145]
+          - paragraph [ref=e146]: En 2013, KTM a racheté le fabricant de motos suédois Husqvarna Motorcycles à BMW Motorrad AG. La même année, KTM a réintégré la marque Husaberg dans Husqvarna Motorcycles, à partir de laquelle elle avait été détachée dans les années 1990 lors de la vente de Husqvarna à la société italienne Cagiva.
+          - paragraph [ref=e147]
+          - paragraph [ref=e148]: "En tant que résultat final du processus de restructuration, KTM Motorradholding GmbH est devenue KTM AG en 2012. En 2015, KTM a généré un chiffre d'affaires de plus de 1 milliard d'euros et employait 2515 personnes à la fin de cette année-là. Parmi les quatre sociétés distinctes restées après la scission de 1992, trois faisaient à nouveau partie du groupe KTM : KTM Sportmotorcycle GmbH, KTM Werkzeugbau GmbH et KTM Kühler GmbH (aujourd'hui WP Radiators). KTM Fahrrad GmbH (KTM Bike Industries) reste une entreprise indépendante, détenue par des investisseurs chinois. Aujourd'hui, le groupe KTM englobe les marques KTM, Husqvarna Motorcycles et GasGas Motorcycles."
+          - paragraph [ref=e149]
+          - paragraph [ref=e150]: En 2021, Bajaj Auto a vendu 46,5% des actions de KTM à Pierer Mobility AG en échange de 49% des actions de cette dernière, devenant ainsi un actionnaire indirect de KTM. Cette transaction a consolidé davantage la position de KTM sur le marché, illustrant sa capacité à s'adapter et à prospérer dans l'industrie du deux-roues. L'histoire de KTM est marquée par une ingénierie innovante, un engagement dans la compétition et une expansion stratégique, ce qui en fait une marque emblématique dans le monde des motos et des sports mécaniques.
+        - generic [ref=e151]:
+          - heading "Conclusion sur la KTM" [level=4] [ref=e152]:
+            - strong [ref=e153]: Conclusion sur la KTM
+          - paragraph [ref=e154]
+          - paragraph [ref=e155]: En conclusion, l'histoire de KTM est une saga captivante qui dévoile une progression remarquable depuis ses modestes débuts dans un petit atelier autrichien en 1934. Des pionniers visionnaires tels que Hans Trunkenpolz et Ernst Kronreif ont jeté les bases d'une entreprise qui, au fil des décennies, est devenue un géant mondial des deux-roues. Les défis rencontrés, tels que la crise après la Seconde Guerre mondiale et les changements de direction, n'ont fait que renforcer la détermination de KTM à innover et à prospérer. L'évolution de la production, des motos tout-terrain aux motos de route emblématiques et aux voitures de sport, témoigne d'une adaptabilité exceptionnelle.
+          - paragraph [ref=e156]
+          - paragraph [ref=e157]: La restructuration de l'entreprise dans les années 1990 a été un tournant crucial, donnant naissance à des entités spécialisées qui ont continué à contribuer au succès global de la marque. Les partenariats stratégiques avec des acteurs majeurs de l'industrie, tels que Bajaj Auto, ont renforcé la position de KTM sur la scène internationale.
+          - paragraph [ref=e158]
+          - paragraph [ref=e159]: Aujourd'hui, en tant que KTM AG, la marque est à la tête d'un groupe prospère comprenant des noms prestigieux tels que Husqvarna Motorcycles et GasGas Motorcycles. Avec une présence mondiale, un engagement continu dans la compétition et une gamme diversifiée de produits, KTM reste un symbole d'excellence autrichienne dans le monde des deux-roues et des sports mécaniques. L'avenir s'annonce prometteur pour cette entreprise emblématique, continuant de marquer l'histoire avec son ingénierie audacieuse et son esprit de compétition inébranlable.
+      - generic [ref=e160]:
+        - heading "Comment assurer sa moto ?" [level=2] [ref=e161]
+        - paragraph [ref=e162]
+        - paragraph [ref=e163]:
+          - text: Bien
+          - link "assurer votre moto" [ref=e164] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: est essentiel pour prendre la route en toute sérénité. Pour cela, pourquoi ne pas opter pour l'assurance en ligne proposée par AMV, un assureur de confiance spécialiste de l'assurance moto depuis 50 ans.
+        - paragraph [ref=e165]
+        - paragraph [ref=e166]: AMV propose la souscription simple et rapide en ligne vous permettant de bénéficier d'une couverture immédiate, sous réserve de certaines conditions. Plus besoin de vous déplacer en agence, quelques clics suffisent pour être assuré.
+        - paragraph [ref=e167]
+        - paragraph [ref=e168]:
+          - text: AMV propose une
+          - link "gamme complète de formules d'assurance moto" [ref=e169] [cursor=pointer]:
+            - /url: /assurance/moto/
+          - text: ", adaptées à vos besoins et à votre budget. Quel que soit le type de moto que vous possédez, que ce soit une sportive, une routière, ou encore un scooter, AMV vous propose des solutions sur mesure pour une protection optimale."
+        - paragraph [ref=e170]
+        - paragraph [ref=e171]: En cas de sinistre, AMV met à votre disposition un service d'assistance réactif, disponible 24 heures sur 24 et 7 jours sur 7, si vous avez opté pour cette option. Vous pouvez ainsi compter sur une assistance en toutes circonstances, qu'il s'agisse d'un accident, d'un vol ou d'une panne.
+        - paragraph [ref=e172]
+        - paragraph [ref=e173]: Experts de l'assurance moto, les conseillers AMV sont des passionnés de deux-roues, appréhendant ainsi aisément vos besoins spécifiques en tant que motard. Ils sauront vous accompagner et vous conseiller au mieux tout au long de votre contrat.
+        - paragraph [ref=e174]
+        - paragraph [ref=e175]:
+          - text: En choisissant
+          - link "AMV comme assureur pour votre moto" [ref=e176] [cursor=pointer]:
+            - /url: https://www.amv.fr/
+          - text: ", vous bénéficiez d'une assurance fiable et de qualité, sans perte de temps. N'attendez plus, rendez-vous sur amv.fr pour souscrire votre assurance moto en ligne et prendre la route en toute tranquillité dès maintenant !"
+        - generic [ref=e177]:
+          - link "Testez notre tarif d'assurance pour votre KTM" [ref=e179] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx?extmar=ktm
+          - link "Retrouver mon devis d'assurance KTM" [ref=e181] [cursor=pointer]:
+            - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1
+      - generic [ref=e182]:
+        - generic [ref=e183]: Nouveau contenu optimise
+        - heading "Questions fréquentes sur l'assurance moto KTM" [level=2] [ref=e184]
+        - heading "Quel est le prix d'une assurance pour une KTM 125 Duke ou une EXC ?" [level=3] [ref=e185]
+        - paragraph [ref=e186]: "Il n'existe pas de tarif unique : chaque cotisation est calculée selon le modèle, sa date de première mise en circulation, le lieu de stationnement, le niveau de couverture et la sinistralité déclarée. Une 125 Duke, accessible dès le permis A1, se situe en général sur des niveaux de tarif plus abordables qu'une Adventure ou une Super Duke R. Le devis en ligne vous donne un tarif personnalisé pour votre KTM en quelques minutes."
+        - heading "Quelle assurance choisir pour une KTM ?" [level=3] [ref=e187]
+        - paragraph [ref=e188]: Le choix dépend surtout de la valeur de votre moto. Pour une KTM de faible valeur, la formule Responsabilité civile peut suffire. Pour un modèle neuf, récent ou financé à crédit, la formule Tous risques offrirait la protection la plus complète. Entre les deux, la formule Vol / Incendie serait pertinente si votre moto stationne dehors, et la formule Dommages collision renforce votre couverture en cas d'accident avec un tiers identifié, tout en maîtrisant votre budget.
+        - heading "Peut-on assurer une KTM en jeune permis ?" [level=3] [ref=e189]
+        - paragraph [ref=e190]:
+          - text: Oui, selon le modèle. La 125 Duke se conduit dès le permis A1, et la 390 Duke est compatible avec le
+          - link "permis A2" [ref=e191] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-permis-a2/
+          - text: ". En revanche, un jeune permis ne pourrait pas être assuré sur une sportive : jusqu'à la passerelle vers le permis A, la moto reste d'ailleurs bridée à 35 kW. Le tarif reste personnalisé, sans formule spécifique aux jeunes conducteurs : les mêmes garanties s'appliquent à tous les assurés."
+        - heading "Une KTM EXC utilisée en tout-terrain est-elle couverte ?" [level=3] [ref=e192]
+        - paragraph [ref=e193]: Les enduros EXC homologuées route sont assurables comme toute moto de la gamme, et restent couvertes sur les chemins ouverts à la circulation publique. Le roulage libre sur circuit est également assuré. En revanche, la compétition, entraînements chronométrés et courses, n'est couverte par aucune garantie. Si vous pratiquez l'enduro en loisir, votre conseiller AMV peut vous orienter vers la formule la plus adaptée à votre usage.
+      - generic [ref=e194]:
+        - heading "Questions fréquentes" [level=2] [ref=e195]
+        - generic [ref=e196]:
+          - generic [ref=e197] [cursor=pointer]:
+            - generic [ref=e198]:
+              - generic [ref=e199]: Quand KTM a-t-elle été fondée et par qui ?
+              - img [ref=e200]
+            - paragraph [ref=e202]: KTM a été fondée en 1934 par l'ingénieur autrichien Johann (Hans) Trunkenpolz, établissant ainsi les bases de la marque sous le nom de Kronreif & Trunkenpolz Mattighofen.
+          - generic [ref=e203] [cursor=pointer]:
+            - generic [ref=e204]:
+              - generic [ref=e205]: Quels événements ont marqué le tournant dans l'histoire de KTM dans les années 1990 ?
+              - img [ref=e206]
+            - paragraph [ref=e208]: "Les années 1990 ont été marquées par une restructuration majeure, conduisant à la division de l'entreprise en quatre entités distinctes : KTM Sportmotorcycle GmbH (motos), KTM Fahrrad GmbH (vélos), KTM Kühler GmbH (radiateurs) et KTM Werkzeugbau GmbH (outillage)."
+          - generic [ref=e209] [cursor=pointer]:
+            - generic [ref=e210]:
+              - generic [ref=e211]: Quelles acquisitions stratégiques ont contribué à l'expansion internationale de KTM ?
+              - img [ref=e212]
+            - paragraph [ref=e214]: En 2007, Bajaj Auto a acquis une participation importante dans KTM Power Sports AG, renforçant ainsi la présence internationale de KTM. De plus, les acquisitions de Husaberg AB et Husqvarna Motorcycles ont élargi la portée de la marque sur le marché mondial des deux-roues.
+        - generic [ref=e215]:
+          - generic [ref=e216] [cursor=pointer]:
+            - generic [ref=e217]:
+              - generic [ref=e218]: Quelle assurance moto choisir ?
+              - img [ref=e219]
+            - paragraph [ref=e221]: Pour choisir avec soin votre assurance moto, il est primordial de comparer les tarifs, les garanties et les franchises proposées. AMV, assureur spécialisé dans le domaine de la moto, est une option à prendre en sérieuse considération. Fort de son expertise, AMV offre des solutions adaptées aux besoins spécifiques des motards, assurant ainsi une couverture complète et fiable pour leurs deux-roues. Grâce à son expertise du secteur, AMV peut offrir des services sur mesure et des conseils avisés, assurant la tranquillité d'esprit des motocyclistes tout au long de leurs aventures sur la route.
+          - generic [ref=e222] [cursor=pointer]:
+            - generic [ref=e223]:
+              - generic [ref=e224]: Quel est le prix d'une assurance moto ?
+              - img [ref=e225]
+            - paragraph [ref=e227]: Le coût d'une assurance moto chez AMV intègre plusieurs facteurs tels que le modèle de la moto, l'expérience du conducteur (permis, sinistres, bonus), le lieu de stationnement habituel et le niveau de garanties désiré. Chez AMV, nous offrons des tarifs compétitifs adaptés à chaque profil de conducteur et à chaque type de moto. Nos conseillers spécialisés sont là pour vous aider à choisir la couverture qui répond le mieux à vos besoins et à votre budget. N'hésitez pas à nous contacter pour obtenir un devis personnalisé et découvrez comment nous pouvons protéger au mieux votre moto. Chez AMV, nous sommes fiers d'accompagner les motards depuis près de 50 ans et de leur proposer une assurance sur mesure pour rouler en toute sérénité.
+          - generic [ref=e228] [cursor=pointer]:
+            - generic [ref=e229]:
+              - generic [ref=e230]: Quelle formule assurance moto choisir ?
+              - img [ref=e231]
+            - paragraph [ref=e233]: Le choix de la formule d'assurance moto dépend entièrement de vos besoins spécifiques ainsi que de votre budget. Si vous possédez une moto récente, il est fortement recommandé de souscrire à une garantie dommages tous risques, cela vous permettra de couvrir les frais de réparation en cas d'accident responsable. AMV, en tant qu'assureur spécialisé dans l'assurance moto, propose différentes garanties et options adaptées à chaque profil. N'hésitez pas à réaliser un devis sur amv.fr ou nous contacter pour obtenir des informations détaillées sur les formules d'assurance moto proposées afin de trouver celle qui répond le mieux à vos besoins personnels
+          - generic [ref=e234] [cursor=pointer]:
+            - generic [ref=e235]:
+              - generic [ref=e236]: Comment obtenir un devis d'assurance moto ?
+              - img [ref=e237]
+            - paragraph [ref=e239]: Pour obtenir un devis d'assurance moto rapidement, AMV est votre partenaire de confiance. Spécialiste de l'assurance moto depuis 50 ans, AMV propose des solutions adaptées à vos besoins. Rendez-vous sur amv.fr et complétez simplement notre formulaire pour découvrir votre tarif en seulement 3 minutes. Faites confiance à AMV et roulez en toute sérénité avec la protection dont vous avez besoin.
+      - generic [ref=e240]:
+        - heading "Assurance pour les modèles KTM" [level=2] [ref=e241]
+        - link "Assurance 125 DUKE" [ref=e242] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ktm/assurance-125-duke/
+          - generic [ref=e243]:
+            - generic [ref=e244]: Assurance 125 DUKE
+            - img [ref=e245]
+        - link "Assurance 390 DUKE" [ref=e246] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ktm/assurance-390-duke/
+          - generic [ref=e247]:
+            - generic [ref=e248]: Assurance 390 DUKE
+            - img [ref=e249]
+        - link "Assurance 640 DUKE 2" [ref=e250] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ktm/assurance-640-duke-2/
+          - generic [ref=e251]:
+            - generic [ref=e252]: Assurance 640 DUKE 2
+            - img [ref=e253]
+        - link "Assurance 890 ADVENTURE R" [ref=e254] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ktm/assurance-890-adventure-r/
+          - generic [ref=e255]:
+            - generic [ref=e256]: Assurance 890 ADVENTURE R
+            - img [ref=e257]
+        - link "Assurance 990 SUPER DUKE" [ref=e258] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ktm/assurance-990-super-duke/
+          - generic [ref=e259]:
+            - generic [ref=e260]: Assurance 990 SUPER DUKE
+            - img [ref=e261]
+        - link "Assurance EXC" [ref=e262] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ktm/assurance-exc/
+          - generic [ref=e263]:
+            - generic [ref=e264]: Assurance EXC
+            - img [ref=e265]
+        - link "Assurance RC 8C" [ref=e266] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ktm/assurance-rc-8c/
+          - generic [ref=e267]:
+            - generic [ref=e268]: Assurance RC 8C
+            - img [ref=e269]
+        - link "Assurance SUPER DUKE R" [ref=e270] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-ktm/assurance-super-duke-r/
+          - generic [ref=e271]:
+            - generic [ref=e272]: Assurance SUPER DUKE R
+            - img [ref=e273]
+      - link "Précédent" [ref=e276] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - img [ref=e278]
+        - text: Précédent
+    - generic [ref=e279]:
+      - generic [ref=e281]:
+        - generic [ref=e282]:
+          - link "Retourner à l'accueil" [ref=e284] [cursor=pointer]:
+            - /url: /
+            - img [ref=e285]
+          - paragraph [ref=e288]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e290] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e292] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e294] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e295] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5242 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e296]:
+          - generic [ref=e298]:
+            - generic [ref=e300]: A propos d’AMV
+            - generic [ref=e301]:
+              - link "Qui sommes-nous ?" [ref=e303] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e305] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e307] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e309] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e311] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e313] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e315]:
+            - generic [ref=e317]: Liens utiles
+            - generic [ref=e318]:
+              - link "Besoin d’aide ?" [ref=e320] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e322] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e324] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e326] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e328] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e330] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e332]:
+            - generic [ref=e334]: Assurances
+            - generic [ref=e335]:
+              - link "Assurance Moto" [ref=e337] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e339] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e341] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e343] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e345] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e347] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e349] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e351] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e353] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e355]:
+            - generic [ref=e357]: Devis assurance
+            - generic [ref=e358]:
+              - link "Devis assurance moto" [ref=e360] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e362] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e364] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e366] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e368] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e370] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e372] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e374] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e376] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e378] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e380]:
+          - 'link "Aller sur le site : Facebook" [ref=e381] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e382]
+          - 'link "Aller sur le site : Instagram" [ref=e385] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e386]
+          - 'link "Aller sur le site : LinkedIn" [ref=e388] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e389]
+          - 'link "Aller sur le site : Youtube" [ref=e391] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e392]
+      - generic [ref=e395]:
+        - generic [ref=e396]:
+          - link "Mentions légales" [ref=e397] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e398] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e399] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e400] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e401] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e402]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Modifications" [ref=e403] [cursor=pointer]: Modifications
+  - generic [ref=e405]:
+    - text: Ancien contenu retire
+    - text: Hors sujet
+    - text: Nouveau contenu optimise

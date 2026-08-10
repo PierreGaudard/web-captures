@@ -1,0 +1,313 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e4]:
+      - link "Retourner à l'accueil" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img [ref=e7]
+      - generic [ref=e10]:
+        - generic [ref=e12]:
+          - generic [ref=e15] [cursor=pointer]: Nos assurances
+          - img [ref=e16]
+        - link "Besoin d'aide ?" [ref=e20] [cursor=pointer]:
+          - /url: /besoin-daide/
+      - generic [ref=e21]:
+        - link "Retrouver un devis" [ref=e23] [cursor=pointer]:
+          - /url: /retrouver-un-devis/#
+        - generic [ref=e24] [cursor=pointer]:
+          - link "Mon Espace AMV" [ref=e25]:
+            - /url: /mon-espace-amv/
+          - img [ref=e26]
+    - generic [ref=e27]:
+      - generic [ref=e28]:
+        - link "AMV" [ref=e29] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e30]: ">"
+        - link "Assurance moto par constructeur" [ref=e31] [cursor=pointer]:
+          - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - generic [ref=e32]: ">"
+        - generic [ref=e33]: Assurance moto Zontes
+      - generic [ref=e34]:
+        - generic [ref=e36]:
+          - generic [ref=e37]: AMV
+          - heading "Assurance moto Zontes" [level=1] [ref=e38]
+        - img "assurance-ktm" [ref=e39]
+      - generic [ref=e40]:
+        - paragraph [ref=e41]: AMV, spécialiste de l'assurance deux-roues, assure les motos Zontes, des 125 cm³ accessibles dès le permis A1 aux 703 bicylindres, en passant par les 350 compatibles permis A2. Un seul contrat, jusqu'à quatre formules, des options au choix. Le casque, les gants et le gilet airbag sont couverts dès la première formule, et le devis en ligne ne prend que quelques minutes.
+        - list [ref=e42]:
+          - listitem [ref=e43]: "La gamme Zontes est assurable : 125 Urban, Roadster R, Hyper Trail, C2 et Scrambler X, 350 GK et 350 T, 703 T, 703 F Adventure et 703 RR."
+          - listitem [ref=e44]: Jusqu'à quatre formules au choix, selon les modèles, de la Responsabilité civile à la formule Tous risques.
+          - listitem [ref=e45]: La garantie Dommages collision permet une couverture renforcée en maîtrisant votre budget.
+          - listitem [ref=e46]: "Le tarif est personnalisé : modèle, cylindrée, date de première mise en circulation, lieu de stationnement, niveau de couverture et sinistralité déclarée."
+          - listitem [ref=e47]: Devis en ligne gratuit, souscription rapide avec peu de justificatifs.
+        - heading "Zontes, la marque chinoise qui monte sur le marché français" [level=2] [ref=e48]
+        - paragraph [ref=e49]: "Zontes est la marque moto du groupe industriel chinois Guangdong Tayo Motorcycle Technology, fondé en 2003. Elle est distribuée en France par GD France, distributeur exclusif depuis 2019, et s'appuie aujourd'hui sur plus de 130 concessions en France métropolitaine et en Outre-mer. Son positionnement tient en peu de mots : des 125, des 350 et des 703 richement dotées, avec écran TFT couleur, démarrage sans clé ou bulle réglable selon les versions, à des tarifs inférieurs à ceux des constructeurs européens."
+        - paragraph [ref=e50]: "Une gamme récente et technologique, qui s'assure comme n'importe quelle autre moto : la couverture d'une Zontes se choisit selon sa valeur, sa fréquence d'utilisation et votre budget, pas par défaut."
+        - heading "Quelle assurance selon votre modèle Zontes ?" [level=2] [ref=e51]
+        - paragraph [ref=e52]: "Chaque famille de modèles répond à des besoins différents, et le choix de la formule dépend surtout de la valeur de votre moto :"
+        - list [ref=e53]:
+          - listitem [ref=e54]: "Les 125 cm³, de la 125 Urban à la 125 Scrambler X en passant par la 125 Roadster R : des motos souvent utilisées en ville et stationnées sur la voie publique."
+          - listitem [ref=e55]: La 125 Hyper Trail et la 125 C2, dans un registre plus trail et néo-rétro, avec les mêmes contraintes de stationnement.
+          - listitem [ref=e56]: "Les 350, comme la 350 GK et la 350 T, accessibles dès le permis A2 sans bridage : des machines polyvalentes, utilisées au quotidien comme sur route."
+          - listitem [ref=e57]: Les 703, comme la 703 T et la 703 F Adventure, taillées pour les longs trajets et les voyages, et dont la valeur plus élevée justifierait en général une couverture plus complète.
+          - listitem [ref=e58]: La 703 RR, la sportive de la gamme, pour laquelle l'assurance est accessible si vous avez plus de 30 ans ou des antécédents d'assurance.
+        - paragraph [ref=e59]: Vous roulez sur piste ? Le roulage libre sur circuit est assuré ; la compétition, en revanche, n'est couverte par aucune garantie.
+        - heading "Quel permis pour conduire une Zontes ?" [level=2] [ref=e60]
+        - paragraph [ref=e61]: La gamme se répartit sur trois niveaux de permis, ce qui explique en partie son succès auprès des nouveaux motards.
+        - paragraph [ref=e62]: Une 125 cm³ se conduit avec le permis A1, mais également avec le permis B détenu depuis au moins 2 ans, après une formation de 7 heures. Les 350, elles, sont accessibles dès le permis A2 sans bridage, puisqu'elles restent sous la limite de 35 kW. Les 703 existent en version bridée à 35 kW pour le permis A2, contre 55 kW en version libre, la puissance complète étant réservée aux titulaires du permis A ou aux motards passés par la passerelle.
+        - table [ref=e63]:
+          - rowgroup [ref=e64]:
+            - row "Modèle Zontes Type Cylindrée Permis" [ref=e65]:
+              - columnheader "Modèle Zontes" [ref=e66]
+              - columnheader "Type" [ref=e67]
+              - columnheader "Cylindrée" [ref=e68]
+              - columnheader "Permis" [ref=e69]
+          - rowgroup [ref=e70]:
+            - row "125 Urban Roadster 125 cm³ A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e71]:
+              - cell "125 Urban" [ref=e72]
+              - cell "Roadster" [ref=e73]
+              - cell "125 cm³" [ref=e74]
+              - cell "A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e75]
+            - row "125 Roadster R Roadster 125 cm³ A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e76]:
+              - cell "125 Roadster R" [ref=e77]
+              - cell "Roadster" [ref=e78]
+              - cell "125 cm³" [ref=e79]
+              - cell "A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e80]
+            - row "125 Hyper Trail Trail 125 cm³ A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e81]:
+              - cell "125 Hyper Trail" [ref=e82]
+              - cell "Trail" [ref=e83]
+              - cell "125 cm³" [ref=e84]
+              - cell "A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e85]
+            - row "125 C2 Néo-rétro 125 cm³ A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e86]:
+              - cell "125 C2" [ref=e87]
+              - cell "Néo-rétro" [ref=e88]
+              - cell "125 cm³" [ref=e89]
+              - cell "A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e90]
+            - row "125 Scrambler X Scrambler 125 cm³ A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e91]:
+              - cell "125 Scrambler X" [ref=e92]
+              - cell "Scrambler" [ref=e93]
+              - cell "125 cm³" [ref=e94]
+              - cell "A1, ou B depuis 2 ans après une formation de 7 heures" [ref=e95]
+            - row "350 GK Roadster néo-rétro 350 cm³ A2 sans bridage" [ref=e96]:
+              - cell "350 GK" [ref=e97]
+              - cell "Roadster néo-rétro" [ref=e98]
+              - cell "350 cm³" [ref=e99]
+              - cell "A2 sans bridage" [ref=e100]
+            - row "350 T Trail routier 350 cm³ A2 sans bridage" [ref=e101]:
+              - cell "350 T" [ref=e102]
+              - cell "Trail routier" [ref=e103]
+              - cell "350 cm³" [ref=e104]
+              - cell "A2 sans bridage" [ref=e105]
+            - row "703 T Trail-routière 703 cm³ A2 en version bridée à 35 kW, sinon A" [ref=e106]:
+              - cell "703 T" [ref=e107]
+              - cell "Trail-routière" [ref=e108]
+              - cell "703 cm³" [ref=e109]
+              - cell "A2 en version bridée à 35 kW, sinon A" [ref=e110]
+            - row "703 F Adventure Trail 703 cm³ A2 en version bridée à 35 kW, sinon A" [ref=e111]:
+              - cell "703 F Adventure" [ref=e112]
+              - cell "Trail" [ref=e113]
+              - cell "703 cm³" [ref=e114]
+              - cell "A2 en version bridée à 35 kW, sinon A" [ref=e115]
+            - row "703 RR Sportive 703 cm³ A2 en version bridée à 35 kW, sinon A" [ref=e116]:
+              - cell "703 RR" [ref=e117]
+              - cell "Sportive" [ref=e118]
+              - cell "703 cm³" [ref=e119]
+              - cell "A2 en version bridée à 35 kW, sinon A" [ref=e120]
+        - paragraph [ref=e121]: Ces modèles sont tous tarifés par AMV, comme les générations précédentes de la marque, dont les 310 et les 368.
+        - paragraph [ref=e122]:
+          - text: "Dans tous les cas, la formule ne dépend pas du permis : les mêmes garanties s'appliquent à tous les assurés, sans formule réservée aux"
+          - link "jeunes conducteurs" [ref=e123] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-jeune-conducteur/
+          - text: ". Sur les modèles les plus sportifs de la gamme, en revanche, un permis récent reste une limite : l'assurance suppose d'avoir plus de 30 ans ou de justifier d'antécédents d'assurance."
+        - heading "Les formules d'assurance moto Zontes" [level=2] [ref=e124]
+        - paragraph [ref=e125]: "AMV propose les formules de garanties et options adaptées à votre Zontes et à l'usage que vous en faites. Un seul contrat et jusqu'à quatre formules : à vous de choisir selon la valeur de votre moto, sa fréquence d'utilisation et votre budget."
+        - paragraph [ref=e126]: La formule Responsabilité civile, couverture minimale obligatoire, couvre les dommages causés aux tiers lors d'un sinistre responsable. C'est le minimum obligatoire pour rouler sur la route tout en maîtrisant son budget. Elle peut suffire pour une Zontes de faible valeur.
+        - paragraph [ref=e127]: "La formule Vol / Incendie protège en plus votre moto contre le vol et l'incendie, avec une indemnisation à la valeur de remplacement à dire d'expert ou à la valeur à neuf durant les 6 premiers mois. Elle serait à envisager si votre Zontes stationne majoritairement sur la voie publique. À noter également : chez AMV, le gravage du deux-roues, associé à un antivol agréé SRA, permet de diviser la franchise vol par 2."
+        - paragraph [ref=e128]: La formule Dommages collision, la garantie distinctive d'AMV, couvre les dommages causés à votre moto lors d'une collision avec un tiers identifié, déduction faite, en cas de sinistre responsable, de la franchise prévue au contrat. Elle permet une meilleure couverture tout en maîtrisant votre budget.
+        - paragraph [ref=e129]: La formule Tous risques couvre les dommages subis par votre deux-roues quelles que soient les circonstances. Elle serait recommandée pour une Zontes neuve, récente ou financée à crédit.
+        - paragraph [ref=e130]: "Et dès la première formule, votre équipement de pilote est protégé : casque, gants et gilet airbag sont garantis s'ils sont détériorés lors d'un événement couvert."
+        - table [ref=e131]:
+          - rowgroup [ref=e132]:
+            - row "Garantie Couverture" [ref=e133]:
+              - columnheader "Garantie" [ref=e134]
+              - columnheader "Couverture" [ref=e135]
+          - rowgroup [ref=e136]:
+            - row "Responsabilité civile Dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros (sinistre responsable)" [ref=e137]:
+              - cell "Responsabilité civile" [ref=e138]
+              - cell "Dommages corporels illimités, dommages matériels jusqu'à 100 millions d'euros (sinistre responsable)" [ref=e139]
+            - row "Défense pénale et recours suite à accident + Protection juridique Jusqu'à 20 000 € au total" [ref=e140]:
+              - cell "Défense pénale et recours suite à accident + Protection juridique" [ref=e141]
+              - cell "Jusqu'à 20 000 € au total" [ref=e142]
+            - row "Casque, gants, gilet airbag (vétusté déduite) Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 €" [ref=e143]:
+              - cell "Casque, gants, gilet airbag (vétusté déduite)" [ref=e144]
+              - cell "Casque jusqu'à 250 €, gants jusqu'à 70 €, gilet airbag jusqu'à 500 €" [ref=e145]
+            - row "Vol / Incendie Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e146]:
+              - cell "Vol / Incendie" [ref=e147]
+              - cell "Valeur de remplacement à dire d'expert ou valeur à neuf (6 premiers mois)" [ref=e148]
+            - row "Individuelle Pilote (option) Capital jusqu'à 800 000 € en cas d'invalidité permanente ; capital versé aux ayants droit en cas de décès" [ref=e149]:
+              - cell "Individuelle Pilote (option)" [ref=e150]
+              - cell "Capital jusqu'à 800 000 € en cas d'invalidité permanente ; capital versé aux ayants droit en cas de décès" [ref=e151]
+            - row "Option Plus (option) Équipement moto couvert en vol comme en dommages, accessoires hors-série et top case, dans la limite de 5 000 €" [ref=e152]:
+              - cell "Option Plus (option)" [ref=e153]
+              - cell "Équipement moto couvert en vol comme en dommages, accessoires hors-série et top case, dans la limite de 5 000 €" [ref=e154]
+        - paragraph [ref=e155]: La Défense pénale et recours suite à accident, associée à la Protection juridique, vous accompagne en cas de litige lié, notamment à un accident, jusqu'à 20 000 € au total.
+        - heading "Les options pour une protection sur-mesure" [level=2] [ref=e156]
+        - paragraph [ref=e157]: Votre contrat se complète d'options dédiées au pilote et aux équipements, pour ajuster la protection à votre Zontes et à votre pratique.
+        - paragraph [ref=e158]: L'Option Individuelle Pilote vous verse un capital, pouvant aller jusqu'à 800 000 euros en cas d'invalidité permanente, ou à vos ayants droit en cas de décès, même lors d'un accident responsable. Sur une 703 comme sur une 125 du quotidien, cette protection du pilote lui-même prend tout son sens.
+        - paragraph [ref=e159]: "Avec l'Option Plus, votre deux-roues acheté neuf, volé ou détruit suite à un sinistre est remboursé à sa valeur d'achat pendant un an et demi à compter de la date d'achat. L'ensemble de votre équipement moto est couvert en vol comme en dommages, mais également les accessoires hors-série, comme le top case par exemple, dans la limite de 5 000 € : un vrai plus pour une 703 T équipée pour le voyage ou une 125 Scrambler X personnalisée."
+        - paragraph [ref=e160]: "AMV propose aussi une Assistance 0 km en option, pour un dépannage sur mesure : votre moto est dépannée ou remorquée jusqu'à la concession la plus proche, vous et votre passager êtes rapatriés. La crevaison est incluse."
+        - heading "Quel est le prix d'une assurance moto Zontes ?" [level=2] [ref=e161]
+        - paragraph [ref=e162]: "Assurer sa moto n'est pas une option : le code des assurances impose au minimum la Responsabilité civile pour tout véhicule terrestre à moteur. Reste à savoir ce que représente ce coût pour une Zontes."
+        - paragraph [ref=e163]: "Le montant d'une assurance moto Zontes est personnalisé. Il est établi à partir, entre autres, du modèle à assurer, de sa cylindrée, de sa date de première mise en circulation, du lieu de stationnement, du niveau de couverture choisi et de la sinistralité déclarée. À profil identique, une 125 Urban ne s'assurerait donc pas au même tarif qu'une 703 RR, dont la valeur est nettement supérieure. La formule retenue pèse tout autant : une Responsabilité civile revient logiquement moins chère qu'une Tous risques, pour une protection bien moindre en cas de sinistre."
+        - paragraph [ref=e164]: Le devis en ligne AMV, gratuit et sans engagement, vous donne en quelques minutes le tarif de chaque formule pour votre modèle, avant de choisir la couverture qui correspond à votre budget.
+        - heading "Pourquoi assurer votre Zontes chez AMV ?" [level=2] [ref=e165]
+        - paragraph [ref=e166]: AMV, spécialiste de l'assurance deux-roues fondée en 1974 par un passionné de moto, pour les motards, compte plus d'1 million d'assurés et affiche une note de satisfaction de 4,7 sur 5 via Avis Vérifiés. Nos plus de 350 conseillers, basés à Bordeaux, connaissent les spécificités de la gamme Zontes, du monocylindre 125 aux bicylindres 703, et un conseiller dédié vous suit en cas de sinistre.
+        - paragraph [ref=e167]:
+          - text: "Marque récente sur le marché français, Zontes n'est pas toujours référencée chez les assureurs généralistes : chez AMV, chaque modèle de la gamme l'est, pour un devis précis en quelques clics. Souscrire prend peu de temps : un devis en ligne gratuit, peu de justificatifs là où d'autres assureurs réclament davantage de pièces, et une couverture qui peut prendre effet immédiatement, sous réserve de certaines conditions. Si vous le souhaitez, vous pouvez ensuite gérer votre contrat en toute autonomie depuis Mon Espace AMV. Découvrez également notre"
+          - link "assurance moto" [ref=e168] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance/moto/
+          - text: pour
+          - link "l'ensemble des constructeurs" [ref=e169] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-par-constructeur/
+          - text: .
+      - generic [ref=e170]:
+        - heading "Questions fréquentes sur l'assurance moto Zontes" [level=2] [ref=e171]
+        - heading "Quel est le prix d'une assurance pour une Zontes 125 ou une 703 ?" [level=3] [ref=e172]
+        - paragraph [ref=e173]: "Il n'existe pas de tarif unique : chaque cotisation est calculée selon, notamment, le modèle, sa cylindrée, sa date de première mise en circulation, le lieu de stationnement, le niveau de couverture et la sinistralité déclarée. Une 125 Urban se situe en général sur des niveaux de tarif plus abordables qu'une 703 F Adventure ou une 703 RR. Le devis en ligne vous donne un tarif personnalisé pour votre Zontes en quelques minutes."
+        - heading "Quelle assurance choisir pour une Zontes ?" [level=3] [ref=e174]
+        - paragraph [ref=e175]: Le choix dépend surtout de la valeur de votre moto. Pour une Zontes de faible valeur, la formule Responsabilité civile peut suffire. Pour un modèle neuf, récent ou financé à crédit, la formule Tous risques offrirait la protection la plus complète. Entre les deux, la formule Vol / Incendie serait pertinente si votre moto stationne majoritairement dehors, et la formule Dommages collision renforce votre couverture en cas d'accident avec un tiers identifié, tout en maîtrisant votre budget.
+        - heading "Peut-on assurer une Zontes 125 avec le permis B ?" [level=3] [ref=e176]
+        - paragraph [ref=e177]: "Oui. Une 125 cm³ se conduit avec le permis A1, A2 ou A, mais également avec le permis B détenu depuis au moins 2 ans, après une formation de 7 heures. Elle s'assure alors comme n'importe quelle 125. Le tarif reste personnalisé, sans formule spécifique aux jeunes conducteurs : les mêmes garanties s'appliquent à tous les assurés."
+        - heading "Une Zontes 703 bridée en A2 s'assure-t-elle comme une 703 non bridée ?" [level=3] [ref=e178]
+        - paragraph [ref=e179]:
+          - text: Les 703 existent en version bridée à 35 kW pour le
+          - link "permis A2" [ref=e180] [cursor=pointer]:
+            - /url: https://www.amv.fr/assurance-moto/assurance-moto-permis-a2/
+          - text: ", contre 55 kW en version libre, et les mêmes formules restent disponibles dans les deux cas. Signalez simplement la version que vous conduisez au moment du devis. Seule la 703 RR, la sportive de la gamme, suppose d'avoir plus de 30 ans ou des antécédents d'assurance."
+        - heading "Faut-il fournir beaucoup de documents pour assurer une Zontes ?" [level=3] [ref=e181]
+        - paragraph [ref=e182]: "Non. La souscription chez AMV demande peu de justificatifs, là où d'autres assureurs en réclament davantage. Le permis, la carte grise ou le relevé d'information ne sont pas des pièces à fournir en tant que telles : ce sont les renseignements qu'ils contiennent qui sont nécessaires pour établir votre tarif. Vous recevez ensuite votre attestation d'assurance par e-mail."
+      - link "Précédent" [ref=e185] [cursor=pointer]:
+        - /url: /assurance-moto/assurance-moto-par-constructeur/
+        - img [ref=e187]
+        - text: Précédent
+    - generic [ref=e188]:
+      - generic [ref=e190]:
+        - generic [ref=e191]:
+          - link "Retourner à l'accueil" [ref=e193] [cursor=pointer]:
+            - /url: /
+            - img [ref=e194]
+          - paragraph [ref=e197]:
+            - text: Leader de l'
+            - link "assurance moto et scooter" [ref=e199] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx
+            - text: ", AMV propose en ligne des solutions d'assurances dédiées aux particuliers :"
+            - link "assurance auto" [ref=e201] [cursor=pointer]:
+              - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+            - text: ", assurance habitation,"
+            - link "assurance moto de collection" [ref=e203] [cursor=pointer]:
+              - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+            - text: ", assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des"
+            - link "constructeurs moto" [ref=e204] [cursor=pointer]:
+              - /url: https://www.amv.fr/moto/assurance-moto/constructeurs.aspx
+            - text: et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5242 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.
+        - generic [ref=e205]:
+          - generic [ref=e207]:
+            - generic [ref=e209]: A propos d’AMV
+            - generic [ref=e210]:
+              - link "Qui sommes-nous ?" [ref=e212] [cursor=pointer]:
+                - /url: /qui-sommes-nous/
+              - link "Avis clients" [ref=e214] [cursor=pointer]:
+                - /url: https://www.avis-verifies.com/avis-clients/amv.fr
+              - link "Avantages AMV" [ref=e216] [cursor=pointer]:
+                - /url: /avantages/
+              - link "Presse" [ref=e218] [cursor=pointer]:
+                - /url: /presse/
+              - link "Nous rejoindre" [ref=e220] [cursor=pointer]:
+                - /url: https://www.amv.fr/rh/recrutement/nous_rejoindre.aspx
+              - link "Agenda" [ref=e222] [cursor=pointer]:
+                - /url: /actus/a-vos-agendas/
+          - generic [ref=e224]:
+            - generic [ref=e226]: Liens utiles
+            - generic [ref=e227]:
+              - link "Besoin d’aide ?" [ref=e229] [cursor=pointer]:
+                - /url: /besoin-daide/
+              - link "Mon Espace AMV" [ref=e231] [cursor=pointer]:
+                - /url: /mon-espace-amv/
+              - link "Loi Hamon" [ref=e233] [cursor=pointer]:
+                - /url: /loi-hamon/
+              - link "AMV Pro" [ref=e235] [cursor=pointer]:
+                - /url: https://www.amvpro.com/assurance-moto/moto_concessionnaire_identification.aspx
+              - link "AMV Sécurité" [ref=e237] [cursor=pointer]:
+                - /url: https://www.amvsecurite.fr/gravage/pages/view/accueil.xhtml
+              - link "AMV Espagne" [ref=e239] [cursor=pointer]:
+                - /url: https://www.amv.es/
+          - generic [ref=e241]:
+            - generic [ref=e243]: Assurances
+            - generic [ref=e244]:
+              - link "Assurance Moto" [ref=e246] [cursor=pointer]:
+                - /url: /assurance/moto/
+              - link "Assurance Scooter" [ref=e248] [cursor=pointer]:
+                - /url: /assurance/scooter/
+              - link "Assurance Quad" [ref=e250] [cursor=pointer]:
+                - /url: /assurance/quad/
+              - link "Assurance Ancien et collection" [ref=e252] [cursor=pointer]:
+                - /url: https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx
+              - link "Assurance Auto" [ref=e254] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx
+              - link "Assurance Prestige" [ref=e256] [cursor=pointer]:
+                - /url: https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx
+              - link "Assurance Scooter des mers" [ref=e258] [cursor=pointer]:
+                - /url: https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp
+              - link "Assurance Camping-car" [ref=e260] [cursor=pointer]:
+                - /url: https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp
+              - link "Assurance Habitation" [ref=e262] [cursor=pointer]:
+                - /url: https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp
+          - generic [ref=e264]:
+            - generic [ref=e266]: Devis assurance
+            - generic [ref=e267]:
+              - link "Devis assurance moto" [ref=e269] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-moto/assurance-moto.aspx
+              - link "Devis assurance moto 125" [ref=e271] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-125cm3/
+              - link "Devis assurance moto 500" [ref=e273] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-500cm3/
+              - link "Devis assurance moto 750" [ref=e275] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-750cm3/
+              - link "Devis assurance 1000" [ref=e277] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-1000cm3/
+              - link "Devis assurance YAMAHA" [ref=e279] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-yamaha/
+              - link "Devis assurance KAWASAKI" [ref=e281] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-kawasaki/
+              - link "Devis assurance HONDA" [ref=e283] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-honda/
+              - link "Devis assurance SUZUKI" [ref=e285] [cursor=pointer]:
+                - /url: /assurance-moto/assurance-moto-suzuki/
+              - link "Devis assurance Scooter" [ref=e287] [cursor=pointer]:
+                - /url: https://www.amv.fr/moto/assurance-scooter/assurance-scooter.aspx
+        - generic [ref=e289]:
+          - 'link "Aller sur le site : Facebook" [ref=e290] [cursor=pointer]':
+            - /url: https://www.facebook.com/AMVAssurance/?locale=fr_FR
+            - img [ref=e291]
+          - 'link "Aller sur le site : Instagram" [ref=e294] [cursor=pointer]':
+            - /url: https://www.instagram.com/amvassurance/?hl=fr
+            - img [ref=e295]
+          - 'link "Aller sur le site : LinkedIn" [ref=e297] [cursor=pointer]':
+            - /url: https://fr.linkedin.com/company/amv-assurance
+            - img [ref=e298]
+          - 'link "Aller sur le site : Youtube" [ref=e300] [cursor=pointer]':
+            - /url: https://www.youtube.com/user/AMVassurance
+            - img [ref=e301]
+      - generic [ref=e304]:
+        - generic [ref=e305]:
+          - link "Mentions légales" [ref=e306] [cursor=pointer]:
+            - /url: /mentions-legales/
+          - link "Protection des données" [ref=e307] [cursor=pointer]:
+            - /url: /protection-des-donnees/
+          - generic [ref=e308] [cursor=pointer]: Gérer mes cookies
+          - link "Copyright" [ref=e309] [cursor=pointer]:
+            - /url: /copyright/
+          - link "Plan du site" [ref=e310] [cursor=pointer]:
+            - /url: /plan-du-site/
+        - generic [ref=e311]: © 2025 AMV Tous droits réservés
+  - text: ;
+  - button "Voir les modifications" [ref=e312] [cursor=pointer]: Voir les modifications

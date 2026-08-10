@@ -1,0 +1,7 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: Aperçus.
+  - generic [ref=e5]:
+    - heading "Aperçus de contenu" [level=1] [ref=e6]
+    - paragraph [ref=e7]: Sélectionnez une page à consulter
+  - contentinfo [ref=e8]: Aperçus de contenu — usage interne / partage client
