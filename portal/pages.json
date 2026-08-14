@@ -121,6 +121,16 @@
       "title": "AMV - Article pilote blog : quel budget pour débuter la moto",
       "description": "Gabarit de blog réel, contenu retravaillé. Bouton en bas à droite pour basculer entre la version proposée et l'article d'origine",
       "url": "https://amv-blog-budget-moto.pages.dev/assurance-moto/budget-pour-debuter-la-moto/"
+    },
+    {
+      "title": "AMV - Assurance moto tous risques (création)",
+      "description": "Nouvelle page garantie, RankShaker 84 vs 73",
+      "url": "https://amv-moto-tous-risques.pages.dev/assurance-moto/assurance-moto-tous-risques/"
+    },
+    {
+      "title": "AMV - Assurance moto piste (création)",
+      "description": "Nouvelle page type, RankShaker 86 vs 82",
+      "url": "https://amv-moto-piste.pages.dev/assurance-moto/assurance-moto-piste/"
     }
   ]
 }
