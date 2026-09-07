@@ -131,6 +131,36 @@
       "title": "AMV - Assurance moto piste (création)",
       "description": "Nouvelle page type, RankShaker 85 vs 82",
       "url": "https://amv-moto-piste.pages.dev/assurance-moto/assurance-moto-piste/"
+    },
+    {
+      "title": "AMV - Assurance moto BMW (réoptimisation)",
+      "description": "Réoptimisation de la page assurance moto BMW : gamme G 310 à R 18, formules, tableau de garanties, options, devis, prix, FAQ. Score RankShaker 86 contre 75 pour le meilleur concurrent. Maquette dans le template AMV, bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-bmw.pages.dev/assurance-moto/assurance-moto-bmw/"
+    },
+    {
+      "title": "AMV - Assurance moto Harley-Davidson (réoptimisation)",
+      "description": "Réoptimisation de la page assurance moto Harley-Davidson : gamme Sport à Grand American Touring, formules, tableau de garanties, accessoires hors-série, devis, prix, FAQ. Score RankShaker 69 contre 68 pour le meilleur concurrent. Maquette dans le template AMV, bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-harley.pages.dev/assurance-moto/assurance-moto-harley-davidson/"
+    },
+    {
+      "title": "AMV - Assurance moto hivernage (création)",
+      "description": "Nouvelle page saisonnière sur l'assurance d'une moto remisée l'hiver. Version corrigée du 07/09 : l'angle repose désormais sur la modulation des garanties selon l'usage, telle qu'AMV l'affiche sur sa page assurance moto, et non sur une suspension de contrat. Obligation d'assurance, garanties acquises, franchise vol, conseils de remisage, FAQ.",
+      "url": "https://amv-moto-hivernage.pages.dev/assurance-moto/assurance-moto-hivernage/"
+    },
+    {
+      "title": "AMV - Assurance moto cross (réoptimisation)",
+      "description": "Réoptimisation de la page assurance moto cross, aujourd'hui sans aucun contenu propre. Version corrigée du 07/09 : âge du pilote et cylindrées, homologuée ou non, garantie protection corporelle en complément de la Responsabilité civile, roulage libre sur circuit et compétition, vol, prix, FAQ.",
+      "url": "https://amv-moto-cross.pages.dev/assurance-moto/assurance-moto-cross/"
+    },
+    {
+      "title": "AMV - Assurance moto Yamaha (réoptimisation)",
+      "description": "Réoptimisation de la page assurance moto Yamaha, gamme MT, R, Ténéré et TMAX. Version corrigée du 07/09 : tableau de garanties aligné sur le descriptif publié par AMV, formule Vol / Incendie, Individuelle Pilote avec ses plafonds réels, options, prix, devis, FAQ.",
+      "url": "https://amv-moto-yamaha.pages.dev/assurance-moto/assurance-moto-yamaha/"
+    },
+    {
+      "title": "AMV - Article blog : intercom moto autorisé ou interdit",
+      "description": "Réoptimisation de l'article oreillettes et intercom. Version corrigée du 07/09 : texte exact de l'article R412-6-1, entrée en vigueur au 28 juin 2015, amende de 135 € et 3 points, suspension de permis depuis le 22 mai 2020, trois exceptions légales, tableau des équipements, couverture assurance précisée.",
+      "url": "https://amv-blog-intercom.pages.dev/assurance-moto/oreillettes-intercom-le-point-sur-ce-qui-est-autorise/"
     }
   ]
 }

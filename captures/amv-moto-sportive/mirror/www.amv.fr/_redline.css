@@ -109,3 +109,25 @@ body.rl-on .rl-faq-new .flex.justify-between.items-center span { color: #176a2c 
 
 /* Vue "page d'origine" : les cadres FAQ ajoutes doivent disparaitre, comme le bloc vert */
 body:not(.rl-on):not(.rl-final) .rl-faq-new { display: none !important; }
+
+/* --- correctif scroll (2026-08-20) -------------------------------------------
+   Un script du site pose la classe `tc-modal-open` sur le body au chargement et
+   ne la retire jamais dans la capture (aucune modale n'existe). Sa regle
+   `body.tc-modal-open{inset:0;position:fixed;overflow:hidden}` bloquait le scroll
+   de toute la maquette. On la neutralise ici : `!important` gagne sur une
+   declaration normale, quel que soit l'ordre de chargement des feuilles. */
+body.tc-modal-open,
+body.tc-modal-open.rl-final,
+body.tc-modal-open.rl-on {
+  position: static !important;
+  inset: auto !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  overflow: visible !important;
+  overflow-y: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
+html { overflow-y: auto !important; }

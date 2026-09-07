@@ -132,3 +132,25 @@ body.rl-final .rl-add a { color: #00a850 !important; text-decoration: underline;
 body.rl-final #rl-toggle .dot { background: #888 !important; }
 body.rl-final .rl-del, body.rl-final .rl-del * { display: none !important; }
 body.rl-on .rl-del { opacity: .45; text-decoration: line-through; background: #fde8e8; }
+
+/* --- correctif scroll (2026-08-20) -------------------------------------------
+   Un script du site pose la classe `tc-modal-open` sur le body au chargement et
+   ne la retire jamais dans la capture (aucune modale n'existe). Sa regle
+   `body.tc-modal-open{inset:0;position:fixed;overflow:hidden}` bloquait le scroll
+   de toute la maquette. On la neutralise ici : `!important` gagne sur une
+   declaration normale, quel que soit l'ordre de chargement des feuilles. */
+body.tc-modal-open,
+body.tc-modal-open.rl-final,
+body.tc-modal-open.rl-on {
+  position: static !important;
+  inset: auto !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  overflow: visible !important;
+  overflow-y: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
+html { overflow-y: auto !important; }

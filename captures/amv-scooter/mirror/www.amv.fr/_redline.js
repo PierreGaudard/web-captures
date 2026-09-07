@@ -670,3 +670,26 @@
   if (document.readyState === 'complete' || document.readyState === 'interactive') init();
   else document.addEventListener('DOMContentLoaded', init);
 })();
+
+/* --- correctif scroll (ajoute le 2026-08-20) ---------------------------------
+   Un script du site ajoute la classe `tc-modal-open` au body au chargement.
+   La regle `body.tc-modal-open{inset:0;position:fixed;overflow:hidden}` verrouille
+   alors le scroll, alors qu'aucune modale n'existe dans la capture. On retire la
+   classe, on neutralise la regle, et un observer la retire si un script la remet. */
+(function(){
+  var css=document.createElement('style');
+  css.textContent='body.tc-modal-open{position:static !important;inset:auto !important;overflow:visible !important;height:auto !important;}';
+  (document.head||document.documentElement).appendChild(css);
+  function unlock(){
+    var b=document.body; if(!b) return;
+    b.classList.remove('tc-modal-open');
+    if(getComputedStyle(b).position==='fixed'){ b.style.setProperty('position','static','important'); b.style.setProperty('overflow','visible','important'); b.style.setProperty('height','auto','important'); }
+  }
+  function watch(){
+    unlock();
+    try{ new MutationObserver(unlock).observe(document.body,{attributes:true,attributeFilter:['class','style']}); }catch(e){}
+  }
+  if(document.body) watch(); else document.addEventListener('DOMContentLoaded',watch);
+  window.addEventListener('load',unlock);
+  setTimeout(unlock,1500); setTimeout(unlock,4000);
+})();

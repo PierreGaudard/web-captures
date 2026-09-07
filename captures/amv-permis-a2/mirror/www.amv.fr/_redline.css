@@ -145,3 +145,25 @@ body:not(.rl-on):not(.rl-final) .ag-new { display: none !important; }
 /* Popup cookies TrustCommander neutralisee (confort de recette) */
 #popin_tc_privacy, .tc-privacy-wrapper, #tc-privacy-wrapper, #privacy-overlay, .tc-privacy-overlay, .tc-privacy-popin, .tc-privacy-banner { display: none !important; visibility: hidden !important; }
 html, body { overflow-y: auto !important; }
+
+/* --- correctif scroll (2026-08-20) -------------------------------------------
+   Un script du site pose la classe `tc-modal-open` sur le body au chargement et
+   ne la retire jamais dans la capture (aucune modale n'existe). Sa regle
+   `body.tc-modal-open{inset:0;position:fixed;overflow:hidden}` bloquait le scroll
+   de toute la maquette. On la neutralise ici : `!important` gagne sur une
+   declaration normale, quel que soit l'ordre de chargement des feuilles. */
+body.tc-modal-open,
+body.tc-modal-open.rl-final,
+body.tc-modal-open.rl-on {
+  position: static !important;
+  inset: auto !important;
+  top: auto !important;
+  left: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  overflow: visible !important;
+  overflow-y: visible !important;
+  height: auto !important;
+  max-height: none !important;
+}
+html { overflow-y: auto !important; }

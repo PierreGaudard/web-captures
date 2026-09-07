@@ -1,0 +1,166 @@
+{
+  "title": "Aperçus de contenu",
+  "subtitle": "Sélectionnez une page à consulter",
+  "pages": [
+    {
+      "title": "AMV - Assurance Moto",
+      "description": "Page assurance moto",
+      "url": "https://amv-assurance-moto.pages.dev/assurance/moto/"
+    },
+    {
+      "title": "AMV - Assurance Moto Permis A2",
+      "description": "Page assurance moto permis A2",
+      "url": "https://amv-permis-a2.pages.dev/assurance-moto/assurance-moto-permis-a2/"
+    },
+    {
+      "title": "AMV - Assurance Scooter",
+      "description": "Page assurance scooter",
+      "url": "https://amv-scooter.pages.dev/assurance/scooter/"
+    },
+    {
+      "title": "AMV - Assurance Quad",
+      "description": "Page assurance quad",
+      "url": "https://amv-quad.pages.dev/assurance/quad/"
+    },
+    {
+      "title": "AMV - Assurance Auto et Moto de Collection",
+      "description": "Page assurance véhicule de collection",
+      "url": "https://amv-collection.pages.dev/legende/vehicule-collection/assurance-voiture-moto-collection"
+    },
+    {
+      "title": "AMV - Assurance Moto Kawasaki",
+      "description": "Page assurance moto Kawasaki",
+      "url": "https://amv-kawasaki.pages.dev/assurance-moto/assurance-moto-kawasaki/"
+    },
+    {
+      "title": "AMV - Assurance Moto Honda",
+      "description": "Avant / après : cliquez sur « Modifications » en bas à droite pour comparer (ancien barré en rouge, nouveau en vert)",
+      "url": "https://amv-honda.pages.dev/assurance-moto/assurance-moto-honda/"
+    },
+    {
+      "title": "AMV - Assurance Scooter Kymco",
+      "description": "Avant / après : cliquez sur « Modifications » en bas à droite pour comparer (ancien barré en rouge, nouveau en vert)",
+      "url": "https://amv-scooter-kymco.pages.dev/assurance-scooter/assurance-scooter-kymco/"
+    },
+    {
+      "title": "AMV - Assurance scooter 125 (avant / après)",
+      "description": "Optimisation SEO de la page assurance scooter 125 : formules détaillées, tableau de garanties, FAQ.",
+      "url": "https://amv-scooter-125.pages.dev/assurance-scooter/assurance-scooter-125cm3/"
+    },
+    {
+      "title": "AMV - Article blog : Label Excellence 2026",
+      "description": "Nouvel article pour la rubrique Actualité Assurance : AMV décroche le Label Excellence 2026 (assurances moto et scooter), mis en forme au design du blog AMV.",
+      "url": "https://amv-label-excellence.pages.dev/actualite-assurance/amv-decroche-le-label-excellence-2026/"
+    },
+    {
+      "title": "AMV - Assurance moto jeune conducteur (avant / après)",
+      "description": "Optimisation SEO de la page assurance moto jeune conducteur : surprime, permis A2, garanties, FAQ.",
+      "url": "https://amv-jeune-conducteur.pages.dev/assurance-moto/assurance-moto-jeune-conducteur/"
+    },
+    {
+      "title": "AMV - Assurance moto 125 (avant / après)",
+      "description": "Refonte complète de la page assurance moto 125 : 4 formules, options, tableau de garanties, permis, FAQ. Avant / après : bouton « Modifications » en bas à droite.",
+      "url": "https://amv-moto-125.pages.dev/assurance-moto/assurance-moto-125cm3/"
+    },
+    {
+      "title": "AMV - Assurance CFMOTO (avant / après)",
+      "description": "Nouveau contenu assurance CFMOTO (moto + quad/SSV) : formules, options, modèles, permis A2, FAQ. Avant / après : bouton « Modifications » en bas à droite.",
+      "url": "https://amv-moto-cfmoto.pages.dev/assurance-moto/assurance-moto-cfmoto/"
+    },
+    {
+      "title": "AMV - Assurance moto sportive (avant / après)",
+      "description": "Refonte de la page assurance moto sportive : formules, options, équipement, jeune conducteur, circuit, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-moto-sportive.pages.dev/assurance-moto/assurance-moto-sportive/"
+    },
+    {
+      "title": "AMV - Assurance TMAX (avant / après)",
+      "description": "Refonte de la page assurance TMAX : générations XP500/530/560, formules, options, vol, permis, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-moto-tmax.pages.dev/assurance-moto/assurance-moto-yamaha/assurance-t-max/"
+    },
+    {
+      "title": "AMV - Assurance scooter 50cc (avant / après)",
+      "description": "Réoptimisation de la page assurance scooter 50cc : permis AM dès 14 ans, obligation d'assurance, 3 formules dédiées 50cc, options, prix, contrôle technique, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-scooter-50.pages.dev/assurance-scooter/assurance-scooter-50cm3/"
+    },
+    {
+      "title": "AMV - Assurance moto KTM (avant / après)",
+      "description": "Réoptimisation de la page assurance moto KTM : gamme Duke/Adventure/EXC/RC, 4 formules, options, prix, jeune permis, circuit, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-moto-ktm.pages.dev/assurance-moto/assurance-moto-ktm/"
+    },
+    {
+      "title": "AMV - Assurance moto Ducati (avant / après)",
+      "description": "Réoptimisation de la page assurance moto Ducati : gamme Monster/Multistrada/Panigale, 4 formules, options, vol, prix, permis A2, FAQ. Avant / après : bouton « Modifications ».",
+      "url": "https://amv-moto-ducati.pages.dev/assurance-moto/assurance-moto-ducati/"
+    },
+    {
+      "title": "AMV - Assurance scooter 3 roues (création)",
+      "description": "Proposition de NOUVELLE page assurance scooter 3 roues (MP3, Metropolis, Tricity) : permis B, 4 formules, options, prix, FAQ. Maquette dans le template AMV.",
+      "url": "https://amv-scooter-3-roues.pages.dev/assurance-scooter/assurance-scooter-3-roues/"
+    },
+    {
+      "title": "AMV - Assurance moto Zontes (création)",
+      "description": "Proposition de NOUVELLE page marque Zontes (125 Urban à 703 RR) : gamme assurable, permis A1/A2 et bridage 35 kW, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-zontes.pages.dev/assurance-moto/assurance-moto-zontes/"
+    },
+    {
+      "title": "AMV - Assurance moto Kove (création)",
+      "description": "Proposition de NOUVELLE page marque Kove (450 Rally, 510X, 800X, NK 125R) : gamme assurable, permis, usage tout-terrain et circuit, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-kove.pages.dev/assurance-moto/assurance-moto-kove/"
+    },
+    {
+      "title": "AMV - Assurance scooter Zontes (création)",
+      "description": "Proposition de NOUVELLE page marque scooter Zontes (125 X et 125 E en 125 cm³, 368 D, 368 E et 368 G ETC en 367 cm³) : gamme assurable, permis A1 et B après formation de 7 heures pour les 125, permis A2 sans bridage pour les 367 cm³, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-scooter-zontes.pages.dev/assurance-scooter/assurance-scooter-zontes/"
+    },
+    {
+      "title": "AMV - Assurance Moto Guzzi (création)",
+      "description": "Proposition de NOUVELLE page marque Moto Guzzi (V7 Stone, Special et Sport, V85 Strada, V85 TT et TT Travel, V100 Mandello et Mandello S, Stelvio) : gamme assurable, gamme intégralement accessible en permis A2 avec les versions bridées à 47,5 ch, 4 formules, options, prix, FAQ. Maquette dans le template AMV, affichée en version finale ; bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-guzzi.pages.dev/assurance-moto/assurance-moto-guzzi/"
+    },
+    {
+      "title": "AMV - Article pilote blog : quel budget pour débuter la moto",
+      "description": "Gabarit de blog réel, contenu retravaillé. Bouton en bas à droite pour basculer entre la version proposée et l'article d'origine",
+      "url": "https://amv-blog-budget-moto.pages.dev/assurance-moto/budget-pour-debuter-la-moto/"
+    },
+    {
+      "title": "AMV - Assurance moto tous risques (création)",
+      "description": "Nouvelle page garantie, RankShaker 86 vs 73",
+      "url": "https://amv-moto-tous-risques.pages.dev/assurance-moto/assurance-moto-tous-risques/"
+    },
+    {
+      "title": "AMV - Assurance moto piste (création)",
+      "description": "Nouvelle page type, RankShaker 85 vs 82",
+      "url": "https://amv-moto-piste.pages.dev/assurance-moto/assurance-moto-piste/"
+    },
+    {
+      "title": "AMV - Assurance moto BMW (réoptimisation)",
+      "description": "Réoptimisation de la page assurance moto BMW : gamme G 310 à R 18, formules, tableau de garanties, options, devis, prix, FAQ. Score RankShaker 86 contre 75 pour le meilleur concurrent. Maquette dans le template AMV, bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-bmw.pages.dev/assurance-moto/assurance-moto-bmw/"
+    },
+    {
+      "title": "AMV - Assurance moto Harley-Davidson (réoptimisation)",
+      "description": "Réoptimisation de la page assurance moto Harley-Davidson : gamme Sport à Grand American Touring, formules, tableau de garanties, accessoires hors-série, devis, prix, FAQ. Score RankShaker 69 contre 68 pour le meilleur concurrent. Maquette dans le template AMV, bouton « Voir les modifications » pour distinguer le nouveau contenu.",
+      "url": "https://amv-moto-harley.pages.dev/assurance-moto/assurance-moto-harley-davidson/"
+    },
+    {
+      "title": "AMV - Assurance moto hivernage (création)",
+      "description": "Nouvelle page saisonnière sur l'assurance d'une moto remisée l'hiver. Suspension des effets du contrat, garanties qui restent acquises, franchise vol, conseils de remisage, FAQ. Score corpus 91 contre 77 pour le meilleur concurrent. Maquette dans le template AMV.",
+      "url": "https://amv-moto-hivernage.pages.dev/assurance-moto/assurance-moto-hivernage/"
+    },
+    {
+      "title": "AMV - Assurance moto cross (réoptimisation)",
+      "description": "Réoptimisation de la page assurance moto cross, aujourd'hui sans aucun contenu propre. Homologuée ou non, formule Responsabilité civile dédiée, roulage libre sur circuit et compétition, vol, prix, FAQ. Score corpus 88 contre 71. Maquette dans le template AMV.",
+      "url": "https://amv-moto-cross.pages.dev/assurance-moto/assurance-moto-cross/"
+    },
+    {
+      "title": "AMV - Assurance moto Yamaha (réoptimisation)",
+      "description": "Réoptimisation de la page assurance moto Yamaha, gamme MT, R, Ténéré et TMAX, formules, tableau de garanties retourné, options, prix, devis, FAQ. Score corpus 93 contre 86. Le levier principal est le CTR, title et meta proposés dans la note.",
+      "url": "https://amv-moto-yamaha.pages.dev/assurance-moto/assurance-moto-yamaha/"
+    },
+    {
+      "title": "AMV - Article blog : intercom moto autorisé ou interdit",
+      "description": "Réoptimisation de l'article oreillettes et intercom. Texte exact de l'article R412-6-1, amende de 135 € et 3 points, suspension de permis depuis 2020, trois exceptions légales, tableau des équipements, couverture assurance. Score corpus 81 contre 60.",
+      "url": "https://amv-blog-intercom.pages.dev/assurance-moto/oreillettes-intercom-le-point-sur-ce-qui-est-autorise/"
+    }
+  ]
+}
