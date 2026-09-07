@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=2">
         
 
-<title>Assurance moto hivernage | AMV</title>
-<meta name="description" content="Comme pour les autres typologies d’assurance moto, le tarif d’une assurance ">
+<title>Assurance moto KTM | AMV</title>
+<meta name="description" content="KTM, marque autrichienne de motos, de vélos et de sports mécaniques">
 <meta name="keywords" content="Assurance moto">
 <meta name="robots" content="index,follow">
 <meta name="language" content="fr">
@@ -57,7 +57,7 @@ chapter1 : '',
 chapter2 : '',
 chapter3 : '',
 level2 : '68',
-page_name : 'seo_moto_type',
+page_name : 'seo_moto_marque_ktm',
 category1 : '12',
 category2 : '0',
 category3 : '0',
@@ -100,7 +100,10 @@ order_o4 : '',
 order_status : ''};
 	</script>
 
-<link rel="stylesheet" href="/_redline.css"></head>
+<link rel="stylesheet" href="/_redline.css">
+<script src="/_redline.js" defer></script>
+<script defer src="/_faq-rattach.js"></script>
+</head>
 <body class="text-gris-dark overflow-x-hidden overflow-y-auto max-w-full">
 <div class="hidden" id="tcInit" data-ca-header-url=https://www.amv.fr/5741/tc_FilhetAllard_22.js data-ca-body-url=https://www.amv.fr/5741/tc_FilhetAllard_20.js></div>
         
@@ -464,8 +467,8 @@ Mon Espace AMV    </a>
     
 <div class="flex gap-1 text-vertamv-normal w-full mt-amv40 mb-amv40 sm:mb-amv80">
             <a href="/" class="underline">AMV</a><span>&gt;</span>	
-            <a href="/assurance-moto/assurance-moto-par-type/" class="underline">Assurance moto par type</a><span>&gt;</span>	
-            <span>Assurance moto hivernage</span>
+            <a href="/assurance-moto/assurance-moto-par-constructeur/" class="underline">Assurance moto par constructeur</a><span>&gt;</span>	
+            <span>Assurance moto KTM</span>
 
 </div>
 
@@ -478,14 +481,14 @@ Mon Espace AMV    </a>
     class="c-section-title pl-7 relative after:absolute after:left-0 after:top-0 after:h-full after:w-[5px] after:bg-vertamv-normal">
     <div class="h5 font-medium text-vertamv-normal mb-1">AMV</div>
         <h1 class="font-semibold text-gris-extradark ">
-                <span class="2xl:whitespace-nowrap">Assurance moto hivernage</span>
+                <span class="2xl:whitespace-nowrap">Assurance KTM</span>
         </@_heading>
 </div>
 
 </div>
 
-            <img data-img-lazy='https://www.amv.fr/media/fycpwge2/comment-choisir-son-assurance-moto-sportive_imageBlockTitre.png'
-                 alt='comment-choisir-son-assurance-moto-sportive'
+            <img data-img-lazy='https://www.amv.fr/media/knnj20al/assurance-ktm_imageBlockTitre.png'
+                 alt='assurance-ktm'
                  loading="lazy" class="lazy-img" height="160" width="360">
     </div>
     <div class="sections mt-amv40">
@@ -493,13 +496,56 @@ Mon Espace AMV    </a>
         
 
 <section class="bg-white border border-gris-normal rounded-xl flex flex-col gap-x-5 md:p-5 p-[1rem] umb-rte section" id="">
-    <h2 class="h4 text-vertamv-normal">Les critères d’une bonne assurance moto sportive</h2>
+    <p>KTM, marque autrichienne de motos, de vélos et de sports mécaniques, trouve ses origines en 1934 sous la dénomination de Kronreif &amp; Trunkenpolz Mattighofen. Aujourd'hui, Pierer Mobility AG opère en tant que fabricant de motos sous la marque KTM, tandis que KTM Fahrrad AG fabrique des vélos estampillés KTM.</p>
+</section>
+        
+
+<section class="bg-white border border-gris-normal rounded-xl flex flex-col gap-x-5 md:p-5 p-[1rem] umb-rte section" id="">
+    <h4 class="referencementTitreModele"><strong><span style="color: rgb(0, 168, 80);">KTM : une épopée mécanique autrichienne, de ses origines humble à la conquête mondiale</span></strong></h4>
 <p>&nbsp;</p>
-<p>Comme pour les autres typologies d’assurance moto, le tarif d’une assurance pour moto sportive dépendra d’une multitude de facteurs : garantie choisie, type de sportive à assurer, date de mise sur le marché, profil du conducteur, ou encore lieu de résidence.</p>
+<p>La renommée de KTM repose principalement sur ses motos tout-terrain (enduro, motocross et supermoto). Depuis la fin des années 1990, la marque s'est diversifiée en produisant des motos de route et en développant des voitures de sport, notamment la X-Bow. En 2015, KTM a vendu presque autant de motos de route que de motos tout-terrain.</p>
 <p>&nbsp;</p>
-<p>La loi vous impose de souscrire à minima une assurance au tiers. Néanmoins, selon la valeur et votre usage de la moto sportive, cette couverture peut s’avérer insuffisante. En effet, vous ne serez pas protégé en cas de vol, d’incendie, de dégâts matériels sur votre machine ou encore en cas d’accident. Selon le prix d’achat de votre moto sportive, il sera judicieux de privilégier l’assurance Vol/Incendie, voire la garantie Tous Risques, pour rouler plus sereinement.</p>
+<p>Histoire :</p>
 <p>&nbsp;</p>
-<p>Selon les caractéristiques de votre moto et les garanties souhaitées, AMV vous propose des offres d’assurance pour moto sportive adaptées à vos besoins réels.</p>
+<p>Les débuts<br>En 1934, l'ingénieur autrichien Johann (Hans) Trunkenpolz (1909-1962) a créé un atelier de montage et de réparation automobile à Mattighofen. En 1937, il a commencé à vendre des motos DKW et des voitures Opel l'année suivante. Son atelier était connu sous le nom de Kraftfahrzeug Trunkenpolz Mattighofen, mais le nom n'était pas enregistré. Pendant la Seconde Guerre mondiale, sa femme gérait l'entreprise, prospérant principalement grâce aux réparations de moteurs diesel.</p>
+<p>&nbsp;</p>
+<p>Après la guerre, la demande de travaux de réparation a chuté, incitant Trunkenpolz à envisager la production de ses propres motos. Le prototype de sa première moto, la R100, a été fabriqué en 1951. Les composants de la moto étaient usinés en interne, à l'exception des moteurs Rotax produits par Fichtel &amp; Sachs. La production en série de la R100 a commencé en 1953, avec seulement 20 employés produisant trois motos par jour.</p>
+<p>&nbsp;</p>
+<p>KTM de 1953 à 1991<br>En 1953, l'homme d'affaires Ernst Kronreif est devenu un important actionnaire de l'entreprise, et qui a dès lors été renommée Kronreif &amp; Trunkenpolz Mattighofen. En 1954, la R125 Tourist a été introduite, suivie par la Grand Tourist et le scooter Mirabell en 1955.</p>
+<p>&nbsp;</p>
+<p>En 1954, KTM remporte son premier titre de champion autrichien en 125cm³. En 1956, KTM fait sa première apparition aux International Six Days Trials, où Egon Dornauer remporte une médaille d'or sur une machine KTM. En 1957, KTM construit sa première moto sportive, la Trophy 125cm³. Le premier cyclomoteur de KTM, nommé Mecky, est lancé en 1957, suivi de Ponny I en 1960 et Ponny II en 1962, puis Comet en 1963. Les années 1960 voient également le début de la production de vélos à Mattighofen.</p>
+<p>&nbsp;</p>
+<p>Ernst Kronreif décède en 1960. Deux ans plus tard, en 1962, Hans Trunkenpolz décède également d'une crise cardiaque. Son fils, Erich Trunkenpolz, prend la direction de l'entreprise.</p>
+<p>&nbsp;</p>
+<p>À mesure que l'entreprise continue de se développer, la main-d'œuvre atteint 400 personnes en 1971, et quarante ans après sa fondation, KTM propose 42 modèles différents. De plus, KTM est en mesure de produire des motos pour l'industrie de la compétition. Au cours des années 1970 et 1980, KTM commence également à développer et produire des moteurs et des radiateurs. Les radiateurs vendus aux constructeurs automobiles européens constituent une part importante des activités de l'entreprise dans les années 1980.</p>
+<p>&nbsp;</p>
+<p>En 1978, la filiale américaine KTM North America Inc. est fondée à Lorain, Ohio. En 1980, l'entreprise est renommée KTM Motor-Fahrzeugbau KG. Un an plus tard, KTM compte environ 700 employés et un chiffre d'affaires de 750 millions de schillings (environ 54,5 millions d'euros). Les activités internationales représentent alors 76% du chiffre d'affaires de l'entreprise.</p>
+<p>&nbsp;</p>
+<p>Le chiffre d'affaires des scooters et cyclomoteurs a chuté rapidement, et la production a dû être interrompue en 1988. Erich Trunkenpolz décède en 1989. La prise de contrôle de 51% de l'entreprise par le trust d'investissement autrichien GIT Trust Holding, contrôlé par l'homme politique autrichien Josef Taus en 1989, a été suivie de tentatives infructueuses pour redresser une entreprise endettée. En 1991, la direction de KTM est transférée à un consortium de banques créancières.</p>
+<p>&nbsp;</p>
+<p>KTM après 1991<br>En 1991, l'entreprise est scindée en quatre entités distinctes : KTM Sportmotorcycle GmbH (division motos), KTM Fahrrad GmbH (division vélos), KTM Kühler GmbH (division radiateurs) et KTM Werkzeugbau GmbH (division outillage).</p>
+<p>&nbsp;</p>
+<p>Désormais propriété de KTM Motorradholding GmbH, formée par Cross Holding (une filiale de Cross Industries), et d'autres investisseurs, KTM Sportmotorcycle GmbH a commencé ses opérations en 1992 et a ensuite repris la division outillage KTM Werkzeugbau. Au fil des années, tout en augmentant régulièrement sa production et son chiffre d'affaires, en investissant dans de nouvelles installations de production et de R&amp;D, en introduisant de nouveaux modèles et en sponsorisant avec succès divers événements sportifs, l'entreprise a subi une série de restructurations et de changements d'actionnaires dirigés par Stefan Pierer, directeur général de KTM et propriétaire de Cross Industries. En 1994, KTM a lancé la production de la série Duke de motos de route, en 1996, les motos tout-terrain KTM ont été habillées pour la première fois de la couleur orange caractéristique de la marque, et en 1997, ce fut l'introduction des motos Supermoto et Adventure à deux cylindres refroidies par liquide. En 2007, l'entreprise a présenté la voiture de sport KTM X-Bow.</p>
+<p>&nbsp;</p>
+<p>En 1995, KTM Motorradholding GmbH a acquis le fabricant suédois de motos Husaberg AB et pris le contrôle de la société néerlandaise White Power Suspension.</p>
+<p>En 2007, le fabricant indien de motos Bajaj Auto a acquis une participation de 14,5% dans KTM Power Sports AG. Après 2013, Bajaj Auto détenait une participation de 47,97% dans l'entreprise.</p>
+<p>&nbsp;</p>
+<p>En 2013, KTM a racheté le fabricant de motos suédois Husqvarna Motorcycles à BMW Motorrad AG. La même année, KTM a réintégré la marque Husaberg dans Husqvarna Motorcycles, à partir de laquelle elle avait été détachée dans les années 1990 lors de la vente de Husqvarna à la société italienne Cagiva.</p>
+<p>&nbsp;</p>
+<p>En tant que résultat final du processus de restructuration, KTM Motorradholding GmbH est devenue KTM AG en 2012. En 2015, KTM a généré un chiffre d'affaires de plus de 1 milliard d'euros et employait 2515 personnes à la fin de cette année-là. Parmi les quatre sociétés distinctes restées après la scission de 1992, trois faisaient à nouveau partie du groupe KTM : KTM Sportmotorcycle GmbH, KTM Werkzeugbau GmbH et KTM Kühler GmbH (aujourd'hui WP Radiators). KTM Fahrrad GmbH (KTM Bike Industries) reste une entreprise indépendante, détenue par des investisseurs chinois. Aujourd'hui, le groupe KTM englobe les marques KTM, Husqvarna Motorcycles et GasGas Motorcycles.</p>
+<p>&nbsp;</p>
+<p>En 2021, Bajaj Auto a vendu 46,5% des actions de KTM à Pierer Mobility AG en échange de 49% des actions de cette dernière, devenant ainsi un actionnaire indirect de KTM. Cette transaction a consolidé davantage la position de KTM sur le marché, illustrant sa capacité à s'adapter et à prospérer dans l'industrie du deux-roues. L'histoire de KTM est marquée par une ingénierie innovante, un engagement dans la compétition et une expansion stratégique, ce qui en fait une marque emblématique dans le monde des motos et des sports mécaniques.</p>
+</section>
+        
+
+<section class="bg-white border border-gris-normal rounded-xl flex flex-col gap-x-5 md:p-5 p-[1rem] umb-rte section" id="">
+    <h4 class="referencementTitreModele"><strong><span style="color: rgb(0, 168, 80);">Conclusion sur la KTM</span></strong></h4>
+<p>&nbsp;</p>
+<p>En conclusion, l'histoire de KTM est une saga captivante qui dévoile une progression remarquable depuis ses modestes débuts dans un petit atelier autrichien en 1934. Des pionniers visionnaires tels que Hans Trunkenpolz et Ernst Kronreif ont jeté les bases d'une entreprise qui, au fil des décennies, est devenue un géant mondial des deux-roues. Les défis rencontrés, tels que la crise après la Seconde Guerre mondiale et les changements de direction, n'ont fait que renforcer la détermination de KTM à innover et à prospérer. L'évolution de la production, des motos tout-terrain aux motos de route emblématiques et aux voitures de sport, témoigne d'une adaptabilité exceptionnelle.</p>
+<p>&nbsp;</p>
+<p>La restructuration de l'entreprise dans les années 1990 a été un tournant crucial, donnant naissance à des entités spécialisées qui ont continué à contribuer au succès global de la marque. Les partenariats stratégiques avec des acteurs majeurs de l'industrie, tels que Bajaj Auto, ont renforcé la position de KTM sur la scène internationale.</p>
+<p>&nbsp;</p>
+<p>Aujourd'hui, en tant que KTM AG, la marque est à la tête d'un groupe prospère comprenant des noms prestigieux tels que Husqvarna Motorcycles et GasGas Motorcycles. Avec une présence mondiale, un engagement continu dans la compétition et une gamme diversifiée de produits, KTM reste un symbole d'excellence autrichienne dans le monde des deux-roues et des sports mécaniques. L'avenir s'annonce prometteur pour cette entreprise emblématique, continuant de marquer l'histoire avec son ingénierie audacieuse et son esprit de compétition inébranlable.</p>
 </section>
 </div>
     </div>
@@ -523,17 +569,17 @@ Mon Espace AMV    </a>
 
 <div class="flex flex-col md:flex-row gap-5 mt-amv20 md:mt-amv40">
     <div class="btn-primary w-fit bg-vertamv-normal relative text-blanc min-w-64 rounded-full disabled:!opacity-60 overflow-hidden transition-all duration-300 text-H5 font-bold py-5 px-7 cursor-pointer group select-none !ring-0 !outline-none">
-        <a href="https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx" target=""
+        <a href="https://www.amv.fr/moto/assurance-moto/moto_entree_vehicule.aspx?extmar=ktm" target=""
            class="flex items-center text-left gap-[5px] w-full disabled:cursor-not-allowed md:text-H5 text-sm leading-none justify-center"
            disabled="false">
-            Testez notre tarif d'assurance pour votre moto
+            Testez notre tarif d'assurance pour votre KTM
         </a>
     </div>
     <div class="btn-secondary bg-blanc text-vertamv-normal hover:bg-vertamv-normal hover:text-blanc min-w-64 rounded-full border border-vertamv-normal  transition-all duration-300 text-H5 font-bold py-5 px-7 cursor-pointer group select-none !ring-0 !outline-none">
         <a href="https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx?rech_devis_memo=1" target=""
            class="flex items-center text-left gap-[5px] w-full disabled:cursor-not-allowed md:text-H5 text-sm leading-none justify-center"
            disabled="false">
-            Retrouver mon devis d'assurance moto
+            Retrouver mon devis d'assurance KTM
         </a>
     </div>
 </div>
@@ -541,6 +587,68 @@ Mon Espace AMV    </a>
 
     <section class="sections my-amv40">
         <h2 class="text-n5 mb-amv20">Questions fréquentes</h2>
+<div class="umb-block-list">
+        
+
+
+<div class="collapse-block flex flex-col transition-all duration-0 opacity-0 open"
+    data-collapse="3043c427"
+    data-lazy-load="Collapse">
+        <div class="flex justify-between items-center">
+            <span class="text-vertamv-normal font-bold select-none">Quand KTM a-t-elle &#xE9;t&#xE9; fond&#xE9;e et par qui ?</span>
+            <svg
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"
+                class="w-6 h-6 text-orange-normal shrink-0">
+                <path fill="currentColor"
+                    d="M14.167 7.642a.834.834 0 0 0-1.175 0L10 10.592l-2.95-2.95a.833.833 0 1 0-1.175 1.183l3.533 3.533a.833.833 0 0 0 1.184 0l3.575-3.533a.833.833 0 0 0 0-1.183Z">
+                </path>
+            </svg>
+        </div>
+        <div id="3043c427" class="collapse-part font-medium flex-col gap-5 hidden umb-rte">
+             <p>KTM a été fondée en 1934 par l'ingénieur autrichien Johann (Hans) Trunkenpolz, établissant ainsi les bases de la marque sous le nom de Kronreif &amp; Trunkenpolz Mattighofen.</p>
+        </div>       
+</div>
+        
+
+
+<div class="collapse-block flex flex-col transition-all duration-0 opacity-0 open"
+    data-collapse="42140139"
+    data-lazy-load="Collapse">
+        <div class="flex justify-between items-center">
+            <span class="text-vertamv-normal font-bold select-none">Quels &#xE9;v&#xE9;nements ont marqu&#xE9; le tournant dans l&#x27;histoire de KTM dans les ann&#xE9;es 1990 ?</span>
+            <svg
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"
+                class="w-6 h-6 text-orange-normal shrink-0">
+                <path fill="currentColor"
+                    d="M14.167 7.642a.834.834 0 0 0-1.175 0L10 10.592l-2.95-2.95a.833.833 0 1 0-1.175 1.183l3.533 3.533a.833.833 0 0 0 1.184 0l3.575-3.533a.833.833 0 0 0 0-1.183Z">
+                </path>
+            </svg>
+        </div>
+        <div id="42140139" class="collapse-part font-medium flex-col gap-5 hidden umb-rte">
+             <p>Les années 1990 ont été marquées par une restructuration majeure, conduisant à la division de l'entreprise en quatre entités distinctes : KTM Sportmotorcycle GmbH (motos), KTM Fahrrad GmbH (vélos), KTM Kühler GmbH (radiateurs) et KTM Werkzeugbau GmbH (outillage).</p>
+        </div>       
+</div>
+        
+
+
+<div class="collapse-block flex flex-col transition-all duration-0 opacity-0 open"
+    data-collapse="0dd9a05c"
+    data-lazy-load="Collapse">
+        <div class="flex justify-between items-center">
+            <span class="text-vertamv-normal font-bold select-none">Quelles acquisitions strat&#xE9;giques ont contribu&#xE9; &#xE0; l&#x27;expansion internationale de KTM ?</span>
+            <svg
+                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20"
+                class="w-6 h-6 text-orange-normal shrink-0">
+                <path fill="currentColor"
+                    d="M14.167 7.642a.834.834 0 0 0-1.175 0L10 10.592l-2.95-2.95a.833.833 0 1 0-1.175 1.183l3.533 3.533a.833.833 0 0 0 1.184 0l3.575-3.533a.833.833 0 0 0 0-1.183Z">
+                </path>
+            </svg>
+        </div>
+        <div id="0dd9a05c" class="collapse-part font-medium flex-col gap-5 hidden umb-rte">
+             <p>En 2007, Bajaj Auto a acquis une participation importante dans KTM Power Sports AG, renforçant ainsi la présence internationale de KTM. De plus, les acquisitions de Husaberg AB et Husqvarna Motorcycles ont élargi la portée de la marque sur le marché mondial des deux-roues.</p>
+        </div>       
+</div>
+</div>
         <div class="umb-block-list mt-5">
             
     <div class="collapse-block flex flex-col transition-all duration-0 opacity-0 open"
@@ -618,11 +726,11 @@ Mon Espace AMV    </a>
 
 
         <section class="mt-amv40 flex flex-col gap-[10px]">
-            <h2 class="text-n5 mb-amv20">Assurance moto par type</h2>
-                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-comparatif/">
+            <h2 class="text-n5 mb-amv20">Assurance pour les mod&#xE8;les KTM</h2>
+                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-ktm/assurance-125-duke/">
                     <span class="flex justify-between items-center gap-2">
                         <span class="text-vertamv-normal font-medium">
-                            Assurance moto comparatif
+                            Assurance 125 DUKE
                         </span>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 20 20"
@@ -633,10 +741,10 @@ Mon Espace AMV    </a>
                         </svg>
                     </span>
                 </a>
-                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-courtier/">
+                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-ktm/assurance-390-duke/">
                     <span class="flex justify-between items-center gap-2">
                         <span class="text-vertamv-normal font-medium">
-                            Assurance moto courtier
+                            Assurance 390 DUKE
                         </span>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 20 20"
@@ -647,10 +755,10 @@ Mon Espace AMV    </a>
                         </svg>
                     </span>
                 </a>
-                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-cross/">
+                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-ktm/assurance-640-duke-2/">
                     <span class="flex justify-between items-center gap-2">
                         <span class="text-vertamv-normal font-medium">
-                            Assurance moto cross
+                            Assurance 640 DUKE 2
                         </span>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 20 20"
@@ -661,10 +769,10 @@ Mon Espace AMV    </a>
                         </svg>
                     </span>
                 </a>
-                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-de-collection/">
+                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-ktm/assurance-890-adventure-r/">
                     <span class="flex justify-between items-center gap-2">
                         <span class="text-vertamv-normal font-medium">
-                            Assurance moto de collection
+                            Assurance 890 ADVENTURE R
                         </span>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 20 20"
@@ -675,10 +783,52 @@ Mon Espace AMV    </a>
                         </svg>
                     </span>
                 </a>
-                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-enduro/">
+                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-ktm/assurance-990-super-duke/">
                     <span class="flex justify-between items-center gap-2">
                         <span class="text-vertamv-normal font-medium">
-                            Assurance moto enduro
+                            Assurance 990 SUPER DUKE
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none" viewBox="0 0 20 20"
+                             class="w-6 h-6 md:w-4 md:h-4 text-orange-normal shrink-0 -mr-2 -rotate-90">
+                            <path fill="currentColor"
+                                  d="M14.167 7.642a.834.834 0 0 0-1.175 0L10 10.592l-2.95-2.95a.833.833 0 1 0-1.175 1.183l3.533 3.533a.833.833 0 0 0 1.184 0l3.575-3.533a.833.833 0 0 0 0-1.183Z">
+                            </path>
+                        </svg>
+                    </span>
+                </a>
+                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-ktm/assurance-exc/">
+                    <span class="flex justify-between items-center gap-2">
+                        <span class="text-vertamv-normal font-medium">
+                            Assurance EXC
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none" viewBox="0 0 20 20"
+                             class="w-6 h-6 md:w-4 md:h-4 text-orange-normal shrink-0 -mr-2 -rotate-90">
+                            <path fill="currentColor"
+                                  d="M14.167 7.642a.834.834 0 0 0-1.175 0L10 10.592l-2.95-2.95a.833.833 0 1 0-1.175 1.183l3.533 3.533a.833.833 0 0 0 1.184 0l3.575-3.533a.833.833 0 0 0 0-1.183Z">
+                            </path>
+                        </svg>
+                    </span>
+                </a>
+                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-ktm/assurance-rc-8c/">
+                    <span class="flex justify-between items-center gap-2">
+                        <span class="text-vertamv-normal font-medium">
+                            Assurance RC 8C
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                             fill="none" viewBox="0 0 20 20"
+                             class="w-6 h-6 md:w-4 md:h-4 text-orange-normal shrink-0 -mr-2 -rotate-90">
+                            <path fill="currentColor"
+                                  d="M14.167 7.642a.834.834 0 0 0-1.175 0L10 10.592l-2.95-2.95a.833.833 0 1 0-1.175 1.183l3.533 3.533a.833.833 0 0 0 1.184 0l3.575-3.533a.833.833 0 0 0 0-1.183Z">
+                            </path>
+                        </svg>
+                    </span>
+                </a>
+                <a class="bg-blanc px-5 py-3 rounded-full flex flex-col gap-4 cursor-pointer border border-gris-normal md:hover:shadow-xl hover:translate-x-4 transition-all duration-300" href="/assurance-moto/assurance-moto-ktm/assurance-super-duke-r/">
+                    <span class="flex justify-between items-center gap-2">
+                        <span class="text-vertamv-normal font-medium">
+                            Assurance SUPER DUKE R
                         </span>
                         <svg xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 20 20"
@@ -695,7 +845,7 @@ Mon Espace AMV    </a>
 
 <div class="mt-amv20 sm:mt-amv60">
     <div class="text-vertamv-normal text-base hover:text-vertamv-dark transition-colors disabled:opacity-60 !p-0 -ml-[5px] leading-none text-H5 font-bold py-5 px-7 cursor-pointer group select-none !ring-0 !outline-none">
-        <a href="/assurance-moto/assurance-moto-par-type/"
+        <a href="/assurance-moto/assurance-moto-par-constructeur/"
            class="flex items-center text-left gap-[5px] w-full disabled:cursor-not-allowed md:text-H5 text-sm leading-none justify-center"
            disabled="false">
             <div class="group-hover:translate-x-1 duration-500 text-orange-normal group-hover:text-orange-dark flex items-center">
@@ -730,7 +880,7 @@ Mon Espace AMV    </a>
                                     </path>
                                 </g>
                             </svg></a></div>
-                    <div class="text-xs leading-5 mt-10 text-center lg:text-justify md:hyphens-auto mb-amv40 lg:mb-0 umb-rte"><p>Leader de l'<span style="color: rgb(52, 62, 67);"><a style="color: rgb(52, 62, 67);" href="https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx">assurance moto et scooter</a></span>, AMV propose en ligne des solutions d'assurances dédiées aux particuliers : <span style="color: rgb(52, 62, 67);"><a style="color: rgb(52, 62, 67);" href="https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx">assurance auto</a></span>, assurance habitation, <span style="color: rgb(52, 62, 67);"><a style="color: rgb(52, 62, 67);" href="https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx">assurance moto de collection</a></span>, assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des <a href="https://www.amv.fr/moto/assurance-moto/constructeurs.aspx"><span style="color: rgb(52, 62, 67);">constructeurs moto</span></a> et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5356 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.</p></div>
+                    <div class="text-xs leading-5 mt-10 text-center lg:text-justify md:hyphens-auto mb-amv40 lg:mb-0 umb-rte"><p>Leader de l'<span style="color: rgb(52, 62, 67);"><a style="color: rgb(52, 62, 67);" href="https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx">assurance moto et scooter</a></span>, AMV propose en ligne des solutions d'assurances dédiées aux particuliers : <span style="color: rgb(52, 62, 67);"><a style="color: rgb(52, 62, 67);" href="https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx">assurance auto</a></span>, assurance habitation, <span style="color: rgb(52, 62, 67);"><a style="color: rgb(52, 62, 67);" href="https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx">assurance moto de collection</a></span>, assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des <a href="https://www.amv.fr/moto/assurance-moto/constructeurs.aspx"><span style="color: rgb(52, 62, 67);">constructeurs moto</span></a> et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5242 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.</p></div>
                 </div>
                 
                     <div class="flex flex-col md:grid grid-cols-2 grid-rows-2 lg:grid-rows-8 justify-center md:justify-start mb-3 md:mb-0 mt-0 md:mt-amv20 lg:mt-0 col-span-1 lg:col-span-6 gap-amv20 lg:gap-y-amv40 lg:ml-amv40">
@@ -1119,9 +1269,7 @@ Plan du site    </a>
     </div>
 </footer>
     </main>
-<script src="/_redline.js" defer></script>
-<script defer src="/_retours-agnes.js"></script>
-<script defer src="/_faq-rattach.js"></script></body>
+</body>
 
     <link rel="stylesheet" href="/css/pages/pageSEO.css?v=Bx57T7bPiwkaH9MaR50aGokcA48Z3bSL6HEyWj0cm5U">
 

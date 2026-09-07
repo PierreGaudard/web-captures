@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=2">
         
 
-<title>Assurance moto hivernage | AMV</title>
+<title>Assurance moto sportive | AMV</title>
 <meta name="description" content="Comme pour les autres typologies d’assurance moto, le tarif d’une assurance ">
 <meta name="keywords" content="Assurance moto">
 <meta name="robots" content="index,follow">
@@ -465,7 +465,7 @@ Mon Espace AMV    </a>
 <div class="flex gap-1 text-vertamv-normal w-full mt-amv40 mb-amv40 sm:mb-amv80">
             <a href="/" class="underline">AMV</a><span>&gt;</span>	
             <a href="/assurance-moto/assurance-moto-par-type/" class="underline">Assurance moto par type</a><span>&gt;</span>	
-            <span>Assurance moto hivernage</span>
+            <span>Assurance moto sportive</span>
 
 </div>
 
@@ -478,7 +478,9 @@ Mon Espace AMV    </a>
     class="c-section-title pl-7 relative after:absolute after:left-0 after:top-0 after:h-full after:w-[5px] after:bg-vertamv-normal">
     <div class="h5 font-medium text-vertamv-normal mb-1">AMV</div>
         <h1 class="font-semibold text-gris-extradark ">
-                <span class="2xl:whitespace-nowrap">Assurance moto hivernage</span>
+                <span class="2xl:whitespace-nowrap">Comment choisir son</span>
+                    <br class="hidden md:block">
+                <span class="2xl:whitespace-nowrap">assurance moto sportive ?</span>
         </@_heading>
 </div>
 
