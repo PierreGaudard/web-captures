@@ -96,6 +96,42 @@ def localise_assets(h, root):
     return h
 
 
+def clean_head(h):
+    """Retire meta description, canonical et meta robots AVANT le parsing.
+
+    A ne surtout pas faire avec BeautifulSoup : sur le hub, html.parser imbrique
+    le <meta name="robots"> de facon a ce qu'il contienne le reste du <head>, et
+    un decompose() emporte alors la CSS du theme et les 5 blocs <style> avec lui
+    (6 241 caracteres perdus en silence, page servie sans aucun style).
+    """
+    h = re.sub(r'<meta\s[^>]*name=[\'"]description[\'"][^>]*>', "", h, flags=re.I)
+    h = re.sub(r'<meta\s[^>]*name=[\'"]robots[\'"][^>]*>', "", h, flags=re.I)
+    h = re.sub(r'<link\s[^>]*rel=[\'"]canonical[\'"][^>]*>', "", h, flags=re.I)
+    return h
+
+
+DA_ATTENDUE = (
+    "wp-content/themes/amv/style.css",
+    "wp-content/themes/amv/mobile.css",
+    "fonts/montserrat.css",
+    "wp-content/themes/amv/img/logo-amv.png",
+)
+
+
+def check_da(h):
+    """Garde-fou : la page doit toujours porter la DA du theme AMV.
+
+    Sans ce controle, une suppression de balise mal placee sort une page servie
+    sans feuille de style, ce qui ne se voit qu'a la capture d'ecran.
+    """
+    manquant = [a for a in DA_ATTENDUE if a not in h]
+    if manquant:
+        print("DA INCOMPLETE, manquant :", *manquant, sep="\n  ")
+        return False
+    print("DA du theme AMV : style.css, mobile.css, Montserrat et logo presents -> OK")
+    return True
+
+
 def report_externals(h):
     ext = {e for e in re.findall(r'(?:src|href)="(https?://[^"]+|//[^"]+)"', h)
            if "amv.fr" not in e and "schema.org" not in e and "legifrance" not in e

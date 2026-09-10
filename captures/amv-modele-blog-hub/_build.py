@@ -180,7 +180,7 @@ def main():
         shutil.copy(ASSETS / f, ROOT / f)
 
     print("2. page live")
-    soup = BeautifulSoup(da.get(SOURCE), "html.parser")
+    soup = BeautifulSoup(da.clean_head(da.get(SOURCE)), "html.parser")
 
     cartes = soup.select(".loop-content .loop-entry")
     print(f"   {len(cartes)} cartes")
@@ -196,13 +196,8 @@ def main():
     # --- head ---
     if soup.title:
         soup.title.string = TITLE_TAG
-    for t in soup.find_all("meta", attrs={"name": "description"}):
-        t.decompose()
-    for t in soup.find_all("link", rel="canonical"):
-        t.decompose()
-    # le theme sort deja un meta robots partiel : on le retire pour ne pas en avoir deux
-    for t in soup.find_all("meta", attrs={"name": "robots"}):
-        t.decompose()
+    # description, canonical et robots ont deja ete retires du HTML brut par
+    # da.clean_head() : les retirer via bs4 casse le head de cette page.
     head = soup.head
     head.append(BeautifulSoup(f"""
 <meta name="description" content="{META_DESC}" />
@@ -359,7 +354,7 @@ def main():
     (ROOT / "_redirects").write_text(f"/    /{PAGE_PATH}    302\n")
 
     print("5. controles")
-    ok = da.balance_check(h)
+    ok = da.balance_check(h) and da.check_da(h)
     print("h1:", len(re.findall(r"<h1[ >]", h)), "| h2:", len(re.findall(r"<h2[ >]", h)),
           "| h3:", len(re.findall(r"<h3[ >]", h)))
     print("blocs annotes:", len(re.findall(r'data-crit="', h)),

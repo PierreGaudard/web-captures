@@ -519,7 +519,7 @@ def main():
     (ROOT / "_redirects").write_text(f"/    /{PAGE_PATH}    302\n")
 
     print("4. controles")
-    ok = da.balance_check(h)
+    ok = da.balance_check(h) and da.check_da(h)
     print("h1:", len(re.findall(r"<h1[ >]", h)), "| h2:", len(re.findall(r"<h2[ >]", h)),
           "| h3:", len(re.findall(r"<h3[ >]", h)))
     print("blocs annotes:", len(re.findall(r'data-crit="', h)))
