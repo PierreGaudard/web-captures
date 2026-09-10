@@ -1,0 +1,10 @@
+{
+  "name": "amv-blog-moderne",
+  "title": "AMV Le Mag - proposition de refonte du blog",
+  "sourceUrl": "https://www.amv.fr/assurance-moto/",
+  "domain": "www.amv.fr",
+  "entryPath": "/assurance-moto/",
+  "capturedAt": "2026-09-10",
+  "note": "Refonte de la zone editoriale du blog : marque editoriale AMV Le Mag, hero editorial, cartes modernes, sommaire collant, barre de progression. En-tete et pied de page d'amv.fr conserves a l'identique, URL inchangees. Inspire de la veille du 10/09/2026 : Vous! (Macif), Liberiders (Mutuelle des Motards), BikeSocial (Bennetts). Deux pages : le hub /assurance-moto/ et l'article /assurance-moto/budget-pour-debuter-la-moto/.",
+  "build": "python3 _build.py"
+}

@@ -111,15 +111,6 @@ def corps():
         )
 
     return f"""
-<div class="crit-banner"{crit(1, "Balises head et données structurées",
-    "title de 60 caractères, meta description de 142, canonical, Open Graph, et un graphe "
-    "JSON-LD BlogPosting + FAQPage + BreadcrumbList + Organization. Aucun de ces éléments "
-    "n'existe aujourd'hui sur le blog.")}>
-  <b>Modèle de gabarit.</b> La structure de cette page est la proposition&nbsp;; le contenu est celui
-  de l'article pilote « budget pour débuter la moto ». Le bouton en bas à droite affiche les
-  critères SEO et GEO élément par élément.
-</div>
-
 <div class="thumb-post"{crit(4, "Image de mise en avant",
     "1 600 px de large, WebP, nom de fichier parlant, alt descriptif, width et height "
     "renseignés et fetchpriority high pour le LCP. Les visuels fournis font aujourd'hui "
@@ -500,6 +491,12 @@ def main():
     for c in ec.find_all(recursive=False):
         if c not in garde:
             c.decompose()
+    ec["data-crit"] = "1"
+    ec["data-crit-titre"] = "Balises head et données structurées"
+    ec["data-crit-txt"] = ("title de 60 caractères, meta description de 142, canonical, Open "
+                           "Graph, et un graphe JSON-LD BlogPosting + FAQPage + BreadcrumbList "
+                           "+ Organization. Aucun de ces éléments n'existe aujourd'hui sur le "
+                           "blog.")
     nouveau = BeautifulSoup(corps(), "html.parser")
     for el in reversed(list(nouveau.children)):
         ec.insert(0, el)

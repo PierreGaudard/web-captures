@@ -1,0 +1,408 @@
+/* ============================================================================
+   AMV Le Mag : proposition de refonte du blog.
+   Charge APRES la feuille du theme AMV, dont elle neutralise les regles dans la
+   zone editoriale uniquement. L'en-tete et le pied de page du site restent ceux
+   d'amv.fr, a l'identique.
+
+   Ce qui change par rapport au blog actuel, et pourquoi (veille du 10/09/2026) :
+   - une marque editoriale nommee, comme "Vous!" chez Macif, "Liberiders" a la
+     Mutuelle des Motards et "BikeSocial" chez Bennetts ;
+   - la fin des majuscules partout : aujourd'hui H1, H2 et titres de cartes sont
+     tous en capitales, ce qui ecrase la hierarchie ;
+   - un corps de texte lisible, 18 px sur #3f4448, contre 16 px sur #888 ;
+   - la sidebar (onglets Populaires / Recents / Commentaires, nuage
+     d'etiquettes) disparait du hub : aucune des trois references n'en a ;
+   - l'auteur et le temps de lecture remontent au premier plan.
+
+   Palette : le vert et l'orange sont ceux de la charte AMV, le noir et les gris
+   sont neutres. Aucune couleur inventee.
+   ========================================================================= */
+
+:root {
+  --vert: #00aa50;
+  --vert-fonce: #00803c;
+  --vert-pale: #eaf7f0;
+  --orange: #ee8d00;
+  --noir: #101010;
+  --encre: #1c2124;
+  --texte: #3f4448;
+  --gris: #767d83;
+  --doux: #f5f6f7;
+  --bord: #e6e8ea;
+  --r: 14px;
+  --r-s: 10px;
+  --ombre: 0 1px 2px rgba(16, 16, 16, .04), 0 10px 28px rgba(16, 16, 16, .07);
+  --mesure: 720px;
+}
+
+.mag, .mag * { box-sizing: border-box; }
+.mag {
+  font-family: Montserrat, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: var(--texte);
+  background: #fff;
+}
+.mag a { text-decoration: none; color: inherit; }
+.mag img { max-width: 100%; display: block; }
+.mag .wrap { width: 100%; max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+
+/* la zone editoriale ne subit plus les majuscules du theme */
+.mag h1, .mag h2, .mag h3, .mag h4, .mag p, .mag li, .mag a, .mag span, .mag button {
+  text-transform: none;
+}
+.mag h1, .mag h2, .mag h3, .mag h4 { color: var(--noir); margin: 0; line-height: 1.18; }
+.mag p { margin: 0; }
+
+/* ---------- en-tete du site : on laisse la carte du logo deborder ----------
+   .header du theme n'a que des enfants en position absolue, donc une hauteur
+   nulle : sans hauteur explicite, le menu et le logo se superposent au bandeau.
+   La carte blanche du logo fait 191 x 144 px et se cale a 60 px du bord. On lui
+   donne 92 px de hauteur d'en-tete, elle deborde donc de 52 px sur le bandeau
+   noir, et le menu de rubriques du theme cede sa place a celui du Mag. */
+.all-header .header { position: relative; height: 72px; }
+.all-header .header #blog-menu { display: none; }
+
+/* ---------- bandeau de marque editoriale ---------- */
+.mag-band { background: var(--noir); color: #fff; }
+.mag-band .wrap {
+  display: flex; align-items: center; gap: 30px; min-height: 74px; flex-wrap: wrap;
+}
+@media (min-width: 1000px) { .mag .mag-band .wrap { padding-left: 300px; } }
+.mag-band .mark {
+  display: flex; align-items: baseline; gap: 9px;
+  font-size: 19px; font-weight: 800; letter-spacing: -.3px; color: #fff;
+}
+.mag-band .mark em {
+  font-style: normal; color: var(--vert);
+}
+.mag-band nav { display: flex; gap: 22px; flex-wrap: wrap; }
+.mag-band nav a {
+  color: rgba(255, 255, 255, .74); font-size: 13.5px; font-weight: 500;
+  padding: 6px 0; border-bottom: 2px solid transparent;
+}
+.mag-band nav a:hover { color: #fff; }
+.mag-band nav a.on { color: #fff; border-bottom-color: var(--vert); }
+.mag-band .devis {
+  margin-left: auto; background: var(--vert); color: #fff; font-size: 13px;
+  font-weight: 700; padding: 9px 18px; border-radius: 999px;
+}
+.mag-band .devis:hover { background: var(--vert-fonce); }
+
+/* ---------- fil d'ariane ---------- */
+.mag .mag-fil { padding-top: 20px; font-size: 12.5px; color: var(--gris); }
+.mag-fil a { color: var(--gris); }
+.mag-fil a:hover { color: var(--vert); }
+.mag-fil span { margin: 0 7px; color: #c4c9cd; }
+
+/* ---------- titre de rubrique ---------- */
+.mag .mag-tete { padding-top: 22px; padding-bottom: 32px; }
+.mag-tete .sur {
+  display: inline-block; font-size: 11.5px; font-weight: 700; letter-spacing: 1.4px;
+  color: var(--vert); margin-bottom: 12px;
+}
+.mag-tete h1 {
+  font-size: clamp(30px, 4.2vw, 46px); font-weight: 800; letter-spacing: -1px;
+  max-width: 24ch;
+}
+.mag-tete .chapo {
+  margin-top: 16px; max-width: 62ch; font-size: 17px; line-height: 1.62; color: var(--texte);
+}
+.mag-tete .chapo a { color: var(--vert-fonce); text-decoration: underline; text-underline-offset: 2px; }
+.mag-tete .chapo strong { color: var(--noir); font-weight: 600; }
+
+/* ---------- pills de rubriques ---------- */
+.mag-pills { display: flex; gap: 10px; flex-wrap: wrap; margin: 22px 0 0 0; padding: 0; list-style: none; }
+.mag-pills li { margin: 0; }
+.mag-pills a, .mag-pills .off {
+  display: inline-block; padding: 9px 16px; border-radius: 999px;
+  border: 1px solid var(--bord); background: #fff;
+  font-size: 13.5px; font-weight: 600; color: var(--encre);
+}
+.mag-pills a:hover { border-color: var(--noir); background: var(--noir); color: #fff; }
+.mag-pills .off { color: var(--gris); border-style: dashed; cursor: default; }
+.mag-pills .off:after {
+  content: " · à créer"; display: none; color: var(--orange); font-weight: 700; font-size: 11px;
+}
+body.crit-on .mag-pills .off:after { display: inline; }
+
+/* ---------- hero : 1 grande carte + 3 cartes en rail ---------- */
+.mag-hero { display: grid; grid-template-columns: 1.6fr 1fr; gap: 26px; margin: 34px 0 0 0; }
+.mag-une {
+  position: relative; border-radius: var(--r); overflow: hidden; min-height: 430px;
+  display: flex; align-items: flex-end; background: var(--noir);
+}
+.mag-une img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  transition: transform .5s ease;
+}
+.mag-une:hover img { transform: scale(1.03); }
+.mag-une:before {
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background: linear-gradient(to top, rgba(10, 12, 13, .92) 0%, rgba(10, 12, 13, .55) 42%, rgba(10, 12, 13, 0) 78%);
+}
+.mag-une .txt { position: relative; z-index: 2; padding: 30px 32px 28px 32px; color: #fff; }
+.mag-une .lbl {
+  display: inline-block; background: var(--vert); color: #fff; border-radius: 999px;
+  padding: 5px 13px; font-size: 11px; font-weight: 700; letter-spacing: .9px; margin-bottom: 14px;
+}
+.mag-une h2 { color: #fff; font-size: clamp(22px, 2.4vw, 31px); font-weight: 800; letter-spacing: -.5px; }
+.mag-une .meta { margin-top: 12px; font-size: 12.5px; color: rgba(255, 255, 255, .78); font-weight: 500; }
+.mag-une .lire {
+  display: inline-flex; align-items: center; gap: 8px; margin-top: 18px;
+  font-size: 13.5px; font-weight: 700; color: #fff;
+}
+.mag-une .lire i { color: var(--vert); font-size: 11px; }
+
+.mag-rail { display: flex; flex-direction: column; gap: 18px; }
+.mag-mini { display: grid; grid-template-columns: 116px 1fr; gap: 15px; align-items: start; }
+.mag-mini .vig { border-radius: var(--r-s); overflow: hidden; aspect-ratio: 4 / 3; background: var(--doux); }
+.mag-mini .vig img { width: 100%; height: 100%; object-fit: cover; }
+.mag-mini h3 { font-size: 15px; font-weight: 700; line-height: 1.32; }
+.mag-mini:hover h3 { color: var(--vert-fonce); }
+.mag-mini .meta { margin-top: 7px; font-size: 11.5px; color: var(--gris); font-weight: 500; }
+
+/* ---------- grille d'articles ---------- */
+.mag .mag-section { padding-top: 62px; }
+.mag-section > h2 {
+  font-size: 21px; font-weight: 800; letter-spacing: -.4px; margin-bottom: 4px;
+}
+.mag-section > .sous { font-size: 14px; color: var(--gris); margin-bottom: 24px; }
+.mag-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(292px, 1fr)); gap: 30px 26px; }
+.mag-card { display: flex; flex-direction: column; }
+.mag-card .vig {
+  border-radius: var(--r); overflow: hidden; aspect-ratio: 16 / 10; background: var(--doux);
+  margin-bottom: 14px;
+}
+.mag-card .vig img { width: 100%; height: 100%; object-fit: cover; transition: transform .45s ease; }
+.mag-card:hover .vig img { transform: scale(1.04); }
+.mag-card .cat {
+  font-size: 11px; font-weight: 700; letter-spacing: 1.1px; color: var(--vert); margin-bottom: 8px;
+}
+.mag-card h3 { font-size: 17.5px; font-weight: 700; line-height: 1.33; }
+.mag-card:hover h3 { color: var(--vert-fonce); }
+.mag-card .meta { margin-top: 10px; font-size: 12px; color: var(--gris); font-weight: 500; }
+.mag-card .meta b { color: var(--encre); font-weight: 600; }
+
+/* ---------- pagination ---------- */
+.mag-pagi { display: flex; gap: 8px; justify-content: center; align-items: center; margin: 48px 0 0 0; }
+.mag-pagi a, .mag-pagi span {
+  min-width: 42px; height: 42px; display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 999px; border: 1px solid var(--bord); font-size: 14px; font-weight: 600; color: var(--encre);
+}
+.mag-pagi a:hover { border-color: var(--noir); background: var(--noir); color: #fff; }
+.mag-pagi .ici { background: var(--noir); border-color: var(--noir); color: #fff; }
+.mag-pagi .pts { border: 0; color: var(--gris); }
+
+/* ---------- bandeau de maillage produit ---------- */
+.mag-silo { margin: 62px 0 0 0; background: var(--noir); border-radius: var(--r); padding: 40px; color: #fff; }
+.mag-silo h2 { color: #fff; font-size: 24px; font-weight: 800; letter-spacing: -.5px; }
+.mag-silo p { margin-top: 10px; color: rgba(255, 255, 255, .72); font-size: 15px; max-width: 56ch; }
+.mag-silo ul { display: flex; flex-wrap: wrap; gap: 10px; margin: 24px 0 0 0; padding: 0; list-style: none; }
+.mag-silo li { margin: 0; }
+.mag-silo li a {
+  display: inline-flex; align-items: center; gap: 9px; padding: 11px 18px; border-radius: 999px;
+  background: rgba(255, 255, 255, .09); border: 1px solid rgba(255, 255, 255, .16);
+  color: #fff; font-size: 13.5px; font-weight: 600;
+}
+.mag-silo li a:hover { background: var(--vert); border-color: var(--vert); }
+.mag-silo li a i { font-size: 10px; color: var(--vert); }
+.mag-silo li a:hover i { color: #fff; }
+
+/* ---------- FAQ ---------- */
+.mag-faq { margin: 20px 0 0 0; border-top: 1px solid var(--bord); }
+.mag-faq .q { border-bottom: 1px solid var(--bord); }
+.mag-faq .q h3 { margin: 0; }
+.mag-faq .q button {
+  width: 100%; display: flex; justify-content: space-between; align-items: center; gap: 20px;
+  background: none; border: 0; appearance: none; cursor: pointer; text-align: left;
+  padding: 22px 2px; font-family: inherit; font-size: 17px; font-weight: 650; color: var(--noir);
+}
+/* le theme ne declare que chevron-right, chevron-left et circle : on ajoute le
+   glyphe chevron-down dans la fonte Font Awesome 5 Pro deja chargee */
+.mag-faq .q button i.fa-chevron-down:before { content: "\f078"; }
+.mag-faq .q button i { color: var(--vert); font-size: 13px; transition: transform .25s; flex: 0 0 auto; }
+.mag-faq .q.open button i { transform: rotate(180deg); }
+.mag-faq .a { display: none; padding: 0 0 24px 0; max-width: 74ch; }
+.mag-faq .q.open .a { display: block; }
+.mag-faq .a p { font-size: 16px; line-height: 1.68; color: var(--texte); }
+
+/* ---------- pied de rubrique : CTA ---------- */
+.mag-cta-band {
+  margin: 62px 0 70px 0; background: var(--vert-pale); border-radius: var(--r);
+  padding: 34px 40px; display: flex; align-items: center; gap: 28px; flex-wrap: wrap;
+}
+.mag-cta-band .t { flex: 1 1 340px; }
+.mag-cta-band h2 { font-size: 22px; font-weight: 800; letter-spacing: -.4px; }
+.mag-cta-band p { margin-top: 8px; font-size: 15px; line-height: 1.6; }
+.mag-bouton {
+  display: inline-flex; align-items: center; gap: 10px; background: var(--vert); color: #fff;
+  font-size: 14.5px; font-weight: 700; padding: 15px 28px; border-radius: 999px;
+}
+.mag-bouton:hover { background: var(--vert-fonce); }
+.mag-bouton i { font-size: 11px; }
+
+/* ============================ ARTICLE ==================================== */
+
+/* barre de progression de lecture */
+#mag-progress {
+  position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--vert); z-index: 9997;
+  transition: width .1s linear;
+}
+
+.art-hero { position: relative; background: var(--noir); }
+.art-hero .visuel { position: absolute; inset: 0; }
+.art-hero .visuel img { width: 100%; height: 100%; object-fit: cover; opacity: .55; }
+.art-hero .visuel:after {
+  content: ""; position: absolute; inset: 0;
+  background: linear-gradient(100deg, rgba(10, 12, 13, .92) 0%, rgba(10, 12, 13, .78) 42%,
+                              rgba(10, 12, 13, .35) 100%);
+}
+.art-hero .wrap { position: relative; z-index: 2; padding-top: 54px; padding-bottom: 46px; }
+.art-hero .sur {
+  display: inline-block; background: var(--vert); color: #fff; border-radius: 999px;
+  padding: 5px 14px; font-size: 11px; font-weight: 700; letter-spacing: 1px; margin-bottom: 18px;
+}
+.art-hero h1 {
+  color: #fff; font-size: clamp(28px, 4vw, 44px); font-weight: 800; letter-spacing: -1px;
+  max-width: 20ch;
+}
+.art-hero .chapo {
+  margin-top: 18px; max-width: 58ch; color: rgba(255, 255, 255, .82);
+  font-size: 17px; line-height: 1.6;
+}
+.art-signature {
+  margin-top: 26px; display: flex; align-items: center; gap: 13px; flex-wrap: wrap;
+  color: rgba(255, 255, 255, .8); font-size: 13px;
+}
+.art-signature .rond {
+  width: 42px; height: 42px; border-radius: 50%; background: var(--vert); color: #fff;
+  display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px;
+  flex: 0 0 auto;
+}
+.art-signature b { color: #fff; font-weight: 600; }
+.art-signature .sep { color: rgba(255, 255, 255, .35); }
+
+.mag .art-wrap {
+  display: grid; grid-template-columns: 232px minmax(0, var(--mesure)) 1fr;
+  gap: 48px; padding-top: 56px;
+}
+.art-toc { position: sticky; top: 24px; align-self: start; }
+.art-toc .t {
+  font-size: 11px; font-weight: 700; letter-spacing: 1.2px; color: var(--gris); margin-bottom: 14px;
+}
+.art-toc ol { list-style: none; margin: 0; padding: 0; counter-reset: s; }
+.art-toc li { margin: 0 0 3px 0; counter-increment: s; }
+.art-toc a {
+  display: block; padding: 7px 0 7px 15px; border-left: 2px solid var(--bord);
+  font-size: 13.5px; line-height: 1.42; color: var(--gris);
+}
+.art-toc a:hover, .art-toc a.actif { color: var(--noir); border-left-color: var(--vert); font-weight: 600; }
+
+.art-body { min-width: 0; }
+.art-body > p, .art-body > ul, .art-body > ol {
+  font-size: 18px; line-height: 1.72; color: var(--texte); margin: 0 0 22px 0;
+}
+.art-body > ul, .art-body > ol { padding-left: 22px; }
+.art-body li { margin-bottom: 9px; }
+.art-body strong { color: var(--noir); font-weight: 650; }
+.art-body a:not(.mag-bouton) {
+  color: var(--vert-fonce); text-decoration: underline; text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+.art-body h2 {
+  font-size: clamp(23px, 2.4vw, 29px); font-weight: 800; letter-spacing: -.6px;
+  margin: 50px 0 16px 0; scroll-margin-top: 24px;
+}
+.art-body h3 { font-size: 19px; font-weight: 700; margin: 32px 0 10px 0; }
+
+/* encart En bref */
+.art-bref {
+  background: var(--vert-pale); border-radius: var(--r); padding: 28px 30px; margin: 0 0 34px 0;
+}
+.art-bref .t {
+  font-size: 11px; font-weight: 700; letter-spacing: 1.3px; color: var(--vert-fonce); margin-bottom: 14px;
+}
+.art-body .art-bref p.cle {
+  font-size: 19px; line-height: 1.55; color: var(--noir); font-weight: 600; margin: 0 0 16px 0;
+}
+.art-body .art-bref ul { margin: 0; padding-left: 20px; font-size: 16px; line-height: 1.6; }
+.art-body .art-bref li { margin-bottom: 8px; }
+
+/* encart source */
+.art-source {
+  border: 1px solid var(--bord); border-left: 3px solid var(--orange); border-radius: var(--r-s);
+  padding: 24px 26px; margin: 34px 0;
+}
+.art-source .t {
+  font-size: 11px; font-weight: 700; letter-spacing: 1.2px; color: var(--orange); margin-bottom: 12px;
+}
+.art-body .art-source p { font-size: 16.5px; line-height: 1.66; margin: 0; }
+.art-body .art-source p.ref { margin-top: 12px; font-size: 12.5px; color: var(--gris); }
+
+/* tableau */
+.art-body table {
+  width: 100%; border-collapse: separate; border-spacing: 0; margin: 30px 0; font-size: 15px;
+  border: 1px solid var(--bord); border-radius: var(--r-s); overflow: hidden;
+}
+.art-body caption {
+  caption-side: top; text-align: left; font-size: 12.5px; color: var(--gris); padding-bottom: 10px;
+}
+.art-body th, .art-body td {
+  padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--bord); line-height: 1.5;
+}
+.art-body thead th {
+  background: var(--noir); color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .5px;
+}
+.art-body tbody th { font-weight: 650; color: var(--noir); background: var(--doux); }
+.art-body tbody tr:last-child th, .art-body tbody tr:last-child td { border-bottom: 0; }
+
+/* CTA en cours de lecture */
+.art-cta {
+  background: var(--noir); border-radius: var(--r); padding: 30px 32px; margin: 40px 0;
+  display: flex; gap: 24px; align-items: center; flex-wrap: wrap;
+}
+.art-cta .t { flex: 1 1 300px; }
+.art-cta h3 { color: #fff; font-size: 20px; font-weight: 750; }
+.art-body .art-cta p { color: rgba(255, 255, 255, .74); font-size: 15px; margin: 8px 0 0 0; line-height: 1.55; }
+
+/* auteur */
+.art-auteur {
+  margin: 48px 0 0 0; border-top: 1px solid var(--bord); padding-top: 28px;
+  display: flex; gap: 18px; align-items: flex-start;
+}
+.art-auteur .rond {
+  width: 58px; height: 58px; border-radius: 50%; background: var(--vert-pale); color: var(--vert-fonce);
+  display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 19px; flex: 0 0 auto;
+}
+.art-auteur h3 { font-size: 16.5px; font-weight: 700; }
+.art-body .art-auteur p { font-size: 14.5px; line-height: 1.6; color: var(--gris); margin: 6px 0 0 0; }
+
+/* sources */
+.art-sources { margin: 34px 0 0 0; }
+.art-sources .t { font-size: 11px; font-weight: 700; letter-spacing: 1.2px; color: var(--gris); margin-bottom: 12px; }
+.art-body .art-sources ul { font-size: 13.5px; line-height: 1.65; color: var(--gris); margin: 0; padding-left: 20px; }
+
+/* articles associes */
+.mag .art-suite { margin-top: 66px; margin-bottom: 70px; }
+.art-suite h2 { font-size: 21px; font-weight: 800; letter-spacing: -.4px; margin-bottom: 22px; }
+
+/* ---------- responsive ---------- */
+@media (max-width: 1080px) {
+  .art-wrap { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .art-toc { position: static; margin-bottom: 34px; }
+  .art-toc ol { columns: 2; column-gap: 26px; }
+}
+@media (max-width: 900px) {
+  .mag-hero { grid-template-columns: 1fr; }
+  .mag-une { min-height: 320px; }
+  .mag-silo, .mag-cta-band { padding: 28px 22px; }
+  .art-body table { display: block; overflow-x: auto; }
+}
+@media (max-width: 560px) {
+  .mag .wrap { padding: 0 16px; }
+  .mag-band .wrap { min-height: 0; padding-top: 12px; padding-bottom: 12px; }
+  .mag-band nav { gap: 16px; }
+  .mag-band .devis { margin-left: 0; }
+  .mag-mini { grid-template-columns: 92px 1fr; }
+  .art-toc ol { columns: 1; }
+  .art-cta, .mag-cta-band { flex-direction: column; align-items: flex-start; }
+}

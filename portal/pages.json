@@ -163,14 +163,24 @@
       "url": "https://amv-blog-intercom.pages.dev/assurance-moto/oreillettes-intercom-le-point-sur-ce-qui-est-autorise/"
     },
     {
-      "title": "AMV - MODÈLE : hub de catégorie du blog",
-      "description": "Gabarit cible d'un hub de rubrique du blog, sur la DA réelle du site. H1 différencié de la landing page, chapeau éditorial, 6 sous-rubriques, article à la une, temps de lecture réels, maillage produit, FAQ et données structurées. Bouton « Critères SEO & GEO » en bas à droite.",
+      "title": "AMV — Blog, option A : hub de catégorie",
+      "description": "Le gabarit WordPress actuel, augmenté de ce qui lui manque : H1 différencié de la landing page, chapeau éditorial, 6 sous-rubriques, article à la une, temps de lecture réels, maillage produit, FAQ, balises head et données structurées. Bouton « Critères SEO & GEO » en bas à droite.",
       "url": "https://amv-modele-blog-hub.pages.dev/assurance-moto/"
     },
     {
-      "title": "AMV - MODÈLE : article de blog",
-      "description": "Gabarit cible d'un article, sur la DA réelle du blog. Auteur et date de mise à jour, encart En bref, sommaire ancré, tableaux de synthèse, encart sourcé, CTA, FAQ en accordéon et données structurées. Contenu : l'article pilote « budget pour débuter la moto ». Bouton « Critères SEO & GEO » en bas à droite.",
+      "title": "AMV — Blog, option A : article",
+      "description": "Le gabarit d'article actuel, au format cible : auteur et date de mise à jour, encart En bref, sommaire, tableaux de synthèse, encart sourcé, CTA, FAQ en accordéon, sources, données structurées.",
       "url": "https://amv-modele-blog-article.pages.dev/assurance-moto/budget-pour-debuter-la-moto/"
+    },
+    {
+      "title": "AMV — Blog, option B : « AMV Le Mag », hub",
+      "description": "Proposition de refonte. Marque éditoriale, bandeau noir, hero éditorial, cartes modernes, plus de sidebar ni de majuscules. En-tête et pied de page d'amv.fr conservés, URL inchangées. Inspiré de Vous! (Macif), Liberiders (Mutuelle des Motards) et BikeSocial (Bennetts).",
+      "url": "https://amv-blog-moderne.pages.dev/assurance-moto/"
+    },
+    {
+      "title": "AMV — Blog, option B : « AMV Le Mag », article",
+      "description": "Proposition de refonte. Hero photo pleine largeur, signature avec auteur et dates, sommaire collant, barre de progression de lecture, encarts En bref et source, FAQ épurée, articles associés.",
+      "url": "https://amv-blog-moderne.pages.dev/assurance-moto/budget-pour-debuter-la-moto/"
     }
   ]
 }

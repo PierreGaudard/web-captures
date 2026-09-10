@@ -232,17 +232,14 @@ def main():
     lc = soup.select_one(".loop-content")
     grille = lc.select_one("div.clearfix")
 
-    banner = BeautifulSoup(f"""<div class="crit-banner"{crit(1,
-        "Balises head et données structurées",
-        "Le hub live n'a ni meta description, ni canonical, ni Open Graph, ni la moindre "
-        "donnée structurée, seulement un fil d'ariane en microdonnées. Le modèle ajoute "
-        "title, meta description, canonical, rel next et un graphe JSON-LD CollectionPage "
-        "+ ItemList + FAQPage + BreadcrumbList.")}>
-      <b>Modèle de gabarit.</b> Hub de la rubrique Moto. La structure est la proposition&nbsp;; les
-      articles listés sont les articles réels du blog. Le bouton en bas à droite affiche les
-      critères SEO et GEO élément par élément.</div>""", "html.parser")
-    h1.insert_before(banner)
 
+    lc["data-crit"] = "1"
+    lc["data-crit-titre"] = "Balises head et données structurées"
+    lc["data-crit-txt"] = ("Le hub live n'a ni meta description, ni canonical, ni Open Graph, "
+                           "ni la moindre donnée structurée, seulement un fil d'ariane en "
+                           "microdonnées. Le modèle ajoute title, meta description, canonical, "
+                           "rel next et un graphe JSON-LD CollectionPage + ItemList + FAQPage "
+                           "+ BreadcrumbList.")
     grille.insert_before(BeautifulSoup(bloc_chapo(), "html.parser"))
     grille.insert_before(BeautifulSoup(bloc_rubriques(), "html.parser"))
 
