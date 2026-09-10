@@ -1,0 +1,79 @@
+/* Couche d'annotation "Criteres SEO & GEO" des modeles de blog AMV.
+   Par defaut invisible : la page se lit comme la page cible.
+   Le bouton en bas a droite revele les pastilles et le panneau explicatif.
+   Palette reprise du theme AMV : vert #00aa50, filet orange #ee8d00, gris #f2f2f2. */
+
+/* ---------- bouton ---------- */
+#crit-toggle {
+  position: fixed; right: 18px; bottom: 18px; z-index: 9999;
+  font-family: Montserrat, Arial, sans-serif; font-size: 13px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .3px; color: #fff; cursor: pointer;
+  padding: 0 18px; line-height: 42px; border: 0; border-radius: 21px;
+  background-color: #01aa4d; background-image: linear-gradient(#4bc500, #01aa4d);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .25);
+}
+#crit-toggle:hover { background-image: none; background-color: #4bc500; }
+
+/* ---------- pastilles ---------- */
+[data-crit] { position: relative; }
+[data-crit]::before {
+  content: attr(data-crit);
+  position: absolute; left: -34px; top: 2px; z-index: 60;
+  width: 24px; height: 24px; line-height: 24px; border-radius: 50%;
+  background: #00aa50; color: #fff; text-align: center;
+  font-family: Montserrat, Arial, sans-serif; font-size: 12px; font-weight: 700;
+  box-shadow: 0 0 0 3px #fff; display: none;
+}
+body.crit-on [data-crit]::before { display: block; }
+body.crit-on [data-crit] {
+  outline: 1px dashed rgba(0, 170, 80, .55); outline-offset: 6px;
+}
+body.crit-on [data-crit].crit-focus {
+  outline: 2px solid #ee8d00; background: rgba(238, 141, 0, .07);
+}
+/* sur mobile et dans les colonnes etroites, la pastille passe a l'interieur */
+@media (max-width: 1240px) {
+  [data-crit]::before { left: 2px; top: -14px; }
+}
+
+/* ---------- panneau ---------- */
+#crit-panel {
+  position: fixed; right: 18px; bottom: 72px; z-index: 9998;
+  width: 340px; max-width: calc(100vw - 36px); max-height: 68vh; overflow-y: auto;
+  background: #fff; border-radius: 4px; box-shadow: 0 4px 24px rgba(0, 0, 0, .22);
+  font-family: Montserrat, Arial, sans-serif; display: none; box-sizing: border-box;
+}
+body.crit-on #crit-panel { display: block; }
+#crit-panel .crit-head { padding: 18px 18px 0 18px; }
+#crit-panel .crit-head strong {
+  display: block; font-size: 15px; text-transform: uppercase; color: #000; font-weight: 700;
+}
+#crit-panel .crit-head:after {
+  content: ""; display: block; margin: 12px 0 0 0; width: 48px;
+  padding-top: 13px; border-bottom: 1px solid #ee8d00;
+}
+#crit-panel .crit-intro {
+  padding: 10px 18px 0 18px; font-size: 12px; line-height: 18px; color: #888; font-weight: 300;
+}
+#crit-panel ol { list-style: none; margin: 12px 0 0 0; padding: 0 10px 14px 10px; }
+#crit-panel ol li {
+  background: #f2f2f2; margin: 0 0 6px 0; padding: 10px 12px; border-radius: 4px;
+  cursor: pointer; display: flex; gap: 10px; align-items: flex-start;
+}
+#crit-panel ol li:hover { background: #eaeaea; }
+#crit-panel ol li .n {
+  flex: 0 0 22px; width: 22px; height: 22px; line-height: 22px; border-radius: 50%;
+  background: #00aa50; color: #fff; text-align: center; font-size: 11px; font-weight: 700;
+}
+#crit-panel ol li .t { font-size: 12px; line-height: 17px; color: #444; font-weight: 300; }
+#crit-panel ol li .t b { font-weight: 600; color: #000; display: block; margin-bottom: 2px; }
+#crit-panel ol li .t em { font-style: normal; color: #00aa50; font-weight: 600; }
+
+/* bandeau "modele" en haut de page */
+.crit-banner {
+  background: #f2f2f2; border-left: 4px solid #00aa50; border-radius: 4px;
+  padding: 14px 18px; margin: 22px 0 0 0;
+  font-family: Montserrat, Arial, sans-serif; font-size: 13px; line-height: 20px;
+  color: #555; font-weight: 300;
+}
+.crit-banner b { color: #000; font-weight: 600; }

@@ -1,0 +1,10 @@
+{
+  "name": "amv-modele-blog-hub",
+  "title": "AMV - Modele de hub de categorie du blog",
+  "sourceUrl": "https://www.amv.fr/assurance-moto/",
+  "domain": "www.amv.fr",
+  "entryPath": "/assurance-moto/",
+  "capturedAt": "2026-09-10",
+  "note": "Gabarit reel du hub de rubrique du blog WordPress AMV, augmente de ce qui lui manque : balises head et donnees structurees, H1 differencie de la landing page produit, chapeau editorial, 6 sous-rubriques, article a la une, temps de lecture reels sur les cartes, bloc de maillage vers les pages produit et FAQ de rubrique. Bouton en bas a droite pour afficher les criteres SEO et GEO element par element.",
+  "build": "python3 _build.py"
+}

@@ -161,6 +161,16 @@
       "title": "AMV - Article blog : intercom moto autorisé ou interdit",
       "description": "Réoptimisation de l'article oreillettes et intercom. Version corrigée du 07/09 : texte exact de l'article R412-6-1, entrée en vigueur au 28 juin 2015, amende de 135 € et 3 points, suspension de permis depuis le 22 mai 2020, trois exceptions légales, tableau des équipements, couverture assurance précisée.",
       "url": "https://amv-blog-intercom.pages.dev/assurance-moto/oreillettes-intercom-le-point-sur-ce-qui-est-autorise/"
+    },
+    {
+      "title": "AMV - MODÈLE : hub de catégorie du blog",
+      "description": "Gabarit cible d'un hub de rubrique du blog, sur la DA réelle du site. H1 différencié de la landing page, chapeau éditorial, 6 sous-rubriques, article à la une, temps de lecture réels, maillage produit, FAQ et données structurées. Bouton « Critères SEO & GEO » en bas à droite.",
+      "url": "https://amv-modele-blog-hub.pages.dev/assurance-moto/"
+    },
+    {
+      "title": "AMV - MODÈLE : article de blog",
+      "description": "Gabarit cible d'un article, sur la DA réelle du blog. Auteur et date de mise à jour, encart En bref, sommaire ancré, tableaux de synthèse, encart sourcé, CTA, FAQ en accordéon et données structurées. Contenu : l'article pilote « budget pour débuter la moto ». Bouton « Critères SEO & GEO » en bas à droite.",
+      "url": "https://amv-modele-blog-article.pages.dev/assurance-moto/budget-pour-debuter-la-moto/"
     }
   ]
 }

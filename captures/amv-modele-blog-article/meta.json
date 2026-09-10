@@ -1,0 +1,10 @@
+{
+  "name": "amv-modele-blog-article",
+  "title": "AMV - Modele d'article de blog",
+  "sourceUrl": "https://www.amv.fr/actualite-assurance/amv-decroche-le-label-excellence-2026/",
+  "domain": "www.amv.fr",
+  "entryPath": "/assurance-moto/budget-pour-debuter-la-moto/",
+  "capturedAt": "2026-09-10",
+  "note": "Gabarit reel d'un article du blog WordPress AMV, au format cible : balises head et donnees structurees, ligne auteur et date de mise a jour, encart En bref, sommaire ancre, tableaux de synthese, encart source, CTA contextualise, FAQ en accordeon, encart auteur et sources. Contenu : l'article pilote 'Quel budget prevoir pour debuter la moto ?'. Bouton en bas a droite pour afficher les criteres SEO et GEO element par element.",
+  "build": "python3 _build.py"
+}

@@ -3,3 +3,5 @@
 node_modules/
 *.log
 captures/fashionjackson-home/monolith/fashionjackson-home.html
+.playwright-cli/
+__pycache__/

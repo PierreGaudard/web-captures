@@ -1,0 +1,234 @@
+/* Blocs ajoutes par les modeles de blog AMV.
+   Toutes les valeurs sont reprises du theme AMV (wp-content/themes/amv/style.css) :
+   vert #00aa50, degrade de bouton #4bc500 -> #01aa4d, filet orange #ee8d00,
+   gris de bloc #f2f2f2, rayon 4px, Montserrat, titres en majuscules.
+   Aucune couleur ni graisse nouvelle n'est introduite. */
+
+/* ============ 1. Ligne de metadonnees (auteur, dates, lecture) ============ */
+.amv-meta {
+  font-size: 13px; line-height: 20px; color: #7d7d7d; font-weight: 300;
+  margin: 0 0 22px 0;
+}
+.amv-meta span { white-space: nowrap; }
+.amv-meta .sep { margin: 0 8px; color: #cacaca; }
+.amv-meta b { font-weight: 500; color: #000; }
+.amv-meta a { color: #00aa50; text-decoration: underline; }
+
+/* ============ 2. Encart "En bref" (reponse directe, declencheur GEO) ======= */
+.amv-enbref {
+  background: #f2f2f2; border-left: 4px solid #00aa50; border-radius: 4px;
+  padding: 20px 22px; margin: 0 0 30px 0;
+}
+.amv-enbref p.title-h2 {
+  font-size: 15px; text-transform: uppercase; color: #000; font-weight: 700;
+  margin: 0 0 10px 0; text-align: left;
+}
+.amv-enbref p.title-h2:after {
+  content: ""; display: block; margin: 10px 0 0 0; width: 48px;
+  padding-top: 11px; border-bottom: 1px solid #ee8d00;
+}
+.entry-content .amv-enbref p.chapo {
+  font-style: italic; font-size: 16px; line-height: 25px; color: #555; margin: 0 0 12px 0;
+}
+.entry-content .amv-enbref ul { margin: 0; padding-left: 20px; }
+.entry-content .amv-enbref ul li {
+  font-size: 15px; line-height: 23px; color: #555; font-weight: 300; margin-bottom: 6px;
+}
+
+/* ============ 3. Sommaire ancre ============ */
+.amv-sommaire {
+  border: 1px solid #eaeaea; border-radius: 4px; padding: 18px 22px; margin: 0 0 32px 0;
+}
+.amv-sommaire p.title-h2 {
+  font-size: 15px; text-transform: uppercase; color: #000; font-weight: 700;
+  margin: 0 0 12px 0; text-align: left;
+}
+.entry-content .amv-sommaire ol { margin: 0; padding-left: 20px; }
+.entry-content .amv-sommaire ol li {
+  font-size: 14px; line-height: 24px; color: #888; font-weight: 300;
+}
+.amv-sommaire ol li a { color: #00aa50; text-decoration: underline; }
+.amv-sommaire ol ol { padding-left: 18px; margin: 2px 0; }
+.amv-sommaire ol ol li { font-size: 13px; }
+
+/* ============ 4. Encart source / "ce que dit la loi" ============ */
+.amv-source {
+  background: #fff; border: 1px solid #eaeaea; border-top: 3px solid #ee8d00;
+  border-radius: 4px; padding: 18px 22px; margin: 26px 0;
+}
+.amv-source .lbl {
+  display: block; font-size: 11px; text-transform: uppercase; letter-spacing: .5px;
+  color: #ee8d00; font-weight: 700; margin-bottom: 8px;
+}
+.entry-content .amv-source blockquote {
+  margin: 0; font-size: 15px; line-height: 24px; color: #555; font-style: italic;
+}
+.entry-content .amv-source p.ref { font-size: 12px; color: #7d7d7d; margin: 10px 0 0 0; }
+.amv-source p.ref a { color: #00aa50; text-decoration: underline; }
+
+/* ============ 5. Encart produit / CTA devis en cours de lecture ============ */
+.amv-cta {
+  background: #f2f2f2; border-radius: 4px; padding: 22px; margin: 30px 0;
+  display: flex; gap: 20px; align-items: center; flex-wrap: wrap;
+}
+.amv-cta .txt { flex: 1 1 300px; }
+.entry-content .amv-cta p { margin: 0; font-size: 15px; line-height: 23px; color: #555; }
+.amv-cta p.title-h2 {
+  font-size: 15px; text-transform: uppercase; color: #000; font-weight: 700;
+  margin: 0 0 6px 0; text-align: left;
+}
+.amv-cta .act { flex: 0 0 auto; }
+
+/* ============ 6. FAQ en accordeon ============ */
+.amv-faq { margin: 34px 0 0 0; }
+.amv-faq .q {
+  border-bottom: 1px solid #eaeaea; padding: 0; margin: 0;
+}
+/* la question reste un H3 : le bouton est a l'interieur, le selecteur doit donc
+   etre descendant et non enfant direct */
+.amv-faq .q h3 { margin: 0; padding: 0; font-size: inherit; text-transform: none; }
+.entry-content .amv-faq .q button,
+.loop-content .amv-faq .q button {
+  width: 100%; display: block; text-align: left; background: none; border: 0;
+  border-radius: 0; box-shadow: none; cursor: pointer; appearance: none;
+  padding: 16px 34px 16px 0; margin: 0; position: relative;
+  font-family: Montserrat, Arial, sans-serif; font-size: 15px; line-height: 22px;
+  font-weight: 500; color: #000; text-transform: none;
+}
+/* le theme ne declare que chevron-right, chevron-left et circle : on ajoute le
+   glyphe chevron-down dans la meme fonte Font Awesome 5 Pro deja chargee */
+.amv-faq .q button i.fa-chevron-down:before { content: "\f078"; }
+.amv-faq .q button i {
+  position: absolute; right: 6px; top: 19px; font-size: 12px; color: #00aa50;
+  transition: transform .2s; margin: 0;
+}
+.amv-faq .q.open button i { transform: rotate(180deg); }
+.amv-faq .a { display: none; padding: 0 0 18px 0; }
+.amv-faq .q.open .a { display: block; }
+.entry-content .amv-faq .a p,
+.loop-content .amv-faq .a p,
+.amv-faq .a p {
+  margin: 0 0 10px 0; font-size: 15px; line-height: 24px; color: #888; font-weight: 300;
+}
+
+/* ============ 7. Bloc auteur ============ */
+.amv-auteur {
+  background: #f2f2f2; border-radius: 4px; padding: 20px 22px; margin: 34px 0 0 0;
+}
+.amv-auteur p.title-h2 {
+  font-size: 15px; text-transform: uppercase; color: #000; font-weight: 700;
+  margin: 0 0 10px 0; text-align: left;
+}
+.entry-content .amv-auteur p { font-size: 14px; line-height: 22px; color: #666; margin: 0 0 6px 0; }
+.entry-content .amv-auteur p:last-child { margin-bottom: 0; }
+
+/* ============ 8. Sources ============ */
+.amv-sources { margin: 30px 0 0 0; }
+.amv-sources p.title-h2 {
+  font-size: 15px; text-transform: uppercase; color: #000; font-weight: 700;
+  margin: 0 0 10px 0; text-align: left;
+}
+.entry-content .amv-sources ul { margin: 0; padding-left: 20px; }
+.entry-content .amv-sources ul li { font-size: 13px; line-height: 22px; color: #888; }
+.amv-sources ul li a { color: #00aa50; text-decoration: underline; }
+
+/* ============ 9. Tableau ============ */
+.entry-content .amv-table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 14px; }
+.entry-content .amv-table caption {
+  caption-side: top; text-align: left; font-size: 12px; color: #7d7d7d;
+  font-weight: 300; padding-bottom: 8px;
+}
+.entry-content .amv-table th,
+.entry-content .amv-table td {
+  border: 1px solid #eaeaea; padding: 10px 12px; text-align: left;
+  color: #555; font-weight: 300; line-height: 21px;
+}
+.entry-content .amv-table thead th {
+  background: #f2f2f2; color: #000; font-weight: 600; text-transform: uppercase; font-size: 12px;
+}
+.entry-content .amv-table tbody th { font-weight: 500; color: #000; background: #fafafa; }
+
+/* ============ 10. Hub : chapeau editorial ============ */
+.amv-hub-chapo { margin: 0 0 26px 0; }
+.loop-content .amv-hub-chapo p {
+  font-size: 16px; line-height: 25px; color: #888; font-weight: 300; margin: 0 0 12px 0;
+}
+.loop-content .amv-hub-chapo p:last-child { margin-bottom: 0; }
+.loop-content .amv-hub-chapo strong { font-weight: 500; color: #000; }
+.amv-hub-chapo a { color: #00aa50; text-decoration: underline; }
+
+/* ============ 11. Hub : sous-rubriques ============ */
+.amv-rubriques { margin: 0 0 30px 0; }
+.amv-rubriques p.title-h2 {
+  font-size: 15px; text-transform: uppercase; color: #000; font-weight: 700;
+  margin: 0 0 14px 0; text-align: left;
+}
+.amv-rubriques p.title-h2:after {
+  content: ""; display: block; margin: 12px 0 0 0; width: 48px;
+  padding-top: 13px; border-bottom: 1px solid #ee8d00;
+}
+.amv-rubriques ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 10px; }
+.amv-rubriques ul li { margin: 0; }
+.amv-rubriques ul li a,
+.amv-rubriques ul li .tuile {
+  display: block; background: #f2f2f2; border-radius: 4px; padding: 10px 16px;
+  font-size: 13px; font-weight: 500; color: #000; text-transform: uppercase;
+}
+.amv-rubriques ul li a:hover { background: #00aa50; color: #fff; }
+.amv-rubriques ul li a span,
+.amv-rubriques ul li .tuile span {
+  display: block; font-size: 11px; font-weight: 300; color: #7d7d7d; text-transform: none;
+}
+.amv-rubriques ul li a:hover span { color: #e6f5ec; }
+/* les sous-rubriques n'existent pas encore : le marqueur ne s'affiche qu'en mode criteres,
+   et aucune n'est cliquable tant que la page n'est pas publiee */
+.amv-rubriques ul li .tuile:after {
+  content: "page à créer"; display: none; margin-top: 6px;
+  font-size: 10px; font-weight: 600; color: #ee8d00; text-transform: uppercase;
+}
+body.crit-on .amv-rubriques ul li .tuile:after { display: block; }
+
+/* ============ 12. Hub : article a la une ============ */
+.amv-une {
+  display: flex; gap: 22px; background: #fff; border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1); padding: 18px; margin: 0 0 30px 0; flex-wrap: wrap;
+}
+.amv-une .img { flex: 0 0 40%; max-width: 40%; }
+.amv-une .img img { max-width: 100%; height: auto; border-radius: 4px; display: block; }
+.amv-une .txt { flex: 1 1 300px; }
+.amv-une .lbl {
+  display: inline-block; background: #00aa50; color: #fff; border-radius: 12px;
+  padding: 3px 12px; font-size: 11px; font-weight: 700; text-transform: uppercase; margin-bottom: 10px;
+}
+.amv-une h2 { margin: 0 0 8px 0; font-size: 17px; line-height: 24px; }
+.amv-une h2 a { color: #000; }
+.amv-une h2 a:hover { color: #00aa50; }
+.loop-content .amv-une p { font-size: 14px; line-height: 22px; color: #888; font-weight: 300; margin: 0 0 10px 0; }
+.amv-une .date-category { font-size: 13px; color: #7d7d7d; }
+
+/* ============ 13. Hub : bloc de maillage vers les pages produit ========== */
+.amv-silo { background: #f2f2f2; border-radius: 4px; padding: 24px; margin: 30px 0 0 0; }
+.amv-silo p.title-h2 {
+  font-size: 15px; text-transform: uppercase; color: #000; font-weight: 700;
+  margin: 0 0 6px 0; text-align: left;
+}
+.loop-content .amv-silo > p { font-size: 14px; line-height: 22px; color: #888; font-weight: 300; }
+.amv-silo ul { list-style: none; margin: 14px 0 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.amv-silo ul li a {
+  display: block; background: #fff; border-radius: 4px; padding: 9px 14px;
+  font-size: 13px; font-weight: 500; color: #000;
+}
+.amv-silo ul li a:hover { color: #00aa50; }
+
+/* ============ 14. Hub : temps de lecture sur les cartes ============ */
+.loop-entry .amv-lecture { color: #7d7d7d; font-size: 12px; font-weight: 300; }
+.loop-entry .amv-maj { color: #00aa50; font-size: 12px; font-weight: 500; }
+
+/* ============ responsive ============ */
+@media (max-width: 800px) {
+  .amv-une .img, .amv-une .img img { flex: 1 1 100%; max-width: 100%; }
+  .amv-cta { flex-direction: column; align-items: flex-start; }
+  .amv-cta .act { width: 100%; }
+  .amv-cta .act .button { width: 100%; text-align: center; }
+  .entry-content .amv-table { display: block; overflow-x: auto; }
+}
