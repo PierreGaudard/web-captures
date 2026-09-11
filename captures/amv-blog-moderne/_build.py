@@ -214,12 +214,26 @@ CLASSEMENT = [
       "financement", "vol", "assurance", "coût", "cout", "tarif")),
     ("Culture et voyage",
      ("road trip", "voyage", "itinéraire", "itineraire", "musée", "musee", "balade",
-      "étranger", "etranger", "circuit", "escapade", "passion", "histoire")),
+      "étranger", "etranger", "circuit", "escapade")),
 ]
 
 
+# Arbitrages humains : un titre que les mots-cles classent mal ou pas du tout.
+# Toujours preferer une entree ici a l'ajout d'un mot-cle trop large.
+ARBITRAGES = {
+    "professionnel à moto": "Culture et voyage",
+    "les figures emblématiques de l'histoire de la moto": "Culture et voyage",
+    "pourquoi la moto passionne-t-elle autant": "Culture et voyage",
+}
+
+
 def rubrique(titre):
-    t = titre.lower()
+    # apostrophes courbes et droites normalisees : sans ca « l’histoire » ne
+    # matche pas « l'histoire » et le titre sort sans rubrique
+    t = titre.lower().replace("’", "'")
+    for cle, nom in ARBITRAGES.items():
+        if cle in t:
+            return nom
     for nom, mots in CLASSEMENT:
         if any(m in t for m in mots):
             return nom
@@ -244,7 +258,7 @@ def construire_hub(cartes, lecture):
         "20 vignettes du hub ont un attribut alt vide.") if i == 0 else ""}>
       <div class="vig">{c['img']}<span class="kicker">{rubrique(c['titre'])}</span></div>
       <h3>{c['titre']}</h3>
-      <p class="meta">{meta(c)}</p>
+      <p class="meta">{meta(c, False)}</p>
     </a>""" for i, c in enumerate(grille))
 
     pills = "".join(f'<li><span class="off">{r}</span></li>' for r in RUBRIQUES)
