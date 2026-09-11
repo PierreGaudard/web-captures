@@ -161,6 +161,16 @@
       "title": "AMV - Article blog : intercom moto autorisé ou interdit",
       "description": "Réoptimisation de l'article oreillettes et intercom. Version corrigée du 07/09 : texte exact de l'article R412-6-1, entrée en vigueur au 28 juin 2015, amende de 135 € et 3 points, suspension de permis depuis le 22 mai 2020, trois exceptions légales, tableau des équipements, couverture assurance précisée.",
       "url": "https://amv-blog-intercom.pages.dev/assurance-moto/oreillettes-intercom-le-point-sur-ce-qui-est-autorise/"
+    },
+    {
+      "title": "AMV - Article blog auto : assurance tous risques ou au tiers (réoptimisation)",
+      "description": "Réoptimisation de l'article auto de 2019 (589 mots) lié par la mini FAQ de la nouvelle LP Auto, demande de Jonathan Sfez du 01/09. Version du 11/09 : obligation d'assurance (L211-1) et sanction (L324-2), ce que le tiers couvre et exclut, garanties intermédiaires, Dommages tous accidents, tableau des 4 formules AMV alignées sur la LP Auto, critères de choix au conditionnel, franchise, options, FAQ.",
+      "url": "https://amv-blog-auto-tiers.pages.dev/assurance-auto/assurance-tous-risques-ou-au-tiers/"
+    },
+    {
+      "title": "AMV - Article blog auto : résilier son assurance auto (réoptimisation)",
+      "description": "Réoptimisation de l'article auto de 2021 (672 mots) lié par la mini FAQ de la nouvelle LP Auto, demande de Jonathan Sfez du 01/09. Version du 11/09 : L113-12, loi Chatel, loi Hamon (nouvel assureur fait la démarche), moyens de notification et résiliation en ligne depuis le 1er juin 2023, vente du véhicule, changement de situation, résiliation par l'assureur (tableau), bonus-malus transféré, démarche AMV, FAQ.",
+      "url": "https://amv-blog-auto-resiliation.pages.dev/assurance-auto/reglementation/resilier-son-assurance-auto-quand-et-comment-est-ce-possible/"
     }
   ]
 }
