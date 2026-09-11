@@ -14,17 +14,24 @@
    Bennetts BikeSocial  sous-marque avec sa nav, auteur affiche avant la date
    Macif « Vous! »      aucune sidebar, grille large, pas d'extrait sur les cartes
 
-   Palette : le vert de marque #00aa50 et l'orange #ee8d00 sont ceux de la charte
-   AMV. Le vert nuit #003d1e en est la version foncee, il sert d'aplat de hero.
-   Aucune couleur etrangere a la marque.
+   Palette : le vert de marque est #00a850, releve directement sur le logo AMV
+   (teinte dominante, 5 461 px). C'est lui, tel quel, qui sert d'aplat de hero,
+   de bandeau de maillage et de CTA. L'orange #ee8d00 est celui de la charte.
+   Aucune couleur etrangere a la marque, aucune variante inventee.
+
+   Reserve de lisibilite : le blanc sur #00a850 mesure 3,1:1. Cela suffit aux
+   grands titres (le seuil AA des grands textes est 3:1) mais pas au corps de
+   texte (4,5:1). Les petits textes blancs restent donc courts sur l'aplat, et
+   les blocs a petit texte (en-tetes de tableau, pagination) gardent le neutre
+   fonce.
    ========================================================================= */
 
 :root {
-  --vert: #00aa50;
-  --vert-vif: #16c464;
+  --vert: #00a850;           /* releve sur le logo AMV, teinte dominante */
+  --vert-vif: #d9f5e5;       /* accent clair, lisible sur l'aplat vert */
   --vert-fonce: #00803c;
-  --vert-nuit: #003d1e;
-  --vert-nuit-2: #002a15;
+  --vert-nuit: #00a850;      /* aplat de hero : le vert de marque, tel quel */
+  --vert-nuit-2: #00a850;
   --vert-pale: #eaf7f0;
   --orange: #ee8d00;
   --noir: #0f1311;
@@ -71,14 +78,14 @@
 .mag-band .mark {
   font-size: 19px; font-weight: 800; letter-spacing: -.3px; color: #fff;
 }
-.mag-band .mark em { font-style: normal; color: var(--vert-vif); }
+.mag-band .mark em { font-style: normal; color: var(--vert); }
 .mag-band nav { display: flex; gap: 22px; flex-wrap: wrap; }
 .mag-band nav a {
   color: rgba(255, 255, 255, .74); font-size: 13.5px; font-weight: 500;
   padding: 6px 0; border-bottom: 2px solid transparent;
 }
 .mag-band nav a:hover { color: #fff; }
-.mag-band nav a.on { color: #fff; border-bottom-color: var(--vert-vif); }
+.mag-band nav a.on { color: #fff; border-bottom-color: var(--vert); }
 .mag-band .devis {
   margin-left: auto; background: var(--vert); color: #fff; font-size: 13px;
   font-weight: 700; padding: 9px 18px; border-radius: 999px;
@@ -88,20 +95,17 @@
 /* ============================ HERO DE RUBRIQUE ============================
    Aplat de marque plein ecran, avec la carte a la une posee dedans. */
 .mag-hero-band {
-  background: var(--vert-nuit);
-  background-image: radial-gradient(120% 90% at 12% 0%, #005c2e 0%, var(--vert-nuit) 55%,
-                                    var(--vert-nuit-2) 100%);
-  color: #fff; padding-top: 26px; padding-bottom: 58px;
+  background: var(--vert); color: #fff; padding-top: 26px; padding-bottom: 58px;
 }
-.mag-hero-band .fil { font-size: 12.5px; color: rgba(255, 255, 255, .55); margin-bottom: 34px; }
-.mag-hero-band .fil a { color: rgba(255, 255, 255, .55); }
+.mag-hero-band .fil { font-size: 12.5px; color: rgba(255, 255, 255, .85); margin-bottom: 34px; }
+.mag-hero-band .fil a { color: rgba(255, 255, 255, .85); }
 .mag-hero-band .fil a:hover { color: #fff; }
 .mag-hero-band .fil span { margin: 0 8px; color: rgba(255, 255, 255, .3); }
 
 .mag-hero-grid { display: grid; grid-template-columns: 1fr 480px; gap: 56px; align-items: center; }
 .mag-hero-band .eyebrow {
   display: inline-block; font-size: 11.5px; font-weight: 800; letter-spacing: 2.4px;
-  color: var(--vert-vif); margin-bottom: 18px;
+  color: #fff; margin-bottom: 18px;
 }
 .mag-hero-band h1 {
   color: #fff; font-size: clamp(34px, 4.6vw, 54px); font-weight: 800; letter-spacing: -1.4px;
@@ -109,7 +113,7 @@
 }
 .mag-hero-band .chapo {
   margin-top: 20px; max-width: 52ch; font-size: 16.5px; line-height: 1.66;
-  color: rgba(255, 255, 255, .8);
+  color: #fff;
 }
 .mag-hero-band .chapo strong { color: #fff; font-weight: 600; }
 .mag-hero-band .chapo a { color: #fff; text-decoration: underline; text-underline-offset: 3px; }
@@ -122,7 +126,7 @@
   border: 1px solid rgba(255, 255, 255, .28); background: rgba(255, 255, 255, .06);
   font-size: 12.5px; font-weight: 600; color: rgba(255, 255, 255, .88);
 }
-.mag-pills a:hover { background: #fff; color: var(--vert-nuit); border-color: #fff; }
+.mag-pills a:hover { background: #fff; color: var(--vert-fonce); border-color: #fff; }
 .mag-pills .off { border-style: dashed; color: rgba(255, 255, 255, .6); cursor: default; }
 .mag-pills .off:after {
   content: " · à créer"; display: none; color: var(--orange); font-weight: 700; font-size: 10.5px;
@@ -196,15 +200,14 @@ body.crit-on .mag-pills .off:after { display: inline; }
   min-width: 44px; height: 44px; display: inline-flex; align-items: center; justify-content: center;
   border-radius: 999px; border: 1px solid var(--bord); font-size: 14px; font-weight: 600; color: var(--encre);
 }
-.mag-pagi a:hover { border-color: var(--vert-nuit); background: var(--vert-nuit); color: #fff; }
-.mag-pagi .ici { background: var(--vert-nuit); border-color: var(--vert-nuit); color: #fff; }
+.mag-pagi a:hover { border-color: var(--encre); background: var(--encre); color: #fff; }
+.mag-pagi .ici { background: var(--encre); border-color: var(--encre); color: #fff; }
 .mag-pagi .pts { border: 0; color: var(--gris); }
 
 /* ---------- bandeau de maillage produit ---------- */
 .mag-silo {
   margin: 66px 0 0 0; border-radius: var(--r); padding: 44px; color: #fff;
-  background: var(--vert-nuit);
-  background-image: radial-gradient(110% 140% at 85% 10%, #005c2e 0%, var(--vert-nuit) 60%);
+  background: var(--vert);
 }
 .mag-silo h2 { color: #fff; font-size: 26px; font-weight: 800; letter-spacing: -.6px; }
 .mag-silo p { margin-top: 10px; color: rgba(255, 255, 255, .72); font-size: 15px; max-width: 56ch; }
@@ -254,24 +257,21 @@ body.crit-on .mag-pills .off:after { display: inline; }
 /* ============================ ARTICLE ==================================== */
 
 #mag-progress {
-  position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--vert-vif); z-index: 9997;
+  position: fixed; top: 0; left: 0; height: 3px; width: 0; background: var(--vert); z-index: 9997;
   transition: width .1s linear;
 }
 
 /* hero asymetrique : titre a gauche sur l'aplat, photo a droite */
 .art-hero-band {
-  background: var(--vert-nuit);
-  background-image: radial-gradient(120% 90% at 10% 0%, #005c2e 0%, var(--vert-nuit) 58%,
-                                    var(--vert-nuit-2) 100%);
-  color: #fff; padding-top: 26px; padding-bottom: 120px;
+  background: var(--vert); color: #fff; padding-top: 26px; padding-bottom: 120px;
 }
-.art-hero-band .fil { font-size: 12.5px; color: rgba(255, 255, 255, .55); margin-bottom: 32px; }
-.art-hero-band .fil a { color: rgba(255, 255, 255, .55); }
+.art-hero-band .fil { font-size: 12.5px; color: rgba(255, 255, 255, .85); margin-bottom: 32px; }
+.art-hero-band .fil a { color: rgba(255, 255, 255, .85); }
 .art-hero-band .fil a:hover { color: #fff; }
 .art-hero-band .fil span { margin: 0 8px; color: rgba(255, 255, 255, .3); }
 .art-hero-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 54px; align-items: center; }
 .art-hero-band .kicker {
-  display: inline-block; background: var(--vert); color: #fff; border-radius: 999px;
+  display: inline-block; background: #fff; color: var(--vert-fonce); border-radius: 999px;
   padding: 6px 15px; font-size: 11px; font-weight: 800; letter-spacing: 1.6px; margin-bottom: 20px;
 }
 .art-hero-band h1 {
@@ -280,17 +280,17 @@ body.crit-on .mag-pills .off:after { display: inline; }
 }
 .art-hero-band .chapo {
   margin-top: 20px; max-width: 50ch; font-size: 16.5px; line-height: 1.65;
-  color: rgba(255, 255, 255, .8);
+  color: #fff;
 }
 .art-hero-band .photo { border-radius: var(--r); overflow: hidden; aspect-ratio: 4 / 3; }
 .art-hero-band .photo img { width: 100%; height: 100%; object-fit: cover; }
 
 .art-signature {
   margin-top: 26px; display: flex; align-items: center; gap: 13px; flex-wrap: wrap;
-  color: rgba(255, 255, 255, .78); font-size: 13px;
+  color: #fff; font-size: 13px;
 }
 .art-signature .rond {
-  width: 42px; height: 42px; border-radius: 50%; background: var(--vert); color: #fff;
+  width: 42px; height: 42px; border-radius: 50%; background: #fff; color: var(--vert-fonce);
   display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 15px;
   flex: 0 0 auto;
 }
@@ -362,18 +362,19 @@ body.crit-on .mag-pills .off:after { display: inline; }
   padding: 14px 16px; text-align: left; border-bottom: 1px solid var(--bord); line-height: 1.5;
 }
 .art-body thead th {
-  background: var(--vert-nuit); color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .5px;
+  background: var(--encre); color: #fff; font-size: 12px; font-weight: 700; letter-spacing: .5px;
 }
 .art-body tbody th { font-weight: 650; color: var(--noir); background: var(--doux); }
 .art-body tbody tr:last-child th, .art-body tbody tr:last-child td { border-bottom: 0; }
 
 .art-cta {
   border-radius: var(--r); padding: 32px 34px; margin: 42px 0; color: #fff;
-  background: var(--vert-nuit);
-  background-image: radial-gradient(110% 150% at 90% 0%, #005c2e 0%, var(--vert-nuit) 62%);
+  background: var(--vert);
   display: flex; gap: 24px; align-items: center; flex-wrap: wrap;
 }
 .art-cta .t { flex: 1 1 300px; }
+.art-cta .mag-bouton { background: #fff; color: var(--vert-fonce); }
+.art-cta .mag-bouton:hover { background: var(--encre); color: #fff; }
 .art-cta h3 { color: #fff; font-size: 21px; font-weight: 750; }
 .art-body .art-cta p { color: rgba(255, 255, 255, .76); font-size: 15px; margin: 8px 0 0 0; line-height: 1.55; }
 

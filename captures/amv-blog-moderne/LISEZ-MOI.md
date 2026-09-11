@@ -56,8 +56,19 @@ couleur d'accent, temps de lecture partout.
   et source, FAQ épurée, bloc auteur, sources, 3 articles associés.
 - **Bandeau de maillage en vert nuit** vers les 5 pages produit, en bas du hub.
 
-Palette : le vert `#00aa50` et l'orange `#ee8d00` sont ceux de la charte AMV, le noir et les gris
-sont neutres. Aucune couleur inventée. La police reste Montserrat, déjà chargée par le site.
+## La couleur
+
+Le vert des aplats est **`#00a850`, relevé directement sur le logo AMV** (teinte dominante,
+5 461 px sur le fichier `logo-amv.png`). C'est lui tel quel, sans variante foncée : hero du hub,
+hero d'article, bandeau de maillage et CTA. L'orange `#ee8d00` est celui de la charte, le noir et
+les gris sont neutres. La police reste Montserrat, déjà chargée par le site.
+
+**Réserve de lisibilité à connaître** : le blanc sur `#00a850` mesure **3,1:1**. C'est conforme
+pour les grands titres, dont le seuil AA est 3:1, mais en dessous des **4,5:1** exigés pour du
+corps de texte. Les textes blancs sur l'aplat restent donc courts et grands, et les blocs à petit
+texte (en-têtes de tableau, pagination) gardent le neutre foncé. Deux éléments ont été passés en
+blanc sur fond vert plutôt que l'inverse pour la même raison : la pastille de rubrique de
+l'article et la pastille auteur.
 
 ## Le bouton « Critères SEO & GEO »
 
