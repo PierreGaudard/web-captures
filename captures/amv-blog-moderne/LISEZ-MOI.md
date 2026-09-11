@@ -1,4 +1,4 @@
-# AMV Le Mag — proposition de refonte du blog
+# AMV Le Mag — proposition de refonte du blog, direction « magazine moto »
 
 - Hub : https://amv-blog-moderne.pages.dev/assurance-moto/
 - Article : https://amv-blog-moderne.pages.dev/assurance-moto/budget-pour-debuter-la-moto/
@@ -24,22 +24,37 @@ l'article. « AMV Le Mag » est un nom de marque et une direction artistique, pa
 Les trois assureurs qui investissent le contenu lui donnent un **nom**. Le blog AMV n'en a pas :
 il n'a que des pages de catégorie appelées « Assurance Moto », homonymes de la landing page produit.
 
+## La direction retenue : magazine moto
+
+Arbitrée avec Pierre le 11/09/2026 après une seconde passe de veille, la première version étant
+jugée trop sage. Le modèle est **April Moto** : aplat de marque plein écran, article à la une posé
+dedans, vignettes façon couverture de magazine avec la rubrique incrustée dans la photo, H2 dans la
+couleur d'accent, temps de lecture partout.
+
 ## Ce qui change concrètement
 
 - **Bandeau de marque noir** sous l'en-tête, avec la carte du logo AMV qui déborde dessus, la nav
   des univers et un bouton de devis. Il remplace le `#blog-menu` gris du thème.
+- **Hero plein écran en vert AMV profond** (`#003d1e`, la version foncée du vert de marque), avec
+  le titre, le chapeau, les 6 sous-rubriques en pastilles et l'article à la une posé dedans.
+- **Vignettes façon couverture** : la rubrique est incrustée en bas de la photo, en italique
+  capitales sur un dégradé. Obtenu en CSS, sans retoucher les visuels d'AMV.
+- **Les 20 articles sont classés** dans les 6 sous-rubriques par mots-clés du titre, pour rendre la
+  taxonomie proposée visible sur chaque vignette. C'est une proposition, à faire valider.
+- **Article** : hero asymétrique titre à gauche / photo à droite sur l'aplat, et la colonne de
+  lecture qui remonte par-dessus dans une carte blanche. H2 en vert, tableaux à en-tête vert nuit.
 - **Fin des majuscules partout.** Aujourd'hui H1, H2 et titres de cartes sont tous en capitales,
   ce qui écrase la hiérarchie. Ici, une échelle typographique réelle, du H1 à 46 px au corps à 18 px.
 - **Corps de texte lisible** : 18 px sur `#3f4448`, contre 16 px sur `#888` aujourd'hui.
 - **Plus de sidebar** sur le hub (onglets Populaires / Récents / Commentaires, nuage d'étiquettes).
   Aucune des trois références n'en a.
-- **Hero éditorial** : une grande carte à la une plus un rail de 3 articles.
-- **Cartes** : image en 16/10 recadrée, catégorie en surtitre vert, titre en casse normale, auteur,
-  date et temps de lecture réel.
-- **Article** : hero photo pleine largeur avec dégradé, signature avec pastille auteur, sommaire
-  collant qui suit la lecture, barre de progression, encarts En bref et source, FAQ épurée,
-  bloc auteur, sources, 3 articles associés.
-- **Bandeau noir de maillage** vers les 5 pages produit, en bas du hub.
+- **Cartes** : image en 16/10 recadrée, titre en casse normale à 19 px, auteur, date et temps de
+  lecture réel calculé sur le texte de chaque article.
+- **Signature d'article** : pastille auteur, fonction, date de publication, date de mise à jour et
+  temps de lecture, dès le premier écran.
+- **Sommaire collant** qui suit la lecture, barre de progression en haut de page, encarts En bref
+  et source, FAQ épurée, bloc auteur, sources, 3 articles associés.
+- **Bandeau de maillage en vert nuit** vers les 5 pages produit, en bas du hub.
 
 Palette : le vert `#00aa50` et l'orange `#ee8d00` sont ceux de la charte AMV, le noir et les gris
 sont neutres. Aucune couleur inventée. La police reste Montserrat, déjà chargée par le site.
@@ -69,8 +84,8 @@ En bas à droite des deux pages : il numérote chaque bloc et explique ce qu'il 
 
 | Page | divs | H1 | JSON-LD |
 |---|---|---|---|
-| Hub | 62 / 62 | 1 | CollectionPage, ItemList (20), FAQPage, BreadcrumbList, Organization |
-| Article | 50 / 50 | 1 | BlogPosting, ImageObject, FAQPage, BreadcrumbList, Organization |
+| Hub | 58 / 58 | 1 | CollectionPage, ItemList (20), FAQPage, BreadcrumbList, Organization |
+| Article | 53 / 53 | 1 | BlogPosting, ImageObject, FAQPage, BreadcrumbList, Organization |
 
 Rendu vérifié dans un navigateur, pleine page et en mode critères, sur les deux pages.
 Liens internes tous testés en HTTP 200 le 10/09/2026 ;

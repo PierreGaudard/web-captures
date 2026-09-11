@@ -174,12 +174,12 @@
     },
     {
       "title": "AMV — Blog, option B : « AMV Le Mag », hub",
-      "description": "Proposition de refonte. Marque éditoriale, bandeau noir, hero éditorial, cartes modernes, plus de sidebar ni de majuscules. En-tête et pied de page d'amv.fr conservés, URL inchangées. Inspiré de Vous! (Macif), Liberiders (Mutuelle des Motards) et BikeSocial (Bennetts).",
+      "description": "Proposition de refonte, direction « magazine moto ». Hero plein écran en vert AMV profond, article à la une posé dedans, vignettes façon couverture avec la rubrique incrustée, titres massifs, aucune sidebar. En-tête et pied de page d'amv.fr conservés, URL inchangées. D'après April Moto, Liberiders (Mutuelle des Motards) et BikeSocial (Bennetts).",
       "url": "https://amv-blog-moderne.pages.dev/assurance-moto/"
     },
     {
       "title": "AMV — Blog, option B : « AMV Le Mag », article",
-      "description": "Proposition de refonte. Hero photo pleine largeur, signature avec auteur et dates, sommaire collant, barre de progression de lecture, encarts En bref et source, FAQ épurée, articles associés.",
+      "description": "Proposition de refonte, direction « magazine moto ». Hero asymétrique titre / photo sur l'aplat de marque, colonne de lecture qui remonte par-dessus, sommaire collant, barre de progression, H2 en vert, encarts En bref et source, FAQ épurée.",
       "url": "https://amv-blog-moderne.pages.dev/assurance-moto/budget-pour-debuter-la-moto/"
     }
   ]
