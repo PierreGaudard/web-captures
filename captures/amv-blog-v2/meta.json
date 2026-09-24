@@ -1,0 +1,10 @@
+{
+  "name": "amv-blog-v2",
+  "title": "AMV Le Mag v2 - refonte du blog repartie de zero",
+  "sourceUrl": "https://www.amv.fr/assurance-moto/",
+  "domain": "site",
+  "entryPath": "/assurance-moto/",
+  "capturedAt": "2026-09-24",
+  "note": "Design repris de zero sur la charte des pages Umbraco d'amv.fr (Paralucent, Montserrat, vert #00A850, accent orange). Inspirations : April Moto, Mutuelle des Motards, BikeSocial. Contenus et criteres SEO/GEO de amv-blog-moderne conserves.",
+  "build": "python3 _build.py"
+}
