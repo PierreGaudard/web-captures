@@ -219,6 +219,27 @@ def page(title, head_meta, canonical, ld, corps, extra_head=""):
 """
 
 
+def og_image(src, pub=None, mod=None):
+    u = "https://www.amv.fr" + re.sub(r"\.(png|jpe?g)$", ".webp", src)
+    t = [f'<meta property="og:image" content="{u}">', '<meta property="og:image:width" content="1200">']
+    if pub:
+        t += ['<meta property="og:type" content="article">',
+              f'<meta property="article:published_time" content="{pub}">',
+              f'<meta property="article:modified_time" content="{mod}">']
+    return "\n" + "\n".join(t)
+
+
+def sans_speakable(ld):
+    """Speakable ne sert qu'aux actualites en anglais chez Google : retire du gabarit."""
+    out = []
+    for j in ld:
+        d = json.loads(j)
+        for n in d.get("@graph", [d]):
+            n.pop("speakable", None)
+        out.append(json.dumps(d, ensure_ascii=False, indent=1))
+    return out
+
+
 def carte(c, url, cls="card", h="h3", lazy=True):
     return f"""<a class="{cls}" href="{url}">
   <div class="card-img"><img src="{c['img']}" alt="{H.escape(c['alt'], quote=True)}" width="800" height="440"{' loading="lazy"' if lazy else ''}><span class="chip">{c['cat']}</span></div>
@@ -314,7 +335,7 @@ def construire_hub():
 
 <section class="wrap">
   <div class="grid">{grille2}</div>
-  <nav class="pagination" aria-label="Pagination"{crit(8, "Pagination", "Avec les sous-rubriques, la pagination passe sous chaque thème au lieu de 17 pages à plat. Un rel=next est déclaré dans le head.")}>
+  <nav class="pagination" aria-label="Pagination"{crit(8, "Pagination", "Avec les sous-rubriques, la pagination passe sous chaque thème au lieu de 17 pages à plat. Les pages 2 et suivantes restent en index, follow, avec leur propre canonical.")}>
     <span class="on">1</span><a href="https://www.amv.fr/assurance-moto/page/2/">2</a><a href="https://www.amv.fr/assurance-moto/page/3/">3</a><span class="dots">…</span><a href="https://www.amv.fr/assurance-moto/page/17/">17</a>
     <a class="next" href="https://www.amv.fr/assurance-moto/page/2/" aria-label="Page suivante">{ICO['chev']}</a>
   </nav>
@@ -334,8 +355,7 @@ def construire_hub():
 </section>
 </main>
 {pied()}"""
-    extra = '<link rel="next" href="https://www.amv.fr/assurance-moto/page/2/">'
-    return page(title, meta, can, ld, corps, extra)
+    return page(title, meta + og_image(une["img"]), can, ld, corps)
 
 
 # ------------------------------------------------------------------ article
@@ -360,7 +380,7 @@ def sidebar(toc_html):
   </div>
   <div class="side-box"><p class="side-t">Étiquettes</p><div class="tags">{tags}</div></div>
   <div class="side-box side-rs"><p class="side-t">Suivez-nous</p><div class="rs">{reseaux}</div></div>
-  <div class="side-box toc"{crit(6, "Sommaire ancré et collant", "Il reste visible pendant toute la lecture et surligne la section en cours, avec une barre de progression. Navigation interne, ancres nommées, et surface supplémentaire pour les liens de site dans la SERP. Aucun article du blog n'en a aujourd'hui.")}>
+  <div class="side-box toc">
     <p class="side-t">Sommaire</p>
     <ol>{toc_html}</ol>
   </div>
@@ -379,6 +399,7 @@ def construire_article():
     toc = [(a["href"], a.get_text(" ", strip=True)) for a in s.select(".art-toc a")]
     body = s.select_one("article.art-body")
 
+    toc_html = "".join(f'<li><a href="{h}">{t}</a></li>' for h, t in toc)
     sortie = []
     for el in body.find_all(recursive=False):
         cls = el.get("class") or []
@@ -388,6 +409,8 @@ def construire_article():
             sortie.append(f"""<div class="bref"{crit(4, "Encart « L'essentiel »", "La réponse à la question du titre dès le premier écran, une phrase clé puis des puces. C'est le bloc que les moteurs génératifs citent en premier, il vaut 20 points de score GEO dans notre grille.")}>
   <p class="bloc-t">{ICO['bulb']} L'essentiel</p>
   <p class="cle">{cle}</p><ul>{lis}</ul></div>""")
+            sortie.append(f"""<nav class="toc-inline" aria-label="Sommaire"{crit(6, "Sommaire ancré, en tête et collant", "Un sommaire en tête d'article, juste après L'essentiel, avec une ancre nommée par section : il donne le plan au lecteur, aux moteurs génératifs, et peut produire des liens vers les sections dans la SERP. Il est repris dans la sidebar, où il reste visible pendant la lecture et surligne la section en cours. Aucun article du blog n'en a aujourd'hui.")}>
+  <p class="toc-inline-t">Dans cet article</p><ol>{toc_html}</ol></nav>""")
         elif "art-source" in cls:
             ps = el.select("p")
             texte = "".join(str(p) for p in ps[1:-1])
@@ -440,7 +463,6 @@ def construire_article():
         return m.group(0)
     corps_art = re.sub(r'\sdata-crit="(\d+)" data-crit-titre="[^"]*" data-crit-txt="[^"]*"', dedoublonne, corps_art)
 
-    toc_html = "".join(f'<li><a href="{h}">{t}</a></li>' for h, t in toc)
     suite = "".join(carte(c, HUB, lazy=True) for c in hub_cartes[1:4])
     img = photo["src"]
 
@@ -463,7 +485,6 @@ def construire_article():
       </div>
       <figure class="art-photo"><img src="{img}" alt="{H.escape(photo.get('alt', ''), quote=True)}" width="1600" height="900" fetchpriority="high"></figure>
     </header>
-    <details class="toc-mobile"><summary>Sommaire {ICO['down']}</summary><ol>{toc_html}</ol></details>
     <div class="art-body">
 {corps_art}
     </div>
@@ -479,16 +500,31 @@ def construire_article():
 </section>
 </main>
 {pied()}"""
-    return page(title, meta, can, ld, corps)
+    graph = json.loads(ld[0]).get("@graph", [])
+    art = next(n for n in graph if n.get("@type") == "BlogPosting")
+    return page(title, meta + og_image(img, art["datePublished"], art["dateModified"]), can,
+                sans_speakable(ld), corps)
 
 
 # ------------------------------------------------------------------ build
 
 def copie_images(html):
+    """Chaque image passe en WebP en deux largeurs, avec srcset : les PNG du blog pesaient
+    400 a 540 Ko pour une vignette."""
+    from PIL import Image
     for src in set(re.findall(r'src="(/wp-content/[^"]+)"', html)):
-        dst = SITE / src.lstrip("/")
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy(V1 / src.lstrip("/"), dst)
+        base = re.sub(r"\.(png|jpe?g|webp)$", "", src)
+        im = Image.open(V1 / src.lstrip("/")).convert("RGB")
+        grand = 1600 if im.width >= 1600 else 800
+        for w, suffixe in ((grand, ""), (grand // 2, f"-{grand // 2}")):
+            dst = SITE / (base.lstrip("/") + suffixe + ".webp")
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            r = im.resize((w, round(im.height * w / im.width)), Image.LANCZOS) if im.width > w else im
+            r.save(dst, "WEBP", quality=78, method=6)
+        petit = grand // 2
+        html = html.replace(f'src="{src}"', f'src="{base}.webp" srcset="{base}-{petit}.webp {petit}w, '
+                                            f'{base}.webp {grand}w" sizes="(max-width: 760px) 100vw, {petit}px"')
+    return html
 
 
 def controle(nom, html):
@@ -526,8 +562,7 @@ def main():
 
     ok = True
     for chemin, fn in ((HUB_PATH, construire_hub), (ART_PATH, construire_article)):
-        html = fn()
-        copie_images(html)
+        html = copie_images(fn())
         out = SITE / chemin / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(html, encoding="utf-8")
