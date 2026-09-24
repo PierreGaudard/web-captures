@@ -23,6 +23,7 @@ V1 = HERE.parent / "amv-blog-moderne" / "mirror" / "www.amv.fr"
 ASSETS = HERE.parent / "_modeles-blog-assets"
 SITE = HERE / "site"
 
+BANDEAU = "/wp-content/uploads/2026/08/bandeau-exemple.webp"
 HUB_PATH = "assurance-moto/"
 ART_PATH = "assurance-moto/budget-pour-debuter-la-moto/"
 HUB = "/" + HUB_PATH
@@ -212,6 +213,7 @@ def page(title, head_meta, canonical, ld, corps, extra_head=""):
 </head>
 <body>
 {corps}
+<a class="bar-tarif" href="https://www.amv.fr/assurance/moto/">Obtenir mon tarif moto<span>Sans engagement, en 3 minutes</span></a>
 <script src="/assets/mag.js" defer></script>
 <script src="/_criteres.js" defer></script>
 </body>
@@ -236,6 +238,9 @@ def sans_speakable(ld):
         d = json.loads(j)
         for n in d.get("@graph", [d]):
             n.pop("speakable", None)
+            if n.get("@type") == "ImageObject" and "#img" in n.get("@id", ""):
+                n.update({"url": "https://www.amv.fr" + BANDEAU, "width": 1440, "height": 498,
+                          "caption": "Groupe de motards dans un virage en montagne"})
         out.append(json.dumps(d, ensure_ascii=False, indent=1))
     return out
 
@@ -386,12 +391,16 @@ def sidebar(toc_html):
     def liste(posts):
         return "".join(f"""<li><a href="{x['url']}"><img src="{x['img']}" alt="{H.escape(x['alt'], quote=True)}" width="800" height="440" loading="lazy"><span class="sp-txt"><b>{x['titre']}</b><span>{x['date']} · {x['min']} min</span></span></a></li>""" for x in posts)
     pop, rec = posts_moto()
-    tags = "".join(f'<span class="tag" data-src="{t["src"]}">{t["t"]}</span>' for t in d["etiquettes"])
+    garder = ["Assurance moto", "permis moto", "Équipement", "Casque", "Entretien moto", "balade moto",
+              "sécurité routière", "vol"]
+    par_nom = {t["t"]: t for t in d["etiquettes"]}
+    tags = "".join(f'<span class="tag" data-src="{par_nom[n]["src"]}">{n[0].upper() + n[1:]}</span>'
+                   for n in garder if n in par_nom)
     rs = {"facebook": '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 8.5V6.8c0-.8.5-1 .9-1H17V2.3L14.2 2.3C11 2.3 10.3 4.6 10.3 6.1v2.4H8.4V12h1.9v10h3.7V12h2.7l.4-3.5H14z"/></svg>',
           "instagram": '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg>',
           "youtube": '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 8.2c-.2-1.6-1-2.7-2.7-2.9C16.6 5 12 5 12 5s-4.6 0-7.3.3C3 5.5 2.2 6.6 2 8.2 1.8 9.5 1.8 12 1.8 12s0 2.5.2 3.8c.2 1.6 1 2.7 2.7 2.9C7.4 19 12 19 12 19s4.6 0 7.3-.3c1.7-.2 2.5-1.3 2.7-2.9.2-1.3.2-3.8.2-3.8s0-2.5-.2-3.8zM10 15.1V8.9l5.3 3.1L10 15.1z"/></svg>'}
     reseaux = "".join(f'<a href="{u}" aria-label="{k}">{rs[k]}</a>' for u in d["reseaux"] for k in rs if k in u)
-    return f"""<aside class="side"{crit(13, "Sidebar du blog actuel", "Les blocs de la sidebar d'aujourd'hui sont conservés : bouton de tarif, onglets Populaires et Récents, étiquettes et réseaux sociaux. L'onglet Commentaires est retiré parce qu'il est vide sur tout le blog. Populaires et Récents sont limités à la rubrique de l'article : aujourd'hui un article moto renvoie vers « Camper dans sa voiture » ou le quad, ce qui dilue la thématique de la page. En production, Populaires se calcule sur les visites de la rubrique. Le bouton pointe désormais la landing page /assurance/moto/ et non plus une .aspx en 301, et les étiquettes gardent leur lien masqué aux robots comme aujourd'hui.")}>
+    return f"""<aside class="side"{crit(13, "Sidebar du blog actuel", "Les blocs de la sidebar d'aujourd'hui sont conservés : bouton de tarif, onglets Populaires et Récents, étiquettes et réseaux sociaux. L'onglet Commentaires est retiré parce qu'il est vide sur tout le blog. Populaires et Récents sont limités à la rubrique de l'article : aujourd'hui un article moto renvoie vers « Camper dans sa voiture » ou le quad, ce qui dilue la thématique de la page. En production, Populaires se calcule sur les visites de la rubrique. Le bouton pointe désormais la landing page /assurance/moto/ et non plus une .aspx en 301, et les étiquettes passent de 45 à 8, celles de la rubrique, avec leur lien toujours masqué aux robots comme aujourd'hui.")}>
   <a class="pill pill-green side-tarifs" href="{L_MOTO}">Testez nos tarifs {ICO['chev']}</a>
   <div class="side-box side-tabs">
     <div class="tabs" role="tablist"><button class="on" role="tab" data-tab="pop">Populaires</button><button role="tab" data-tab="rec">Récents</button></div>
@@ -499,7 +508,7 @@ def construire_article():
         <span class="sig-dates"><span>Publié le <b>12 août 2026</b></span><span>Mis à jour le <b>11 septembre 2026</b></span></span>
         <span class="sig-temps">{ICO['clock']} 7 min</span>
       </div>
-      <figure class="art-photo"><img src="{img}" alt="{H.escape(photo.get('alt', ''), quote=True)}" width="1600" height="900" fetchpriority="high"></figure>
+      <figure class="art-photo"{crit(14, "Photo en bandeau", "Un visuel au format bandeau, environ 3 pour 1, qui ne repousse pas le texte sous la ligne de flottaison. Les visuels d'articles doivent être produits dans ce format (1440 × 500 minimum) : un visuel carré ou en 4/3 recadré en bandeau perd son sujet. Ici, visuel d'exemple repris de la page assurance moto.")}><img src="{BANDEAU}" alt="Groupe de motards dans un virage en montagne" width="1440" height="498" fetchpriority="high"></figure>
     </header>
     <div class="art-body">
 {corps_art}
@@ -518,7 +527,7 @@ def construire_article():
 {pied()}"""
     graph = json.loads(ld[0]).get("@graph", [])
     art = next(n for n in graph if n.get("@type") == "BlogPosting")
-    return page(title, meta + og_image(img, art["datePublished"], art["dateModified"]), can,
+    return page(title, meta + og_image(BANDEAU, art["datePublished"], art["dateModified"]), can,
                 sans_speakable(ld), corps)
 
 
@@ -530,8 +539,9 @@ def copie_images(html):
     from PIL import Image
     for src in set(re.findall(r'src="(/wp-content/[^"]+)"', html)):
         base = re.sub(r"\.(png|jpe?g|webp)$", "", src)
-        im = Image.open(V1 / src.lstrip("/")).convert("RGB")
-        grand = 1600 if im.width >= 1600 else 800
+        source = HERE / "bandeau-exemple.webp" if src == BANDEAU else V1 / src.lstrip("/")
+        im = Image.open(source).convert("RGB")
+        grand = 1440 if im.width >= 1440 else 800
         for w, suffixe in ((grand, ""), (grand // 2, f"-{grand // 2}")):
             dst = SITE / (base.lstrip("/") + suffixe + ".webp")
             dst.parent.mkdir(parents=True, exist_ok=True)

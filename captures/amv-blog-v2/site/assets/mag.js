@@ -15,6 +15,16 @@
     cibles.forEach(function (c, i) { if (c && c.getBoundingClientRect().top < 180) courant = i; });
     liens.forEach(function (a, i) { a.classList.toggle('on', i === courant); });
   }
+  // barre de tarif mobile : apparait une fois l'en-tete passe, s'efface sur le pied de page
+  var tarif = document.querySelector('.bar-tarif');
+  var pied = document.querySelector('.site-foot');
+  function barre() {
+    if (!tarif) return;
+    var bas = pied ? pied.getBoundingClientRect().top < window.innerHeight : false;
+    tarif.classList.toggle('on', window.scrollY > 500 && !bas);
+  }
+  window.addEventListener('scroll', barre, { passive: true });
+  barre();
   window.addEventListener('scroll', maj, { passive: true });
   window.addEventListener('resize', maj);
   maj();
