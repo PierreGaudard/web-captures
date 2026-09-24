@@ -1,4 +1,4 @@
-// AMV Le Mag v2 : barre de progression de lecture et sommaire qui suit la lecture
+// AMV Le Mag v2 : barre de progression, sommaire qui suit la lecture, onglets de la sidebar
 (function () {
   var bar = document.querySelector('.progress span');
   var body = document.querySelector('.art-body');
@@ -18,4 +18,16 @@
   window.addEventListener('scroll', maj, { passive: true });
   window.addEventListener('resize', maj);
   maj();
+
+  [].forEach.call(document.querySelectorAll('.tabs button'), function (b) {
+    b.addEventListener('click', function () {
+      var box = b.closest('.side-tabs');
+      [].forEach.call(box.querySelectorAll('.tabs button'), function (x) { x.classList.toggle('on', x === b); });
+      [].forEach.call(box.querySelectorAll('[data-pane]'), function (p) { p.hidden = p.getAttribute('data-pane') !== b.getAttribute('data-tab'); });
+    });
+  });
+  // etiquettes : lien masque aux robots, comme sur le blog actuel
+  [].forEach.call(document.querySelectorAll('.tag[data-src]'), function (t) {
+    t.addEventListener('click', function () { window.location.href = t.getAttribute('data-src'); });
+  });
 })();

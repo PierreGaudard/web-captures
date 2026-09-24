@@ -334,6 +334,34 @@ def construire_hub():
 
 # ------------------------------------------------------------------ article
 
+def sidebar(toc_html):
+    """Sidebar reprise du blog actuel d'amv.fr (bouton tarifs, onglets Populaires et Recents,
+    etiquettes, reseaux sociaux), restylee, plus le sommaire collant en dernier bloc."""
+    d = json.loads((HERE / "sidebar.json").read_text(encoding="utf-8"))
+    def liste(posts):
+        return "".join(f"""<li><a href="{x['url']}"><b>{x['titre']}</b><span>{x['extrait']}</span></a></li>""" for x in posts)
+    tags = "".join(f'<span class="tag" data-src="{t["src"]}">{t["t"]}</span>' for t in d["etiquettes"])
+    rs = {"facebook": '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 8.5V6.8c0-.8.5-1 .9-1H17V2.3L14.2 2.3C11 2.3 10.3 4.6 10.3 6.1v2.4H8.4V12h1.9v10h3.7V12h2.7l.4-3.5H14z"/></svg>',
+          "instagram": '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg>',
+          "youtube": '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 8.2c-.2-1.6-1-2.7-2.7-2.9C16.6 5 12 5 12 5s-4.6 0-7.3.3C3 5.5 2.2 6.6 2 8.2 1.8 9.5 1.8 12 1.8 12s0 2.5.2 3.8c.2 1.6 1 2.7 2.7 2.9C7.4 19 12 19 12 19s4.6 0 7.3-.3c1.7-.2 2.5-1.3 2.7-2.9.2-1.3.2-3.8.2-3.8s0-2.5-.2-3.8zM10 15.1V8.9l5.3 3.1L10 15.1z"/></svg>'}
+    reseaux = "".join(f'<a href="{u}" aria-label="{k}">{rs[k]}</a>' for u in d["reseaux"] for k in rs if k in u)
+    return f"""<aside class="side"{crit(13, "Sidebar du blog actuel", "Les blocs de la sidebar d'aujourd'hui sont conservés : bouton de tarif, onglets Populaires et Récents, étiquettes et réseaux sociaux. L'onglet Commentaires est retiré parce qu'il est vide sur tout le blog. Le bouton pointe désormais la landing page /assurance/moto/ et non plus une .aspx en 301, et les étiquettes gardent leur lien masqué aux robots comme aujourd'hui.")}>
+  <a class="pill pill-green side-tarifs" href="{L_MOTO}">Testez nos tarifs {ICO['chev']}</a>
+  <div class="side-box side-tabs">
+    <div class="tabs" role="tablist"><button class="on" role="tab" data-tab="pop">Populaires</button><button role="tab" data-tab="rec">Récents</button></div>
+    <ul class="side-posts" data-pane="pop">{liste(d["populaires"])}</ul>
+    <ul class="side-posts" data-pane="rec" hidden>{liste(d["recents"])}</ul>
+  </div>
+  <div class="side-box"><p class="side-t">Étiquettes</p><div class="tags">{tags}</div></div>
+  <div class="side-box side-rs"><p class="side-t">Suivez-nous</p><div class="rs">{reseaux}</div></div>
+  <div class="side-box toc"{crit(6, "Sommaire ancré et collant", "Il reste visible pendant toute la lecture et surligne la section en cours, avec une barre de progression. Navigation interne, ancres nommées, et surface supplémentaire pour les liens de site dans la SERP. Aucun article du blog n'en a aujourd'hui.")}>
+    <p class="side-t">Sommaire</p>
+    <ol>{toc_html}</ol>
+  </div>
+</aside>"""
+
+
+
 def construire_article():
     s = soup(ART_PATH)
     title, meta, can = lire_head(s)
@@ -412,34 +440,30 @@ def construire_article():
 
     corps = f"""{entete("Moto")}
 <main>
-<article class="art">
-  <header class="art-head wrap">
-    <nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">Le Mag · Moto</a>{ICO['chev']}<span>Achat et budget</span></nav>
-    <div class="art-head-txt"{crit(2, "En-tête d'article", "Rubrique en pastille, H1 en casse normale sur fond blanc, chapeau qui annonce la réponse. La lisibilité de la Mutuelle des Motards et d'April Moto. Aujourd'hui le blog AMV met tous ses H1 en capitales, sans chapeau ni signature.")}>
-      <span class="chip chip-soft">Achat et budget</span>
-      <h1>{h1}</h1>
-      <p class="chapo">{chapo}</p>
-    </div>
-    <div class="signature"{crit(3, "Signature", "Auteur, fonction, date de publication, date de mise à jour et temps de lecture, dès le premier écran. C'est le signal E-E-A-T que Google et les moteurs génératifs cherchent. Le blog n'affiche aujourd'hui qu'une date de publication, parfois vieille de dix ans, et aucun auteur.")}>
-      <span class="avatar">PN</span>
-      <span class="sig-auteur">Par <b>Prénom Nom</b><small>Conseiller moto AMV</small></span>
-      <span class="sig-dates"><span>Publié le <b>12 août 2026</b></span><span>Mis à jour le <b>11 septembre 2026</b></span></span>
-      <span class="sig-temps">{ICO['clock']} 7 min de lecture</span>
-    </div>
-    <figure class="art-photo"><img src="{img}" alt="{H.escape(photo.get('alt', ''), quote=True)}" width="1600" height="900" fetchpriority="high"></figure>
-  </header>
-
-  <div class="wrap art-shell">
-    <aside class="toc"{crit(6, "Sommaire ancré et collant", "Il suit la lecture et surligne la section en cours, avec une barre de progression. Navigation interne, ancres nommées, et surface supplémentaire pour les liens de site dans la SERP. Aucun article du blog n'en a aujourd'hui.")}>
-      <p class="toc-t">Sommaire</p>
-      <ol>{toc_html}</ol>
-      <a class="pill pill-green toc-cta" href="{L_MOTO}">Tester nos tarifs</a>
-    </aside>
+<div class="wrap"><nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">Le Mag · Moto</a>{ICO['chev']}<span>Achat et budget</span></nav></div>
+<div class="wrap art-layout">
+  <article class="art-main">
+    <header class="art-head">
+      <div class="art-head-txt"{crit(2, "En-tête d'article", "Rubrique en pastille, H1 en casse normale, chapeau qui annonce la réponse. La lisibilité de la Mutuelle des Motards et d'April Moto. Aujourd'hui le blog AMV met tous ses H1 en capitales, sans chapeau ni signature.")}>
+        <span class="chip chip-soft">Achat et budget</span>
+        <h1>{h1}</h1>
+        <p class="chapo">{chapo}</p>
+      </div>
+      <div class="signature"{crit(3, "Signature", "Auteur, fonction, date de publication, date de mise à jour et temps de lecture, dès le premier écran. C'est le signal E-E-A-T que Google et les moteurs génératifs cherchent. Le blog n'affiche aujourd'hui qu'une date de publication, parfois vieille de dix ans, et aucun auteur.")}>
+        <span class="avatar">PN</span>
+        <span class="sig-auteur">Par <b>Prénom Nom</b><small>Conseiller moto AMV</small></span>
+        <span class="sig-dates"><span>Publié le <b>12 août 2026</b></span><span>Mis à jour le <b>11 septembre 2026</b></span></span>
+        <span class="sig-temps">{ICO['clock']} 7 min</span>
+      </div>
+      <figure class="art-photo"><img src="{img}" alt="{H.escape(photo.get('alt', ''), quote=True)}" width="1600" height="900" fetchpriority="high"></figure>
+    </header>
+    <details class="toc-mobile"><summary>Sommaire {ICO['down']}</summary><ol>{toc_html}</ol></details>
     <div class="art-body">
 {corps_art}
     </div>
-  </div>
-</article>
+  </article>
+  {sidebar(toc_html)}
+</div>
 
 <section class="suite">
   <div class="wrap">
