@@ -107,19 +107,25 @@ def lire_cartes(s):
     return cartes
 
 
-def lire_ld(s):
-    return [t.string for t in s.select('script[type="application/ld+json"]')]
+def brut(chemin):
+    return (V1 / chemin / "index.html").read_text(encoding="utf-8")
 
 
-def lire_head(s):
+def lire_ld(chemin):
+    # par regex sur le HTML brut : html.parser imbrique le <meta name="robots"> de la v1
+    # autour du reste du <head>, et un select() rend alors chaque balise plusieurs fois
+    return re.findall(r'<script type="application/ld\+json">(.*?)</script>', brut(chemin), re.S)
+
+
+def lire_head(chemin):
+    h = brut(chemin).split("</head>")[0]
     garde = []
-    for m in s.select("head meta"):
-        if m.get("name") in ("description", "robots", "twitter:card") or \
-           (m.get("property") or "").startswith("og:"):
-            garde.append(str(m))
-    can = s.select_one('link[rel="canonical"]')
-    title = s.title.get_text(strip=True)
-    return title, "\n".join(garde), str(can) if can else ""
+    for m in re.findall(r"<meta\b[^>]*>", h):
+        if re.search(r'(name="(description|robots|twitter:card)"|property="og:)', m) and m not in garde:
+            garde.append(m)
+    can = re.search(r'<link rel="canonical"[^>]*>', h)
+    title = re.search(r"<title>(.*?)</title>", h, re.S).group(1).strip()
+    return title, "\n".join(garde), can.group(0) if can else ""
 
 
 # ------------------------------------------------------------------ gabarit commun
@@ -234,8 +240,8 @@ def faq(items, crit_attr=""):
 def construire_hub():
     s = soup(HUB_PATH)
     cartes = lire_cartes(s)
-    title, meta, can = lire_head(s)
-    ld = lire_ld(s)
+    title, meta, can = lire_head(HUB_PATH)
+    ld = lire_ld(HUB_PATH)
     une, rail, reste = cartes[0], cartes[1:4], cartes[4:]
     chapo = inner(s.select_one(".mag-hero-band .chapo"))
     rubs = [li.get_text(" ", strip=True) for li in s.select(".mag-pills li")]
@@ -364,8 +370,8 @@ def sidebar(toc_html):
 
 def construire_article():
     s = soup(ART_PATH)
-    title, meta, can = lire_head(s)
-    ld = lire_ld(s)
+    title, meta, can = lire_head(ART_PATH)
+    ld = lire_ld(ART_PATH)
     hub_cartes = lire_cartes(soup(HUB_PATH))
     h1 = s.find("h1").get_text(" ", strip=True).replace(" ?", "&nbsp;?")
     chapo = inner(s.select_one(".art-hero-band .chapo"))
@@ -496,7 +502,13 @@ def controle(nom, html):
     crits = sorted(set(int(x) for x in re.findall(r'data-crit="(\d+)"', html)))
     print(f"{nom}: h1={n_h1} h2={len(re.findall(r'<h2[ >]', html))} h3={len(re.findall(r'<h3[ >]', html))}"
           f" alt vides={alt_vides} div={divs} json-ld={len(lds)} criteres={crits}")
-    if n_h1 != 1 or alt_vides or divs[0] != divs[1]:
+    doublons = [t for t in ('name="robots"', 'property="og:title"', 'name="description"', 'rel="canonical"')
+                if html.count(t) != 1]
+    if len(lds) != len(set(lds)):
+        doublons.append("json-ld")
+    if doublons:
+        print("   DOUBLONS:", doublons)
+    if n_h1 != 1 or alt_vides or divs[0] != divs[1] or doublons:
         ok = False
     return ok
 
