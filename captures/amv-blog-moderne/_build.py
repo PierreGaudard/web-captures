@@ -672,6 +672,16 @@ def construire_article(cartes, lecture):
 CHROME_HAUT = CHROME_BAS = ""
 
 
+
+def navigation_apercu(html, chemin):
+    """Rend l'apercu navigable sans quitter pages.dev : les liens vers le hub restent dans
+    l'apercu, et sur le hub les cartes ouvrent l'article modele (demande d'AMV du 23/09/2026,
+    parcourir rubrique puis article). Le canonical, qui est un <link>, n'est pas touche."""
+    html = re.sub(r'(<a\b[^>]*\bhref=")' + re.escape(HUB_URL) + '"', r'\1/' + HUB_PATH + '"', html)
+    if chemin == HUB_PATH:
+        html = re.sub(r'(<a class="mag-(?:card|une)" href=")[^"]*"', r'\1/' + ART_PATH + '"', html)
+    return html
+
 def main():
     global CHROME_HAUT, CHROME_BAS
     if ROOT.exists():
@@ -720,6 +730,7 @@ def main():
     for chemin, html in sorties.items():
         html = da.strip_tracking(html)
         html = da.localise_assets(html, ROOT)
+        html = navigation_apercu(html, chemin)
         out = ROOT / chemin / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(html, encoding="utf-8")
