@@ -366,3 +366,6 @@ h1,h2,h3{font-family:var(--titre);font-weight:600;color:var(--encre);margin:0;le
 .toc-inline a::before{content:counter(t,decimal-leading-zero);font-weight:700;color:var(--vert);font-size:12px;padding-top:2px}
 .toc-inline a:hover{color:var(--vert)!important}
 @media (max-width:760px){.toc-inline ol{columns:1}.toc-inline{padding:18px 18px}}
+.side-posts a{display:grid;grid-template-columns:76px 1fr;gap:12px;align-items:center}
+.side-posts img{width:76px;height:56px;object-fit:cover;border-radius:8px}
+.sp-txt span{margin-top:3px}

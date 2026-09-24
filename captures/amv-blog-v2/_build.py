@@ -360,23 +360,43 @@ def construire_hub():
 
 # ------------------------------------------------------------------ article
 
+POPULAIRES_MOTO = ["Choisir son casque moto homologué", "Retrait de permis moto : l’essentiel à savoir",
+                   "Moto volée : étapes à suivre et déclaration", "Tout savoir sur les gants moto"]
+
+
+def posts_moto():
+    """Populaires et Recents limites a la rubrique Moto. Recents = les 4 derniers de la
+    rubrique. Populaires = 4 articles choisis a titre d'exemple : en production, la liste
+    vient des visites GA4 de la rubrique sur 90 jours."""
+    cartes = lire_cartes(soup(HUB_PATH))
+    graph = json.loads(lire_ld(HUB_PATH)[0]).get("@graph", [])
+    liste = next(n for n in graph if n.get("@type") == "ItemList")["itemListElement"]
+    url = {H.unescape(i["name"]): i["url"] for i in liste}
+    for c in cartes:
+        c["url"] = url.get(H.unescape(c["titre"]), "https://www.amv.fr/assurance-moto/")
+    par_titre = {H.unescape(c["titre"]): c for c in cartes}
+    pop = [par_titre[t] for t in POPULAIRES_MOTO if t in par_titre]
+    return pop, cartes[:4]
+
+
 def sidebar(toc_html):
     """Sidebar reprise du blog actuel d'amv.fr (bouton tarifs, onglets Populaires et Recents,
     etiquettes, reseaux sociaux), restylee, plus le sommaire collant en dernier bloc."""
     d = json.loads((HERE / "sidebar.json").read_text(encoding="utf-8"))
     def liste(posts):
-        return "".join(f"""<li><a href="{x['url']}"><b>{x['titre']}</b><span>{x['extrait']}</span></a></li>""" for x in posts)
+        return "".join(f"""<li><a href="{x['url']}"><img src="{x['img']}" alt="{H.escape(x['alt'], quote=True)}" width="800" height="440" loading="lazy"><span class="sp-txt"><b>{x['titre']}</b><span>{x['date']} · {x['min']} min</span></span></a></li>""" for x in posts)
+    pop, rec = posts_moto()
     tags = "".join(f'<span class="tag" data-src="{t["src"]}">{t["t"]}</span>' for t in d["etiquettes"])
     rs = {"facebook": '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 8.5V6.8c0-.8.5-1 .9-1H17V2.3L14.2 2.3C11 2.3 10.3 4.6 10.3 6.1v2.4H8.4V12h1.9v10h3.7V12h2.7l.4-3.5H14z"/></svg>',
           "instagram": '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg>',
           "youtube": '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 8.2c-.2-1.6-1-2.7-2.7-2.9C16.6 5 12 5 12 5s-4.6 0-7.3.3C3 5.5 2.2 6.6 2 8.2 1.8 9.5 1.8 12 1.8 12s0 2.5.2 3.8c.2 1.6 1 2.7 2.7 2.9C7.4 19 12 19 12 19s4.6 0 7.3-.3c1.7-.2 2.5-1.3 2.7-2.9.2-1.3.2-3.8.2-3.8s0-2.5-.2-3.8zM10 15.1V8.9l5.3 3.1L10 15.1z"/></svg>'}
     reseaux = "".join(f'<a href="{u}" aria-label="{k}">{rs[k]}</a>' for u in d["reseaux"] for k in rs if k in u)
-    return f"""<aside class="side"{crit(13, "Sidebar du blog actuel", "Les blocs de la sidebar d'aujourd'hui sont conservés : bouton de tarif, onglets Populaires et Récents, étiquettes et réseaux sociaux. L'onglet Commentaires est retiré parce qu'il est vide sur tout le blog. Le bouton pointe désormais la landing page /assurance/moto/ et non plus une .aspx en 301, et les étiquettes gardent leur lien masqué aux robots comme aujourd'hui.")}>
+    return f"""<aside class="side"{crit(13, "Sidebar du blog actuel", "Les blocs de la sidebar d'aujourd'hui sont conservés : bouton de tarif, onglets Populaires et Récents, étiquettes et réseaux sociaux. L'onglet Commentaires est retiré parce qu'il est vide sur tout le blog. Populaires et Récents sont limités à la rubrique de l'article : aujourd'hui un article moto renvoie vers « Camper dans sa voiture » ou le quad, ce qui dilue la thématique de la page. En production, Populaires se calcule sur les visites de la rubrique. Le bouton pointe désormais la landing page /assurance/moto/ et non plus une .aspx en 301, et les étiquettes gardent leur lien masqué aux robots comme aujourd'hui.")}>
   <a class="pill pill-green side-tarifs" href="{L_MOTO}">Testez nos tarifs {ICO['chev']}</a>
   <div class="side-box side-tabs">
     <div class="tabs" role="tablist"><button class="on" role="tab" data-tab="pop">Populaires</button><button role="tab" data-tab="rec">Récents</button></div>
-    <ul class="side-posts" data-pane="pop">{liste(d["populaires"])}</ul>
-    <ul class="side-posts" data-pane="rec" hidden>{liste(d["recents"])}</ul>
+    <ul class="side-posts" data-pane="pop">{liste(pop)}</ul>
+    <ul class="side-posts" data-pane="rec" hidden>{liste(rec)}</ul>
   </div>
   <div class="side-box"><p class="side-t">Étiquettes</p><div class="tags">{tags}</div></div>
   <div class="side-box side-rs"><p class="side-t">Suivez-nous</p><div class="rs">{reseaux}</div></div>
