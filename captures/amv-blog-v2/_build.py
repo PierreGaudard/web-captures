@@ -381,7 +381,7 @@ def posts_moto():
 
 def sidebar(toc_html):
     """Sidebar reprise du blog actuel d'amv.fr (bouton tarifs, onglets Populaires et Recents,
-    etiquettes, reseaux sociaux), restylee, plus le sommaire collant en dernier bloc."""
+    etiquettes, reseaux sociaux), restylee, """
     d = json.loads((HERE / "sidebar.json").read_text(encoding="utf-8"))
     def liste(posts):
         return "".join(f"""<li><a href="{x['url']}"><img src="{x['img']}" alt="{H.escape(x['alt'], quote=True)}" width="800" height="440" loading="lazy"><span class="sp-txt"><b>{x['titre']}</b><span>{x['date']} · {x['min']} min</span></span></a></li>""" for x in posts)
@@ -400,10 +400,6 @@ def sidebar(toc_html):
   </div>
   <div class="side-box"><p class="side-t">Étiquettes</p><div class="tags">{tags}</div></div>
   <div class="side-box side-rs"><p class="side-t">Suivez-nous</p><div class="rs">{reseaux}</div></div>
-  <div class="side-box toc">
-    <p class="side-t">Sommaire</p>
-    <ol>{toc_html}</ol>
-  </div>
 </aside>"""
 
 
@@ -429,8 +425,8 @@ def construire_article():
             sortie.append(f"""<div class="bref"{crit(4, "Encart « L'essentiel »", "La réponse à la question du titre dès le premier écran, une phrase clé puis des puces. C'est le bloc que les moteurs génératifs citent en premier, il vaut 20 points de score GEO dans notre grille.")}>
   <p class="bloc-t">{ICO['bulb']} L'essentiel</p>
   <p class="cle">{cle}</p><ul>{lis}</ul></div>""")
-            sortie.append(f"""<nav class="toc-inline" aria-label="Sommaire"{crit(6, "Sommaire ancré, en tête et collant", "Un sommaire en tête d'article, juste après L'essentiel, avec une ancre nommée par section : il donne le plan au lecteur, aux moteurs génératifs, et peut produire des liens vers les sections dans la SERP. Il est repris dans la sidebar, où il reste visible pendant la lecture et surligne la section en cours. Aucun article du blog n'en a aujourd'hui.")}>
-  <p class="toc-inline-t">Dans cet article</p><ol>{toc_html}</ol></nav>""")
+            sortie.append(f"""<details class="toc-inline"{crit(6, "Sommaire ancré, en tête d'article", "Un sommaire juste après L'essentiel, fermé par défaut pour ne pas repousser le texte, avec une ancre nommée par section. Les liens restent dans le HTML même replié : ils donnent le plan aux moteurs génératifs et peuvent produire des liens vers les sections dans la SERP. Aucun article du blog n'en a aujourd'hui.")}>
+  <summary><span>Sommaire</span>{ICO['down']}</summary><nav aria-label="Sommaire"><ol>{toc_html}</ol></nav></details>""")
         elif "art-source" in cls:
             ps = el.select("p")
             texte = "".join(str(p) for p in ps[1:-1])

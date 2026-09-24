@@ -369,3 +369,11 @@ h1,h2,h3{font-family:var(--titre);font-weight:600;color:var(--encre);margin:0;le
 .side-posts a{display:grid;grid-template-columns:76px 1fr;gap:12px;align-items:center}
 .side-posts img{width:76px;height:56px;object-fit:cover;border-radius:8px}
 .sp-txt span{margin-top:3px}
+/* sommaire ferme par defaut */
+.toc-inline{padding:0}
+.toc-inline summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;padding:18px 24px;font-family:var(--titre);font-weight:600;font-size:19px;color:var(--encre)}
+.toc-inline summary::-webkit-details-marker{display:none}
+.toc-inline summary svg{color:var(--vert);width:20px;height:20px;transition:transform .2s}
+.toc-inline[open] summary svg{transform:rotate(180deg)}
+.toc-inline nav{padding:0 24px 18px}
+.toc-inline[open]{border-color:var(--vert)}
