@@ -1,0 +1,857 @@
+{
+ "scooter": {
+  "txt": "AMV, leader de l'assurance scooter et moto, propose des solutions en ligne adaptées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, incluant l'assurance moto de collection, 4X4, jetski, quad, et bien plus encore. Personnalisez vos contrats en ajoutant des garanties spécifiques en fonction de votre véhicule et de vos besoins réels. Obtenez rapidement un devis et souscrivez votre contrat en ligne. Nos experts sont là pour vous guider et répondre à vos questions. Découvrez l'histoire des constructeurs moto et leurs modèles de référence. Optez pour l'excellence avec AMV, votre assurance moto scooter. Note de satisfaction de 4,7/5 selon les 5116 clients interrogés par Avis Vérifiés.",
+  "heads": [
+   "Assurance scooter"
+  ],
+  "links": [
+   [
+    "Devis assurance scooter",
+    "/assurance/scooter/"
+   ],
+   [
+    "Devis assurance scooter par marque",
+    "/assurance-scooter/assurance-scooter-par-constructeur/"
+   ],
+   [
+    "Devis assurance scooter par motorisation",
+    "/assurance-scooter/assurance-scooter-par-motorisation/"
+   ],
+   [
+    "Devis assurance scooter par profil",
+    "/assurance-scooter/assurance-scooter-par-profil/"
+   ],
+   [
+    "Devis assurance scooter par type",
+    "/assurance-scooter/assurance-scooter-par-type/"
+   ],
+   [
+    "Devis assurance scooter par permis",
+    "/assurance-scooter/assurance-scooter-par-permis/"
+   ],
+   [
+    "Devis assurance moto",
+    "/assurance/moto/"
+   ],
+   [
+    "Devis assurance quad/SSV",
+    "/assurance/quad/"
+   ],
+   [
+    "Devis assurance HONDA",
+    "/assurance-scooter/assurance-scooter-honda/"
+   ],
+   [
+    "Devis assurance YAMAHA",
+    "/assurance-scooter/assurance-scooter-yamaha/"
+   ],
+   [
+    "Devis assurance PIAGGIO",
+    "/assurance-scooter/assurance-scooter-piaggio/"
+   ],
+   [
+    "Devis assurance KYMCO",
+    "/assurance-scooter/assurance-scooter-kymco/"
+   ],
+   [
+    "Devis assurance PEUGEOT",
+    "/assurance-scooter/assurance-scooter-peugeot/"
+   ],
+   [
+    "Devis assurance scooter 125",
+    "/assurance-scooter/assurance-scooter-125cm3/"
+   ],
+   [
+    "Devis assurance scooter 400",
+    "/assurance-scooter/assurance-scooter-400cm3/"
+   ],
+   [
+    "Devis assurance scooter 500",
+    "/assurance-scooter/assurance-scooter-500cm3/"
+   ],
+   [
+    "Devis assurance scooter 650",
+    "/assurance-scooter/assurance-scooter-650cm3/"
+   ],
+   [
+    "Devis assurance scooter 750",
+    "/assurance-scooter/assurance-scooter-750cm3/"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Quelle est la meilleure assurance pour un scooter ?",
+    "a": "La meilleure assurance scooter dépend de la valeur de votre scooter, de votre usage et de votre budget. Pour un scooter de faible valeur, la formule Responsabilité civile peut suffire. Pour un scooter neuf ou financé à crédit, la formule Tous risques offre la meilleure protection. AMV, assureur spécialiste de l'assurance deux-roues depuis plus de 50 ans, propose des formules sur mesure, adaptées à chaque scootériste."
+   },
+   {
+    "q": "Comment faire pour assurer un scooter de 50cc ?",
+    "a": "Pour assurer votre scooter 50cc au meilleur prix, AMV est le choix idéal. Grâce à l'assurance en ligne proposée par AMV, vous bénéficiez rapidement d'une couverture efficace pour votre scooter. Sur amv.fr, vous pouvez obtenir une assurance pour votre scooter 50cc en un temps record (sous conditions). Faites confiance à AMV, le spécialiste de l'assurance scooter, pour protéger votre véhicule en toute simplicité et tranquillité d'esprit. Profitez des avantages offerts par AMV et roulez en toute sécurité sur les routes."
+   },
+   {
+    "q": "Comment obtenir un devis d'assurance scooter ?",
+    "a": "Vous recherchez une assurance scooter fiable et adaptée à vos besoins spécifiques ? AMV est l'assureur de confiance qu'il vous faut ! Obtenez rapidement un devis personnalisé et gratuit en ligne en quelques clics seulement. Que vous soyez jeune conducteur ou expérimenté, que vous possédiez un scooter 50cc, 125cc ou un scooter 3 roues, AMV propose des solutions d'assurance sur mesure pour protéger efficacement votre scooter et vous-même sur la route. Profitez de leurs 50 années d'expérience dans le domaine de l'assurance deux-roues et assurez-vous sereinement avec AMV. N'attendez plus, munissez-vous simplement de votre permis et de votre carte grise pour obtenir votre devis personnalisé dès maintenant !"
+   },
+   {
+    "q": "Est-il obligatoire d'assurer un scooter ?",
+    "a": "Oui. Tout véhicule terrestre à moteur doit être assuré au minimum en responsabilité civile, même stationné dans un garage et même s'il ne circule pas. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros. Cette obligation légale s'applique à tous les scooters, quelle que soit leur cylindrée."
+   },
+   {
+    "q": "Combien coûte une assurance scooter ?",
+    "a": "Le prix d’une assurance scooter dépend du modèle et de la cylindrée du scooter, de la sinistralité déclarée du conducteur, du lieu de stationnement, et du niveau de couverture choisi. Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics."
+   },
+   {
+    "q": "Quelles sont les garanties incluses dans une assurance scooter AMV ?",
+    "a": "AMV propose 4 formules d’assurance scooter. L'offre inclut dès sa première formule la Responsabilité civile, l'Assistance juridique et la garantie des équipements de protection (gants jusqu’à 70 €, casque jusqu’à 250 €, gilet airbag jusqu’à 500 € s'ils sont détériorés à la suite d'un sinistre, sous conditions). Selon la formule, vous pouvez bénéficier en plus des garanties Vol/Incendie, Dommages collision, et Dommages tous accidents (Tous Risques). D'autres garanties comme l’Assistance 0 km, l’Individuelle Pilote ou l’Option Plus (extension de garantie aux accessoires et équipements jusqu’à 5 000 €) sont également proposées en option."
+   },
+   {
+    "q": "Quand prennent effet les garanties de mon assurance scooter ?",
+    "a": "Les garanties prennent effet immédiatement à la souscription ou à la date choisie (qui peut être différée jusqu’à deux mois)."
+   },
+   {
+    "q": "Comment savoir si ma demande d’assurance scooter a bien été enregistrée ?",
+    "a": "À la fin de votre souscription en ligne, un numéro de souscription vous est communiqué et une confirmation vous est envoyée par e-mail."
+   }
+  ],
+  "prod": [
+   [
+    "Devis assurance moto",
+    "/assurance/moto/"
+   ],
+   [
+    "Devis assurance scooter",
+    "/assurance/scooter/"
+   ],
+   [
+    "Devis assurance quad/SSV",
+    "/assurance/quad/"
+   ],
+   [
+    "Assurance Auto",
+    "/assurance/auto/"
+   ],
+   [
+    "Autre",
+    "/assurance/autre/"
+   ],
+   [
+    "Devis assurance YAMAHA",
+    "/assurance-scooter/assurance-scooter-yamaha/"
+   ],
+   [
+    "Devis assurance HONDA",
+    "/assurance-scooter/assurance-scooter-honda/"
+   ],
+   [
+    "Devis assurance PIAGGIO",
+    "/assurance-scooter/assurance-scooter-piaggio/"
+   ],
+   [
+    "Devis assurance KYMCO",
+    "/assurance-scooter/assurance-scooter-kymco/"
+   ],
+   [
+    "Assurance Scooter BMW",
+    "/assurance-scooter/assurance-scooter-bmw/#"
+   ],
+   [
+    "Assurance Scooter Sym",
+    "/assurance-scooter/assurance-scooter-sym/"
+   ],
+   [
+    "Assurance Scooter Suzuki",
+    "/assurance-scooter/assurance-scooter-suzuki/"
+   ],
+   [
+    "Devis assurance PEUGEOT",
+    "/assurance-scooter/assurance-scooter-peugeot/"
+   ],
+   [
+    "Assurance Scooter Vespa",
+    "/assurance-scooter/assurance-scooter-vespa/"
+   ],
+   [
+    "Assurance Scooter Aprilia",
+    "/assurance-scooter/assurance-scooter-aprilia/"
+   ],
+   [
+    "Assurance Scooter Silence",
+    "/assurance-scooter/assurance-scooter-silence/"
+   ],
+   [
+    "Assurance Scooter Voge",
+    "/assurance-scooter/assurance-scooter-voge/"
+   ],
+   [
+    "Devis assurance scooter par marque",
+    "/assurance-scooter/assurance-scooter-par-constructeur/"
+   ],
+   [
+    "50cc Assurance scooter",
+    "/assurance-scooter/assurance-scooter-50cm3/"
+   ],
+   [
+    "Devis assurance scooter 125",
+    "/assurance-scooter/assurance-scooter-125cm3/"
+   ],
+   [
+    "300cc Assurance scooter",
+    "/assurance-scooter/assurance-scooter-300cm3/#"
+   ],
+   [
+    "400cc Assurance scooter",
+    "/assurance-scooter/assurance-scooter-400cm3/#"
+   ],
+   [
+    "500cc Assurance scooter",
+    "/assurance-scooter/assurance-scooter-500cm3/#"
+   ],
+   [
+    "530cc Assurance scooter",
+    "/assurance-scooter/assurance-scooter-530cm3/#"
+   ],
+   [
+    "560cc Assurance scooter",
+    "/assurance-scooter/assurance-scooter-560cm3/#"
+   ],
+   [
+    "650cc Assurance scooter",
+    "/assurance-scooter/assurance-scooter-650cm3/#"
+   ],
+   [
+    "750cc Assurance scooter",
+    "/assurance-scooter/assurance-scooter-750cm3/#"
+   ],
+   [
+    "Électrique Assurance scooter",
+    "/assurance-scooter/assurance-scooter-electrique/#"
+   ],
+   [
+    "Devis assurance scooter par motorisation",
+    "/assurance-scooter/assurance-scooter-par-motorisation/"
+   ],
+   [
+    "AM Permis",
+    "/assurance-scooter/assurance-scooter-permis-am/#"
+   ]
+  ],
+  "tarif": "https://www.amv.fr/moto/assurance-scooter/votre_tarif_scooter.aspx"
+ },
+ "quad": {
+  "txt": "Leader de l'assurance moto, AMV vous offre une gamme complète de solutions d'assurance quad/SSV. Notre expertise couvre également l'assurance auto, l'assurance habitation, l'assurance moto de collection et bien plus encore. Modifiez vos contrats selon vos besoins et les risques associés à votre véhicule. De la demande de devis à la souscription, tout se fait en ligne. Nos 300 conseillers sont là pour vous guider. Découvrez l'histoire des constructeurs moto et leurs modèles de référence. Choisissez AMV, l'assurance qui gagne la confiance de 5116clients satisfaits 4,7/5 selon Avis Vérifiés.",
+  "heads": [
+   "Assurance quad"
+  ],
+  "links": [
+   [
+    "Devis assurance quad/SSV",
+    "/assurance/quad/"
+   ],
+   [
+    "Devis assurance quad par marque",
+    "/assurance-quad/assurance-quad-par-constructeur/"
+   ],
+   [
+    "Devis assurance quad par motorisation",
+    "/assurance-quad/assurance-quad-par-motorisation/"
+   ],
+   [
+    "Devis assurance quad par profil",
+    "/assurance-quad/assurance-quad-par-profil/"
+   ],
+   [
+    "Devis assurance quad par type",
+    "/assurance-quad/assurance-quad-par-type/"
+   ],
+   [
+    "Devis assurance quad par permis",
+    "/assurance-quad/assurance-quad-par-permis/"
+   ],
+   [
+    "Devis assurance moto",
+    "/assurance/moto/"
+   ],
+   [
+    "Devis assurance scooter",
+    "/assurance/scooter/"
+   ],
+   [
+    "Devis assurance KYMCO",
+    "/assurance-quad/assurance-quad-kymco/"
+   ],
+   [
+    "Devis assurance CFMOTO",
+    "/assurance-quad/assurance-quad-cfmoto/"
+   ],
+   [
+    "Devis assurance YAMAHA",
+    "/assurance-quad/assurance-quad-yamaha/"
+   ],
+   [
+    "Devis assurance POLARIS",
+    "/assurance-quad/assurance-quad-polaris/"
+   ],
+   [
+    "Devis assurance CAN-AM",
+    "/assurance-quad/assurance-quad-can-am/"
+   ],
+   [
+    "Devis assurance quad/SSV 250",
+    "/assurance-quad/assurance-quad-250cm3/"
+   ],
+   [
+    "Devis assurance quad/SSV 400",
+    "/assurance-quad/assurance-quad-400cm3/"
+   ],
+   [
+    "Devis assurance quad/SSV 500",
+    "/assurance-quad/assurance-quad-500cm3/"
+   ],
+   [
+    "Devis assurance quad/SSV 900",
+    "/assurance-quad/assurance-quad-900cm3/"
+   ],
+   [
+    "Devis assurance quad/SSV 50",
+    "/assurance-quad/assurance-quad-50cm3/"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Comment obtenir un devis d'assurance quad ?",
+    "a": "Obtenir un devis personnalisé pour l'assurance de votre quad est une démarche simple et rapide, spécialement conçue pour répondre à vos besoins. En tant qu'expert dans le domaine des produits AMV, je suis heureux de vous guider à travers le processus. Il vous suffit de consacrer quelques minutes en ligne pour remplir un formulaire dédié. Une fois vos informations fournies, notre système expert se chargera de calculer le devis qui correspond le mieux à votre situation. Cette étape est entièrement gratuite et ne demande que peu de temps de votre part. En choisissant AMV, vous optez pour la simplicité et l'efficacité pour assurer votre quad en toute sérénité."
+   },
+   {
+    "q": "Comment assurer un quad ?",
+    "a": "Pour une assurance optimale de votre quad, que ce soit homologué ou non, je vous recommande vivement de vous tourner vers un expert en la matière telle qu'AMV. Grâce à leur spécialisation dans ce domaine, AMV peut vous offrir une couverture sur mesure parfaitement adaptée à vos besoins.\n\nPour obtenir une assurance pour votre quad, qu'il soit homologué ou non, je vous conseille vivement de vous tourner vers AMV. Leur expertise dans ce domaine leur permet de vous proposer une couverture sur mesure qui répondra précisément à vos besoins. Rendez-vous sur amv.fr pour souscrire votre contrat en ligne en toute simplicité"
+   },
+   {
+    "q": "Combien coûte une assurance quad ?",
+    "a": "Le prix d'une assurance quad non homologué est unique pour tous les assurés. Le prix de l'assurance vol/Incendie et dommages dépend du modèle et de la cylindrée du quad ou du SSV, de la sinistralité déclarée du conducteur, du lieu de stationnement habituel et du niveau de couverture choisi. Chez AMV, un devis personnalisé en ligne vous donne un tarif adapté en quelques clics."
+   },
+   {
+    "q": "Quelle est la meilleure assurance pour un quad ?",
+    "a": "La meilleure assurance quad dépend de la valeur de votre véhicule et de votre budget. Pour un quad de faible valeur ou utilisé occasionnellement, la formule Responsabilité civile peut suffire. Pour un quad neuf ou financé à crédit, la formule Tous risques offre la meilleure protection. AMV, spécialiste de l'assurance quad, fort de plus de 50 ans d'expertise deux-roues, propose des formules adaptées à chaque véhicule."
+   },
+   {
+    "q": "Est-il obligatoire d'assurer un quad ?",
+    "a": "Oui. Tout véhicule terrestre à moteur doit être assuré en responsabilité civile, même s'il n'est pas homologué et ne circule pas sur la voie publique, et même stationné dans un garage. Le défaut d'assurance est passible d'une amende pouvant aller jusqu'à 3 750 euros. Cette obligation légale s'applique à tous les quads et SSV, homologués ou non."
+   },
+   {
+    "q": "Quelles sont les garanties incluses dans une assurance quad/SSV AMV ?",
+    "a": "AMV propose 4 formules d’assurance quad/SSV. L'offre inclut dès sa première formule la Responsabilité civile, l'Assistance juridique et la garantie des équipements de protection (gants jusqu’à 70 €, casque jusqu’à 250 €, gilet airbag jusqu’à 500 € s'ils sont détériorés à la suite d'un sinistre, sous conditions). Selon la formule, vous pouvez bénéficier en plus des garanties Vol/Incendie, Dommages collision, et Dommages tous accidents (Tous Risques). D'autres garanties comme l’Assistance 0 km, l’Individuelle Pilote ou l’Option Plus (extension de garantie aux accessoires et équipements jusqu’à 5 000 €) sont également proposées en option."
+   },
+   {
+    "q": "Quand prennent effet les garanties de mon assurance quad/SSV ?",
+    "a": "Les garanties prennent effet immédiatement à la souscription ou à la date choisie (qui peut être différée jusqu’à deux mois)."
+   },
+   {
+    "q": "Comment savoir si ma demande d’assurance quad/SSV a bien été enregistrée ?",
+    "a": "À la fin de votre souscription en ligne, un numéro de souscription vous est communiqué et une confirmation vous est envoyée par e-mail."
+   }
+  ],
+  "prod": [
+   [
+    "Devis assurance moto",
+    "/assurance/moto/"
+   ],
+   [
+    "Devis assurance scooter",
+    "/assurance/scooter/"
+   ],
+   [
+    "Devis assurance quad/SSV",
+    "/assurance/quad/"
+   ],
+   [
+    "Assurance Auto",
+    "/assurance/auto/"
+   ],
+   [
+    "Autre",
+    "/assurance/autre/"
+   ],
+   [
+    "Devis assurance CFMOTO",
+    "/assurance-quad/assurance-quad-cfmoto/"
+   ],
+   [
+    "Assurance Quad Linhai",
+    "/assurance-quad/assurance-quad-linhai/"
+   ],
+   [
+    "Devis assurance POLARIS",
+    "/assurance-quad/assurance-quad-polaris/"
+   ],
+   [
+    "Devis assurance CAN-AM",
+    "/assurance-quad/assurance-quad-can-am/"
+   ],
+   [
+    "Devis assurance KYMCO",
+    "/assurance-quad/assurance-quad-kymco/"
+   ],
+   [
+    "Devis assurance YAMAHA",
+    "/assurance-quad/assurance-quad-yamaha/"
+   ],
+   [
+    "Assurance Quad TGB",
+    "/assurance-quad/assurance-quad-tgb/"
+   ],
+   [
+    "Assurance Quad Segway",
+    "/assurance-quad/assurance-quad-segway/"
+   ],
+   [
+    "Assurance Quad Goes",
+    "/assurance-quad/assurance-quad-goes/"
+   ],
+   [
+    "Assurance Quad Kubota",
+    "/assurance-quad/assurance-quad-kubota/"
+   ],
+   [
+    "Assurance Quad Hytrack",
+    "/assurance-quad/assurance-quad-hytrack/"
+   ],
+   [
+    "Assurance Quad Arctic Cat",
+    "/assurance-quad/assurance-quad-arctic-cat/"
+   ],
+   [
+    "Devis assurance quad par marque",
+    "/assurance-quad/assurance-quad-par-constructeur/"
+   ],
+   [
+    "250cc Assurance quad/SSV",
+    "/assurance-quad/assurance-quad-250cm3/#"
+   ],
+   [
+    "300cc Assurance quad/SSV",
+    "/assurance-quad/assurance-quad-300cm3/#"
+   ],
+   [
+    "400cc Assurance quad/SSV",
+    "/assurance-quad/assurance-quad-400cm3/#"
+   ],
+   [
+    "500cc Assurance quad/SSV",
+    "/assurance-quad/assurance-quad-500cm3/#"
+   ],
+   [
+    "900cc Assurance quad/SSV",
+    "/assurance-quad/assurance-quad-900cm3/#"
+   ],
+   [
+    "50cc Assurance quad/SSV",
+    "/assurance-quad/assurance-quad-50cm3/#"
+   ],
+   [
+    "Électrique Assurance quad/SSV",
+    "/assurance-quad/assurance-quad-electrique/#"
+   ],
+   [
+    "Devis assurance quad par motorisation",
+    "/assurance-quad/assurance-quad-par-motorisation/"
+   ],
+   [
+    "AM Permis",
+    "/assurance-quad/assurance-quad-permis-am/#"
+   ],
+   [
+    "A1 Permis",
+    "/assurance-quad/assurance-quad-permis-a1/#"
+   ],
+   [
+    "A2 Permis",
+    "/assurance-quad/assurance-quad-permis-a2/#"
+   ],
+   [
+    "A Permis",
+    "/assurance-quad/assurance-quad-permis-a/#"
+   ]
+  ],
+  "tarif": "https://www.amv.fr/moto/assurance-quad/votre_tarif_quad.aspx"
+ },
+ "auto": {
+  "txt": "AMV, leader de l'assurance moto et scooter, propose en ligne une gamme complète de solutions d'assurances dédiées aux particuliers. De l'assurance auto à l'assurance habitation, en passant par l'assurance moto de collection et l'assurance 4X4, nous couvrons tous vos besoins. Choisissez parmi nos formules d'assurance adaptées à votre véhicule, que ce soit un jetski, un quad ou autre, et personnalisez votre contrat avec des garanties spécifiques. Obtenez un devis et souscrivez votre assurance moto, auto ou autre en ligne. Nos 300 conseillers sont à votre disposition pour vous guider dans votre choix. Découvrez également l'histoire des constructeurs moto et leurs modèles de référence. Avec AMV, vous avez l'assurance de gagner ! Label Excellence Assurance Moto Scooter. Note de satisfaction de 4,7/5 sur 5116 clients interrogés par Avis Vérifiés.",
+  "heads": [],
+  "links": [
+   [
+    "Assurance Moto",
+    "/assurance/moto/"
+   ],
+   [
+    "Assurance Scooter",
+    "/assurance/scooter/"
+   ],
+   [
+    "Assurance Quad",
+    "/assurance/quad/"
+   ],
+   [
+    "Assurance Ancien et collection",
+    "https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx"
+   ],
+   [
+    "Assurance Auto",
+    "https://www.amv.fr/auto/assurance-auto/assurance-auto.aspx"
+   ],
+   [
+    "Assurance Prestige",
+    "https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx"
+   ],
+   [
+    "Assurance Scooter des mers",
+    "https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp"
+   ],
+   [
+    "Assurance Camping-car",
+    "https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp"
+   ],
+   [
+    "Assurance Habitation",
+    "https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp"
+   ],
+   [
+    "Devis assurance moto",
+    "https://www.amv.fr/moto/assurance-moto/votre_tarif_moto.aspx"
+   ],
+   [
+    "Devis assurance moto 125",
+    "/assurance-moto/assurance-moto-125cm3/"
+   ],
+   [
+    "Devis assurance moto 500",
+    "/assurance-moto/assurance-moto-500cm3/"
+   ],
+   [
+    "Devis assurance moto 750",
+    "/assurance-moto/assurance-moto-750cm3/"
+   ],
+   [
+    "Devis assurance 1000",
+    "/assurance-moto/assurance-moto-1000cm3/"
+   ],
+   [
+    "Devis assurance YAMAHA",
+    "/assurance-moto/assurance-moto-yamaha/"
+   ],
+   [
+    "Devis assurance KAWASAKI",
+    "/assurance-moto/assurance-moto-kawasaki/"
+   ],
+   [
+    "Devis assurance HONDA",
+    "/assurance-moto/assurance-moto-honda/"
+   ],
+   [
+    "Devis assurance SUZUKI",
+    "/assurance-moto/assurance-moto-suzuki/"
+   ],
+   [
+    "Devis assurance Scooter",
+    "https://www.amv.fr/moto/assurance-scooter/votre_tarif_scooter.aspx"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Comment choisir la meilleure assurance auto ?",
+    "a": "Comparez le prix, mais surtout les garanties, options et franchises.\n\nLes formules vont du Tiers (minimum légal) au Tous Risques (protection complète avec une garantie Dommages).\n\nChoisissez selon votre véhicule et votre usage. AMV propose 4 formules pour s'adapter au mieux à vos besoins.\nAjoutez des options (Garantie corporelle du conducteur renforcée, Indemnisation renforcée du véhicule, Assistance 0 km).\nVérifiez aussi le montant des franchises. Chez AMV, vous pouvez souscrire une option \"rachat de franchise\" qui vous permet de réduire de moitié le montant restant à votre charge."
+   },
+   {
+    "q": "Comment résilier votre contrat actuel pour rejoindre AMV ?",
+    "a": "La loi Hamon (https://www.legifrance.gouv.fr/loda/id/JORFTEXT000028738036/) facilite les démarches pour les assurés qui veulent changer leur contrat d'assurance auto pour trouver une offre mieux adaptée à leur budget.\n\nGrâce à la loi Hamon, vous pouvez résilier votre assurance auto à tout moment après un an, sans justification et sans interruption d'assurance.\n\nVous souhaitez changer d’assurance auto et rejoindre AMV ?\n\nIl suffit de souscrire directement un contrat chez AMV qui se charge à 100% des démarches de résiliation auprès de votre précédent assureur et veille à la continuité de la couverture entre les deux contrats."
+   },
+   {
+    "q": "Qu’est‑ce qu’une franchise en assurance auto ?",
+    "a": "La franchise est la somme qui reste à votre charge après indemnisation lors d’un sinistre. Elle s’applique selon les garanties (accident responsable, sinistre avec un tiers non identifié, bris de glace, etc.). Par exemple, pour 1 000 € de dommages avec une franchise de 400 €, vous êtes remboursé 600 €.\n\nCertaines options permettent de réduire cette somme, comme le rachat de franchise.\n\nPour récompenser ses clients bons conducteurs et fidèles, AMV a mis en place une réduction de franchise jusqu'à -75% (et jusqu'à -87,5% avec l'option \"rachat de franchise\"), sous certaines conditions."
+   },
+   {
+    "q": "L’assurance auto est-elle obligatoire en France ?",
+    "a": "Oui, tout véhicule doit être assuré au minimum en responsabilité civile (assurance au Tiers). Elle couvre les dommages causés aux autres en cas d’accident. Rouler sans assurance est un délit passible d’une amende pouvant aller jusqu’à 3 750 € et d’autres sanctions.\n\nBien que la souscription d’une assurance auto puisse se limiter à la Responsabilité civile, il est souvent recommandé d’opter pour une assurance Tous risques, qui offre une protection beaucoup plus étendue, notamment pour les dommages subis par votre propre véhicule, en cas d'accident responsable."
+   },
+   {
+    "q": "Quels documents faut-il pour assurer une voiture ?",
+    "a": "En général, vous devez fournir le permis de conduire, la carte grise (certificat d'immatriculation) et un relevé de sinistres (historique d’assurance) délivré par votre assureur sur simple demande. Ces documents permettent d’évaluer votre profil et votre bonus-malus.\n\nChez AMV, c'est encore plus simple, pas besoin de transmettre le permis de conduire ni la carte grise pour souscrire notre assurance auto, sauf demande particulière.\n\nEn cas de paiement mensuel, un RIB accompagné d'un mandat de prélèvement SEPA complété est également nécessaire à la souscription du contrat."
+   },
+   {
+    "q": "Comment fonctionne le bonus-malus en assurance auto ?",
+    "a": "Le bonus-malus, également appelé coefficient de réduction-majoration (CRM) est un système de majoration ou de réduction de votre cotisation d'assurance auto que votre assureur applique en fonction de vos précédents sinistres.\n\nIl évolue chaque année d'assurance selon un calcul fixé par l'État. Sans accident responsable, vous obtenez un bonus (−5% par an). En cas d’accident responsable, un malus augmente votre cotisation (+25 %).\n\nChez AMV, nous appliquons le super bonus si vous êtes à 0,50 depuis plus de 3 ans : dans ce cas, lors du premier sinistre responsable, votre malus n'est pas comptabilisé et reste à 0,50."
+   },
+   {
+    "q": "Quelle assurance choisir pour une voiture en LOA ou LLD ?",
+    "a": "Une assurance auto est obligatoire pour les véhicules en location (LOA ou LLD). Ces formes de location vous permettent d'utiliser une voiture sans l'acheter, mais en payant des loyers. La LOA ou leasing est assimilée à un crédit à la consommation et la LLD à une location. Certaines sociétés de leasing imposent une assurance Tous Risques, le minimum requis étant la garantie Responsabilité Civile.\n\nAfin d'être bien protégé, AMV conseille vivement de souscrire la formule Tous Risques et l'option \"Indemnisation renforcée du véhicule\" pour vous éviter les pertes financières à la suite d'un sinistre."
+   },
+   {
+    "q": "Quelle est la meilleure assurance pour les petits rouleurs ?",
+    "a": "L’assurance au forfait kilométrique est une solution idéale si vous roulez peu.\n\nElle repose sur un principe simple : le montant de la cotisation tient compte du nombre de kilomètres parcourus dans l’année, selon un forfait kilométrique.\n\nCette offre convient particulièrement aux conducteurs :\n\nUtilisant leur voiture de manière occasionnelle,\nEffectuant principalement de courts trajets,\nPossédant un second véhicule, pour les trajets plus longs.\n\nAMV propose un tarif adapté aux petits rouleurs parcourant jusqu'à 4 000 km par an. Pour en bénéficier, renseignez votre kilométrage au compteur lors de votre souscription et choisissez le forfait kilométrique qui vous correspond."
+   }
+  ],
+  "prod": [
+   [
+    "Assurance Moto",
+    "/assurance/moto/"
+   ],
+   [
+    "Assurance Scooter",
+    "/assurance/scooter/"
+   ],
+   [
+    "Assurance Quad",
+    "/assurance/quad/"
+   ],
+   [
+    "Assurance Auto",
+    "/assurance/auto/"
+   ],
+   [
+    "Autre",
+    "/assurance/autre/"
+   ],
+   [
+    "Lire la suite",
+    "https://www.amv.fr/assurance-auto/infractions-au-volant-le-point-sur-les-amendes-encourues/"
+   ],
+   [
+    "Lire la suite",
+    "https://www.amv.fr/assurance-auto/comment-entretenir-sa-voiture-sans-permis/"
+   ],
+   [
+    "Lire la suite",
+    "https://www.amv.fr/assurance-auto/comment-adopter-une-conduite-eco-responsable/"
+   ],
+   [
+    "Voir tous les articles du blog",
+    "https://www.amv.fr/assurance-auto/"
+   ],
+   [
+    "Devis assurance moto 125",
+    "/assurance-moto/assurance-moto-125cm3/"
+   ],
+   [
+    "Devis assurance moto 500",
+    "/assurance-moto/assurance-moto-500cm3/"
+   ],
+   [
+    "Devis assurance moto 750",
+    "/assurance-moto/assurance-moto-750cm3/"
+   ],
+   [
+    "Devis assurance 1000",
+    "/assurance-moto/assurance-moto-1000cm3/"
+   ],
+   [
+    "Devis assurance YAMAHA",
+    "/assurance-moto/assurance-moto-yamaha/"
+   ],
+   [
+    "Devis assurance KAWASAKI",
+    "/assurance-moto/assurance-moto-kawasaki/"
+   ],
+   [
+    "Devis assurance HONDA",
+    "/assurance-moto/assurance-moto-honda/"
+   ],
+   [
+    "Devis assurance SUZUKI",
+    "/assurance-moto/assurance-moto-suzuki/"
+   ]
+  ],
+  "tarif": "https://www.amv.fr/auto/assurance-auto/assurance-auto.aspx"
+ },
+ "home": {
+  "txt": "Leader de l'assurance moto et scooter, AMV propose en ligne des solutions d'assurances dédiées aux particuliers : assurance auto, assurance habitation, assurance moto de collection, assurance 4X4 etc. Une gamme complète de formules d'assurance, des plus classiques aux plus spécifiques, comme l'assurance jetski ou quad, adaptées à vos besoins réels. Vous pouvez moduler vos contrats en y incluant des garanties particulières, en fonction de l'utilisation ou des risques liés à votre véhicule. De la demande de devis à la souscription de votre contrat assurance moto, auto ou autre, tout se fait en ligne. Nos 300 conseillers sont également à votre écoute pour vous renseigner et vous accompagner dans le choix de votre contrat d'assurance. Retrouvez l'histoire des constructeurs moto et leurs modèles de référence. Alors n'hésitez plus et, ensemble, ayons l'assurance de gagner ! Label Excellence Assurance Moto Scooter. AMV Assurance Moto sur 5116 clients interrogés par Avis Vérifiés, AMV obtient une note de satisfaction de 4,7/5.",
+  "heads": [],
+  "links": [
+   [
+    "assurance moto et scooter",
+    "https://www.amv.fr/moto/assurance-moto/devis-assurance-moto.aspx"
+   ],
+   [
+    "assurance auto",
+    "https://www.amv.fr/auto/assurance-auto/assurance-auto-en-ligne.aspx"
+   ],
+   [
+    "assurance moto de collection",
+    "https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx"
+   ],
+   [
+    "Assurance Moto",
+    "/assurance/moto/"
+   ],
+   [
+    "Assurance Scooter",
+    "/assurance/scooter/"
+   ],
+   [
+    "Assurance Quad",
+    "/assurance/quad/"
+   ],
+   [
+    "Assurance Ancien et collection",
+    "https://www.amv.fr/legende/vehicule-collection/assurance-voiture-moto-collection.aspx"
+   ],
+   [
+    "Assurance Auto",
+    "/assurance/auto/"
+   ],
+   [
+    "Assurance Prestige",
+    "https://www.amv.fr/auto/assurance-prestige/amvgt_tarif_devis_assurance_en_ligne_accueil.aspx"
+   ],
+   [
+    "Assurance Scooter des mers",
+    "https://www.amv.fr/jet-ski/assurance-jet-ski/devis-assurance-jetski.asp"
+   ],
+   [
+    "Assurance Camping-car",
+    "https://www.amv.fr/camping-car/assurance-camping-car/devis-assurance-campingcar.asp"
+   ],
+   [
+    "Assurance Habitation",
+    "https://www.amv.fr/habitation/assurance-habitation/devis-assurance-multirisques-habitation.asp"
+   ],
+   [
+    "Devis assurance moto",
+    "https://www.amv.fr/moto/assurance-moto/avotre_tarif_moto.aspx"
+   ],
+   [
+    "Devis assurance moto 125",
+    "/assurance-moto/assurance-moto-125cm3/"
+   ],
+   [
+    "Devis assurance moto 500",
+    "/assurance-moto/assurance-moto-500cm3/"
+   ],
+   [
+    "Devis assurance moto 750",
+    "/assurance-moto/assurance-moto-750cm3/"
+   ],
+   [
+    "Devis assurance 1000",
+    "/assurance-moto/assurance-moto-1000cm3/"
+   ],
+   [
+    "Devis assurance YAMAHA",
+    "/assurance-moto/assurance-moto-yamaha/"
+   ],
+   [
+    "Devis assurance KAWASAKI",
+    "/assurance-moto/assurance-moto-kawasaki/"
+   ],
+   [
+    "Devis assurance HONDA",
+    "/assurance-moto/assurance-moto-honda/"
+   ],
+   [
+    "Devis assurance SUZUKI",
+    "/assurance-moto/assurance-moto-suzuki/"
+   ],
+   [
+    "Devis assurance Scooter",
+    "https://www.amv.fr/moto/assurance-scooter/votre_tarif_scooter.aspx"
+   ]
+  ],
+  "faq": [
+   {
+    "q": "Avoir le prix de l’assurance de la moto de vos rêves ?",
+    "a": "Vous souhaitez\n\n\nTestez notre tarif en ligne et en quelques clics"
+   },
+   {
+    "q": "Modifier vos garanties à 22h depuis votre canapé ?",
+    "a": "Vous souhaitez\n\n\nGérez vos contrats en ligne depuis Mon Espace AMV"
+   },
+   {
+    "q": "Prendre la route directement après l’achat de votre moto ?",
+    "a": "Vous souhaitez\n\n\nSouscrivez en ligne  avec effet immédiat sous réserve d'acceptation"
+   },
+   {
+    "q": "Avoir des conseils de professionnels ?",
+    "a": "Vous souhaitez\nAvoir le prix de l’assurance de la moto de vos rêves ?\n\nTestez notre tarif en ligne et en quelques clics\n\nVous souhaitez\nModifier vos garanties à 22h depuis votre canapé ?\n\nGérez vos contrats en ligne depuis Mon Espace AMV\n\nVous souhaitez\nPrendre la route directement après l’achat de votre moto ?\n\nSouscrivez en ligne  avec effet immédiat sous réserve d'acceptation\n\nVous souhaitez\n\n\nContactez l’un de nos 300 conseillers\n\nVous souhaitez\nDéclarer un sinistre au plus vite ?\n\nDéclarez votre sinistre depuis Mon Espace AMV"
+   },
+   {
+    "q": "Déclarer un sinistre au plus vite ?",
+    "a": "Vous souhaitez\n\n\nDéclarez votre sinistre depuis Mon Espace AMV"
+   },
+   {
+    "q": "Je viens de souscrire en ligne, quelles sont les prochaines étapes ?",
+    "a": "Vous êtes désormais assuré(e), sous réserve de l'exactitude de vos déclarations, de l'envoi des documents demandés et de l'encaissement de votre prime.\n\nA la fin de votre souscription, vous avez obtenu un numéro de demande d'assurance que vous retrouverez sur nos courriers : nous vous invitons à le rappeler dans tous nos échanges.\n\nDans les jours qui suivent, vous allez recevoir par email la liste complète des documents à nous adresser.\n\nVous pourrez déposer vos documents dans MON ESPACE AMV > Vous venez de souscrire ? > Envoyez vos documents\n\nSi vous avez déjà téléchargé ou envoyé tout ou partie des éléments, il n'est pas nécessaire de les renvoyer."
+   },
+   {
+    "q": "Comment puis-je modifier mon contrat ?",
+    "a": "Modification de votre contrat\n\nPour effectuer des modifications sur votre contrat (à l'exception des véhicules de collection et des camping-cars), veuillez suivre les étapes suivantes :\n\n1.    Rendez-vous dans MON ESPACE AMV et accédez à votre espace client en vous connectant.\n2.    Sélectionnez le contrat concerné.\n3.    Cliquez sur \"Modifier mon contrat\" puis sur \"Modifier mes garanties et/ou ajouter une option\".\n4.    Après avoir vérifié et validé vos informations, nous vous présenterons le tarif des garanties choisies.\n5.    Vous pourrez ensuite souscrire immédiatement aux modifications souhaitées.\n6.    Votre contrat sera mis à jour sous 48h dans votre Espace client.\n\nEn utilisant votre espace client, vous avez également la possibilité de modifier votre immatriculation, votre adresse de stationnement ou vos coordonnées."
+   },
+   {
+    "q": "Je vends mon véhicule, que dois-je faire ?",
+    "a": "Vous vendez votre véhicule et vous avez déjà un projet de remplacement\n\nDans ce cas, il n’est pas nécessaire de procéder à la résiliation de votre contrat. Ainsi, vous continuez à bénéficier des avantages fidélité acquis sur votre contrat, notamment la réduction de franchise.\n\nRendez-vous dans Mon Espace AMV > Se connecter pour faire un devis et assurer votre nouveau véhicule à effet immédiat ou différé - Sélectionnez le contrat à remplacer> Modifier mon contrat > Changer de véhicule.\n\nVous vendez votre véhicule et vous n'avez pas de projet de remplacement\n\nVous devez nous adresser une demande de résiliation avec un justificatif de vente (certificat de cession) :\n\nEn vous connectant avec votre identifiant (n° client) sur Mon Espace AMV. Sélectionnez le contrat à résilier, cliquez sur « Résilier » puis «  Envoyer ma demande de résiliation »\n\nOU\n\nPar courrier à l'adresse suivante :\n\nAMV Se"
+   }
+  ],
+  "prod": [
+   [
+    "Assurance Moto",
+    "/assurance/moto/"
+   ],
+   [
+    "Assurance Scooter",
+    "/assurance/scooter/"
+   ],
+   [
+    "Assurance Quad",
+    "/assurance/quad/"
+   ],
+   [
+    "Assurance Auto",
+    "/assurance/auto/"
+   ],
+   [
+    "Autre",
+    "/assurance/autre/"
+   ],
+   [
+    "Lire la suite",
+    "https://www.amv.fr/assurance-moto/les-accessoires-essentiels-pour-un-road-trip-a-moto-reussi/"
+   ],
+   [
+    "Lire la suite",
+    "https://www.amv.fr/assurance-scooter/bien-choisir-son-premier-scooter-electrique/"
+   ],
+   [
+    "Lire la suite",
+    "https://www.amv.fr/assurance-quad/lhivernage-aussi-pour-les-quads/"
+   ],
+   [
+    "Devis assurance moto 125",
+    "/assurance-moto/assurance-moto-125cm3/"
+   ],
+   [
+    "Devis assurance moto 500",
+    "/assurance-moto/assurance-moto-500cm3/"
+   ],
+   [
+    "Devis assurance moto 750",
+    "/assurance-moto/assurance-moto-750cm3/"
+   ],
+   [
+    "Devis assurance 1000",
+    "/assurance-moto/assurance-moto-1000cm3/"
+   ],
+   [
+    "Devis assurance YAMAHA",
+    "/assurance-moto/assurance-moto-yamaha/"
+   ],
+   [
+    "Devis assurance KAWASAKI",
+    "/assurance-moto/assurance-moto-kawasaki/"
+   ],
+   [
+    "Devis assurance HONDA",
+    "/assurance-moto/assurance-moto-honda/"
+   ],
+   [
+    "Devis assurance SUZUKI",
+    "/assurance-moto/assurance-moto-suzuki/"
+   ]
+  ]
+ }
+}

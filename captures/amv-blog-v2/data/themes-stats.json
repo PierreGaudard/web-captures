@@ -1,0 +1,32 @@
+{
+ "scooter": {
+  "Réglementation et permis": 3,
+  "Sécurité et conduite": 5,
+  "Scooter électrique": 4,
+  "Équipement et accessoires": 2,
+  "Assurance et budget": 3,
+  "Ville et mobilité": 2
+ },
+ "quad": {
+  "Réglementation et homologation": 3,
+  "Pilotage et sécurité": 2,
+  "Randonnée et loisirs": 2,
+  "Équipement": 1,
+  "Entretien": 2,
+  "Quad et SSV": 4
+ },
+ "auto": {
+  "Code de la route et permis": 4,
+  "Sécurité et conduite": 2,
+  "Voiture électrique": 2,
+  "Écoconduite et entretien": 2,
+  "Vacances et voyages": 2,
+  "Assurance auto": 1
+ },
+ "actu": {
+  "Marché moto": 16,
+  "Vie d'AMV": 1,
+  "Salons et courses": 1,
+  "Sécurité routière": 1
+ }
+}

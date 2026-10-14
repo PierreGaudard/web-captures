@@ -135,7 +135,8 @@ def lire_head(chemin):
 # ------------------------------------------------------------------ gabarit commun
 
 def entete(actif):
-    rub = [("Moto", HUB), ("Scooter", None), ("Quad", None), ("Auto", None), ("Actualités", None)]
+    rub = [("Moto", HUB), ("Scooter", "/assurance-scooter/"), ("Quad", "/assurance-quad/"),
+           ("Auto", "/assurance-auto/"), ("Actualités", "/actualite-assurance/")]
     nav = "".join(
         f'<a href="{u}" class="{"on" if r == actif else ""}">{r}</a>' if u else
         f'<span class="{"on" if r == actif else ""}">{r}</span>' for r, u in rub)
@@ -166,7 +167,7 @@ def entete(actif):
 </div>"""
 
 
-def pied():
+def pied(cfg=None):
     """Pied de page de la landing page /assurance/moto/ d'amv.fr, repris a l'identique (14/10/2026).
     Une rubrique scooter, quad ou auto reprendrait celui de sa propre landing page."""
     col1 = [("Devis assurance moto", "/assurance/moto/"),
@@ -188,16 +189,22 @@ def pied():
             ("Devis assurance moto 750", "/assurance-moto/assurance-moto-750cm3/"),
             ("Devis assurance moto 1000", "/assurance-moto/assurance-moto-1000cm3/"),
             ("Devis assurance moto 1600", "/assurance-moto/assurance-moto-1600cm3/")]
-    li = lambda l: "".join(f'<li><a href="https://www.amv.fr{u}">{t}</a></li>' for t, u in l)
+    texte = ("Leader de l'assurance moto, AMV offre des solutions en ligne dédiées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, adaptées à vos besoins réels. De l'assurance moto de collection à l'assurance jetski, personnalisez votre contrat avec des garanties spécifiques. Obtenez votre devis et souscrivez votre assurance moto en ligne, avec l'accompagnement de nos 300 conseillers. Note de satisfaction de 4,7/5 (variable) selon Avis Vérifiés.")
+    t1, t2 = "Assurance Moto", "&nbsp;"
+    if cfg:
+        texte, t1, col1, t2, col2 = cfg
+    abs_ = lambda u: u if u.startswith("http") else "https://www.amv.fr" + u
+    li = lambda l: "".join(f'<li><a href="{abs_(u)}">{t}</a></li>' for t, u in l)
+    vide = ' vide" aria-hidden="true' if t2 == "&nbsp;" else ""
     return f"""
 <footer class="site-foot">
   <div class="wrap foot-grid">
     <div>
       <a class="logo" href="https://www.amv.fr/" aria-label="AMV">{LOGO}</a>
-      <p class="foot-txt">Leader de l'assurance moto, AMV offre des solutions en ligne dédiées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, adaptées à vos besoins réels. De l'assurance moto de collection à l'assurance jetski, personnalisez votre contrat avec des garanties spécifiques. Obtenez votre devis et souscrivez votre assurance moto en ligne, avec l'accompagnement de nos 300 conseillers. Note de satisfaction de 4,7/5 (variable) selon Avis Vérifiés.</p>
+      <p class="foot-txt">{texte}</p>
     </div>
-    <div><p class="foot-t">Assurance Moto</p><ul>{li(col1)}</ul></div>
-    <div><p class="foot-t vide" aria-hidden="true">&nbsp;</p><ul>{li(col2)}</ul></div>
+    <div><p class="foot-t">{t1}</p><ul>{li(col1)}</ul></div>
+    <div><p class="foot-t{vide}">{t2}</p><ul>{li(col2)}</ul></div>
   </div>
   <div class="wrap foot-bas">
     <span><a href="https://www.amv.fr/mentions-legales/">Mentions légales</a>
@@ -210,7 +217,7 @@ def pied():
 </footer>"""
 
 
-def page(title, head_meta, canonical, ld, corps, extra_head=""):
+def page(title, head_meta, canonical, ld, corps, extra_head="", tunnel=None, tarif_txt="Obtenir mon tarif moto", tarif_sub="Sans engagement, en 3 minutes"):
     lds = "\n".join(f'<script type="application/ld+json">{j}</script>' for j in ld)
     return f"""<!DOCTYPE html>
 <html lang="fr-FR">
@@ -228,7 +235,7 @@ def page(title, head_meta, canonical, ld, corps, extra_head=""):
 </head>
 <body>
 {corps}
-<a class="bar-tarif" href="{TUNNEL}">Obtenir mon tarif moto<span>Sans engagement, en 3 minutes</span></a>
+<a class="bar-tarif" href="{tunnel or TUNNEL}">{tarif_txt}<span>{tarif_sub}</span></a>
 <script src="/assets/mag.js" defer></script>
 <script src="/_criteres.js" defer></script>
 </body>
@@ -546,6 +553,295 @@ def construire_article():
                 sans_speakable(ld), corps)
 
 
+# ------------------------------------------------------------------ rubriques scooter, quad, auto, actualites
+
+def _lp():
+    return json.loads((HERE / "data" / "lp.json").read_text(encoding="utf-8"))
+
+
+def pied_rubrique(r):
+    """Pied de page de la landing page de l'univers sur amv.fr. Le lien « Devis assurance moto »
+    du pied de page generique d'amv.fr pointe avotre_tarif_moto.aspx (page d'erreur) : corrige."""
+    lp = _lp()[r["pied"]["texte"].split(":")[1]]
+    liens = [(t, u.replace("avotre_tarif_moto", "votre_tarif_moto")) for t, u in lp["links"]]
+    if r["cle"] in ("scooter", "quad"):
+        return (lp["txt"], r["pied"]["t1"], liens[:8], "&nbsp;", liens[8:])
+    liens = [l for l in liens if l[0] not in ("assurance moto et scooter", "assurance auto", "assurance moto de collection")]
+    i = next(k for k, (t, u) in enumerate(liens) if t.startswith("Devis"))
+    return (lp["txt"], "Assurances", liens[:i], "Devis assurance", liens[i:])
+
+
+def articles_rubrique(r):
+    posts = json.loads((HERE / "data" / "posts.json").read_text(encoding="utf-8"))[r["cat"]]
+    from _rubriques import ECARTES
+    out = []
+    for p in posts:
+        if p["mots"] < 500 or p["date"] < "2022-01-01" or any(e in p["titre"] for e in ECARTES):
+            continue
+        theme = next(t for k, t in r["classe"] if k.lower() in p["titre"].lower())
+        img, alt, infog = p["img"], p["alt"] or p["titre"], False
+        if p.get("infog"):
+            img, infog = p["infog"], True
+        if not img:
+            continue
+        mois = ["janvier", "février", "mars", "avril", "mai", "juin", "juillet", "août", "septembre",
+                "octobre", "novembre", "décembre"]
+        a, m, j = p["date"].split("-")
+        mn = max(2, round(p["mots"] / 230))
+        out.append({"titre": H.escape(p["titre"].strip(), quote=False), "cat": theme, "url": p["link"],
+                    "img": re.sub(r"^https://(www|static)\.amv\.fr", "", img), "alt": alt, "infog": infog,
+                    "date": f"{int(j)} {mois[int(m) - 1]} {a}", "min": str(mn), "iso": p["date"]})
+    return out[:19]
+
+
+def carte_r(c, h="h3"):
+    cls = "card card-infog" if c["infog"] else "card"
+    return carte(c, c["url"], cls=cls, h=h).replace(f'href="{c["url"]}"', f'href="{c["url"]}"', 1)
+
+
+def ld_rubrique(r, arts, url):
+    graph = [
+        {"@type": "CollectionPage", "@id": url, "url": url, "name": f"{NOM} · {r['nom']}", "inLanguage": "fr-FR",
+         "description": r["desc"], "isPartOf": {"@id": "https://www.amv.fr/#website"},
+         "mainEntity": {"@id": url + "#liste"}},
+        {"@type": "ItemList", "@id": url + "#liste", "itemListElement": [
+            {"@type": "ListItem", "position": i + 1, "url": a["url"], "name": H.unescape(a["titre"])} for i, a in enumerate(arts)]},
+        {"@type": "BreadcrumbList", "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "AMV", "item": "https://www.amv.fr/"},
+            {"@type": "ListItem", "position": 2, "name": NOM, "item": "https://www.amv.fr" + HUB},
+            {"@type": "ListItem", "position": 3, "name": r["nom"], "item": url}]},
+    ]
+    if r["faq"]:
+        graph.append({"@type": "FAQPage", "mainEntity": [
+            {"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub(r"<[^>]+>", "", H.unescape(a))}}
+            for q, a in r["faq"]]})
+    return [json.dumps({"@context": "https://schema.org", "@graph": graph}, ensure_ascii=False)]
+
+
+def construire_rubrique(r):
+    url = f"https://www.amv.fr/{r['slug']}/"
+    arts = articles_rubrique(r)
+    # a la une : le plus recent qui a une vraie photo (une infographie verticale ne tient pas en couverture)
+    i_une = next(i for i, a in enumerate(arts) if not a["infog"] and r.get("une", "") in H.unescape(a["titre"]))
+    une = arts.pop(i_une)
+    rail, reste = arts[:3], arts[3:]
+    rail_html = "".join(f"""<a class="rail-item{' rail-infog' if c['infog'] else ''}" href="{c['url']}">
+  <img src="{c['img']}" alt="{H.escape(c['alt'], quote=True)}" width="800" height="440" loading="lazy">
+  <div><span class="chip chip-soft">{c['cat']}</span><h3>{c['titre']}</h3>
+  <p class="meta">{c['date']} <b>·</b> {c['min']} min</p></div></a>""" for c in rail)
+    nb = {t: sum(1 for a in [une] + arts if a["cat"] == t) for t in r["themes"]}
+    rub_html = "".join(f"""<li><span class="rub">{PICTO_R.get(t, PICTO_R['_'])}<b>{t}</b><small>Bientôt</small></span></li>"""
+                       for t in r["themes"])
+    n_th = {4: "Quatre", 6: "Six"}[len(r["themes"])]
+    grille = "".join(carte_r(c) for c in reste[:6])
+    n2 = min(9, (len(reste) - 6) // 3 * 3)   # lignes completes de 3 cartes, jamais de carte orpheline
+    grille2 = "".join(carte_r(c) for c in reste[6:6 + n2])
+    silo_html = "".join(f'<li><a href="{u if u.startswith("http") else "https://www.amv.fr" + u}">{ICO["check"]}<span>{t}</span>{ICO["chev"]}</a></li>'
+                        for t, u in r["silo"])
+    faq_bloc = ""
+    if r["faq"]:
+        faq_bloc = f"""
+<section class="wrap faq-bloc">
+  <h2 class="h2-barre barre"><small>Questions fréquentes</small>{r['faq_t']}</h2>
+  {faq(r['faq'], crit(9, "FAQ de rubrique", "Trois questions de niveau catégorie, réponse dès la première phrase, et un JSON-LD FAQPage. Les réponses reprennent des faits déjà validés par AMV et ne recopient pas la FAQ de la page produit, pour éviter le contenu dupliqué."))}
+</section>"""
+    corps = f"""{entete(r['nom'])}
+<main>
+<section class="hub-head wrap"{crit(2, "En-tête de rubrique", "Un H1 éditorial propre à la rubrique, distinct de celui de la page produit, avec un chapeau qui dit ce que la rubrique couvre.")}>
+  <nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">{NOM}</a>{ICO['chev']}<span>{r['nom']}</span></nav>
+  <div class="titre-barre barre">
+    <p class="surtitre">{NOM} · {r['nom']}</p>
+    <h1>{r['h1']}</h1>
+    <p class="chapo">{r['chapo']}</p>
+  </div>
+</section>
+
+<section class="wrap une-grid">
+  <a class="une" href="{une['url']}"{crit(3, "Article à la une", "Le plus récent des articles illustrés d'une photo, en grande couverture.")}>
+    <img src="{une['img']}" alt="{H.escape(une['alt'], quote=True)}" width="800" height="440" fetchpriority="high">
+    <div class="une-txt">
+      <span class="chip chip-orange">À la une</span><span class="chip">{une['cat']}</span>
+      <h2>{une['titre']}</h2>
+      <p class="meta">{une['date']} <b>·</b> {ICO['clock']} {une['min']} min de lecture</p>
+      <span class="lire">{ICO['arrow']} Lire la suite</span>
+    </div>
+  </a>
+  <div class="rail">
+    <p class="rail-t">Les plus récents</p>
+    {rail_html}
+  </div>
+</section>
+
+<section class="wrap rubs-bloc"{crit(5, "Sous-rubriques", f"{len(r['themes'])} thèmes regroupent les articles de la rubrique : n'importe quel article se trouve en 3 clics au plus depuis cette page. Ils restent à créer, donc affichés sans lien.")}>
+  <h2 class="h2-barre barre"><small>Explorer par thème</small>{n_th} thèmes en un clic</h2>
+  <ul class="rubs rubs-{len(r['themes'])}">{rub_html}</ul>
+</section>
+
+<section class="wrap">
+  <h2 class="h2-barre barre"><small>Tous les articles {r['nom'].lower() if r['cle'] != 'actu' else "d'actualité"}</small>Les derniers articles</h2>
+  <div class="grid">{grille}</div>
+</section>
+
+<section class="silo-band"{crit(7, "Maillage vers les pages produit", "Le bandeau transforme l'autorité de la rubrique en trafic vers les pages d'assurance de l'univers, avec des ancres exactes.")}>
+  <div class="wrap silo-in">
+    <div class="titre-barre barre">
+      <p class="surtitre">{'Assurance ' + r['nom'].lower() if r['cle'] != 'actu' else 'Assurance AMV'}</p>
+      <h2>{r['silo_t']}</h2>
+      <p>{r['silo_p']}</p>
+    </div>
+    <ul class="silo">{silo_html}</ul>
+  </div>
+</section>
+
+<section class="wrap">
+  <div class="grid">{grille2}</div>
+  <nav class="pagination" aria-label="Pagination">
+    <span class="prev" aria-hidden="true">{ICO['arrow']}</span><span class="on" aria-current="page">1</span>
+    <a class="next" href="https://www.amv.fr/{r['slug']}/page/2/" aria-label="Page suivante">{ICO['arrow']}</a>
+  </nav>
+</section>
+{faq_bloc}
+<section class="wrap">
+  <div class="cta-band"{crit(10, "Appel à l'action", "Un seul bloc de conversion en bas de rubrique, qui ouvre directement le tunnel de devis de l'univers.")}>
+    <div><p class="surtitre">{'Assurance ' + r['nom'].lower() if r['cle'] not in ('actu',) else 'Assurance moto'}</p><h2>{r['cta_t']}</h2>
+    <p>Tarif sans engagement, devis gratuit en ligne.</p></div>
+    <a class="pill pill-white" href="{r['tunnel']}">Testez nos tarifs</a>
+  </div>
+</section>
+</main>
+{pied(pied_rubrique(r))}"""
+    head = (f'<meta name="description" content="{H.escape(r["desc"], quote=True)}">\n'
+            f'<meta name="robots" content="index, follow, max-image-preview:large">\n'
+            f'<meta property="og:title" content="{H.escape(r["title"], quote=True)}">\n'
+            f'<meta property="og:description" content="{H.escape(r["desc"], quote=True)}">\n'
+            f'<meta property="og:url" content="{url}">\n<meta name="twitter:card" content="summary_large_image">'
+            + og_image(une["img"]))
+    sub = "Sans engagement, devis en ligne" if r["cle"] == "auto" else "Sans engagement, en 3 minutes"
+    lib = {"actu": "Obtenir mon tarif moto"}.get(r["cle"], f"Obtenir mon tarif {r['nom'].lower()}")
+    return page(r["title"], head, f'<link rel="canonical" href="{url}">', ld_rubrique(r, [une] + arts, url), corps,
+                tunnel=r["tunnel"], tarif_txt=lib, tarif_sub=sub), nb
+
+
+PICTO_R = dict(PICTO)
+PICTO_R.update({
+    "_": PICTO["Culture et voyage"],
+    "Réglementation et homologation": PICTO["Réglementation et permis"],
+    "Code de la route et permis": PICTO["Réglementation et permis"],
+    "Pilotage et sécurité": PICTO["Sécurité et conduite"],
+    "Équipement et accessoires": PICTO["Équipement"],
+    "Entretien": PICTO["Entretien et mécanique"],
+    "Écoconduite et entretien": PICTO["Entretien et mécanique"],
+    "Assurance et budget": PICTO["Achat et budget"],
+    "Assurance auto": PICTO["Sécurité et conduite"].replace('M11.5 16l3 3 6-6', 'M11 16h10M16 11v10'),
+    "Randonnée et loisirs": PICTO["Culture et voyage"],
+    "Vacances et voyages": PICTO["Culture et voyage"],
+    "Salons et courses": PICTO["Culture et voyage"],
+    "Ville et mobilité": '<svg viewBox="0 0 32 32"><path d="M5 27V12l7-4v19M12 27V5l9 4v18M21 27V14l6 3v10M3 27h26" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
+    "Scooter électrique": '<svg viewBox="0 0 32 32"><path d="M18 3L8 18h7l-2 11 11-16h-7l1-10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
+    "Voiture électrique": '<svg viewBox="0 0 32 32"><path d="M18 3L8 18h7l-2 11 11-16h-7l1-10z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
+    "Quad et SSV": '<svg viewBox="0 0 32 32"><circle cx="8" cy="22" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="24" cy="22" r="4" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 22h8M6 17l4-6h8l4 6M14 11V7h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/></svg>',
+    "Marché moto": '<svg viewBox="0 0 32 32"><path d="M4 26h24M7 22v-6M13 22v-10M19 22v-7M25 22V8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></svg>',
+    "Vie d'AMV": '<svg viewBox="0 0 32 32"><path d="M16 4l3.5 7.2 7.9 1.1-5.7 5.6 1.3 7.9L16 22l-7 3.8 1.3-7.9-5.7-5.6 7.9-1.1L16 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>',
+    "Sécurité routière": PICTO["Sécurité et conduite"],
+})
+
+
+# ------------------------------------------------------------------ arborescence (demande de Sophie du 14/10)
+
+ARTICLES_EN_LIGNE = {"moto": 328, "scooter": 50, "quad": 18, "auto": 168, "actu": 249}   # API WordPress, 14/10/2026
+THEMES_MOTO = ["Réglementation et permis", "Équipement", "Entretien et mécanique", "Sécurité et conduite",
+               "Achat et budget", "Culture et voyage"]
+
+
+def slugifie(t):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", t.lower()).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-").replace("-et-", "-").replace("d-amv", "amv")
+
+
+def construire_arborescence():
+    from _rubriques import RUBRIQUES
+    import math
+    rubs = [{"cle": "moto", "nom": "Moto", "slug": "assurance-moto", "themes": THEMES_MOTO,
+             "lp": "/assurance/moto/", "tunnel": TUNNEL, "faq": True}]
+    rubs += [{"cle": r["cle"], "nom": r["nom"], "slug": r["slug"], "themes": r["themes"],
+              "lp": r["silo"][0][1] if r["cle"] != "actu" else "/ (page d'accueil)", "tunnel": r["tunnel"],
+              "faq": bool(r["faq"])} for r in RUBRIQUES]
+    n_th = sum(len(r["themes"]) for r in rubs)
+    lignes = "".join(f"""<tr><td><b>{r['nom']}</b></td><td><a href="/{r['slug']}/">/{r['slug']}/</a></td><td>{len(r['themes'])}</td>
+<td>{ARTICLES_EN_LIGNE[r['cle']]}</td><td>{math.ceil(ARTICLES_EN_LIGNE[r['cle']] / 19)}</td><td>{r['lp']}</td>
+<td>{r['tunnel'].replace('https://www.amv.fr', '')}</td></tr>""" for r in rubs)
+    themes = "".join(f"""<div class="arbo-rub"><h3>{r['nom']} <small>{len(r['themes'])} thèmes</small></h3><ul>"""
+                     + "".join(f"<li><b>{t}</b><span>/{r['slug']}/{slugifie(t)}/</span></li>" for t in r["themes"])
+                     + "</ul></div>" for r in rubs)
+    blocs_rub = [
+        ("En-tête", "1 H1, un surtitre et un chapeau", "0"),
+        ("Article à la une", "1 titre (H2)", "1 photo, celle de l'article"),
+        ("Les plus récents", "3 titres (H3)", "3 photos"),
+        ("Thèmes", "1 titre de section (H2) et 6 noms de thème (4 pour Actualités)", "6 pictos (4 pour Actualités)"),
+        ("Les derniers articles", "1 titre de section (H2) et 6 titres (H3)", "6 photos"),
+        ("Nos assurances", "1 titre de section (H2) et 3 à 5 liens vers les pages produit", "0"),
+        ("Suite de la liste", "9 titres (H3)", "9 photos"),
+        ("Pagination", "flèche précédente, numéro de page, flèche suivante", "0"),
+        ("Questions fréquentes", "1 titre de section (H2) et 3 questions (H3), absent sur Actualités", "0"),
+        ("Appel à l'action", "1 titre, bouton « Testez nos tarifs » vers le tunnel de devis de l'univers", "0"),
+        ("Pied de page", "repris de la page produit de l'univers, sans texte à créer", "0"),
+    ]
+    blocs_art = [
+        ("Fil d'Ariane et thème", "rubrique, thème de l'article", "0"),
+        ("En-tête", "1 H1 et un chapeau", "0"),
+        ("Signature", "auteur, fonction, dates de publication et de mise à jour, temps de lecture", "1 photo de l'auteur"),
+        ("Photo en bandeau", "", "1 visuel au format 1440 × 500 minimum"),
+        ("L'essentiel", "1 phrase clé et 4 à 6 puces", "0"),
+        ("Sommaire", "replié par défaut, un lien par H2", "0"),
+        ("Corps de l'article", "6 à 9 titres (H2), H3 si besoin, 0 à 2 tableaux", "0 à 2 visuels"),
+        ("Le conseil AMV et l'appel à l'action", "1 encart et 1 bouton vers le tunnel de devis", "0"),
+        ("Questions fréquentes", "1 titre (H2) et 4 à 6 questions (H3)", "0"),
+        ("Bloc auteur et sources", "nom, fonction, biographie, liste des sources", "1 photo de l'auteur"),
+        ("Colonne de droite", "bouton tarif, 4 articles populaires et 4 récents, étiquettes, réseaux sociaux", "8 vignettes, reprises des articles"),
+        ("À lire ensuite", "1 titre (H2) et 3 articles (H3)", "3 photos, reprises des articles"),
+    ]
+    tab = lambda L: "".join(f"<tr><td><b>{a}</b></td><td>{b}</td><td>{c}</td></tr>" for a, b, c in L)
+    corps = f"""{entete(None)}
+<main class="wrap arbo">
+  <nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">{NOM}</a>{ICO['chev']}<span>Arborescence</span></nav>
+  <div class="titre-barre barre arbo-tete">
+    <p class="surtitre">{NOM} · Migration sur Umbraco</p>
+    <h1>Arborescence des rubriques de conseils</h1>
+    <p class="chapo">La structure proposée pour le blog, rubrique par rubrique, avec le nombre de titres et d'images de chaque page. Les URL actuelles des rubriques et des articles sont conservées.</p>
+  </div>
+
+  <ul class="arbo-chiffres">
+    <li><b>5</b><span>rubriques</span></li>
+    <li><b>{n_th}</b><span>thèmes à créer</span></li>
+    <li><b>2</b><span>gabarits, rubrique et article</span></li>
+    <li><b>0</b><span>image à produire pour les rubriques</span></li>
+  </ul>
+
+  <h2 class="h2-barre barre"><small>Niveau 1</small>Les cinq rubriques</h2>
+  <div class="table-wrap arbo-table"><table>
+    <thead><tr><th>Rubrique</th><th>URL</th><th>Thèmes</th><th>Articles en ligne</th><th>Pages de liste</th><th>Pied de page repris de</th><th>Tunnel de devis</th></tr></thead>
+    <tbody>{lignes}</tbody></table></div>
+  <p class="arbo-note">Articles en ligne : catégories WordPress au 14/10/2026, un article peut être rangé dans plusieurs catégories. Pages de liste : 19 articles par page.</p>
+
+  <h2 class="h2-barre barre"><small>Niveau 2</small>Les thèmes de chaque rubrique</h2>
+  <p class="arbo-note">Chaque thème devient une page de liste propre, avec la même structure que la rubrique. Les URL indiquées sont des propositions.</p>
+  <div class="arbo-themes">{themes}</div>
+
+  <h2 class="h2-barre barre"><small>Gabarit 1</small>La page de rubrique</h2>
+  <p class="arbo-note">Identique pour les cinq rubriques et pour les pages de thème. Soit 1 H1, 6 H2 et 21 H3 par page, et 19 photos, toutes reprises des articles affichés.</p>
+  <div class="table-wrap arbo-table"><table><thead><tr><th>Bloc</th><th>Titres et contenu</th><th>Images</th></tr></thead><tbody>{tab(blocs_rub)}</tbody></table></div>
+
+  <h2 class="h2-barre barre"><small>Gabarit 2</small>La page d'article</h2>
+  <p class="arbo-note">Le détail champ par champ (nombre de caractères, champs obligatoires, règles éditoriales) est dans la spécification du gabarit d'article envoyée le 11 octobre.</p>
+  <div class="table-wrap arbo-table"><table><thead><tr><th>Bloc</th><th>Titres et contenu</th><th>Images</th></tr></thead><tbody>{tab(blocs_art)}</tbody></table></div>
+</main>
+{pied()}"""
+    head = ('<meta name="description" content="Arborescence proposée pour les rubriques de conseils AMV : rubriques, thèmes, titres et images de chaque page.">\n'
+            '<meta name="robots" content="noindex, nofollow">')
+    return page("Arborescence des rubriques de conseils AMV", head, "", [], corps)
+
+
 # ------------------------------------------------------------------ build
 
 def rogne_blanc(im):
@@ -568,8 +864,23 @@ def copie_images(html):
     400 a 540 Ko pour une vignette."""
     from PIL import Image
     for src in set(re.findall(r'src="(/wp-content/[^"]+)"', html)):
-        base = re.sub(r"\.(png|jpe?g|webp)$", "", src)
+        # « 3-L.jpg » et « 3-L.png » existent dans le meme dossier d'uploads : l'extension d'origine
+        # reste dans le nom converti, sinon les deux donnent le meme 3-L.webp et l'un ecrase l'autre
+        base = re.sub(r"\.(jpe?g)$", r"-\1", re.sub(r"\.(png|webp)$", "", src))
         source = HERE / "bandeau-exemple.webp" if src == BANDEAU else V1 / src.lstrip("/")
+        if not source.exists():
+            # images des rubriques scooter, quad, auto et actualites : telechargees une fois depuis amv.fr
+            source = HERE / "data" / "img" / src.lstrip("/")
+            if not source.exists():
+                import urllib.request, urllib.parse
+                source.parent.mkdir(parents=True, exist_ok=True)
+                for hote in ("https://www.amv.fr", "https://static.amv.fr"):
+                    try:
+                        req = urllib.request.Request(hote + urllib.parse.quote(src), headers={"User-Agent": "Mozilla/5.0"})
+                        source.write_bytes(urllib.request.urlopen(req).read())
+                        break
+                    except Exception:
+                        continue
         im = rogne_blanc(Image.open(source).convert("RGB"))
         grand = 1440 if im.width >= 1440 else 800
         for w, suffixe in ((grand, ""), (grand // 2, f"-{grand // 2}")):
@@ -623,6 +934,21 @@ def main():
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(html, encoding="utf-8")
         ok = controle(chemin, html) and ok
+    from _rubriques import RUBRIQUES
+    stats = {}
+    for r in RUBRIQUES:
+        html, nb = construire_rubrique(r)
+        html = copie_images(html)
+        out = SITE / r["slug"] / "index.html"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(html, encoding="utf-8")
+        ok = controle(r["slug"] + "/", html) and ok
+        stats[r["cle"]] = nb
+    html = construire_arborescence()
+    (SITE / "arborescence").mkdir(parents=True, exist_ok=True)
+    (SITE / "arborescence" / "index.html").write_text(html, encoding="utf-8")
+    print("arborescence/: ok")
+    (HERE / "data" / "themes-stats.json").write_text(json.dumps(stats, ensure_ascii=False, indent=1), encoding="utf-8")
 
     (SITE / "_redirects").write_text(f"/    {HUB}    302\n")
     # apercu : jamais indexe, meme si le HTML porte les balises de la cible
