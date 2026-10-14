@@ -391,3 +391,68 @@ h1,h2,h3{font-family:var(--titre);font-weight:600;color:var(--encre);margin:0;le
   #crit-toggle{bottom:84px!important}
   #crit-panel{bottom:138px!important}
 }
+
+/* ===== retours de Marion (AMV), 14/10/2026 : alignement sur les composants d'amv.fr ===== */
+/* 1. en-tete d'amv.fr et barre des rubriques restent fixes au defilement */
+.entete-fixe{position:sticky;top:0;z-index:50;background:#fff}
+.mag-bar{position:static}
+html{scroll-padding-top:180px}
+/* 3, 8, 14, 19. barre verte a gauche des titres : demarre au niveau du texte, se deplie au defilement (c-section-title d'amv.fr) */
+.titre-barre,.h2-barre,.art-body h2{border-left:0!important}
+.barre{position:relative;padding-left:28px!important}
+.barre::after{content:"";position:absolute;left:0;top:0;height:100%;width:5px;background:var(--vert);opacity:0;transform:scaleY(0);transform-origin:50% 0}
+.barre.in-screen::after{opacity:1;transform:scaleY(1);transition:opacity .2s,transform .6s ease-out}
+.surtitre,.h2-barre small{line-height:1.2;margin:0 0 6px}
+.art-head-txt.barre .chip{margin-top:0}
+.art-head-txt.barre h1{margin-top:12px}
+/* 5. tous les titres de section a la meme taille, comme sur amv.fr (56 px, 32 px en mobile) */
+.h2-barre,.silo-in h2{font-size:56px;line-height:1.1}
+/* 4. « Lire la suite » : fleche orange avant le texte */
+.lire{display:inline-flex;align-items:center;gap:6px;background:#fff;border-radius:999px;padding:12px 22px;font-weight:700;font-size:15px;color:var(--vert)}
+.lire svg{color:var(--orange);width:16px;height:16px;transition:transform .5s}
+.une:hover .lire svg{transform:translateX(4px)}
+/* 6, 7, 18. FAQ : contour gris meme deplie, chevron orange vers le bas */
+.faq .q,.faq .q[open]{border-color:#C8CACB}
+.faq summary svg,.toc-inline summary svg{color:var(--orange)}
+.faq .q[open] summary svg,.toc-inline[open] summary svg{transform:none}
+.toc-inline[open]{border-color:var(--ligne)}
+.silo a svg:last-child{color:var(--orange)}
+/* 9. pagination « ← 1 → » */
+.pagination .prev,.pagination .next{border:0;min-width:36px}
+.pagination .prev svg{transform:rotate(180deg);color:#C8CACB}
+.pagination .next svg{color:var(--vert)}
+.pagination svg{width:22px;height:22px}
+/* 11, 12, 13. pied de page : texte justifie, cookies et copyright comme amv.fr */
+.foot-txt{text-align:justify;-webkit-hyphens:auto;hyphens:auto;font-size:14px;line-height:20px}
+.foot-bas,.foot-bas a{color:#C8CACB}
+.foot-bas .cookies{cursor:pointer;margin-right:28px}
+.foot-bas a:hover,.foot-bas .cookies:hover{color:var(--texte)}
+/* 15. article : typographie reduite */
+.art-head h1{font-size:40px}
+.art-head .chapo{font-size:16px;line-height:1.6}
+.art-body{font-size:15px;line-height:1.7}
+.art-body h2{font-size:26px;line-height:1.2;margin:48px 0 16px}
+.art-body h3{font-size:19px}
+.bref .cle{font-size:16.5px}
+.bref li{font-size:15px}
+.art-body table{font-size:14px}
+.cta-inline .cta-t{font-size:22px}
+.conseil p,.auteur p{font-size:14.5px}
+@media (max-width:760px){
+  .barre{padding-left:18px!important}
+  .h2-barre,.silo-in h2{font-size:32px;line-height:1.1}
+  .art-head h1{font-size:30px}
+  .art-body{font-size:15px}
+  .art-body h2{font-size:22px}
+  html{scroll-padding-top:140px}
+}
+/* pied de page et bandeau, corrections mobile (14/10) */
+.cta-band h2{line-height:1.15}
+.foot-bas{padding-top:28px;padding-bottom:40px}
+.foot-bas>span:first-child{display:flex;flex-wrap:wrap;gap:8px 28px}
+.foot-bas>span:first-child>*{margin-right:0!important;white-space:nowrap}
+@media (max-width:760px){
+  .foot-grid .foot-t:empty,.foot-grid .foot-t.vide{display:none}
+  .foot-grid{gap:16px}
+  .foot-bas{padding-top:24px!important;padding-bottom:110px!important;flex-direction:column}
+}

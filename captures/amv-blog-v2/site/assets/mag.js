@@ -40,4 +40,15 @@
   [].forEach.call(document.querySelectorAll('.tag[data-src]'), function (t) {
     t.addEventListener('click', function () { window.location.href = t.getAttribute('data-src'); });
   });
+  // barre verte des titres : se deplie quand le titre entre a l'ecran (in-screen, comme amv.fr)
+  [].forEach.call(document.querySelectorAll('.art-body h2'), function (h) { h.classList.add('barre'); });
+  var barres = document.querySelectorAll('.barre');
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in-screen'); io.unobserve(e.target); } });
+    }, { threshold: 0.3 });
+    [].forEach.call(barres, function (b) { io.observe(b); });
+  } else {
+    [].forEach.call(barres, function (b) { b.classList.add('in-screen'); });
+  }
 })();

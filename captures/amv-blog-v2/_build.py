@@ -33,6 +33,9 @@ L_MOTO = "https://www.amv.fr/assurance/moto/"
 L_SCOOTER = "https://www.amv.fr/assurance/scooter/"
 L_QUAD = "https://www.amv.fr/assurance/quad/"
 L_AUTO = "https://www.amv.fr/assurance/auto/"
+# tunnel de devis moto, la cible des boutons « Testez nos tarifs » d'amv.fr
+TUNNEL = "https://www.amv.fr/moto/assurance-moto/votre_tarif_moto.aspx"
+NOM = "Conseils AMV"   # nom provisoire de la rubrique, « Le Mag » refuse par AMV le 14/10
 
 LOGO = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 40" aria-hidden="true">'
         '<g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M51.276 14.217c0-3.228'
@@ -137,6 +140,7 @@ def entete(actif):
         f'<a href="{u}" class="{"on" if r == actif else ""}">{r}</a>' if u else
         f'<span class="{"on" if r == actif else ""}">{r}</span>' for r, u in rub)
     return f"""
+<div class="entete-fixe">
 <header class="site">
   <div class="wrap site-in">
     <a class="logo" href="https://www.amv.fr/" aria-label="AMV, accueil">{LOGO}</a>
@@ -150,45 +154,56 @@ def entete(actif):
     </div>
   </div>
 </header>
-<div class="mag-bar"{crit(1, "Marque éditoriale", "Le blog prend un nom, « Le Mag », avec sa propre barre de navigation sous l'en-tête d'amv.fr. C'est ce que font les assureurs qui investissent le contenu : « Vous! » chez Macif, « Liberiders » à la Mutuelle des Motards, « BikeSocial » chez Bennetts. Aujourd'hui le blog AMV n'a pas de nom, seulement des pages de catégorie homonymes des pages produit.")}>
+<div class="mag-bar"{crit(1, "Marque éditoriale", "Les rubriques de conseils ont leur propre barre de navigation sous l'en-tête d'amv.fr, et un nom (ici provisoire, à choisir par AMV). C'est ce que font les assureurs qui investissent le contenu : « Vous! » chez Macif, « Liberiders » à la Mutuelle des Motards, « BikeSocial » chez Bennetts. Aujourd'hui le blog AMV n'a pas de nom, seulement des pages de catégorie homonymes des pages produit.")}>
   <div class="wrap mag-bar-in">
-    <a class="mag-mark" href="{HUB}">Le Mag<i></i></a>
-    <nav class="mag-rub" aria-label="Rubriques du Mag">{nav}</nav>
+    <a class="mag-mark" href="{HUB}">{NOM}<i></i></a>
+    <nav class="mag-rub" aria-label="Rubriques des conseils">{nav}</nav>
     <span class="mag-search" aria-hidden="true">{ICO['search']}</span>
-    <a class="pill pill-green mag-cta" href="{L_MOTO}">Tester nos tarifs</a>
+    <a class="pill pill-green mag-cta" href="{TUNNEL}">Testez nos tarifs</a>
   </div>
   <div class="progress" aria-hidden="true"><span></span></div>
+</div>
 </div>"""
 
 
 def pied():
+    """Pied de page de la landing page /assurance/moto/ d'amv.fr, repris a l'identique (14/10/2026).
+    Une rubrique scooter, quad ou auto reprendrait celui de sa propre landing page."""
     col1 = [("Devis assurance moto", "/assurance/moto/"),
             ("Devis assurance moto par marque", "/assurance-moto/assurance-moto-par-constructeur/"),
             ("Devis assurance moto par motorisation", "/assurance-moto/assurance-moto-par-motorisation/"),
             ("Devis assurance moto par profil", "/assurance-moto/assurance-moto-par-profil/"),
+            ("Devis assurance moto par type", "/assurance-moto/assurance-moto-par-type/"),
+            ("Devis assurance moto par permis", "/assurance-moto/assurance-moto-par-permis/"),
             ("Devis assurance scooter", "/assurance/scooter/"),
             ("Devis assurance quad/SSV", "/assurance/quad/")]
-    col2 = [("Devis assurance moto 125", "/assurance-moto/assurance-moto-125cm3/"),
-            ("Devis assurance moto 500", "/assurance-moto/assurance-moto-500cm3/"),
-            ("Devis assurance YAMAHA", "/assurance-moto/assurance-moto-yamaha/"),
+    col2 = [("Devis assurance YAMAHA", "/assurance-moto/assurance-moto-yamaha/"),
             ("Devis assurance HONDA", "/assurance-moto/assurance-moto-honda/"),
             ("Devis assurance KAWASAKI", "/assurance-moto/assurance-moto-kawasaki/"),
-            ("Devis assurance BMW", "/assurance-moto/assurance-moto-bmw/")]
+            ("Devis assurance SUZUKI", "/assurance-moto/assurance-moto-suzuki/"),
+            ("Devis assurance BMW", "/assurance-moto/assurance-moto-bmw/"),
+            ("Devis assurance TRIUMPH", "/assurance-moto/assurance-moto-triumph/"),
+            ("Devis assurance moto 125", "/assurance-moto/assurance-moto-125cm3/"),
+            ("Devis assurance moto 500", "/assurance-moto/assurance-moto-500cm3/"),
+            ("Devis assurance moto 750", "/assurance-moto/assurance-moto-750cm3/"),
+            ("Devis assurance moto 1000", "/assurance-moto/assurance-moto-1000cm3/"),
+            ("Devis assurance moto 1600", "/assurance-moto/assurance-moto-1600cm3/")]
     li = lambda l: "".join(f'<li><a href="https://www.amv.fr{u}">{t}</a></li>' for t, u in l)
     return f"""
 <footer class="site-foot">
   <div class="wrap foot-grid">
     <div>
       <a class="logo" href="https://www.amv.fr/" aria-label="AMV">{LOGO}</a>
-      <p>Leader de l'assurance moto, AMV offre des solutions en ligne dédiées aux particuliers,
-      avec l'accompagnement de ses 300 conseillers basés à Bordeaux.</p>
+      <p class="foot-txt">Leader de l'assurance moto, AMV offre des solutions en ligne dédiées aux particuliers. Choisissez parmi notre gamme complète de formules d'assurance, adaptées à vos besoins réels. De l'assurance moto de collection à l'assurance jetski, personnalisez votre contrat avec des garanties spécifiques. Obtenez votre devis et souscrivez votre assurance moto en ligne, avec l'accompagnement de nos 300 conseillers. Note de satisfaction de 4,7/5 (variable) selon Avis Vérifiés.</p>
     </div>
-    <div><p class="foot-t">Assurance moto</p><ul>{li(col1)}</ul></div>
-    <div><p class="foot-t">&nbsp;</p><ul>{li(col2)}</ul></div>
+    <div><p class="foot-t">Assurance Moto</p><ul>{li(col1)}</ul></div>
+    <div><p class="foot-t vide" aria-hidden="true">&nbsp;</p><ul>{li(col2)}</ul></div>
   </div>
   <div class="wrap foot-bas">
     <span><a href="https://www.amv.fr/mentions-legales/">Mentions légales</a>
     <a href="https://www.amv.fr/protection-des-donnees/">Protection des données</a>
+    <span class="cookies" role="button" tabindex="0">Gérer mes cookies</span>
+    <a href="https://www.amv.fr/copyright/">Copyright</a>
     <a href="https://www.amv.fr/plan-du-site/">Plan du site</a></span>
     <span>© 2026 AMV Tous droits réservés</span>
   </div>
@@ -213,7 +228,7 @@ def page(title, head_meta, canonical, ld, corps, extra_head=""):
 </head>
 <body>
 {corps}
-<a class="bar-tarif" href="https://www.amv.fr/assurance/moto/">Obtenir mon tarif moto<span>Sans engagement, en 3 minutes</span></a>
+<a class="bar-tarif" href="{TUNNEL}">Obtenir mon tarif moto<span>Sans engagement, en 3 minutes</span></a>
 <script src="/assets/mag.js" defer></script>
 <script src="/_criteres.js" defer></script>
 </body>
@@ -291,10 +306,10 @@ def construire_hub():
 
     corps = f"""{entete("Moto")}
 <main>
-<section class="hub-head wrap"{crit(2, "En-tête de rubrique", "Un H1 éditorial propre au Mag, distinct de celui de la page produit /assurance/moto/, avec un chapeau qui dit ce que la rubrique couvre. Aujourd'hui le hub affiche « ASSURANCE MOTO », le même H1 que la landing page, et les deux pages se disputent la même requête.")}>
-  <nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">Le Mag</a>{ICO['chev']}<span>Moto</span></nav>
-  <div class="titre-barre">
-    <p class="surtitre">AMV Le Mag · Moto</p>
+<section class="hub-head wrap"{crit(2, "En-tête de rubrique", "Un H1 éditorial propre aux conseils, distinct de celui de la page produit /assurance/moto/, avec un chapeau qui dit ce que la rubrique couvre. Aujourd'hui le hub affiche « ASSURANCE MOTO », le même H1 que la landing page, et les deux pages se disputent la même requête.")}>
+  <nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">{NOM}</a>{ICO['chev']}<span>Moto</span></nav>
+  <div class="titre-barre barre">
+    <p class="surtitre">{NOM} · Moto</p>
     <h1>Conseils, réglementation et entretien pour motards</h1>
     <p class="chapo">{chapo}</p>
   </div>
@@ -307,7 +322,7 @@ def construire_hub():
       <span class="chip chip-orange">À la une</span><span class="chip">{une['cat']}</span>
       <h2>{une['titre']}</h2>
       <p class="meta">{une['date']} <b>·</b> {ICO['clock']} {une['min']} min de lecture</p>
-      <span class="pill pill-white">Lire l'article {ICO['arrow']}</span>
+      <span class="lire">{ICO['arrow']} Lire la suite</span>
     </div>
   </a>
   <div class="rail"{crit(4, "Rail des articles récents", "Trois articles récents à côté de la une, le schéma de BikeSocial. Le lecteur voit quatre sujets sans défiler, et chaque vignette porte sa rubrique, sa date et son temps de lecture réel.")}>
@@ -316,19 +331,19 @@ def construire_hub():
   </div>
 </section>
 
-<section class="wrap rubs-bloc"{crit(5, "Sous-rubriques", "La rubrique moto empile aujourd'hui 17 pages de pagination à plat. Six sous-rubriques créent autant de pages de destination thématiques et font tomber la profondeur de clic de 17 à 3. Elles restent à créer, donc affichées sans lien : on ne pointe jamais une page non publiée.")}>
-  <h2 class="h2-barre"><small>Explorer par thème</small>Six thèmes pour trouver vite</h2>
+<section class="wrap rubs-bloc"{crit(5, "Sous-rubriques", "Aujourd'hui, les articles moto sont rangés sur 17 pages de liste qui se suivent : pour atteindre un article ancien, il faut cliquer « page suivante » jusqu'à 17 fois. Six sous-rubriques regroupent les articles par thème, et n'importe quel article se trouve alors en 3 clics au plus depuis cette page (thème, puis article). Elles restent à créer, donc affichées sans lien : on ne pointe jamais une page non publiée.")}>
+  <h2 class="h2-barre barre"><small>Explorer par thème</small>Six thèmes en un clic</h2>
   <ul class="rubs">{rub_html}</ul>
 </section>
 
 <section class="wrap">
-  <h2 class="h2-barre"><small>Tous les articles moto</small>Les derniers conseils</h2>
+  <h2 class="h2-barre barre"><small>Tous les articles moto</small>Les derniers conseils</h2>
   <div class="grid"{crit(6, "Vignettes", "Photo en 16/10 aux angles arrondis, rubrique en pastille sur la photo, titre en casse normale, date et temps de lecture réel. Chaque image a un attribut alt renseigné. Aujourd'hui : titres en capitales, extrait tronqué et les 20 vignettes du hub ont un alt vide.")}>{grille}</div>
 </section>
 
 <section class="silo-band"{crit(7, "Maillage vers les pages produit", "Le hub est la page la plus liée du blog. Ce bandeau transforme son autorité en trafic vers les pages d'assurance, avec des ancres exactes. Il n'existe aujourd'hui aucun lien du blog vers les pages produit, hors un bouton de sidebar qui pointe une .aspx en 301.")}>
   <div class="wrap silo-in">
-    <div class="titre-barre">
+    <div class="titre-barre barre">
       <p class="surtitre">Assurance moto</p>
       <h2>Nos assurances moto</h2>
       <p>Les garanties, les formules et les tarifs, par profil et par cylindrée. Un contrat
@@ -341,21 +356,21 @@ def construire_hub():
 <section class="wrap">
   <div class="grid">{grille2}</div>
   <nav class="pagination" aria-label="Pagination"{crit(8, "Pagination", "Avec les sous-rubriques, la pagination passe sous chaque thème au lieu de 17 pages à plat. Les pages 2 et suivantes restent en index, follow, avec leur propre canonical.")}>
-    <span class="on">1</span><a href="https://www.amv.fr/assurance-moto/page/2/">2</a><a href="https://www.amv.fr/assurance-moto/page/3/">3</a><span class="dots">…</span><a href="https://www.amv.fr/assurance-moto/page/17/">17</a>
-    <a class="next" href="https://www.amv.fr/assurance-moto/page/2/" aria-label="Page suivante">{ICO['chev']}</a>
+    <span class="prev" aria-hidden="true">{ICO['arrow']}</span><span class="on" aria-current="page">1</span>
+    <a class="next" href="https://www.amv.fr/assurance-moto/page/2/" aria-label="Page suivante">{ICO['arrow']}</a>
   </nav>
 </section>
 
 <section class="wrap faq-bloc">
-  <h2 class="h2-barre"><small>Questions fréquentes</small>L'assurance moto en trois questions</h2>
+  <h2 class="h2-barre barre"><small>Questions fréquentes</small>L'assurance moto en trois questions</h2>
   {faq(faqs, crit(9, "FAQ de rubrique", "Trois questions de niveau catégorie, réponse dès la première phrase, et un JSON-LD FAQPage. C'est ce qui permet au hub d'être cité sur des requêtes larges, là où une simple liste d'articles n'apporte aucune réponse. Les réponses restent dans le HTML même repliées."))}
 </section>
 
 <section class="wrap">
-  <div class="cta-band"{crit(10, "Appel à l'action", "Un seul bloc de conversion en bas de rubrique, vers la landing page produit et non vers une .aspx intermédiaire.")}>
+  <div class="cta-band"{crit(10, "Appel à l'action", "Un seul bloc de conversion en bas de rubrique, qui ouvre directement le tunnel de devis moto, comme les boutons « Testez nos tarifs » d'amv.fr.")}>
     <div><p class="surtitre">Assurance moto</p><h2>Votre tarif moto en 3 minutes</h2>
     <p>Tarif sans engagement, assurance immédiate 24h/24.</p></div>
-    <a class="pill pill-white" href="{L_MOTO}">Testez nos tarifs {ICO['arrow']}</a>
+    <a class="pill pill-white" href="{TUNNEL}">Testez nos tarifs</a>
   </div>
 </section>
 </main>
@@ -400,8 +415,8 @@ def sidebar(toc_html):
           "instagram": '<svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.4" cy="6.6" r="1.2" fill="currentColor"/></svg>',
           "youtube": '<svg viewBox="0 0 24 24"><path fill="currentColor" d="M22 8.2c-.2-1.6-1-2.7-2.7-2.9C16.6 5 12 5 12 5s-4.6 0-7.3.3C3 5.5 2.2 6.6 2 8.2 1.8 9.5 1.8 12 1.8 12s0 2.5.2 3.8c.2 1.6 1 2.7 2.7 2.9C7.4 19 12 19 12 19s4.6 0 7.3-.3c1.7-.2 2.5-1.3 2.7-2.9.2-1.3.2-3.8.2-3.8s0-2.5-.2-3.8zM10 15.1V8.9l5.3 3.1L10 15.1z"/></svg>'}
     reseaux = "".join(f'<a href="{u}" aria-label="{k}">{rs[k]}</a>' for u in d["reseaux"] for k in rs if k in u)
-    return f"""<aside class="side"{crit(13, "Sidebar du blog actuel", "Les blocs de la sidebar d'aujourd'hui sont conservés : bouton de tarif, onglets Populaires et Récents, étiquettes et réseaux sociaux. L'onglet Commentaires est retiré parce qu'il est vide sur tout le blog. Populaires et Récents sont limités à la rubrique de l'article : aujourd'hui un article moto renvoie vers « Camper dans sa voiture » ou le quad, ce qui dilue la thématique de la page. En production, Populaires se calcule sur les visites de la rubrique. Le bouton pointe désormais la landing page /assurance/moto/ et non plus une .aspx en 301, et les étiquettes passent de 45 à 8, celles de la rubrique, avec leur lien toujours masqué aux robots comme aujourd'hui.")}>
-  <a class="pill pill-green side-tarifs" href="{L_MOTO}">Testez nos tarifs {ICO['chev']}</a>
+    return f"""<aside class="side"{crit(13, "Sidebar du blog actuel", "Les blocs de la sidebar d'aujourd'hui sont conservés : bouton de tarif, onglets Populaires et Récents, étiquettes et réseaux sociaux. L'onglet Commentaires est retiré parce qu'il est vide sur tout le blog. Populaires et Récents sont limités à la rubrique de l'article : aujourd'hui un article moto renvoie vers « Camper dans sa voiture » ou le quad, ce qui dilue la thématique de la page. En production, Populaires se calcule sur les visites de la rubrique. Le bouton ouvre désormais le tunnel de devis moto, comme sur amv.fr, et non plus une .aspx en 301, et les étiquettes passent de 45 à 8, celles de la rubrique, avec leur lien toujours masqué aux robots comme aujourd'hui.")}>
+  <a class="pill pill-green side-tarifs" href="{TUNNEL}">Testez nos tarifs</a>
   <div class="side-box side-tabs">
     <div class="tabs" role="tablist"><button class="on" role="tab" data-tab="pop">Populaires</button><button role="tab" data-tab="rec">Récents</button></div>
     <ul class="side-posts" data-pane="pop">{liste(pop)}</ul>
@@ -447,7 +462,7 @@ def construire_article():
             p = el.select_one("p").get_text(" ", strip=True)
             sortie.append(f"""<div class="cta-inline"{crit(8, "CTA contextualisé", "Un seul appel à l'action dans le corps, placé au moment où le lecteur se pose la question du prix, et qui pointe directement la landing page produit.")}>
   <div><p class="cta-t">{t}</p><p>{p}</p></div>
-  <a class="pill pill-white" href="{L_MOTO}">Obtenir mon tarif {ICO['arrow']}</a></div>""")
+  <a class="pill pill-white" href="{TUNNEL}">Obtenir mon tarif</a></div>""")
         elif "mag-faq" in cls:
             items = [(q.select_one("h3").get_text(" ", strip=True), inner(q.select_one(".a")))
                      for q in el.select(".q")]
@@ -493,11 +508,11 @@ def construire_article():
 
     corps = f"""{entete("Moto")}
 <main>
-<div class="wrap"><nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">Le Mag · Moto</a>{ICO['chev']}<span>Achat et budget</span></nav></div>
+<div class="wrap"><nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">{NOM} · Moto</a>{ICO['chev']}<span>Achat et budget</span></nav></div>
 <div class="wrap art-layout">
   <article class="art-main">
     <header class="art-head">
-      <div class="art-head-txt"{crit(2, "En-tête d'article", "Rubrique en pastille, H1 en casse normale, chapeau qui annonce la réponse. La lisibilité de la Mutuelle des Motards et d'April Moto. Aujourd'hui le blog AMV met tous ses H1 en capitales, sans chapeau ni signature.")}>
+      <div class="art-head-txt barre"{crit(2, "En-tête d'article", "Rubrique en pastille, H1 en casse normale, chapeau qui annonce la réponse. La lisibilité de la Mutuelle des Motards et d'April Moto. Aujourd'hui le blog AMV met tous ses H1 en capitales, sans chapeau ni signature.")}>
         <span class="chip chip-soft">Achat et budget</span>
         <h1>{h1}</h1>
         <p class="chapo">{chapo}</p>
@@ -519,7 +534,7 @@ def construire_article():
 
 <section class="suite">
   <div class="wrap">
-    <h2 class="h2-barre"><small>Le Mag · Moto</small>À lire ensuite</h2>
+    <h2 class="h2-barre barre"><small>{NOM} · Moto</small>À lire ensuite</h2>
     <div class="grid">{suite}</div>
   </div>
 </section>
@@ -533,6 +548,21 @@ def construire_article():
 
 # ------------------------------------------------------------------ build
 
+def rogne_blanc(im):
+    """Certains visuels du blog ont des marges blanches incrustees (bandes laterales) : on les
+    rogne, sinon la vignette semble mal cadree dans la carte."""
+    from PIL import ImageChops, Image
+    gris = im.convert("L").point(lambda v: 255 if v < 240 else 0)
+    box = gris.getbbox()
+    if not box:
+        return im
+    l, t, r, b = box
+    w, h = im.size
+    if l > w * .02 or r < w * .98 or t > h * .02 or b < h * .98:
+        return im.crop(box)
+    return im
+
+
 def copie_images(html):
     """Chaque image passe en WebP en deux largeurs, avec srcset : les PNG du blog pesaient
     400 a 540 Ko pour une vignette."""
@@ -540,7 +570,7 @@ def copie_images(html):
     for src in set(re.findall(r'src="(/wp-content/[^"]+)"', html)):
         base = re.sub(r"\.(png|jpe?g|webp)$", "", src)
         source = HERE / "bandeau-exemple.webp" if src == BANDEAU else V1 / src.lstrip("/")
-        im = Image.open(source).convert("RGB")
+        im = rogne_blanc(Image.open(source).convert("RGB"))
         grand = 1440 if im.width >= 1440 else 800
         for w, suffixe in ((grand, ""), (grand // 2, f"-{grand // 2}")):
             dst = SITE / (base.lstrip("/") + suffixe + ".webp")
@@ -588,7 +618,7 @@ def main():
 
     ok = True
     for chemin, fn in ((HUB_PATH, construire_hub), (ART_PATH, construire_article)):
-        html = copie_images(fn())
+        html = copie_images(fn()).replace("AMV Le Mag", NOM).replace("Le Mag", NOM)
         out = SITE / chemin / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(html, encoding="utf-8")
