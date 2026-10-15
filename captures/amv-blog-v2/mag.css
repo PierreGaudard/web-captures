@@ -403,8 +403,8 @@ html{scroll-padding-top:180px}
 .barre::after{content:"";position:absolute;left:0;top:0;height:100%;width:5px;background:var(--vert);opacity:0;transform:scaleY(0);transform-origin:50% 0}
 .barre.in-screen::after{opacity:1;transform:scaleY(1);transition:opacity .2s,transform .6s ease-out}
 .surtitre,.h2-barre small{line-height:1.2;margin:0 0 6px}
-.art-head-txt.barre .chip{margin-top:0}
-.art-head-txt.barre h1{margin-top:12px}
+.art-head-txt .art-titre{margin-top:14px}
+.art-head-txt .art-titre h1{margin-top:0}
 /* 5. tous les titres de section a la meme taille, comme sur amv.fr (56 px, 32 px en mobile) */
 .h2-barre,.silo-in h2{font-size:56px;line-height:1.1}
 /* 4. « Lire la suite » : fleche orange avant le texte */
@@ -460,33 +460,30 @@ html{scroll-padding-top:180px}
 .rubs-4{grid-template-columns:repeat(4,1fr)}
 .card-infog .card-img img,.rail-infog img{object-position:50% 22%}
 @media (max-width:1100px){.rubs-4{grid-template-columns:repeat(2,1fr)}}
-/* page arborescence */
-.arbo{padding-bottom:80px}
-.arbo-tete{margin:28px 0 36px;max-width:900px}
-.arbo-tete h1{font-size:48px;line-height:1.08}
-.arbo-tete .chapo{font-size:16px;line-height:1.6;margin:14px 0 0}
-.arbo-chiffres{list-style:none;margin:0 0 64px;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
-.arbo-chiffres li{background:var(--fond);border-radius:var(--r);padding:22px 20px}
-.arbo-chiffres b{display:block;font-family:var(--titre);font-weight:600;font-size:44px;line-height:1;color:var(--vert)}
-.arbo-chiffres span{display:block;margin-top:8px;font-size:14px;color:var(--texte)}
-.arbo .h2-barre{font-size:40px;margin-top:56px}
-.arbo-note{font-size:14px;color:var(--gris);margin:-16px 0 20px;max-width:900px}
-.arbo-table{border:1px solid var(--ligne);border-radius:var(--r);overflow-x:auto;margin:0 0 20px}
-.arbo-table table{width:100%;border-collapse:collapse;font-size:14px;line-height:1.5;min-width:640px}
-.arbo-table th{background:var(--encre);color:#fff;text-align:left;padding:12px 16px;font-weight:700}
-.arbo-table td{padding:12px 16px;border-top:1px solid var(--ligne);vertical-align:top}
-.arbo-table tbody tr:nth-child(even) td{background:var(--vert-cc)}
-.arbo-table a{color:var(--vert);font-weight:700;text-decoration:none}
-.arbo-themes{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px}
-.arbo-rub{border:1px solid var(--ligne);border-radius:var(--r);padding:20px 22px}
-.arbo-rub h3{font-size:22px;margin:0 0 12px}
-.arbo-rub h3 small{font-family:Montserrat,sans-serif;font-size:13px;font-weight:700;color:var(--vert);margin-left:8px}
-.arbo-rub ul{list-style:none;margin:0;padding:0;display:grid;gap:8px}
-.arbo-rub li{display:flex;flex-direction:column;font-size:14px;line-height:1.4}
-.arbo-rub li span{font-size:12.5px;color:var(--gris)}
+/* page arborescence, version simple (14/10) */
+.ab{padding-bottom:80px}
+.ab-tete{margin:28px 0 56px;max-width:860px}
+.ab-tete .chapo{font-size:16px;line-height:1.6;margin:12px 0 0}
+.ab .h2-barre{margin-top:56px}
+.ab-arbre{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:16px}
+.ab-rub{border:1px solid #C8CACB;border-radius:var(--r-s);padding:20px 22px;background:#fff}
+.ab-nom{font-family:var(--titre);font-weight:600;font-size:22px;color:var(--encre);margin:0 0 14px;display:flex;flex-direction:column}
+.ab-nom span{font-family:Montserrat,sans-serif;font-weight:500;font-size:13px;color:var(--vert)}
+.ab-rub ul,.ab-liste{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.ab-rub li,.ab-liste li{display:flex;align-items:flex-start;gap:10px;font-size:14px;line-height:1.4;color:var(--texte)}
+.ab-rub li svg,.ab-liste li svg{color:var(--vert);width:18px;height:18px;margin-top:1px}
+.ab-liste{max-width:640px}
+.ab-liste li{background:#fff;border-radius:var(--r-s);padding:14px 18px;box-shadow:var(--ombre);font-weight:700;color:var(--encre)}
+@media (max-width:760px){.ab-tete h1{font-size:32px}}
+/* retours de Sophie, 15/10/2026 */
+/* barre de l'article : demarre au niveau du H1, la pastille de rubrique reste au-dessus */
+/* chevrons de la liste des assurances : vers le bas */
+.silo a svg:last-child{transform:rotate(90deg)}
+.silo a:hover{transform:none}
+/* titres reduits, tous a la meme taille */
+.hub-head h1{font-size:48px}
+.h2-barre,.silo-in h2{font-size:40px;line-height:1.1}
 @media (max-width:760px){
-  .arbo-tete h1{font-size:30px}
-  .arbo-chiffres{grid-template-columns:repeat(2,1fr)}
-  .arbo-chiffres b{font-size:34px}
-  .arbo .h2-barre{font-size:28px}
+  .hub-head h1{font-size:32px}
+  .h2-barre,.silo-in h2{font-size:28px}
 }

@@ -519,10 +519,12 @@ def construire_article():
 <div class="wrap art-layout">
   <article class="art-main">
     <header class="art-head">
-      <div class="art-head-txt barre"{crit(2, "En-tête d'article", "Rubrique en pastille, H1 en casse normale, chapeau qui annonce la réponse. La lisibilité de la Mutuelle des Motards et d'April Moto. Aujourd'hui le blog AMV met tous ses H1 en capitales, sans chapeau ni signature.")}>
+      <div class="art-head-txt"{crit(2, "En-tête d'article", "Rubrique en pastille, H1 en casse normale, chapeau qui annonce la réponse. La lisibilité de la Mutuelle des Motards et d'April Moto. Aujourd'hui le blog AMV met tous ses H1 en capitales, sans chapeau ni signature.")}>
         <span class="chip chip-soft">Achat et budget</span>
-        <h1>{h1}</h1>
-        <p class="chapo">{chapo}</p>
+        <div class="barre art-titre">
+          <h1>{h1}</h1>
+          <p class="chapo">{chapo}</p>
+        </div>
       </div>
       <div class="signature"{crit(3, "Signature", "Auteur, fonction, date de publication, date de mise à jour et temps de lecture, dès le premier écran. C'est le signal E-E-A-T que Google et les moteurs génératifs cherchent. Le blog n'affiche aujourd'hui qu'une date de publication, parfois vieille de dix ans, et aucun auteur.")}>
         <span class="avatar">PN</span>
@@ -760,86 +762,39 @@ def slugifie(t):
 
 
 def construire_arborescence():
+    """Arborescence pour le point d'AMV avec Heliaq, version simple aux composants d'amv.fr (14/10)."""
     from _rubriques import RUBRIQUES
-    import math
-    rubs = [{"cle": "moto", "nom": "Moto", "slug": "assurance-moto", "themes": THEMES_MOTO,
-             "lp": "/assurance/moto/", "tunnel": TUNNEL, "faq": True}]
-    rubs += [{"cle": r["cle"], "nom": r["nom"], "slug": r["slug"], "themes": r["themes"],
-              "lp": r["silo"][0][1] if r["cle"] != "actu" else "/ (page d'accueil)", "tunnel": r["tunnel"],
-              "faq": bool(r["faq"])} for r in RUBRIQUES]
-    n_th = sum(len(r["themes"]) for r in rubs)
-    lignes = "".join(f"""<tr><td><b>{r['nom']}</b></td><td><a href="/{r['slug']}/">/{r['slug']}/</a></td><td>{len(r['themes'])}</td>
-<td>{ARTICLES_EN_LIGNE[r['cle']]}</td><td>{math.ceil(ARTICLES_EN_LIGNE[r['cle']] / 19)}</td><td>{r['lp']}</td>
-<td>{r['tunnel'].replace('https://www.amv.fr', '')}</td></tr>""" for r in rubs)
-    themes = "".join(f"""<div class="arbo-rub"><h3>{r['nom']} <small>{len(r['themes'])} thèmes</small></h3><ul>"""
-                     + "".join(f"<li><b>{t}</b><span>/{r['slug']}/{slugifie(t)}/</span></li>" for t in r["themes"])
-                     + "</ul></div>" for r in rubs)
-    blocs_rub = [
-        ("En-tête", "1 H1, un surtitre et un chapeau", "0"),
-        ("Article à la une", "1 titre (H2)", "1 photo, celle de l'article"),
-        ("Les plus récents", "3 titres (H3)", "3 photos"),
-        ("Thèmes", "1 titre de section (H2) et 6 noms de thème (4 pour Actualités)", "6 pictos (4 pour Actualités)"),
-        ("Les derniers articles", "1 titre de section (H2) et 6 titres (H3)", "6 photos"),
-        ("Nos assurances", "1 titre de section (H2) et 3 à 5 liens vers les pages produit", "0"),
-        ("Suite de la liste", "9 titres (H3)", "9 photos"),
-        ("Pagination", "flèche précédente, numéro de page, flèche suivante", "0"),
-        ("Questions fréquentes", "1 titre de section (H2) et 3 questions (H3), absent sur Actualités", "0"),
-        ("Appel à l'action", "1 titre, bouton « Testez nos tarifs » vers le tunnel de devis de l'univers", "0"),
-        ("Pied de page", "repris de la page produit de l'univers, sans texte à créer", "0"),
-    ]
-    blocs_art = [
-        ("Fil d'Ariane et thème", "rubrique, thème de l'article", "0"),
-        ("En-tête", "1 H1 et un chapeau", "0"),
-        ("Signature", "auteur, fonction, dates de publication et de mise à jour, temps de lecture", "1 photo de l'auteur"),
-        ("Photo en bandeau", "", "1 visuel au format 1440 × 500 minimum"),
-        ("L'essentiel", "1 phrase clé et 4 à 6 puces", "0"),
-        ("Sommaire", "replié par défaut, un lien par H2", "0"),
-        ("Corps de l'article", "6 à 9 titres (H2), H3 si besoin, 0 à 2 tableaux", "0 à 2 visuels"),
-        ("Le conseil AMV et l'appel à l'action", "1 encart et 1 bouton vers le tunnel de devis", "0"),
-        ("Questions fréquentes", "1 titre (H2) et 4 à 6 questions (H3)", "0"),
-        ("Bloc auteur et sources", "nom, fonction, biographie, liste des sources", "1 photo de l'auteur"),
-        ("Colonne de droite", "bouton tarif, 4 articles populaires et 4 récents, étiquettes, réseaux sociaux", "8 vignettes, reprises des articles"),
-        ("À lire ensuite", "1 titre (H2) et 3 articles (H3)", "3 photos, reprises des articles"),
-    ]
-    tab = lambda L: "".join(f"<tr><td><b>{a}</b></td><td>{b}</td><td>{c}</td></tr>" for a, b, c in L)
+    rubs = [("Moto", "assurance-moto", THEMES_MOTO)] + [(r["nom"], r["slug"], r["themes"]) for r in RUBRIQUES]
+    check = ICO["check"]
+    arbre = "".join(f"""<div class="ab-rub">
+  <p class="ab-nom">{nom}<span>/{slug}/</span></p>
+  <ul>{''.join(f'<li>{check}<span>{t}</span></li>' for t in themes)}</ul>
+</div>""" for nom, slug, themes in rubs)
+    liste = lambda L: "<ul class=\"ab-liste\">" + "".join(f"<li>{check}<span>{x}</span></li>" for x in L) + "</ul>"
+    rubrique = ["1 titre H1", "6 titres H2", "21 titres H3", "19 images, reprises des articles affichés"]
+    article = ["1 titre H1", "6 à 9 titres H2, et des H3 si besoin", "1 image en bandeau, au format 1440 × 500",
+               "1 photo de l'auteur", "0 à 2 tableaux"]
     corps = f"""{entete(None)}
-<main class="wrap arbo">
+<main class="wrap ab">
   <nav class="fil" aria-label="Fil d'Ariane"><a href="https://www.amv.fr/">AMV</a>{ICO['chev']}<a href="{HUB}">{NOM}</a>{ICO['chev']}<span>Arborescence</span></nav>
-  <div class="titre-barre barre arbo-tete">
-    <p class="surtitre">{NOM} · Migration sur Umbraco</p>
-    <h1>Arborescence des rubriques de conseils</h1>
-    <p class="chapo">La structure proposée pour le blog, rubrique par rubrique, avec le nombre de titres et d'images de chaque page. Les URL actuelles des rubriques et des articles sont conservées.</p>
+  <div class="titre-barre barre ab-tete">
+    <p class="surtitre">{NOM}</p>
+    <h1>Arborescence du blog</h1>
+    <p class="chapo">5 rubriques, 28 thèmes et 2 modèles de page. Les adresses actuelles des rubriques et des articles ne changent pas.</p>
   </div>
 
-  <ul class="arbo-chiffres">
-    <li><b>5</b><span>rubriques</span></li>
-    <li><b>{n_th}</b><span>thèmes à créer</span></li>
-    <li><b>2</b><span>gabarits, rubrique et article</span></li>
-    <li><b>0</b><span>image à produire pour les rubriques</span></li>
-  </ul>
+  <h2 class="h2-barre barre"><small>Rubriques et thèmes</small>5 rubriques, 28 thèmes</h2>
+  <div class="ab-arbre">{arbre}</div>
 
-  <h2 class="h2-barre barre"><small>Niveau 1</small>Les cinq rubriques</h2>
-  <div class="table-wrap arbo-table"><table>
-    <thead><tr><th>Rubrique</th><th>URL</th><th>Thèmes</th><th>Articles en ligne</th><th>Pages de liste</th><th>Pied de page repris de</th><th>Tunnel de devis</th></tr></thead>
-    <tbody>{lignes}</tbody></table></div>
-  <p class="arbo-note">Articles en ligne : catégories WordPress au 14/10/2026, un article peut être rangé dans plusieurs catégories. Pages de liste : 19 articles par page.</p>
+  <h2 class="h2-barre barre"><small>Modèle 1</small>Page de rubrique</h2>
+  {liste(rubrique)}
 
-  <h2 class="h2-barre barre"><small>Niveau 2</small>Les thèmes de chaque rubrique</h2>
-  <p class="arbo-note">Chaque thème devient une page de liste propre, avec la même structure que la rubrique. Les URL indiquées sont des propositions.</p>
-  <div class="arbo-themes">{themes}</div>
-
-  <h2 class="h2-barre barre"><small>Gabarit 1</small>La page de rubrique</h2>
-  <p class="arbo-note">Identique pour les cinq rubriques et pour les pages de thème. Soit 1 H1, 6 H2 et 21 H3 par page, et 19 photos, toutes reprises des articles affichés.</p>
-  <div class="table-wrap arbo-table"><table><thead><tr><th>Bloc</th><th>Titres et contenu</th><th>Images</th></tr></thead><tbody>{tab(blocs_rub)}</tbody></table></div>
-
-  <h2 class="h2-barre barre"><small>Gabarit 2</small>La page d'article</h2>
-  <p class="arbo-note">Le détail champ par champ (nombre de caractères, champs obligatoires, règles éditoriales) est dans la spécification du gabarit d'article envoyée le 11 octobre.</p>
-  <div class="table-wrap arbo-table"><table><thead><tr><th>Bloc</th><th>Titres et contenu</th><th>Images</th></tr></thead><tbody>{tab(blocs_art)}</tbody></table></div>
+  <h2 class="h2-barre barre"><small>Modèle 2</small>Page d'article</h2>
+  {liste(article)}
 </main>
 {pied()}"""
-    head = ('<meta name="description" content="Arborescence proposée pour les rubriques de conseils AMV : rubriques, thèmes, titres et images de chaque page.">\n'
-            '<meta name="robots" content="noindex, nofollow">')
-    return page("Arborescence des rubriques de conseils AMV", head, "", [], corps)
+    head = '<meta name="robots" content="noindex, nofollow">'
+    return page("Arborescence du blog AMV", head, "", [], corps)
 
 
 # ------------------------------------------------------------------ build
