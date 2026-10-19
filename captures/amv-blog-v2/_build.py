@@ -35,7 +35,7 @@ L_QUAD = "https://www.amv.fr/assurance/quad/"
 L_AUTO = "https://www.amv.fr/assurance/auto/"
 # tunnel de devis moto, la cible des boutons « Testez nos tarifs » d'amv.fr
 TUNNEL = "https://www.amv.fr/moto/assurance-moto/votre_tarif_moto.aspx"
-NOM = "Conseils AMV"   # nom provisoire de la rubrique, « Le Mag » refuse par AMV le 14/10
+NOM = "Blog AMV"   # nom validé par Agnès le 19/10 (« Le Mag » refusé le 14/10)
 
 LOGO = ('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 111 40" aria-hidden="true">'
         '<g fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"><path d="M51.276 14.217c0-3.228'
